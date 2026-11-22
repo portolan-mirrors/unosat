@@ -43,7 +43,7 @@ def aria(work, srcs, tag):
             p = local_path(work, s["url"])
             f.write(f"{s['url'].replace(' ', '%20')}\n  dir={p.parent}\n  out={p.name}\n")
     subprocess.run(
-        ["aria2c", "-i", str(lst), "-j", "8", "-x", "2", "--auto-file-renaming=false",
+        ["aria2c", "-i", str(lst), "-j", "32", "-x", "4", "--continue=true", "--auto-file-renaming=false",
          "--allow-overwrite=true", "--max-tries=5", "--retry-wait=10", "--console-log-level=warn",
          "--summary-interval=0", f"--user-agent={UA}"],
         check=False,
