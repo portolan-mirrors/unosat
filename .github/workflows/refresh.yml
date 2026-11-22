@@ -1,0 +1,157 @@
+name: refresh
+
+# Weekly refresh from HDX. Fully automatic: find the events whose HDX
+# datasets changed, rebuild only those events, validate, publish, and commit
+# the new manifest and STAC back to main.
+#
+# The change test is tools/hdx_sync.py --diff: a dataset is changed when its
+# source files (URL, size, hash, modified time) or the metadata the STAC is
+# written from (title, notes, caveats, license, dates) differ from the
+# committed manifest, or when it is new or removed. No change, no build.
+#
+# The data files of the other events are not on the runner. That is safe:
+# build.sh stages, tiles, and adds only the changed events, the gates run
+# with CI_LIGHT=1, and tools/publish.py uploads only what differs from the
+# bucket and never deletes.
+
+on:
+  schedule:
+    - cron: "37 4 * * 2"
+  workflow_dispatch:
+    inputs:
+      events:
+        description: "Comma-separated event ids to rebuild (empty: detect from HDX)"
+        required: false
+        default: ""
+
+permissions: {}
+
+# Shared with any other job that writes the bucket or main.
+concurrency:
+  group: catalog-write
+  cancel-in-progress: false
+
+env:
+  TYLERTOO_REV: c338560f16ef97dcc1a2269c8b204eae923a344f
+  DUCKDB_VERSION: v2.0.0
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    permissions:
+      contents: write   # commit the refreshed manifest and STAC to main
+      id-token: write   # assume the Source Cooperative write role
+    steps:
+      # The token stays in the checkout because the last step pushes to main.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true # zizmor: ignore[artipacked]
+
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+
+      # The tools run on the system python3, because python3-gdal (the osgeo
+      # bindings that stage.py and fetch use) installs there. No setup-python.
+      - name: Install GDAL, aria2, and Python packages
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -yq gdal-bin python3-gdal python3-pip aria2 p7zip-full
+          python3 -m pip install --user --break-system-packages boto3 stac-check
+          ogr2ogr --version
+
+      - name: Install DuckDB CLI
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/duckdb.tar.gz" \
+            "https://github.com/duckdb/duckdb/releases/download/${DUCKDB_VERSION}/duckdb-cli-linux-amd64.tar.gz"
+          sudo tar -xzf "$RUNNER_TEMP/duckdb.tar.gz" -C /usr/local/bin duckdb
+          duckdb -no-agent -c "INSTALL spatial; SELECT 1"
+
+      # portolan-cli 0.9.0 requires rashid<0.4.0, so each is its own tool.
+      - name: Install gpio, portolan-cli, and rashid
+        run: |
+          uv tool install geoparquet-io==1.7.0
+          uv tool install portolan-cli==0.9.0
+          uv tool install 'rashid>=0.4.0,<0.5.0'
+          gpio --version
+          portolan --version
+          rashid --version
+
+      # tylertoo is built from git at a pinned commit, not from crates.io.
+      - name: Cache tylertoo
+        id: tylertoo-cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/.cargo/bin/tylertoo
+          key: tylertoo-${{ runner.os }}-${{ env.TYLERTOO_REV }}
+
+      - name: Build tylertoo
+        if: steps.tylertoo-cache.outputs.cache-hit != 'true'
+        run: |
+          cargo install --locked --git https://github.com/geoparquet-io/tylertoo \
+            --rev "$TYLERTOO_REV" tylertoo
+
+      - name: Check tylertoo
+        run: tylertoo --version
+
+      - name: Find changed events
+        id: changes
+        env:
+          INPUT_EVENTS: ${{ github.event.inputs.events }}
+        run: |
+          set -euo pipefail
+          cp manifest/packages.json "$RUNNER_TEMP/packages.prev.json"
+          python3 -I tools/hdx_sync.py --diff "$RUNNER_TEMP/packages.prev.json" > "$RUNNER_TEMP/changed.txt"
+          if [ -n "$INPUT_EVENTS" ]; then
+            echo "$INPUT_EVENTS" | tr ',' '\n' >> "$RUNNER_TEMP/changed.txt"
+          fi
+          events=$(sort -u "$RUNNER_TEMP/changed.txt" | grep -v '^$' | paste -sd, - || true)
+          echo "changed events: ${events:-none}"
+          echo "events=$events" >> "$GITHUB_OUTPUT"
+
+      - name: Build the changed events
+        if: steps.changes.outputs.events != ''
+        env:
+          WORK: ${{ runner.temp }}/work
+          EVENTS: ${{ steps.changes.outputs.events }}
+          SKIP_SYNC: "1"
+          JOBS: "4"
+          CI_LIGHT: "1"
+        run: tools/build.sh
+
+      - name: Validate before uploading anything
+        if: steps.changes.outputs.events != ''
+        env:
+          CI_LIGHT: "1"
+        run: python3 tests/run_all.py
+
+      # The role's trust policy admits any repository in the portolan-mirrors
+      # organization, so there is no long-lived key.
+      - name: Assume the Source Cooperative write role
+        if: steps.changes.outputs.events != ''
+        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
+        with:
+          role-to-assume: arn:aws:iam::939788573396:role/source-coop-portolan-mirrors
+          role-session-name: ${{ github.event.repository.name }}-${{ github.run_id }}
+          aws-region: us-west-2
+
+      - name: Publish
+        if: steps.changes.outputs.events != ''
+        run: python3 tools/publish.py --confirm
+
+      # Data files are gitignored, so only the manifest, the collection
+      # records, and the STAC metadata are committed.
+      - name: Commit the refresh
+        if: steps.changes.outputs.events != ''
+        env:
+          EVENTS: ${{ steps.changes.outputs.events }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest catalog
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(catalog): refresh from HDX" -m "Events: ${EVENTS}"
+          git push origin HEAD:main

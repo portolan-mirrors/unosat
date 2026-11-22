@@ -4,10 +4,15 @@
   "stac_extensions": [
     "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
   ],
-  "id": "example-catalog",
-  "title": "Example Catalog",
-  "description": "TODO(setup): one or two sentences saying what this catalog holds, who produced the data, and who it is for. A person and an agent both read this first.",
+  "id": "unosat",
+  "title": "UNOSAT Rapid Mapping Archive",
+  "description": "Mirror of the satellite-derived flood extents, damage assessments, and camp mapping that the United Nations Satellite Centre (UNITAR-UNOSAT) publishes on [HDX](https://data.humdata.org/organization/unosat). Each collection is one UNOSAT event; the `combined` collections join damage sites and water extents across events. Read [AGENTS.md](AGENTS.md) before you query.",
   "links": [
+    {
+      "rel": "self",
+      "href": "https://data.source.coop/portolan-mirrors/unosat/catalog.json",
+      "type": "application/json"
+    },
     {
       "rel": "root",
       "href": "./catalog.json",
@@ -27,12 +32,12 @@
     },
     {
       "rel": "vcs",
-      "href": "https://github.com/TODO(setup)",
+      "href": "https://github.com/portolan-mirrors/unosat",
       "title": "Source repository"
     },
     {
       "rel": "issues",
-      "href": "https://github.com/TODO(setup)/issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
       "title": "Issue tracker"
     }
   ]

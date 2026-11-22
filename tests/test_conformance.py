@@ -38,14 +38,13 @@ ACCEPTED: set[str] = set()
 config = load_config()
 target = ROOT / config["publish_dir"]
 
-# The floor comes from portolan-cli/pyproject.toml:54. Rules PTL-LNK-007,
-# PTL-LNK-008, PTL-LNK-009 and PTL-AST-006 do not exist below rashid 0.1.5.
-# This gate asserts all four. A rashid below the floor reports a pass for a
-# catalog that it never checked against those four rules. The upper bound stops
-# an unreviewed 0.2 rule set from changing what this gate means.
-MIN_VERSION = (0, 1, 8)
-MAX_VERSION = (0, 2, 0)
-SPEC = "rashid>=0.1.8,<0.2.0"
+# rashid 0.4.x is what the other portolan-mirrors catalogs validate with
+# (FIRMS pins the same range). The upper bound stops an unreviewed 0.5 rule set from changing what
+# this gate means. portolan-cli 0.9.0 pins rashid<0.4.0 for itself, so install
+# rashid as its own tool: `uv tool install 'rashid>=0.4.0,<0.5.0'`.
+MIN_VERSION = (0, 4, 0)
+MAX_VERSION = (0, 5, 0)
+SPEC = "rashid>=0.4.0,<0.5.0"
 INSTALL = f"python -m pip install '{SPEC}'"
 
 

@@ -11,33 +11,41 @@ permissions:
 jobs:
   gates:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
 
-      # rashid takes a floor, not a pin. A pin goes stale the day the template
-      # is created and every repo made from it inherits the stale version. A
-      # floor takes each new 0.1.x release and still refuses a rashid that does
-      # not carry the rules tests/test_conformance.py asserts. The gate checks
-      # the same range at run time, so a local rashid cannot be older.
-      #
-      # stac-check stays unpinned on purpose. The stac-check exemption in
-      # docs/conformance.md expires when the upstream crash stops. That only
-      # happens if CI takes each new release.
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+
+      # Separate tools: portolan-cli 0.9.0 requires rashid<0.4.0, and the
+      # catalog is validated with rashid 0.4.x (tests/test_conformance.py).
+      # stac-check stays unpinned: the exemption in tests/test_stac_valid.py
+      # expires when a new release fixes the upstream crash.
       - name: Install the validators
-        run: python -m pip install 'rashid>=0.1.5,<0.2.0' stac-check
+        run: |
+          python -m pip install pyflakes stac-check
+          uv tool install 'rashid>=0.4.0,<0.5.0'
+          uv tool install portolan-cli==0.9.0
 
       - name: Lint the tooling
-        run: |
-          python -m pip install pyflakes
-          pyflakes tools/*.py tests/*.py
+        run: pyflakes tools/*.py tests/*.py
+
+      - name: Shell syntax
+        run: bash -n tools/build.sh
+
+      - name: Validate metadata.yaml
+        working-directory: catalog
+        run: portolan metadata validate
 
       # CI_LIGHT exempts asset hrefs with a data suffix from the link check.
-      # The checkout holds the metadata and not the bytes. Structural links
-      # and every non-data asset still resolve. Leave it unset locally.
+      # The checkout holds the metadata and not the bytes: GeoParquet and
+      # PMTiles are gitignored. Structural links still resolve.
       - name: Catalog gates
         env:
           CI_LIGHT: "1"

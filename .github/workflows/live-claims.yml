@@ -1,0 +1,100 @@
+# Run the SQL recipes in the agent guides against the published data.
+#
+# The schedule runs every guide (about 1,400). A pull request that touches a
+# guide runs the changed guides plus a stable sample of 40, so a broken
+# template shows up without reading the whole archive. A scheduled failure
+# opens one tracking issue, or comments on it if it is open; a later green
+# scheduled run closes it.
+name: Live claims
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "catalog/**/AGENTS.md"
+      - "tests/test_queries.py"
+      - "tools/agents.py"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-claims-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DUCKDB_VERSION: v2.0.0
+  ISSUE_TITLE: "Live claims: documented queries fail against the published data"
+
+jobs:
+  queries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      outcome: ${{ steps.run.outcome }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Install DuckDB CLI
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/duckdb.tar.gz" \
+            "https://github.com/duckdb/duckdb/releases/download/${DUCKDB_VERSION}/duckdb-cli-linux-amd64.tar.gz"
+          sudo tar -xzf "$RUNNER_TEMP/duckdb.tar.gz" -C /usr/local/bin duckdb
+          duckdb -no-agent -c "INSTALL spatial; SELECT 1"
+
+      - name: Run the documented queries
+        id: run
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" = "pull_request" ]; then
+            changed=$(git diff --name-only "$BASE" HEAD -- 'catalog/**/AGENTS.md' | paste -sd, -)
+            python3 tests/test_queries.py --sample 40
+            if [ -n "$changed" ]; then
+              python3 tests/test_queries.py --only "$changed"
+            fi
+          else
+            python3 tests/test_queries.py --jobs 16 | tee "$RUNNER_TEMP/queries.log"
+          fi
+
+      - name: Keep the log
+        if: always() && github.event_name == 'schedule'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: queries-log
+          path: ${{ runner.temp }}/queries.log
+          if-no-files-found: ignore
+
+  track:
+    needs: queries
+    if: always() && github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open, update, or close the tracking issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RESULT: ${{ needs.queries.result }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          num=$(gh issue list --state open --search "\"$ISSUE_TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ "$RESULT" = "success" ]; then
+            if [ -n "$num" ]; then
+              gh issue close "$num" --comment "The scheduled run passed: $RUN_URL"
+            fi
+          elif [ -n "$num" ]; then
+            gh issue comment "$num" --body "The scheduled run failed again: $RUN_URL"
+          else
+            printf 'The scheduled run of the documented queries failed.\n\nRun: %s\n\nThe run log (artifact `queries-log`) lists each failing guide and line.\n' "$RUN_URL" > body.md
+            gh issue create --title "$ISSUE_TITLE" --body-file body.md
+          fi

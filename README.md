@@ -1,92 +1,119 @@
-# Portolan Catalog Template
+# UNOSAT Rapid Mapping Archive (Portolan mirror)
 
-A starting point for a [Portolan](https://www.portolan-sdi.org/) catalog whose
-metadata lives in git. Click **Use this template**, work through
-[SETUP.md](SETUP.md), and you have a repository whose CI validates every change
-before it publishes.
+This repository builds and maintains a [Portolan](https://www.portolan-sdi.org/)
+mirror of the geodata that the United Nations Satellite Centre (UNOSAT) publishes
+on the [Humanitarian Data Exchange](https://data.humdata.org/organization/unosat)
+(HDX). The data are satellite-derived flood and water extents, damage
+assessments, shelter and camp mapping, landslides, and analysis extents.
 
-**`catalog/` is the published catalog.** Everything in it is published.
-Everything outside it never is. That boundary is the whole publish contract,
-and `tools/publish.py` has no flag or config key that widens it.
+- Published catalog: <https://data.source.coop/portolan-mirrors/unosat/catalog.json>
+- Hosting page: <https://source.coop/portolan-mirrors/unosat>
+- Request: [portolan-sdi/portolan-data#57](https://github.com/portolan-sdi/portolan-data/issues/57)
 
-## Three kinds of file
-
-| Kind | Where | Example |
-|---|---|---|
-| Tracked and published | inside `catalog/` | STAC JSON, `README.md`, `AGENTS.md`, thumbnails, logos |
-| Tracked, never published | outside `catalog/` | `tools/`, `tests/`, `docs/`, this README, `catalog.publish.yaml` |
-| Neither | gitignored | GeoParquet, COGs, PMTiles, credentials |
-
-The data lives in object storage next to the published metadata. The
-repository references it by URL and never stores it.
+The repository holds the STAC metadata and the build scripts. The data files
+(GeoParquet and PMTiles) are in the bucket only. Git ignores them.
 
 ## Layout
 
-| Path | What it is |
-|---|---|
-| `catalog/` | The published tree, synced 1:1 to object storage |
-| `catalog.publish.yaml` | Where it publishes, and under what public URL |
-| `tools/publish.py` | The sync. Dry run by default |
-| `tools/upload_data.py` | The data upload. Dry run by default |
-| `tests/` | The gates CI runs on every pull request |
-| `docs/conformance.md` | Any validator finding this catalog accepts, and why |
-| `SETUP.md` | The checklist. Delete it when you are done |
+```text
+catalog/<hazard>/[<year>/]<event>/<event>-<family>/
+    collection.json   <event>-<family>.parquet   <event>-<family>.pmtiles
+    styles/default.json   AGENTS.md   README.md   .portolan/metadata.yaml
+```
+
+- An event is one UNOSAT event code (for example `FL20240825BGD`), or one HDX
+  dataset when the dataset has no code. Each event is a subcatalog.
+- A hazard with 20 or more events is grouped by year (PORTO-CORE-078).
+- A collection merges the source layers of one kind ("family") in one event,
+  for example all damage-site point layers. The `source_layer` and
+  `source_file` columns name the origin of each row.
+- One event can have more than one collection of a family when its layers have
+  different licenses or CRSs. The collection id then has a suffix.
+
+## The pipeline
+
+`tools/build.sh` runs the steps in this order:
+
+| Step | Script | What it does |
+|---|---|---|
+| 1 | `tools/hdx_sync.py` | Reads the UNOSAT organization on HDX and writes `manifest/packages.json` |
+| 2 | `tools/fetch.py` | Downloads the source files with aria2c into `$WORK/dl` |
+| 3 | `tools/stage.py` | Converts each layer to GeoParquet, merges each family into one file per collection, writes `manifest/collections/*.json` |
+| 4 | `tools/tile.py` | Builds one PMTiles file per collection with tylertoo |
+| 5 | `tools/styles.py` | Writes `styles/default.json` from the values in the data |
+| 6 | `tools/meta.py` | Writes `.portolan/metadata.yaml` at each level from HDX metadata |
+| 7 | `portolan add` | Writes the STAC JSON |
+| 8 | `tools/post.py` | Adds column descriptions and the navigation links |
+| 9 | `tools/agents.py` | Writes the agent guides (`AGENTS.md`) |
+| 10 | `portolan readme`, `tools/post.py --readme` | Writes the READMEs and their navigation line |
+| 11 | `tests/run_all.py` | Runs the gates |
+
+### Conversion
+
+Each layer goes through two commands:
+
+1. `ogr2ogr -f GPKG -nlt PROMOTE_TO_MULTI` (system GDAL), with
+   `OGR_ORGANIZE_POLYGONS=CCW_INNER_JUST_AFTER_CW_OUTER` and
+   `SHAPE_RESTORE_SHX=YES`.
+2. `gpio convert geoparquet --geoparquet-version 2.0 --no-repair-geometry`.
+
+The geometry is not repaired. A mirror keeps the source geometry. The default
+repair in gpio also took more than 120 s on one layer that converts in 4 s
+without it.
+
+Each output must have the same row count as the source layer. Two known
+causes make the counts differ:
+
+- **gpio segfaults.** gpio 1.7.0 (DuckDB 1.5.6) segfaults on about one run in
+  four over the same GeoPackage, in its bounds query. `stage.py` runs gpio
+  again, up to five times, when it ends on a signal.
+- **Deleted geodatabase records.** A File Geodatabase header can count
+  deleted records (the `.gdbtablx` mismatch that GDAL warns about). When the
+  counts differ, `stage.py` counts the features that GDAL iterates. It accepts
+  the output only when that count matches.
+
+## Rebuild
+
+You need GDAL with its Python bindings, aria2, the DuckDB CLI, gpio 1.7.0,
+portolan-cli 0.9.0, rashid 0.4.x, and tylertoo built from git at the commit in
+`tools/tile.py` (`TYLERTOO_REV`).
+
+```bash
+export WORK=/path/to/scratch        # downloads and caches; never published
+tools/build.sh                      # all events
+EVENTS=fl20240825bgd tools/build.sh # some events
+SKIP_SYNC=1 tools/build.sh          # use the committed manifest
+```
 
 ## Publish
 
-```bash
-python3 tools/publish.py            # dry run: what would change
-python3 tools/publish.py --confirm  # upload; needs AWS credentials
-```
-
-It never deletes. Removing a file from `catalog/` does not unpublish it, so
-delete the object yourself if that is what you meant.
-
-## Upload the data
-
-The data is too large for git, so it lives outside `catalog/`.
-`tools/upload_data.py` carries it to the same bucket prefix. Set `data_dir` in
-`catalog.publish.yaml` to the directory that holds it.
+This catalog publishes with `tools/publish.py`, not with `portolan push`.
+`publish.py` uploads all of `catalog/`, data files included, and it compares
+each file with the bucket listing. It never deletes.
 
 ```bash
-python3 tools/upload_data.py            # dry run: what would change
-python3 tools/upload_data.py --confirm  # upload; needs AWS credentials
+python3 tools/publish.py            # dry run
+python3 tools/publish.py --confirm  # upload; needs Source Cooperative credentials
 ```
 
-Both scripts share one set of rules. `upload_data.py` imports the sentinel
-guard, the content types, the change detection, and the upload pool from
-`publish.py`. It changes one thing, the directory it walks. Only the suffixes
-in its allow-list upload, so staged scratch files stay out of the bucket.
+## CI
 
-## Test
+| Workflow | When | What |
+|---|---|---|
+| `ci.yml` | push, pull request | Lint, `portolan metadata validate`, the gates with `CI_LIGHT=1` |
+| `refresh.yml` | weekly, manual | Finds the changed HDX datasets, rebuilds their events, validates, publishes, and commits to `main` |
+| `live-claims.yml` | weekly, manual, pull requests on agent guides | Runs the SQL in the agent guides against the published data. A failed weekly run opens a tracking issue |
+| `links.yml`, `vale.yml` | pull request | Link and prose checks from portolan-ops |
 
-```bash
-python3 tests/run_all.py
-```
+`refresh.yml` uploads through GitHub OIDC with the role
+`arn:aws:iam::939788573396:role/source-coop-portolan-mirrors`. There is no
+stored key.
 
-| Gate | What it checks |
-|---|---|
-| `test_setup.py` | Template placeholders are all edited, or all untouched |
-| `test_links.py` | Every relative link and asset href resolves |
-| `test_publish.py` | Nothing outside `catalog/` can be uploaded |
-| `test_upload_data.py` | Only staged files with an allowed suffix upload |
-| `test_stac_valid.py` | Valid STAC 1.1.0, via `stac-check` |
-| `test_conformance.py` | Portolan conformance, via `rashid` |
+## Licenses
 
-The two validator gates skip when their tools are absent, so a clean checkout
-runs with no setup. CI installs both and enforces them.
+The HDX license of each dataset is kept on its collection. The archive has
+CC BY-SA (HDX gives no version), CC BY 4.0, CC BY 3.0 IGO, and CC BY-NC-SA 3.0.
+The HDX dataset `ethiopia-flooding-somali-region` is excluded, because its
+terms are "Humanitarian use only".
 
-## What this template does not decide
-
-How a published catalog points back at the repository that maintains it. Three
-encodings are in use across real catalogs and none is standardized, so this
-template ships none of them rather than freezing one in by default. The
-tradeoffs are in
-[portolan-spec#145](https://github.com/portolan-sdi/portolan-spec/issues/145)
-and in the
-[git-backed catalogs guidance](https://github.com/portolan-sdi/portolan-spec/blob/main/specs/best-practices/git-backed-catalogs.md).
-
-## License
-
-Apache-2.0, covering the tooling in this repository. The data you catalog
-carries its own license, which belongs in `catalog/README.md`.
+The code in this repository is under the license in [LICENSE](LICENSE).
