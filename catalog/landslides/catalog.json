@@ -1,0 +1,124 @@
+{
+  "type": "Catalog",
+  "id": "landslides",
+  "stac_version": "1.1.0",
+  "title": "Landslides",
+  "description": "UNOSAT geodata for 11 landslides. Each child is one event, named by its UNOSAT event code. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20170403col/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Colombia, 3 April 2017 (LS20170403COL)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20180712afg/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20191209uga/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Uganda, 9 December 2019 (LS20191209UGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20220308idn/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Indonesia, 8 March 2022 (LS20220308IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20230804geo/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Georgia, 4 August 2023 (LS20230804GEO)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20231208tza/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240512idn/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Indonesia, 12 May 2024 (LS20240512IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240525png/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240708idn/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Indonesia, 8 July 2024 (LS20240708IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240818npl/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Nepal, 18 August 2024 (LS20240818NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20251118idn/catalog.json",
+      "type": "application/json",
+      "title": "Landslide, Indonesia, 18 November 2025 (LS20251118IDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

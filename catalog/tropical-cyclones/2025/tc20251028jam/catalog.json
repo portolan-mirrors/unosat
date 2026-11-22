@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2025/tc20251028jam",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)",
+  "description": "UNOSAT geodata for Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20251028JAM, GDACS ID: 1001230**  This map illustrates the structures and buildings damaged by the passage of Hurricane MELISSA-25. The analysis focuses on White House Village in Westmoreland Parish, as of 31 October 2025. Damage and destruction were identified using very highresolution aerial imagery acquired by NOAA on 31 October 2025.\nIn this area, UNOSAT identified a total of 1,875 affected buildings, of which 715 were completely destroyed and 1,160 were damaged.\nThis is a preliminary analysis and has not yet been validated in the field. Ground verification is encouraged, and feedback can be sent to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Building Damage  Assessment in White House Village, Whitehouse District, Westmoreland Parishe as of 31 October 2025](https://data.humdata.org/dataset/building-damage-assessment-in-white-house-village-whitehouse-district-westmoreland-parishe)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20251028jam-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20251028jam-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20251028jam-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251028jam/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

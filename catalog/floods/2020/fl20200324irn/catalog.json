@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2020/fl20200324irn",
+  "stac_version": "1.1.0",
+  "title": "Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN)",
+  "description": "UNOSAT geodata for Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20200324IRN**  This map illustrates satellite-detected water surface in Konarak County, Sistan and Baluchestan Province, Islamic Republic of Iran, as observed from Sentinel-2 imagery acquired on 23 March 2020. Within the analysed area of about 1,100 km2, a total of 56 km2 of land appear to be flooded in Konarak County. Based on Worldpop population data and the detected surface waters, about 3,700 people are potentially exposed or living close to flooded areas. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Satellite-detected waters extents over Konarak, Sistan and Baluchestan Province, I. R. of Iran](https://data.humdata.org/dataset/waters-extents-as-of-23-march-2020-over-konarak-sistan-and-baluchestan-province-i-r-of-ira)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200324irn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200324irn-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200324irn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

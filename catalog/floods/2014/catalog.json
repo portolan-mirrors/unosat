@@ -1,0 +1,94 @@
+{
+  "type": "Catalog",
+  "id": "floods/2014",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2014",
+  "description": "UNOSAT geodata for 6 floods whose event code dates from 2014. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140207zwe/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140213bol/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140430afg/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Afghanistan, 30 April 2014 (FL20140430AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140803sdn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Sudan, 3 August 2014 (FL20140803SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140910pak/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Pakistan, 10 September 2014 (FL20140910PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20141230lka/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Sri Lanka, 30 December 2014 (FL20141230LKA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

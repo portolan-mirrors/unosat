@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2020/tc20201103nic",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Nicaragua, 3 November 2020 (TC20201103NIC)",
+  "description": "UNOSAT geodata for Tropical cyclone, Nicaragua, 3 November 2020 (TC20201103NIC), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20201103NIC**  This map illustrates satellite-detected surface waters in Puerto Cabezas, Prinzapolka and Launa de Perlas Municipality, Nicaragua as observed from Sentinel-1 image acquired on 08 November 2020. Within the analyzed area of about 12,000 km2, a total of about 1,200 km2 of lands appear to be flooded. Based on Worldpop population data and the detected surface waters, about 7,500 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areasand densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected waters in Puerto Cabezas, Prinzapolka, Laguna de Perlas Municipality, Nicaragua as of 8 November 2020](https://data.humdata.org/dataset/waters-in-puerto-cabezas-prinzapolka-laguna-de-perlas-municipality-nicaragua-as-of-8-novem)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201103nic-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Nicaragua, 3 November 2020 (TC20201103NIC)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201103nic-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Nicaragua, 3 November 2020 (TC20201103NIC)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201103nic/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

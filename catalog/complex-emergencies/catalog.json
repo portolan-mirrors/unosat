@@ -1,0 +1,160 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies",
+  "stac_version": "1.1.0",
+  "title": "Complex emergencies",
+  "description": "UNOSAT geodata for 17 complex emergencies. Each child is one event, named by its UNOSAT event code. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20120731mli/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Mali, 31 July 2012 (CE20120731MLI)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20130326mmr/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20130604syr/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20130710som/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20131107cod/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20131212caf/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20131218ssd/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20140613irq/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20140617nga/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20140715pse/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20150402yem/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Yemen, 2 April 2015 (CE20150402YEM)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20150814lby/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Libya, 14 August 2015 (CE20150814LBY)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20160204moz/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20210515pse/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20230415sdn/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, Sudan, 15 April 2023 (CE20230415SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20231007pse/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

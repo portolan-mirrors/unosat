@@ -1,0 +1,90 @@
+# Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)
+<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+
+Other points for Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ): 78 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
+
+From these HDX datasets:
+
+- [Satellite-detected damage in Île de Mozambique as of 18 March 2025](https://data.humdata.org/dataset/satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025)
+
+Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
+
+![cyclones-hurricanes-typhoons](https://img.shields.io/badge/cyclones--hurricanes--typhoons-blue) ![geodata](https://img.shields.io/badge/geodata-blue) ![tropical cyclone](https://img.shields.io/badge/tropical_cyclone-blue)
+
+## Spatial Coverage
+
+- **Bounding Box**: [40.72744228788683, -15.045139849952834, 40.74021083892738, -15.030158027448685]
+
+## Temporal Coverage
+
+- **Start**: 2025-03-21T00:00:00Z
+- **End**: 2025-03-21T23:59:59Z
+
+## Schema
+
+| Column | Type | Description |
+|--------|------|-------------|
+| Site_Name | string |  |
+| FeatureID | string |  |
+| Notes | string | Free-text notes by the analyst. |
+| EventCode | string | UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog. |
+| ImageID_Nu | string |  |
+| SensorID | string |  |
+| Confidence | string |  |
+| MainDamage | string |  |
+| DamageStat | string |  |
+| SensorDate | string | Acquisition date of the satellite image the feature was mapped from. |
+| geometry | binary | Feature geometry, as UNOSAT published it (not repaired). |
+| source_layer | string | Name of the layer in the source file that this row came from. |
+| source_file | string | Name of the file downloaded from HDX that this row came from. |
+| bbox | struct<xmin: double, ymin: double, xmax: double, ymax: double> | Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering. |
+
+## Files
+
+| File | Size | Checksum |
+|------|------|----------|
+| ./tc20250308moz-other-points.parquet | 12.4 KB | 12201bee3d1c... |
+| ./tc20250308moz-other-points.pmtiles | 24.6 KB | 1220ffc4b9a8... |
+| ./styles/default.json | 695 B | 1220ce884714... |
+
+## Quick Start
+
+```python
+import geopandas as gpd
+
+gdf = gpd.read_parquet("./tc20250308moz-other-points.parquet")
+print(gdf.head())
+```
+
+## STAC Metadata
+
+- **root**: `../../../../catalog.json`
+- **parent**: `../catalog.json`
+
+## Source
+
+[https://data.humdata.org/dataset/satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025](https://data.humdata.org/dataset/satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025)
+
+## Processing Notes
+
+Downloaded from HDX on 2026-11-22 and converted with GDAL ogr2ogr (to GeoPackage, multi-part geometry types, OGR_ORGANIZE_POLYGONS=CCW_INNER_JUST_AFTER_CW_OUTER) and geoparquet-io (GeoParquet 2.0, no geometry repair, bbox column added). Geometry is kept as published; no feature was repaired, dropped, or reprojected. Each layer's row count was checked against the source feature count. Layers merged with DuckDB `UNION ALL BY NAME`: a column a layer lacks is null for its rows. Coded geodatabase domains are decoded into `<field>_label` columns, per source file. Source layers: `TC20250308MOZ`.
+
+## Attribution
+
+UNITAR-UNOSAT
+
+## License
+
+[other](https://opendefinition.org/licenses/cc-by-sa/)
+
+## Contact
+
+Portolan Mirrors <nissim@radiant.earth>
+
+## Known Issues
+
+HDX states the license as "Creative Commons Attribution Share-Alike (CC BY-SA)" with no version, so the collection's license is `other`, linked to the license definition HDX gives. This is a preliminary assessment and has not yet been validated in the field. It is important to consider the characteristics of the source imagery used in the analyses when interpreting results. For damage assessments it should be noted that only significant damage to the structural integrity of the buildings analyzed can be seen in imagery, while minor damage such as cracks or holes may not be visible at all. For flood extractions using radar data it is important to note that urban areas and highly vegetated areas may mask the flood signature and result in underestimation of flood waters. Users with specific questions or concerns should contact unosat@unitar.org to seek clarification.
+
+---
+
+*Generated by [Portolan](https://github.com/portolan-sdi/portolan-cli) from STAC metadata and .portolan/metadata.yaml*

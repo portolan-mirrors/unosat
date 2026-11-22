@@ -1,0 +1,323 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20120731mli/ce20120731mli-shelters",
+  "stac_version": "1.1.0",
+  "description": "Shelters for Complex emergency, Mali, 31 July 2012 (CE20120731MLI): 16,440 features merged from 3 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Goudoubou Refugee Camp, Seno Province, Burkina Faso](https://data.humdata.org/dataset/geodata-of-goudoubou-refugee-camp-seno-province-burkina-faso-january-14-2016)\n- [Geodata of Mbera Refugee Camp, Bassikounou, South-Eastern Mauritania](https://data.humdata.org/dataset/geodata-of-mbera-refugee-camp-bassikounou-south-eastern-mauritania-december-10-2015)\n- [Geodata of Mentao Refugee camp in Soum District, Sahel Province, Burkina Faso](https://data.humdata.org/dataset/geodata-of-mentao-refugee-camp-in-soum-district-sahel-province-burkina-faso-january-15-2016)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-goudoubou-refugee-camp-seno-province-burkina-faso-january-14-2016",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20120731mli-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelters"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelters/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:28Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -2.929752,
+    13.5537186,
+    7
+  ],
+  "pmtiles:layers": [
+    "shelters"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 16440,
+  "table:row_count": 16440,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Tent Shelter; 2 = Metal Structure; 3 = Improvised Shelter (Wood / Stone / Mud); 4 = Admin Building; 5 = Semi-Permanent Structure. The decoded text is in `Site_ID_label`."
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = WorldView-1; 2 = WorldView-2; 3 = QuickBird-2; 4 = Ikonos; 5 = GeoEye-1; 6 = Formosat-2; 7 = SPOT-5; 8 = WorldView-3; 9 = MODIS-Aqua; 10 = MODIS-Terra; 11 = ASTER; 12 = EO-1 ALI; 13 = EO-1 Hyperion; 14 = MERIS; 15 = Landsat-7; 16 = Landsat-5; 17 = ASAR WSM; 18 = ASAR IMP; 19 = ASAR GM1; 20 = ASAR AP; 21 = Radarsat-1; 22 = Radarsat-2; 23 = TerraSAR-X; 24 = CosmoSkyMED; 25 = SPOT4; 26 = ALOS PALSAR; 27 = ASAR IMM; 30 = UAV (Swinglet-Cam); 33 = Alos AVNIR; 35 = Pleiades; 36 = DMC; 37 = RISAT-1; 38 = RISAT-2; 39 = RESOURCESAT-1; 40 = Landsat-8; 41 = SPOT 6; 42 = Sentinel-1; 43 = Komsat-2; 999 = Combination of Sensors. The decoded text is in `Sensor_ID_label`."
+    },
+    {
+      "name": "Sensor_Date",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Very High; 2 = Medium; 3 = Uncertain; 4 = To Be Evaluated. The decoded text is in `Confidence_ID_label`."
+    },
+    {
+      "name": "Field_Validation",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Not yet field validated; 1 = Validated (correct); 2 = Validated (not correct); 3 = Site Not Identified in Image. The decoded text is in `Field_Validation_label`."
+    },
+    {
+      "name": "CampStatusID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Closed / Relocated; 1 = Open (Operational); 2 = Planned / Under Construction; 9 = Camp Destroyed. The decoded text is in `CampStatusID_label`."
+    },
+    {
+      "name": "CampName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "GlobalID",
+      "type": "string",
+      "description": "ArcGIS global identifier of the feature."
+    },
+    {
+      "name": "StaffID",
+      "type": "int32",
+      "description": "Coded value. The 2 source files of this collection use 2 different domains for it, so read `StaffID_label`, which is decoded per source file."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "CampType",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Refugee Camp; 2 = IDP Camp. The decoded text is in `CampType_label`."
+    },
+    {
+      "name": "CampTrend",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Increase; 2 = Decrease. The decoded text is in `CampTrend_label`."
+    },
+    {
+      "name": "Shelter_Status",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Open; 2 = Closed. The decoded text is in `Shelter_Status_label`."
+    },
+    {
+      "name": "ShelterClose_Date",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "Structure_Type",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Tent Shelter; 2 = Admin Building; 3 = Improvised Shelter (Wood / Stone / Mud); 4 = Semi-Permanent Structure; 5 = Metal Structure. The decoded text is in `Structure_Type_label`."
+    },
+    {
+      "name": "CampStatusID_label",
+      "type": "string",
+      "description": "`CampStatusID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CampTrend_label",
+      "type": "string",
+      "description": "`CampTrend` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CampType_label",
+      "type": "string",
+      "description": "`CampType` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Confidence_ID_label",
+      "type": "string",
+      "description": "`Confidence_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Field_Validation_label",
+      "type": "string",
+      "description": "`Field_Validation` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sensor_ID_label",
+      "type": "string",
+      "description": "`Sensor_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Shelter_Status_label",
+      "type": "string",
+      "description": "`Shelter_Status` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Structure_Type_label",
+      "type": "string",
+      "description": "`Structure_Type` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelters: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.81230990499995,
+          11.260312104000093,
+          -0.04719419199994945,
+          15.847125253000058
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-12-10T00:00:00Z",
+          "2016-01-15T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20120731mli-shelters": {
+      "href": "./ce20120731mli-shelters.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 961159,
+      "file:checksum": "122041e5621d85ec9ab89a350de87ff1be8d6ec9f76dd8c5fc6d039b2e5cfb099dec",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20120731mli-shelters-tiles": {
+      "href": "./ce20120731mli-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 1193077,
+      "file:checksum": "1220248d42d2e4d915a334183494f7d497af44d7bdb3a341cec69e683e16232ac225",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelters by CampType",
+      "file:size": 892,
+      "file:checksum": "1220cc2797032f686c6e296ee34c927cfbb5184bbc9613b327d5f8fc7abb7c5d4ec6"
+    }
+  }
+}

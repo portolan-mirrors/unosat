@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20191030som",
+  "stac_version": "1.1.0",
+  "title": "Flood, Somalia, 30 October 2019 (FL20191030SOM)",
+  "description": "UNOSAT geodata for Flood, Somalia, 30 October 2019 (FL20191030SOM), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20191030SOM**  This map illustrates the satellite-detected flood water extent and IDP distribution within the town of Belet Weyne in Belet Weyne District, Hiiran Region, Somalia. The analysis was conducted by analyzing WorldView-1 images acquired on the 1 November 2019. As observed from the satellite image, the town of Belet Weyne is heavily affected by floods. Around 60% of the vicinity of the town is completely inundated; the districts of Hawa tako, Kutimbo, and the Lamagalay Regional Millitary Base completely submerged in water. More than 110 IDP sites are located inside of the town and 40% of them are located within completely flooded areas. This is a preliminary analysis and has not been validated in the field yet. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Satellite detected water and IDP distribution over  Belet Weyne Town](https://data.humdata.org/dataset/satellite-detected-water-and-idp-distribution-over-belet-weyne-town)\n- [Satellite detected waters extents, as of 3 November 2019 over Jowhar District, Middle Shabelle Region of Somalia](https://data.humdata.org/dataset/waters-extents-as-of-3-november-2019-over-jowhar-district-middle-shabelle-region-of-somali)\n- [Satellite-detected water extents as of 30 October 2019, over Beled Weyne District, Hiraan Region in Somalia](https://data.humdata.org/dataset/water-extents-as-of-30-october-2019-over-beled-weyne-district-hiraan-region-in-somalia)\n- [Satellite-detected water extents, as of 6 November 2019 over Hiraan, Middle Shabelle and Lower Shabelle Region of Somali](https://data.humdata.org/dataset/water-extents-as-of-6-november-2019-over-hiraan-middle-shabelle-and-lower-shabelle-region-)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191030som-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Somalia, 30 October 2019 (FL20191030SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191030som-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Somalia, 30 October 2019 (FL20191030SOM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191030som/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

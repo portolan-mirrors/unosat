@@ -1,0 +1,255 @@
+{
+  "type": "Collection",
+  "id": "floods/2019/fl20191118cod/fl20191118cod-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Satellite-detected flood waters over Mobayi-Mbongo, Nord-Ubangi Province, Democratic Republic of the Congo](https://data.humdata.org/dataset/flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo)\n- [Satellite-detected flood waters, as of 12 November 2019, over Zongo, Democratic Republic of the Congo](https://data.humdata.org/dataset/flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo)\n- [Satellite-detected flood waters, as of 15 November 2019, Libenge, Libenge Territory, Democratic Republic of the Congo](https://data.humdata.org/dataset/flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c)\n- [Satellite-detected flooded structures, as of 12 November 2019, over Zongo, Democratic Republic of the Congo](https://data.humdata.org/dataset/flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo)\n- [Satellite-detected flooded structures, as of 15 November 2019, over Libenge, Democratic Republic of the Congo](https://data.humdata.org/dataset/flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20191118cod-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191118cod/fl20191118cod-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:23:17Z",
+  "pmtiles:min_zoom": 1,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    20.1356962,
+    3.9880452,
+    7
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 5,
+  "table:row_count": 5,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16"
+    },
+    {
+      "name": "AgencyID",
+      "type": "int32"
+    },
+    {
+      "name": "SiteName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "SensorDate",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "SensorID",
+      "type": "int32"
+    },
+    {
+      "name": "StaffID",
+      "type": "int32"
+    },
+    {
+      "name": "GlobalID",
+      "type": "string",
+      "description": "ArcGIS global identifier of the feature."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          18.568095893000077,
+          3.5449130060000584,
+          21.703296650000084,
+          4.42964079300009
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-11-18T00:00:00Z",
+          "2019-11-21T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20191118cod-analysis-extent": {
+      "href": "./fl20191118cod-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 6590,
+      "file:checksum": "122047df2dde3e212f02301d3429d3c3d08aed58688e788712f4dedfbabab460da29",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20191118cod-analysis-extent-tiles": {
+      "href": "./fl20191118cod-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 66937,
+      "file:checksum": "12204973a2f48ac61668086fd8d55f787693b69cd0c5d62ca14a4d55aad87b8a38f6",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 671,
+      "file:checksum": "12209aed8f7a0b847ea0d01ae1fb68e9a7d94277997cd3bb67ec74ddf94b136bac49"
+    }
+  }
+}

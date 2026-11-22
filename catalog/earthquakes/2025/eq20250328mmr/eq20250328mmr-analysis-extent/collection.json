@@ -1,0 +1,243 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2025/eq20250328mmr/eq20250328mmr-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR): 23 features merged from 22 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage Assessment in Mahaaungmyay, Chanmyathazi and Chanayethazan Townships, Mandalay District, Mandalay Region, Myanmar as of 30 March 2025](https://data.humdata.org/dataset/damage-assessment-in-mahaaungmyay-chanmyathazi-and-chanayethazan-townships-mandalay-distri)\n- [Damage Assessment in Mandalay & Sagaing Districts, Myanmar as of 03 April 2025](https://data.humdata.org/dataset/damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025)\n- [Damage Assessment in Monywa Township, Monywa District, Sagaing Region, Myanmar as of 25 April 2025](https://data.humdata.org/dataset/damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april)\n- [Damage Assessment in Sagaing Township, Sagaing District, Sagaing Region, Myanmar as of 30 March 2025](https://data.humdata.org/dataset/damage-assessment-in-sagaing-township-sagaing-district-sagaing-region-myanmar-as-of-30-mar)\n- [Damage Assessment in Sagaing and Mandalay, Myanmar as of 30 March 2025](https://data.humdata.org/dataset/damage-assessment-in-sagaing-and-mandalay-myanmar-as-of-30-march-2025)\n- [Damage Assessment in Wundwin Township, Meiktila District Mandalay Region, Myanmar as of 01 April 2025](https://data.humdata.org/dataset/damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a)\n- [M7.7 28 March 2025 Sagaing Earthquake, Satellite-Based Comprehensive Damage Assessment Report](https://data.humdata.org/dataset/m7-7-28-march-2025-sagaing-earthquake-satellite-based-comprehensive-damage-assessment-repo)\n- [Satellite-detected Damage in the Cultural Property Mahamuni Pagoda as of 30 March 2025](https://data.humdata.org/dataset/satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025)\n- [Satellite-detected Damage to Cultural Heritage in Tada-U as of 03 April 2025](https://data.humdata.org/dataset/satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025)\n- [Satellite-detected damage in the UNESCO Tentative List Site, Ancient Cities of Upper Myanmar: Innwa as of 30 March 2025](https://data.humdata.org/dataset/damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma)\n- [Satellite-detected damage in the UNESCO Tentative List Site, Ancient Cities of Upper Myanmar: Mandalay as of 30 March 2025](https://data.humdata.org/dataset/damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30)\n- [Satellite-detected damage in the UNESCO World Heritage Site, Bagan: Component 7 as of 03 April 2025](https://data.humdata.org/dataset/damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025)\n- and 3 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-in-mahaaungmyay-chanmyathazi-and-chanayethazan-townships-mandalay-distri",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20250328mmr-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:51Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    95.4666608,
+    21.8650431,
+    6
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 23,
+  "table:row_count": 23,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The 3 source files of this collection use 3 different domains for it, so read `Site_ID_label`, which is decoded per source file."
+    },
+    {
+      "name": "AgencyID",
+      "type": "int32"
+    },
+    {
+      "name": "SiteName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          94.72263930000008,
+          21.04112886300004,
+          96.15033466000006,
+          22.698393666000072
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-02T00:00:00Z",
+          "2025-06-13T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20250328mmr-analysis-extent": {
+      "href": "./eq20250328mmr-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 13983,
+      "file:checksum": "122030bd3c19fb0ca42ad8faaaa64a8adfd4cbc383f3a9dd542c62a67b9d19b9a846",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20250328mmr-analysis-extent-tiles": {
+      "href": "./eq20250328mmr-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 186351,
+      "file:checksum": "12207c67acd9e081f29abca828a8e306c102b9963717cbbd7ee329ead1f27a430d38",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 671,
+      "file:checksum": "1220cf667a29a7d76df39ee130d4d73468170edbee4cd9330eba6308e204fd90ad54"
+    }
+  }
+}

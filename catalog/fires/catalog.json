@@ -1,0 +1,118 @@
+{
+  "type": "Catalog",
+  "id": "fires",
+  "stac_version": "1.1.0",
+  "title": "Fires",
+  "description": "UNOSAT geodata for 10 fires. Each child is one event, named by its UNOSAT event code. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20170712dza/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Algeria, 12 July 2017 (FR20170712DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20191016lbn/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Lebanon, 16 October 2019 (FR20191016LBN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20210729tun/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Tunisia, 29 July 2021 (FR20210729TUN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20210811dza/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Algeria, 11 August 2021 (FR20210811DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20221229chl/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Chile, 29 December 2022 (FR20221229CHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230724dza/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Algeria, 24 July 2023 (FR20230724DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230725tun/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Tunisia, 25 July 2023 (FR20230725TUN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20240222gnq/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20250707syr/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20261020png/catalog.json",
+      "type": "application/json",
+      "title": "Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

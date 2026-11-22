@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2025/fl20250110ssd",
+  "stac_version": "1.1.0",
+  "title": "Flood, South Sudan, 10 January 2025 (FL20250110SSD)",
+  "description": "UNOSAT geodata for Flood, South Sudan, 10 January 2025 (FL20250110SSD), from 7 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20250110SSD**  This map illustrates cumulative satellite-detected water using VIIRS in South Sudan between 04 to 08 January 2025 compared with the period from 14 to 18 December 2024 . Within the cloud free analysed areas of about 630,000 km², a total of about 55,000 km² of lands appear to be affected with flood waters. Water extent appears to have increased of about 16,000 km² since the period between 14 to 18 December 2024 within the cloud free analysed areas. Based on Worldpop population data and the maximal flood water extent ~920,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extents between 01 and 05 February 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-01-and-05-february-2025-over-south-sudan)\n- [Satellite detected water extents between 01 and 05 March 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-01-and-05-march-2025-over-south-sudan)\n- [Satellite detected water extents between 04 and 08 January 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-04-and-08-january-2025-over-south-sudan)\n- [Satellite detected water extents between 13 and 17 August 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-13-and-17-august-2025-over-south-sudan)\n- [Satellite detected water extents between 15 and 19 March 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-15-and-19-march-2025-over-south-sudan)\n- [Satellite detected water extents between 18 and 22 January 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-18-and-22-january-2025-over-south-sudan)\n- [Satellite detected water extents between 25 and 29 April 2025 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-25-and-29-april-2025-over-south-sudan)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250110ssd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, South Sudan, 10 January 2025 (FL20250110SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250110ssd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, South Sudan, 10 January 2025 (FL20250110SSD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250110ssd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

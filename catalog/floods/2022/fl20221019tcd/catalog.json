@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20221019tcd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Chad, 19 October 2022 (FL20221019TCD)",
+  "description": "UNOSAT geodata for Flood, Chad, 19 October 2022 (FL20221019TCD), from 7 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20221019TCD**  This map illustrates cumulative satellite-detected water using VIIRS in Chad between 30 October to 03 November 2022 compared with the period from 14 to 18 October 2022. Within the cloud free analysed areas of about 1,200,000 km², a total of about 18,000 km² of land appears to be affected. Water extent appears to have decreased of about 6,300 km² since the period between 14 to 18 October 2022. Based on Worldpop population data and the maximal flood water extent ~1 million people are potentially exposed or living close to flooded areas amongst the 16.5 million people living in the analysed zone.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extent between 30 October 2022 and 31 October 2018 in Hadjer-Lamis & Lac Regions, Chad](https://data.humdata.org/dataset/water-extent-between-30-october-2022-and-31-october-2018-in-hadjer-lamis-lac-regions-chad)\n- [Satellite detected water extent in N'Djamena and Chari Departments, Chad as of 30 October 2022](https://data.humdata.org/dataset/water-extent-in-n-djamena-and-chari-departments-chad-as-of-30-october-2022)\n- [Satellite detected water extent in N'Djamena department, N'Djamena Region, Chad as of 20 October 2022](https://data.humdata.org/dataset/water-extent-in-n-djamena-department-n-djamena-region-chad-as-of-20-october-2022)\n- [Satellite detected water extent in N'Djamena department, N'Djamena Region, Chad as of 21 October 2022](https://data.humdata.org/dataset/water-extent-in-n-djamena-department-n-djamena-region-chad-as-of-21-october-2022)\n- [Satellite detected water extent in N'Djamena department, N'Djamena Region, Chad as of 24 October 2022](https://data.humdata.org/dataset/water-extent-in-n-djamena-department-n-djamena-region-chad-as-of-24-october-2022)\n- [Satellite detected water extents between 14 and 18 October 2022 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-14-and-18-october-2022-over-chad)\n- [Satellite detected water extents between 30 October and 03 November 2022 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-30-october-and-03-november-2022-over-chad)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221019tcd-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Chad, 19 October 2022 (FL20221019TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221019tcd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Chad, 19 October 2022 (FL20221019TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221019tcd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Chad, 19 October 2022 (FL20221019TCD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221019tcd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

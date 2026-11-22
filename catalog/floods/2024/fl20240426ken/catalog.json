@@ -1,0 +1,88 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240426ken",
+  "stac_version": "1.1.0",
+  "title": "Flood, Kenya, 26 April 2024 (FL20240426KEN)",
+  "description": "UNOSAT geodata for Flood, Kenya, 26 April 2024 (FL20240426KEN), from 12 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240426KEN**  This map illustrates cumulative satellite-detected water using NOAA-VIIRS acquired between the 24th and the 28th of April 2024. about 3,800 km² of land appear to be flooded. Based on Worldpop population data from 2020 and the flood water extent, ~190,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Population data used for this estimate is from 2020. Current population count is not available.\n\nHDX datasets:\n\n- [Cumulative Satellite Detected Waters and Impact in Kenya between 24 to 28 April 2024](https://data.humdata.org/dataset/cumulative-satellite-detected-waters-and-impact-in-kenya-between-24-to-28-april-2024)\n- [Flood Impact to Cropland in Nairobi and Kiambu County, Kenya as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-to-cropland-in-nairobi-and-kiambu-county-kenya-as-of-1-may-2024)\n- [Flood impact analysis  in Kiambu County, Kenya  as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-kiambu-county-kenya-as-of-1-may-2024)\n- [Flood impact analysis in Nairobi Kenya as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-nairobi-kenya-as-of-1-may-2024)\n- [Flood impact analysis in Nairobi and Kiambu County, Kenya as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-nairobi-and-kiambu-county-kenya-as-of-1-may-2024)\n- [Flood impact analysis in Nairobi and Machakos County, Kenya as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-nairobi-and-machakos-county-kenya-as-of-1-may-2024)\n- [Flood impact to  cropland in Nairobi and Machakos County, Kenya as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-to-cropland-in-nairobi-and-machakos-county-kenya-as-of-1-may-2024)\n- [Flood impact to cropland in Kiambu County, Kenya as of 1 May 2024](https://data.humdata.org/dataset/flood-impact-to-cropland-in-kiambu-county-kenya-as-of-1-may-2024)\n- [Landslide/mudslide Impact in Mai Mahiu  and Kijabe Towns, Kenya as of 1 May 2024](https://data.humdata.org/dataset/landslide-mudslide-impact-in-mai-mahiu-and-kijabe-towns-kenya-as-of-1-may-2024)\n- [Satellite detected water extent in Garissa City and Mororo Village, Kenya as of 29 April 2024](https://data.humdata.org/dataset/water-extent-in-garissa-city-and-mororo-village-kenya-as-of-29-april-2024)\n- [Satellite detected water extent in Garissa City and Mororo Village, Kenya as of 5 May 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-in-garissa-city-and-mororo-village-kenya-as-of-5-may-2024)\n- [UNOSAT Live Web map- Flood in Kenya](https://data.humdata.org/dataset/unosat-live-web-map-flood-in-kenya)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240426ken-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Kenya, 26 April 2024 (FL20240426KEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240426ken-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Kenya, 26 April 2024 (FL20240426KEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240426ken-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Flood, Kenya, 26 April 2024 (FL20240426KEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240426ken-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Kenya, 26 April 2024 (FL20240426KEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240426ken-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Kenya, 26 April 2024 (FL20240426KEN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

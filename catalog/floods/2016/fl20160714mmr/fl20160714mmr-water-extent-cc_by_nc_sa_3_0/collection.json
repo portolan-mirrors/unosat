@@ -1,0 +1,300 @@
+{
+  "type": "Collection",
+  "id": "floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_nc_sa_3_0",
+  "stac_version": "1.1.0",
+  "description": "Water extent for Flood, Myanmar, 14 July 2016 (FL20160714MMR): 404,311 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Floods in Rakhine State, Myanmar-Situation Analysis Preliminary Report](https://data.humdata.org/dataset/geodata-of-floods-in-rakhine-state-myanmar-situation-analysis-preliminary-rep-august-03-2016)\n- [Geodata of Satellite Detected Waters Extent Over Northwestern Rakhine State, Myanmar](https://data.humdata.org/dataset/geodata-of-satellite-detected-waters-extent-over-northwestern-rakhine-state-m-july-15-2016)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-floods-in-rakhine-state-myanmar-situation-analysis-preliminary-rep-august-03-2016",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20160714mmr-water-extent-cc_by_nc_sa_3_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "water-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_nc_sa_3_0/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:21:54Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    93.2865213,
+    19.9394333,
+    6
+  ],
+  "pmtiles:layers": [
+    "water-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 404311,
+  "table:row_count": 404311,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Water_Class",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Preflood Water; 1 = Flood Water; 2 = Flood-Affected Land / Possible Flood water; 3 = Probable Flash Flood-Affected Land; 4 = Satellite Detected Water; 6 = Possible Saturated, wet Soil/ possible Flood Water; 9 = Aquaculture (Wet Rice); 14 = Tsunami-Affected Land; 88 = Swamp/Marsh/Mangrove; 99 = Maximum Flood Water Extent (Cumulative). The decoded text is in `Water_Class_label`."
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = WorldView-1; 2 = WorldView-2; 3 = QuickBird-2; 4 = Ikonos; 5 = GeoEye-1; 6 = Formosat-2; 7 = SPOT-5; 8 = WorldView-3; 9 = MODIS-Aqua; 10 = MODIS-Terra; 11 = ASTER; 12 = EO-1 ALI; 13 = EO-1 Hyperion; 14 = MERIS; 15 = Landsat-7; 16 = Landsat-5; 17 = ASAR WSM; 18 = ASAR IMP; 19 = ASAR GM1; 20 = ASAR AP; 21 = Radarsat-1; 22 = Radarsat-2; 23 = TerraSAR-X; 24 = CosmoSkyMED; 25 = SPOT4; 26 = ALOS PALSAR; 27 = ASAR IMM; 30 = UAV (Swinglet-Cam); 33 = Alos AVNIR; 35 = Pleiades; 36 = DMC; 37 = RISAT-1; 38 = RISAT-2; 39 = RESOURCESAT-1; 40 = Landsat-8; 41 = SPOT 6; 42 = Sentinel-1; 43 = Komsat-2; 999 = Combination of Sensors. The decoded text is in `Sensor_ID_label`."
+    },
+    {
+      "name": "Sensor_Date",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Very High; 2 = Medium; 3 = Uncertain; 4 = To Be Evaluated. The decoded text is in `Confidence_ID_label`."
+    },
+    {
+      "name": "Field_Validation",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Not yet field validated; 1 = Validated (correct); 2 = Validated (not correct); 3 = Site Not Identified in Image. The decoded text is in `Field_Validation_label`."
+    },
+    {
+      "name": "Water_StatusID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = New Water / Water Increase; 2 = No water change / Static Level; 3 = No water / Water levels decreased. The decoded text is in `Water_StatusID_label`."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "SenorID_old",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = MODIS; 2 = ASAR WSM; 3 = ASAR IMP; 4 = Radarsat; 5 = DMC; 6 = SPOT5; 7 = ALOS Palsar WB1; 8 = ASAR APP. The decoded text is in `SenorID_old_label`."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "StaffID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 11 = EB; 18 = AM; 22 = WP; 33 = LB; 44 = JL; 55 = VG; 66 = CJ; 73 = RS; 77 = LD; 88 = HK; 99 = ER; 100 = KM; 111 = MBF; 121 = CN; 131 = SB; 141 = KJP; 151 = MNY; 222 = CS; 1000 = Unknown. The decoded text is in `StaffID_label`."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Confidence_ID_label",
+      "type": "string",
+      "description": "`Confidence_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Field_Validation_label",
+      "type": "string",
+      "description": "`Field_Validation` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SenorID_old_label",
+      "type": "string",
+      "description": "`SenorID_old` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sensor_ID_label",
+      "type": "string",
+      "description": "`Sensor_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Water_Class_label",
+      "type": "string",
+      "description": "`Water_Class` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Water_StatusID_label",
+      "type": "string",
+      "description": "`Water_StatusID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Water extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          92.26672816600006,
+          18.63912196600006,
+          94.30735638400006,
+          21.23974471300005
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-07-15T00:00:00Z",
+          "2016-08-03T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20160714mmr-water-extent-cc_by_nc_sa_3_0": {
+      "href": "./fl20160714mmr-water-extent-cc_by_nc_sa_3_0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 72397580,
+      "file:checksum": "1220a1a1c10d700d1f2b0cd926975316d22c4c4155a0a5a10217bf37c85288446908",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20160714mmr-water-extent-cc_by_nc_sa_3_0-tiles": {
+      "href": "./fl20160714mmr-water-extent-cc_by_nc_sa_3_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 94052986,
+      "file:checksum": "1220a3410d2ae1ecb4d146768dd5b9d91be77f87b71152ce1d18a6788d16cf0fe03a",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Water extent by Water_Class",
+      "file:size": 916,
+      "file:checksum": "1220e82d63824b8930c085c8f9a5a0d73d1a9e28568c537699019234d4b0fdd128bc"
+    }
+  }
+}

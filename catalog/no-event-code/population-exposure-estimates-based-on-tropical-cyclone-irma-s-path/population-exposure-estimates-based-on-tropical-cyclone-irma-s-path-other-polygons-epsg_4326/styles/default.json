@@ -1,0 +1,33 @@
+{
+  "version": 8,
+  "name": "Other polygons",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "other-polygons",
+      "id": "other-polygons-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": "#555555",
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "other-polygons",
+      "id": "other-polygons-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#555555",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

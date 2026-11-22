@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "landslides/ls20180712afg",
+  "stac_version": "1.1.0",
+  "title": "Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)",
+  "description": "UNOSAT geodata for Landslide, Afghanistan, 12 July 2018 (LS20180712AFG), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected landslide and flood water extent in Peshghor village and surrounding areas in Khenj District, Panjshir Province, Afghanistan as seen on Sentinel-2 satellite imagery, 10 m resolution, collected on 13 July 2018, one day after the disaster happened. The landslides and floodwaters hit villages downstream because of the break-up of the natural banks of the dam. As a result, Peshghor and surrounding villages have been cut off and damages have been reported on structures and buildings. Within the current map extent Saricha primary road is potentially affected by the landslides and the overflow of Panjshir River.  Around 198 buildings are located within areas affected by the landslide and 9 within areas affected by the floods. Due to the resolution of the satellite imagery, the extent of landslide and floodwaters may be underestimated and as a consequence, the number of buildings potentially affected. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Potential affected buildings &  impact caused by landslide and floods in Peshghor village in Khenj District, Afghanistan](https://data.humdata.org/dataset/potential-affected-)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20180712afg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20180712afg-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20180712afg-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20180712afg-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

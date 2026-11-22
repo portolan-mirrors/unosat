@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "fires/fr20230724dza",
+  "stac_version": "1.1.0",
+  "title": "Fire, Algeria, 24 July 2023 (FR20230724DZA)",
+  "description": "UNOSAT geodata for Fire, Algeria, 24 July 2023 (FR20230724DZA), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FR20230724DZA, GDACS Id: 1015944**  Cette carte illustre les zones incendiées telles qu'observées à partir d'une image Pléiades acquise le 27 juillet 2023 à 11:21 heure locale dans les communes de Melbou et Mansouria.\nSur les 70 km² de la zone observée, environ 15km² et 8m² de végétation semblent avoir brûlé dans les communes de Melbou et Ziama Mansouria.\nEn se basant sur les données démographiques Worldpop, dans les communes de Melbou et Ziama Mansouria respectivement environ 2,600 et 5,000 personnes sont potentiellement impactées par les feux de forêt.\nCeci est une analyse préliminaire et n'a pas encore été validée sur le terrain. Ne pas hésiter à envoyer vos commentaires au Centre Satellitaire des Nations Unies (UNOSAT).\n\nHDX datasets:\n\n- [Densité des foyers d'incendies dans les wilayas de Bouira, Tizi Ouzou et Bejaia le 24 juillet 2023](https://data.humdata.org/dataset/densite-des-foyers-d-incendies-dans-les-wilayas-de-bouira-tizi-ouzou-et-bejaia-le-24-juill)\n- [Fire in Algeria - UNOSAT Live Web Map](https://data.humdata.org/dataset/fire-in-algeria-unosat-live-web-map)\n- [Zones incendiées le 25 juillet 2023 dans la Wilaya de Bejaia, Algérie](https://data.humdata.org/dataset/zones-incendiees-le-25-juillet-2023-dans-la-wilaya-de-bejaia-algerie)\n- [Zones incendiées le 25 juillet 2023 dans les communes de Melbou et Ziama Mansouria, Wilayas de Bejaia et Jijel, Algérie](https://data.humdata.org/dataset/zones-incendiees-le-25-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas)\n- [Zones incendiées le 27 juillet 2023 dans les communes de Melbou et Ziama Mansouria, Wilayas de Bejaia et Jijel, Algérie](https://data.humdata.org/dataset/zones-incendiees-le-27-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230724dza-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Fire, Algeria, 24 July 2023 (FR20230724DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230724dza-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Fire, Algeria, 24 July 2023 (FR20230724DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230724dza-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Fire, Algeria, 24 July 2023 (FR20230724DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230724dza-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Fire, Algeria, 24 July 2023 (FR20230724DZA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

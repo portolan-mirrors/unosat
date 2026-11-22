@@ -208,7 +208,10 @@ def write_meta(fam, used, left, notes):
             f"in different ways (for example, Destroyed and Completely Destroyed), and some domains number classes "
             f"differently. `{cls}` is null where the source holds a numeric code with no domain to decode it "
             f"(shapefile exports). A row's `license` is the license of its HDX dataset; a combined work under mixed "
-            f"licenses must meet each one, including share-alike for CC BY-SA rows."),
+            f"licenses must meet each one, including share-alike for CC BY-SA rows."
+            + (" This collection has no PMTiles: tylertoo (git c338560) stalled single-threaded at zoom 3 for more "
+               "than 15 minutes at both max zoom 12 and 10. Each event's own water-extent collection has tiles."
+               if fam == "water-extent" else "")),
         "keywords": ["UNOSAT", "damage assessment" if fam == "damage-sites" else "floods", "humanitarian"],
     }, f"Combined collection {fam}")
     write(CATALOG / "combined", {

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20221117npl",
+  "stac_version": "1.1.0",
+  "title": "Flood, Nepal, 17 November 2022 (FL20221117NPL)",
+  "description": "UNOSAT geodata for Flood, Nepal, 17 November 2022 (FL20221117NPL), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20221117NPL**  This map illustrates satellite-detected surface waters in Sudurpaschim and Lumbini Provinces, Nepal as observed from Sentinel-2 images acquired on 25 & 30 October 2022 (Cumulative). Within the analyzed area of about 5,600 km², a combined 52 km² of lands appear to be flooded on the 25th and the 30th of October 2022. Water extent appears to have decreased of about 37 km² since the 15th October 2022. Based on Worldpop population data and the detected surface waters, about 23,000 people are potentially exposed or living close to flooded areas, of which 10,000 are located In Janaki, Tikapur, Geruwa, Rajapur, Thakurbaba & Madhuwan Palikas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extent over Banke District, Lumbini Province, Nepal as of 25 & 30 October 2022](https://data.humdata.org/dataset/water-extent-over-banke-district-lumbini-province-nepal-as-of-25-30-october-2022)\n- [Satellite detected water extent over Lumbini and Sudurpaschim Provinces, Nepal as of 15 October 2022](https://data.humdata.org/dataset/water-extent-over-lumbini-and-sudurpaschim-provinces-nepal-as-of-15-october-2022)\n- [Satellite detected water extent over Lumbini and Sudurpaschim Provinces, Nepal as of 25 & 30 October 2022](https://data.humdata.org/dataset/water-extent-over-lumbini-and-sudurpaschim-provinces-nepal-as-of-25-30-october-2022)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221117npl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Nepal, 17 November 2022 (FL20221117NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221117npl-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Nepal, 17 November 2022 (FL20221117NPL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221117npl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

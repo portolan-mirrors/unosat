@@ -1,0 +1,124 @@
+{
+  "type": "Catalog",
+  "id": "no-event-code",
+  "stac_version": "1.1.0",
+  "title": "Datasets without an event code",
+  "description": "UNOSAT geodata for 11 datasets that carry no UNOSAT event code. Each child is one event, named by its UNOSAT event code. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017/catalog.json",
+      "type": "application/json",
+      "title": "Damage Assessment in Anguilla Island as of 8 September 2017"
+    },
+    {
+      "rel": "child",
+      "href": "./damage-assessment-in-barbuda-island-as-of-8-september-2017/catalog.json",
+      "type": "application/json",
+      "title": "Damage Assessment in Barbuda Island as of 8 September 2017"
+    },
+    {
+      "rel": "child",
+      "href": "./geodata-of-damage-assessment-of-kalam-area-khyber-pakhtunkhwa-province-pakist-november-05-2015/catalog.json",
+      "type": "application/json",
+      "title": "Geodata of Damage Assessment of Kalam Area, Khyber Pakhtunkhwa Province, Pakistan"
+    },
+    {
+      "rel": "child",
+      "href": "./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016/catalog.json",
+      "type": "application/json",
+      "title": "Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador"
+    },
+    {
+      "rel": "child",
+      "href": "./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/catalog.json",
+      "type": "application/json",
+      "title": "Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador"
+    },
+    {
+      "rel": "child",
+      "href": "./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/catalog.json",
+      "type": "application/json",
+      "title": "Tropical Cyclone IRMA-17 : Population Exposure estimates"
+    },
+    {
+      "rel": "child",
+      "href": "./satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji/catalog.json",
+      "type": "application/json",
+      "title": "Satellite Detected Waters in Savu Area, Naitasiri Province, Central Division, Fiji"
+    },
+    {
+      "rel": "child",
+      "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/catalog.json",
+      "type": "application/json",
+      "title": "Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/catalog.json",
+      "type": "application/json",
+      "title": "Tropical Cyclone IRMA-17 : Path and Wind Speed Zones"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/catalog.json",
+      "type": "application/json",
+      "title": "Tropical Cyclone Maria. Inventory of landslides and flooded areas"
+    },
+    {
+      "rel": "child",
+      "href": "./unosat-gaza-governorate-damage-assessment-update/catalog.json",
+      "type": "application/json",
+      "title": "UNOSAT Gaza Governorate Damage Assessment Update"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

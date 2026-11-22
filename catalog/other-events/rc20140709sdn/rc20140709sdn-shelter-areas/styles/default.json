@@ -1,0 +1,45 @@
+{
+  "version": 8,
+  "name": "Shelter areas by CampType",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../rc20140709sdn-shelter-areas.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "shelter-areas",
+      "id": "shelter-areas-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "CampType"
+            ]
+          ],
+          "1",
+          "#1b9e77",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "shelter-areas",
+      "id": "shelter-areas-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

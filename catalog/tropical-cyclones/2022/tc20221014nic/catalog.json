@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022/tc20221014nic",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC)",
+  "description": "UNOSAT geodata for Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code TC20221014NIC**  This map illustrates cumulative satellite-detected water using VIIRS in Region Autonoma del Atlantico Norte, Nicaragua between 12 to 16 October 2022 compared with the period from 27 September to 01 October 2022. Within the cloud free analyzed areas of about 30,000 km², a total of about 1,900 km² of lands appear to be affected. Water extent appears to have increased of about 1,400 km² since the period between 27 September to 01 October 2022. Based on Worldpop population data and the maximal flood water extent ~8,500 people are potentially exposed or living close to flooded areas amongst the 29,000 people living in cloud free areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extents between 12 and 16 October 2022 over Nicaragua](https://data.humdata.org/dataset/satellite-detected-water-extents-between-12-and-16-october-2022-over-nicaragua)\n- [Satellite detected water extents between 12 and 16 October 2022 over Region Autonoma del Atlantico Norte, Nicaragua](https://data.humdata.org/dataset/water-extents-between-12-and-16-october-2022-over-region-autonoma-del-atlantico-norte-nica)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221014nic-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221014nic-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221014nic/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

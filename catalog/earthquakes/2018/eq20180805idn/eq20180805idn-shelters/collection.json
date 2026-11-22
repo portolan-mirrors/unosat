@@ -1,0 +1,248 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2018/eq20180805idn/eq20180805idn-shelters",
+  "stac_version": "1.1.0",
+  "description": "Shelters for Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN): 176 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage assessment of Gumantar and Dangiang Desa, Kagayan District, Lombok Island, Indonesia](https://data.humdata.org/dataset/damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836)\n- [Potential Informal Gathering Sites over Tanjung & Pemenang Districts, Indonesia](https://data.humdata.org/dataset/potential-informal-gathering-sites-over-tanjung-pemenang-districts-indonesia-2838)\n- [Potentially Damaged Buildings & Gathering Sites over Gili Islands, Lombok Utara District, Indonesia](https://data.humdata.org/dataset/potentially-damaged-buildings-gathering-sites-over-gili-islands-lombok-utara-district-indonesia-2837)\n- [Potentially affected settlements over Tanjung and Pemenang Districts, Lombok Utara Regency, Nusa Tenggara Barat Province](https://data.humdata.org/dataset/potentially-affected-settlements-over-tanjung-and-pemenang-districts-lombok-utara-regency-nusa-)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20180805idn-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelters"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-shelters/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:23Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    116.0953844,
+    -8.3932431,
+    7
+  ],
+  "pmtiles:layers": [
+    "shelters"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 176,
+  "table:row_count": 176,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Site_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "CampStatus",
+      "type": "string"
+    },
+    {
+      "name": "CampName",
+      "type": "string"
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "City_Town",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          116.02860216300007,
+          -8.44503173399994,
+          116.16216668900006,
+          -8.34145450899996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-08-07T00:00:00Z",
+          "2018-08-10T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20180805idn-shelters": {
+      "href": "./eq20180805idn-shelters.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 13566,
+      "file:checksum": "1220350a8b88138a02d8748dfa04478b72fa499ba0061bacbbb7c5ce5015d19ba31e",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20180805idn-shelters-tiles": {
+      "href": "./eq20180805idn-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 71456,
+      "file:checksum": "1220948c9c5d71a2ae7298a1e6d126b0c273033fa4a4e4da52da5340f97cbef01ec8",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelters by CampStatus",
+      "file:size": 913,
+      "file:checksum": "1220df3395eed24dd2e3f828f5dcc52365656313a30d82f7e9781ac81223ecdb0ff6"
+    }
+  }
+}

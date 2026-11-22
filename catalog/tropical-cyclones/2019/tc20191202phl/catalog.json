@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2019/tc20191202phl",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL)",
+  "description": "UNOSAT geodata for Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20191202PHL**  This map illustrates satellite-based structural damage assessment in San Pascual municipality in the northeastern part of Masbate region, Bicol Region province, in the Philippines. The area was affected by Typhoon Kammuri that made landfall on 3 December 2019. UNITAR-UNOSAT identified 16 potentially damaged structures around San Pascual town, in the San Pascual municipality, within the extent of this map. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Damage Assessment of San Pascual Municipality, Northeastern Part of the Masbate Region, Bicol Region Province](https://data.humdata.org/dataset/damage-assessment-of-san-pascual-municipality-northeastern-part-of-the-masbate-region-bico)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20191202phl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20191202phl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20191202phl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

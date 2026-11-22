@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2015/fl20151015som",
+  "stac_version": "1.1.0",
+  "title": "Flood, Somalia, 15 October 2015 (FL20151015SOM)",
+  "description": "UNOSAT geodata for Flood, Somalia, 15 October 2015 (FL20151015SOM), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected areas of potentially saturated soils and probable flood waters in the Buulobarde Shabelle region of Somalia. Using satellite imagery acquired 30 October 2015 and 02 January 2015, UNITAR-UNOSAT identified a total affected area of roughly 10,434 hectares in the Shabelle Dhexe and Hiraan provinces. As of 30 October 2015, approximately 10,088 hectares of possibly saturated wet soils, as well as about 346 hectares of probable standing flood waters were detected over the districts of Bulo Burto, Jalalaqsi, and Jowhar. Due to the low spatial resolution of satellite data used for this analysis, the exact limit of flood water is uncertain. Detected water bodies likely reflect an underestimation of all flood-affected areas within the map extent. This analysis has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Saturated Soils Over Buulobarde Shabelle Region, Somalia](https://data.humdata.org/dataset/geodata-of-saturated-soils-over-buulobarde-shabelle-region-somalia-october-30-2015)\n- [Geodata of Saturated Soils Over Jowhar Middle Shabelle Region, Somalia](https://data.humdata.org/dataset/geodata-of-saturated-soils-over-jowhar-middle-shabelle-region-somalia-november-03-2015)\n- [Geodata of Saturated Soils Over the Shabelle Hoose Region, Somalia](https://data.humdata.org/dataset/geodata-of-saturated-soils-over-the-shabelle-hoose-region-somalia-november-18-2015)\n- [Geodata of Standing Waters Over Jowhar Middle Shabelle Region, Somalia](https://data.humdata.org/dataset/geodata-of-standing-waters-over-jowhar-middle-shabelle-region-somalia-november-16-2015)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20151015som-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Somalia, 15 October 2015 (FL20151015SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20151015som-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Somalia, 15 October 2015 (FL20151015SOM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151015som/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

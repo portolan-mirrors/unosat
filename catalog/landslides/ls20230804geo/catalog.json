@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "landslides/ls20230804geo",
+  "stac_version": "1.1.0",
+  "title": "Landslide, Georgia, 4 August 2023 (LS20230804GEO)",
+  "description": "UNOSAT geodata for Landslide, Georgia, 4 August 2023 (LS20230804GEO), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code LS20230804GEO, GDACS Id: 1102154**  This map illustrates satellite-detected landslides/mudflow in Oni District, Racha-Lechkhumi and Kvemo Svaneti Region, Georgia as observed from a Pléiades imagery acquired on 06 August 2023 at 14:30 local time.\nWithin the analyzed area of 9,600 ha, about 220 ha of landslide scars were observed. UNITAR-UNOSAT identified 30 affected structures and 6 potentially affected structures.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Landslide impact analysis in Oni District, Racha-Lechkhumi and Kvemo Svaneti Region, Georgia as of 06 August 2023](https://data.humdata.org/dataset/landslide-impact-analysis-in-oni-district-racha-lechkhumi-and-kvemo-svaneti-region-georgia)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20230804geo-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Landslide, Georgia, 4 August 2023 (LS20230804GEO)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20230804geo-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Landslide, Georgia, 4 August 2023 (LS20230804GEO)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20230804geo-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Landslide, Georgia, 4 August 2023 (LS20230804GEO)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20230804geo-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Landslide, Georgia, 4 August 2023 (LS20230804GEO)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

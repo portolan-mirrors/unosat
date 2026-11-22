@@ -1,0 +1,252 @@
+{
+  "type": "Collection",
+  "id": "volcanoes/vo20180605gtm/vo20180605gtm-damage-areas",
+  "stac_version": "1.1.0",
+  "description": "Damage areas for Volcano, Guatemala, 5 June 2018 (VO20180605GTM): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Estimación del número de viviendas y estructuras dañadas en la aldea de San Miguel de Los Lotes y los alreadedores](https://data.humdata.org/dataset/estimacion-del-numero-de-viviendas-y-estructuras-danadas-en-la-aldea-de-san-miguel-de-los-lotes-y-)\n- [Volcano de Fuego: Estimation of damaged buildings in San Miguel de Los Lotes and surrouding area, Guatemala](https://data.humdata.org/dataset/volcano-de-fuego-estimation-of-damaged-buildings-in-san-miguel-de-los-lotes-and-surrouding-area-)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/estimacion-del-numero-de-viviendas-y-estructuras-danadas-en-la-aldea-de-san-miguel-de-los-lotes-y-",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./vo20180605gtm-damage-areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "damage-areas"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20180605gtm/vo20180605gtm-damage-areas/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:32:58Z",
+  "pmtiles:min_zoom": 4,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -90.8487246,
+    14.4305301,
+    9
+  ],
+  "pmtiles:layers": [
+    "damage-areas"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 1,
+  "table:row_count": 1,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "SiteID",
+      "type": "string"
+    },
+    {
+      "name": "SensorDate",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "FieldValid",
+      "type": "string"
+    },
+    {
+      "name": "Settlement",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Main_Damag",
+      "type": "string"
+    },
+    {
+      "name": "Grouped_Da",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "ImageID_Nu",
+      "type": "int64"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Damage areas: Volcano, Guatemala, 5 June 2018 (VO20180605GTM)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -90.8847434569999,
+          14.383629211000084,
+          -90.8127058359999,
+          14.477431031000037
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-06-07T00:00:00Z",
+          "2018-06-07T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "vo20180605gtm-damage-areas": {
+      "href": "./vo20180605gtm-damage-areas.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 41028,
+      "file:checksum": "1220079ed2e7ce68a028bb52e409e65df960d25160d1cee291c63cda69e4faba8a27",
+      "roles": [
+        "data"
+      ]
+    },
+    "vo20180605gtm-damage-areas-tiles": {
+      "href": "./vo20180605gtm-damage-areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 62798,
+      "file:checksum": "122086b53e4cdc3ea2873f3cdfb52b13cf769975c80f52f958925d34e2786e12b180",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Damage areas by Main_Damag",
+      "file:size": 875,
+      "file:checksum": "1220a6b7ca1e8348d4f2d6d02aa341755ab86d3d020251b1430f4fe97026a2493428"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2020/fl20200305zmb",
+  "stac_version": "1.1.0",
+  "title": "Flood, Zambia, 5 March 2020 (FL20200305ZMB)",
+  "description": "UNOSAT geodata for Flood, Zambia, 5 March 2020 (FL20200305ZMB), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20200305ZMB**  This map illustrates satellite-detected waters in Chitambo, Lunga, Samfya, Lavushimanda and Chilubi District; Central, Luapula, Muchinga and Northern Province of Zambia as observed from Sentinel-1 imagery acquired on 4 March 2020. Within the analysed area of 10,000 km2, a total of about 705 km2 of land appear to be flooded. Based on Worldpop population data and the detected surface waters, about 7,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITARUNOSAT.\n\nHDX datasets:\n\n- [Satellite detected water extents and damage assessment  over the eastern part of Ncheta, Zambia](https://data.humdata.org/dataset/water-extents-and-damage-assessment-as-of-7-march-2020-over-the-eastern-part-of-ncheta-zam)\n- [Satellite detected water extents and damage assessment over the northern part of Ncheta, Zambia](https://data.humdata.org/dataset/water-extents-and-damage-assessment-as-of-7-march-2020-over-the-northern-part-of-ncheta-za)\n- [Satellite detected waters extents over Northern Zambia](https://data.humdata.org/dataset/waters-extents-between-the-1st-and-the-05th-march-2020-over-northern-zambia)\n- [Satellite detected waters extents, as of 4 March 2020 over  Central, Luapula, Muchinga and Northern Province, Zambia](https://data.humdata.org/dataset/waters-extents-as-of-4-march-2020-over-central-luapula-muchinga-and-northern-province-zamb)\n- [Satellite-derived flood assessment in Luapula and Northern provinces, Republic of Zambia](https://data.humdata.org/dataset/satellite-derived-flood-assessment-in-luapula-and-northern-provinces-republic-of-zambia)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200305zmb-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Zambia, 5 March 2020 (FL20200305ZMB)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200305zmb-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Zambia, 5 March 2020 (FL20200305ZMB)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200305zmb-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Zambia, 5 March 2020 (FL20200305ZMB)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200305zmb/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2020/tc20200403vut",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)",
+  "description": "UNOSAT geodata for Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT), from 9 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20200403VUT**  This map illustrates potentially damaged structures and buildings in south of Sanma Province, Vanuatu as detected by satellite image acquired after landfall of the Tropical Cyclone Harold-20 on 6 April 2020. UNITAR-UNOSAT analysis identified about 5,200 potentially damaged structures in the analysis extent across the south of Sanma province within the cloud free areas. Taking into account the pre-building footprints provided by Humanitarian OpenStreetMap, this represents about 33% of the total number of structures/buildings within the analyzed cloud free areas. Please note that some areas could not be analyzed due to the cloud cover. Total and final estimates by municipality are summarized in the table below.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Buildings Damage Assessment & Related Density in South of Sanma Province, Vanuatu](https://data.humdata.org/dataset/buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu)\n- [Damage Assessment in Ambae Island, Penama Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-ambae-island-penama-province-vanuatu)\n- [Damage Assessment in CanalFanafo, Luganville and South East Santo Municipalities, Sanma Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov)\n- [Damage Assessment in Luganville Municipality, Sanma Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-luganville-municipality-sanma-province-vanuatu)\n- [Damage Assessment in Maewo Island, Penama Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-maewo-island-penama-province-vanuatu)\n- [Damage Assessment in Malampa Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-malampa-province-vanuatu)\n- [Damage Assessment in Malo Island, Sanma Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-malo-island-sanma-province-vanuatu)\n- [Damage Assessment in Paama Island, Malampa Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-paama-island-malampa-province-vanuatu)\n- [Damage Assessment in West Santo and South Santo Municipality, Sanma Province, Vanuatu](https://data.humdata.org/dataset/damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200403vut-analysis-extent-epsg_32758/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200403vut-analysis-extent-epsg_4326/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200403vut-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200403vut-water-extent-lines/collection.json",
+      "type": "application/json",
+      "title": "Water extent lines: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200403vut-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

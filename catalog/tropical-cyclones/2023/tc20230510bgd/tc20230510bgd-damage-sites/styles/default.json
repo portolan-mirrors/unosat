@@ -1,0 +1,52 @@
+{
+  "version": 8,
+  "name": "Damage sites by Main_Damage_Site_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../tc20230510bgd-damage-sites.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-sites",
+      "id": "damage-sites-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damage_Site_Class_label"
+            ]
+          ],
+          "Possible Damage",
+          "#fdcc8a",
+          "Severe Damage",
+          "#d7301f",
+          "#bdbdbd"
+        ],
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

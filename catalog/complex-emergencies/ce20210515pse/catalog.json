@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20210515pse",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE)",
+  "description": "UNOSAT geodata for Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: CE20210515PSE**  This map illustrates a rapid satellite imagery based building damage analysis within an area of Gaza and North Gaza Governorates, Gaza Strip, Occupied Palestinian Territory based on an image collected on 20 May 2021. According to satellite imagery analysis, there are visible 23 impact craters to roads, 331 destroyed or damaged buildings, and 131 areas of possible damage on the road or road-blocking debris. According to publicly available data about 12 health care facilities and more than 40 educational facilities are located within 100 meters of damaged areas and are shown on the map. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Damage Assessment in North Gaza as of 20 May 2021](https://data.humdata.org/dataset/damage-assessment-in-north-gaza-as-of-20-may-2021)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20210515pse-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20210515pse/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

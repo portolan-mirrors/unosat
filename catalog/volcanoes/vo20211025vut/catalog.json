@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "volcanoes/vo20211025vut",
+  "stac_version": "1.1.0",
+  "title": "Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)",
+  "description": "UNOSAT geodata for Volcano, Vanuatu, 25 October 2021 (VO20211025VUT), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: VO20211025VUT**  This map illustrates the volcanic ashfall dispersion as observed using Sentinel-2 imagery acquired on  23 October 2021, 10:00 hrs. local time over Yasur volcano on Tanna Island, Vanuatu. At the time of the acquisition, the ashfall covered about 20 km2 at the Southwestern direction of the volcanic crater. Using the building footprints of Humanitarian Open Street Map as a baseline, around 440 buildings in the cloud free zone are located within areas covered by ash and smoke, representing 3% of the total number of buildings in Tanna island.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Potential ash deposit extent by Yasur Volcano, Tanna Island, Vanuatu as of 23 October 2021](https://data.humdata.org/dataset/potential-ash-deposit-extent-by-yasur-volcano-tanna-island-vanuatu-as-of-23-october-2021)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20211025vut-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20211025vut-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

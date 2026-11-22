@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2016/tc20161005cub",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)",
+  "description": "UNOSAT geodata for Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates potential satellite-detected structures in Cajobabo town and the surrounding area in Guantanamo Province, Cuba. The UNITAR-UNOSAT analysis used a Pleiades satellite image, acquired on the 7 of October, 2016. The analysis identified 450 damaged structures within the map extent of which 211 were identified inside the town of Cajobabo. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Cuba - Damage Assessment in Baracoa town, Guantanamo province](https://data.humdata.org/dataset/damage-assessment-in-baracoa-town-guantanamo-province-cuba)\n- [Cuba - Damage Assessment in Cajobabo and surrounding area](https://data.humdata.org/dataset/damage-assessment-in-cajobabo-and-surrounding-area)\n- [Cuba - Damage Assessment in Maisi town and surroundings](https://data.humdata.org/dataset/damage-assessment-in-maisi-town-and-surroundings)\n- [Damage Assessment in Imias area,Guantanamo province, Cuba](https://data.humdata.org/dataset/damage-assessment-in-imias-area-guantanamo-province-cuba)\n- [Hurricane Matthew Preliminary Satellite Based Damage Assessment Report: Guantanamo Province, Cuba](https://data.humdata.org/dataset/hurricane-matthew-preliminary-satellite-based-damage-assessment-report-guantanamo-province-cuba)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20161005cub-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20161005cub-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161005cub/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

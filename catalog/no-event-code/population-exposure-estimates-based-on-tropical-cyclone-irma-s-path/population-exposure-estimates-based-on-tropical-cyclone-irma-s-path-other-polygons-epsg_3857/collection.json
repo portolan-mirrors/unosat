@@ -1,0 +1,270 @@
+{
+  "type": "Collection",
+  "id": "no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Tropical Cyclone IRMA-17 : Population Exposure estimates: 2 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Tropical Cyclone IRMA-17 : Population Exposure estimates](https://data.humdata.org/dataset/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:16Z",
+  "pmtiles:min_zoom": 3,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -63.09813,
+    17.5636999,
+    8
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 2,
+  "table:row_count": 2,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "objectid",
+      "type": "int64"
+    },
+    {
+      "name": "fid_abyei_",
+      "type": "int64"
+    },
+    {
+      "name": "fid_un_1m_",
+      "type": "int64"
+    },
+    {
+      "name": "objectid_1",
+      "type": "int64"
+    },
+    {
+      "name": "iso3_code",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "capital",
+      "type": "string"
+    },
+    {
+      "name": "terr_id",
+      "type": "int64"
+    },
+    {
+      "name": "terr_name",
+      "type": "string"
+    },
+    {
+      "name": "color_code",
+      "type": "string"
+    },
+    {
+      "name": "shape_leng",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "fid_ssd_fe",
+      "type": "int64"
+    },
+    {
+      "name": "st_area_sh",
+      "type": "double"
+    },
+    {
+      "name": "st_length_",
+      "type": "double"
+    },
+    {
+      "name": "ORIG_FID",
+      "type": "int64"
+    },
+    {
+      "name": "Pop_60",
+      "type": "int64"
+    },
+    {
+      "name": "Pop_90",
+      "type": "int64"
+    },
+    {
+      "name": "Pop_120",
+      "type": "int64"
+    },
+    {
+      "name": "Total_pop",
+      "type": "int64"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -63.252590001296184,
+          17.47130000007949,
+          -62.94367000036066,
+          17.65609999972453
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-09-07T00:00:00Z",
+          "2017-09-07T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857": {
+      "href": "./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 9573,
+      "file:checksum": "1220a08277aeb41104d57f8db4412b2c397fceefa8f0c4687d581f9726a7488aeea9",
+      "proj:code": "EPSG:3857",
+      "roles": [
+        "data"
+      ]
+    },
+    "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857-tiles": {
+      "href": "./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 28870,
+      "file:checksum": "1220f8491a362e7719af4539ded447ac6fff20fbe445dd2ca082dc1d84e6911b0b84",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 728,
+      "file:checksum": "1220a5a9fbf35cdd1e93964fb3f490d0f5403196c351998a68f50b770c284e86abd6"
+    }
+  }
+}

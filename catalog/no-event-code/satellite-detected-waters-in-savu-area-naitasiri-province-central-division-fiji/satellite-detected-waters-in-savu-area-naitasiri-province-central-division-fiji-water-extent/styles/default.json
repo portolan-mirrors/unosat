@@ -1,0 +1,45 @@
+{
+  "version": 8,
+  "name": "Water extent by Water_Clas",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Water_Clas"
+            ]
+          ],
+          "Flood-Affected Land / Possible Flood water",
+          "#6baed6",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

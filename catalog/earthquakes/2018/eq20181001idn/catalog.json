@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2018/eq20181001idn",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN)",
+  "description": "UNOSAT geodata for Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected building damage assessment as of 02 October 2018, over Pantoloan area northeastern Palu city in Central Sulawesi following the 7.5 magnitude earthquake and subsequent tsunami of the 28th of September 2018. The analysis was conducted using a post-event Worldview-2 satellite image acquired 2 October 2018. UNITAR-UNOSAT identified in the analysed area 424 potentially damaged structures.Taking into account the pre-building footprints provided by Humanitarian OpenStreetMap, this represents about 10% of the total number of structures damaged within this analysed zone of Pantoloan. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR – UNOSAT.\n\nHDX datasets:\n\n- [Damage assessment of Pantoloan area in Central Sulawesi](https://data.humdata.org/dataset/damage-assessment-of-pantoloan-area-in-central-sulawesi-2846)\n- [Damage assessment of Taipa area in  Central Sulawesi](https://data.humdata.org/dataset/damage-assessment-of-taipa-area-in-central-sulawesi-2845)\n- [Damage assessment of Tawaeli area in Central Sulawesi](https://data.humdata.org/dataset/damage-assessment-oftawaeli-area-in-central-sulawesi-2847)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20181001idn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20181001idn-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20181001idn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

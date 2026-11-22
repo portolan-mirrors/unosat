@@ -1,0 +1,244 @@
+{
+  "type": "Collection",
+  "id": "floods/2018/fl20180723lao/fl20180723lao-water-extent",
+  "stac_version": "1.1.0",
+  "description": "Water extent for Flood, Lao People's Democratic Republic, 23 July 2018 (FL20180723LAO): 197,987 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Evolution satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic](https://data.humdata.org/dataset/evolution-satellite-)\n- [Evolution satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic](https://data.humdata.org/dataset/evolution-satellite-detected-water-extent-over-)\n- [Evolution satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic](https://data.humdata.org/dataset/evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-)\n- [Satellite detected water extent as of 27 July 2018 over Sanamxay District, Attapeu Province, Lao PDR](https://data.humdata.org/dataset/satellite-detected-water-extent-as-)\n- [Satellite detected water extent as of 27 July 2018 over Sanamxay District, Attapeu Province, Lao PDR](https://data.humdata.org/dataset/satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-)\n- [Satellite detected water extent as of 30 July 2018 over Samakkhixay District, Attapeu Province, Lao PDR](https://data.humdata.org/dataset/satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-)\n- [Satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic](https://data.humdata.org/dataset/satellite-detected-)\n- [Satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic](https://data.humdata.org/dataset/satellite-detected-water-extent-over-sanamxay-)\n- [Satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic](https://data.humdata.org/dataset/satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-)\n- [Time series Evolution flood satellite detected waters 13 - 29 July 2018](https://data.humdata.org/dataset/time-series-evolution-flood-satellite-detected-)\n- [Time series Evolution flood satellite detected waters 13 - 29 July 2018](https://data.humdata.org/dataset/time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830)\n- [Time series: evolution satellite detected water extent over Sanamxay District, Attapeu Province, Lao PDR](https://data.humdata.org/dataset/time-series-evolution-satellite-detected-water-)\n- and 1 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/evolution-satellite-",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20180723lao-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "water-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180723lao/fl20180723lao-water-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:22:47Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    106.8243171,
+    14.8769731,
+    6
+  ],
+  "pmtiles:layers": [
+    "water-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 197987,
+  "table:row_count": 197987,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Water_Clas",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "Water_Stat",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "SenorID_ol",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Water extent: Flood, Lao People's Democratic Republic, 23 July 2018 (FL20180723LAO)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          106.26278127300003,
+          14.421916586000066,
+          107.34377573500007,
+          15.332053073000054
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-07-26T00:00:00Z",
+          "2018-08-07T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20180723lao-water-extent": {
+      "href": "./fl20180723lao-water-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 86666316,
+      "file:checksum": "122045c7dfbbc37e0f897cd4b382609f37e53cfdf8b786682eb8747a12faf85ffadf",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20180723lao-water-extent-tiles": {
+      "href": "./fl20180723lao-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 30457757,
+      "file:checksum": "1220215ab7abac46fae69b9a236e437c3e2e1a9196133253881871a3b3c218e8e955",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Water extent by Water_Clas",
+      "file:size": 879,
+      "file:checksum": "1220b62c3753a8e138f69c62bf200745b4b95412d062b50e4d8696b0f6e21974c546"
+    }
+  }
+}

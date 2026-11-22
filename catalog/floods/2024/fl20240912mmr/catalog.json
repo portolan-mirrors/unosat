@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240912mmr",
+  "stac_version": "1.1.0",
+  "title": "Flood, Myanmar, 12 September 2024 (FL20240912MMR)",
+  "description": "UNOSAT geodata for Flood, Myanmar, 12 September 2024 (FL20240912MMR), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240912MMR**  This map illustrates aggregated satellite detected floods using Sentinel-1 images acquired on 03 to 20 September 2024 using an automated analysis with a machine learning method. Within the analysed area of about 80,000 km², a total of about 5,100 km² of land appears to be affected by flood waters and about 4,500 km² of cropland appears to be inundated. Based on Worldpop spatial demographic data, about 760,000 people are exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Flood Impact Assessment in North Taungoo, Bago State, Myanmar as of 02 October 2024](https://data.humdata.org/dataset/flood-impact-assessment-in-north-taungoo-bago-state-myanmar-as-of-02-october-2024)\n- [Satellite detected water  extents in Mandalay,  Kayah, Shan (South), Nay  Pyi Taw, Bago (Est), Mon  and Kayin States,  Myanmar as of 03 & 23  September 2024](https://data.humdata.org/dataset/water-extents-in-mandalay-kayah-shan-south-nay-pyi-taw-bago-est-mon-and-kayin-states-myanm)\n- [Satellite detected water  extents in central part  of Myanmar as of 15  September 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-central-part-of-myanmar-as-of-15-september-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240912mmr-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Myanmar, 12 September 2024 (FL20240912MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240912mmr-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240912mmr-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Flood, Myanmar, 12 September 2024 (FL20240912MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240912mmr-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2026/eq20260810col/eq20260810col-other-polygons",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Earthquake, Colombia, 10 August 2026 (EQ20260810COL): 10 features merged from 10 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Building Damage Assessment Density Map in Zarzal City, Valle del Cauca Department, Colombia  as of 13 August 2026](https://data.humdata.org/dataset/building-damage-assessment-density-map-in-zarzal-city-valle-del-cauca-department-colombia-)\n- [Building Damage Assessment in Viterbo Town, Caldas Department, Colombia  as of 12 August 2026](https://data.humdata.org/dataset/building-damage-assessment-in-viterbo-town-caldas-department-colombia-as-of-12-august-2026)\n- [Evaluación de daños en edificaciones en la ciudad de Zarzal, Valle del Cauca, Colombia, al 13 de agosto de 2026](https://data.humdata.org/dataset/evaluacion-de-danos-en-edificaciones-en-la-ciudad-de-zarzal-valle-del-cauca-colombia-al-13)\n- [M 7.4  in South of San José del Palmar, Colombia 10 August 2026 at 12:34 UTC](https://data.humdata.org/dataset/m-7-4-in-south-of-san-jose-del-palmar-colombia-10-august-2026-at-12-34-utc)\n- [PRELIMINARY SATELLITE-DERIVED DAMAGE ASSESSMENT - San José Del Palmar municipality, Chocó department, Colombia](https://data.humdata.org/dataset/preliminary-satellite-derived-damage-assessment-san-jose-del-palmar-municipality-choco-dep)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/building-damage-assessment-density-map-in-zarzal-city-valle-del-cauca-department-colombia-",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20260810col-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-other-polygons/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:59Z",
+  "pmtiles:min_zoom": 2,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -75.9719987,
+    4.7298999,
+    7
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon Z"
+  ],
+  "geoparquet:feature_count": 10,
+  "table:row_count": 10,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "FolderPath",
+      "type": "string"
+    },
+    {
+      "name": "SymbolID",
+      "type": "int32"
+    },
+    {
+      "name": "AltMode",
+      "type": "int16"
+    },
+    {
+      "name": "Base",
+      "type": "double"
+    },
+    {
+      "name": "Clamped",
+      "type": "int16"
+    },
+    {
+      "name": "Extruded",
+      "type": "int16"
+    },
+    {
+      "name": "Snippet",
+      "type": "string"
+    },
+    {
+      "name": "PopupInfo",
+      "type": "string"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Shape_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -76.10029999999995,
+          4.368600000000072,
+          -75.8436999999999,
+          5.091200000000072
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-08-11T00:00:00Z",
+          "2026-08-21T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20260810col-other-polygons": {
+      "href": "./eq20260810col-other-polygons.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 7403,
+      "file:checksum": "122035c1b15c403bfb1a2a101353c8e2c555ac505fa14a204050a9dce614c1d31e78",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20260810col-other-polygons-tiles": {
+      "href": "./eq20260810col-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 32532,
+      "file:checksum": "1220ebe8876dc36760d4a7ee351d570bd804562a06ab1460dc89390561a4a69ac82b",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 664,
+      "file:checksum": "122048e7707fc53e3ce5f3c5f6ad3776d96b3448de9ba9fa10f58535c8ebd145565f"
+    }
+  }
+}

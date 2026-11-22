@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "volcanoes/vo20210523cod",
+  "stac_version": "1.1.0",
+  "title": "Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)",
+  "description": "UNOSAT geodata for Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD), from 7 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: VO20210523COD**  Cette carte illustre les structures et bâtiments potentiellement impactées par la coulée de lave dans le district de Nyiragongo, province du Nord-Kivu en République Démocratique du Congo suite à l'éruption  du volcan Nyiragongo du 22 mai 2021. A partir de l'analyse d'une image radar TerraSAR-X acquise le 24 mai 2021 à 16:13 UTC, UNITAR-UNOSAT a observé une coulée de lave qui s'est arrêtée à 700m des installations aéroportuaires. Sur l'étendue de l'analyse, environ 1,600 structures sont potentiellement impactées par la coulée de lave à la date d'acquisition de l'image radar.\nCeci est une analyse préliminaire et n'a pas encore été validée sur le terrain. Veuillez d'envoyer vos commentaires à UNITAR-UNOSAT.\nNote:  L'analyse de coulée de lave à partir d'une image radar peut surestimer la trace de la coulée de lave à cause du coefficient de rétrodiffusion du signal radar.\n\nHDX datasets:\n\n- [Coulée de lave et structures affectées suite à l'éruption volcanique du Nyiragongo, Province du Nord-Kivu, RD Congo](https://data.humdata.org/dataset/coulee-de-lave-et-structures-affectees-suite-a-l-eruption-volcanique-du-nyiragongo-provinc)\n- [Lava flow and affected structures caused by  the volcanic eruption of the 22 May 2021 in Kanyanza village, DR Congo](https://data.humdata.org/dataset/lava-flow-and-affected-structures-caused-by-the-volcanic-eruption-of-the-22-may-2021-in-ka)\n- [Lava flow and affected structures caused by Nyiragongo volcanic eruption, Nord-Kivu Province, DR Congo](https://data.humdata.org/dataset/lava-flow-and-affected-structures-caused-by-nyiragongo-volcanic-eruption-nord-kivu-provinc)\n- [Lava flow and affected structures caused by the volcanic eruption of the 22 May 2021 in north of Goma airport, DR Congo](https://data.humdata.org/dataset/lava-flow-and-affected-structures-caused-by-the-volcanic-eruption-of-the-22-may-2021-in-no)\n- [Lava flow and geological information in NordKivu Province, DR Congo and Western Province, Rwanda as of 01 June 2021](https://data.humdata.org/dataset/lava-flow-and-geological-information-in-nordkivu-province-dr-congo-and-western-province-rw)\n- [Lava flow and geological information related to the volcanic eruption in DR Congo and Rwanda as of 27 May 2021](https://data.humdata.org/dataset/lava-flow-and-geological-information-related-to-the-volcanic-eruption-in-dr-congo-and-rwan)\n- [Lava flow extent and affected structures caused by the 22 May 2021 Nyiragongo volcanic eruption in Goma, DR Congo](https://data.humdata.org/dataset/lava-flow-extent-and-affected-structures-caused-by-the-22-may-2021-nyiragongo-volcanic-eru)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20210523cod-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20210523cod-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20210523cod-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20210523cod-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

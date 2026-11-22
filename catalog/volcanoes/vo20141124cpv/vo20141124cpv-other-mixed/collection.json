@@ -1,0 +1,239 @@
+{
+  "type": "Collection",
+  "id": "volcanoes/vo20141124cpv/vo20141124cpv-other-mixed",
+  "stac_version": "1.1.0",
+  "description": "Other mixed for Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV): 1 features merged from 1 source layer. Mixed layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Pico de Fogo Volcanic Eruption, Fogo Island, Cape Verde - Impact](https://data.humdata.org/dataset/geodata-of-pico-de-fogo-volcanic-eruption-fogo-island-cape-verde-impact-november-28-2014)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-pico-de-fogo-volcanic-eruption-fogo-island-cape-verde-impact-november-28-2014",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./vo20141124cpv-other-mixed.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-mixed"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20141124cpv/vo20141124cpv-other-mixed/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:32:55Z",
+  "pmtiles:min_zoom": 5,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -24.363231,
+    14.9457007,
+    9
+  ],
+  "pmtiles:layers": [
+    "other-mixed"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon Z"
+  ],
+  "geoparquet:feature_count": 1,
+  "table:row_count": 1,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "begin",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "altitudeMode",
+      "type": "string"
+    },
+    {
+      "name": "tessellate",
+      "type": "int32"
+    },
+    {
+      "name": "extrude",
+      "type": "int32"
+    },
+    {
+      "name": "visibility",
+      "type": "int32"
+    },
+    {
+      "name": "drawOrder",
+      "type": "int32"
+    },
+    {
+      "name": "icon",
+      "type": "string"
+    },
+    {
+      "name": "snippet",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other mixed: Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -24.37598509799994,
+          14.92360233200009,
+          -24.35047700599995,
+          14.96779923700007
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-11-28T00:00:00Z",
+          "2014-11-28T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "vo20141124cpv-other-mixed": {
+      "href": "./vo20141124cpv-other-mixed.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 16365,
+      "file:checksum": "122056457e4826bd178e9a20bfbf585c408d51c9775c1121e7d3195c423d723af2e5",
+      "roles": [
+        "data"
+      ]
+    },
+    "vo20141124cpv-other-mixed-tiles": {
+      "href": "./vo20141124cpv-other-mixed.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 30268,
+      "file:checksum": "1220ca1dd9137c1d43027b045f02975180932fb95513ebc16767abb77a801a3e8e51",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other mixed",
+      "file:size": 646,
+      "file:checksum": "1220ef7839863445889d7508734594e3e5f692bbf0156f2d14379403030283378c29"
+    }
+  }
+}

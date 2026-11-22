@@ -1,0 +1,62 @@
+{
+  "version": 8,
+  "name": "Damage sites by Main_Damage_Site_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../fl20251006btn-damage-sites.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-sites",
+      "id": "damage-sites-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damage_Site_Class_label"
+            ]
+          ],
+          "Possibly damaged",
+          "#1b9e77",
+          "Building Damage",
+          "#d95f02",
+          "Possible Damage",
+          "#fdcc8a",
+          "Land Slide",
+          "#7570b3",
+          "Damage",
+          "#e7298a",
+          "Road Damge",
+          "#66a61e",
+          "Bridge Damage",
+          "#e6ab02",
+          "#bdbdbd"
+        ],
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

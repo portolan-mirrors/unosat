@@ -1,0 +1,336 @@
+{
+  "type": "Collection",
+  "id": "other-events/ot20180419col/ot20180419col-other-points",
+  "stac_version": "1.1.0",
+  "description": "Other points for Event, Colombia, 19 April 2018 (OT20180419COL): 27 features merged from 2 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Análisis en terreno: Visitas de control y reconocimiento a lo largo de la quebrada Lizama y Caño Muerto, Barrancabermeja](https://data.humdata.org/dataset/analisis-en-terreno-visitas-de-control-y-reconocimiento-a-lo-largo-de-la-quebrada-lizama-y-cano-)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/analisis-en-terreno-visitas-de-control-y-reconocimiento-a-lo-largo-de-la-quebrada-lizama-y-cano-",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ot20180419col-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-points"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20180419col/ot20180419col-other-points/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:42Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -73.5941862,
+    7.170157,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-points"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint Z"
+  ],
+  "geoparquet:feature_count": 27,
+  "table:row_count": 27,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "FID_1",
+      "type": "int64"
+    },
+    {
+      "name": "FID_1_1",
+      "type": "int64"
+    },
+    {
+      "name": "Path",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "DateTime",
+      "type": "string"
+    },
+    {
+      "name": "Direction",
+      "type": "double"
+    },
+    {
+      "name": "Angle",
+      "type": "string"
+    },
+    {
+      "name": "Caption",
+      "type": "string"
+    },
+    {
+      "name": "Number",
+      "type": "int64"
+    },
+    {
+      "name": "Path_1",
+      "type": "string"
+    },
+    {
+      "name": "FID_2",
+      "type": "int64"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "photo",
+      "type": "string"
+    },
+    {
+      "name": "descriptio",
+      "type": "string"
+    },
+    {
+      "name": "recDate",
+      "type": "string"
+    },
+    {
+      "name": "pubDate",
+      "type": "string"
+    },
+    {
+      "name": "author",
+      "type": "string"
+    },
+    {
+      "name": "caption_1",
+      "type": "string"
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "priority",
+      "type": "int64"
+    },
+    {
+      "name": "category",
+      "type": "string"
+    },
+    {
+      "name": "mission",
+      "type": "string"
+    },
+    {
+      "name": "lat",
+      "type": "double"
+    },
+    {
+      "name": "lon",
+      "type": "double"
+    },
+    {
+      "name": "directio_1",
+      "type": "double"
+    },
+    {
+      "name": "asignlink",
+      "type": "string"
+    },
+    {
+      "name": "viewlink",
+      "type": "string"
+    },
+    {
+      "name": "Distance",
+      "type": "double"
+    },
+    {
+      "name": "FID_3",
+      "type": "int64"
+    },
+    {
+      "name": "caption_2",
+      "type": "string"
+    },
+    {
+      "name": "recDate_1",
+      "type": "string"
+    },
+    {
+      "name": "pubDate_1",
+      "type": "string"
+    },
+    {
+      "name": "author_1",
+      "type": "string"
+    },
+    {
+      "name": "lat_1",
+      "type": "double"
+    },
+    {
+      "name": "lon_1",
+      "type": "double"
+    },
+    {
+      "name": "Distance_1",
+      "type": "double"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other points: Event, Colombia, 19 April 2018 (OT20180419COL)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -73.64491660443117,
+          7.129944209181958,
+          -73.54345579673985,
+          7.210369982304179
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-04-20T00:00:00Z",
+          "2018-04-20T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ot20180419col-other-points": {
+      "href": "./ot20180419col-other-points.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 20562,
+      "file:checksum": "12205b20f8231bbfbf637b8059b17c65e974fd5cd146b78fb637a93a546218ac4a2f",
+      "roles": [
+        "data"
+      ]
+    },
+    "ot20180419col-other-points-tiles": {
+      "href": "./ot20180419col-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 75631,
+      "file:checksum": "12205a2f78a5ed7e5d59b61e279cdb62d4d41629fddf89d23ebeb1d4c523b103fc68",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other points",
+      "file:size": 695,
+      "file:checksum": "1220e843106048862505d4f0b5ff47c8bb0d630bf691a7ac3230d653035249b30db7"
+    }
+  }
+}

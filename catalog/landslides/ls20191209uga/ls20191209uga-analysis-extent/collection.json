@@ -1,0 +1,211 @@
+{
+  "type": "Collection",
+  "id": "landslides/ls20191209uga/ls20191209uga-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Landslide, Uganda, 9 December 2019 (LS20191209UGA): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Potential  impact caused by landslides over Humya city, Bwanba County, Budibungyo District, Western Region, Uganda](https://data.humdata.org/dataset/potential-impact-caused-by-landslides-over-humya-city-bwanba-county-budibungyo-district-we)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/potential-impact-caused-by-landslides-over-humya-city-bwanba-county-budibungyo-district-we",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ls20191209uga-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20191209uga/ls20191209uga-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:28:38Z",
+  "pmtiles:min_zoom": 2,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    30.030669,
+    0.74766,
+    7
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 1,
+  "table:row_count": 1,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OID",
+      "type": "int64"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Shape_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Landslide, Uganda, 9 December 2019 (LS20191209UGA)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.958806362508046,
+          0.6567148104824918,
+          30.1025317844711,
+          0.8386053744279633
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-13T00:00:00Z",
+          "2019-12-13T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ls20191209uga-analysis-extent": {
+      "href": "./ls20191209uga-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 7500,
+      "file:checksum": "12205b33e93e60bfa45f9064684b9d17bf6eb5e417e18c4180cb409fe3178146ce3c",
+      "proj:code": "EPSG:32636",
+      "roles": [
+        "data"
+      ]
+    },
+    "ls20191209uga-analysis-extent-tiles": {
+      "href": "./ls20191209uga-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 25169,
+      "file:checksum": "122025df38f11c283edd06fcd54573d4f668d5914f46adafd8ce92159845e3e770ea",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 671,
+      "file:checksum": "122064f1c588d5a9a63ca9da1351514bbfc24ed6ba7c918431986d9f4621de34c554"
+    }
+  }
+}

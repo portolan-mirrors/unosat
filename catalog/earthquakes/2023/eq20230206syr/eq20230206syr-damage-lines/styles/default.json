@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "Damage lines by Main_Damage_Site_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../eq20230206syr-damage-lines.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-lines",
+      "id": "damage-lines-lines",
+      "type": "line",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damage_Site_Class_label"
+            ]
+          ],
+          "Possible Damage from adjacent impact, debris",
+          "#1b9e77",
+          "Possible Damage",
+          "#fdcc8a",
+          "#bdbdbd"
+        ],
+        "line-width": 1.5
+      }
+    }
+  ]
+}

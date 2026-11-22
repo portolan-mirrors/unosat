@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "fires/fr20210811dza",
+  "stac_version": "1.1.0",
+  "title": "Fire, Algeria, 11 August 2021 (FR20210811DZA)",
+  "description": "UNOSAT geodata for Fire, Algeria, 11 August 2021 (FR20210811DZA), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FR20210811DZA**  Cette carte illustre la densité des foyers d'incendies détectés à partir des données VIIRS acquise entre le 11 et le 13 août 2021. Les wilayas de Bejaia, Tizi Ouzou et Ain-Defla semblent compter le plus grand nombre de foyers d'incendie avec respectivement 1,080; 573 et 190. En se basant sur les données démographique Worldpop, environ 70,000 personnes dans la wilaya de Tizi Ouzou; 25,000 personnes dans la wilaya de Bejaia et 13,000 personnes dans la wilaya de Skikda vivent à proximité des foyers d'incendie. Ceci est une analyse préliminaire et n'as pas encore été validée sur le terrain. Ne pas hésiter à envoyer vos commentaires au Centre Satellitaire des Nations Unies (UNOSAT).\n\nHDX datasets:\n\n- [Densité des foyers d'incendies dans les wilayas de Bejaia et Tizi Ouzou entre le 09 et le 16 août 2021](https://data.humdata.org/dataset/densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-09-et-le-)\n- [Densité des foyers d'incendies dans les wilayas de Bejaia et Tizi Ouzou entre le 10 et le 12 août 2021](https://data.humdata.org/dataset/densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-10-et-le-)\n- [Densité des foyers d'incendies dans les wilayas de Bejaia et Tizi Ouzou entre le 11 et le 13 août 2021](https://data.humdata.org/dataset/densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-11-et-le-)\n- [Zones incendiées le 12 août 2021 dans les wilayas de Blida, Bouira et Medea, Algérie](https://data.humdata.org/dataset/zones-incendiees-le-12-aout-2021-dans-les-wilayas-de-blida-bouira-et-medea-algerie)\n- [Zones incendiées le 15 août 2021 dans la  commune d'El Amra, wilaya d'Ain-Defla, Algérie](https://data.humdata.org/dataset/zones-incendiees-le-15-aout-2021-dans-la-commune-d-el-amra-wilaya-d-ain-defla-algerie)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20210811dza-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Fire, Algeria, 11 August 2021 (FR20210811DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20210811dza-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Fire, Algeria, 11 August 2021 (FR20210811DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20210811dza-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Fire, Algeria, 11 August 2021 (FR20210811DZA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210811dza/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

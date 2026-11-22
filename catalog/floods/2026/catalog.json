@@ -1,0 +1,94 @@
+{
+  "type": "Catalog",
+  "id": "floods/2026",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2026",
+  "description": "UNOSAT geodata for 6 floods whose event code dates from 2026. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20260826npl/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Nepal, 26 August 2026 (FL20260826NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20260831lao/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20261008sen/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Senegal, 8 October 2026 (FL20261008SEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20261011npl/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Nepal, 11 October 2026 (FL20261011NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20261020cog/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Congo, 20 October 2026 (FL20261020COG)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20261030btn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Bhutan, 30 October 2026 (FL20261030BTN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

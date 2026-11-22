@@ -1,0 +1,249 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Earthquake, Mexico, 19 September 2017 (EQ20170919MEX): 33 features merged from 17 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage Assessment in Central West Cuernavaca City, Municipality of Cuernavaca, State of Morelos](https://data.humdata.org/dataset/damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos)\n- [Damage Assessment in Jojutla town, Jojutla Municipality, State of Morelos, Mexico](https://data.humdata.org/dataset/damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698)\n- [Damage Assessment in Mexico City, Mexico](https://data.humdata.org/dataset/damage-assessment-in-mexico-city-mexico-2711)\n- [Damage Assessment in San Andrés Cholula and San Pedro Cholula, State of Puebla, Mexico](https://data.humdata.org/dataset/damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717)\n- [Damage Assessment in Tlaquiltenango Town, Municipality of Tlaquiltenango, State of Morelos, Mexico](https://data.humdata.org/dataset/damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705)\n- [Damage Assessment in Tlayacapan town, Municipality of Tlayacapan, State of Morelos, Mexico](https://data.humdata.org/dataset/damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707)\n- [Damage Assessment in Xochimilco and Tlahuac Municipalities, Federal State, Mexico](https://data.humdata.org/dataset/damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712)\n- [Damage Assessment in the Historical Center of Puebla, State of Puebla](https://data.humdata.org/dataset/damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700)\n- [Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico](https://data.humdata.org/dataset/damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699)\n- [Damage Assessment in the town of Atzala, Municipality of Atzala, State of Puebla, Mexico](https://data.humdata.org/dataset/damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico)\n- [Damage Assessment in the town of Coatetelco, Municipality of Miacatlan, State of Morelos, Mexico](https://data.humdata.org/dataset/damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico)\n- [Evaluación de daño en la colonia Capultitlan, Ciudad de México](https://data.humdata.org/dataset/evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713)\n- and 1 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20170919mex-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:19Z",
+  "pmtiles:min_zoom": 2,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -98.7628847,
+    19.0361859,
+    7
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 33,
+  "table:row_count": 33,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = UN Building; 1 = Mosque; 2 = Hospital; 3 = Refugee / IDP Camp Building; 4 = Market; 5 = School / University; 6 = Square; 7 = Government Building; 9 = Border Crossing Point; 12 = Cemetary; 13 = Ruins; 16 = Staduim; 19 = Sewage Treatment Facility; 21 = Greenhouse; 22 = Bridge; 23 = Road; 24 = Tower; 25 = Prison; 26 = Building (General / Default); 27 = Field; 28 = Industrial Facility; 30 = Refugee / IDP Camp Site; 35 = Transport Vehicle; 40 = Military Base; 41 = Checkpoint; 45 = Suspected Mass Grave Site. The decoded text is in `Site_ID_label`."
+    },
+    {
+      "name": "AgencyID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = UNOSAT; 2 = IGG-UNAM; 4 = UAEMex. The decoded text is in `AgencyID_label`."
+    },
+    {
+      "name": "SiteName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "AgencyID_label",
+      "type": "string",
+      "description": "`AgencyID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -99.3427237119999,
+          18.53161775500007,
+          -98.18304574299992,
+          19.545270000000073
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-09-25T00:00:00Z",
+          "2017-11-06T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20170919mex-other-polygons": {
+      "href": "./eq20170919mex-other-polygons.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 33695,
+      "file:checksum": "1220ee0c7ba9f0a1f1e9177ec0df55e4d8063eb09b33cd06ba82cfef74c3bf2115b5",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20170919mex-other-polygons-tiles": {
+      "href": "./eq20170919mex-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 88828,
+      "file:checksum": "12208246e453c5c2f97124ac01e2c09c2c84c8a5254fb6f515013a76051020d83b65",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 664,
+      "file:checksum": "1220bac77f4d9909dbbb9f2bbbbb3cfbf1fce1dd0a88bc4e5db04d4dc4de1a24ad79"
+    }
+  }
+}

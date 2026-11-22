@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017",
+  "stac_version": "1.1.0",
+  "title": "Tropical Cyclone IRMA-17 : Path and Wind Speed Zones",
+  "description": "UNOSAT geodata for Tropical Cyclone IRMA-17 : Path and Wind Speed Zones, from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis dataset illustrates the tropical cyclone IRMA-17 path with low, medium and strong wind impact zones observed and predicted at 7 September 2017. The tropical cyclone path and wind speed zones were derived from Joint Research Centre data (Warning 33 issued the 07 th September 2017 at 09:00 UTC). This is a preliminary analysis and has not yet been validated in the field.\n\nHDX datasets:\n\n- [Tropical Cyclone IRMA-17 : Path and Wind Speed Zones](https://data.humdata.org/dataset/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points/collection.json",
+      "type": "application/json",
+      "title": "Other points: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

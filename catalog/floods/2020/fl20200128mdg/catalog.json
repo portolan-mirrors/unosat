@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2020/fl20200128mdg",
+  "stac_version": "1.1.0",
+  "title": "Flood, Madagascar, 28 January 2020 (FL20200128MDG)",
+  "description": "UNOSAT geodata for Flood, Madagascar, 28 January 2020 (FL20200128MDG), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20200128MDG**  This maps illustrates satellite-detected water via VIIRS-NOAA on the center and the northern part of the Republic of Madagascar between the 09 and the 13 February 2020. Within the analysed extent not covered by clouds, a total of about 9,116 km2 appear to be flooded, of which about 2,098 km2, 1,366 km2 and 834 km2 in Boeny, Melaky and Alaotra-Mangoro region respectively. Based on Worldpop population data and the detected surface waters, about 1,300,000 people are potentially exposed or living close to flooded areas. In Boeny, Melaky and Alaotra-Mangoro regions, respectively 170,000;  35,000 and 80,000 people are potentially exposed or living close to flooded areas. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Eaux de surface détectées par satellite en République de Madagascar](https://data.humdata.org/dataset/eaux-de-surface-detectees-par-satellite-en-republique-de-madagascar)\n- [Satellite dected waters extents, as of 02 February 2020 over the Republic of Madagascar](https://data.humdata.org/dataset/satellite-dected-waters-extents-as-of-02-february-2020-over-the-republic-of-madagascar)\n- [Satellite dected waters extents, as of 13 February 2020 over the Republic of Madagascar](https://data.humdata.org/dataset/satellite-dected-waters-extents-as-of-13-february-2020-over-the-republic-of-madagascar)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200128mdg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200128mdg-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200128mdg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

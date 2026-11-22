@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240928npl",
+  "stac_version": "1.1.0",
+  "title": "Flood, Nepal, 28 September 2024 (FL20240928NPL)",
+  "description": "UNOSAT geodata for Flood, Nepal, 28 September 2024 (FL20240928NPL), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240928NPL**  This map illustrates the floods using Sentinel-1 images acquired on 01 October 2024 at 17:59 local time (12:14 UTC). Within the analysed area of about 6,000 km², a total of about 55 km² of land appears to be affected by flood waters. Based on Worldpop spatial demographic data, about 18,000 people are exposed or living close to flooded areas. Water extent seems to have increased by about 14 km² since 27 September 2024\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Flood Impact assessment of the Capital city of Kathmandu, Bagmati Province, Nepal as of 30 September 2024](https://data.humdata.org/dataset/flood-impact-assessment-of-the-capital-city-of-kathmandu-bagmati-province-nepal-as-of-30-s)\n- [Satellite detected water extent Koshi and Madhesh Provinces, Nepal as of 01 October 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-koshi-and-madhesh-provinces-nepal-as-of-01-october-2024)\n- [Satellite detected water extent Koshi and Madhesh Provinces, Nepal as of 27 September 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-koshi-and-madhesh-provinces-nepal-as-of-27-september-2024)\n- [Satellite detected water extent in Bagmati, Gandaki, Lumbini and Madhesh Provinces, Nepal as of 01 & 06 October 2024](https://data.humdata.org/dataset/water-extent-in-bagmati-gandaki-lumbini-and-madhesh-provinces-nepal-as-of-01-06-october-20)\n- [Satellite detected water extent in Gandaki, Lumbini, Bagmati and Madhesh Provinces as of 29 September 2024](https://data.humdata.org/dataset/water-extent-in-gandaki-lumbini-bagmati-and-madhesh-provinces-as-of-29-september-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240928npl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Nepal, 28 September 2024 (FL20240928NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240928npl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Nepal, 28 September 2024 (FL20240928NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240928npl-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Nepal, 28 September 2024 (FL20240928NPL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240928npl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

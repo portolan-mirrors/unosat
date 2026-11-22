@@ -1,0 +1,248 @@
+{
+  "type": "Collection",
+  "id": "floods/2018/fl20180501som/fl20180501som-shelters",
+  "stac_version": "1.1.0",
+  "description": "Shelters for Flood, Somalia, 1 May 2018 (FL20180501SOM): 116 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Satellite Detected Water Over Shabelle & Afder Zones, Ethiopia](https://data.humdata.org/dataset/satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790)\n- [Satellite Detected Water Over Shabelle & Afder Zones, Somali Region, Ethiopia](https://data.humdata.org/dataset/satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795)\n- [Satellite Detected Water over Belet Weyne & Bulo Burto Districts, Hiraan Region, Somalia](https://data.humdata.org/dataset/satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793)\n- [Satellite detected Water Over Saakow and Buaale Districts, Middle Juba, Somalia](https://data.humdata.org/dataset/satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787)\n- [Satellite detected water & IDP distribution over  Belet Weyne Town](https://data.humdata.org/dataset/satellite-detected-water-idp-distribution-over-belet-weyne-town-2792)\n- [Satellite detected water & building damage assessment over  Belet Weyne Town, Somalia](https://data.humdata.org/dataset/satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806)\n- [Satellite detected water over  Belet Weyne Town, Belet Weyne District](https://data.humdata.org/dataset/satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789)\n- [Satellite detected water over  Middle Juba and Lower Juba Region, Somalia](https://data.humdata.org/dataset/satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788)\n- [Satellite detected water over Belet Weyne District,Hiraan Region, Somalia](https://data.humdata.org/dataset/satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791)\n- [Satellite detected water over Dinsoor, Baardheere, Bu'aale & Saakow district, Gedo, Middle Juba & Bay Region, Somalia](https://data.humdata.org/dataset/satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20180501som-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelters"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-shelters/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:22:38Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    45.2065749,
+    4.7410436,
+    7
+  ],
+  "pmtiles:layers": [
+    "shelters"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 116,
+  "table:row_count": 116,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Site_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "CampStatus",
+      "type": "string"
+    },
+    {
+      "name": "CampName",
+      "type": "string"
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "City_Town",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelters: Flood, Somalia, 1 May 2018 (FL20180501SOM)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          45.180819349000046,
+          4.7208629550000865,
+          45.23233058200009,
+          4.761224415000072
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-02T00:00:00Z",
+          "2018-05-17T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20180501som-shelters": {
+      "href": "./fl20180501som-shelters.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 10879,
+      "file:checksum": "1220b5064b3e640dfe444c5eaca625b2e95a122681b975f286bfa520b3cb993bc7da",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20180501som-shelters-tiles": {
+      "href": "./fl20180501som-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 37987,
+      "file:checksum": "122072c6bf50329c54ccd6ce0f076d1f87c6c4c31b9c659355ea09b37afb7babf3b3",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelters",
+      "file:size": 679,
+      "file:checksum": "1220059abfae369125976fe8e2e9fcd9691fd3c3bf19b93da3df2480d807bbbe9318"
+    }
+  }
+}

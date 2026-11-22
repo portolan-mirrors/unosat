@@ -1,0 +1,249 @@
+{
+  "type": "Collection",
+  "id": "tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_sa-epsg_4326",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI): 134 features merged from 6 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage Assessment Overview of Jérémie area, Grande Anse Department](https://data.humdata.org/dataset/damage-assessment-overview-of-jeremie-area-grande-anse-department)\n- [Damage Assessment Overview of Tiburon Commune, Sud Department](https://data.humdata.org/dataset/damage-assessment-overview-of-tiburon-commune-sud-department)\n- [Damage Assessment of Tiburon town and surroundings](https://data.humdata.org/dataset/damage-assessment-of-tiburon-town-and-surroundings)\n- [Haiti - Damage Assessment Overview of Dame Marie and Anse d'Hainault Areas, Grande Anse & Sud Departments](https://data.humdata.org/dataset/damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments)\n- [Preliminary Satellite Based Damage Assessment Report - UPDATE 1: Grand Anse Département, Haiti](https://data.humdata.org/dataset/preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti)\n- [Preliminary Satellite Based Damage Assessment Report - UPDATE 3: Grand Anse and Sud Départements, Haiti](https://data.humdata.org/dataset/preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti)\n- [Preliminary Satellite Based Damage Assessment Report: Grand Anse Département, Haiti](https://data.humdata.org/dataset/preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-of-tiburon-town-and-surroundings",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tc20161003hti-other-polygons-cc_by_sa-epsg_4326.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_sa-epsg_4326/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:30:02Z",
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 134,
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -73.3414782,
+    18.9892327,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "table:row_count": 134,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = UN Building; 1 = Mosque; 2 = Hospital; 3 = Refugee / IDP Camp Building; 4 = Market; 5 = School / University; 6 = Square; 7 = Government Building; 9 = Border Crossing Point; 12 = Cemetary; 13 = Ruins; 16 = Staduim; 19 = Sewage Treatment Facility; 21 = Greenhouse; 22 = Bridge; 23 = Road; 24 = Tower; 25 = Prison; 26 = Building (General / Default); 27 = Field; 28 = Industrial Facility; 30 = Refugee / IDP Camp Site; 35 = Transport Vehicle; 40 = Military Base; 41 = Checkpoint; 45 = Suspected Mass Grave Site. The decoded text is in `Site_ID_label`."
+    },
+    {
+      "name": "AgencyID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = UNOSAT; 2 = COPERNICUS; 3 = NGA. The decoded text is in `AgencyID_label`."
+    },
+    {
+      "name": "SiteName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "AgencyID_label",
+      "type": "string",
+      "description": "`AgencyID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.5052989,
+          18.0188614,
+          -72.1776575,
+          19.959604
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-14T00:00:00Z",
+          "2016-11-24T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tc20161003hti-other-polygons-cc_by_sa-epsg_4326": {
+      "href": "./tc20161003hti-other-polygons-cc_by_sa-epsg_4326.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 13253,
+      "file:checksum": "12201d234d59e88015dabddbb4b728f55351de8239507b5bc7ca1592dbf89de5cd30",
+      "roles": [
+        "data"
+      ]
+    },
+    "tc20161003hti-other-polygons-cc_by_sa-epsg_4326-tiles": {
+      "href": "./tc20161003hti-other-polygons-cc_by_sa-epsg_4326.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 221667,
+      "file:checksum": "122003bdb0adf005479787e9ba9c61f327cf14b73d92b5a2768d5ad9e212a44307d7",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 683,
+      "file:checksum": "1220b8ce00d4d5c8847f71853bd15eee5805ed26f02e4b259cf5bc851081ac0720a4"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2023/tc20230616pak",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK)",
+  "description": "UNOSAT geodata for Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code TC20230616PAK**  Status: Overall increase in the observed surface waters\nFurther action(s): continue monitoring\nEvolution of Cumulative Surface Waters over I.R. of Pakistan (26 to 30 April 2023) Vs. (16 to 20 June 2023)\n- Between 16 to 20 June 2023 approximately 3 million people are potentially exposed or living close to maximum floodwaters areas(*);\n- Approximately 468,000 people are potentially exposed or living close to minimum floodwaters areas(**) between 16 to 20 June 2023;\n- Based on satellite observations between 16 to 20 June 2023 and compared with observations between 26 to 30 April 2023, the maximum flood water extent appears to increase approximately ~ 2,000 km² in Sindh and ~ 3,500 km² in Punjab.\n\nHDX datasets:\n\n- [Surface Waters Monitoring In Pakistan - Evolution - 22 June 2023](https://data.humdata.org/dataset/surface-waters-monitoring-in-pakistan-evolution-22-june-2023)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20230616pak-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20230616pak-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230616pak/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

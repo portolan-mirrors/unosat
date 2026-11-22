@@ -101,6 +101,35 @@ def main():
                          f"license {r['license']['title']}")
         lines += ["", "Each collection's own AGENTS.md has the URL and query recipes.", ""]
         (CATALOG / edir / "AGENTS.md").write_text("\n".join(lines))
+    # The combined collections have no staging record; their guides are fixed text.
+    for fam, cls in (("damage-sites", "damage_class"), ("water-extent", "water_class")):
+        d = CATALOG / "combined" / fam
+        if not (d / "collection.json").exists():
+            continue
+        url = f"{PUBLIC}/combined/{fam}/{fam}.parquet"
+        text = [f"# combined/{fam}: agent guide", "",
+                f"One GeoParquet file: `{url}`. It joins the {fam} collections of every event under CC BY-SA, "
+                "CC BY, or CC BY-IGO. CC BY-NC-SA 3.0 collections are left out.", "",
+                "- `event` is the event subcatalog id, `collection` the source collection, and `source_layer` and "
+                "`source_file` the original layer and HDX file.",
+                f"- `{cls}` is the decoded class label; `{cls}_code` is the raw value as text. Labels are not "
+                f"normalized across events, so group on `{cls}` per event.",
+                "- `license` is the license of the row's HDX dataset.",
+                "- `assessment_epoch` says which epoch of a wide multi-epoch layer the row took; null for ordinary layers.",
+                "- Geometry is EPSG:4326, 2D, and not repaired.", "",
+                "## Rows by event and class", "", "```sql", "INSTALL spatial; LOAD spatial;",
+                f"SELECT event, {cls}, count(*) AS features", f"FROM read_parquet('{url}')",
+                "GROUP BY ALL ORDER BY event, features DESC LIMIT 50;", "```", ""]
+        (d / "AGENTS.md").write_text("\n".join(text))
+
+    if (CATALOG / "combined" / "catalog.json").exists():
+        (CATALOG / "combined" / "AGENTS.md").write_text("\n".join([
+            "# combined: agent guide", "",
+            "Two collections that join every event's damage sites and water extents into one file each, with",
+            "harmonized class columns. Use them for questions across events; use the event collections for the",
+            "full source columns. The [root agent guide](../AGENTS.md) explains the layout.", "",
+            "- [`damage-sites`](damage-sites/AGENTS.md)", "- [`water-extent`](water-extent/AGENTS.md)", ""]))
+
     # Hazard and year subcatalogs: point to their children.
     n = 0
     for d in sorted({e.parent for e in by_event} | {e.parent.parent for e in by_event}):

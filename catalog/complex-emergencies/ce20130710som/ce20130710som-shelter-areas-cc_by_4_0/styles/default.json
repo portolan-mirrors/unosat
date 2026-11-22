@@ -1,0 +1,47 @@
+{
+  "version": 8,
+  "name": "Shelter areas by CampStatus",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ce20130710som-shelter-areas-cc_by_4_0.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "shelter-areas",
+      "id": "shelter-areas-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "CampStatus"
+            ]
+          ],
+          "Open (Operational)",
+          "#1b9e77",
+          "Closed / Relocated",
+          "#d95f02",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "shelter-areas",
+      "id": "shelter-areas-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

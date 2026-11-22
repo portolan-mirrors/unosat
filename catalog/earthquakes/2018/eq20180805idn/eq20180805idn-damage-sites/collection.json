@@ -1,0 +1,242 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2018/eq20180805idn/eq20180805idn-damage-sites",
+  "stac_version": "1.1.0",
+  "description": "Damage sites for Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN): 1,509 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage assessment of Gumantar and Dangiang Desa, Kagayan District, Lombok Island, Indonesia](https://data.humdata.org/dataset/damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836)\n- [Potential Informal Gathering Sites over Tanjung & Pemenang Districts, Indonesia](https://data.humdata.org/dataset/potential-informal-gathering-sites-over-tanjung-pemenang-districts-indonesia-2838)\n- [Potentially Damaged Buildings & Gathering Sites over Gili Islands, Lombok Utara District, Indonesia](https://data.humdata.org/dataset/potentially-damaged-buildings-gathering-sites-over-gili-islands-lombok-utara-district-indonesia-2837)\n- [Potentially affected settlements over Tanjung and Pemenang Districts, Lombok Utara Regency, Nusa Tenggara Barat Province](https://data.humdata.org/dataset/potentially-affected-settlements-over-tanjung-and-pemenang-districts-lombok-utara-regency-nusa-)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20180805idn-damage-sites.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "damage-sites"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-damage-sites/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:23Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    116.164216,
+    -8.3459163,
+    7
+  ],
+  "pmtiles:layers": [
+    "damage-sites"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 1509,
+  "table:row_count": 1509,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "SiteID",
+      "type": "string"
+    },
+    {
+      "name": "SensorDate",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "FieldValid",
+      "type": "string"
+    },
+    {
+      "name": "Settlement",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Main_Damag",
+      "type": "string"
+    },
+    {
+      "name": "Grouped_Da",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "ImageID_Nu",
+      "type": "int64"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Damage sites: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          116.03376548800009,
+          -8.451923491999935,
+          116.29466654400005,
+          -8.239909244999922
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-08-07T00:00:00Z",
+          "2018-08-10T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20180805idn-damage-sites": {
+      "href": "./eq20180805idn-damage-sites.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 59100,
+      "file:checksum": "1220a348f67ec3a25c276924b16f89670dcee491f7a958a27d294690e20974be427e",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20180805idn-damage-sites-tiles": {
+      "href": "./eq20180805idn-damage-sites.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 104561,
+      "file:checksum": "1220d6c20c3ea453dcf35ba4493a082e2561474fe254727dcf665fdc99e8a39acfa4",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Damage sites by Main_Damag",
+      "file:size": 1060,
+      "file:checksum": "1220a820d59c74946ab932cccf1b1569435f9abaa69542a4689c4e066ff4d1441d0e"
+    }
+  }
+}

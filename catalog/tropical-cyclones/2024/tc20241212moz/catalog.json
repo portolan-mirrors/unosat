@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2024/tc20241212moz",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)",
+  "description": "UNOSAT geodata for Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20241212MOZ, GDACS ID: 1001131**  This application provides flood impact assessments for related to the Tropical Cyclone for CHIDO-25 in Mozambique.\nImportant note:\nThe boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the United Nations.\nThe designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.\n\nHDX datasets:\n\n- [Building Damage Assesment in Sambene, Nanguasse & Muinde villages, Mecufi Posto, Mecufi District as of 17 December 2024](https://data.humdata.org/dataset/building-damage-assesment-in-sambene-nanguasse-muinde-villages-mecufi-posto-mecufi-distric)\n- [Building Damage Assesment in Sicura & Murrebe Town, Murrebue Posto, Mecufi District as of 16 December 2024](https://data.humdata.org/dataset/building-damage-assesment-in-sicura-murrebe-town-murrebue-posto-mecufi-district-as-of-16-d)\n- [UNOSAT Live Web Map Tropical Cyclone for CHIDO-25 in Mozambique](https://data.humdata.org/dataset/unosat-live-web-map-tropical-cyclone-for-chido-25-in-mozambique)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241212moz-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241212moz-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241212moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

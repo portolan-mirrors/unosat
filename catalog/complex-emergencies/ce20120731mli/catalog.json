@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20120731mli",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, Mali, 31 July 2012 (CE20120731MLI)",
+  "description": "UNOSAT geodata for Complex emergency, Mali, 31 July 2012 (CE20120731MLI), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected shelters and other buildings at the Mbera refugee camp in South Eastern Mauritania. As of 14 August 2015 a total of 11,327 shelters were detected, consisting of 497 administrative buildings, 2,968  improvised shelters and 7,862 tent shelters. The camp covers  a total of approximately 415.01 hectares. A variety of clinics, nutrition centers, schools, and other important features are also identified on the map, and based on information from UNHCR. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Goudoubou Refugee Camp, Seno Province, Burkina Faso](https://data.humdata.org/dataset/geodata-of-goudoubou-refugee-camp-seno-province-burkina-faso-january-14-2016)\n- [Geodata of Mbera Refugee Camp, Bassikounou, South-Eastern Mauritania](https://data.humdata.org/dataset/geodata-of-mbera-refugee-camp-bassikounou-south-eastern-mauritania-december-10-2015)\n- [Geodata of Mentao Refugee camp in Soum District, Sahel Province, Burkina Faso](https://data.humdata.org/dataset/geodata-of-mentao-refugee-camp-in-soum-district-sahel-province-burkina-faso-january-15-2016)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20120731mli-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20120731mli-shelter-areas/collection.json",
+      "type": "application/json",
+      "title": "Shelter areas: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20120731mli-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

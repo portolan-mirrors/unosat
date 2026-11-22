@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "fires/fr20191016lbn",
+  "stac_version": "1.1.0",
+  "title": "Fire, Lebanon, 16 October 2019 (FR20191016LBN)",
+  "description": "UNOSAT geodata for Fire, Lebanon, 16 October 2019 (FR20191016LBN), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FR20191016LBN**  This map illustrates satellite-detected burned areas in Aley and Chouf districts, in Lebanon, based on SPOT-6 imagery acquired on 19 October 2019. Approximately 1275 ha of potentially burned areas were detected by Copernicus-EMS as of 17 October 2019 (orange) and additional 92 ha of burned were detected by UNOSAT as of 19 October 2019 (red), which is equivalent to approximately 7% increase in affected surface area. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Fire hotspots density in Lebanon and Syria as detected by VIIRS between October 15-16, 2019](https://data.humdata.org/dataset/fire-hotspots-density-in-lebanon-and-syria-as-detected-by-viirs-between-october-15-16-2019)\n- [Wildfires east of Tyre, in South and El Nabatieh Governorates, Lebanon](https://data.humdata.org/dataset/wildfires-east-of-tyre-in-south-and-el-nabatieh-governorates-lebanon)\n- [Wildfires in Akkar Governorate (Lebanon) Tartous and Homs Governorates (Syria).](https://data.humdata.org/dataset/wildfires-in-akkar-governorate-lebanon-tartous-and-homs-governorates-syria)\n- [Wildfires in Al-Haffa and Al-Qardaha Districts, Lattakia Governorate, Syria](https://data.humdata.org/dataset/wildfires-in-al-haffa-and-al-qardaha-districts-lattakia-governorate-syria)\n- [Wildfires south of Beirut, in Aley and Chouf districts, Lebanon](https://data.humdata.org/dataset/wildfires-south-of-beirut-in-aley-and-chouf-districts-lebanon)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20191016lbn-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Fire, Lebanon, 16 October 2019 (FR20191016LBN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20191016lbn-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Fire, Lebanon, 16 October 2019 (FR20191016LBN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20191016lbn-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20191016lbn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

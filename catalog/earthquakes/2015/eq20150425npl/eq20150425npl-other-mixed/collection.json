@@ -1,0 +1,235 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed",
+  "stac_version": "1.1.0",
+  "description": "Other mixed for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 5 features merged from 1 source layer. Mixed layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Damage and Displaced Persons Visible in Satellite Imagery. Kathmandu, Nepal - 27 April 2015](https://data.humdata.org/dataset/geodata-of-damage-and-displaced-persons-visible-in-satellite-imagery-kathmand-april-28-2015)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-damage-and-displaced-persons-visible-in-satellite-imagery-kathmand-april-28-2015",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20150425npl-other-mixed.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-mixed"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:13Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    85.298959,
+    27.710056,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-mixed"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint Z"
+  ],
+  "geoparquet:feature_count": 5,
+  "table:row_count": 5,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "begin",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "altitudeMode",
+      "type": "string"
+    },
+    {
+      "name": "tessellate",
+      "type": "int32"
+    },
+    {
+      "name": "extrude",
+      "type": "int32"
+    },
+    {
+      "name": "visibility",
+      "type": "int32"
+    },
+    {
+      "name": "drawOrder",
+      "type": "int32"
+    },
+    {
+      "name": "icon",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other mixed: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          85.282523,
+          27.700568,
+          85.315395,
+          27.719544
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-04-28T00:00:00Z",
+          "2015-04-28T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20150425npl-other-mixed": {
+      "href": "./eq20150425npl-other-mixed.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 5204,
+      "file:checksum": "1220c19af407867264fc0b0df215f231f42367922ec29b5a600aecceaac053da7d81",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20150425npl-other-mixed-tiles": {
+      "href": "./eq20150425npl-other-mixed.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 21260,
+      "file:checksum": "1220342fbc1cdf0bfb449cf313a16899fd2af4646540b9b2052e4a3b1b01b5ca3ca9",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other mixed",
+      "file:size": 646,
+      "file:checksum": "1220ab24239c442b5f92783f411d3cbdf1c2e60f4a72f79783a4b113e1585754ad43"
+    }
+  }
+}

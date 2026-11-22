@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2025/fl20250818pak",
+  "stac_version": "1.1.0",
+  "title": "Flood, Pakistan, 18 August 2025 (FL20250818PAK)",
+  "description": "UNOSAT geodata for Flood, Pakistan, 18 August 2025 (FL20250818PAK), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20250818PAK, GDACS ID: 1103435**  This map illustrates the satellite detected water extent in Punjab Province, Pakistan as observed from a Sentinel-1 satellite image acquired on 27-28 August 2025. Within the analyzed area of approximately 88,300 km², about 3,660 km² of land appears to be affected by floodwaters. Based on WorldPop population data and the flood extent, approximately 2.5 million people are potentially exposed or living close to the flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents from 26 August to 7 September 2025 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-26-august-to-7-september-2025-over-pakistan)\n- [Satellite detected water extents in Charsadda, Nowshera and Peshawar Districts, Khyber Pakhtunkhwa Province, Pakistan as of 20 August 2025](https://data.humdata.org/dataset/water-extents-in-charsadda-nowshera-and-peshawar-districts-khyber-pakhtunkhwa-province-pak)\n- [Satellite detected water extents in Punjab Province, Pakistan as of 27 & 28 August 2025](https://data.humdata.org/dataset/satellite-detected-water-extents-in-punjab-province-pakistan-as-of-27-28-august-2025)\n- [Satellite detected water extents in Swat District, Khyber Pakhtunkhwa Province, Pakistan as of 20 August 2025](https://data.humdata.org/dataset/water-extents-in-swat-district-khyber-pakhtunkhwa-province-pakistan-as-of-20-august-2025)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250818pak-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Pakistan, 18 August 2025 (FL20250818PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250818pak-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250818pak-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250818pak/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

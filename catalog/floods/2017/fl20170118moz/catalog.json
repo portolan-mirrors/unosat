@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20170118moz",
+  "stac_version": "1.1.0",
+  "title": "Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ)",
+  "description": "UNOSAT geodata for Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected flood waters extent and evolution between 08 and 10 March 2017 over Maroantsetra area, Analanjirofo region in Madagascar as detected by TerraSAR-X radar images acquired on 10 and 08 March 2017. Between 08 and 10 March 2017 and within this map extent, waters receded from about 4,270 ha of lands. Many areas within this zone remain affected and ~6,230 ha of lands were still flooded on the 10 March 2017 whereas ~10,500 ha of lands were flooded the 08 March 2017. It corresponds to about 40% decrease. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks and within built-up urban areas because of the special characteristics of the satellite data used. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR UNOSAT.\n\nHDX datasets:\n\n- [Mozambique - Population Exposure-Cyclone Dineo-17](https://data.humdata.org/dataset/population-exposure-cyclone-dineo-17-mozambique)\n- [Mozambique - Satellite Detected Surface Waters Extent and Evolution along Save River](https://data.humdata.org/dataset/satellite-detected-surface-waters-extent-and-evolution-along-save-river-mozambique)\n- [Satellite Detected Waters Extent and Evolution  in Maroantsetra area, Analanjirofo region, Madagascar](https://data.humdata.org/dataset/satellite-detected-waters-extent-and-evolution-in-maroantsetra-area-analanjirofo-region-madagascar)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170118moz-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170118moz-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170118moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2026/fl20260826npl",
+  "stac_version": "1.1.0",
+  "title": "Flood, Nepal, 26 August 2026 (FL20260826NPL)",
+  "description": "UNOSAT geodata for Flood, Nepal, 26 August 2026 (FL20260826NPL), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20260826NPL, GDACS ID: 1104124**  This map illustrates the cumulative satellite-detected mudflow/rockflow extent derived from Sentinel-2 imagery acquired on 27 August 2026 and PlanetScope imagery acquired on 26 August 2026. Within the analysed area of approximately 350 km², an estimated 37 km² of land appears to be affected by floodwaters. Approximately 120 km of roads are potentially affected by the mapped flood/mudflow extent. Based on building footprint data, approximately 5,000 buildings are exposed to or located near the affected areas. The highest concentration is observed in Bidur Municipality, Nuwakot District, with approximately 2,600 buildings, followed by Gosaikunda Municipality, Rasuwa District, with approximately 1,030 buildings potentially affected.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Mudflow/Rockflow Impact Assessment in Rasuwa & Nuwakot Districts, Bagmati Province, Nepal as of  26–27 August 2026](https://data.humdata.org/dataset/mudflow-rockflow-impact-assessment-in-rasuwa-nuwakot-districts-bagmati-province-nepal-as-o)\n- [Satellite-Detected Newly Formed Barrier Lakes Following an Ice-Rock Avalanche in Rasuwa District, Nepal, as of 28 August 2026](https://data.humdata.org/dataset/newly-formed-barrier-lakes-following-an-ice-rock-avalanche-in-rasuwa-district-nepal-as-of-)\n- [Satellite-detected Mudflow/ rockflow extent as of 26–27  August 2026 in Rasuwa District, Bagmati Province, Nepal](https://data.humdata.org/dataset/mudflow-rockflow-extent-as-of-26-27-august-2026-in-rasuwa-district-bagmati-province-nepal)\n- [Satellite-detected Mudflow/ rockflow extent as of 26–27 August 2026 in Nuwakot District, Bagmati Province, Nepal](https://data.humdata.org/dataset/mudflow-rockflow-extent-as-of-26-27-august-2026-in-nuwakot-district-bagmati-province-nepal)\n- [UNOSAT Live web map](https://data.humdata.org/dataset/unosat-live-web-map)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20260826npl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Nepal, 26 August 2026 (FL20260826NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20260826npl-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Nepal, 26 August 2026 (FL20260826NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20260826npl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Nepal, 26 August 2026 (FL20260826NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20260826npl-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Flood, Nepal, 26 August 2026 (FL20260826NPL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

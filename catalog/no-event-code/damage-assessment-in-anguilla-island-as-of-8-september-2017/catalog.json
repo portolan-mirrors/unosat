@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017",
+  "stac_version": "1.1.0",
+  "title": "Damage Assessment in Anguilla Island as of 8 September 2017",
+  "description": "UNOSAT geodata for Damage Assessment in Anguilla Island as of 8 September 2017, from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis dataset illustrates satellite-detected potential damaged buildings in Anguilla Island, following the landfall of Tropical Cyclone IRMA-17 on September 6, 2017. The UNITAR-UNOSAT analysis used a Kompsat-3 satellite image acquired on 9 February 2017 and WorldView-2 image acquired on 5 July 2017 as pre-imagery and Pleiades satellite imagery acquired on the 7 & 8 September 2017 as a post-imagery. The UNITAR-UNOSAT analysis identified 2,147 potentially damaged structures within the analyzed area that was not covered by clouds. According to the pre-building footprints, inside the area free of clouds, provided by Humanitarian Open Street Map, this represents 42% of potentially affected structures in Anguilla.\n\nHDX datasets:\n\n- [Damage Assessment in Anguilla Island as of 8 September 2017](https://data.humdata.org/dataset/damage-assessment-in-anguilla-island-as-of-8-september-2017)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons/collection.json",
+      "type": "application/json",
+      "title": "Affected structures polygons: Damage Assessment in Anguilla Island as of 8 September 2017"
+    },
+    {
+      "rel": "child",
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Damage Assessment in Anguilla Island as of 8 September 2017"
+    },
+    {
+      "rel": "child",
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Damage Assessment in Anguilla Island as of 8 September 2017"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

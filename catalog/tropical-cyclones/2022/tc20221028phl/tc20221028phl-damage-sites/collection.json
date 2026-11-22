@@ -1,0 +1,290 @@
+{
+  "type": "Collection",
+  "id": "tropical-cyclones/2022/tc20221028phl/tc20221028phl-damage-sites",
+  "stac_version": "1.1.0",
+  "description": "Damage sites for Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL): 256 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Flood Impact assessment of Cabuyao City and City of Calamba, Laguna Province, Region IV-A, Philippines as of 5 November 2022](https://data.humdata.org/dataset/flood-impact-assessment-of-cabuyao-city-and-city-of-calamba-laguna-province-region-iv-a-ph)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/flood-impact-assessment-of-cabuyao-city-and-city-of-calamba-laguna-province-region-iv-a-ph",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tc20221028phl-damage-sites.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "damage-sites"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-damage-sites/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:31:45Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    121.1820156,
+    14.2114821,
+    7
+  ],
+  "pmtiles:layers": [
+    "damage-sites"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 256,
+  "table:row_count": 256,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "SensorDate",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "ConfidenceID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Very High; 2 = Medium; 3 = Uncertain; 4 = To Be Evaluated. The decoded text is in `ConfidenceID_label`."
+    },
+    {
+      "name": "FieldValidation",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Not yet field validated; 1 = Validated (correct); 2 = Validated (not correct); 3 = Site Not Identified in Image. The decoded text is in `FieldValidation_label`."
+    },
+    {
+      "name": "Settlement_Name",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Main_Damage_Site_Class",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Destroyed; 2 = Severe Damage; 3 = Moderate Damage; 4 = Possible Damage; 5 = Impact Crater (Damage to Road); 6 = No Visible Damage; 7 = Impact Crater (Damage to Field); 8 = Destroyed (Demolition Zone); 9 = Suspected Phosphorus shell Attack Zone; 10 = Road Damage from Tank Passage; 11 = Possible Damage from adjacent impact, debris; 12 = Lava Flow. The decoded text is in `Main_Damage_Site_Class_label`."
+    },
+    {
+      "name": "Grouped_Damage_Classes",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Damaged Buildings; 2 = Damaged Greenhouses; 3 = Impacts on Roads / Bridges; 4 = Impacts in Fields; 5 = Damaged Road segments. The decoded text is in `Grouped_Damage_Classes_label`."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "ImageID_Num",
+      "type": "int32"
+    },
+    {
+      "name": "Main_Dmg",
+      "type": "string"
+    },
+    {
+      "name": "SiteID",
+      "type": "string"
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "FieldValid",
+      "type": "string"
+    },
+    {
+      "name": "Grouped_Da",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "ImageID_Nu",
+      "type": "string"
+    },
+    {
+      "name": "ConfidenceID_label",
+      "type": "string",
+      "description": "`ConfidenceID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "FieldValidation_label",
+      "type": "string",
+      "description": "`FieldValidation` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Grouped_Damage_Classes_label",
+      "type": "string",
+      "description": "`Grouped_Damage_Classes` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Main_Damage_Site_Class_label",
+      "type": "string",
+      "description": "`Main_Damage_Site_Class` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Damage sites: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          121.17132487600009,
+          14.180708329000083,
+          121.19270643800007,
+          14.242256032000057
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-11-08T00:00:00Z",
+          "2022-11-08T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tc20221028phl-damage-sites": {
+      "href": "./tc20221028phl-damage-sites.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 17593,
+      "file:checksum": "12205220f3458dc131b504173281d6e9eefc4c3ad3b054749c605ab73b5a959276a7",
+      "roles": [
+        "data"
+      ]
+    },
+    "tc20221028phl-damage-sites-tiles": {
+      "href": "./tc20221028phl-damage-sites.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 40562,
+      "file:checksum": "12207c98762d0c6b15f78efe20b6316646f92deb7438cf2f4b0aff62926f09d3b7d7",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Damage sites by Main_Damage_Site_Class",
+      "file:size": 956,
+      "file:checksum": "1220dbdbdb90a3d8d1b1bc2373c86ecfeb980ae96e3a668160ba5123a0e6dfa1becb"
+    }
+  }
+}

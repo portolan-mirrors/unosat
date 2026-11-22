@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "fires/fr20230725tun",
+  "stac_version": "1.1.0",
+  "title": "Fire, Tunisia, 25 July 2023 (FR20230725TUN)",
+  "description": "UNOSAT geodata for Fire, Tunisia, 25 July 2023 (FR20230725TUN), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FR20230725TUN, GDACS Id: 1015980**  This map illustrates satellite-detected burned areas in Tabarka delegation, Jendouba Governorate and El Krib delegation, Siliana Governorate, Tunisia based on a Sentinel-2 image aquired on 27 July 2023 at 10:20 UTC. Within the analysed area of about 2,800 km², about 29 km² of lands appear to be potentially burned. Based on Worldpop population data and the burned area extent about 7,700 people are potentially exposed or living close to burned areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Damage assessment over Ras Rajel, Tabarka delegation, Jendouba Governorate, Tunisia as of 27 July 2023](https://data.humdata.org/dataset/damage-assessment-over-ras-rajel-tabarka-delegation-jendouba-governorate-tunisia-as-of-27-)\n- [Densité des foyers d'incendie dans les délégations de Nefza, Ain Draham et Tabarka, Gouvernorat de Jendouba le 25 juillet 2023](https://data.humdata.org/dataset/densite-des-foyers-d-incendie-dans-les-delegations-de-nefza-ain-draham-et-tabarka-gouverno)\n- [Wildfires in Tabarka delegation, Jendouba Governorate and El Krib delegation, Siliana Governorate as of 27 July 2023](https://data.humdata.org/dataset/wildfires-in-tabarka-delegation-jendouba-governorate-and-el-krib-delegation-siliana-govern)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230725tun-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Fire, Tunisia, 25 July 2023 (FR20230725TUN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230725tun-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Fire, Tunisia, 25 July 2023 (FR20230725TUN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230725tun-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Fire, Tunisia, 25 July 2023 (FR20230725TUN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20230725tun-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Fire, Tunisia, 25 July 2023 (FR20230725TUN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230725tun/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

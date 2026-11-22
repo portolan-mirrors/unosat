@@ -1,0 +1,49 @@
+{
+  "version": 8,
+  "name": "Water extent by Water_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../fl20220728ner-water-extent.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Water_Class_label"
+            ]
+          ],
+          "Satellite Detected Water / Possible Saturated Soil",
+          "#1b9e77",
+          "Archive Water Extent / Pre-Flood Water",
+          "#d95f02",
+          "Flood Water",
+          "#08519c",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

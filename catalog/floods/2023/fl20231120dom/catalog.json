@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2023/fl20231120dom",
+  "stac_version": "1.1.0",
+  "title": "Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)",
+  "description": "UNOSAT geodata for Flood, Dominican Republic, 20 November 2023 (FL20231120DOM), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20231120DOM, GDACS ID: 1102342**  This map illustrates cumulative satellite-detected water extent in CIbao Nordeste and Cibao Sur Regions, Dominican Republic as observed from a Sentinel-1 image acquired on the 18 November 2023 at 18:53 local time. Within the extent of this map, about 55 km² of land appears to be affected with flood waters and about 10,500 people are potentially exposed to flood waters\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extent Higuamo & Valdesia Regions, Dominican Republic as of 21 November 2023](https://data.humdata.org/dataset/water-extent-higuamo-valdesia-regions-dominican-republic-as-of-21-november-2023)\n- [Satellite detected water extent Valdesia Region, Dominican Republic as of 21 November 2023](https://data.humdata.org/dataset/satellite-detected-water-extent-valdesia-region-dominican-republic-as-of-21-november-2023)\n- [Satellite detected water extent in Cibao Nordeste Region, Dominican Republic as of 21 November 2023](https://data.humdata.org/dataset/water-extent-in-cibao-nordeste-region-dominican-republic-as-of-21-november-2023)\n- [Satellite detected water extent in Cibao Nordeste and Cibao Sur Regions, Dominican Republic as of 18 November 2023](https://data.humdata.org/dataset/water-extent-in-cibao-nordeste-and-cibao-sur-regions-dominican-republic-as-of-18-november-)\n- [UNOSAT Live webmap- Floods in Dominican Republic, November 2023](https://data.humdata.org/dataset/unosat-live-webmap-floods-in-dominican-republic-november-2023)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231120dom-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231120dom-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231120dom/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

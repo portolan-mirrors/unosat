@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2025/tc20250308moz",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)",
+  "description": "UNOSAT geodata for Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20250308MOZ, GDACS ID: 1001154**  This map shows the locations where damage was detected based on a very high resolution satellite image collected 18 March 2025 when compared to very high resolution imagery by Airbus from October 2023 and February 2024 (south only), available through Google Earth Pro. Between October 2023 and March 2025, multiple cyclones have passed over Île de Mozambique.\nAcross the Île de Mozambique, 78 damaged buildings were detected and accumulations of sand indicative of prior flooding were observed on roads and in public spaces.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite-detected damage in Île de Mozambique as of 18 March 2025](https://data.humdata.org/dataset/satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250308moz-other-points/collection.json",
+      "type": "application/json",
+      "title": "Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

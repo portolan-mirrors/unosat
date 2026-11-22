@@ -1,0 +1,236 @@
+{
+  "type": "Collection",
+  "id": "tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points",
+  "stac_version": "1.1.0",
+  "description": "Other points for Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ): 78 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Satellite-detected damage in Île de Mozambique as of 18 March 2025](https://data.humdata.org/dataset/satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tc20250308moz-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-points"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:32:36Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    40.7338265,
+    -15.0376489,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-points"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint Z"
+  ],
+  "geoparquet:feature_count": 78,
+  "table:row_count": 78,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Site_Name",
+      "type": "string"
+    },
+    {
+      "name": "FeatureID",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "ImageID_Nu",
+      "type": "string"
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "MainDamage",
+      "type": "string"
+    },
+    {
+      "name": "DamageStat",
+      "type": "string"
+    },
+    {
+      "name": "SensorDate",
+      "type": "string",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          40.72744228788683,
+          -15.045139849952834,
+          40.74021083892738,
+          -15.030158027448685
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-03-21T00:00:00Z",
+          "2025-03-21T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tc20250308moz-other-points": {
+      "href": "./tc20250308moz-other-points.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 12722,
+      "file:checksum": "12201bee3d1c631469bc817001b26b3b1aa98fc1ce1db717906a760ecf4976af50e8",
+      "proj:code": "EPSG:3857",
+      "roles": [
+        "data"
+      ]
+    },
+    "tc20250308moz-other-points-tiles": {
+      "href": "./tc20250308moz-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 25208,
+      "file:checksum": "1220ffc4b9a89e0df3e7dcabdea3ab37498938b89dab27234422852054caba43eab2",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other points",
+      "file:size": 695,
+      "file:checksum": "1220ce8847147361e3c690c5ac064ea2743b05e474efd19d02d09f45d874bbb37e92"
+    }
+  }
+}

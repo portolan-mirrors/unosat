@@ -1,0 +1,33 @@
+{
+  "version": 8,
+  "name": "Landslides",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../eq20150425npl-landslides.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "landslides",
+      "id": "landslides-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": "#8c510a",
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "landslides",
+      "id": "landslides-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#8c510a",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

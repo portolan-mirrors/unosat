@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20170418irn",
+  "stac_version": "1.1.0",
+  "title": "Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)",
+  "description": "UNOSAT geodata for Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the satellite-detected waters extent south of Urmia Lake in the county of Mahabad in West Azerbaijan province of Iran as observed from the Landsat-8 image acquired on 16 April 2017. Within the area of 21,000 ha covered by this map; 2,970 ha of lands appear to be potentially affected which corresponds to 13% of the analyzed area. The flooded areas appear to be mainly agricultural zones and about 8 km of roads seem to be potentially affected. Please note that some areas were cloud covered and could not be analyzed.This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Islamic Republic of Iran - Satellite Detected Water Extent at the  South of Urmia Lake](https://data.humdata.org/dataset/satellite-detected-water-extent-south-of-urmia-lake-islamic-republic-of-iran)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170418irn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170418irn-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170418irn-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

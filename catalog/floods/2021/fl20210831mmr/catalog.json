@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20210831mmr",
+  "stac_version": "1.1.0",
+  "title": "Flood, Myanmar, 31 August 2021 (FL20210831MMR)",
+  "description": "UNOSAT geodata for Flood, Myanmar, 31 August 2021 (FL20210831MMR), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20210831MMR**  This map illustrates satellite-detected surface waters over the Boga, Yangon regions and Mon state, surrounding the Gulf of Martaban, Myanmar as observed from a Sentinel-1 image acquired on 1 September  2021 at 05:55 local time. Within the analyzed area of about 10,000 km2 , 240 km2 of lands appear to be flooded. The water extent appears to have decreased of about 470 km2 since 25 August 2021. Based on Worldpop population data and the detected surface waters in the analyzed area, the potentially exposed population is mainly located in the township of Thanatpin with ~ 7,300 people. Thaton with ~ 7,000 people. and Paung with ~ 5,700 people.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extent over the Boga, Yangon regions and Mon state, surrounding the Gulf of Martaban, Myanmar](https://data.humdata.org/dataset/water-extent-over-the-boga-yangon-regions-and-mon-state-surrounding-the-gulf-of-martaban-m)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210831mmr-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210831mmr-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210831mmr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

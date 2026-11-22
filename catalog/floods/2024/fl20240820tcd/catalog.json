@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240820tcd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Chad, 20 August 2024 (FL20240820TCD)",
+  "description": "UNOSAT geodata for Flood, Chad, 20 August 2024 (FL20240820TCD), from 9 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240820TCD**  This map illustrates satellite-detected water extent in N'Djamena city, N'Djamena Department, Chad as observed from a WorldView-2 satellite image acquired on 08 October 2024. Within the analysed area of about 245 km², a total of about 34km² of lands appear to be affected by flood waters in Chad. Within the analysed area approximately 1,400 buildings (<5%) in Chad are affected by the floodwaters.\nAccording to the forecasted river flow data from ECMWF, as of 09 Oct. 2024, for the water gauges Chari A Chagoua and Chari A Ndjamena -Ex Fort-Lamy- along the river Chari, the current medium flow (Q2yr) has a tendency to decrease in the next 10 days with the peak likely happening on 10th Oct. 2024.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extent in Bongor City as of 26 August 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-in-bongor-city-as-of-26-august-2024)\n- [Satellite detected water extent in Koukou Angarana City, Sila Region, Chad as of 3 September 2024](https://data.humdata.org/dataset/water-extent-in-koukou-angarana-city-sila-region-chad-as-of-3-september-2024)\n- [Satellite detected water extent in N'Djamena City as of 08 October 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-in-n-djamena-city-as-of-08-october-2024)\n- [Satellite detected water extent in N'Djamena City as of 26 August 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-in-n-djamena-city-as-of-26-august-2024)\n- [Satellite detected water extents between 02 and 06 October 2024 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-02-and-06-october-2024-over-chad)\n- [Satellite detected water extents between 13 and 17 October 2024 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-13-and-17-october-2024-over-chad)\n- [Satellite detected water extents between 15 and 19 August 2024 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-15-and-19-august-2024-over-chad)\n- [Satellite detected water extents between 20 and 24 August 2024 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-20-and-24-august-2024-over-chad)\n- [Satellite detected water extents between 31 August and 04 September 2024 over Chad](https://data.humdata.org/dataset/satellite-detected-water-extents-between-31-august-and-04-september-2024-over-chad)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240820tcd-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Chad, 20 August 2024 (FL20240820TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240820tcd-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Chad, 20 August 2024 (FL20240820TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240820tcd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Chad, 20 August 2024 (FL20240820TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240820tcd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Chad, 20 August 2024 (FL20240820TCD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "volcanoes/vo20211205idn",
+  "stac_version": "1.1.0",
+  "title": "Volcano, Indonesia, 5 December 2021 (VO20211205IDN)",
+  "description": "UNOSAT geodata for Volcano, Indonesia, 5 December 2021 (VO20211205IDN), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: VO20211205IDN**  This map illustrates the potentially affected areas by Lahar and Pyroclastic density currents (PDCs) including geological information of Mount Semeru, Java province, Indonesia as detected by satellite images acquired after the eruption of the Mount Semeru on 4 Dec 2021. UNITAR-UNOSAT analysis used Pleiades images acquired on 10 & 11 Dec 2021 to estimate the affected area by Lahar and Pyroclastic density currents. Within the analyzed area, about 3,220 ha appear to be affected.\nBased on Worldpop population data and affected area by Lahar and pyroclastic density currents, about 8,400 people are potentially exposed or living close to pyroclastic density area.\nIn addition, base on Esri 2020 Land Cover, potentially affected in tree area ~2,100ha, scrub/shrub area ~ 400 ha, cropland ~ 165 ha, built area ~ 140 ha.\nImportant note: Pyroclastic density currents (PDCs) are perhaps the most hazardous events to local areas during explosive volcanic eruptions.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Potentially affected area by volcanic eruption effect of the 4 Dec 2021 in Java Province, Indonesia as of 10&11 Dec 2021](https://data.humdata.org/dataset/potentially-affected-area-by-volcanic-eruption-effect-of-the-4-dec-2021-in-java-province-i)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20211205idn-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Volcano, Indonesia, 5 December 2021 (VO20211205IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20211205idn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Volcano, Indonesia, 5 December 2021 (VO20211205IDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211205idn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

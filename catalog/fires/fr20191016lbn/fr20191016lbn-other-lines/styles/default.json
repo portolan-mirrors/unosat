@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "name": "Other lines",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../fr20191016lbn-other-lines.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "other-lines",
+      "id": "other-lines-lines",
+      "type": "line",
+      "paint": {
+        "line-color": "#555555",
+        "line-width": 1.5
+      }
+    }
+  ]
+}

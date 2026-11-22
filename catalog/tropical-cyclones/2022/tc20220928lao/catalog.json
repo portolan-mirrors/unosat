@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022/tc20220928lao",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO)",
+  "description": "UNOSAT geodata for Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code TC20220928LAO, GDACS Id: 1000922**  Typhoon Noru originated from a disturbance over the Philippine Sea. The storm made its first landfall over the Polillo Islands, Philippines on September 26 at 09:30 UTC and its second over Central Luzon five hours later as a high-end typhoon. The storm also made the third landfall in the early morning of 28 Sep 22 with winds of 117 km/h in the province of Quang Nam, home to the historic city of Hoi An and resort of Danang of Viet Nam. Typhoon Noru is expected to hit the central and southern provinces of Lao PDR on Wednesday, bringing heavy rain and thunderstorm to most of the country. According to GDACS, Typhoon Noru can have a high humanitarian impact based on the maximum sustained wind speed, exposed population, and vulnerability.\nBased on data of the forecasted the cyclone path of wind speeds zones from Joint Research Centre (Issued on 28 September 2022 at 07:00 local time), and population data from WorldPop 2020, UNITAR-UNOSAT has prepared a population exposure analysis for Lao PDR. About 2% of population of Lao PDR living inside wind speed zone exceed 120 km/h, 16% living inside wind speed zone of 60-120 km/h and 20% living inside wind speed zone below 60 km/h\n\nHDX datasets:\n\n- [Satellite detected water extents over Khongxedone District, Saravan Province & Sanasomboon District, Champasak Province, LAO PDR as of 1 October 2022](https://data.humdata.org/dataset/water-extents-over-khongxedone-district-saravan-province-sanasomboon-district-champasak-pr)\n- [Satellite detected water extents over Sukhuma District, Champasak Province, LAO PDR as of 1 October 2022](https://data.humdata.org/dataset/water-extents-over-sukhuma-district-champasak-province-lao-pdr-as-of-1-october-2022)\n- [UNOSAT Typhoon NORU  Population Exposure Analysis  in Lao People's Democratic Republic 28 September 2022](https://data.humdata.org/dataset/unosat-typhoon-noru-population-exposure-analysis-in-lao-people-s-democratic-republic-28-se)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220928lao-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220928lao-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928lao/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

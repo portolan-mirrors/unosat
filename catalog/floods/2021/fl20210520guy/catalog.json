@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20210520guy",
+  "stac_version": "1.1.0",
+  "title": "Flood, Guyana, 20 May 2021 (FL20210520GUY)",
+  "description": "UNOSAT geodata for Flood, Guyana, 20 May 2021 (FL20210520GUY), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20210520GUY**  This map illustrates satellite-detected surface waters in Guyana as observed from a Joint VIIRS-ABI flood product acquired on 6 & 8 June 2021. Within the analyzed cloud free zones of about 140,000 km2, a total of about 2,000 km2 of lands appear to be flooded. The overall water extent as detected on the 8 June 2021 appears to have decreased of about 1,000 km2 since 6 June 2021. Based on Worldpop population data and the detected surface waters, about 30,000 people are potentially exposed or living close to flooded areas. The potentially exposed population is mainly located in the Region 6 with ~10,000 people and Region 2 & 5  with ~6,000 people each.\nThis is a preliminary analysis that has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Satellite detected water extent along the Mazaruni river as of 09 June 2021, Region 7 - Cuyuni-Mazaruni, Guyana](https://data.humdata.org/dataset/water-extent-along-the-mazaruni-river-as-of-09-june-2021-region-7-cuyuni-mazaruni-guyana)\n- [Satellite detected water extent along the Mazaruni river as of 23 June 2021, Region 7 - Cuyuni-Mazaruni, Guyana](https://data.humdata.org/dataset/water-extent-along-the-mazaruni-river-as-of-23-june-2021-region-7-cuyuni-mazaruni-guyana)\n- [Satellite detected water extent as of 8 June 2021 in Guyana](https://data.humdata.org/dataset/satellite-detected-water-extent-as-of-8-june-2021-in-guyana)\n- [Satellite detected water extent between 2 & 6 June 2021 in Guyana](https://data.humdata.org/dataset/satellite-detected-water-extent-between-2-6-june-2021-in-guyana)\n- [Satellite detected water extent in Region 9-Upper Takutu-Upper Essequibo, Guyana as of 12 June 2021](https://data.humdata.org/dataset/water-extent-in-region-9-upper-takutu-upper-essequibo-guyana-as-of-12-june-2021)\n- [Satellite detected water extent over Kwakwani town along the Berbice river as of 07 June 2021, Region 10, Guyana](https://data.humdata.org/dataset/water-extent-over-kwakwani-town-along-the-berbice-river-as-of-07-june-2021-region-10-guyan)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210520guy-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Guyana, 20 May 2021 (FL20210520GUY)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210520guy-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Guyana, 20 May 2021 (FL20210520GUY)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210520guy/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

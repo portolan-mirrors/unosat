@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240804pak",
+  "stac_version": "1.1.0",
+  "title": "Flood, Pakistan, 4 August 2024 (FL20240804PAK)",
+  "description": "UNOSAT geodata for Flood, Pakistan, 4 August 2024 (FL20240804PAK), from 10 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240804PAK**  This map illustrates cumulative satellite-detected water using VIIRS in Pakistan from 02 to 10 September 2024 compared with the period from 26 August to 02 September 2024. Within the cloud free analysed areas of about 800,000 km², a total of about 38,000 km² of lands appear to be affected with flood waters. Water extent appears to have increased of about 1,000 km² since the period between 26 August to 02 September 2024. Based on Worldpop population data and the maximum flood water extent ~12 million people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extents from 02 to 10 September 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-02-to-10-september-2024-over-pakistan)\n- [Satellite detected water extents from 08 to 12 August 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-08-to-12-august-2024-over-pakistan)\n- [Satellite detected water extents from 10 to 24 September 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-10-to-24-september-2024-over-pakistan)\n- [Satellite detected water extents from 13 to 17 August 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-13-to-17-august-2024-over-pakistan)\n- [Satellite detected water extents from 17 to 20 August 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-17-to-20-august-2024-over-pakistan)\n- [Satellite detected water extents from 20 to 26 August 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-20-to-26-august-2024-over-pakistan)\n- [Satellite detected water extents from 21 July 2024 to 03 August 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-21-july-2024-to-03-august-2024-over-pakistan)\n- [Satellite detected water extents from 26 August to 2 September 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-26-august-to-2-september-2024-over-pakistan)\n- [Satellite detected water extents from September to 07 October 2024 over Pakistan](https://data.humdata.org/dataset/satellite-detected-water-extents-from-september-to-07-october-2024-over-pakistan)\n- [UNOSAT Live webmap, Floods in Pakistan, July 2024](https://data.humdata.org/dataset/unosat-live-webmap-floods-in-pakistan-july-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240804pak-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240804pak-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240804pak/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

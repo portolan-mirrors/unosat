@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2016/eq20160417ecu",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)",
+  "description": "UNOSAT geodata for Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU), from 9 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected areas of damage and related density  in Jama city, Manabi Province, Ecuador. Located at approximately 100 km south of the 16 April 2016 Muisne earthquake mainshock epicenter and using a WorldView-2 satellite image acquired 02 May 2016 and a WorldView- 2 image acquired 02 December 2013. UNITAR-UNOSAT created a damage  site density index for affected areas in the city of Jama. The analysis  revealed a total of 151 potentially damaged structures of which 105 are destroyed, 34 severely damaged and 12 moderately damaged. This is a preliminary analysis and not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Damage Assessment of Atacames area, Esmeraldas Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-atacames-area-esmeraldas-province-ecuador-april-20-2016)\n- [Geodata of Damage Assessment of Bahia de Caraquez, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-bahia-de-caraquez-manabi-province-ecuador-april-21-2016)\n- [Geodata of Damage Assessment of Chone area, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-chone-area-manabi-province-ecuador-april-25-2016)\n- [Geodata of Damage Assessment of Crucita Area, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-crucita-area-manabi-province-ecuador-april-20-2016)\n- [Geodata of Damage Assessment of Muisne, Esmeraldas Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-muisne-esmeraldas-province-ecuador-april-22-2016)\n- [Geodata of Damage Assessment of Salinas and La Libertad Areas, Santa Elena Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-salinas-and-la-libertad-areas-santa-elena-pro-april-20-2016)\n- [Geodata of Damage Assessment of San Vicente, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-san-vicente-manabi-province-ecuador-april-21-2016)\n- [Geodata of Damage Density in The City of Jama, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-density-in-the-city-of-jama-manabi-province-ecuador-may-18-2016)\n- [Geodata of Damage assessment of Montecristi, Manabi province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-montecristi-manabi-province-ecuador-april-27-2016)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20160417ecu-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20160417ecu-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20160417ecu-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

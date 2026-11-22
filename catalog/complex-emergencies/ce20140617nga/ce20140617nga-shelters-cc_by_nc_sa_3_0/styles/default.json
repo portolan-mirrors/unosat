@@ -1,0 +1,50 @@
+{
+  "version": 8,
+  "name": "Shelters by CampStatus",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ce20140617nga-shelters-cc_by_nc_sa_3_0.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "shelters",
+      "id": "shelters-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "CampStatus"
+            ]
+          ],
+          "Open (Operational)",
+          "#1b9e77",
+          "#bdbdbd"
+        ],
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

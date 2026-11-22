@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240912tha",
+  "stac_version": "1.1.0",
+  "title": "Flood, Thailand, 12 September 2024 (FL20240912THA)",
+  "description": "UNOSAT geodata for Flood, Thailand, 12 September 2024 (FL20240912THA), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240912THA**  This map illustrates cumulative detected water using multiple satellites in Chiang Rai Province, Thailand from 1 August to 22 October 2024. Within the boundary of Chiang Rai Province of about 11,600 km², a total of about 875 km² of land appears to be affected by flood waters, with around 700 km² of cropland inundated.\nBased on Worldpop spatial demographic data, about 94,100 people are exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nThis work is the result of collaboration between UNOSAT and GISTDA operating under the agreement of the UNOSAT Rapid Mapping Partners Initiative Programme\n\nHDX datasets:\n\n- [Satellite detected water extents from 1 Aug. 2024 to 22 October 2024 over Chiang Rai Province](https://data.humdata.org/dataset/water-extents-from-1-aug-2024-to-22-october-2024-over-chiang-rai-province)\n- [Satellite detected water extents from 1 August 2024 to 12 October 2024 over Phayao Province](https://data.humdata.org/dataset/water-extents-from-1-august-2024-to-12-october-2024-over-phayao-province)\n- [Satellite detected water extents from 5 to 10 October 2024 over Chiang Mai and Lamphun Provinces](https://data.humdata.org/dataset/water-extents-from-5-to-10-october-2024-over-chiang-mai-and-lamphun-provinces)\n- [Satellite detected water extents in Doi Tao District, Chiang Mai Province as of  6 October 2024](https://data.humdata.org/dataset/water-extents-in-doi-tao-district-chiang-mai-province-as-of-6-october-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240912tha-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Thailand, 12 September 2024 (FL20240912THA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240912tha-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Thailand, 12 September 2024 (FL20240912THA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912tha/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

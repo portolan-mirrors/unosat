@@ -1,0 +1,244 @@
+{
+  "type": "Collection",
+  "id": "floods/2019/fl20191205cog/fl20191205cog-water-extent",
+  "stac_version": "1.1.0",
+  "description": "Water extent for Flood, Congo, 5 December 2019 (FL20191205COG): 12 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Satellite-detected flood waters, as of 29 November 2019, over Loukoléla, Cuvette Department, Republic of Congo](https://data.humdata.org/dataset/flood-waters-as-of-29-november-2019-over-loukolela-cuvette-department-republic-of-congo)\n- [Satellite-detected water extents, as of 10 December 2019, over Epéna District, Likouala  Department, Republic of Congo](https://data.humdata.org/dataset/water-extents-as-of-10-december-2019-over-epena-district-likouala-department-republic-of-c)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/flood-waters-as-of-29-november-2019-over-loukolela-cuvette-department-republic-of-congo",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20191205cog-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "water-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191205cog/fl20191205cog-water-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:23:19Z",
+  "pmtiles:min_zoom": 5,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    17.1022026,
+    -1.0319265,
+    9
+  ],
+  "pmtiles:layers": [
+    "water-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 12,
+  "table:row_count": 12,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Water_Clas",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "Water_Stat",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "SenorID_ol",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Water extent: Flood, Congo, 5 December 2019 (FL20191205COG)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          17.091823696000063,
+          -1.0402665079999451,
+          17.11258162900009,
+          -1.0235865369999146
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-10T00:00:00Z",
+          "2019-12-11T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20191205cog-water-extent": {
+      "href": "./fl20191205cog-water-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 21525,
+      "file:checksum": "12203b9d2e3fb3f725aca4cfbaa690ae35440e06aa464f4ea38c2ff04e6a637aaef9",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20191205cog-water-extent-tiles": {
+      "href": "./fl20191205cog-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 25313,
+      "file:checksum": "1220400500a8f9cdaadc0e3cefbf756c84c5cffe56c04c9809a5dc32380e84eccd33",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Water extent by Water_Clas",
+      "file:size": 879,
+      "file:checksum": "1220cf4aa88360421212b5b62f705f2cebe1f6af23cd91c5c7d5df510fb7518f34bd"
+    }
+  }
+}

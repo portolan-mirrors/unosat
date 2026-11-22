@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2018/tc20180103mdg",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG)",
+  "description": "UNOSAT geodata for Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected water extent as of 07 January 2018 over Vohipeno & Manakara Atsimo districs, Vatovavy Fitovinary Region, in Madagascar as detected by Sentinel-1. As of 07 January 2018. Several communes of these districts seem to be affected by inundations due to to the heavy rains that have followed the cyclone AVA-18. ~1,000 ha of lands appear to be likely affected in Vohitrindry, ~ 800 ha in Lanovo and ~400 ha in Vohilany communes. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks and within built-up urban areas because of the special characteristics of the satellite data used. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR UNOSAT.\n\nHDX datasets:\n\n- [Satellite Detected Waters Extent in Mananjary District, Vatovavy-Fitovinany Region, Madagascar](https://data.humdata.org/dataset/satellite-detected-waters-extent-in-mananjary-district-vatovavy-fitovinany-region-madagascar-2757)\n- [Satellite Detected Waters Extent in Soaneriana Ivongo District, Analanjirofo Region, Madagascar](https://data.humdata.org/dataset/satellite-detected-waters-extent-in-soaneriana-ivongo-district-analanjirofo-region-madagascar-2759)\n- [Satellite Detected Waters Extent in Tomasina Districts, Atsinanana Region, Madagascar](https://data.humdata.org/dataset/satellite-detected-waters-extent-in-tomasina-districts-atsinanana-region-madagascar-2758)\n- [Satellite Detected Waters Extent in Vohipeni & Manakara Districts, Atsinanana Region, Madagascar](https://data.humdata.org/dataset/satellite-detected-waters-extent-in-vohipeni-manakara-districts-atsinanana-region-madagascar-2756)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20180103mdg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20180103mdg-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180103mdg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

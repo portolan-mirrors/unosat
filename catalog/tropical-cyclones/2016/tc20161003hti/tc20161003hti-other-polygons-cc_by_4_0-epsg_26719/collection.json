@@ -1,0 +1,257 @@
+{
+  "type": "Collection",
+  "id": "tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI): 7 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:26719, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Dominican Republic - Population Exposure Wind Speed from Hurricane Matthew (UNOSAT, 2016-10-06)](https://data.humdata.org/dataset/unosat-dominicanrep-popexposure-windspeed-matthew-20161006)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/unosat-dominicanrep-popexposure-windspeed-matthew-20161006",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tc20161003hti-other-polygons-cc_by_4_0-epsg_26719.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:30:02Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -71.4479256,
+    18.6907795,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 7,
+  "table:row_count": 7,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "PROVINCIA",
+      "type": "string"
+    },
+    {
+      "name": "NOMBRE",
+      "type": "string"
+    },
+    {
+      "name": "CodUNICEF",
+      "type": "string"
+    },
+    {
+      "name": "Men",
+      "type": "int32"
+    },
+    {
+      "name": "Women",
+      "type": "int32"
+    },
+    {
+      "name": "PopTot",
+      "type": "int32"
+    },
+    {
+      "name": "REGI_SALUD",
+      "type": "string"
+    },
+    {
+      "name": "COD_ONE_T",
+      "type": "string"
+    },
+    {
+      "name": "COD_ONE",
+      "type": "double"
+    },
+    {
+      "name": "POB_2000",
+      "type": "double"
+    },
+    {
+      "name": "NO_REG_SAL",
+      "type": "string"
+    },
+    {
+      "name": "Viviendas",
+      "type": "double"
+    },
+    {
+      "name": "WSZ_120kmh",
+      "type": "double"
+    },
+    {
+      "name": "WSZ_90kmh",
+      "type": "double"
+    },
+    {
+      "name": "WSZ_60kmh",
+      "type": "double"
+    },
+    {
+      "name": "Total",
+      "type": "double"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.00779612291143,
+          17.4696766890131,
+          -70.88805513220245,
+          19.912349605367012
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-06T00:00:00Z",
+          "2016-10-06T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tc20161003hti-other-polygons-cc_by_4_0-epsg_26719": {
+      "href": "./tc20161003hti-other-polygons-cc_by_4_0-epsg_26719.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 152563,
+      "file:checksum": "1220294a0d2f104bbba9d7e01ff2282d92a104a00b01cde07a77478d804429ae8169",
+      "proj:code": "EPSG:26719",
+      "roles": [
+        "data"
+      ]
+    },
+    "tc20161003hti-other-polygons-cc_by_4_0-epsg_26719-tiles": {
+      "href": "./tc20161003hti-other-polygons-cc_by_4_0-epsg_26719.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 436784,
+      "file:checksum": "122008b8eb4d8cb3e90911c6f08bea75e4719fadea83dc35848a62e2ace4a8680563",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 685,
+      "file:checksum": "122093abd5540ed8638026d4c119f29a011ceca8e104d2c5a3a3cdace4fc3a1bb7f7"
+    }
+  }
+}

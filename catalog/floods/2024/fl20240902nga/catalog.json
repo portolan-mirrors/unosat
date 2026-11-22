@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240902nga",
+  "stac_version": "1.1.0",
+  "title": "Flood, Nigeria, 2 September 2024 (FL20240902NGA)",
+  "description": "UNOSAT geodata for Flood, Nigeria, 2 September 2024 (FL20240902NGA), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240902NGA, GDACS ID: 1102720**  This map illustrates cumulative satellite-detected water using VIIRS in Nigeria between 09 to 13 November 2024. Within the cloud free analysed areas of about 900,000 km², a total of about 22,000 km² of lands appear to be affected with flood waters. Maximum flood water extent appears to have receded of about 5,700 km²\nsince the period between 27 to 31 October 2024. Based on Worldpop population data and the maximum flood water extent, about 5.8 million people remain potentially exposed or live close to flooded areas.\nThe pixelwise water fraction from VIIRS, using a 5-day composite at 375 m spatial resolution, indicates potential floodwater coverage ranging from 0% to 100%. This large-scale analysis is intended for guidance purposes and has not yet been validated with ground truth data or higher- resolution analysis. The population exposure\nanalysis is based on floodwaters observed only in cloud-free areas, so the total number of people exposed may be underestimated.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extent along the Komadugu Gana River, Bursari & Tarmua Local Government Area, Nigeria as of 15 September 2024](https://data.humdata.org/dataset/water-extent-along-the-komadugu-gana-river-bursari-tarmua-local-government-area-nigeria-as)\n- [Satellite detected water extent in Dikwa Town, Dikwa Local Government Area, Borno state, Nigeria as of 9 and 19 September 2024](https://data.humdata.org/dataset/water-extent-in-dikwa-town-dikwa-local-government-area-borno-state-nigeria-as-of-9-and-19-)\n- [Satellite detected water extents from 5 to 9 September 2024 over Nigeria](https://data.humdata.org/dataset/satellite-detected-water-extents-from-5-to-9-september-2024-over-nigeria)\n- [Satellite detected water extents from 9 to 13 November 2024 over Nigeria](https://data.humdata.org/dataset/satellite-detected-water-extents-from-9-to-13-november-2024-over-nigeria)\n- [UNOSAT Live Web map - Floods in Nigeria, 2024](https://data.humdata.org/dataset/unosat-live-web-map-floods-in-nigeria-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240902nga-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Nigeria, 2 September 2024 (FL20240902NGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240902nga-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Flood, Nigeria, 2 September 2024 (FL20240902NGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240902nga-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240902nga-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

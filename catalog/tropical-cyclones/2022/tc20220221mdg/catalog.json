@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022/tc20220221mdg",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG)",
+  "description": "UNOSAT geodata for Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG), from 14 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20220221MDG**  This map illustrates satellite-detected surface waters over Betroka district, Anosy region, Madagascar observed from Sentinel-1 image acquired on 24 February 2022 at 18:34 local time. The flood analysis were carried out by using an automated analysis with Artificial Intelligence based methods. Within the analyzed area about ~1,000 km2, a total of about 15 km2 of lands appear to be flooded. Based on Worldpop population data and the detected surface waters, about 900 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis that has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents in Ambohimahasoa, Lalangina, and Vohibato Districts, Madagascar as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-ambohimahasoa-lalangina-and-vohibato-districts-madagascar-as-of-24-februa)\n- [Satellite detected water extents in Betroka district, Anosy region, Madagascar as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-betroka-district-anosy-region-madagascar-as-of-24-february-2022)\n- [Satellite detected water extents in Iakora and Ivohibe Districts, Ihorombe Region, Madagascar as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-iakora-and-ivohibe-districts-ihorombe-region-madagascar-as-of-24-february)\n- [Satellite detected water extents in Mahanoro District, Atsinanana Region, Madagascar as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-mahanoro-district-atsinanana-region-madagascar-as-of-24-february-2022)\n- [Satellite detected water extents in Manakara Atsimo district, Vatovavy Fitovinany region, Madagascar as of 24 Feb 2022](https://data.humdata.org/dataset/water-extents-in-manakara-atsimo-district-vatovavy-fitovinany-region-madagascar-as-of-24-f)\n- [Satellite detected water extents in Mananjary and Nosy-Varika Districts, Madagascar as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-mananjary-and-nosy-varika-districts-madagascar-as-of-24-february-2022)\n- [Satellite detected water extents in Midongy-Atsimo District, Atsimo Atsinanana Region, Madagascar as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-midongy-atsimo-district-atsimo-atsinanana-region-madagascar-as-of-24-febr)\n- [Satellite detected water extents in Vangaindrano district, Atsimo Atsinanana region, Madagascar  as of 24 February 2022](https://data.humdata.org/dataset/water-extents-in-vangaindrano-district-atsimo-atsinanana-region-madagascar-as-of-24-februa)\n- [Satellite detected water extents in Vangaindrano district, Atsimo Atsinanana region, Madagascar as of 1 March 2022](https://data.humdata.org/dataset/water-extents-in-vangaindrano-district-atsimo-atsinanana-region-madagascar-as-of-1-march-2)\n- [Satellite-detected water extents  in Ifotaka Commune, Amboasary-Atsimo District, Anosy Region, as of 28 February 2022](https://data.humdata.org/dataset/water-extents-in-ifotaka-commune-amboasary-atsimo-district-anosy-region-as-of-28-february-)\n- [Satellite-detected water extents in Farafangana and Vangaindrano Districts, Madagascar as of 27 February 2022](https://data.humdata.org/dataset/water-extents-in-farafangana-and-vangaindrano-districts-madagascar-as-of-27-february-2022)\n- [Satellite-detected water extents in Farafangana and Vondrozo Districts, Atsimo Atsinanana Region as of 24 Feb. 2022](https://data.humdata.org/dataset/water-extents-in-farafangana-and-vondrozo-districts-atsimo-atsinanana-region-as-of-24-feb-)\n- and 2 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220221mdg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220221mdg-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220221mdg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

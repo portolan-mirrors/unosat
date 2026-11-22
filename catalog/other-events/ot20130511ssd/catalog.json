@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "other-events/ot20130511ssd",
+  "stac_version": "1.1.0",
+  "title": "Event, South Sudan, 11 May 2013 (OT20130511SSD)",
+  "description": "UNOSAT geodata for Event, South Sudan, 11 May 2013 (OT20130511SSD), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the Gendrasa refugee camp in Maban County of Upper Nile State in South Sudan. Using high-resolution optical satellite imagery collected by the WorldView-2 satellite, UNOSAT located a total of 8,028 shelters and 145 non-shelter structures as of 06 December 2013. This is an 80% increase in the number of shelters since the previous UNOSAT analysis of the Gendrasa camp which used an image from 03 October 2012 and located 4,334 shelters and 187 non-shelter structures. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR / UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Ajuong Thok Refugee Camp, Pariang County, Unity State, South Sudan](https://data.humdata.org/dataset/geodata-of-ajuong-thok-refugee-camp-pariang-county-unity-state-south-sudan-january-13-2014)\n- [Geodata of Batil Refugee Camp, Maban County, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-batil-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014)\n- [Geodata of Doro Refugee Camp, Maban County, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-doro-refugee-camp-maban-county-upper-nile-state-south-sudan-january-15-2014)\n- [Geodata of Gendrasa Refugee Camp, Maban County, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20130511ssd-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Event, South Sudan, 11 May 2013 (OT20130511SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20130511ssd-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Event, South Sudan, 11 May 2013 (OT20130511SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20130511ssd-shelter-areas/collection.json",
+      "type": "application/json",
+      "title": "Shelter areas: Event, South Sudan, 11 May 2013 (OT20130511SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20130511ssd-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Event, South Sudan, 11 May 2013 (OT20130511SSD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

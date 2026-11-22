@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "fires/fr20240222gnq",
+  "stac_version": "1.1.0",
+  "title": "Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)",
+  "description": "UNOSAT geodata for Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FR20240222GNQ**  This map illustrates the burned areas as observed from Sentinel-2 images acquired on the 3rd and 18th of February 2024, over the Pico Basil Volcano on Bioko Island, Equatorial Guinea. Approximately 3 km2 of vegetation appeared to have burned around the Pico Basil Volcano as of February 3rd, 2024, increasing to about 6  km2 by 18th of February 2024. UNOSAT has identified 16 potentially affected structures and potentially affected roads approximately 2 kilometers.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Areas burned from February 3rd to 18th, 2024, around the Pico Basil Volcano on Bioko Island, Equatorial Guinea](https://data.humdata.org/dataset/areas-burned-from-february-3rd-to-18th-2024-around-the-pico-basil-volcano-on-bioko-island-)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20240222gnq-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20240222gnq-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20240222gnq-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fr20240222gnq-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

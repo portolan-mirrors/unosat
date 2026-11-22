@@ -1,0 +1,160 @@
+{
+  "type": "Catalog",
+  "id": "floods/2023",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2023",
+  "description": "UNOSAT geodata for 17 floods whose event code dates from 2023. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230131zmb/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Zambia, 31 January 2023 (FL20230131ZMB)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230321ken/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Kenya, 21 March 2023 (FL20230321KEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230321per/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Peru, 21 March 2023 (FL20230321PER)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230327som/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230504rwa/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Rwanda, 4 May 2023 (FL20230504RWA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230508cod/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230526dza/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Algeria, 26 May 2023 (FL20230526DZA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230606ukr/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Ukraine, 6 June 2023 (FL20230606UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230729pak/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Pakistan, 29 July 2023 (FL20230729PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230807lao/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230811nor/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Norway, 11 August 2023 (FL20230811NOR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230912lby/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Libya, 12 September 2023 (FL20230912LBY)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231018gha/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Ghana, 18 October 2023 (FL20231018GHA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231105som/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Somalia, 5 November 2023 (FL20231105SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231120dom/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231124ken/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Kenya, 24 November 2023 (FL20231124KEN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20231229cod/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

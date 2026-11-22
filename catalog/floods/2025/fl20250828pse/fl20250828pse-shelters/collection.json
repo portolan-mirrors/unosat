@@ -1,0 +1,209 @@
+{
+  "type": "Collection",
+  "id": "floods/2025/fl20250828pse/fl20250828pse-shelters",
+  "stac_version": "1.1.0",
+  "description": "Shelters for Flood, State of Palestine, 28 August 2025 (FL20250828PSE): 28,070 features merged from 2 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Sea Surge risk & flood impact assessment in the Coastal Area of Gaza city (Occupied Palestinian Territory) as of 29 August 2025](https://data.humdata.org/dataset/sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-gaza-city-occupied-palestini)\n- [Sea Surge risk & flood impact assessment in the Coastal Area of Southern Gaza Strip (Occupied Palestinian Territory) as of 29 August 2025](https://data.humdata.org/dataset/sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-southern-gaza-strip-occupied)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-gaza-city-occupied-palestini",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20250828pse-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelters"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-shelters/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:27:58Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    34.3482528,
+    31.444848,
+    7
+  ],
+  "pmtiles:layers": [
+    "shelters"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint Z"
+  ],
+  "geoparquet:feature_count": 28070,
+  "table:row_count": 28070,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Sensor_v1",
+      "type": "string"
+    },
+    {
+      "name": "Date_v1",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "DA_v1",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelters: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.237608181836634,
+          31.33851493296775,
+          34.458897508632546,
+          31.551181130523968
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-09-09T00:00:00Z",
+          "2025-09-10T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20250828pse-shelters": {
+      "href": "./fl20250828pse-shelters.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 526662,
+      "file:checksum": "122017f6af497087bb82ddb9c6dabedeb0a207e34e35c5ca24079385e239b680ad07",
+      "proj:code": "EPSG:32636",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20250828pse-shelters-tiles": {
+      "href": "./fl20250828pse-shelters.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 339703,
+      "file:checksum": "122099ddc284eb382b8fa2ec955633230dec7272f515276eabdef0a0afaf50d597b6",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelters",
+      "file:size": 679,
+      "file:checksum": "1220249125b86c4c18577e6bebd1a06f5a5d89cbeb4ac61182a8ef1ffd2f30000161"
+    }
+  }
+}

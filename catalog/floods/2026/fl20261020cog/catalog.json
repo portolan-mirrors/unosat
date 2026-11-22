@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2026/fl20261020cog",
+  "stac_version": "1.1.0",
+  "title": "Flood, Congo, 20 October 2026 (FL20261020COG)",
+  "description": "UNOSAT geodata for Flood, Congo, 20 October 2026 (FL20261020COG), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20261020COG**  This application provides satellite-based information to support monitoring of the ongoing floods in the Republic of the Congo.\nImportant note: The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the United Nations. The United Nations Satellite Centre. UNOSAT is not responsible for the misuse or misrepresentation of the map.\n\nHDX datasets:\n\n- [UNOSAT Live web map, Floods in Republic of Congo (October 2026)](https://data.humdata.org/dataset/unosat-live-web-map-floods-in-republic-of-congo-october-2026)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20261020cog-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Congo, 20 October 2026 (FL20261020COG)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20261020cog-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Congo, 20 October 2026 (FL20261020COG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20261020cog/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

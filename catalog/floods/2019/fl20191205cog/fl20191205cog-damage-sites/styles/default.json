@@ -1,0 +1,50 @@
+{
+  "version": 8,
+  "name": "Damage sites by Main_Damag",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../fl20191205cog-damage-sites.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-sites",
+      "id": "damage-sites-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damag"
+            ]
+          ],
+          "Possible Damage",
+          "#fdcc8a",
+          "#bdbdbd"
+        ],
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

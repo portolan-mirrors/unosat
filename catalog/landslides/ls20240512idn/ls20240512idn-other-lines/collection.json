@@ -1,0 +1,368 @@
+{
+  "type": "Collection",
+  "id": "landslides/ls20240512idn/ls20240512idn-other-lines",
+  "stac_version": "1.1.0",
+  "description": "Other lines for Landslide, Indonesia, 12 May 2024 (LS20240512IDN): 874 features merged from 9 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Mudslide / Lahar impact in Canduang, Agam Metropolitan, Indonesia as of 23 May 2024](https://data.humdata.org/dataset/mudslide-lahar-impact-in-canduang-agam-metropolitan-indonesia-as-of-23-may-2024)\n- [Mudslide / Lahar impact in Lima Kaum, Rambatanm and Pariangan Districts, Indonesia, as of 17 May 2024](https://data.humdata.org/dataset/mudslide-lahar-impact-in-lima-kaum-rambatanm-and-pariangan-districts-indonesia-as-of-17-ma)\n- [Mudslide / Lahar impact in Sungai Pua and Banuhampu, Agam Metropolitan, Indonesia as of 20 May 2024](https://data.humdata.org/dataset/mudslide-lahar-impact-in-sungai-pua-and-banuhampu-agam-metropolitan-indonesia-as-of-20-may)\n- [UNOSAT Live Web map - Landslide in Indonesia](https://data.humdata.org/dataset/unosat-live-web-map-landslide-in-indonesia)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/mudslide-lahar-impact-in-canduang-agam-metropolitan-indonesia-as-of-23-may-2024",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ls20240512idn-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-lines"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-other-lines/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:28:48Z",
+  "pmtiles:min_zoom": 5,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    65.1952485,
+    4.4031302,
+    9
+  ],
+  "pmtiles:layers": [
+    "other-lines"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiLineString"
+  ],
+  "geoparquet:feature_count": 874,
+  "table:row_count": 874,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "SourceID",
+      "type": "string"
+    },
+    {
+      "name": "Picture",
+      "type": "binary"
+    },
+    {
+      "name": "Exs",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Definite; 2 = Doubtful. The decoded text is in `Exs_label`."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "RoadID",
+      "type": "string"
+    },
+    {
+      "name": "ONme",
+      "type": "string"
+    },
+    {
+      "name": "RteNme",
+      "type": "string"
+    },
+    {
+      "name": "FClass",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Highway; 2 = Primary; 3 = Secondary; 4 = Tertiary; 5 = Local/ Urban; 6 = Trail; 7 = Private. The decoded text is in `FClass_label`."
+    },
+    {
+      "name": "SrfTpe",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Paved; 2 = Gravel; 3 = Dirt/Sand; 4 = Steel; 5 = Wood; 6 = Grass. The decoded text is in `SrfTpe_label`."
+    },
+    {
+      "name": "SrfCond",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Rough (<40kph); 2 = Smooth (>40kph); 3 = Snow/Ice; 4 = Mud. The decoded text is in `SrfCond_label`."
+    },
+    {
+      "name": "SrfPrep",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Natural Compaction; 2 = Traffic Compaction; 3 = Engineered Compaction; 4 = Uncompacted. The decoded text is in `SrfPrep_label`."
+    },
+    {
+      "name": "IsSeasonal",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Yes; 2 = No. The decoded text is in `IsSeasonal_label`."
+    },
+    {
+      "name": "CurntPrac",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Non-motorized; 2 = Motorbike; 3 = 4WD < 3.5MT; 4 = Light truck < 10MT; 5 = Heavy truck < 20MT; 6 = Truck + Trailer > 20MT. The decoded text is in `CurntPrac_label`."
+    },
+    {
+      "name": "GdWthrPrac",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Non-motorized; 2 = Motorbike; 3 = 4WD < 3.5MT; 4 = Light truck < 10MT; 5 = Heavy truck < 20MT; 6 = Truck + Trailer > 20MT. The decoded text is in `GdWthrPrac_label`."
+    },
+    {
+      "name": "BdWthrPrac",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Non-motorized; 2 = Motorbike; 3 = 4WD < 3.5MT; 4 = Light truck < 10MT; 5 = Heavy truck < 20MT; 6 = Truck + Trailer > 20MT. The decoded text is in `BdWthrPrac_label`."
+    },
+    {
+      "name": "CurntSpeed",
+      "type": "int32"
+    },
+    {
+      "name": "IsUndrCstr",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Yes; 2 = No. The decoded text is in `IsUndrCstr_label`."
+    },
+    {
+      "name": "CstWrkETC",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "Sec",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Category A: low risk; 2 = Category B: low to medium risk; 3 = Category C: medium to high risk; 4 = Category D: high risk; 5 = Category E: critical risk. The decoded text is in `Sec_label`."
+    },
+    {
+      "name": "OpStatus",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Open; 2 = Restricted; 3 = Closed; 4 = Abandonned/Disused. The decoded text is in `OpStatus_label`."
+    },
+    {
+      "name": "StaffID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 11 = EB; 22 = WP; 33 = LB; 44 = JL; 55 = VG; 66 = CJ; 77 = LD; 88 = HK; 99 = ER; 100 = KM; 111 = MFB; 777 = SB; 1000 = Unknown. The decoded text is in `StaffID_label`."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "BdWthrPrac_label",
+      "type": "string",
+      "description": "`BdWthrPrac` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CurntPrac_label",
+      "type": "string",
+      "description": "`CurntPrac` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Exs_label",
+      "type": "string",
+      "description": "`Exs` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "FClass_label",
+      "type": "string",
+      "description": "`FClass` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "GdWthrPrac_label",
+      "type": "string",
+      "description": "`GdWthrPrac` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "IsSeasonal_label",
+      "type": "string",
+      "description": "`IsSeasonal` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "IsUndrCstr_label",
+      "type": "string",
+      "description": "`IsUndrCstr` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "OpStatus_label",
+      "type": "string",
+      "description": "`OpStatus` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sec_label",
+      "type": "string",
+      "description": "`Sec` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SrfCond_label",
+      "type": "string",
+      "description": "`SrfCond` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SrfPrep_label",
+      "type": "string",
+      "description": "`SrfPrep` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SrfTpe_label",
+      "type": "string",
+      "description": "`SrfTpe` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other lines: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.77848841000008,
+          -0.5378693049999583,
+          100.61200870400006,
+          9.344129756000086
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-05-20T00:00:00Z",
+          "2024-05-28T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ls20240512idn-other-lines": {
+      "href": "./ls20240512idn-other-lines.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 33838,
+      "file:checksum": "1220b0eaac8ecdaa8b167bd97c320b97f074c442b9a8aabee49b0a08bd53d620ecd3",
+      "roles": [
+        "data"
+      ]
+    },
+    "ls20240512idn-other-lines-tiles": {
+      "href": "./ls20240512idn-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 65056,
+      "file:checksum": "122085dd87bcc32c3cb2e5b014dfb6bb6e16cc8190e1e749f3ce668fef04f7b987f8",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other lines",
+      "file:size": 401,
+      "file:checksum": "1220d51f44abe8a2764f40ad221994499953c5f25edae386fd11f2b31b873ec7c276"
+    }
+  }
+}

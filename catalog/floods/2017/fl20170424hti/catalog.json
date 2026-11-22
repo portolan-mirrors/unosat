@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20170424hti",
+  "stac_version": "1.1.0",
+  "title": "Flood, Haiti, 24 April 2017 (FL20170424HTI)",
+  "description": "UNOSAT geodata for Flood, Haiti, 24 April 2017 (FL20170424HTI), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the satellite-detected water extent in Les Cayes and Cavaillon communes in Sud Department (Haiti) located in the southwestern part of Haiti. The UNITAR-UNOSAT analysis used a Sentinel-1 satellite image acquired on the 26 April 2017 and a Radarsat-2 image acquired on the 17 May 2016 and could observe areas with standing waters mainly affecting agricultural fields. The UNITAR-UNOSAT analysis identified 718 ha of flooded areas, which cover ~4% of this map's extent of ~20300 ha of land. The increase of waters within the analyzed zone is about 460%. ~155 ha of surface waters were observed the 17 May 2016 and reached ~873 ha the 26 April 2017. About 9km of roads, mainly local roads are potentially affected. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks and within built-up urban areas because of the special characteristics of the satellite data used. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Haiti - Satellite Detected Surface Waters Extent in Les Cayes and Cavaillon Communes, Sud Department](https://data.humdata.org/dataset/satellite-detected-surface-waters-extent-in-les-cayes-and-cavaillon-communes-sud-department-haiti)\n- [Haiti - Satellite Detected Water Extent in Cavaillon Commune, Sud Department](https://data.humdata.org/dataset/satellite-detected-water-extent-cavaillon-commune-sud-department-haiti)\n- [Satellite Detected Water and/or Saturated Wet Soil Extent in Solon Communal Section, Haiti](https://data.humdata.org/dataset/satellite-detected-water-and-or-saturated-wet-soil-extent-in-solon-communal-section-haiti)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170424hti-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Haiti, 24 April 2017 (FL20170424HTI)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170424hti-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Haiti, 24 April 2017 (FL20170424HTI)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170424hti/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

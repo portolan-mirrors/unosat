@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2016/fl20160725bgd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Bangladesh, 25 July 2016 (FL20160725BGD)",
+  "description": "UNOSAT geodata for Flood, Bangladesh, 25 July 2016 (FL20160725BGD), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected water extent and evolution in the eastern part of Bangladesh as imaged by the SENTINEL-1 satellite on 30 June 2016 and 24 July 2016. The analysis shows an expansion of waters of 75% between the two dates within the entire analyzed zone. Heavy rains at the onset of the Monsoon season have caused flooding. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Satellite Detected Water Extent and Evolution Over Central Bangladesh](https://data.humdata.org/dataset/geodata-of-satellite-detected-water-extent-and-evolution-over-central-banglad-july-27-2016)\n- [Geodata of Satellite Detected Water Extent and Evolution Over Eastern part of Bangladesh](https://data.humdata.org/dataset/geodata-of-satellite-detected-water-extent-and-evolution-over-eastern-part-of-july-28-2016)\n- [Geodata of Satellite Detected Waters Evolution in Central Bangladesh - Preliminary Report](https://data.humdata.org/dataset/geodata-of-satellite-detected-waters-evolution-in-central-bangladesh-prelimin-july-29-2016)\n- [Satellite Detected Water Extent and Evolution Over Central Bangladesh](https://data.humdata.org/dataset/satellite-detected-water-extent-and-evolution-over-central-bangladesh)\n- [Satellite Detected Water Extent and Evolution Over Eastern part of Bangladesh](https://data.humdata.org/dataset/satellite-detected-water-extent-and-evolution-over-eastern-part-of-bangladesh)\n- [Satellite Detected Waters Evolution in Central Bangladesh - Preliminary Report](https://data.humdata.org/dataset/satellite-detected-waters-evolution-in-central-bangladesh-preliminary-report)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160725bgd-analysis-extent-cc_by_sa/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160725bgd-analysis-extent-cc_by_nc_sa_3_0/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160725bgd-water-extent-cc_by_nc_sa_3_0/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160725bgd-water-extent-cc_by_sa/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160725bgd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

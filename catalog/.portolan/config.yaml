@@ -1,0 +1,6 @@
+# Portolan configuration
+
+# The combined water-extent file (15 GB) stays one file: the agent guides
+# and the published URL name it, and DuckDB reads it by row group.
+partitioning:
+  enabled: false

@@ -1,0 +1,240 @@
+{
+  "type": "Collection",
+  "id": "no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Damage Assessment in Anguilla Island as of 8 September 2017: 128 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage Assessment in Anguilla Island as of 8 September 2017](https://data.humdata.org/dataset/damage-assessment-in-anguilla-island-as-of-8-september-2017)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-in-anguilla-island-as-of-8-september-2017",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:02Z",
+  "pmtiles:min_zoom": 3,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -63.0605983,
+    18.2190456,
+    8
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 128,
+  "table:row_count": 128,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "SensorDate",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "FieldValid",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "Staff_ID",
+      "type": "int64"
+    },
+    {
+      "name": "Agency",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Damage Assessment in Anguilla Island as of 8 September 2017",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -63.163234710999916,
+          18.155927658000053,
+          -62.95796203599991,
+          18.282163620000063
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-09-08T00:00:00Z",
+          "2017-09-08T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent": {
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 1235217,
+      "file:checksum": "122010404f98521ae60f29971773a7cdc44c4f09b0b8539b5e648d3223458f626622",
+      "roles": [
+        "data"
+      ]
+    },
+    "damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent-tiles": {
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 200394,
+      "file:checksum": "1220e36b33ed3aabf0810eb218a22e16c0b8eb7d61e2fd604ee5673755e94d818287",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 717,
+      "file:checksum": "122039f09981c30bdb465247da510fb07f06ef2b2054ac7ecc913551bbd1e3f47dc8"
+    }
+  }
+}

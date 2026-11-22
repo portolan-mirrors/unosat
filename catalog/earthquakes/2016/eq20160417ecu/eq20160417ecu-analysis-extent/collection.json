@@ -1,0 +1,209 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU): 54 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Damage Assessment of Atacames area, Esmeraldas Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-atacames-area-esmeraldas-province-ecuador-april-20-2016)\n- [Geodata of Damage Assessment of Bahia de Caraquez, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-bahia-de-caraquez-manabi-province-ecuador-april-21-2016)\n- [Geodata of Damage Assessment of Chone area, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-chone-area-manabi-province-ecuador-april-25-2016)\n- [Geodata of Damage Assessment of Crucita Area, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-crucita-area-manabi-province-ecuador-april-20-2016)\n- [Geodata of Damage Assessment of Muisne, Esmeraldas Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-muisne-esmeraldas-province-ecuador-april-22-2016)\n- [Geodata of Damage Assessment of Salinas and La Libertad Areas, Santa Elena Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-salinas-and-la-libertad-areas-santa-elena-pro-april-20-2016)\n- [Geodata of Damage Assessment of San Vicente, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-san-vicente-manabi-province-ecuador-april-21-2016)\n- [Geodata of Damage Density in The City of Jama, Manabi Province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-density-in-the-city-of-jama-manabi-province-ecuador-may-18-2016)\n- [Geodata of Damage assessment of Montecristi, Manabi province, Ecuador](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-montecristi-manabi-province-ecuador-april-27-2016)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-damage-assessment-of-atacames-area-esmeraldas-province-ecuador-april-20-2016",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20160417ecu-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:17Z",
+  "pmtiles:min_zoom": 3,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -80.0932418,
+    0.091616,
+    8
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 54,
+  "table:row_count": 54,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Id",
+      "type": "int32"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Shape_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -80.44384384199992,
+          -0.7148914339999237,
+          -79.7280610059999,
+          0.9042868480000834
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-04-20T00:00:00Z",
+          "2016-05-18T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20160417ecu-analysis-extent": {
+      "href": "./eq20160417ecu-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 3667012,
+      "file:checksum": "1220ab6f04c4188c7e516b68bb0b78d17e6159fefd2a56c9a40a94ec800bd438caba",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20160417ecu-analysis-extent-tiles": {
+      "href": "./eq20160417ecu-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 458483,
+      "file:checksum": "1220f666c7024ce495095f3d3c2e210e91bab7b352c535a91df332b1bddf7111f1ee",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 671,
+      "file:checksum": "12201a0a2aba3a030b1efb8b4245da4c9b0619ff3779865d73b938ef3edd026b8667"
+    }
+  }
+}

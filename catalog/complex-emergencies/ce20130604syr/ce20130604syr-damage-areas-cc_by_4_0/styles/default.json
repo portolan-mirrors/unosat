@@ -1,0 +1,49 @@
+{
+  "version": 8,
+  "name": "Damage areas by Main_Damag",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ce20130604syr-damage-areas-cc_by_4_0.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damag"
+            ]
+          ],
+          "No visible damage",
+          "#1b9e77",
+          "Major damage",
+          "#d95f02",
+          "Minor damage",
+          "#7570b3",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

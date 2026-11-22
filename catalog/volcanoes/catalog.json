@@ -1,0 +1,106 @@
+{
+  "type": "Catalog",
+  "id": "volcanoes",
+  "stac_version": "1.1.0",
+  "title": "Volcanoes",
+  "description": "UNOSAT geodata for 8 volcanoes. Each child is one event, named by its UNOSAT event code. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20141124cpv/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20180605gtm/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Guatemala, 5 June 2018 (VO20180605GTM)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20210523cod/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20211025vut/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20211205idn/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Indonesia, 5 December 2021 (VO20211205IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20220115ton/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Tonga, 15 January 2022 (VO20220115TON)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20221206idn/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Indonesia, 6 December 2022 (VO20221206IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./vo20241105idn/catalog.json",
+      "type": "application/json",
+      "title": "Volcano, Indonesia, 5 November 2024 (VO20241105IDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

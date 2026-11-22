@@ -1,0 +1,267 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20130604syr/ce20130604syr-other-polygons-cc_by_nc_sa_3_0",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 773,406 features merged from 10 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Damage Assessment for Ancient City of Palmyra, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-for-ancient-city-of-palmyra-syria-april-06-2016)\n- [Geodata of Damage Assessment of Aleppo, Aleppo Governorate, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-aleppo-aleppo-governorate-syria-july-21-2015)\n- [Geodata of Damage Assessment of Ar Raqqa, Ar Raqqa Governorate, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-july-21-2015)\n- [Geodata of Damage Assessment of Daraa, Daraa Governorate, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-daraa-daraa-governorate-syria-july-21-2015)\n- [Geodata of Damage Assessment of Deir Ez Zor, Deir Ez Zor Governorate, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-july-21-2015)\n- [Geodata of Damage Assessment of Idlib, Idlib Governorate, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-idlib-idlib-governorate-syria-july-21-2015)\n- [Geodata of Damage Assessment of Tadmur and Al-Amiriyah, Homs Governorate, Syria](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-tadmur-and-al-amiriyah-homs-governorate-syria-april-07-2016)\n- [Geodata of Damage Density in the Cities of Homs, Aleppo, Hama, Deir Ez Zor, Ar Raqqa, and Daraa, Syria](https://data.humdata.org/dataset/geodata-of-damage-density-in-the-cities-of-homs-aleppo-hama-deir-ez-zor-ar-ra-july-21-2015)\n- [Geodata of Neighborhood Damage Percentages, Aleppo, Syria](https://data.humdata.org/dataset/geodata-of-neighborhood-damage-percentages-aleppo-syria-february-18-2016)\n- [Geodata of Percentages of Buildings Damaged, Aleppo, Syria](https://data.humdata.org/dataset/geodata-of-percentages-of-buildings-damaged-aleppo-syria-february-18-2016)\n- [Geodata of Percentages of Buildings Damaged,Tadmur and Al-Miriyah, Homs Governorate, Syria](https://data.humdata.org/dataset/geodata-of-percentages-of-buildings-damagedtadmur-and-al-miriyah-homs-governo-april-20-2016)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-damage-assessment-for-ancient-city-of-palmyra-syria-april-06-2016",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20130604syr-other-polygons-cc_by_nc_sa_3_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-other-polygons-cc_by_nc_sa_3_0/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:33Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    38.129579,
+    34.4916138,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon",
+    "MultiPolygon Z"
+  ],
+  "geoparquet:feature_count": 773406,
+  "table:row_count": 773406,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Shape_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "Id",
+      "type": "int64"
+    },
+    {
+      "name": "gridcode",
+      "type": "int64"
+    },
+    {
+      "name": "Shape_Leng",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "FID_1",
+      "type": "int32"
+    },
+    {
+      "name": "ZoneMap",
+      "type": "string"
+    },
+    {
+      "name": "Count_",
+      "type": "int64"
+    },
+    {
+      "name": "Count_1",
+      "type": "int64"
+    },
+    {
+      "name": "Percent_1",
+      "type": "double"
+    },
+    {
+      "name": "F10",
+      "type": "double"
+    },
+    {
+      "name": "Source",
+      "type": "string"
+    },
+    {
+      "name": "Settlement",
+      "type": "string"
+    },
+    {
+      "name": "Neighborho",
+      "type": "string"
+    },
+    {
+      "name": "Settlement_Name",
+      "type": "string"
+    },
+    {
+      "name": "Neighborhood",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.073136300000044,
+          32.59755320000005,
+          40.17925500000007,
+          36.296201341000085
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-07-21T00:00:00Z",
+          "2016-04-20T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20130604syr-other-polygons-cc_by_nc_sa_3_0": {
+      "href": "./ce20130604syr-other-polygons-cc_by_nc_sa_3_0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 27203293,
+      "file:checksum": "1220f6f384f0aeaf1e324f11adc7d822cea4e9d82254cd8a128f03ee0a469d9ed327",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20130604syr-other-polygons-cc_by_nc_sa_3_0-tiles": {
+      "href": "./ce20130604syr-other-polygons-cc_by_nc_sa_3_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 18041903,
+      "file:checksum": "12200bcb9dc31bbf0ac22539a0b8a723f59653da819da61b89fc88a91483355c3155",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 680,
+      "file:checksum": "122054253272a3682fec9d70bcb4855c2e2d8aa72e79a6057cbb488e6227c84bd855"
+    }
+  }
+}

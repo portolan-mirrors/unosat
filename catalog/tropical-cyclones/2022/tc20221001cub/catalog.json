@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022/tc20221001cub",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)",
+  "description": "UNOSAT geodata for Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code TC20221001CUB, GDACS Id: 1000923**  This map illustrates satellite-detected surface waters in Pinar del Río province, Cuba as observed from a Sentinel-1 imagery acquired on 28 September 2022 at 07:27 local time. Within the analyzed area of about 1,300 km², a total of about 27 km² of lands appear to be affected with flood waters amongst which 13 km² are flooded croplands. Based on Worldpop population data and the detected surface waters, about 4,200 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents over Pinar del Río province, Cuba as of 28 September 2022](https://data.humdata.org/dataset/satellite-detected-water-extents-over-pinar-del-rio-province-cuba-as-of-28-september-2022)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221001cub-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221001cub-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221001cub-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221001cub/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

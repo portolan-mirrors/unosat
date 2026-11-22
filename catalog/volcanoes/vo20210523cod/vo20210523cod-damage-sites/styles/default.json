@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "Damage sites",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../vo20210523cod-damage-sites.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-sites",
+      "id": "damage-sites-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": "#d7301f",
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240206lby",
+  "stac_version": "1.1.0",
+  "title": "Flood, Libya, 6 February 2024 (FL20240206LBY)",
+  "description": "UNOSAT geodata for Flood, Libya, 6 February 2024 (FL20240206LBY), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240206LBY**  This application provides geospatial information on the ongoing floods in Libya.\nImportant note: The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the United Nations. The United Nations Satellite Centre -UNOSAT is not responsible for the misuse or misrepresentation of the map.\n\nHDX datasets:\n\n- [Water level increase / Floods in Zliten (Libya)  [ارتفاع منسوب المياه / فياضانات في زليتن ، ليبيا] - UNOSAT Live Web Map](https://data.humdata.org/dataset/water-level-increase-floods-in-zliten-libya-rtf-mnswb-lmyh-fydnt-fy-zlytn-lyby-unosat-live)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240206lby-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Libya, 6 February 2024 (FL20240206LBY)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240206lby/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

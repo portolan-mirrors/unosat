@@ -1,0 +1,208 @@
+{
+  "type": "Collection",
+  "id": "other-events/rc20140709sdn/rc20140709sdn-other-lines",
+  "stac_version": "1.1.0",
+  "description": "Other lines for Event, Sudan, 9 July 2014 (RC20140709SDN): 183 features merged from 2 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Shagarab 1 Refugee Camp, Al Qadarif Province, Sudan](https://data.humdata.org/dataset/geodata-of-shagarab-1-refugee-camp-al-qadarif-province-sudan-july-21-2014)\n- [Geodata of Shagarab 2 Refugee Camp, Al Qadarif Province, Sudan](https://data.humdata.org/dataset/geodata-of-shagarab-2-refugee-camp-al-qadarif-province-sudan-july-21-2014)\n- [Geodata of Um Gargour Refugee Camp, Al Qadarif Province, Sudan](https://data.humdata.org/dataset/geodata-of-um-gargour-refugee-camp-al-qadarif-province-sudan-july-21-2014)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-shagarab-1-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./rc20140709sdn-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-lines"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-other-lines/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:45Z",
+  "pmtiles:min_zoom": 4,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    35.809021,
+    14.7104149,
+    8
+  ],
+  "pmtiles:layers": [
+    "other-lines"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiLineString"
+  ],
+  "geoparquet:feature_count": 183,
+  "table:row_count": 183,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Id",
+      "type": "int32"
+    },
+    {
+      "name": "Camp_Name",
+      "type": "string"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other lines: Event, Sudan, 9 July 2014 (RC20140709SDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          35.61338812905893,
+          14.33812237514752,
+          36.004653886467736,
+          15.082707472871618
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-07-21T00:00:00Z",
+          "2014-07-21T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "rc20140709sdn-other-lines": {
+      "href": "./rc20140709sdn-other-lines.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 42372,
+      "file:checksum": "1220e5901fb7c7591ef707f3822960b30d5c9ed9a77324ac9f36b60f5fccffa93cde",
+      "roles": [
+        "data"
+      ]
+    },
+    "rc20140709sdn-other-lines-tiles": {
+      "href": "./rc20140709sdn-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 62053,
+      "file:checksum": "12202bd1bbcbdd2bf2a186af55c7419941934c0d0f1411e1445e5a57f5398eb34ec2",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other lines",
+      "file:size": 401,
+      "file:checksum": "1220b767c6343ca66ea8b797a3e2a32d2f5cc3dd0eecb246d863d7887ab2e9b38272"
+    }
+  }
+}

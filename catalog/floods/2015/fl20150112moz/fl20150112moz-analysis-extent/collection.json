@@ -1,0 +1,236 @@
+{
+  "type": "Collection",
+  "id": "floods/2015/fl20150112moz/fl20150112moz-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Flood, Mozambique, 12 January 2015 (FL20150112MOZ): 29,541 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Flood Water over Namacura and Maganja Da Costa District, Zambezia Province, Mozambique](https://data.humdata.org/dataset/geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015)\n- [Geodata of Flood Waters In Zambezia, Tete and Sofala, Mozambique, and Southern Region, Malawi](https://data.humdata.org/dataset/geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015)\n- [Geodata of Flood Waters In Zambezia, Tete and Sofala, Mozambique, and Southern Region, Malawi](https://data.humdata.org/dataset/geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015)\n- [Geodata of Flood Waters In Zambezia, Tete and Sofala, Mozambique, and Southern Region, Malawi](https://data.humdata.org/dataset/geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015)\n- [Geodata of Flood Waters Over Zambezia Province, Mozambique](https://data.humdata.org/dataset/geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015)\n- [Geodata of Flood Waters Over Zambezia, Tete and Sofala Provinces, Mozambique](https://data.humdata.org/dataset/geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20150112moz-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150112moz/fl20150112moz-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:21:37Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    36.4439764,
+    -17.963934,
+    6
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 29541,
+  "table:row_count": 29541,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "SensorDate",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "FieldValid",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "Staff_ID",
+      "type": "int32"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Flood, Mozambique, 12 January 2015 (FL20150112MOZ)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          33.503900000000044,
+          -22.201143749999915,
+          39.401360870000076,
+          -13.798800095999923
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-19T00:00:00Z",
+          "2015-02-16T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20150112moz-analysis-extent": {
+      "href": "./fl20150112moz-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 9677650,
+      "file:checksum": "1220217d1505d27abbb5c6f4a506578d4389c7eae150124484b62522a6b83fb20a03",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20150112moz-analysis-extent-tiles": {
+      "href": "./fl20150112moz-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 14510184,
+      "file:checksum": "12205fe639f79b31e3df4d87ea65744f173b7e212b162d0b0bcd6e75182e32fad806",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 671,
+      "file:checksum": "122079d6825a840729bb8e605ae059991c1464b73abd32aa720c1ad46cd3edf75eef"
+    }
+  }
+}

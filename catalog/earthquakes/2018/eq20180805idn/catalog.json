@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2018/eq20180805idn",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)",
+  "description": "UNOSAT geodata for Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected potentially affected settlements over Tanjung and Pemenang Districts, in Lombok Utara Regency, as of 7 August 2018, after the 6.9 earthquake, that stroke Lombok Island on 5 August 2018. The analysis was conducted using post-event Pleiades satellite imagery acquired on 7 and 8 August 2018. UNITAR-UNOSAT analysis shows an estimation of the settlement size (Hamlet, Little village and Major village) associated to a damage level (Moderately damaged, severely damaged and Destroyed). Within the map extent 49 settlements were categorized as destroyed, 57 as severely damaged and 129 as moderately damaged. Within the analysed area, Tanjung is the most affected district and Sigar Penjalin and Sokong are its most affected desa. In Pemenang district the most affected desa is Pemenang Barat. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Damage assessment of Gumantar and Dangiang Desa, Kagayan District, Lombok Island, Indonesia](https://data.humdata.org/dataset/damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836)\n- [Potential Informal Gathering Sites over Tanjung & Pemenang Districts, Indonesia](https://data.humdata.org/dataset/potential-informal-gathering-sites-over-tanjung-pemenang-districts-indonesia-2838)\n- [Potentially Damaged Buildings & Gathering Sites over Gili Islands, Lombok Utara District, Indonesia](https://data.humdata.org/dataset/potentially-damaged-buildings-gathering-sites-over-gili-islands-lombok-utara-district-indonesia-2837)\n- [Potentially affected settlements over Tanjung and Pemenang Districts, Lombok Utara Regency, Nusa Tenggara Barat Province](https://data.humdata.org/dataset/potentially-affected-settlements-over-tanjung-and-pemenang-districts-lombok-utara-regency-nusa-)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20180805idn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20180805idn-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20180805idn-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

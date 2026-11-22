@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20190715mmr",
+  "stac_version": "1.1.0",
+  "title": "Flood, Myanmar, 15 July 2019 (FL20190715MMR)",
+  "description": "UNOSAT geodata for Flood, Myanmar, 15 July 2019 (FL20190715MMR), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20190715MMR**  This map illustrates the cumulative satellite detected surface waters in Mandalay and Saigang States, Myanmar by using a Sentinel-1 images acquired on 16 and 18 July 2019. Over an area of about 450km2 of lands appear to be likely flooded. By using the population data from Worldpop, total of about 185,000 people appear to have been affected by floods as of 18 July 2019. This is preliminary analysis that has not yet been validated in the field. Please send your comments to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Satellite detected water extent, as of 16 and 18 July 2019 over Kachin and Saigang States, Myanmar](https://data.humdata.org/dataset/water-extent-as-of-16-and-18-july-2019-over-kachin-and-saigang-states-myanmar)\n- [Satellite detected water extent, as of 16 and 18 July 2019 over Kachin state,  Myanmar](https://data.humdata.org/dataset/satellite-detected-water-extent-as-of-16-and-18-july-2019-over-kachin-state-myanmar)\n- [Satellite detected water extent, as of 16 and 18 July 2019 over Mandalay and Saigang States, Myanmar](https://data.humdata.org/dataset/water-extent-as-of-16-and-18-july-2019-over-mandalay-and-saigang-states-myanmar)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190715mmr-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Myanmar, 15 July 2019 (FL20190715MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190715mmr-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Myanmar, 15 July 2019 (FL20190715MMR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190715mmr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

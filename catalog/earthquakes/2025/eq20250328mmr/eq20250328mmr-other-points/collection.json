@@ -1,0 +1,275 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-points",
+  "stac_version": "1.1.0",
+  "description": "Other points for Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR): 211,244 features merged from 55 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage Assessment in Mandalay & Sagaing Districts, Myanmar as of 03 April 2025](https://data.humdata.org/dataset/damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025)\n- [Damage Assessment in Monywa Township, Monywa District, Sagaing Region, Myanmar as of 25 April 2025](https://data.humdata.org/dataset/damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april)\n- [Damage Assessment in Wundwin Township, Meiktila District Mandalay Region, Myanmar as of 01 April 2025](https://data.humdata.org/dataset/damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a)\n- [Satellite-detected Damage in the Cultural Property Mahamuni Pagoda as of 30 March 2025](https://data.humdata.org/dataset/satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025)\n- [Satellite-detected Damage to Cultural Heritage in Tada-U as of 03 April 2025](https://data.humdata.org/dataset/satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025)\n- [Satellite-detected damage in the UNESCO Tentative List Site, Ancient Cities of Upper Myanmar: Innwa as of 30 March 2025](https://data.humdata.org/dataset/damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma)\n- [Satellite-detected damage in the UNESCO Tentative List Site, Ancient Cities of Upper Myanmar: Mandalay as of 30 March 2025](https://data.humdata.org/dataset/damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30)\n- [Satellite-detected damage in the UNESCO World Heritage Site, Bagan: Component 7 as of 03 April 2025](https://data.humdata.org/dataset/damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025)\n- [Satellite-detected damage in the cultural property Pinya as of 30 March 2025](https://data.humdata.org/dataset/satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025)\n- [Satellite-detected damage to cultural heritage in Min Kun as of 03 April 2025](https://data.humdata.org/dataset/satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025)\n- [UNOSAT Live Web Map - M 7.7 Sagaing Earthquake in Myanmar & Thailand](https://data.humdata.org/dataset/unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20250328mmr-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-points"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-other-points/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:51Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    96.1454268,
+    21.3467005,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-points"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 211244,
+  "table:row_count": 211244,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "obj_type",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "info",
+      "type": "string"
+    },
+    {
+      "name": "simplified",
+      "type": "string"
+    },
+    {
+      "name": "damage_gra",
+      "type": "string"
+    },
+    {
+      "name": "det_method",
+      "type": "string"
+    },
+    {
+      "name": "notation",
+      "type": "string"
+    },
+    {
+      "name": "or_src_id",
+      "type": "int32"
+    },
+    {
+      "name": "dmg_src_id",
+      "type": "int32"
+    },
+    {
+      "name": "cd_value",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "obj_desc",
+      "type": "string"
+    },
+    {
+      "name": "elem_count",
+      "type": "string"
+    },
+    {
+      "name": "SRC_DATE",
+      "type": "string"
+    },
+    {
+      "name": "FRAMEWORK",
+      "type": "string"
+    },
+    {
+      "name": "TYPE",
+      "type": "string"
+    },
+    {
+      "name": "SOURCE",
+      "type": "string"
+    },
+    {
+      "name": "PROCESSING",
+      "type": "string"
+    },
+    {
+      "name": "COPYRIGHT",
+      "type": "string"
+    },
+    {
+      "name": "DAMAGE",
+      "type": "string"
+    },
+    {
+      "name": "DAMAGE_SRC",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other points: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          95.18481175066182,
+          18.910241942711536,
+          97.10604189581687,
+          23.783159128291175
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-06T00:00:00Z",
+          "2025-05-12T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20250328mmr-other-points": {
+      "href": "./eq20250328mmr-other-points.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 1429496,
+      "file:checksum": "122011f6f85b03442ecc7fe7c19936384048a18bf3f56b68b160d70d3a77d55c0466",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20250328mmr-other-points-tiles": {
+      "href": "./eq20250328mmr-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 713461,
+      "file:checksum": "12207b3392cb04150c9f4b93a9a485a0284b54ed20765d7bd379aa24080d2347889d",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other points",
+      "file:size": 695,
+      "file:checksum": "1220ec52c6b926dfbaa753fabd9eb62b6d4c6b1904d5733ca76c5dd9ef09517caecc"
+    }
+  }
+}

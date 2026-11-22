@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2020/tc20200408fji",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)",
+  "description": "UNOSAT geodata for Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20200408FJI**  This map illustrates potentially damaged structures and buildings in Kadavu Province, Eastern Division, Republic of Fiji as detected by satellite image acquired after landfall of the Tropical Cyclone Harold-20 on 08 April 2020. UNITAR-UNOSAT analysis used a Pleiades image acquired on 12 April 2020. Within the Kadavu Province boundary, UNITAR-UNOSAT identified in the cloud free zones 1,003 potentially damaged structures. Taking into account the pre-building footprints provided by OpenStreetMap, this represents about 22% of the total number of structures within the analyzed cloud free areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Buildings Damage Assessment & Related Density  in Kadavu  Province, Eastern Division,  Republic of Fiji](https://data.humdata.org/dataset/buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o)\n- [Damage Assessment in Kadavu Province, Eastern Division,  Republic of Fiji](https://data.humdata.org/dataset/damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji)\n- [Damage Assessment in Ono-i-Lau, Lau Province, Eastern Division, Republic of Fiji](https://data.humdata.org/dataset/damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200408fji-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200408fji-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200408fji-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

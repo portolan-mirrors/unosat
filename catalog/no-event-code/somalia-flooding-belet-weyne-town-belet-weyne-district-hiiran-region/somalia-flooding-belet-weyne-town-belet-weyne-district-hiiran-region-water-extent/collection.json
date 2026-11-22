@@ -1,0 +1,244 @@
+{
+  "type": "Collection",
+  "id": "no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent",
+  "stac_version": "1.1.0",
+  "description": "Water extent for Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region: 52,683 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region](https://data.humdata.org/dataset/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "water-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:22Z",
+  "pmtiles:min_zoom": 1,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    45.2834075,
+    4.884353,
+    7
+  ],
+  "pmtiles:layers": [
+    "water-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 52683,
+  "table:row_count": 52683,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Water_Clas",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "Water_Stat",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "SenorID_ol",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Water extent: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          44.99352388600005,
+          4.569775562000075,
+          45.57329114600009,
+          5.138035030000083
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-06T00:00:00Z",
+          "2018-05-06T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent": {
+      "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 11644538,
+      "file:checksum": "1220891d949f6caa189e60d4b6028cc36044c0bdadfef8218b72b2c29e7fc1d0c702",
+      "roles": [
+        "data"
+      ]
+    },
+    "somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent-tiles": {
+      "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 4991948,
+      "file:checksum": "1220f12d4d81c86174d6a213c7f6dbd8281121402bbf60d894c58b6a0585f2ab9efd",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Water extent by Water_Clas",
+      "file:size": 934,
+      "file:checksum": "1220f06bdb2d6fbc3d87cce72ae04f45bc549f5e3a9bdc6097b4024881cdaf922dcc"
+    }
+  }
+}

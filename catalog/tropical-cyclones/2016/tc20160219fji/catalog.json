@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2016/tc20160219fji",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)",
+  "description": "UNOSAT geodata for Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI), from 8 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the damage assessment in the Lautoka city and greater area in Ba Province in the northwestern part of Viti Levu Island, Fiji, as determined by satellite imagery analysis. Using imagery acquired 22 February 2016, UNITAR-UNOSAT identified a total of 900 damaged structures, of which 433 were within the city limits. In the greater Lautoka area, 74 structures were identified to be destroyed, 152 were severely damaged, and 674 have suffered moderate damages. These damaged structures were compared with total number of buildings/structures ( ~17,500) in the region and the percentage of damaged buildings across the area was estimated to be about 5%. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Damage Assessment in Greater Lautoka Area, Ba Province, Western Division, Fiji](https://data.humdata.org/dataset/geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016)\n- [Geodata of Damage Assessment in Sasa Area, Ba Province, Western Division, Fiji](https://data.humdata.org/dataset/geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016)\n- [Geodata of Damage Assessment in Vatukoula Area, Ba Province, Western Division, Fiji](https://data.humdata.org/dataset/geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016)\n- [Geodata of Damage Assessment over north and west of Ba Town, Ba Province, Western Division, Fiji](https://data.humdata.org/dataset/geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016)\n- [Geodata of Population Exposure Analysis - Tropical Cyclone Winston - 19 February 2016](https://data.humdata.org/dataset/geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016)\n- [Geodata of Population Exposure Analysis - Tropical Cyclone Winston - 22 February 2016](https://data.humdata.org/dataset/geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016)\n- [Geodata of Satellite Detected Waters in Savu Area, Naitasiri Province, Central Division, Fiji](https://data.humdata.org/dataset/geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016)\n- [Geodata of UNOSAT Damage Assessment Activities in Viti Levu Island, Fiji](https://data.humdata.org/dataset/geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20160219fji-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20160219fji-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20160219fji-other-points/collection.json",
+      "type": "application/json",
+      "title": "Other points: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20160219fji-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

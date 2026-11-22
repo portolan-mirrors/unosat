@@ -1,0 +1,199 @@
+{
+  "type": "Collection",
+  "id": "no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines",
+  "stac_version": "1.1.0",
+  "description": "Other lines for Tropical Cyclone IRMA-17 : Path and Wind Speed Zones: 39 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Tropical Cyclone IRMA-17 : Path and Wind Speed Zones](https://data.humdata.org/dataset/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-lines"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:24Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -55.65,
+    24.7,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-lines"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiLineString"
+  ],
+  "geoparquet:feature_count": 39,
+  "table:row_count": 39,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other lines: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -81.0,
+          16.4,
+          -30.3,
+          33.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-09-07T00:00:00Z",
+          "2017-09-07T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines": {
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 4360,
+      "file:checksum": "122040295882458d4da1cdf6b16bdfc293c11413f1ad366f0d546c3e80f222282f74",
+      "roles": [
+        "data"
+      ]
+    },
+    "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines-tiles": {
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 525849,
+      "file:checksum": "12204f8e7ee66e925a7304a655195eb21f213629a0ce3a254faa5ef84300931637cb",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other lines",
+      "file:size": 461,
+      "file:checksum": "12202d69e910d0afe0e14b7a58cc956673b773a4952ce6f6220db951114945a73b36"
+    }
+  }
+}

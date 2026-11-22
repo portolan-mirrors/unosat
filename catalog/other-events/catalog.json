@@ -1,0 +1,94 @@
+{
+  "type": "Catalog",
+  "id": "other-events",
+  "stac_version": "1.1.0",
+  "title": "Other events",
+  "description": "UNOSAT geodata for 6 other events. Each child is one event, named by its UNOSAT event code. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ac20210705tha/catalog.json",
+      "type": "application/json",
+      "title": "Event, Thailand, 5 July 2021 (AC20210705THA)"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20130511ssd/catalog.json",
+      "type": "application/json",
+      "title": "Event, South Sudan, 11 May 2013 (OT20130511SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20151123idn/catalog.json",
+      "type": "application/json",
+      "title": "Event, Indonesia, 23 November 2015 (OT20151123IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ot20180419col/catalog.json",
+      "type": "application/json",
+      "title": "Event, Colombia, 19 April 2018 (OT20180419COL)"
+    },
+    {
+      "rel": "child",
+      "href": "./rc20140709sdn/catalog.json",
+      "type": "application/json",
+      "title": "Event, Sudan, 9 July 2014 (RC20140709SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./st20150107pse/catalog.json",
+      "type": "application/json",
+      "title": "Event, State of Palestine, 7 January 2015 (ST20150107PSE)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

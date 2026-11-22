@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20211015ssd",
+  "stac_version": "1.1.0",
+  "title": "Flood, South Sudan, 15 October 2021 (FL20211015SSD)",
+  "description": "UNOSAT geodata for Flood, South Sudan, 15 October 2021 (FL20211015SSD), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20211015SSD**  This map illustrates cumulative satellite-detected water using VIIRS in South Sudan between 20 to 25 October 2021 compared with the period between 15 to 19 October 2021. Within the cloud free analyzed areas of about 630,000 km2, a total of about 36,000 km2 of lands appear to be affected with flood waters. Water extent appears to have decreased of about 12,000 km2 since the period between 15 to 19 October 2021. Based on Worldpop population data and the detected surface waters, ~1,040,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water comparative analysis between mid-September to mid-October 2020 and 2021 over South Sudan](https://data.humdata.org/dataset/water-comparative-analysis-between-mid-september-to-mid-october-2020-and-2021-over-south-s)\n- [Satellite detected water extents between 03 and 07 November 2021 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-03-and-07-november-2021-over-south-sudan)\n- [Satellite detected water extents between 19 and 23 November 2021 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-19-and-23-november-2021-over-south-sudan)\n- [Satellite detected water extents between 20 and 24 October 2021 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-20-and-24-october-2021-over-south-sudan)\n- [Satellite detected water extents between 9 and 13 October 2021 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-9-and-13-october-2021-over-south-sudan)\n- [Satellite detected water extents over Rubkona, Koch, and Guit Counties of South Sudan as of 17 October 2021](https://data.humdata.org/dataset/water-extents-over-rubkona-koch-and-guit-counties-of-south-sudan-as-of-17-october-2021)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211015ssd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, South Sudan, 15 October 2021 (FL20211015SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211015ssd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, South Sudan, 15 October 2021 (FL20211015SSD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211015ssd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

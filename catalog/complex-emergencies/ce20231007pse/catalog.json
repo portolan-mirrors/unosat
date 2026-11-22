@@ -1,0 +1,88 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20231007pse",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)",
+  "description": "UNOSAT geodata for Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE), from 32 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: CE20231007PSE**  This map illustrates satellite-detected changes in agricultural areas of the Gaza Strip resulting from the decline in the health and density of crops due to the ongoing conflict. UNOSAT conducted an analysis utilising satellite imagery collected by the Sentinel-2 satellite between April 2017 and 2024, performing a Normalised Difference Vegetation Index (NDVI) analysis as well as a multitemporal classification to identify notable changes taking place in agricultural areas during that timeframe. The methodology evaluated the damage as a substantial decline in the health and density of crops in January 2024, in comparison to the preceding seven seasons spanning from 2017 to 2024. The decline in the health and density of the crops can be observed due to the impact of activities such as razing, heavy vehicle activity, bombing, shelling, and other conflict-related dynamics. The analysis includes damage assessment for permanent crop fields, arable land, and fallow lands. UNOSAT analysis shows that the agricultural extent in the Gaza Strip is estimated to be 178 sq. km, accounting for approximately 49% of the total area of the Gaza Strip, following an extensive land-cover analysis.\nCompared to the average of the previous seven years, approximately 45% of the permanent crop fields and arable land in the Gaza Strip exhibited a significant decline in health and density in April 2024. In a comprehensive evaluation, it was found that there has been a 33% […]\n\nHDX datasets:\n\n- [State of Palestine - FAO Gaza Strip Greenhouse Comprehensive Damage Assessment (UNOSAT) - December 2024](https://data.humdata.org/dataset/unosat-fao-gaza-strip-greenhouse-comprehensive-damage-assessment-december-2024)\n- [UNOSAT - FAO Gaza Strip Cropland Damage Assessment - August 2024](https://data.humdata.org/dataset/unosat-fao-gaza-strip-cropland-damage-assessment-august-2024)\n- [UNOSAT - FAO Gaza Strip Cropland Damage Assessment - December 2024](https://data.humdata.org/dataset/unosat-fao-gaza-strip-cropland-damage-assessment-december-2024)\n- [UNOSAT - FAO Gaza Strip Cropland Damage Assessment - July 2024](https://data.humdata.org/dataset/unosat-fao-gaza-strip-cropland-damage-assessment-july-2024)\n- [UNOSAT - FAO Gaza Strip Cropland Damage Assessment - July 2025](https://data.humdata.org/dataset/unosat-fao-gaza-strip-cropland-damage-assessment-july-2025)\n- [UNOSAT - FAO Gaza Strip Cropland Damage Assessment - June 2024](https://data.humdata.org/dataset/unosat-fao-gaza-strip-cropland-damage-assessment-june-2024)\n- [UNOSAT Deir Al-Balah Comprehensive Damage Assessment - Gaza Strip - 21 October 2023](https://data.humdata.org/dataset/unosat-deir-al-balah-comprehensive-damage-assessment-gaza-strip-21-october-2023)\n- [UNOSAT FAO Gaza Strip Cropland Damage Analysis - September 2024](https://data.humdata.org/dataset/unosat-fao-gaza-strip-cropland-damage-analysis-september-2024)\n- [UNOSAT Gaza Governorate Comprehensive Damage Assessment - 22- 23 September 2025](https://data.humdata.org/dataset/unosat-gaza-governorate-comprehensive-damage-assessment-22-23-september-2025)\n- [UNOSAT Gaza Governorate Comprehensive Damage Assessment - 23 September 2025](https://data.humdata.org/dataset/unosat-gaza-governorate-comprehensive-damage-assessment-23-september-2025)\n- [UNOSAT Gaza Governorate Damage Assessment - Gaza Strip, Occupied Palestinian Territory](https://data.humdata.org/dataset/unosat-gaza-governorate-damage-assessment-gaza-strip-occupied-palestinian-territory)\n- [UNOSAT Gaza Strip 7th Comprehensive Damage Assessment - May 2024](https://data.humdata.org/dataset/unosat-gaza-strip-7th-comprehensive-damage-assessment-may-2024)\n- and 20 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20231007pse-other-lines-epsg_3857/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20231007pse-other-lines-epsg_4326/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20231007pse-other-points/collection.json",
+      "type": "application/json",
+      "title": "Other points: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20231007pse-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20231007pse-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

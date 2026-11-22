@@ -1,0 +1,195 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2018/eq20181001idn/eq20181001idn-analysis-extent",
+  "stac_version": "1.1.0",
+  "description": "Analysis extent for Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN): 31 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Damage assessment of Pantoloan area in Central Sulawesi](https://data.humdata.org/dataset/damage-assessment-of-pantoloan-area-in-central-sulawesi-2846)\n- [Damage assessment of Taipa area in  Central Sulawesi](https://data.humdata.org/dataset/damage-assessment-of-taipa-area-in-central-sulawesi-2845)\n- [Damage assessment of Tawaeli area in Central Sulawesi](https://data.humdata.org/dataset/damage-assessment-oftawaeli-area-in-central-sulawesi-2847)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-of-pantoloan-area-in-central-sulawesi-2846",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20181001idn-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "analysis-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20181001idn/eq20181001idn-analysis-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:25Z",
+  "pmtiles:min_zoom": 1,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    119.8299458,
+    -0.647878,
+    7
+  ],
+  "pmtiles:layers": [
+    "analysis-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 31,
+  "table:row_count": 31,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Analysis extent: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          119.72097832300005,
+          -1.2299970169999597,
+          119.95391133400005,
+          -0.09714240099992821
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-10-02T00:00:00Z",
+          "2018-10-04T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20181001idn-analysis-extent": {
+      "href": "./eq20181001idn-analysis-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 5580,
+      "file:checksum": "12207ea58c843c2435cfc8f15cddf1c4cef47d7600fb7238d9038c1d410522e8b5c0",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20181001idn-analysis-extent-tiles": {
+      "href": "./eq20181001idn-analysis-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 46647,
+      "file:checksum": "1220138f4b2be5730ca1da7dab9b4c6366b7890330f55a2d224e31b233eaa7fae541",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Analysis extent",
+      "file:size": 671,
+      "file:checksum": "1220985054cf5d096e98098c9c82bca621e62143504d48418d3c5b9a7ac2a8148e9c"
+    }
+  }
+}

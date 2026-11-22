@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20170815bgd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Bangladesh, 15 August 2017 (FL20170815BGD)",
+  "description": "UNOSAT geodata for Flood, Bangladesh, 15 August 2017 (FL20170815BGD), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected surface water extent in the central and northern parts of Bangladesh using a Sentinel-1 satellite image acquired on the 22 August 2017. The total analysed area is about 4,284,431 ha. In this analysed area; 1,099,369 ha (39%) of lands are likely affected. These lands are mainly cropland irrigated and rainfed areas and estimated to 1,039,350 ha. The population exposure analysis using WorldPop data shows that ~10,000,000 people are potentially affected by floods in the analysed zone: ~5,400,000 are located in Dhaka Division and ~2,750,000 in Rajshahi Division. Please note that for visualization purposes the analyzed area is wider than the extent of this map.This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Satellite Detected Waters in Central & Northern Bangladesh](https://data.humdata.org/dataset/satellite-detected-waters-in-central-northern-bangladesh)\n- [Satellite Detected Waters in Central Bangladesh](https://data.humdata.org/dataset/satellite-detected-waters-in-central-bangladesh)\n- [Satellite Detected Waters in Southern Bangladesh](https://data.humdata.org/dataset/satellite-detected-waters-in-southern-bangladesh)\n- [Satellite Detected Waters in the Northwestern Part of Bangladesh](https://data.humdata.org/dataset/satellite-detected-waters-in-the-northwestern-part-of-bangladesh)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815bgd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Bangladesh, 15 August 2017 (FL20170815BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815bgd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Bangladesh, 15 August 2017 (FL20170815BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815bgd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

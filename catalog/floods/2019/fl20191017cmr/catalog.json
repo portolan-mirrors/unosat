@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20191017cmr",
+  "stac_version": "1.1.0",
+  "title": "Flood, Cameroon, 17 October 2019 (FL20191017CMR)",
+  "description": "UNOSAT geodata for Flood, Cameroon, 17 October 2019 (FL20191017CMR), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20191017CMR**  This map illustrates satellite-detected surface water in Mayo-Danay and Logone-et-Chari Department, Far-North Region of Cameroon as observed from Sentinel-2 imagery acquired on 11 October 2019. Within the analysed extent of about 7,200  km2, a total about 1,500 km2 of land appear to be flooded. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Satellite detected waters extents, as of 11 October 2019 over Logone-et-Chari Department, Far-North Region of Cameroon](https://data.humdata.org/dataset/waters-extents-as-of-11-october-2019-over-logone-et-chari-department-far-north-region-of-c)\n- [Satellite detected waters extents, as of 16 October 2019 over MayoDanay and Logone-et-Chari Department, Far-North Region](https://data.humdata.org/dataset/waters-extents-as-of-16-october-2019-over-mayodanay-and-logone-et-chari-department-far-nor)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191017cmr-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Cameroon, 17 October 2019 (FL20191017CMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191017cmr-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Cameroon, 17 October 2019 (FL20191017CMR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191017cmr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

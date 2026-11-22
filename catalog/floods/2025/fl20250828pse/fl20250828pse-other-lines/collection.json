@@ -1,0 +1,202 @@
+{
+  "type": "Collection",
+  "id": "floods/2025/fl20250828pse/fl20250828pse-other-lines",
+  "stac_version": "1.1.0",
+  "description": "Other lines for Flood, State of Palestine, 28 August 2025 (FL20250828PSE): 96 features merged from 6 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Sea Surge risk & flood impact assessment in the Coastal Area of Gaza city (Occupied Palestinian Territory) as of 29 August 2025](https://data.humdata.org/dataset/sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-gaza-city-occupied-palestini)\n- [Sea Surge risk & flood impact assessment in the Coastal Area of Southern Gaza Strip (Occupied Palestinian Territory) as of 29 August 2025](https://data.humdata.org/dataset/sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-southern-gaza-strip-occupied)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-gaza-city-occupied-palestini",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fl20250828pse-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-lines"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-other-lines/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:27:58Z",
+  "pmtiles:min_zoom": 2,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    34.3550372,
+    31.4595953,
+    7
+  ],
+  "pmtiles:layers": [
+    "other-lines"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiLineString Z"
+  ],
+  "geoparquet:feature_count": 96,
+  "table:row_count": 96,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other lines: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.21689450078953,
+          31.321825825345226,
+          34.49317999398437,
+          31.59736481246479
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-09-09T00:00:00Z",
+          "2025-09-10T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fl20250828pse-other-lines": {
+      "href": "./fl20250828pse-other-lines.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 175041,
+      "file:checksum": "1220ce7efc8f369589fe80899953d93b3cb2124f7ddc2edd03adfc08c357080d01cc",
+      "proj:code": "EPSG:32636",
+      "roles": [
+        "data"
+      ]
+    },
+    "fl20250828pse-other-lines-tiles": {
+      "href": "./fl20250828pse-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 46566,
+      "file:checksum": "1220b5e7f65757d2ad8ef0b95bb2258f7f8f5afc9b75e40ebe0a71bcf4aa34b5ad0b",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other lines",
+      "file:size": 401,
+      "file:checksum": "1220493cab8efb44e864d4e9faec68dbc109839ebf550ac04c61d1ceb053908299d2"
+    }
+  }
+}

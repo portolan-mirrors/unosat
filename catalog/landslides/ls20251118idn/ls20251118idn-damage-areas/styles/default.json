@@ -1,0 +1,33 @@
+{
+  "version": 8,
+  "name": "Damage areas",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ls20251118idn-damage-areas.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": "#d7301f",
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#d7301f",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2014/fl20140803sdn",
+  "stac_version": "1.1.0",
+  "title": "Flood, Sudan, 3 August 2014 (FL20140803SDN)",
+  "description": "UNOSAT geodata for Flood, Sudan, 3 August 2014 (FL20140803SDN), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected areas of flood affected land as detected in satellite imagery acquired by the Pleiades satellite on 14 August 2014 in Khartoum State, Sudan. The area surrounding Khartoum City and Umdurman was inundated by floods caused by heavy rains. Areas to the South of Umdurman seem to have been flooded and many other areas including Um Baba and Khartoum Bahri seem to be affected by varying levels of water and saturated soils. The flooded area over Khartoum has decreased slightly in some areas, however the higher resolution of the Pleiades shows more smaller standing bodies of water that were likely overlooked by previous sensors. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks, and within built-up urban areas because of the characteristics of the satellite data used. This analysis has not yet been validated in the field. Please send ground feedback to UNITAR /UNOSAT\n\nHDX datasets:\n\n- [Geodata of Flood Waters East of Khartoum City, Khartoum State, Sudan](https://data.humdata.org/dataset/geodata-of-flood-waters-east-of-khartoum-city-khartoum-state-sudan-august-11-2014)\n- [Geodata of Flood Waters Over Khartoum State, Sudan](https://data.humdata.org/dataset/geodata-of-flood-waters-over-khartoum-state-sudan-august-08-2014)\n- [Geodata of Flood Waters Over Khartoum State, Sudan](https://data.humdata.org/dataset/geodata-of-flood-waters-over-khartoum-state-sudan-august-11-2014)\n- [Geodata of Flood waters over Khartoum State, Sudan](https://data.humdata.org/dataset/geodata-of-flood-waters-over-khartoum-state-sudan-august-19-2014)\n- [Geodata of Update: Flood waters over Khartoum State, Sudan](https://data.humdata.org/dataset/geodata-of-flood-waters-over-khartoum-state-sudan-august-20-2014)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140803sdn-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Sudan, 3 August 2014 (FL20140803SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140803sdn-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Sudan, 3 August 2014 (FL20140803SDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140803sdn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2016",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2016",
+  "description": "UNOSAT geodata for 4 floods whose event code dates from 2016. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160714mmr/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Myanmar, 14 July 2016 (FL20160714MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160725bgd/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Bangladesh, 25 July 2016 (FL20160725BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160808sdn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Sudan, 8 August 2016 (FL20160808SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20161109vnm/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Viet Nam, 9 November 2016 (FL20161109VNM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20221014vnm",
+  "stac_version": "1.1.0",
+  "title": "Flood, Viet Nam, 14 October 2022 (FL20221014VNM)",
+  "description": "UNOSAT geodata for Flood, Viet Nam, 14 October 2022 (FL20221014VNM), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20221014VNM, GDACS Id: 1101698**  This map illustrates satellite-detected surface waters in Binh Dinh, Da Nang City, Phu Yen, Quang Nam, Quang Ngai, Thua Thien Hue Provinces, Viet Nam as observed from a Sentinel-1 images acquired on 15 October 2022 at 17:56 local time. Within the extent of this map of 32,000 km², about 500 km² of lands appear to be flooded. Based on Worldpop population data and the detected surface waters in the map extent, about 300,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents over Binh Dinh, Da Nang city, Phu Yen, Quang Nam, Quang Ngai, Thua Thien Hue Provinces, Viet Nam as of 15 October 2022](https://data.humdata.org/dataset/water-extents-over-binh-dinh-da-nang-city-phu-yen-quang-nam-quang-ngai-thua-thien-hue-prov)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221014vnm-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221014vnm-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221014vnm/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

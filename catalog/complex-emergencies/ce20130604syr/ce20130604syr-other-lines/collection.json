@@ -1,0 +1,394 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20130604syr/ce20130604syr-other-lines",
+  "stac_version": "1.1.0",
+  "description": "Other lines for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 1,008 features merged from 7 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Domiz Refugee Camp,  Duhok Governorate, Iraq](https://data.humdata.org/dataset/geodata-of-domiz-refugee-camp-duhok-governorate-iraq-january-10-2014)\n- [Geodata of Update 2: Al Azraq Refugee Camp,  Az Zarqa Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014)\n- [Geodata of Update: Al Azraq Refugee Camp,  Az Zarqa Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-may-02-2014)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20130604syr-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-lines"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-other-lines/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:33Z",
+  "pmtiles:min_zoom": 3,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    39.7123927,
+    34.3330146,
+    8
+  ],
+  "pmtiles:layers": [
+    "other-lines"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiLineString"
+  ],
+  "geoparquet:feature_count": 1008,
+  "table:row_count": 1008,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "SourceID",
+      "type": "string"
+    },
+    {
+      "name": "Picture",
+      "type": "binary"
+    },
+    {
+      "name": "Exs",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Definite; 2 = Doubtful. The decoded text is in `Exs_label`."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "RoadID",
+      "type": "string"
+    },
+    {
+      "name": "ONme",
+      "type": "string"
+    },
+    {
+      "name": "RteNme",
+      "type": "string"
+    },
+    {
+      "name": "FClass",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Highway; 2 = Primary; 3 = Secondary; 4 = Tertiary; 5 = Local/ Urban; 6 = Trail; 7 = Private. The decoded text is in `FClass_label`."
+    },
+    {
+      "name": "SrfTpe",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Paved; 2 = Gravel; 3 = Dirt/Sand; 4 = Steel; 5 = Wood; 6 = Grass. The decoded text is in `SrfTpe_label`."
+    },
+    {
+      "name": "SrfCond",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Rough (<40kph); 2 = Smooth (>40kph); 3 = Snow/Ice; 4 = Mud. The decoded text is in `SrfCond_label`."
+    },
+    {
+      "name": "SrfPrep",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Natural Compaction; 2 = Traffic Compaction; 3 = Engineered Compaction; 4 = Uncompacted. The decoded text is in `SrfPrep_label`."
+    },
+    {
+      "name": "IsSeasonal",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Yes; 2 = No. The decoded text is in `IsSeasonal_label`."
+    },
+    {
+      "name": "CurntPrac",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Non-motorized; 2 = Motorbike; 3 = 4WD < 3.5MT; 4 = Light truck < 10MT; 5 = Heavy truck < 20MT; 6 = Truck + Trailer > 20MT. The decoded text is in `CurntPrac_label`."
+    },
+    {
+      "name": "GdWthrPrac",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Non-motorized; 2 = Motorbike; 3 = 4WD < 3.5MT; 4 = Light truck < 10MT; 5 = Heavy truck < 20MT; 6 = Truck + Trailer > 20MT. The decoded text is in `GdWthrPrac_label`."
+    },
+    {
+      "name": "BdWthrPrac",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Non-motorized; 2 = Motorbike; 3 = 4WD < 3.5MT; 4 = Light truck < 10MT; 5 = Heavy truck < 20MT; 6 = Truck + Trailer > 20MT. The decoded text is in `BdWthrPrac_label`."
+    },
+    {
+      "name": "CurntSpeed",
+      "type": "int32"
+    },
+    {
+      "name": "IsUndrCstr",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Yes; 2 = No. The decoded text is in `IsUndrCstr_label`."
+    },
+    {
+      "name": "CstWrkETC",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "Sec",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Category A: low risk; 2 = Category B: low to medium risk; 3 = Category C: medium to high risk; 4 = Category D: high risk; 5 = Category E: critical risk. The decoded text is in `Sec_label`."
+    },
+    {
+      "name": "OpStatus",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Open; 2 = Restricted; 3 = Closed; 4 = Abandonned/Disused. The decoded text is in `OpStatus_label`."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "StaffID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 11 = EB; 22 = WP; 33 = LB; 44 = JL; 55 = VG; 66 = CJ; 77 = LD; 88 = HK; 99 = ER; 100 = KM; 777 = SB; 1000 = Unknown. The decoded text is in `StaffID_label`."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "BdWthrPrac_label",
+      "type": "string",
+      "description": "`BdWthrPrac` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CurntPrac_label",
+      "type": "string",
+      "description": "`CurntPrac` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Exs_label",
+      "type": "string",
+      "description": "`Exs` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "FClass_label",
+      "type": "string",
+      "description": "`FClass` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "GdWthrPrac_label",
+      "type": "string",
+      "description": "`GdWthrPrac` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "IsSeasonal_label",
+      "type": "string",
+      "description": "`IsSeasonal` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "IsUndrCstr_label",
+      "type": "string",
+      "description": "`IsUndrCstr` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "OpStatus_label",
+      "type": "string",
+      "description": "`OpStatus` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sec_label",
+      "type": "string",
+      "description": "`Sec` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SrfCond_label",
+      "type": "string",
+      "description": "`SrfCond` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SrfPrep_label",
+      "type": "string",
+      "description": "`SrfPrep` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SrfTpe_label",
+      "type": "string",
+      "description": "`SrfTpe` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "Id",
+      "type": "int32"
+    },
+    {
+      "name": "Event_Code",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Camp_Name",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Sensor",
+      "type": "string"
+    },
+    {
+      "name": "Sen_Date",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other lines: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.526686727000026,
+          31.876218693000055,
+          42.89809880200005,
+          36.789810542000055
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-10T00:00:00Z",
+          "2014-05-02T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20130604syr-other-lines": {
+      "href": "./ce20130604syr-other-lines.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 145989,
+      "file:checksum": "1220e417f88288942bee9a1b3dbcd42a0f947fe9583590e97f109d2c85edcce190e4",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20130604syr-other-lines-tiles": {
+      "href": "./ce20130604syr-other-lines.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 199798,
+      "file:checksum": "12204748478b25c57c64fbe50d6e3a48387aee19ee33cc9f6d7a5a2195f68ffecdcf",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other lines",
+      "file:size": 401,
+      "file:checksum": "122004088ef2c3ca41b15f30007d8df2da20ee72af0afee5dba23204caa597435c20"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20210630npl",
+  "stac_version": "1.1.0",
+  "title": "Flood, Nepal, 30 June 2021 (FL20210630NPL)",
+  "description": "UNOSAT geodata for Flood, Nepal, 30 June 2021 (FL20210630NPL), from 7 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20210630NPL**  This map illustrates satellite-detected surface waters in Nawalparasi West, Rupandehi and Kapilbastu districts, Lumbini province, Nepal as observed from a Sentinel-1 image acquired on 7 July 2021 at 06:12 local time and using an automated analysis with Machine learning method. Within the analyzed area of about 1,500 km2 and, about 67km2 of lands appear to be flooded. The water extent appears to have decreased of about 110 km2 since 2 July 2021 and moved toward India. Based on Worldpop population data and the detected surface waters in the analyzed area, the potentially exposed population is mainly located in the district of Rupandehi with ~59,000 people and Nawalparasi West with ~5,200 people.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Landslides impact analysis in Melamchi Municipality, Bagmati province, Nepal as of 24 June 2021](https://data.humdata.org/dataset/landslides-impact-analysis-in-melamchi-municipality-bagmati-province-nepal-as-of-24-june-2)\n- [Satellite detected water extent over Kaski and Syangja districts, Gandaki province, Nepal as of 4 July 2021](https://data.humdata.org/dataset/water-extent-over-kaski-and-syangja-districts-gandaki-province-nepal-as-of-4-july-2021)\n- [Satellite detected water extent over Nawalparasi West, Rupandehi and Kapilbastu districts, Nepal as of 7 July 2021](https://data.humdata.org/dataset/water-extent-over-nawalparasi-west-rupandehi-and-kapilbastu-districts-nepal-as-of-7-july-2)\n- [Satellite detected water extent over Province 1 and 2 , Nepal as of 1 of July 2021](https://data.humdata.org/dataset/satellite-detected-water-extent-over-province-1-and-2-nepal-as-of-1-of-july-2021)\n- [Satellite detected water extent over Province 1, Nepal as of 4 July 2021](https://data.humdata.org/dataset/satellite-detected-water-extent-over-province-1-nepal-as-of-4-july-2021)\n- [Satellite detected water extent over Province 2, Lumbini, Gandaki,and Bagmati provinces , Nepal  as of 3 of July 2021](https://data.humdata.org/dataset/water-extent-over-province-2-lumbini-gandaki-and-bagmati-provinces-nepal-as-of-3-of-july-2)\n- [Satellite detected water extent over Sudurpaschim and Lumbini provinces, Nepal as of 4 July 2021](https://data.humdata.org/dataset/water-extent-over-sudurpaschim-and-lumbini-provinces-nepal-as-of-4-july-2021)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210630npl-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Nepal, 30 June 2021 (FL20210630NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210630npl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Nepal, 30 June 2021 (FL20210630NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210630npl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Nepal, 30 June 2021 (FL20210630NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210630npl-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Nepal, 30 June 2021 (FL20210630NPL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210630npl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

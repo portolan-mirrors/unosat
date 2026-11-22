@@ -1,0 +1,51 @@
+{
+  "version": 8,
+  "name": "Water extent by Water_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../fl20240820tcd-water-extent.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Water_Class_label"
+            ]
+          ],
+          "Maximum Satellite Observed Water (Cumulative)",
+          "#1b9e77",
+          "Flood Water",
+          "#08519c",
+          "Archive Water Extent / Pre-Flood Water",
+          "#d95f02",
+          "Satellite Detected Water / Possible Saturated Soil",
+          "#7570b3",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

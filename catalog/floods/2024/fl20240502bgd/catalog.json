@@ -1,0 +1,94 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240502bgd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Bangladesh, 2 May 2024 (FL20240502BGD)",
+  "description": "UNOSAT geodata for Flood, Bangladesh, 2 May 2024 (FL20240502BGD), from 12 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240502BGD, GDACS ID: 1102700**  This map illustrates the aggregated floods using Sentinel-1 images acquired between 16 to 23 July 2024 and between 4 to 11 July 2024 using an automated analysis with a machine learning method.\nWithin the analysed area of about 140,000 km², a total of about 8,530 km² of land appears to be affected by flood waters.\nBased on Worldpop spatial demographic data, about 8 million people are exposed or living close to flooded areas.\nBetween these two periods, the floodwaters have increased about 130 km2. The increase has been mainly observed within the Rajshahi, Sylhet, Rangpur and Dhaka divisions accordingly.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Building Damage Assessment in Bagerhat District, Khulna Division, Bangladesh as of 4 June 2024](https://data.humdata.org/dataset/building-damage-assessment-in-bagerhat-district-khulna-division-bangladesh-as-of-4-june-20)\n- [Building Damage Assessment in Paikgachha Upazila, Khulna District, Khulna Division, Bangladesh as of 4 June 2024](https://data.humdata.org/dataset/building-damage-assessment-in-paikgachha-upazila-khulna-district-khulna-division-banglades)\n- [Building Damage Assessment in Rampal Upazila Bagerhat District, Khulna Division, Bangladesh as of 4 June 2024](https://data.humdata.org/dataset/building-damage-assessment-in-rampal-upazila-bagerhat-district-khulna-division-bangladesh-)\n- [Building Damage Assessment in Shyamnagar Upazila, Bagerhat District, Khulna Division, Bangladesh as of 10 June 2024](https://data.humdata.org/dataset/building-damage-assessment-in-shyamnagar-upazila-bagerhat-district-khulna-division-banglad)\n- [Cumulative Satellite Detected Waters over Sylhet Division, Bangladesh as of 19 & 22 June 2024](https://data.humdata.org/dataset/cumulative-satellite-detected-waters-over-sylhet-division-bangladesh-as-of-19-22-june-2024)\n- [Flood impact analysis in Chhatak Upazila, Sunamganj District, Sylhet Division, Bangladesh as of 26 June 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-chhatak-upazila-sunamganj-district-sylhet-division-bangladesh-as-)\n- [Flood impact analysis in Sunamganj Sadar and Bishwambarpur Upazilas, Sunamganj District, Sylhet Division, Bangladesh as of 26 June 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-sunamganj-sadar-and-bishwambarpur-upazilas-sunamganj-district-syl)\n- [Flood impact analysis in Sylhet District, Sylhet Division, Bangladesh as of 26 June 2024](https://data.humdata.org/dataset/flood-impact-analysis-in-sylhet-district-sylhet-division-bangladesh-as-of-26-june-2024)\n- [Satellite detected water extent over Barisal, Dhaka and Khulna Divisions, Bangladesh as of 1 June 2024](https://data.humdata.org/dataset/water-extent-over-barisal-dhaka-and-khulna-divisions-bangladesh-as-of-1-june-2024)\n- [Satellite detected water extent over Satkhira and Khulna Districts, Khulna Divisions, Bangladesh as of 1 June 2024](https://data.humdata.org/dataset/water-extent-over-satkhira-and-khulna-districts-khulna-divisions-bangladesh-as-of-1-june-2)\n- [Satellite detected water extents between 16 & 23 July 2024 in Bangladesh](https://data.humdata.org/dataset/satellite-detected-water-extents-between-16-23-july-2024-in-bangladesh)\n- [Satellite detected water extents between 4 & 11 July 2024 in Bangladesh](https://data.humdata.org/dataset/satellite-detected-water-extents-between-4-11-july-2024-in-bangladesh)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240502bgd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240502bgd-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240502bgd-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240502bgd-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240502bgd-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240502bgd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2021",
+  "description": "UNOSAT geodata for 14 floods whose event code dates from 2021. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210520guy/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Guyana, 20 May 2021 (FL20210520GUY)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210630npl/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Nepal, 30 June 2021 (FL20210630NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210729bgd/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Bangladesh, 29 July 2021 (FL20210729BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210729yem/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Yemen, 29 July 2021 (FL20210729YEM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210812sdn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Sudan, 12 August 2021 (FL20210812SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210817guy/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Guyana, 17 August 2021 (FL20210817GUY)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210831mmr/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Myanmar, 31 August 2021 (FL20210831MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210907sdn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Sudan, 7 September 2021 (FL20210907SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210908ner/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Niger, 8 September 2021 (FL20210908NER)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210928tha/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Thailand, 28 September 2021 (FL20210928THA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211008cod/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211015ssd/catalog.json",
+      "type": "application/json",
+      "title": "Flood, South Sudan, 15 October 2021 (FL20211015SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211208cog/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Congo, 8 December 2021 (FL20211208COG)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211213bra/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Brazil, 13 December 2021 (FL20211213BRA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

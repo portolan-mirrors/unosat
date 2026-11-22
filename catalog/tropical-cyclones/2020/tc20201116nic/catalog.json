@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2020/tc20201116nic",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)",
+  "description": "UNOSAT geodata for Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20201116NIC**  Este mapa ilustra las inundaciones detectadas por el satélite NOAA-VIIRS en Nicaragua entre el 13 y 17 de Noviembre. Dentro del área analizada de aproximadamente 95,000 km2, un total de aproximadamente 2,000 km2 de tierras parecen estar inundadas. Basado en los datos de población de Worldpop y la extensión de las aguas superficiales detectadas, alrededor de 100,000 personas están potencialmente expuestas o viven cerca de áreas inundadas. La población potencialmente expuesta se encuentra principalmente en el departamento de Chinandega con ~25,000 habitantes, en el departamento de Manague con ~16,000 habitantes, y em el departamento de Atlántico Norte con 10,000 habitantes. Se trata de un análisis preliminar que aún no ha sido validado en el terreno. Por favor envíe comentarios a UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Inundaciones en Nicaragua entre el 13 y 17 de Noviembre 2020](https://data.humdata.org/dataset/inundaciones-en-nicaragua-entre-el-13-y-17-de-noviembre-2020)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201116nic-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201116nic-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201116nic/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

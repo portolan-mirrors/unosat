@@ -1,0 +1,94 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2025",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclones, 2025",
+  "description": "UNOSAT geodata for 6 tropical cyclones whose event code dates from 2025. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250308mdg/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250308moz/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250722lao/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250826vnm/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20251026hti/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Jamaica, 26 October 2025 (TC20251026HTI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20251028jam/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

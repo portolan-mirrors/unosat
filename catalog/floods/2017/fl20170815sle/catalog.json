@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20170815sle",
+  "stac_version": "1.1.0",
+  "title": "Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)",
+  "description": "UNOSAT geodata for Flood, Sierra Leone, 15 August 2017 (FL20170815SLE), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map shows landslides mapped from satellite imagery following the Regent event on 15 August 2017. The main landslide outline in Regent has been updated from the product released by UNITAR-UNOSAT (published 16 August, version 1.0) using the updated UNITAR-UNOSAT georectification of the satellite image on 17th August.\nThe main Regent landslide event is 6 km long, including source area and run-out to the sea. It is interpreted as a debris slide in its upper reaches, transitioning to a debris flow and then a sediment-laden flood. The two smaller landslides are interpreted as debris flow events. The analysis has not yet been verified in the field.\n\nHDX datasets:\n\n- [Potentially Affected Zones by the Mudflow in southeastern Freetown, Sierra Leone](https://data.humdata.org/dataset/potentially-affected-zones-by-the-mudflow-in-southeastern-freetown-sierra-leone)\n- [Preliminary landslide inventory of Freetown, Sierra Leone 18 August 2017](https://data.humdata.org/dataset/preliminary-landslide-inventory-of-freetown-sierra-leone-18-august-2017)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815sle-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815sle-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815sle-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815sle-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

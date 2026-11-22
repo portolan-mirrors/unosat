@@ -1,0 +1,243 @@
+{
+  "type": "Collection",
+  "id": "fires/fr20191016lbn/fr20191016lbn-other-polygons",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Fire, Lebanon, 16 October 2019 (FR20191016LBN): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Fire hotspots density in Lebanon and Syria as detected by VIIRS between October 15-16, 2019](https://data.humdata.org/dataset/fire-hotspots-density-in-lebanon-and-syria-as-detected-by-viirs-between-october-15-16-2019)\n- [Wildfires east of Tyre, in South and El Nabatieh Governorates, Lebanon](https://data.humdata.org/dataset/wildfires-east-of-tyre-in-south-and-el-nabatieh-governorates-lebanon)\n- [Wildfires in Akkar Governorate (Lebanon) Tartous and Homs Governorates (Syria).](https://data.humdata.org/dataset/wildfires-in-akkar-governorate-lebanon-tartous-and-homs-governorates-syria)\n- [Wildfires in Al-Haffa and Al-Qardaha Districts, Lattakia Governorate, Syria](https://data.humdata.org/dataset/wildfires-in-al-haffa-and-al-qardaha-districts-lattakia-governorate-syria)\n- [Wildfires south of Beirut, in Aley and Chouf districts, Lebanon](https://data.humdata.org/dataset/wildfires-south-of-beirut-in-aley-and-chouf-districts-lebanon)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/fire-hotspots-density-in-lebanon-and-syria-as-detected-by-viirs-between-october-15-16-2019",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./fr20191016lbn-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20191016lbn/fr20191016lbn-other-polygons/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:21:05Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    36.1857439,
+    34.5336165,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 1,
+  "table:row_count": 1,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = UN Building; 1 = Mosque; 2 = Hospital; 3 = Refugee / IDP Camp Building; 4 = Market; 5 = School / University; 6 = Square; 7 = Government Building; 9 = Border Crossing Point; 12 = Cemetary; 13 = Ruins; 16 = Staduim; 19 = Sewage Treatment Facility; 21 = Greenhouse; 22 = Bridge; 23 = Road; 24 = Tower; 25 = Prison; 26 = Building (General / Default); 27 = Field; 28 = Industrial Facility; 30 = Refugee / IDP Camp Site; 35 = Transport Vehicle; 40 = Military Base; 41 = Checkpoint; 42 = Military Facility; 45 = Suspected Mass Grave Site; 46 = Airport Facility; 47 = Church. The decoded text is in `Site_ID_label`."
+    },
+    {
+      "name": "AgencyID",
+      "type": "int32"
+    },
+    {
+      "name": "SiteName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.895343564000086,
+          33.02202875900008,
+          37.476144385000055,
+          36.04520432700008
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-10-17T00:00:00Z",
+          "2019-10-23T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "fr20191016lbn-other-polygons": {
+      "href": "./fr20191016lbn-other-polygons.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 4082,
+      "file:checksum": "1220bf68a36b40a57747756d800f8eb8b9df491f406a5025b9ce0b8cceb6676a3256",
+      "roles": [
+        "data"
+      ]
+    },
+    "fr20191016lbn-other-polygons-tiles": {
+      "href": "./fr20191016lbn-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 134541,
+      "file:checksum": "12208717e6fd8dbf49d1ed49cdbb4cbed82e31dbf94397728779e92e891703ceab9c",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 664,
+      "file:checksum": "1220d6119891580bb302b9a66f1d6bd5c24a8328d49e47ad966e4960dbc7bd274fdc"
+    }
+  }
+}

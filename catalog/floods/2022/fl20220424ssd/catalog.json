@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20220424ssd",
+  "stac_version": "1.1.0",
+  "title": "Flood, South Sudan, 24 April 2022 (FL20220424SSD)",
+  "description": "UNOSAT geodata for Flood, South Sudan, 24 April 2022 (FL20220424SSD), from 15 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20220424SSD**  This map illustrates cumulative satellite-detected water using VIIRS in South Sudan between 10 to 14 September 2022 compared with the period from 30 August to 03 September 2022. Within the cloud free analyzed areas of about 605,000 km², a total of about 30,000 km² of lands appear to be affected with flood waters. Water extent appears to have decreased of about 13,000 km² since the period between 30 August to 03 September 2022. Based on Worldpop population data and the maximal flood water coverage, ~615,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nThe boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the United Nations. The United Nations Satellite Centre - UNOSAT is not responsible for the misuse or misrepresentation of the map.\nFinal boundary between the Republic of Sudan and the Republic of South Sudan has not yet been determined.\n\nHDX datasets:\n\n- [Satellite detected water extents between 01 and 05 March 2023 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-01-and-05-march-2023-over-south-sudan)\n- [Satellite detected water extents between 03 and 08 August 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-03-and-08-august-2022-over-south-sudan)\n- [Satellite detected water extents between 04 and 08 October 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-04-and-08-october-2022-over-south-sudan)\n- [Satellite detected water extents between 06 and 10 May 2023 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-06-and-10-may-2023-over-south-sudan)\n- [Satellite detected water extents between 10 and 14 June 2023 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-10-and-14-june-2023-over-south-sudan)\n- [Satellite detected water extents between 10 and 14 November 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-10-and-14-november-2022-over-south-sudan)\n- [Satellite detected water extents between 10 and 14 September 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-10-and-14-september-2022-over-south-sudan)\n- [Satellite detected water extents between 11 and 15 August 2023 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-11-and-15-august-2023-over-south-sudan)\n- [Satellite detected water extents between 14 and 18 May 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-14-and-18-may-2022-over-south-sudan)\n- [Satellite detected water extents between 17 and 21 January 2023 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-17-and-21-january-2023-over-south-sudan)\n- [Satellite detected water extents between 18 and 22 October 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-18-and-22-october-2022-over-south-sudan)\n- [Satellite detected water extents between 20 and 24 April 2022 over South Sudan](https://data.humdata.org/dataset/satellite-detected-water-extents-between-20-and-24-april-2022-over-south-sudan)\n- and 3 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220424ssd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, South Sudan, 24 April 2022 (FL20220424SSD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220424ssd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, South Sudan, 24 April 2022 (FL20220424SSD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220424ssd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2025/fl20251229moz",
+  "stac_version": "1.1.0",
+  "title": "Flood, Mozambique, 29 December 2025 (FL20251229MOZ)",
+  "description": "UNOSAT geodata for Flood, Mozambique, 29 December 2025 (FL20251229MOZ), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20251229MOZ, GDACS ID: 1103694**  This map illustrates the flood extent derived from Sentinel-1 imagery acquired on 5 January 2026, using an automated machine-learning-based analysis. Within the analysed area of approximately 25,000 km², an estimated 870 km² of land appears to be affected by floodwaters, representing an increase of about 100 km² compared to 31 December 2025 within the same analysed area. Based on WorldPop spatial demographic data, approximately 7,300 people are exposed to or living in close proximity to the flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents as of 23 January 2026 in Gaza, Maputo and Maputo City Provinces, Mozambique](https://data.humdata.org/dataset/water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique)\n- [Satellite detected water extents as of 31 December 2025 in Sofala Province, Mozambique](https://data.humdata.org/dataset/satellite-detected-water-extents-as-of-31-december-2025-in-sofala-province-mozambique)\n- [Satellite detected water extents as of 5 January 2026 in Sofala Province, Mozambique](https://data.humdata.org/dataset/satellite-detected-water-extents-as-of-5-january-2026-in-sofala-province-mozambique)\n- [Satellite detected water extents from 23 to 24 January 2026 in Gaza, Maputo and Maputo City Provinces, Mozambique](https://data.humdata.org/dataset/water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20251229moz-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Mozambique, 29 December 2025 (FL20251229MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20251229moz-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Mozambique, 29 December 2025 (FL20251229MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251229moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

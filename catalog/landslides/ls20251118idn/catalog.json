@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "landslides/ls20251118idn",
+  "stac_version": "1.1.0",
+  "title": "Landslide, Indonesia, 18 November 2025 (LS20251118IDN)",
+  "description": "UNOSAT geodata for Landslide, Indonesia, 18 November 2025 (LS20251118IDN), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: LS20251118IDN**  This application provides flood impact assessments related to Landslide in Java, Indonesia- November 2025.\nImportant note:\nThe boundaries and names shown, and the designations used on this map, do not imply official endorsement or acceptance by the United Nations.\nThe designations employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.\n\nHDX datasets:\n\n- [Landslide impact analysis in Majenang Sub-district, Cilacap District, Jawa Tengah Province, Indonesia as of 18 November 2025](https://data.humdata.org/dataset/landslide-impact-analysis-in-majenang-sub-district-cilacap-district-jawa-tengah-province-i)\n- [Landslide impact analysis in Pandanarum Sub-district, Banjarnegara Regency, Jawa Tengah Province, Indonesia as of 18 & 19 November 2025](https://data.humdata.org/dataset/landslide-impact-analysis-in-pandanarum-sub-district-banjarnegara-regency-jawa-tengah-prov)\n- [UNOSAT Live web map - Landslides in Central Java, Indonesia](https://data.humdata.org/dataset/unosat-live-web-map-landslides-in-central-java-indonesia)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20251118idn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20251118idn-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20251118idn-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20251118idn-other-points/collection.json",
+      "type": "application/json",
+      "title": "Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

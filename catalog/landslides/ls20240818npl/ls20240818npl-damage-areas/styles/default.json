@@ -1,0 +1,45 @@
+{
+  "version": 8,
+  "name": "Damage areas by Main_Damage_Site_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ls20240818npl-damage-areas.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damage_Site_Class_label"
+            ]
+          ],
+          "Severe Damage",
+          "#d7301f",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

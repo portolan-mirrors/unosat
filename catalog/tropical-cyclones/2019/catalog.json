@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2019",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclones, 2019",
+  "description": "UNOSAT geodata for 3 tropical cyclones whose event code dates from 2019. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20190312moz/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Mozambique, 12 March 2019 (TC20190312MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20190324zwe/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20191202phl/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

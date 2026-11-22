@@ -1,0 +1,249 @@
+{
+  "type": "Collection",
+  "id": "tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas",
+  "stac_version": "1.1.0",
+  "description": "Shelter areas for Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD): 3 features merged from 3 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Bangladesh - Satellite Detected Water Extent in Chittagong District, Chittagong  Division](https://data.humdata.org/dataset/satellite-detected-water-extent-in-chittagong-district-chittagong-division-bangladesh)\n- [Bangladesh - Satellite Detected Water Extent in Cox's Bazar District, Chittagong Division](https://data.humdata.org/dataset/satellite-detected-water-extent-in-cox-s-bazar-district-chittagong-division-bangladesh)\n- [Damage Assessment in Kutupalong Refugee Camp, Palong Khali Union, Bangladesh](https://data.humdata.org/dataset/damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh)\n- [Damage Assessment in Leda Refugee Camp, Nhilla Union, Bangladesh](https://data.humdata.org/dataset/damage-assessment-in-leda-refugee-camp-nhilla-union-bangladesh)\n- [Damage Assessment in Nayapara Refugee Camp, Teknaf Union, Bangladesh](https://data.humdata.org/dataset/damage-assessment-in-nayapara-refugee-camp-teknaf-union-bangladesh)\n- [Satellite Detected Water Extent in Maheshkhali, Chakaria and Cox'S Bazar Sadar Upazilas](https://data.humdata.org/dataset/satellite-detected-water-extent-in-maheshkhali-chakaria-and-cox-s-bazar-sadar-upazilas)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tc20170529bgd-shelter-areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelter-areas"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:30:11Z",
+  "pmtiles:min_zoom": 6,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    92.2058478,
+    21.0839633,
+    10
+  ],
+  "pmtiles:layers": [
+    "shelter-areas"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 3,
+  "table:row_count": 3,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = UN Building; 1 = Mosque; 2 = Hospital; 3 = Refugee / IDP Camp Building; 4 = Market; 5 = School / University; 6 = Square; 7 = Government Building; 9 = Border Crossing Point; 12 = Cemetary; 13 = Ruins; 16 = Staduim; 19 = Sewage Treatment Facility; 21 = Greenhouse; 22 = Bridge; 23 = Road; 24 = Tower; 25 = Prison; 26 = Building (General / Default); 27 = Field; 28 = Industrial Facility; 30 = Refugee / IDP Camp Site; 35 = Transport Vehicle; 40 = Military Base; 41 = Checkpoint; 45 = Suspected Mass Grave Site. The decoded text is in `Site_ID_label`."
+    },
+    {
+      "name": "AgencyID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = UNOSAT. The decoded text is in `AgencyID_label`."
+    },
+    {
+      "name": "SiteName",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "AgencyID_label",
+      "type": "string",
+      "description": "`AgencyID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          92.15781065900006,
+          20.952092615000083,
+          92.25388506700006,
+          21.21583399700006
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-05-31T00:00:00Z",
+          "2017-06-07T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tc20170529bgd-shelter-areas": {
+      "href": "./tc20170529bgd-shelter-areas.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 9012,
+      "file:checksum": "12201171c73fc424113b2bd763f478c5b7d7b534ab429e6d729216f23442e1a6d373",
+      "roles": [
+        "data"
+      ]
+    },
+    "tc20170529bgd-shelter-areas-tiles": {
+      "href": "./tc20170529bgd-shelter-areas.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 32118,
+      "file:checksum": "1220a3c0ddfbca6dc56cb9de335791782dea531afe4b4773304d73d3b1a40e71541d",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelter areas",
+      "file:size": 658,
+      "file:checksum": "1220a2bf0f6e9a2463ea11c7873fa7d4a312c4b52c9f3d43dcd86ccdea2ec0082d86"
+    }
+  }
+}

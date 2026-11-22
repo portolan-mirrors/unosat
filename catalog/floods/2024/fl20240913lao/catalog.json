@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240913lao",
+  "stac_version": "1.1.0",
+  "title": "Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO)",
+  "description": "UNOSAT geodata for Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240913LAO**  This map illustrates the floods using Sentinel-1 images acquired on 18 September 2024 at 06:00 local time. Within the analyzed area of approximately 7,000 km², around 230 km² of land appears to be affected by floodwaters. The extent of the flooding has increased by approximately 50 km² since the previous observation on 13 September 2024.\nBased on WorldPop spatial demographic data, an estimated 26,000 people are currently exposed or residing near the flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents in Bolikhamzai Province, Lao PDR as of 18 September 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-bolikhamzai-province-lao-pdr-as-of-18-september-2024)\n- [Satellite detected water extents in Louangnamtha Province, Lao PDR as of 11 September 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-louangnamtha-province-lao-pdr-as-of-11-september-2024)\n- [Satellite detected water extents in Vientiane Capital, Lao PDR as of 13 September 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-vientiane-capital-lao-pdr-as-of-13-september-2024)\n- [Satellite detected water extents in Vientiane Capital, Lao PDR as of 18 September 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-vientiane-capital-lao-pdr-as-of-18-september-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240913lao-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240913lao-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240913lao/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

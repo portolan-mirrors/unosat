@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2020/tc20201116hnd",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND)",
+  "description": "UNOSAT geodata for Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20201116HND**  This map illustrates satellite-detected surface waters in Cortes, Atlantida, and Yoro departments of Honduras as observed from a Sentinel-1 image acquired on 23 November 2020 at 05:45 Local time. Within the analyzed area of about 3,500 km2, a total of about 170 km2 of lands appear to be flooded. Based on Worldpop population data and the detected surface waters, about 35,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\nImportant Note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents between 13 & 17 November 2020 in Honduras](https://data.humdata.org/dataset/satellite-detected-water-extents-between-13-17-november-2020-in-honduras)\n- [Satellite detected waters in Atlantida and Yoro Departments of Honduras as of 18 November 2020](https://data.humdata.org/dataset/waters-in-atlantida-and-yoro-departments-of-honduras-as-of-18-november-2020)\n- [Satellite detected waters in Colon and Yoro departments of Honduras as of 18 November 2020](https://data.humdata.org/dataset/satellite-detected-waters-in-colon-and-yoro-departments-of-honduras-as-of-18-november-2020)\n- [Satellite detected waters in Cortes and Yoro departments of Honduras as of 18 November 2020](https://data.humdata.org/dataset/waters-in-cortes-and-yoro-departments-of-honduras-as-of-18-november-2020)\n- [Satellite detected waters in Cortes, Atlantida, and Yoro departments of Honduras as of 23 November 2020](https://data.humdata.org/dataset/waters-in-cortes-atlantida-and-yoro-departments-of-honduras-as-of-23-november-2020)\n- [Satellite detected waters in Olancho Department of Honduras as of 18 November 2020](https://data.humdata.org/dataset/satellite-detected-waters-in-olancho-department-of-honduras-as-of-18-november-2020)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201116hnd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201116hnd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201116hnd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

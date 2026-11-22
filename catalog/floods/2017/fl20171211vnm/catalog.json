@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20171211vnm",
+  "stac_version": "1.1.0",
+  "title": "Flood, Viet Nam, 11 December 2017 (FL20171211VNM)",
+  "description": "UNOSAT geodata for Flood, Viet Nam, 11 December 2017 (FL20171211VNM), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the satellite-detected surface waters extent in Ho Chi Minh City area and surroundings, as observed from the Radarsat-2 SAR image acquired on 18 December 2017. In the analysed area (~3000 km2) about 5,400 ha of lands, mainly agricultural and paddy fields are likely flooded. In addition, using WorldPop data, we can estimate that ~220,000 people are living within flooded areas. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks and within built-up urban areas because of the special characteristics of the satellite data used. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Satellite Detected Surface Waters Extent in Ho Chi Minh City Area, Vietnam](https://data.humdata.org/dataset/satellite-detected-surface-waters-extent-in-ho-chi-minh-city-area-vietnam-2749)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20171211vnm-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Viet Nam, 11 December 2017 (FL20171211VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20171211vnm-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Viet Nam, 11 December 2017 (FL20171211VNM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171211vnm/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

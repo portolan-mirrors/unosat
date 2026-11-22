@@ -1,0 +1,124 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes",
+  "stac_version": "1.1.0",
+  "title": "Earthquakes",
+  "description": "UNOSAT geodata for 25 earthquakes. Each child is one event, named by its UNOSAT event code. Events are grouped by year. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./2015/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2015"
+    },
+    {
+      "rel": "child",
+      "href": "./2016/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2016"
+    },
+    {
+      "rel": "child",
+      "href": "./2017/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2017"
+    },
+    {
+      "rel": "child",
+      "href": "./2018/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2018"
+    },
+    {
+      "rel": "child",
+      "href": "./2019/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2019"
+    },
+    {
+      "rel": "child",
+      "href": "./2021/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2021"
+    },
+    {
+      "rel": "child",
+      "href": "./2022/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2022"
+    },
+    {
+      "rel": "child",
+      "href": "./2023/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2023"
+    },
+    {
+      "rel": "child",
+      "href": "./2024/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2024"
+    },
+    {
+      "rel": "child",
+      "href": "./2025/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2025"
+    },
+    {
+      "rel": "child",
+      "href": "./2026/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes, 2026"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

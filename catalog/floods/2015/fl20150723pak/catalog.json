@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "floods/2015/fl20150723pak",
+  "stac_version": "1.1.0",
+  "title": "Flood, Pakistan, 23 July 2015 (FL20150723PAK)",
+  "description": "UNOSAT geodata for Flood, Pakistan, 23 July 2015 (FL20150723PAK), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected areas of flood as seen in Sentinel-1 imagery acquired on 11 August 2015 in northern Sindh state, Pakistan. There is significant flooding along the Indus river banks in Ghotki, Sukkur, Shirakpur, Larkana and Khairpur districts. In the analyzed area about 350,000 hectares of land were found to be flooded. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks and within built-up urban areas because of the special characteristics of the satellite data used. This analysis has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Overview Of Flood Waters In Lahore Area, Punjab Province (Pakistan)](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-lahore-area-punjab-province-pakistan-july-30-2015)\n- [Geodata of Overview Of Flood Waters In Sukkur District, Sindh Province, Pakistan](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-sukkur-district-sindh-province-pakista-august-13-2015)\n- [Geodata of Overview of Flood Waters Near City of Moro in Sindh Province, Pakistan](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-near-city-of-moro-in-sindh-province-pakis-august-18-2015)\n- [Geodata of Overview of Flood Waters in Mangla Area, and Northern Punjab (Pakistan)](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-mangla-area-and-northern-punjab-pakist-july-29-2015)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150723pak-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Pakistan, 23 July 2015 (FL20150723PAK)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150723pak/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

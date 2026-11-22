@@ -1,0 +1,112 @@
+{
+  "type": "Catalog",
+  "id": "floods/2020",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2020",
+  "description": "UNOSAT geodata for 9 floods whose event code dates from 2020. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200101idn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Indonesia, 1 January 2020 (FL20200101IDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200117irn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Iran (Islamic Republic of), 17 January 2020 (FL20200117IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200128mdg/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Madagascar, 28 January 2020 (FL20200128MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200305zmb/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Zambia, 5 March 2020 (FL20200305ZMB)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200324irn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200428som/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Somalia, 28 April 2020 (FL20200428SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200626ukr/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Ukraine, 26 June 2020 (FL20200626UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200708npl/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Nepal, 8 July 2020 (FL20200708NPL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200713bgd/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Bangladesh, 13 July 2020 (FL20200713BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

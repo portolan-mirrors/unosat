@@ -1,0 +1,94 @@
+{
+  "type": "Catalog",
+  "id": "floods/2015",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2015",
+  "description": "UNOSAT geodata for 6 floods whose event code dates from 2015. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150112moz/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Mozambique, 12 January 2015 (FL20150112MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150703mmr/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Myanmar, 3 July 2015 (FL20150703MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150723pak/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Pakistan, 23 July 2015 (FL20150723PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150730vnm/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Viet Nam, 30 July 2015 (FL20150730VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20151015som/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Somalia, 15 October 2015 (FL20151015SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20151123ind/catalog.json",
+      "type": "application/json",
+      "title": "Flood, India, 23 November 2015 (FL20151123IND)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

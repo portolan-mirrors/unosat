@@ -1,0 +1,228 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20130604syr/ce20130604syr-damage-areas-cc_by_sa",
+  "stac_version": "1.1.0",
+  "description": "Damage areas for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 1,936 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32637, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Rapidly assessed damage occurring between 23 February 2018 and 2 March 2018 in Douma, Eastern Ghouta Area, Syria](https://data.humdata.org/dataset/rapidly-assessed-damage-occurring-between-23-february-2018-and-2-march-2018-in-douma-eastern-ghouta-)\n- [Rapidly assessed damage occurring between 23 February 2018 and 6 March 2018 in Eastern Ghouta Area, Damascus Governorate](https://data.humdata.org/dataset/rapidly-assessed-damage-occurring-between-23-february-2018-and-6-march-2018-in-eastern-ghouta-area-)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/rapidly-assessed-damage-occurring-between-23-february-2018-and-2-march-2018-in-douma-eastern-ghouta-",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20130604syr-damage-areas-cc_by_sa.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "damage-areas"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-damage-areas-cc_by_sa/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:33Z",
+  "pmtiles:min_zoom": 2,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    36.3714962,
+    33.5302396,
+    8
+  ],
+  "pmtiles:layers": [
+    "damage-areas"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 1936,
+  "table:row_count": 1936,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "SiteID",
+      "type": "string"
+    },
+    {
+      "name": "SensorDate",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "SensorID",
+      "type": "string"
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Main_Damag",
+      "type": "string"
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Damage areas: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.30659189027761,
+          33.45954825378029,
+          36.43250474111506,
+          33.589197124256636
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-03-02T00:00:00Z",
+          "2018-03-08T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20130604syr-damage-areas-cc_by_sa": {
+      "href": "./ce20130604syr-damage-areas-cc_by_sa.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 35898,
+      "file:checksum": "1220ac336728b039b40f84381dbe0a2ae364861a00f6713c9850bfbd898693550106",
+      "proj:code": "EPSG:32637",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20130604syr-damage-areas-cc_by_sa-tiles": {
+      "href": "./ce20130604syr-damage-areas-cc_by_sa.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 222821,
+      "file:checksum": "12209901fa68bd6b4c0dfd774c3a65ac6baf2f331998844ca0d0d6197912a751f9d2",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Damage areas by Main_Damag",
+      "file:size": 988,
+      "file:checksum": "1220eca8d598c5b9aef346032331ef58f985969a6c2934855de63874a653fbf8f4de"
+    }
+  }
+}

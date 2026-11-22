@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20150402yem",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, Yemen, 2 April 2015 (CE20150402YEM)",
+  "description": "UNOSAT geodata for Complex emergency, Yemen, 2 April 2015 (CE20150402YEM), from 7 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected damage and destruction in the city of Sana'a, Sana'a Governorate, Yemen. Using satellite imagery acquired 10 and 23 September 2015, as well as 15 May 2015, UNITAR-UNOSAT identified a total of 652 affected structures. Approximately 283 of these were impacted as of 10 and 23 September 2015, with 54 destroyed, 94 severely damaged, and 135 moderately damaged. Previously, using the 15 May 2015 satellite image, UNITAR-UNOSAT had located 369 affected structures, of which 60 were destroyed, 72 severely damaged, and 237 moderately damaged. Additionally, 8 impact craters and 16 areas with significant amounts of debris were observed in September 2015. A total of 7 medical facilities were identified within 100 meters of damaged and destroyed buildings, and it is possible that these facilities also sustained some damage. Notably, as of 10 and 23 September 2015, significant reconstruction of structures damaged as of 15 May 2015 was visible across the examined area. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Damage Assessment of Aden, Aden Governorate, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-aden-aden-governorate-yemen-august-28-2015)\n- [Geodata of Damage Assessment of Aden, Aden Governorate, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-aden-aden-governorate-yemen-may-19-2015)\n- [Geodata of Damage Assessment of Sadah, Saada Governorate, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-sadah-saada-governorate-yemen-may-20-2015)\n- [Geodata of Damage Assessment of Sana'a City, Sana'a Governorate, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-sanaa-city-sanaa-governorate-yemen-june-03-2015)\n- [Geodata of Damage Assessment of Sana'a City, Sana'a Governorate, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-sanaa-city-sanaa-governorate-yemen-october-15-2015)\n- [Geodata of Damage Assessment of Sana'a International Airport, Sana'a Governorate, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-sanaa-international-airport-sanaa-governorate-june-03-2015)\n- [Geodata of Damage Assessment of Taiz City, At Ta'Ziah District, Yemen](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-taiz-city-at-taziah-district-yemen-july-03-2015)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20150402yem-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Complex emergency, Yemen, 2 April 2015 (CE20150402YEM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150402yem/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20130604syr/ce20130604syr-shelter-areas-cc_by_nc_sa_3_0",
+  "stac_version": "1.1.0",
+  "description": "Shelter areas for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 307 features merged from 15 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Bab Al Salame IDP Camp, A'Zaz District, Aleppo Governorate, Syria](https://data.humdata.org/dataset/geodata-of-bab-al-salame-idp-camp-azaz-district-aleppo-governorate-syria-june-12-2015)\n- [Geodata of Domiz Refugee Camp,  Duhok Governorate, Iraq](https://data.humdata.org/dataset/geodata-of-domiz-refugee-camp-duhok-governorate-iraq-january-10-2014)\n- [Geodata of Oncunipar Refugee Camp, Merkez District, Kilis Province, Turkey](https://data.humdata.org/dataset/geodata-of-oncunipar-refugee-camp-merkez-district-kilis-province-turkey-june-16-2015)\n- [Geodata of Sujjo IDP Camp, A'Zaz District, Aleppo Governorate, Syria](https://data.humdata.org/dataset/geodata-of-sujjo-idp-camp-azaz-district-aleppo-governorate-syria-june-19-2015)\n- [Geodata of UPDATE: AL ZAATARI REFUGEE CAMP, MAFRAQ GOVERNORATE, JORDAN](https://data.humdata.org/dataset/geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-july-21-2014)\n- [Geodata of UPDATE: AL Zaatari Refugee camp, Mafraq Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-november-19-2014)\n- [Geodata of Update 2: Al Azraq Refugee Camp,  Az Zarqa Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014)\n- [Geodata of Update: Al Azraq Refugee Camp,  Az Zarqa Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-may-02-2014)\n- [Geodata of Update: Al Azraq Refugee Camp, Az Zarqa Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-03-2015)\n- [Geodata of Update: Al Azraq Refugee Camp, Az Zarqa Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-28-2014)\n- [Geodata of Update: Al Zaatari Refugee Camp, Mafraq Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-august-17-2016)\n- [Geodata of Update: Al Zaatari Refugee Camp, Mafraq Governorate, Jordan](https://data.humdata.org/dataset/geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-december-08-2015)\n- and 3 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20130604syr-shelter-areas-cc_by_nc_sa_3_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelter-areas"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-shelter-areas-cc_by_nc_sa_3_0/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:33Z",
+  "pmtiles:min_zoom": 1,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    39.5664653,
+    34.331551,
+    8
+  ],
+  "pmtiles:layers": [
+    "shelter-areas"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 307,
+  "table:row_count": 307,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "int16",
+      "description": "Coded value. The 2 source files of this collection use 2 different domains for it, so read `Site_ID_label`, which is decoded per source file."
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "int32",
+      "description": "Coded value. The 3 source files of this collection use 3 different domains for it, so read `Sensor_ID_label`, which is decoded per source file."
+    },
+    {
+      "name": "Sensor_Date",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Very High; 2 = Medium; 3 = Uncertain; 4 = To Be Evaluated. The decoded text is in `Confidence_ID_label`."
+    },
+    {
+      "name": "Field_Validation",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Not yet field validated; 1 = Validated (correct); 2 = Validated (not correct); 3 = Site Not Identified in Image. The decoded text is in `Field_Validation_label`."
+    },
+    {
+      "name": "CampStatusID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Closed / Relocated; 1 = Open (Operational); 2 = Planned / Under Construction; 9 = Camp Destroyed. The decoded text is in `CampStatusID_label`."
+    },
+    {
+      "name": "CampName",
+      "type": "string"
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "CampQuicklook",
+      "type": "int32"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "GlobalID",
+      "type": "string",
+      "description": "ArcGIS global identifier of the feature."
+    },
+    {
+      "name": "StaffID",
+      "type": "int32",
+      "description": "Coded value. The 4 source files of this collection use 4 different domains for it, so read `StaffID_label`, which is decoded per source file."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "CampType",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Refugee Camp; 2 = IDP Camp. The decoded text is in `CampType_label`."
+    },
+    {
+      "name": "City_District",
+      "type": "string"
+    },
+    {
+      "name": "Date_Opened",
+      "type": "int32"
+    },
+    {
+      "name": "ShelterCount",
+      "type": "int32"
+    },
+    {
+      "name": "ShelterEstimate",
+      "type": "int32"
+    },
+    {
+      "name": "FormaltentID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Yes; 2 = No. The decoded text is in `FormaltentID_label`."
+    },
+    {
+      "name": "CampStatID_L2",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 10 = Open - New; 20 = Open - Reopened; 30 = Open - Expanded; 40 = Open - Contracted; 50 = Open - No Change; 60 = Open - Unknown (clouded / no coverage); 70 = Closed - New (no further indication of resident status); 80 = Closed - Relocated / Aggregated to adjacent camp site; 90 = Closed - Absorbed (site absorbed by other camp expansion); 100 = Closed - Unchanged; 110 = Planned (opening within next days, grounds prepared); 120 = Planned (grounds not prepared, opening date undefined). The decoded text is in `CampStatID_L2_label`."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "CampStatID_L2_label",
+      "type": "string",
+      "description": "`CampStatID_L2` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CampStatusID_label",
+      "type": "string",
+      "description": "`CampStatusID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CampType_label",
+      "type": "string",
+      "description": "`CampType` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Confidence_ID_label",
+      "type": "string",
+      "description": "`Confidence_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Field_Validation_label",
+      "type": "string",
+      "description": "`Field_Validation` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "FormaltentID_label",
+      "type": "string",
+      "description": "`FormaltentID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sensor_ID_label",
+      "type": "string",
+      "description": "`Sensor_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "Date_Opened_OLD",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Before 2009; 2 = Before 30 March 2011; 3 = Before 15 April 2011; 4 = Between 30 March - 15 April 2011; 5 = Between 15 April -28 July 2011; 6 = Between 28 July / 18 Aug 2011; 7 = Between 28 July - 21 August 2011; 8 = Between 18 -21 August 2011; 9 = Before 31 October 2010; 10 = Between 21 August - 4 Sept. 2011; 20 = Before 1 April 2011; 21 = Between 1 April - 12 September 2011; 22 = Between 21 August - 18 October 2011; 23 = Between 12 Sept. -18 October 2011; 30 = Between 21 August - 12 September 2011; 40 = Between 12 September - 18 October 2011; 41 = Between 18 October 2011 - 16 January 2012; 42 = Between 18 October 2011 - 2 May 2012; 43 = Between 18 October 2011 - 10 May 2012; 44 = Between 14 September 2011 - 10 May 2012. The decoded text is in `Date_Opened_OLD_label`."
+    },
+    {
+      "name": "Date_Opened_OLD_label",
+      "type": "string",
+      "description": "`Date_Opened_OLD` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelter areas: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.31172729200006,
+          31.887434085000052,
+          42.89257999100005,
+          36.787972281000066
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-10T00:00:00Z",
+          "2016-08-17T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20130604syr-shelter-areas-cc_by_nc_sa_3_0": {
+      "href": "./ce20130604syr-shelter-areas-cc_by_nc_sa_3_0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 45728,
+      "file:checksum": "12203acf1a075df1b8b96117bf95db72dd27476f134371f7f97f7d21e18125d10a96",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20130604syr-shelter-areas-cc_by_nc_sa_3_0-tiles": {
+      "href": "./ce20130604syr-shelter-areas-cc_by_nc_sa_3_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 264068,
+      "file:checksum": "1220712d64ee542e84ca7604c8c888ebf6caf5a52d71d2c0c5d3acba000f44dc95cf",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelter areas by CampType",
+      "file:size": 923,
+      "file:checksum": "12205c43013e58dc6129944fa61883e47943c6f679cfbe1a45707dc6272b26aa31a8"
+    }
+  }
+}

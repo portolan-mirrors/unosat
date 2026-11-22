@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2017/tc20170529bgd",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)",
+  "description": "UNOSAT geodata for Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected surface water extent around Maheshkhali, Chakaria and Cox'S Bazar Sadar Upazilas in the District of Cox's Bazar, Chittagong Division in the south eastern part of Bangladesh as detected by a TerraSAR-X image acquired on the 1st June 2017. A total of ~20,000 ha of lands seem to be affected with flood waters. Some of the affected lands are mainly agricultural fields. The analysis of this satellite image reveals also that about 100 km of roads with mainly tertiary roads seem to be also potentially affected. We can also estimate, within this map extent and using the WorldPop data, about 265,000 people living in flood affected zones. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Bangladesh - Satellite Detected Water Extent in Chittagong District, Chittagong  Division](https://data.humdata.org/dataset/satellite-detected-water-extent-in-chittagong-district-chittagong-division-bangladesh)\n- [Bangladesh - Satellite Detected Water Extent in Cox's Bazar District, Chittagong Division](https://data.humdata.org/dataset/satellite-detected-water-extent-in-cox-s-bazar-district-chittagong-division-bangladesh)\n- [Damage Assessment in Kutupalong Refugee Camp, Palong Khali Union, Bangladesh](https://data.humdata.org/dataset/damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh)\n- [Damage Assessment in Leda Refugee Camp, Nhilla Union, Bangladesh](https://data.humdata.org/dataset/damage-assessment-in-leda-refugee-camp-nhilla-union-bangladesh)\n- [Damage Assessment in Nayapara Refugee Camp, Teknaf Union, Bangladesh](https://data.humdata.org/dataset/damage-assessment-in-nayapara-refugee-camp-teknaf-union-bangladesh)\n- [Satellite Detected Water Extent in Maheshkhali, Chakaria and Cox'S Bazar Sadar Upazilas](https://data.humdata.org/dataset/satellite-detected-water-extent-in-maheshkhali-chakaria-and-cox-s-bazar-sadar-upazilas)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20170529bgd-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20170529bgd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20170529bgd-shelter-areas/collection.json",
+      "type": "application/json",
+      "title": "Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20170529bgd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

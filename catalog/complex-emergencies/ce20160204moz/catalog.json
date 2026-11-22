@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20160204moz",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ)",
+  "description": "UNOSAT geodata for Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected shelters and other structures at the Kapise refugee camp in Mwanza District, Malawi. The camp is for refugees fleeing reported violence in neighboring Mozambique. An initial examination of WorldView-2 satellite imagery acquired 16 February 2016 revealed a total of 1,497 structures within the camp. Approximately 24 of these were administrative buildings, 1,416 were tent or improvised shelters, and 57 were semi-permanent structures. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Kapise Refugee Camp, Mwanza District, Malawi](https://data.humdata.org/dataset/geodata-of-kapise-refugee-camp-mwanza-district-malawi-march-07-2016)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20160204moz-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20160204moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240812lby",
+  "stac_version": "1.1.0",
+  "title": "Flood, Libya, 12 August 2024 (FL20240812LBY)",
+  "description": "UNOSAT geodata for Flood, Libya, 12 August 2024 (FL20240812LBY), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240812LBY**  This map illustrates satellite-detected water extent in Ghat City, Ghat Governorate, South Province, Libya as observed from a WorldView-3 satellite image acquired on 18 August 2024 at 11:53 local time (09:53 UTC). Within analysed area of about 65km², a total of about 13 km² of land appears to be affected by floodwaters. In Ghat City, approximately 5 km² (30%) of the city is flooded, which includes around 0.5 km² of built-up area. Additionally, about 13km of road is affected by the flooding\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT)\n\nHDX datasets:\n\n- [Satellite detected water extent in Al-jawf Town, Alkufra Governorate, East Province, Libya as of 14 August 2024](https://data.humdata.org/dataset/water-extent-in-al-jawf-town-alkufra-governorate-east-province-libya-as-of-14-august-2024)\n- [Satellite detected water extent in Ghat City, Ghat Governorate, South Province, Libya as of 18 August 2024](https://data.humdata.org/dataset/water-extent-in-ghat-city-ghat-governorate-south-province-libya-as-of-18-august-2024)\n- [Satellite detected water extent in South of Ghat City, Ghat Governorate, South Province, Libya as of 18 August 2024](https://data.humdata.org/dataset/water-extent-in-south-of-ghat-city-ghat-governorate-south-province-libya-as-of-18-august-2)\n- [Satellite detected water extent in Tahala Village, Ghat Governorate, South Province, Libya as of 19 August 2024](https://data.humdata.org/dataset/water-extent-in-tahala-village-ghat-governorate-south-province-libya-as-of-19-august-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240812lby-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Libya, 12 August 2024 (FL20240812LBY)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240812lby-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Libya, 12 August 2024 (FL20240812LBY)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240812lby-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Libya, 12 August 2024 (FL20240812LBY)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812lby/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

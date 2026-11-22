@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022/tc20221028phl",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)",
+  "description": "UNOSAT geodata for Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code TC20221028PHL, GDACS Id: 1000942**  This map illustrates the extent of surface waters in Bulacan, Nueva Ecija, Pampanga, and Tarlac Provinces, Region III, Philippines  as observed from a TerraSAR-X image acquired on 3 November 2022 at 05:59 local time. Within the analysis extent of about 1,800 km2, approximately 160 km2 of land appears to be inundated and 140 km2 of croplands appear to be likely affected by the flood waters. Based on Worldpop population data and detected surface waters, approximately 84,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Flood Impact assessment of Cabuyao City and City of Calamba, Laguna Province, Region IV-A, Philippines as of 5 November 2022](https://data.humdata.org/dataset/flood-impact-assessment-of-cabuyao-city-and-city-of-calamba-laguna-province-region-iv-a-ph)\n- [Satellite detected  surface water extents in Bangsamoro Autonomous Region in Muslim Mindanao and Region XII, Philippines as of 3 November 2022](https://data.humdata.org/dataset/surface-water-extents-in-bangsamoro-autonomous-region-in-muslim-mindanao-and-region-xii-ph)\n- [Satellite detected surface water extents in Bulacan, Nueva Ecija, Pampanga, and Tarlac Provinces, Region III, Philippines  as of 3 November 2022](https://data.humdata.org/dataset/surface-water-extents-in-bulacan-nueva-ecija-pampanga-and-tarlac-provinces-region-iii-phil)\n- [Satellite detected water extent in Capiz Province, Region VI, Philippines  as of 2 November 2022](https://data.humdata.org/dataset/water-extent-in-capiz-province-region-vi-philippines-as-of-2-november-2022)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221028phl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221028phl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221028phl-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

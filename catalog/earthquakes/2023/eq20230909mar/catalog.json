@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2023/eq20230909mar",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)",
+  "description": "UNOSAT geodata for Earthquake, Morocco, 9 September 2023 (EQ20230909MAR), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code EQ20230909MAR, GDACS Id: 1390643**  Status: Power outage observed.\nFurther action(s): continue monitoring\nNo significant power outage observed in Marrakech (70 km NE mainshock epicentre), Taroudant (150 km SW Marrakech) and Chichaoua (75 km SW Marrakech).\nBy 17 September, power supply in Tameslouht (20 km SW Marrakech) has recovered to the level observed before the earthquake of 08 September 2023.\nOn 14 September, Southeast of Amizmiz likely to have power outage. By 17 September, power supply in Amizmiz (50 km SW Marrakech) was still  in recovery phase but not yet at the before earthquake level.\nOn 14 September, no evidences of power outage is observed in rural areas such as Ait Iaaza (60 km SW mainshock epicentre) and Sidi Zouine (60 km NE mainshock epicentre).\n\nHDX datasets:\n\n- [Damage Assessment in Chichaoua, Marrakech-Safi Region, Morocco as of 10 September 2023](https://data.humdata.org/dataset/damage-assessment-in-chichaoua-marrakech-safi-region-morocco-as-of-10-september-2023)\n- [Damage Assessment in Douar Tagadirte (Igermane), Chichaoua Province, Marrakech-Safi Region, Morocco as of 10 September 2023](https://data.humdata.org/dataset/damage-assessment-in-douar-tagadirte-igermane-chichaoua-province-marrakech-safi-region-mor)\n- [M6.8 Adassil earthquake (SW Marrakesh)  on 9 September 2023](https://data.humdata.org/dataset/m6-8-adassil-earthquake-sw-marrakesh-on-9-september-2023)\n- [Power Supply Assessment Following the Adassil/Al Haouz Earthquake (8 September 2023, M6.8) using High-resolution Night-time Light Images​ - 18 September 2023](https://data.humdata.org/dataset/power-supply-assessment-following-the-adassil-al-haouz-earthquake-8-september-2023-m6-8-us)\n- [Évaluation des dégats à Adassil, région de  Chichaoua, province de Marrakech-Safi, Maroc, au 10 Septembre 2023](https://data.humdata.org/dataset/evaluation-des-degats-a-adassil-region-de-chichaoua-province-de-marrakech-safi-maroc-au-10)\n- [Évaluation des dégats à Taroudant, région de  Taroudant, province de Souss Massa, Maroc, au 10 Septembre 2023](https://data.humdata.org/dataset/evaluation-des-degats-a-taroudant-region-de-taroudant-province-de-souss-massa-maroc-au-10-)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20230909mar-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20230909mar-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20230909mar-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230909mar/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

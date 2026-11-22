@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2023/tc20231206slb",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)",
+  "description": "UNOSAT geodata for Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20231206SLB, GDACS ID: 1001038**  Satellite detected landslide extent in the Nggela Constituency, Central Province, Solomon Island as of 14 December 2023\nThis map illustrates satellite-detected landslides in Nggela Constituency, Central Province, Solomon Islands, as observed from a Sentinel-2 satellite acquired on 14 December 2023 at 10:39 local time. Within the analyzed area of 400 ha about 12 ha of landslide extent is observed. UNOSAT identified 7 potentially affected structures.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected landslide extent along the Kaipito River in Hograno-Kia-Havulei Constituency, Isabel Province, Solomon Island as of 12 December 2023](https://data.humdata.org/dataset/landslide-extent-along-the-kaipito-river-in-hograno-kia-havulei-constituency-isabel-provin)\n- [Satellite detected landslide extent in Marigne-kokota Constituency, Isabel  Province, Solomon Island as of 12 December 2023](https://data.humdata.org/dataset/landslide-extent-in-marigne-kokota-constituency-isabel-province-solomon-island-as-of-12-de)\n- [Satellite detected landslide extent in the Nggela  Constituency, Central Province, Solomon Island as of 14 December 2023](https://data.humdata.org/dataset/landslide-extent-in-the-nggela-constituency-central-province-solomon-island-as-of-14-decem)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20231206slb-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20231206slb-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20231206slb-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

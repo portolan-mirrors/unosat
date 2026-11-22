@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2020/fl20200626ukr",
+  "stac_version": "1.1.0",
+  "title": "Flood, Ukraine, 26 June 2020 (FL20200626UKR)",
+  "description": "UNOSAT geodata for Flood, Ukraine, 26 June 2020 (FL20200626UKR), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20200626UKR**  This map illustrates satellite-detected surface waters in Ivano-Frankivska  and Ternopilska Oblastof Ukraine as observed from a  Sentinel-1 image acquired on 24 June 2020. Within the ana lyzed area  of about 642 km2, a  total of a bout 35 km2 of lands appear to be flooded.\nThis is a  preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT .\n\nHDX datasets:\n\n- [Satellite detected waters in Ivano-Frankivska and Ternopilska Oblast of Ukraine as of 24 June 2020](https://data.humdata.org/dataset/waters-in-ivano-frankivska-and-ternopilska-oblast-of-ukraine-as-of-24-june-2020)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200626ukr-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200626ukr-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200626ukr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

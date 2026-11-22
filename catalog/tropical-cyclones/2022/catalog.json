@@ -1,0 +1,118 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclones, 2022",
+  "description": "UNOSAT geodata for 10 tropical cyclones whose event code dates from 2022. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220124moz/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Mozambique, 24 January 2022 (TC20220124MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220126mwi/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220201mdg/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220221mdg/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220311moz/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220928lao/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220928tha/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221001cub/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221014nic/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20221028phl/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

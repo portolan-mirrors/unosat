@@ -1,0 +1,276 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20130710som/ce20130710som-shelter-areas-cc_by_4_0",
+  "stac_version": "1.1.0",
+  "description": "Shelter areas for Complex emergency, Somalia, 10 July 2013 (CE20130710SOM): 359 features merged from 1 source layer. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [IDPs sites status in Baidoa Town](https://data.humdata.org/dataset/idps-sites-status-in-baidoa-town)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/idps-sites-status-in-baidoa-town",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20130710som-shelter-areas-cc_by_4_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelter-areas"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-shelter-areas-cc_by_4_0/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:35Z",
+  "pmtiles:min_zoom": 5,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    43.6450114,
+    3.1211191,
+    10
+  ],
+  "pmtiles:layers": [
+    "shelter-areas"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 359,
+  "table:row_count": 359,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Site_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string"
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "CampStatus",
+      "type": "string"
+    },
+    {
+      "name": "CampName",
+      "type": "string"
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "StaffID",
+      "type": "string"
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "CampType",
+      "type": "string"
+    },
+    {
+      "name": "City_Distr",
+      "type": "string"
+    },
+    {
+      "name": "Date_Opene",
+      "type": "int64"
+    },
+    {
+      "name": "ShelterCou",
+      "type": "int64"
+    },
+    {
+      "name": "ShelterEst",
+      "type": "int64"
+    },
+    {
+      "name": "Formaltent",
+      "type": "string"
+    },
+    {
+      "name": "CampStatID",
+      "type": "string"
+    },
+    {
+      "name": "Date_Ope_1",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelter areas: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          43.611738150000065,
+          3.08445714700008,
+          43.678284707000046,
+          3.1577811410000436
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-02-08T00:00:00Z",
+          "2018-02-08T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20130710som-shelter-areas-cc_by_4_0": {
+      "href": "./ce20130710som-shelter-areas-cc_by_4_0.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 65818,
+      "file:checksum": "12207049820dfa0d3e459e49032ebda8005d1f26fbf9bbbb7e6cb4cf7ffa1604cefe",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20130710som-shelter-areas-cc_by_4_0-tiles": {
+      "href": "./ce20130710som-shelter-areas-cc_by_4_0.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 155323,
+      "file:checksum": "1220d9af8bfbf7be3bc0e2e761cd36a94ce99bce0330bed3b8af605e597fa80f4f50",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelter areas by CampStatus",
+      "file:size": 955,
+      "file:checksum": "1220584b327510f0eb1dcc5359a48c57d5a61cc7380b3252c5df627479a3532e6178"
+    }
+  }
+}

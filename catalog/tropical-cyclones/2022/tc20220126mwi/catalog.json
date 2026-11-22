@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2022/tc20220126mwi",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)",
+  "description": "UNOSAT geodata for Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20220126MWI**  This map illustrates satellite-detected surface waters in Malawi and Mozambique as observed from a Sentinel-1 image acquired on 26 January 2021 at 05:16 local time and using an automated analysis with Artificial Intelligence based methods.\nWithin the analyzed area of about 42,000 km2, about 610 km2 of lands appear to be flooded. Based on Worldpop population data and the detected surface waters in the analyzed area, the potentially exposed population is mainly located in the districts of Chikwawa and Nsanje, Southern region, Malawi with respectively ~ 33,000 people and ~14,300 people, & in Cidade De Tete, Tete province, Mozambique with ~8,200 people.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Population potentially exposed to floods in Malawi as of 26 and 31 January, and 2 February 2022](https://data.humdata.org/dataset/population-potentially-exposed-to-floods-in-malawi-as-of-26-and-31-january-and-2-february-)\n- [Satellite detected water extent over Balaka, Neno and Zomba districts, Southern region, Malawi as of 26 January 2022](https://data.humdata.org/dataset/water-extent-over-balaka-neno-and-zomba-districts-southern-region-malawi-as-of-26-january-)\n- [Satellite detected water extent over Malawi and Mozambique as of 26 January 2022](https://data.humdata.org/dataset/satellite-detected-water-extent-over-malawi-and-mozambique-as-of-26-january-2022)\n- [Satellite detected water extents as of 26 and 31 January, and 2 February 2022](https://data.humdata.org/dataset/satellite-detected-water-extents-as-of-26-and-31-january-and-2-february-2022)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220126mwi-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20220126mwi-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220126mwi/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

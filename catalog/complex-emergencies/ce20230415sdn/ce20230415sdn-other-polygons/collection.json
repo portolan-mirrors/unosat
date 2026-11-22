@@ -1,0 +1,203 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20230415sdn/ce20230415sdn-other-polygons",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Complex emergency, Sudan, 15 April 2023 (CE20230415SDN): 23,646 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [El Fasher Damage Assessment Overview](https://data.humdata.org/dataset/el-fasher-damage-assessment-overview)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/el-fasher-damage-assessment-overview",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20230415sdn-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20230415sdn/ce20230415sdn-other-polygons/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:02Z",
+  "pmtiles:min_zoom": 6,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    25.3582723,
+    13.6281703,
+    9
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon Z"
+  ],
+  "geoparquet:feature_count": 23646,
+  "table:row_count": 23646,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "latitude",
+      "type": "double"
+    },
+    {
+      "name": "longitude",
+      "type": "double"
+    },
+    {
+      "name": "Date",
+      "type": "date32[day]"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Complex emergency, Sudan, 15 April 2023 (CE20230415SDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          25.311846637012763,
+          13.570501917529498,
+          25.404698043679844,
+          13.685838864671894
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-14T00:00:00Z",
+          "2024-08-14T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20230415sdn-other-polygons": {
+      "href": "./ce20230415sdn-other-polygons.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 1962087,
+      "file:checksum": "1220011ac02c45afc5827647429c6f2e63be8408275708f2690a75c6fcace4098f2c",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20230415sdn-other-polygons-tiles": {
+      "href": "./ce20230415sdn-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 734760,
+      "file:checksum": "1220e5559e4a919f14bf00da9d87017f2d9db6427b1a7d070c246f311f4490b29de2",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 664,
+      "file:checksum": "1220508878ce21327323c454860adc2754e0d09613731fd78c401140174750030f91"
+    }
+  }
+}

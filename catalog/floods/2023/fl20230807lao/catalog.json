@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2023/fl20230807lao",
+  "stac_version": "1.1.0",
+  "title": "Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO)",
+  "description": "UNOSAT geodata for Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20230807LAO**  This map illustrates cumulative satellite-detected surface waters over Khammouan & Savannakhet Provinces, Lao PDR as oberved from a Sentinel-1 image acquired on 04 August 2023 at 18:04 local time.\nWithin the analysed area of about 25,000 km², a total of about 160 km² of lands appear to be flooded.\nBased on Worldpop population data and the detected surface waters in the analysed area, ~18,000 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscaterring properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extent over Khammouan & Savannakhet Provinces, Lao PDR as of 04 August 2023](https://data.humdata.org/dataset/water-extent-over-khammouan-savannakhet-provinces-lao-pdr-as-of-04-august-2023)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230807lao-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230807lao-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230807lao/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

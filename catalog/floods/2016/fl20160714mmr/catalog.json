@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2016/fl20160714mmr",
+  "stac_version": "1.1.0",
+  "title": "Flood, Myanmar, 14 July 2016 (FL20160714MMR)",
+  "description": "UNOSAT geodata for Flood, Myanmar, 14 July 2016 (FL20160714MMR), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected flood waters in the northwestern part of Rakhine State in the townships of Kyauktaw, Mrauk-U and Ponnagyun, Myanmar as imaged by the SENTINEL-1 satellite on 14 July 2016. Heavy rains at the onset of the monsoon season have caused flooding. The most affected lands seem to be mainly agricultural and/or paddy fields, many of which are of course frequently inundated at other times as well. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Floods in Rakhine State, Myanmar-Situation Analysis Preliminary Report](https://data.humdata.org/dataset/floods-in-rakhine-state-myanmar-situation-analysis-preliminary-report)\n- [Geodata of Floods in Rakhine State, Myanmar-Situation Analysis Preliminary Report](https://data.humdata.org/dataset/geodata-of-floods-in-rakhine-state-myanmar-situation-analysis-preliminary-rep-august-03-2016)\n- [Geodata of Satellite Detected Waters Extent Over Northwestern Rakhine State, Myanmar](https://data.humdata.org/dataset/geodata-of-satellite-detected-waters-extent-over-northwestern-rakhine-state-m-july-15-2016)\n- [Satellite Detected Waters Extent Over Northwestern Rakhine State, Myanmar](https://data.humdata.org/dataset/satellite-detected-waters-extent-over-northwestern-rakhine-state-myanmar)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160714mmr-analysis-extent-cc_by_sa/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160714mmr-analysis-extent-cc_by_nc_sa_3_0/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160714mmr-water-extent-cc_by_nc_sa_3_0/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20160714mmr-water-extent-cc_by_sa/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

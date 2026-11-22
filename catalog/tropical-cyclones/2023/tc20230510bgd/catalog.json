@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2023/tc20230510bgd",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD)",
+  "description": "UNOSAT geodata for Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code TC20230510BGD, GDACS Id: 1000970**  This map illustrates satellite-based damage assessment in Saint Martin’s Island Cox’Bazar District, Chattogram Division detected by using a Pleiades very high-resolution satellite image acquired on 15 May 2023. Within the analyzed area, UNOSAT identified 211 affected and potentially affected structures.\nTaking into account the pre-building footprints provided by Humanitarian OpenStreetMap, this represents about 17% of the total number of structures affected in Saint Martin’s Island.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Damage assessment in Saint Martin’s Island Cox’Bazar District, Chittagong Division  as of 15 May 2023](https://data.humdata.org/dataset/damage-assessment-in-saint-martins-island-coxbazar-district-chittagong-division-as-of-15-m)\n- [Tropical Cyclone MOCHA 23 - Population Exposure Analysis  in Bangladesh and Myanmar -V2- Issue date: 14 May 2023](https://data.humdata.org/dataset/tropical-cyclone-mocha-23-population-exposure-analysis-in-bangladesh-and-myanmar-v2-issue-)\n- [UNOSAT - Tropical Cyclone MOCHA 23 - Population Exposure Analysis  in Bangladesh and Myanmar -13 May 2023](https://data.humdata.org/dataset/unosat-tropical-cyclone-mocha-23-population-exposure-analysis-in-bangladesh-and-myanmar-13)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20230510bgd-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230510bgd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

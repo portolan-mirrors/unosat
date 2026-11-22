@@ -1,0 +1,306 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2025/eq20250328tha/eq20250328tha-other-polygons",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Earthquake, Thailand, 28 March 2025 (EQ20250328THA): 315 features merged from 7 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Satellite-detected Damage the UNESCO Tentative List component Chiang Mai as of 29 March 2025](https://data.humdata.org/dataset/damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20250328tha-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-polygons/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:53Z",
+  "pmtiles:min_zoom": 1,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    96.1513321,
+    21.347044,
+    7
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 315,
+  "table:row_count": 315,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "event_type",
+      "type": "string"
+    },
+    {
+      "name": "obj_desc",
+      "type": "string"
+    },
+    {
+      "name": "det_method",
+      "type": "string"
+    },
+    {
+      "name": "notation",
+      "type": "string"
+    },
+    {
+      "name": "dmg_src_id",
+      "type": "int32"
+    },
+    {
+      "name": "area",
+      "type": "double"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Shape_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "emsr_id",
+      "type": "string"
+    },
+    {
+      "name": "glide_no",
+      "type": "string"
+    },
+    {
+      "name": "area_id",
+      "type": "string"
+    },
+    {
+      "name": "locality",
+      "type": "string"
+    },
+    {
+      "name": "map_type",
+      "type": "string"
+    },
+    {
+      "name": "obj_type",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "info",
+      "type": "string"
+    },
+    {
+      "name": "simplified",
+      "type": "string"
+    },
+    {
+      "name": "damage_gra",
+      "type": "string"
+    },
+    {
+      "name": "or_src_id",
+      "type": "int32"
+    },
+    {
+      "name": "cd_value",
+      "type": "string"
+    },
+    {
+      "name": "SRC_DATE",
+      "type": "string"
+    },
+    {
+      "name": "FRAMEWORK",
+      "type": "string"
+    },
+    {
+      "name": "AREA_HA",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "TYPE",
+      "type": "string"
+    },
+    {
+      "name": "SOURCE",
+      "type": "string"
+    },
+    {
+      "name": "PROCESSING",
+      "type": "string"
+    },
+    {
+      "name": "COPYRIGHT",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          95.1719889534275,
+          18.909272022086213,
+          97.10628481259408,
+          23.784816122865834
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-17T00:00:00Z",
+          "2025-04-17T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20250328tha-other-polygons": {
+      "href": "./eq20250328tha-other-polygons.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 803987,
+      "file:checksum": "1220121d4bea4974d17fd5626b9e0a7962ed3d04955f98d5c760b355d703b34fb10a",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20250328tha-other-polygons-tiles": {
+      "href": "./eq20250328tha-other-polygons.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 396307,
+      "file:checksum": "12208d4cf41db675c52e728809d3a7100728da899e74afa0a450d3957e5e9560cee7",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 664,
+      "file:checksum": "12206d363317cc00c9320e4f73fd4c7b41ae403d4a4790e27c4c7dc8083caea5e411"
+    }
+  }
+}

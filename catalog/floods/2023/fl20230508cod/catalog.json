@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2023/fl20230508cod",
+  "stac_version": "1.1.0",
+  "title": "Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)",
+  "description": "UNOSAT geodata for Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20230508COD, GDACS Id: 1101981**  This map illustrates the potentially damaged structures/buildings affected by landslides in Chabondo village, Kalehe Territory, Sud-Kivu Province, DR. of the Congo as detected from a Pleiades image acquired on the 09th May 2023.\nWithin the extent of this map, at least 544 structures appear to be affected or potentially affected by landslides.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Damage assessment in Chabondo village, Kalehe Territory, Sud-Kivu Province, DR. of the Congo as of 09 May 2023](https://data.humdata.org/dataset/damage-assessment-in-chabondo-village-kalehe-territory-sud-kivu-province-dr-of-the-congo-a)\n- [Damage assessment in Nyabibwe Town, Kalehe Territory, Sud-Kivu Province, DR. of the Congo as of 09 May 2023](https://data.humdata.org/dataset/damage-assessment-in-nyabibwe-town-kalehe-territory-sud-kivu-province-dr-of-the-congo-as-o)\n- [Impact des glissements de terrain le 7 mai 2023 en Territoire de Kalehe, Province du Sud-Kivu, République Démocratique du Congo](https://data.humdata.org/dataset/impact-des-glissements-de-terrain-le-7-mai-2023-en-territoire-de-kalehe-province-du-sud-ki)\n- [Landslide impact analysis in Kalehe Territory, Sud-Kivu Province, Democratic Republic of the Congo as of 7 May 2023](https://data.humdata.org/dataset/landslide-impact-analysis-in-kalehe-territory-sud-kivu-province-democratic-republic-of-the)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230508cod-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230508cod-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230508cod-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20230508cod-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230508cod/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

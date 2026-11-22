@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2025/fl20250220bwa",
+  "stac_version": "1.1.0",
+  "title": "Flood, Botswana, 20 February 2025 (FL20250220BWA)",
+  "description": "UNOSAT geodata for Flood, Botswana, 20 February 2025 (FL20250220BWA), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20250220BWA, GDACS ID: 1103128**  Satellite detected water extents in Gaborone, South East and Kgatleng Districts, Botswana as of 4 March 2025\nThis map illustrates the satellite-detected accumulated flood extent in Gaborone, South East District, Botswana, as observed from multisatellite imagery, including Sentinel-2, PlanetScope, and Kanopus-V, acquired on 4 March 2025. Within the analyzed area of approximately 700 km², an estimated 7 km² remains affected by floodwaters. Floodwaters have receded by about 23 km² since 23 and 25 February 2025.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Accumulated satellite-detected water extents in Gaborone, South East and Kgatleng Districts, Botswana as of 23 to 25 February 2025](https://data.humdata.org/dataset/accumulated-water-extents-in-gaborone-south-east-and-kgatleng-districts-botswana-as-of-23-)\n- [Accumulated satellite-detected water extents in Gaborone, South East and Kgatleng Districts, Botswana as of 4 March 2025](https://data.humdata.org/dataset/accumulated-water-extents-in-gaborone-south-east-and-kgatleng-districts-botswana-as-of-4-m)\n- [Satellite detected water extents in Gaborone, South East Districts, Botswana as of 23 February 2025](https://data.humdata.org/dataset/water-extents-in-gaborone-south-east-districts-botswana-as-of-23-february-2025)\n- [UNOSAT  Live web map -Floods in Gaborone, Botswana, February 2025](https://data.humdata.org/dataset/unosat-live-web-map-floods-in-gaborone-botswana-february-2025)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250220bwa-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Botswana, 20 February 2025 (FL20250220BWA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250220bwa-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Botswana, 20 February 2025 (FL20250220BWA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250220bwa-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Botswana, 20 February 2025 (FL20250220BWA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250220bwa/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

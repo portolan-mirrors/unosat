@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2014/fl20140910pak",
+  "stac_version": "1.1.0",
+  "title": "Flood, Pakistan, 10 September 2014 (FL20140910PAK)",
+  "description": "UNOSAT geodata for Flood, Pakistan, 10 September 2014 (FL20140910PAK), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected areas of flood affected land as detected by LANDSAT-8 imagery acquired 10 September 2014 in Wazirabad area, Punjab Province (Pakistan). The area along Chenab River and agricultural areas northern Wazirabad are most likely inundated by floods caused by monsoon rains. It is likely that flood waters have been systematically underestimated because of the cloud coverage on the image. This analysis has not yet been validated in the field. Please send ground feedback to UNITAR /UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Flood Waters in Chiniot Area, Punjab Province, Pakistan](https://data.humdata.org/dataset/geodata-of-flood-waters-in-chiniot-area-punjab-province-pakistan-september-16-2014)\n- [Geodata of Overview of Flood Waters in Multan area, Punjab Province, Pakistan](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-multan-area-punjab-province-pakistan-september-15-2014)\n- [Geodata of Overview of Flood Waters in Puran-Fatehpur area, Punjab Province, Pakistan](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-puran-fatehpur-area-punjab-province-pa-september-12-2014)\n- [Geodata of Overview of Flood Waters in Wazirabad area, Punjab Province, Pakistan](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-wazirabad-area-punjab-province-pakista-september-11-2014)\n- [Geodata of Standing Waters in Tarind Muhammed Panah  Area, Punjab Province, Pakistan](https://data.humdata.org/dataset/geodata-of-standing-waters-in-tarind-muhammed-panah-area-punjab-province-paki-september-17-2014)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140910pak-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Pakistan, 10 September 2014 (FL20140910PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140910pak-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140910pak-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140910pak/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

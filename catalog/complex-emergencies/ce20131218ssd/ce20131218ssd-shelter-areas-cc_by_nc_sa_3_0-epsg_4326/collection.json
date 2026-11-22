@@ -1,0 +1,404 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20131218ssd/ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326",
+  "stac_version": "1.1.0",
+  "description": "Shelter areas for Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD): 1,166 features merged from 29 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Geodata of Bentiu IDP Camp, Rubkona County, Unity State, South Sudan](https://data.humdata.org/dataset/geodata-of-bentiu-idp-camp-rubkona-county-unity-state-south-sudan-november-16-2015)\n- [Geodata of Damage Assesment In The City Of Malakal, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-damage-assesment-in-the-city-of-malakal-upper-nile-state-south-sud-march-21-2014)\n- [Geodata of Damage Assesment in the City of Malakal, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-damage-assesment-in-the-city-of-malakal-upper-nile-state-south-sud-january-24-2014)\n- [Geodata of Damage Assessment in the City of Bentiu, Unity State, South Sudan](https://data.humdata.org/dataset/geodata-of-damage-assessment-in-the-city-of-bentiu-unity-state-south-sudan-january-18-2014)\n- [Geodata of Damage assesment in the city of Bor, Jonglei State, South Sudan](https://data.humdata.org/dataset/geodata-of-damage-assesment-in-the-city-of-bor-jonglei-state-south-sudan-january-21-2014)\n- [Geodata of Delthoma IDP Camp, Melut District, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-delthoma-idp-camp-melut-district-upper-nile-state-south-sudan-december-03-2015)\n- [Geodata of Destruction in Leer, Unity State, South Sudan](https://data.humdata.org/dataset/geodata-of-destruction-in-leer-unity-state-south-sudan-february-07-2014)\n- [Geodata of Destruction in Mayom, Unity State, South Sudan](https://data.humdata.org/dataset/geodata-of-destruction-in-mayom-unity-state-south-sudan-january-21-2014)\n- [Geodata of Destruction in Rubkona, Unity State, South Sudan](https://data.humdata.org/dataset/geodata-of-destruction-in-rubkona-unity-state-south-sudan-january-16-2014)\n- [Geodata of IDP Camp in Melut, Upper Nile State, South Sudan](https://data.humdata.org/dataset/geodata-of-idp-camp-in-melut-upper-nile-state-south-sudan-december-23-2014)\n- [Geodata of IDP Camp in UNMISS Malakal Base, Malakal, South Sudan](https://data.humdata.org/dataset/geodata-of-idp-camp-in-unmiss-malakal-base-malakal-south-sudan-january-20-2014)\n- [Geodata of IDP Camp in UNMISS Malakal Base, Malakal, South Sudan](https://data.humdata.org/dataset/geodata-of-idp-camp-in-unmiss-malakal-base-malakal-south-sudan-october-22-2015)\n- and 16 more; the event's [catalog page](../catalog.json) lists them all.\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-bentiu-idp-camp-rubkona-county-unity-state-south-sudan-november-16-2015",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "shelter-areas"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:19:43Z",
+  "pmtiles:min_zoom": 4,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    31.0225366,
+    7.6290865,
+    9
+  ],
+  "pmtiles:layers": [
+    "shelter-areas"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 1166,
+  "table:row_count": 1166,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Site_ID",
+      "type": "string",
+      "description": "Coded value. The source geodatabase domain gives: 0 = UN Building; 1 = Mosque; 2 = Hospital; 3 = Refugee / IDP Camp Building; 4 = Market; 5 = School / University; 6 = Square; 7 = Government Building; 9 = Border Crossing Point; 12 = Cemetary; 13 = Ruins; 16 = Staduim; 19 = Sewage Treatment Facility; 21 = Greenhouse; 22 = Bridge; 23 = Road; 24 = Tower; 25 = Prison; 26 = Building (General / Default); 27 = Field; 28 = Industrial Facility; 30 = Refugee / IDP Camp Site; 35 = Transport Vehicle; 40 = Military Base; 41 = Checkpoint; 45 = Suspected Mass Grave Site. The decoded text is in `Site_ID_label`."
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "string",
+      "description": "Coded value. The 3 source files of this collection use 3 different domains for it, so read `Sensor_ID_label`, which is decoded per source file."
+    },
+    {
+      "name": "Sensor_Date",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Very High; 2 = Medium; 3 = Uncertain; 4 = To Be Evaluated. The decoded text is in `Confidence_ID_label`."
+    },
+    {
+      "name": "Field_Validation",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Not yet field validated; 1 = Validated (correct); 2 = Validated (not correct); 3 = Site Not Identified in Image. The decoded text is in `Field_Validation_label`."
+    },
+    {
+      "name": "CampStatusID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Closed / Relocated; 1 = Open (Operational); 2 = Planned / Under Construction; 9 = Camp Destroyed. The decoded text is in `CampStatusID_label`."
+    },
+    {
+      "name": "CampName",
+      "type": "string"
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "CampQuicklook",
+      "type": "int32"
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "GlobalID",
+      "type": "string",
+      "description": "ArcGIS global identifier of the feature."
+    },
+    {
+      "name": "StaffID",
+      "type": "string",
+      "description": "Coded value. The 5 source files of this collection use 5 different domains for it, so read `StaffID_label`, which is decoded per source file."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "CampType",
+      "type": "string",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Refugee Camp; 2 = IDP Camp. The decoded text is in `CampType_label`."
+    },
+    {
+      "name": "City_District",
+      "type": "string"
+    },
+    {
+      "name": "Date_Opened",
+      "type": "int32"
+    },
+    {
+      "name": "ShelterCount",
+      "type": "int32"
+    },
+    {
+      "name": "ShelterEstimate",
+      "type": "int32"
+    },
+    {
+      "name": "FormaltentID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Unspecified; 1 = Yes; 2 = No. The decoded text is in `FormaltentID_label`."
+    },
+    {
+      "name": "CampStatID_L2",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 10 = Open - New; 20 = Open - Reopened; 30 = Open - Expanded; 40 = Open - Contracted; 50 = Open - No Change; 60 = Open - Unknown (clouded / no coverage); 70 = Closed - New (no further indication of resident status); 80 = Closed - Relocated / Aggregated to adjacent camp site; 90 = Closed - Absorbed (site absorbed by other camp expansion); 100 = Closed - Unchanged; 110 = Planned (opening within next days, grounds prepared); 120 = Planned (grounds not prepared, opening date undefined). The decoded text is in `CampStatID_L2_label`."
+    },
+    {
+      "name": "Date_Opened_OLD",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Before 2009; 2 = Before 30 March 2011; 3 = Before 15 April 2011; 4 = Between 30 March - 15 April 2011; 5 = Between 15 April -28 July 2011; 6 = Between 28 July / 18 Aug 2011; 7 = Between 28 July - 21 August 2011; 8 = Between 18 -21 August 2011; 9 = Before 31 October 2010; 10 = Between 21 August - 4 Sept. 2011; 20 = Before 1 April 2011; 21 = Between 1 April - 12 September 2011; 22 = Between 21 August - 18 October 2011; 23 = Between 12 Sept. -18 October 2011; 30 = Between 21 August - 12 September 2011; 40 = Between 12 September - 18 October 2011; 41 = Between 18 October 2011 - 16 January 2012; 42 = Between 18 October 2011 - 2 May 2012; 43 = Between 18 October 2011 - 10 May 2012; 44 = Between 14 September 2011 - 10 May 2012. The decoded text is in `Date_Opened_OLD_label`."
+    },
+    {
+      "name": "CampStatID_L2_label",
+      "type": "string",
+      "description": "`CampStatID_L2` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CampStatusID_label",
+      "type": "string",
+      "description": "`CampStatusID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "CampType_label",
+      "type": "string",
+      "description": "`CampType` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Confidence_ID_label",
+      "type": "string",
+      "description": "`Confidence_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Date_Opened_OLD_label",
+      "type": "string",
+      "description": "`Date_Opened_OLD` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Field_Validation_label",
+      "type": "string",
+      "description": "`Field_Validation` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "FormaltentID_label",
+      "type": "string",
+      "description": "`FormaltentID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sensor_ID_label",
+      "type": "string",
+      "description": "`Sensor_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Site_ID_label",
+      "type": "string",
+      "description": "`Site_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "Sensor_Dat",
+      "type": "date32[day]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence",
+      "type": "string"
+    },
+    {
+      "name": "Field_Vali",
+      "type": "string"
+    },
+    {
+      "name": "CampStatus",
+      "type": "string"
+    },
+    {
+      "name": "City_Distr",
+      "type": "string"
+    },
+    {
+      "name": "Date_Opene",
+      "type": "int64"
+    },
+    {
+      "name": "ShelterCou",
+      "type": "int64"
+    },
+    {
+      "name": "ShelterEst",
+      "type": "int64"
+    },
+    {
+      "name": "Formaltent",
+      "type": "string"
+    },
+    {
+      "name": "CampStatID",
+      "type": "string"
+    },
+    {
+      "name": "Date_Ope_1",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Shelter areas: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.78278208100005,
+          4.80541222700009,
+          32.26310040800007,
+          10.453688043000056
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-09T00:00:00Z",
+          "2016-08-19T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326": {
+      "href": "./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 154505,
+      "file:checksum": "12207cf5a52b8e8bef81a45911a03fd9f984e58ca37d30e7090267d2795838d39257",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326-tiles": {
+      "href": "./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_4326.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 357583,
+      "file:checksum": "12208b8a98d31e26f83294d3f8cd1de184633f84b2d773a297413273f14afcd34dd1",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Shelter areas by CampStatus",
+      "file:size": 971,
+      "file:checksum": "1220e86a6592e6daee8c5e1280ba3d71f9023e0f45dd48de7879c99127a61f1fc249"
+    }
+  }
+}

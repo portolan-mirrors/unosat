@@ -1,0 +1,106 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2024",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclones, 2024",
+  "description": "UNOSAT geodata for 8 tropical cyclones whose event code dates from 2024. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240102mdg/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Madagascar, 2 January 2024 (TC20240102MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240313moz/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240328mdg/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240702jam/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240905vnm/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241028phl/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241117phl/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241212moz/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

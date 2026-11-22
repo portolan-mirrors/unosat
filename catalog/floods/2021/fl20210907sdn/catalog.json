@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20210907sdn",
+  "stac_version": "1.1.0",
+  "title": "Flood, Sudan, 7 September 2021 (FL20210907SDN)",
+  "description": "UNOSAT geodata for Flood, Sudan, 7 September 2021 (FL20210907SDN), from 8 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20210907SDN**  This map illustrates satellite detected waters and the related potentially affected croplands as deduced using a Sentinel-2 satellite image acquired on 19 September 2021 over the Aj Jabalain District, White Nile State of Sudan. The water extent appears to have decreased of about 100 km2 since 14 September 2021. In this area, about 124 km2 of croplands appear to be likely affected by the flood waters.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT)\n\nHDX datasets:\n\n- [Satellite  detected water extent over Aj Jabalain District, White Nile State of Sudan as of 12 September 2021](https://data.humdata.org/dataset/water-extent-over-aj-jabalain-district-white-nile-state-of-sudan-as-of-12-september-2021)\n- [Satellite  detected water extent over Aj Jabalain District, White Nile State of Sudan as of 14 September 2021](https://data.humdata.org/dataset/water-extent-over-aj-jabalain-district-white-nile-state-of-sudan-as-of-14-september-2021)\n- [Satellite  detected water extent over Aj Jabalain District, White Nile State of Sudan as of 19 September 2021](https://data.humdata.org/dataset/water-extent-over-aj-jabalain-district-white-nile-state-of-sudan-as-of-19-september-2021)\n- [Satellite  detected water extent over Aj Jabalain District, White Nile State of Sudan as of 4 September 2021](https://data.humdata.org/dataset/water-extent-over-aj-jabalain-district-white-nile-state-of-sudan-as-of-4-september-2021)\n- [Satellite  detected water extent over Guli District, White Nile State of Sudan as of 14 September 2021](https://data.humdata.org/dataset/water-extent-over-guli-district-white-nile-state-of-sudan-as-of-14-september-2021)\n- [Satellite  detected water extent over Guli District, White Nile State of Sudan as of 19 September 2021](https://data.humdata.org/dataset/water-extent-over-guli-district-white-nile-state-of-sudan-as-of-19-september-2021)\n- [Satellite  detected water extent over Guli District, White Nile State of Sudan as of 4 September 2021](https://data.humdata.org/dataset/water-extent-over-guli-district-white-nile-state-of-sudan-as-of-4-september-2021)\n- [Satellite detected water extent over Aj Jabalain District, White Nile State of Sudan as of 22 September 2021](https://data.humdata.org/dataset/water-extent-over-aj-jabalain-district-white-nile-state-of-sudan-as-of-22-september-2021)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210907sdn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Sudan, 7 September 2021 (FL20210907SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210907sdn-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Flood, Sudan, 7 September 2021 (FL20210907SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20210907sdn-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Sudan, 7 September 2021 (FL20210907SDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

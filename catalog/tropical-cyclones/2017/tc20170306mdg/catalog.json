@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2017/tc20170306mdg",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG)",
+  "description": "UNOSAT geodata for Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected flood waters over Maroantsetra area, Analanjirofo region in Madagastcar as observed from the TerraSAR-X radar image acquired on 08 March 2017 compared with to a Radarsat-2 image acquired on 04 May 2014. Several zones seem to be inundated and have experienced an increase of standing waters. These zones are mainly agricultural and/or swamps around the town of Maroantsetra. These waters seem to be the results of the recent heavy rain related also to the cyclone ENAWO-17 which made landfall the 07 March 2017. It is likely that flood waters have been systematically underestimated along highly vegetated areas along main river banks and within built-up urban areas because of the special characteristics of the satellite data used. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR UNOSAT.\n\nHDX datasets:\n\n- [Madagascar - Satellite Detected Waters Extent in Antsahanoro commune, Antalaha district](https://data.humdata.org/dataset/satellite-detected-waters-extent-in-antsahanoro-commune-antalaha-district-madagascar)\n- [Satellite Detected Surface Waters in Maroantsetra area, Analanjirofo region, Madagascar](https://data.humdata.org/dataset/satellite-detected-surface-waters-in-maroantsetra-area-analanjirofo-region-madagascar)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20170306mdg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20170306mdg-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170306mdg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

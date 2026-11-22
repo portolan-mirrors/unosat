@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240825bgd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Bangladesh, 25 August 2024 (FL20240825BGD)",
+  "description": "UNOSAT geodata for Flood, Bangladesh, 25 August 2024 (FL20240825BGD), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240825BGD**  This map illustrates the aggregated floods using Sentinel-1 images acquired between 18 to 26 August 2024 and between 28 August & 4 September 2024 using an automated analysis with a machine learning method. Within the analysed area of about 140,000 km², a total of about 8,100 km² of land appears to be affected by flood waters. Based on Worldpop spatial demographic data, about 6.2 million people are exposed or living close to flooded areas. Over these two periods, floodwaters receded by approximately 8,700 km².\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents between 28 August & 4 September 2024 in Bangladesh](https://data.humdata.org/dataset/satellite-detected-water-extents-between-28-august-4-september-2024-in-bangladesh)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240825bgd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240825bgd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240825bgd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

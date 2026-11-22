@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "landslides/ls20240525png",
+  "stac_version": "1.1.0",
+  "title": "Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)",
+  "description": "UNOSAT geodata for Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: LS20240525PNG, GDACS ID: 1102646**  This map illustrates the extent of satellite-detected landslide scars and related damage in the Lagaip/Pogera District of Enga Province in Papua New Guinea, using GeoEye-1 satellite imagery acquired on May 27, 2024, at 10:42 LT, 2 km west of Mulitaka. A massive landslide and rockfalls have affected the area. Within a 2 km radius, 634 pre-event structures have been identified (OpenStreetMap), of which at least 18 structures have been identified as damaged and/or destroyed. Using WorldPop spatial demographic datasets, it is estimated that at least 2,000 people live within a 2 km radius of the main damaged road. The main landslide scar covers approximately 9 hectares and has also blocked the Laiagam-Porgera road.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Landslide damage assessment in the Lagaip/Pogera District, Enga Province as of 27 May 2024](https://data.humdata.org/dataset/landslide-damage-assessment-in-the-lagaip-pogera-district-enga-province-as-of-27-may-2024)\n- [Preliminary satellite-derived landslide impact assessment](https://data.humdata.org/dataset/preliminary-satellite-derived-landslide-impact-assessment)\n- [UNOSAT Live Web map - Landslide in Papua New Guinea](https://data.humdata.org/dataset/unosat-live-web-map-landslide-in-papua-new-guinea)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240525png-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240525png-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20240525png-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

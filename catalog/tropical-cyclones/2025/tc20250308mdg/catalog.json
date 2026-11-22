@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2025/tc20250308mdg",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG)",
+  "description": "UNOSAT geodata for Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20250308MDG, GDACS ID: 1154**  This map illustrates the potentially affected cropland in Andapa District, Sava Region, Madagascar, based on RCM-2 satellite images acquired on 9 March 2025. In the analyzed area of approximately 680 km², about 145 km² of cropland is identified, of which about 20 km² appears to be affected by floodwaters.\nThis is a preliminary analysis and has not yet been validated on the ground. Ground feedback is requested and can be sent to the United Nations Satellite Centre (UNOSAT).\nImportant Note: Flood analysis based on radar images may underestimate the presence of standing water in built-up or densely vegetated areas due to the backscattering properties of the radar signal.\nas of 9 March 2025\n\nHDX datasets:\n\n- [Satellite detected water extents in Andapa District, Sava Region, Madagascar as of 9 March 2025](https://data.humdata.org/dataset/water-extents-in-andapa-district-sava-region-madagascar-as-of-9-march-2025)\n- [Satellite detected water extents in Maroantsetra District, Analairofo Region, Madagascar as of 9 March 2025](https://data.humdata.org/dataset/water-extents-in-maroantsetra-district-analairofo-region-madagascar-as-of-9-march-2025)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250308mdg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20250308mdg-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308mdg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

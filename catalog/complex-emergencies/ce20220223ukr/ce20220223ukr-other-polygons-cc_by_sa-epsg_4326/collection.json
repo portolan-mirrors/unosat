@@ -1,0 +1,338 @@
+{
+  "type": "Collection",
+  "id": "complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_4326",
+  "stac_version": "1.1.0",
+  "description": "Other polygons for Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR): 5 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Kremenchuk Damage Assessment Overview](https://data.humdata.org/dataset/kremenchuk-damage-assessment-overview)\n- [Mariupol Rapid Damage Assessment Overview Map](https://data.humdata.org/dataset/mariupol-rapid-damage-assessment-overview-map)\n- [North Kharkiv Rapid Damage Assessment Overview Map](https://data.humdata.org/dataset/north-kharkiv-rapid-damage-assessment-overview-map)\n- [Sumy Rapid Damage Assessment Overview Map](https://data.humdata.org/dataset/sumy-rapid-damage-assessment-overview-map)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/kremenchuk-damage-assessment-overview",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_4326.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-polygons"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_4326/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:00Z",
+  "pmtiles:min_zoom": 1,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    35.5346105,
+    49.0237115,
+    7
+  ],
+  "pmtiles:layers": [
+    "other-polygons"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 5,
+  "table:row_count": 5,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Shape_Leng",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "ADM4_EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM4_UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM4_RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM4_PCODE",
+      "type": "string"
+    },
+    {
+      "name": "ADM4_REF",
+      "type": "string"
+    },
+    {
+      "name": "ADM4ALT1EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM4ALT2EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM4ALT1UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM4ALT2UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM4ALT1RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM4ALT2RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM3_EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM3_UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM3_RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM3_PCODE",
+      "type": "string"
+    },
+    {
+      "name": "ADM2_EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM2_UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM2_RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM2_PCODE",
+      "type": "string"
+    },
+    {
+      "name": "ADM1_EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM1_UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM1_RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM1_PCODE",
+      "type": "string"
+    },
+    {
+      "name": "ADM0_EN",
+      "type": "string"
+    },
+    {
+      "name": "ADM0_UA",
+      "type": "string"
+    },
+    {
+      "name": "ADM0_RU",
+      "type": "string"
+    },
+    {
+      "name": "ADM0_PCODE",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "validOn",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "validTo",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "Shape_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "Shape_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "Settlement",
+      "type": "string"
+    },
+    {
+      "name": "Dsitrict",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          33.37343403475296,
+          47.083658779229324,
+          37.6957870074645,
+          50.96376423173393
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-03-30T00:00:00Z",
+          "2023-02-09T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ce20220223ukr-other-polygons-cc_by_sa-epsg_4326": {
+      "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_4326.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 61802,
+      "file:checksum": "1220b372f875f5b8d3e1fca477c39dc3a3de1054ea3e32b3a8ac97db443649e6aadf",
+      "roles": [
+        "data"
+      ]
+    },
+    "ce20220223ukr-other-polygons-cc_by_sa-epsg_4326-tiles": {
+      "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_4326.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 109708,
+      "file:checksum": "12207908ffe654bcc6b5676a8f6bd027533b3b46568ea7b77f5b3c2d16bfcee2154e",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other polygons",
+      "file:size": 683,
+      "file:checksum": "1220741c1d4723bbf922356174f368bfc3b78094f97e81a2ac89b016b36730f42c3c"
+    }
+  }
+}

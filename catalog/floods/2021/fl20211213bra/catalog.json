@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20211213bra",
+  "stac_version": "1.1.0",
+  "title": "Flood, Brazil, 13 December 2021 (FL20211213BRA)",
+  "description": "UNOSAT geodata for Flood, Brazil, 13 December 2021 (FL20211213BRA), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20211213BRA**  This map illustrates satellite-detected surface waters in Alcobaca, Prado and Itamaraju municipalities, State of Bahia, Brazil as observed from Sentinel-2 image acquired on 11 Dec. 2021 & Sentinel-1 image acquired on 09 Dec. 2021. Within the analyzed area of about 300,000 ha, about 13,500 ha of lands appear to be flooded. Along the Jucuruçu river, mainly agricultural lands appear to be flooded.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extents Alcobaca, Prado & Itamaraju municipalities, State of Bahia, Brazil](https://data.humdata.org/dataset/water-extents-alcobaca-prado-itamaraju-municipalities-state-of-bahia-brazil)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211213bra-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Brazil, 13 December 2021 (FL20211213BRA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211213bra-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Brazil, 13 December 2021 (FL20211213BRA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211213bra/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

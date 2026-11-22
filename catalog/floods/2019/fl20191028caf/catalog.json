@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20191028caf",
+  "stac_version": "1.1.0",
+  "title": "Flood, Central African Republic, 28 October 2019 (FL20191028CAF)",
+  "description": "UNOSAT geodata for Flood, Central African Republic, 28 October 2019 (FL20191028CAF), from 7 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20191028CAF**  This map illustrates satellite-detected water surface in Central African Republic and Democratic Republic of The Congo as observed from Sentinel-1 imagery acquired on 18 November 2019. Within the analysed extent of about 760 km2, a total about 6 km2 of land appear to be flooded in Basse-Kotto Prefecture of Central African Republic and about 1 km2 of land appear to be flooded in Nord-Ubangi Province of Democratic Republic of The Congo. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\nImportant note: Flood analysis from SAR Sentinel-1 images may significantly underestimate the presence of standing waters in built up and/or densely vegetated areas due to backscattering of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected waters extents, as of 17 November 2019 over Basse-Kotto Prefecture of Central African Republic](https://data.humdata.org/dataset/waters-extents-as-of-17-november-2019-over-basse-kotto-prefecture-of-central-african-repub)\n- [Satellite detected waters extents, as of 17 November 2019 over Ouaka Prefecture of Central African Republic](https://data.humdata.org/dataset/waters-extents-as-of-17-november-2019-over-ouaka-prefecture-of-central-african-republic)\n- [Satellite detected waters extents, as of 17 November 2019 over Ouaka and Basse-Kotto, Central African Republic](https://data.humdata.org/dataset/waters-extents-as-of-17-november-2019-over-ouaka-and-basse-kotto-central-african-republic)\n- [Satellite detected waters extents, as of 18 November 2019 over Basse-Kotto Prefecture-CAR and Nord-Ubangi Province-DRC](https://data.humdata.org/dataset/waters-extents-as-of-18-november-2019-over-basse-kotto-prefecture-car-and-nord-ubangi-prov)\n- [Satellite detected waters extents, as of 5 November 2019 over Ouaka Prefecture of Central African Republic](https://data.humdata.org/dataset/waters-extents-as-of-5-november-2019-over-ouaka-prefecture-of-central-african-republic)\n- [Satellite-detected water extents, as of 5 November 2019 over Basse-Kotto Prefecture of the Central African Republic](https://data.humdata.org/dataset/water-extents-as-of-5-november-2019-over-basse-kotto-prefecture-of-the-central-african-rep)\n- [Satellite-detected water extents, as of 5 November 2019 over Basse-Kotto Prefectures of the Central African Republic](https://data.humdata.org/dataset/water-extents-as-of-5-november-2019-over-basse-kotto-prefectures-of-the-central-african-re)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191028caf-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191028caf-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20191028caf-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191028caf/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

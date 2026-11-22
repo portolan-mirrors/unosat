@@ -1,0 +1,227 @@
+{
+  "type": "Collection",
+  "id": "combined/damage-sites",
+  "stac_version": "1.1.0",
+  "description": "UNOSAT damage-site points (one point per assessed structure or site) from 119 per-event collections, in one GeoParquet file with a shared set of columns: `event`, `event_code`, `collection`, `source_layer`, `source_file`, `license`, `damage_class`, `damage_class_code`, `sensor_date`, `sensor`, `confidence`, `assessment_epoch`, and 2D EPSG:4326 geometry. Rows carry their own `license` column. Included: CC BY-SA (as HDX states it, no version), CC BY 4.0, and CC BY 3.0 IGO. The 20 collections under CC BY-NC-SA 3.0 are left out; they are in their event subcatalogs. For every source column, use the per-event collection named in `collection`. Read [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://data.humdata.org/organization/unosat",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/organization/unosat",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./damage-sites.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "damage-sites"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/damage-sites/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:39:07Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 15,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -0.1074719,
+    10.6314814,
+    7
+  ],
+  "pmtiles:layers": [
+    "damage-sites"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 5916005,
+  "table:row_count": 5916005,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "event",
+      "type": "string"
+    },
+    {
+      "name": "event_code",
+      "type": "string"
+    },
+    {
+      "name": "collection",
+      "type": "string"
+    },
+    {
+      "name": "source_layer",
+      "type": "string"
+    },
+    {
+      "name": "source_file",
+      "type": "string"
+    },
+    {
+      "name": "license",
+      "type": "string"
+    },
+    {
+      "name": "damage_class",
+      "type": "string"
+    },
+    {
+      "name": "damage_class_code",
+      "type": "string"
+    },
+    {
+      "name": "sensor_date",
+      "type": "date32[day]"
+    },
+    {
+      "name": "sensor",
+      "type": "string"
+    },
+    {
+      "name": "confidence",
+      "type": "string"
+    },
+    {
+      "name": "assessment_epoch",
+      "type": "int32"
+    },
+    {
+      "name": "geometry",
+      "type": "binary"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
+    }
+  ],
+  "title": "Damage sites, all events",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -178.7463394389999,
+          -30.288119181999946,
+          178.5313954410001,
+          51.5510821771955
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "damage-sites": {
+      "href": "./damage-sites.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 49829714,
+      "file:checksum": "1220972e7177521ff1e2c56bf4cd843fea6dcc1d6ecd7d716a69935f46e1a6f1be5a",
+      "roles": [
+        "data"
+      ]
+    },
+    "damage-sites-tiles": {
+      "href": "./damage-sites.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 34009137,
+      "file:checksum": "12200ad31ff855bf833c4a2a2f0ed86eb96c96b7ab52c228855dbf078647ac11f499",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Damage sites by damage class",
+      "file:size": 1600,
+      "file:checksum": "1220a3a8ef4998b68615e8abcf95eb21f3fb45850c9f2e2986ed6290a81918749151"
+    }
+  }
+}

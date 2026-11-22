@@ -1,0 +1,300 @@
+{
+  "type": "Collection",
+  "id": "tropical-cyclones/2022/tc20220311moz/tc20220311moz-water-extent",
+  "stac_version": "1.1.0",
+  "description": "Water extent for Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ): 12 features merged from 12 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Extensões de água superficias detectadas por satélite na Província de Nampula, Moçambique, no dia 13 de março de 2022](https://data.humdata.org/dataset/extensoes-de-agua-superficias-detectadas-por-satelite-na-provincia-de-nampula-mocambique-n)\n- [Extensões de água superficias detectadas por satélite na Província de Zambezia Moçambique, no dia 15 de março de 2022](https://data.humdata.org/dataset/extensoes-de-agua-superficias-detectadas-por-satelite-na-provincia-de-zambezia-mocambique-)\n- [Satellite detected water extents in Maganja Da Costa & Namacurra Districts, Mozambique as of 16 March 2022](https://data.humdata.org/dataset/water-extents-in-maganja-da-costa-namacurra-districts-mozambique-as-of-16-march-2022)\n- [Satellite detected water extents in Maganja Da Costa, Namacurra & Nicoadala Districts, Mozambique as of 17 March 2022](https://data.humdata.org/dataset/water-extents-in-maganja-da-costa-namacurra-nicoadala-districts-mozambique-as-of-17-march-)\n- [Satellite detected water extents in Maganja Da Costa, Namacurra & Nicoadala Districts, Mozambique as of 22 March 2022](https://data.humdata.org/dataset/water-extents-in-maganja-da-costa-namacurra-nicoadala-districts-mozambique-as-of-22-march-)\n- [Satellite detected water extents in Nampula Province, Mozambique as of 13 March 2022](https://data.humdata.org/dataset/satellite-detected-water-extents-in-nampula-province-mozambique-as-of-13-march-2022)\n- [Satellite detected water extents in Zambezia Province, Mozambique as of 15 March 2022](https://data.humdata.org/dataset/satellite-detected-water-extents-in-zambezia-province-mozambique-as-of-15-march-2022)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/extensoes-de-agua-superficias-detectadas-por-satelite-na-provincia-de-nampula-mocambique-n",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tc20220311moz-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "water-extent"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220311moz/tc20220311moz-water-extent/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:31:30Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    38.7525298,
+    -16.0861514,
+    6
+  ],
+  "pmtiles:layers": [
+    "water-extent"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 12,
+  "table:row_count": 12,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "Water_Class",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Archive Water Extent / Pre-Flood Water; 1 = Flood Water; 2 = Satellite Detected Water / Possible Saturated Soil; 3 = Probable Flash Flood-Affected Land; 4 = Aquaculture; 5 = Possible Satuated, wet soil; 6 = Tsunami-Affected Land; 7 = Maximum Satellite Observed Water (Cumulative); 8 = Swamp / Marsh / Mangrove; 9 = Snow Cover. The decoded text is in `Water_Class_label`."
+    },
+    {
+      "name": "Sensor_ID",
+      "type": "int32",
+      "description": "Coded value. The 3 source files of this collection use 3 different domains for it, so read `Sensor_ID_label`, which is decoded per source file."
+    },
+    {
+      "name": "Sensor_Date",
+      "type": "timestamp[us, tz=UTC]",
+      "description": "Acquisition date of the satellite image the feature was mapped from."
+    },
+    {
+      "name": "Confidence_ID",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = Very High; 2 = Medium; 3 = Uncertain; 4 = To Be Evaluated. The decoded text is in `Confidence_ID_label`."
+    },
+    {
+      "name": "Field_Validation",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 0 = Not yet field validated; 1 = Validated (correct); 2 = Validated (not correct); 3 = Site Not Identified in Image. The decoded text is in `Field_Validation_label`."
+    },
+    {
+      "name": "Water_StatusID",
+      "type": "int32",
+      "description": "Coded value. The source geodatabase domain gives: 1 = New Water / Water Increase; 2 = No water change / Static Level; 3 = No water / Water levels decreased. The decoded text is in `Water_StatusID_label`."
+    },
+    {
+      "name": "Notes",
+      "type": "string",
+      "description": "Free-text notes by the analyst."
+    },
+    {
+      "name": "Area_m2",
+      "type": "double",
+      "description": "Area in square metres, as UNOSAT computed it."
+    },
+    {
+      "name": "Area_ha",
+      "type": "double",
+      "description": "Area in hectares, as UNOSAT computed it."
+    },
+    {
+      "name": "SenorID_old",
+      "type": "int16",
+      "description": "Coded value. The source geodatabase domain gives: 1 = MODIS; 2 = ASAR WSM; 3 = ASAR IMP; 4 = Radarsat; 5 = DMC; 6 = SPOT5; 7 = ALOS Palsar WB1; 8 = ASAR APP. The decoded text is in `SenorID_old_label`."
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "double",
+      "description": "Computed by ArcGIS in the units of the source layer's CRS (degrees for EPSG:4326), so it is not a metric measure."
+    },
+    {
+      "name": "StaffID",
+      "type": "int32",
+      "description": "Coded value. The 2 source files of this collection use 2 different domains for it, so read `StaffID_label`, which is decoded per source file."
+    },
+    {
+      "name": "EventCode",
+      "type": "string",
+      "description": "UNOSAT event code (or a Copernicus EMSR id), as recorded on the feature. It does not always equal the code of the event subcatalog."
+    },
+    {
+      "name": "Confidence_ID_label",
+      "type": "string",
+      "description": "`Confidence_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Field_Validation_label",
+      "type": "string",
+      "description": "`Field_Validation` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "SenorID_old_label",
+      "type": "string",
+      "description": "`SenorID_old` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Sensor_ID_label",
+      "type": "string",
+      "description": "`Sensor_ID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "StaffID_label",
+      "type": "string",
+      "description": "`StaffID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Water_Class_label",
+      "type": "string",
+      "description": "`Water_Class` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "Water_StatusID_label",
+      "type": "string",
+      "description": "`Water_StatusID` decoded with the coded-value domain of the source geodatabase. Null where the source had no domain or the code is not in it."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Water extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.65510473200004,
+          -17.835133645999917,
+          40.84042371600009,
+          -14.309644956999932
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-03-14T00:00:00Z",
+          "2022-03-23T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tc20220311moz-water-extent": {
+      "href": "./tc20220311moz-water-extent.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 96886980,
+      "file:checksum": "1220494b4b1d9f5926de1faf7d194e644cddf46efad174ad9a7ffdfcd9de560d755b",
+      "roles": [
+        "data"
+      ]
+    },
+    "tc20220311moz-water-extent-tiles": {
+      "href": "./tc20220311moz-water-extent.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 15651050,
+      "file:checksum": "1220498b3f21d61a90760b5ee17e0bc02dca548a78a19863a4aae737908ae58a8791",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Water extent by Water_Class",
+      "file:size": 972,
+      "file:checksum": "12201077714a191c543e99a0762800eaa54773c53319fa1b61684cfd6c12e39d622e"
+    }
+  }
+}

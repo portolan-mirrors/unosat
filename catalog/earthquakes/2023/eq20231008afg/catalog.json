@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2023/eq20231008afg",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)",
+  "description": "UNOSAT geodata for Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: EQ20231008AFG, GDACS ID: 1394952**  On the 7th of October 2023, a 6.3 magnitude earthquake struck the Herat province in the western part of Afghanistan. The epicentre was located 40 km north-west of Herat City and caused damage and destruction that triggered humanitarian needs for the local populations. The situation worsened when a second and a third strong earthquakes struck the region few days later, respectively on the 11th and 15th of October. The local government reported that the number of deaths was above 2000 people.\nAfter the earthquake, UNOSAT quickly estimated that more than a million people were living with the intensity zones above V. It was also estimated that between 150,000 and 230,000 buildings were located within the affected zones. The United Nation Office for the Coordination of Humanitarian Affairs (UNOCHA) reported that the worst affected districts correspond to Herat, Injil and Zindajan district with more than 21,500 destroyed homes. Furthermore in the Herat Province more than 230,000 homes have been impacted by the earthquake and 37,139 families have been left without home living in temporary shelter or open spaces (UNOCHA).\nAt least 40 health facilities were affected during the earthquake, hampering the access to healthcare for an estimated of 580,000 people. One month after the earthquake people displaced from their home still suffer as the winter is approaching and temperatures are dropping (UNHCR).\n\nHDX datasets:\n\n- [7 October 2023 M6.3 Western Afghanistan Herat, Preliminary Satellite-Based Comprehensive Damage Assessment Report](https://data.humdata.org/dataset/7-october-2023-m6-3-western-afghanistan-herat-preliminary-satellite-based-comprehensive-da)\n- [Building Damage Assessment in Koshkak village, Zindajan District, Hirat Province, Afghanistan as of 16 October 2023](https://data.humdata.org/dataset/building-damage-assessment-in-koshkak-village-zindajan-district-hirat-province-afghanistan)\n- [Damage analysis by settlement and surface displacement of the 7th October 2023 Hirat earthquake](https://data.humdata.org/dataset/damage-analysis-by-settlement-and-surface-displacement-of-the-7th-october-2023-hirat-earth)\n- [Damage analysis by settlement of the 11th October 2023 Hirat earthquake](https://data.humdata.org/dataset/damage-analysis-by-settlement-of-the-11th-october-2023-hirat-earthquake)\n- [Preliminary satellite-derived damage assessment - 6.3M earthquake of 15 October 2023 03:36 UTC - Zindajan & Hinjil Districts, Hirat Province, Afghanistan](https://data.humdata.org/dataset/preliminary-satellite-derived-damage-assessment-6-3m-earthquake-of-15-october-2023-03-36-u)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20231008afg-analysis-extent-points/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent points: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20231008afg-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20231008afg-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20231008afg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

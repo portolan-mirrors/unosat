@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "landslides/ls20191209uga",
+  "stac_version": "1.1.0",
+  "title": "Landslide, Uganda, 9 December 2019 (LS20191209UGA)",
+  "description": "UNOSAT geodata for Landslide, Uganda, 9 December 2019 (LS20191209UGA), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: LS20191209UGA**  This map illustrates satellite-detected landslide at in Humya city, Bwanba County, Budibungyo District, Western Region, as seen on Pleiades-1 satellite imagery, 50 cm resolution, collected on 12 December 2019.\nThe landslides and mudflows hit Humyai along the main streams of Bwanba County.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Potential  impact caused by landslides over Humya city, Bwanba County, Budibungyo District, Western Region, Uganda](https://data.humdata.org/dataset/potential-impact-caused-by-landslides-over-humya-city-bwanba-county-budibungyo-district-we)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20191209uga-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Landslide, Uganda, 9 December 2019 (LS20191209UGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./ls20191209uga-landslides/collection.json",
+      "type": "application/json",
+      "title": "Landslides: Landslide, Uganda, 9 December 2019 (LS20191209UGA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20191209uga/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2024/tc20240313moz",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)",
+  "description": "UNOSAT geodata for Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20240313MOZ, GDACS ID: 1001053**  This map illustrates satellite detected surface waters in Maputo province, Mozambique, as observed from a Sentinel-1 images acquired on 27 March 2024 at 18:23 local time (16:23 UTC). Within the analyzed areas of about 2,000 km², a total of about 45 km² of lands appear to be flooded.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extent over Gaza and Maputo provinces, Mozambique, as of 16 Mar. 2024](https://data.humdata.org/dataset/water-extent-over-gaza-and-maputo-provinces-mozambique-as-of-16-mar-2024)\n- [Satellite detected water extent over Maputo province, Mozambique as of 27 March 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-over-maputo-province-mozambique-as-of-27-march-2024)\n- [Satellite detected water extent over Maputo province, Mozambique, as of 23 March 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-over-maputo-province-mozambique-as-of-23-march-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240313moz-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20240313moz-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240313moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

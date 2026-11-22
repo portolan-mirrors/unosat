@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240826sdn",
+  "stac_version": "1.1.0",
+  "title": "Flood, Sudan, 26 August 2024 (FL20240826SDN)",
+  "description": "UNOSAT geodata for Flood, Sudan, 26 August 2024 (FL20240826SDN), from 9 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240826SDN, GDACS ID: 1102854**  Status: Affected structures detected\nFurther action(s): continue monitoring\nSummary of findings:\nWater levels have been notably reduced in the Arbaat Dam observed as of 31 August 2024;\nFlooded areas and overflow evidence observed along the waterway in Alganab locality as of 30 and 31 August 2024;\nAbunqarah, Kdoweeb, Tobler, Edbye Family Health Units, as well as Tedrbai Family Health Centers, appear to be unaffected by floodwaters.\nTedrbai, Hit Wasat, Tamli, Agoamet Srarah, and Tegilo Family Health Units, as well as Kelkoy and Mostehliland Shalhout Family Health Centers, are likely affected by floodwaters.\n\nHDX datasets:\n\n- [Preliminary satellite-derived impact assessment on health facilities, Abu Hamad City, Abu Hamad Locality, River Nile State, 2 September 2024](https://data.humdata.org/dataset/preliminary-satellite-derived-impact-assessment-on-health-facilities-abu-hamad-city-abu-ha)\n- [Preliminary satellite-derived impact assessment on health facilities, Arbaat Dam, Al Ganap Locality, Red Sea State, Sudan, 2 September 2024](https://data.humdata.org/dataset/preliminary-satellite-derived-impact-assessment-on-health-facilities-arbaat-dam-al-ganap-l)\n- [Satellite detected water extent in Abu Hamad Locality, River Nile State, Sudan as of 19 August 2024](https://data.humdata.org/dataset/water-extent-in-abu-hamad-locality-river-nile-state-sudan-as-of-19-august-2024)\n- [Satellite detected water extent in Ag Geneina and Kereneik, West Darfur State, Sudan as of 5 September 2024s of 5 September 2024](https://data.humdata.org/dataset/water-extent-in-ag-geneina-and-kereneik-west-darfur-state-sudan-as-of-5-september-2024s-of)\n- [Satellite detected water extent in Al Fashir City, Al Fasher Department, Al Fasher State, Sudan as of 3 September 2024](https://data.humdata.org/dataset/water-extent-in-al-fashir-city-al-fasher-department-al-fasher-state-sudan-as-of-3-septembe)\n- [Satellite detected water extent in Kassala and River Nile States, Sudan  as of 3 and 5 September 2024](https://data.humdata.org/dataset/water-extent-in-kassala-and-river-nile-states-sudan-as-of-3-and-5-september-2024)\n- [Satellite detected water extent in Khartoum, White Nile, Aj Jazirah and Sennar States, Sudan  as of 8 September 2024](https://data.humdata.org/dataset/water-extent-in-khartoum-white-nile-aj-jazirah-and-sennar-states-sudan-as-of-8-september-2)\n- [Satellite detected water extent in Tawkar Locality, Red Sea State, Sudan as of 26 August 2024](https://data.humdata.org/dataset/water-extent-in-tawkar-locality-red-sea-state-sudan-as-of-26-august-2024)\n- [UNOSAT Live Webmap, Floods in Sudan - August 2024](https://data.humdata.org/dataset/unosat-live-webmap-floods-in-sudan-august-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240826sdn-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Sudan, 26 August 2024 (FL20240826SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240826sdn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Sudan, 26 August 2024 (FL20240826SDN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240826sdn-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Sudan, 26 August 2024 (FL20240826SDN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240826sdn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

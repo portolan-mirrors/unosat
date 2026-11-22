@@ -1,0 +1,136 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017",
+  "stac_version": "1.1.0",
+  "title": "Floods, 2017",
+  "description": "UNOSAT geodata for 13 floods whose event code dates from 2017. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170118moz/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170323nam/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Namibia, 23 March 2017 (FL20170323NAM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170418irn/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170424hti/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Haiti, 24 April 2017 (FL20170424HTI)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170607phl/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Philippines, 7 June 2017 (FL20170607PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815bgd/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Bangladesh, 15 August 2017 (FL20170815BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170815sle/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170828ner/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Niger, 28 August 2017 (FL20170828NER)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170831uga/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Uganda, 31 August 2017 (FL20170831UGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170926tcd/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Chad, 26 September 2017 (FL20170926TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20171025gtm/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Guatemala, 25 October 2017 (FL20171025GTM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20171106vnm/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Viet Nam, 6 November 2017 (FL20171106VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20171211vnm/catalog.json",
+      "type": "application/json",
+      "title": "Flood, Viet Nam, 11 December 2017 (FL20171211VNM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

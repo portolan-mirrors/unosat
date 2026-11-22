@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2021/eq20210814hti",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)",
+  "description": "UNOSAT geodata for Earthquake, Haiti, 14 August 2021 (EQ20210814HTI), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: EQ20210814HTI**  This map illustrates potentially damaged structures/buildings in Nippes department of Haiti as detected by using a satellite image acquired after the earthquake.\nUNOSAT analysis used a Worldview-2 image acquired on 14 & 16 August 2021, a Worldview-1 image acquired on 15 August 2021, a Worldview-3 image acquired on 16 August 2021, and Pleiades images acquired on 15 & 16 August 2021, as a post-event images. Within the analyzed area, UNOSAT identified 73 damaged structures and 125 potentially damaged structures.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [14 August 2021 M7.2 Haiti Earthquake. Preliminary Satellite-Based Comprehensive Damage Assessment Report](https://data.humdata.org/dataset/14-august-2021-m7-2-haiti-earthquake-preliminary-satellite-based-comprehensive-damage-asse)\n- [Damage Assessment  in Baraderes commune,  Nippes department,  Haiti as of 18 August 2021](https://data.humdata.org/dataset/damage-assessment-in-baraderes-commune-nippes-department-haiti-as-of-18-august-2021)\n- [Damage Assessment in Chardonnieres commune, South department as of 23 August 2021](https://data.humdata.org/dataset/damage-assessment-in-chardonnieres-commune-south-department-as-of-23-august-2021)\n- [Damage Assessment in Les Anglais commune, South department as of 23 August 2021](https://data.humdata.org/dataset/damage-assessment-in-les-anglais-commune-south-department-as-of-23-august-2021)\n- [Damage Assessment in Nippes department, Haiti as of 16 August 2021](https://data.humdata.org/dataset/damage-assessment-in-nippes-department-haiti-as-of-16-august-2021)\n- [Damage Assessment in Port-A-Piment and Coteaux communes, South department as of 23 August 2021](https://data.humdata.org/dataset/damage-assessment-in-port-a-piment-and-coteaux-communes-south-department-as-of-23-august-2)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20210814hti-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20210814hti-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

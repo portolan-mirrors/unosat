@@ -1,0 +1,88 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2024/tc20241028phl",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)",
+  "description": "UNOSAT geodata for Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: TC20241028PHL, GDACS ID: 1001115**  This map illustrates a satellite-detected surface waters in Camarines Sur Province, Bicol Region, Philippines acquired on 29 October 2024 at 17:58 local time (09:58 UTC). Within the boundary of Camarines Sur Province of about 5,300 km², a total of about 130 km² of land appears to be affected by flood waters, with around 230 km² of cropland inundated. The flood extent has receded by approximately 150 km² since the previous observation on 26 October 2024.\nBased on Worldpop spatial demographic data, about 93,000 people are exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to the backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Landslide/mud flow Impact  in Laurel Town, Batangas  Province, Region IV-A  (Calabarzon), Philippines  as of 28 Oct. 2024](https://data.humdata.org/dataset/landslide-mud-flow-impact-in-laurel-town-batangas-province-region-iv-a-calabarzon-philippi)\n- [Satellite detected water extents in Camarines Sur Province as of 26 October 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-camarines-sur-province-as-of-26-october-2024)\n- [Satellite detected water extents in Camarines Sur Province as of 29 October 2024](https://data.humdata.org/dataset/satellite-detected-water-extents-in-camarines-sur-province-as-of-29-october-2024)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241028phl-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241028phl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241028phl-other-lines/collection.json",
+      "type": "application/json",
+      "title": "Other lines: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241028phl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20241028phl-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

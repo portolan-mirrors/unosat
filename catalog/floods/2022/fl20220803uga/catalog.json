@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20220803uga",
+  "stac_version": "1.1.0",
+  "title": "Flood, Uganda, 3 August 2022 (FL20220803UGA)",
+  "description": "UNOSAT geodata for Flood, Uganda, 3 August 2022 (FL20220803UGA), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20220803UGA**  This map illustrates satellite-detected landslides in Budwale, Lwasso, Wanale, Bungokho Mutoto sub-countries and Wanale Division and Northern Division, Mbale district, eastern region, Uganda as observed from a Sentinel-2 image aquired on 9 August 2022. Within the analyzed area, 27ha landslide scars are observed. Based on Wordlpop population data about 200,700 people live inside the analyzed area.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Landslide detection in Mbale district, eastern region, Uganda as of 9 August 2022](https://data.humdata.org/dataset/landslide-detection-in-mbale-district-eastern-region-uganda-as-of-9-august-2022)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220803uga-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Uganda, 3 August 2022 (FL20220803UGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220803uga-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Flood, Uganda, 3 August 2022 (FL20220803UGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220803uga-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Flood, Uganda, 3 August 2022 (FL20220803UGA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220803uga-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Uganda, 3 August 2022 (FL20220803UGA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220803uga/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

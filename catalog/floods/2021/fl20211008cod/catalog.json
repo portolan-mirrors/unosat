@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2021/fl20211008cod",
+  "stac_version": "1.1.0",
+  "title": "Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD)",
+  "description": "UNOSAT geodata for Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20211008COD**  This map illustrates satellite-detected surface waters in Ituri Province as observed from a Sentinel-2 image acquired on 04 October 2021. Within 5 km around Lake Albert, about 40 km2 of lands appear to be flooded. The water extent appears to have increased since August 2019 and based on Worldpop population data and the detected surface waters in the analyzed area, the potentially exposed population is mainly located in the Zone de Santé of Nyarambe with ~5,200 people, Gethy with ~ 3,300 people and Tchomia with ~1,550 people.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT)\n\nHDX datasets:\n\n- [Satellite detected water extent between 01 August 2019 and 04 October 2021 along Lake Albert in D.R. of the Congo](https://data.humdata.org/dataset/water-extent-between-01-august-2019-and-04-october-2021-along-lake-albert-in-d-r-of-the-co)\n- [Satellite detected water extent between 04 October 2021 and 01 August 2019 in Kasenyi town, Ituri province, DR Congo](https://data.humdata.org/dataset/water-extent-between-04-october-2021-and-01-august-2019-in-kasenyi-town-ituri-province-dr-)\n- [Satellite detected water extent between 04 October 2021 and 01 August 2019 in Muvaramu village, Ituri province, DR Congo](https://data.humdata.org/dataset/water-extent-between-04-october-2021-and-01-august-2019-in-muvaramu-village-ituri-province)\n- [Satellite detected water extent between 9 Oct. 2021 and 1 Aug. 2019 in Gengere Pamoth village, Ituri province, DR Congo](https://data.humdata.org/dataset/water-extent-between-9-oct-2021-and-1-aug-2019-in-gengere-pamoth-village-ituri-province-dr)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211008cod-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20211008cod-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211008cod/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

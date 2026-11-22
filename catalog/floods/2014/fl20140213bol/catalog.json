@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "floods/2014/fl20140213bol",
+  "stac_version": "1.1.0",
+  "title": "Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL)",
+  "description": "UNOSAT geodata for Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nEste mapa representa áreas inundadas detectadas por satélite en los alrededores de la ciudad de Riberalta, en el departamento de Beni, Bolivia, usando datos de TerraSAR-X obtenidos el 13 de Febrero de 2014. Las signaturas de agua han sido detectadas principalmente en los alrededores de la ciudad, no habiéndose observado masas de agua en el interior de la misma. Es probable que la extensión de las inundaciones haya sido infra estimada a lo largo de las zonas construidas, dadas las especiales características de la imagen de satélite utilizada. Este es un análisis preliminar que aún no ha sido validado en el terreno. Por favor envien sus comentarios a UNITAR /UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Inundaciones en Riberalta, Departamento de Beni, Bolivia](https://data.humdata.org/dataset/geodata-of-inundaciones-en-riberalta-departamento-de-beni-bolivia-march-12-2014)\n- [Geodata of Inundaciones en Trinidad, Departamento de Beni, Bolivia](https://data.humdata.org/dataset/geodata-of-inundaciones-en-trinidad-departamento-de-beni-bolivia-march-12-2014)\n- [Geodata of Inundaciones en Trinidad, Departamento de Beni, Bolivia](https://data.humdata.org/dataset/geodata-of-inundaciones-en-trinidad-departamento-de-beni-bolivia-march-21-2014)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20140213bol-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140213bol/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645",
+  "stac_version": "1.1.0",
+  "description": "Other points for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 54,135 features merged from 11 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32645, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Geodata of Damage Assessment of Banepa, Kathmandu Valley, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015)\n- [Geodata of Damage Assessment of Bhaktapur, Kathmandu Valley, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015)\n- [Geodata of Damage Assessment of Daraudi Valley, Western Region, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015)\n- [Geodata of Damage Assessment of Hansapur Area, Western Region, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015)\n- [Geodata of Damage Assessment of Manbu Area, Western Region, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015)\n- [Geodata of Damage Assessment of Muchok Area, Western Region, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015)\n- [Geodata of Damage Assessment of Sankhu, Kathmandu Valley, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015)\n- [Geodata of Damage Assessment of Tuhure Pasal Area, Western Region, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015)\n- [Geodata of Damage Assessment of West Sundar Bazar Area, Western Region, Nepal](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20150425npl-other-points-epsg_32645.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-points"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:13Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    85.1944111,
+    27.8937095,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-points"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 54135,
+  "table:row_count": 54135,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "src_date",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "src_info",
+      "type": "string"
+    },
+    {
+      "name": "ext_scale",
+      "type": "string"
+    },
+    {
+      "name": "nam",
+      "type": "string"
+    },
+    {
+      "name": "ext_date",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "txt",
+      "type": "string"
+    },
+    {
+      "name": "act_id",
+      "type": "string"
+    },
+    {
+      "name": "source_nam",
+      "type": "string"
+    },
+    {
+      "name": "grading",
+      "type": "string"
+    },
+    {
+      "name": "interpret",
+      "type": "string"
+    },
+    {
+      "name": "settl_type",
+      "type": "string"
+    },
+    {
+      "name": "subtype",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "ORIG_FID",
+      "type": "int32"
+    },
+    {
+      "name": "Damage",
+      "type": "string"
+    },
+    {
+      "name": "Damage_Int",
+      "type": "string"
+    },
+    {
+      "name": "Production",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "Remote_Sen",
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other points: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          83.84348774990688,
+          27.212056276608507,
+          86.54533448211586,
+          28.57536273553782
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-04-30T00:00:00Z",
+          "2015-05-08T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-NC-SA-3.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20150425npl-other-points-epsg_32645": {
+      "href": "./eq20150425npl-other-points-epsg_32645.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 1792014,
+      "file:checksum": "1220c8afa66f80e80c2484574507bf3f85ccee6bc23717fe1bfedcb9a9449cea9662",
+      "proj:code": "EPSG:32645",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20150425npl-other-points-epsg_32645-tiles": {
+      "href": "./eq20150425npl-other-points-epsg_32645.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 1251273,
+      "file:checksum": "122011475a3ca9c5997eb8cfff69794a42ce4213accebf0c824c897526e13a8da2a3",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other points",
+      "file:size": 706,
+      "file:checksum": "12209ffc9c89d6c4ae5aa06c4e152aeee0c4ffc3bdf12f400a2ff224ebf084095d9b"
+    }
+  }
+}

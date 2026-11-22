@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2026/eq20260810col",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Colombia, 10 August 2026 (EQ20260810COL)",
+  "description": "UNOSAT geodata for Earthquake, Colombia, 10 August 2026 (EQ20260810COL), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: EQ20260810COL, GDACS ID: 1557236**  Este mapa presenta una evaluación de daños basada en imágenes satelitales de la ciudad de Zarzal, departamento Valle del Cauca, ubicada aproximadamente a 50 km del área epicentral del terremoto de magnitud 7,4 ocurrido el 10 de agosto de 2026 en Colombia.\nLos daños fueron identificados principalmente en una imágen satelital Pléiades de muy alta resolución, adquirida el 13 de agosto de 2026. Dentro del área analizada, se identificaron 21 edificaciones con daños y 180 edificaciones como potencialmente dañadas. El alto ángulo de incidencia (>40°) de las imágenes satelitales utilizadas para este análisis puede afectar la precisión de los resultados. Por lo tanto, las estimaciones de daños derivadas de imágenes satelitales con un ángulo de incidencia tan elevado deben interpretarse con precaución.\nEste es un análisis preliminar que aún no ha sido validado en campo. Se recomienda realizar una verificación en terreno. Los comentarios y observaciones pueden enviarse al Centro de Satélites de las Naciones Unidas.\n\nHDX datasets:\n\n- [Building Damage Assessment Density Map in Zarzal City, Valle del Cauca Department, Colombia  as of 13 August 2026](https://data.humdata.org/dataset/building-damage-assessment-density-map-in-zarzal-city-valle-del-cauca-department-colombia-)\n- [Building Damage Assessment in Viterbo Town, Caldas Department, Colombia  as of 12 August 2026](https://data.humdata.org/dataset/building-damage-assessment-in-viterbo-town-caldas-department-colombia-as-of-12-august-2026)\n- [Evaluación de daños en edificaciones en la ciudad de Zarzal, Valle del Cauca, Colombia, al 13 de agosto de 2026](https://data.humdata.org/dataset/evaluacion-de-danos-en-edificaciones-en-la-ciudad-de-zarzal-valle-del-cauca-colombia-al-13)\n- [M 7.4  in South of San José del Palmar, Colombia 10 August 2026 at 12:34 UTC](https://data.humdata.org/dataset/m-7-4-in-south-of-san-jose-del-palmar-colombia-10-august-2026-at-12-34-utc)\n- [PRELIMINARY SATELLITE-DERIVED DAMAGE ASSESSMENT - San José Del Palmar municipality, Chocó department, Colombia](https://data.humdata.org/dataset/preliminary-satellite-derived-damage-assessment-san-jose-del-palmar-municipality-choco-dep)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20260810col-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20260810col-damage-areas/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20260810col-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

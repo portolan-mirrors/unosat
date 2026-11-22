@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20221121pak",
+  "stac_version": "1.1.0",
+  "title": "Flood, Pakistan, 21 November 2022 (FL20221121PAK)",
+  "description": "UNOSAT geodata for Flood, Pakistan, 21 November 2022 (FL20221121PAK), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code FL20221121PAK**  Status: Overall decrease of flood waters observed\nFurther action(s): continue monitoring\nEvolution of Cumulative Flood Waters over I.R. of Pakistan (01-07 January 2023 Vs 09-15 January 2023):\nBetween 09 and 15 January 2023 approximately 4.5 million people remain potentially exposed or living close to maximum floodwaters areas(*);\nApproximately 1.3 million people are potentially exposed or living close to minimum floodwaters areas(**) between 09 and 15 January 2023;\nBased on satellite observations between 01 and 07 January 2023 and compared with observations between 09 and 15 January 2023 , the maximum flood water extent appears to continue to retract with approximately ~ -1,800 km² in Sindh , ~ - 250 km² in Balochistan, ~ -200 km²  in Khyber Pakhtunkhwa and ~ -200 km²  in Gilgit Baltistan.\n\nHDX datasets:\n\n- [Floodwater depth in Sindh and Balochistan Provinces, Pakistan  as of 29 November 2022](https://data.humdata.org/dataset/floodwater-depth-in-sindh-and-balochistan-provinces-pakistan-as-of-29-november-2022)\n- [Preliminary Satellite Derived Flood Evolution Assessment, Islamic Republic of Pakistan - 07 March 2023](https://data.humdata.org/dataset/preliminary-satellite-derived-flood-evolution-assessment-islamic-republic-of-pakistan-07-m)\n- [Preliminary Satellite Derived Flood Evolution Assessment, Islamic Republic of Pakistan - 20 January 2023](https://data.humdata.org/dataset/preliminary-satellite-derived-flood-evolution-assessment-islamic-republic-of-pakistan-20-j)\n- [Preliminary Satellite Derived Flood Evolution Assessment, Islamic Republic of Pakistan - 3 January 2023](https://data.humdata.org/dataset/preliminary-satellite-derived-flood-evolution-assessment-islamic-republic-of-pakistan-3-ja)\n- [Preliminary Satellite Derived Flood Evolution Assessment, Islamic Republic of Pakistan-22 October 2022](https://data.humdata.org/dataset/preliminary-satellite-derived-flood-evolution-assessment-islamic-republic-of-pakistan-22-o)\n- [Surface Waters Monitoring In Pakistan - Evolution - 17 May 2023](https://data.humdata.org/dataset/surface-waters-monitoring-in-pakistan-evolution-17-may-2023)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221121pak-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20221121pak-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221121pak/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

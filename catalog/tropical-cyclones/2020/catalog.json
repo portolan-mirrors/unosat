@@ -1,0 +1,136 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2020",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclones, 2020",
+  "description": "UNOSAT geodata for 13 tropical cyclones whose event code dates from 2020. Read [AGENTS.md](AGENTS.md) for how the archive is laid out.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200403vut/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200408fji/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20200518bgd/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201013vnm/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Viet Nam, 13 October 2020 (TC20201013VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201028vnm/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201101phl/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Philippines, 1 November 2020 (TC20201101PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201103nic/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Nicaragua, 3 November 2020 (TC20201103NIC)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201111phl/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201116hnd/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201116nic/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201118slv/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201119gtm/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20201123col/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

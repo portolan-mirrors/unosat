@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20190321irn",
+  "stac_version": "1.1.0",
+  "title": "Flood, Iran (Islamic Republic of), 21 March 2019 (FL20190321IRN)",
+  "description": "UNOSAT geodata for Flood, Iran (Islamic Republic of), 21 March 2019 (FL20190321IRN), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20190321IRN**  This map illustrates satellite-detected surface water in western part of Golestan province, Iran as observed from Sentinel-1A imagery acquired on 10 May 2019. Within the analysed area of about 3,000 sq km, a total 76 sq km of lands appear to be flooded as of 10 May 2019. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\nImportant Note: Flood analysis from Sentinel-1A imagery acquired on 10 May 2019 may seriously underestimate presence of standing flood water in built up areas due to backscattering of the radar signal\n\nHDX datasets:\n\n- [Satellite detected water extent, as of 05 May 2019 over Golestan Province, Iran](https://data.humdata.org/dataset/satellite-detected-water-extent-as-of-05-may-2019-over-golestan-province-iran)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190321irn-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Iran (Islamic Republic of), 21 March 2019 (FL20190321IRN)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190321irn-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Iran (Islamic Republic of), 21 March 2019 (FL20190321IRN)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190321irn/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

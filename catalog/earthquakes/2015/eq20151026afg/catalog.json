@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "earthquakes/2015/eq20151026afg",
+  "stac_version": "1.1.0",
+  "title": "Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)",
+  "description": "UNOSAT geodata for Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected potential damaged structures in the area of Fayzabad in Badakhshan province, Afghanistan, located at approximately 100 kilometers north of the epicenter of the 26 October 2015 earthquake. Using a Pléiades satellite image acquired 28 October 2015 and a WorldView-3 image acquired 20 June 2015, UNITAR/UNOSAT identified 79 potentially damaged structures. Specifically, 4 potentially damaged structures are located in the city of Fayzabad and 75 on the outskirts of the city and settlements in the area of Fayzabad. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Damage Assessment of Aliabad Area, Hunza Nagar District, Pakistan](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-aliabad-area-hunza-nagar-district-pakistan-november-05-2015)\n- [Geodata of Damage Assessment of Chitral Area, Khyber Pakhtunkhwa Province, Pakistan](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-chitral-area-khyber-pakhtunkhwa-province-paki-november-03-2015)\n- [Geodata of Damage Assessment of Fayzabad Area, Badakhshan Province, Afghanistan](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-fayzabad-area-badakhshan-province-afghanistan-october-29-2015)\n- [Geodata of Damage Assessment of Kalam Area, Swat District, Khyber Pakhtunkhwa Province, Pakistan](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-kalam-area-swat-district-khyber-pakhtunkhwa-p-november-10-2015)\n- [Geodata of Damage Assessment of Kunduz Area, Kunduz Province, Afghanistan](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-kunduz-area-kunduz-province-afghanistan-october-28-2015)\n- [Geodata of Damage Assessment of Puli Khumri Area, Baghlan Province, Afghanistan](https://data.humdata.org/dataset/geodata-of-damage-assessment-of-puli-khumri-area-baghlan-province-afghanistan-november-13-2015)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20151026afg-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)"
+    },
+    {
+      "rel": "child",
+      "href": "./eq20151026afg-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

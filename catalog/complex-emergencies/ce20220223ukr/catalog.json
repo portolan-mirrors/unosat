@@ -1,0 +1,100 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20220223ukr",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)",
+  "description": "UNOSAT geodata for Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR), from 6 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: CE20220223UKR**  This map illustrates a satellite imagery based damage analysis within an area of interest (AOI) in the residential area of Mariupol City, Ukraine.\nBased on imagery collected on 7, 8, 12 May 2022 and 14 March 2022,  and 21 June 2021, analysts found that 5,647 structures sustained visible damage in the AOI. This represents approximately 32% of the structures. Out of these, 315 are destroyed, 2,132 severely damaged, 3,002 moderately damaged and 194 possibly damaged. Compared to the 14 March 2022 analysis, 5% of previously affected buildings sustained additional damage, and the total damage has increased by 28%, with 4,910 new damaged buildings. While no complete count of buildings for Mariupol is available, an open source dataset, which is visibly incomplete indicates at least 17,568 structures in the area.\nThis analysis is based on structures visibly damaged as of 12, 8, 7 May 2022 and 14 March 2022 as seen in marginally degraded satellite imagery. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Kremenchuk Damage Assessment Overview](https://data.humdata.org/dataset/kremenchuk-damage-assessment-overview)\n- [Mariupol Rapid Damage Assessment Overview Map](https://data.humdata.org/dataset/mariupol-rapid-damage-assessment-overview-map)\n- [Mariupol Updated Building Damage Assessment Overview Map - Livoberezhnyi and Zhovtnevyi Districts](https://data.humdata.org/dataset/mariupol-updated-building-damage-assessment-overview-map-livoberezhnyi-and-zhovtnevyi-dist)\n- [North Kharkiv Rapid Damage Assessment Overview Map](https://data.humdata.org/dataset/north-kharkiv-rapid-damage-assessment-overview-map)\n- [Sumy Rapid Damage Assessment Overview Map](https://data.humdata.org/dataset/sumy-rapid-damage-assessment-overview-map)\n- [UNOSAT Damage Assessment Overview Map - Livoberezhnyi and Zhovtnevyi Districts, Mariupol City, Ukraine](https://data.humdata.org/dataset/unosat-damage-assessment-overview-map-livoberezhnyi-district-mariupol-city-ukraine)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-damage-areas-cc_by_igo_3_0/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-damage-areas-cc_by_sa/collection.json",
+      "type": "application/json",
+      "title": "Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-damage-sites-cc_by_igo_3_0/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-damage-sites-cc_by_sa/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-other-polygons-cc_by_igo_3_0-epsg_4326/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_3857/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_4326/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

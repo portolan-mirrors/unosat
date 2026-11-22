@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762",
+  "stac_version": "1.1.0",
+  "title": "Tropical Cyclone Maria. Inventory of landslides and flooded areas",
+  "description": "UNOSAT geodata for Tropical Cyclone Maria. Inventory of landslides and flooded areas, from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n.A large scale landslide inventory was carried out by a team from the University of Twente, use of 5 scenes of Pléiades satellite imageries with resolution of 0.5m, which were obtained in September 23 and October 5 after the hurricane, made available through UNITAR-UNOSAT. Apart from these also a series of Digital Globe Images were used that were collected for the Google Crisis Response through a KML layer. The images were visually interpreted by image interpretation experts, and landslides were mapped as polygons, separating scarp, transport and accumulation areas, and classifying the landslides in types.\nA total of 9,960 landslides were identified, which include 8,576 debris slides, 1,010 debris flows and 374 rock falls, with area of 7.30km2, 2.50km2, and 0.50 km2 respectively. The whole area of landslide is 10.30 km2, which covers 1.37 percent of the island. The source of landslides is 3.30km2, and the other 7.0 km2 is transportation and deposition area. Almost all of the rivers flooded due to intensive precipitation. The flooded area is 13.03km2, which covers 1.74% of the island. Dominica will face some new problems for mountain hazards in the coming years, as many of the fresh scarps may produce more debris, and many tree trunks are still on the slopes or in the river channels. With so many fresh landslides in the upper catchments, it is likely that debris flows will be triggered with rainfall thresholds that are substantially lower than before the hurricane. Hurricane […]\n\nHDX datasets:\n\n- [Tropical Cyclone Maria. Inventory of landslides and flooded areas](https://data.humdata.org/dataset/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical Cyclone Maria. Inventory of landslides and flooded areas"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons/collection.json",
+      "type": "application/json",
+      "title": "Other polygons: Tropical Cyclone Maria. Inventory of landslides and flooded areas"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/collection.json",
+      "type": "application/json",
+      "title": "Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

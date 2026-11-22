@@ -1,0 +1,233 @@
+{
+  "type": "Collection",
+  "id": "no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides",
+  "stac_version": "1.1.0",
+  "description": "Landslides for Tropical Cyclone Maria. Inventory of landslides and flooded areas: 32,884 features merged from 2 source layers. Polygon layers whose names mention landslides, mudflows, or debris. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32620, the CRS of the source layers; the PMTiles copy is in Web Mercator.\n\nFrom these HDX datasets:\n\n- [Tropical Cyclone Maria. Inventory of landslides and flooded areas](https://data.humdata.org/dataset/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "landslides"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:29:28Z",
+  "pmtiles:min_zoom": 3,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    -61.3598129,
+    15.4232295,
+    8
+  ],
+  "pmtiles:layers": [
+    "landslides"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPolygon"
+  ],
+  "geoparquet:feature_count": 32884,
+  "table:row_count": 32884,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "Id",
+      "type": "int32"
+    },
+    {
+      "name": "TYPE",
+      "type": "string"
+    },
+    {
+      "name": "CODE",
+      "type": "string"
+    },
+    {
+      "name": "Descrip",
+      "type": "string"
+    },
+    {
+      "name": "Aare",
+      "type": "double"
+    },
+    {
+      "name": "Date",
+      "type": "date32[day]"
+    },
+    {
+      "name": "Image",
+      "type": "string"
+    },
+    {
+      "name": "Copyright",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "PART",
+      "type": "string"
+    },
+    {
+      "name": "Area",
+      "type": "double"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -61.47567841973523,
+          15.207564178649884,
+          -61.24394756438869,
+          15.639455475488608
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-03-31T00:00:00Z",
+          "2017-03-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides": {
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 17710697,
+      "file:checksum": "12203d62d3bee27bddb9f3ca82192d9e0a33110981e3d21976a37b8ed5ee28ec3c3e",
+      "proj:code": "EPSG:32620",
+      "roles": [
+        "data"
+      ]
+    },
+    "tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides-tiles": {
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 4547944,
+      "file:checksum": "12201d83496b29eeb00eb6870fee603e946722099163ccdd68d232be1612dceb6d97",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Landslides",
+      "file:size": 696,
+      "file:checksum": "1220450914825279b25d0d5b039e71ed148522ebc919562d382c610b27d809edd077"
+    }
+  }
+}

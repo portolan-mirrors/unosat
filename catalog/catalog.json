@@ -1,44 +1,120 @@
 {
   "type": "Catalog",
-  "stac_version": "1.1.0",
-  "stac_extensions": [
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
-  ],
   "id": "unosat",
-  "title": "UNOSAT Rapid Mapping Archive",
-  "description": "Mirror of the satellite-derived flood extents, damage assessments, and camp mapping that the United Nations Satellite Centre (UNITAR-UNOSAT) publishes on [HDX](https://data.humdata.org/organization/unosat). Each collection is one UNOSAT event; the `combined` collections join damage sites and water extents across events. Read [AGENTS.md](AGENTS.md) before you query.",
+  "stac_version": "1.1.0",
+  "description": "A mirror of the satellite-derived geodata that the United Nations Satellite Centre (UNOSAT) publishes on the [Humanitarian Data Exchange](https://data.humdata.org/organization/unosat): flood and water extents, damage assessments, shelter and camp mapping, landslides, and analysis extents for disasters and crises since 2010. Each event is a subcatalog, grouped by hazard and year. Inside an event, the source layers of one kind (for example, all damage-site point layers) are merged into one GeoParquet collection, with the source layer and file kept on every row. Licenses differ by dataset and are set on each collection. Read [AGENTS.md](AGENTS.md) before you query.",
   "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Unosat"
+    },
+    {
+      "rel": "child",
+      "href": "./complex-emergencies/catalog.json",
+      "type": "application/json",
+      "title": "Complex emergencies"
+    },
+    {
+      "rel": "child",
+      "href": "./earthquakes/catalog.json",
+      "type": "application/json",
+      "title": "Earthquakes"
+    },
+    {
+      "rel": "child",
+      "href": "./fires/catalog.json",
+      "type": "application/json",
+      "title": "Fires"
+    },
+    {
+      "rel": "child",
+      "href": "./floods/catalog.json",
+      "type": "application/json",
+      "title": "Floods"
+    },
+    {
+      "rel": "child",
+      "href": "./landslides/catalog.json",
+      "type": "application/json",
+      "title": "Landslides"
+    },
+    {
+      "rel": "child",
+      "href": "./no-event-code/catalog.json",
+      "type": "application/json",
+      "title": "Datasets without an event code"
+    },
+    {
+      "rel": "child",
+      "href": "./other-events/catalog.json",
+      "type": "application/json",
+      "title": "Other events"
+    },
+    {
+      "rel": "child",
+      "href": "./tropical-cyclones/catalog.json",
+      "type": "application/json",
+      "title": "Tropical cyclones"
+    },
+    {
+      "rel": "child",
+      "href": "./volcanoes/catalog.json",
+      "type": "application/json",
+      "title": "Volcanoes"
+    },
+    {
+      "rel": "child",
+      "href": "./combined/catalog.json",
+      "type": "application/json",
+      "title": "Combined, all events"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
     {
       "rel": "self",
       "href": "https://data.source.coop/portolan-mirrors/unosat/catalog.json",
       "type": "application/json"
     },
     {
-      "rel": "root",
-      "href": "./catalog.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "describedby",
-      "href": "./README.md",
-      "type": "text/markdown",
-      "title": "Catalog README"
-    },
-    {
-      "rel": "agents",
-      "href": "./AGENTS.md",
-      "type": "text/markdown",
-      "title": "Catalog agent guide"
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
     },
     {
       "rel": "vcs",
       "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
       "title": "Source repository"
     },
     {
       "rel": "issues",
       "href": "https://github.com/portolan-mirrors/unosat/issues",
-      "title": "Issue tracker"
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
     }
-  ]
+  ],
+  "title": "UNOSAT Rapid Mapping Archive",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:39:08Z"
 }

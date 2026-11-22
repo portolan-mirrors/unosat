@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "Other points",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../tc20250722lao-other-points.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "other-points",
+      "id": "other-points-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": "#555555",
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

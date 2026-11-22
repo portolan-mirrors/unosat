@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "Other points",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "other-points",
+      "id": "other-points-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": "#555555",
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

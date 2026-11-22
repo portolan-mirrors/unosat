@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2017/fl20170323nam",
+  "stac_version": "1.1.0",
+  "title": "Flood, Namibia, 23 March 2017 (FL20170323NAM)",
+  "description": "UNOSAT geodata for Flood, Namibia, 23 March 2017 (FL20170323NAM), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the satellite-detected surface waters extent and evolution over Oponono Lake; a large wetland fed by the Culevai Oshana, in Oshana region, Namibia, as observed from the Sentinel-1 images acquired on 02 and 14 March 2017. An increase of surface water extent was detected in the 14 March 2017 image, particularly in the upstream part of the lake: ~4,130 ha of surface water were observed the 02 March 2017 within the lake area and reached ~10,820 ha the 14 March 2017 corresponding to an evolution of about 160%. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\n\nHDX datasets:\n\n- [Namibia - Satellite Detected Surface Waters Extent and Evolution over Oponono Lake, Oshana region](https://data.humdata.org/dataset/satellite-detected-surface-waters-extent-and-evolution-over-oponono-lake-oshana-region-namibia)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170323nam-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Namibia, 23 March 2017 (FL20170323NAM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20170323nam-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Namibia, 23 March 2017 (FL20170323NAM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170323nam/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

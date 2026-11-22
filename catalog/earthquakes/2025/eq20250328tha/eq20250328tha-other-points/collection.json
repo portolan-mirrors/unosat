@@ -1,0 +1,275 @@
+{
+  "type": "Collection",
+  "id": "earthquakes/2025/eq20250328tha/eq20250328tha-other-points",
+  "stac_version": "1.1.0",
+  "description": "Other points for Earthquake, Thailand, 28 March 2025 (EQ20250328THA): 19,204 features merged from 5 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Satellite-detected Damage the UNESCO Tentative List component Chiang Mai as of 29 March 2025](https://data.humdata.org/dataset/damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./eq20250328tha-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-points"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-points/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:20:53Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    96.1454268,
+    21.3467005,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-points"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 19204,
+  "table:row_count": 19204,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "obj_type",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "info",
+      "type": "string"
+    },
+    {
+      "name": "simplified",
+      "type": "string"
+    },
+    {
+      "name": "damage_gra",
+      "type": "string"
+    },
+    {
+      "name": "det_method",
+      "type": "string"
+    },
+    {
+      "name": "notation",
+      "type": "string"
+    },
+    {
+      "name": "or_src_id",
+      "type": "int32"
+    },
+    {
+      "name": "dmg_src_id",
+      "type": "int32"
+    },
+    {
+      "name": "cd_value",
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "obj_desc",
+      "type": "string"
+    },
+    {
+      "name": "elem_count",
+      "type": "string"
+    },
+    {
+      "name": "SRC_DATE",
+      "type": "string"
+    },
+    {
+      "name": "FRAMEWORK",
+      "type": "string"
+    },
+    {
+      "name": "TYPE",
+      "type": "string"
+    },
+    {
+      "name": "SOURCE",
+      "type": "string"
+    },
+    {
+      "name": "PROCESSING",
+      "type": "string"
+    },
+    {
+      "name": "COPYRIGHT",
+      "type": "string"
+    },
+    {
+      "name": "DAMAGE",
+      "type": "string"
+    },
+    {
+      "name": "DAMAGE_SRC",
+      "type": "string"
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other points: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          95.18481175066182,
+          18.910241942711536,
+          97.10604189581687,
+          23.783159128291175
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-17T00:00:00Z",
+          "2025-04-17T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "eq20250328tha-other-points": {
+      "href": "./eq20250328tha-other-points.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 738904,
+      "file:checksum": "1220ab3e2607054f6e84551ec4383d12df85ac881c72513d6dc83de4a401c2ff7aea",
+      "roles": [
+        "data"
+      ]
+    },
+    "eq20250328tha-other-points-tiles": {
+      "href": "./eq20250328tha-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 534840,
+      "file:checksum": "1220b8266d5b7dcdd27863a99c85512b46c2eae83bfc52dda4bde745f4e5afa2191b",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other points",
+      "file:size": 695,
+      "file:checksum": "12206f7628695a308691c5c75e6d39e76030e12ddb1ed22b2d3b91df2835efc51d6a"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": "Catalog",
+  "id": "complex-emergencies/ce20131107cod",
+  "stac_version": "1.1.0",
+  "title": "Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD)",
+  "description": "UNOSAT geodata for Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates structural changes within Kamatsi town and its suburbs in Province Orientale, DRC occurring between 19 April 2011 and 04 February 2014 as seen in satellite imagery collected by the WoldView-1 and WorldView-2 satellites respectively. During this period there was multiple new structures appeared in the area analyzed including tent shelters as well are more permanent housing. These increases in structures are most likely due to influxes of large numbers of IDPs from surrounding areas gathering in Kamatsi. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR / UNOSAT.\n\nHDX datasets:\n\n- [Geodata of IDP Settlement in Boga, Province Orientale, Democratic Republic of Congo](https://data.humdata.org/dataset/geodata-of-idp-settlement-in-boga-province-orientale-democratic-republic-of-c-june-03-2014)\n- [Geodata of IDP Settlement in Kamatsi, Province Orientale, Democratic Republic of Congo](https://data.humdata.org/dataset/geodata-of-idp-settlement-in-kamatsi-province-orientale-democratic-republic-o-june-03-2014)\n- [Geodata of IDP Settlement in West Geti, Province Orientale, Democratic Republic of Congo](https://data.humdata.org/dataset/geodata-of-idp-settlement-in-west-geti-province-orientale-democratic-republic-june-03-2014)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ce20131107cod-shelters/collection.json",
+      "type": "application/json",
+      "title": "Shelters: Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131107cod/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

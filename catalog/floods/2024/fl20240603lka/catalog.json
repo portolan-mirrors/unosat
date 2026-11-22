@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20240603lka",
+  "stac_version": "1.1.0",
+  "title": "Flood, Sri Lanka, 3 June 2024 (FL20240603LKA)",
+  "description": "UNOSAT geodata for Flood, Sri Lanka, 3 June 2024 (FL20240603LKA), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20240603LKA, GDACS ID: 1102660**  This map illustrates satellite-detected water extent in the North Western Province, Sri Lanka, as observed from a Sentinel-1 image acquired on June 4, 2024, at 00:25 UTC. Within the analyzed area of about 4,000 km², a total of about 46 km² of land appears to be affected by floodwaters. The water extent appears to have receded by about 34 km² since May 23, 2024. Based on WorldPop population data and the flood extent, approximately 16,000 people are potentially exposed.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extent in Gampaha, Colombo and Kalutara Districts, Western Province as of 04 June 2024](https://data.humdata.org/dataset/water-extent-in-gampaha-colombo-and-kalutara-districts-western-province-as-of-04-june-2024)\n- [Satellite detected water extent in North Western Province, Sri Lanka as of 04 June 2024](https://data.humdata.org/dataset/satellite-detected-water-extent-in-north-western-province-sri-lanka-as-of-04-june-2024)\n- [UNOSAT Live Web map - Floods in Sri Lanka](https://data.humdata.org/dataset/unosat-live-web-map-floods-in-sri-lanka)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240603lka-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Sri Lanka, 3 June 2024 (FL20240603LKA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20240603lka-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Sri Lanka, 3 June 2024 (FL20240603LKA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240603lka/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

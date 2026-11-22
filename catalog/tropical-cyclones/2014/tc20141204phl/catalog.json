@@ -1,0 +1,76 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2014/tc20141204phl",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)",
+  "description": "UNOSAT geodata for Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL), from 8 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates satellite-detected damaged structures in Dolores City, East Samar Province, Philippines. Using an image acquired by the WorldView-2 satellite on 12 December 2014 and compared with an image collected on 19 June 2014, UNOSAT identified 597 affected structures in the area. Specifically, 193 structures were categorized as destroyed, 225 as severely damaged and 179 as moderately damaged. Note that due to significant cloud cover present on the post-event image, the north and northwestern parts of the city could not be analysed. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR / UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Damaged Structures in Borongan, Eastern Samar Province, Philippines](https://data.humdata.org/dataset/geodata-of-damaged-structures-in-borongan-eastern-samar-province-philippines-december-18-2014)\n- [Geodata of Damaged Structures in Calbayog City, Samar Island, Philippines](https://data.humdata.org/dataset/geodata-of-damaged-structures-in-calbayog-city-samar-island-philippines-december-11-2014)\n- [Geodata of Damaged Structures in Dolores City, East Samar, Philippines](https://data.humdata.org/dataset/geodata-of-damaged-structures-in-dolores-city-east-samar-philippines-december-15-2014)\n- [Geodata of Damaged Structures in Guiuan City, Eastern Samar, Philippines](https://data.humdata.org/dataset/geodata-of-damaged-structures-in-guiuan-city-eastern-samar-philippines-december-11-2014)\n- [Geodata of Damaged Structures in San Julian Area, Eastern Samar, Philippines](https://data.humdata.org/dataset/geodata-of-damaged-structures-in-san-julian-area-eastern-samar-philippines-december-17-2014)\n- [Geodata of Damaged Structures in Taft City, Eastern Samar Province, Philippines](https://data.humdata.org/dataset/geodata-of-damaged-structures-in-taft-city-eastern-samar-province-philippines-december-16-2014)\n- [Geodata of Satellite Detected Waters Over Can-Avid in Dolores Area, Eastern Samar, Eastern Visayas, Philippines](https://data.humdata.org/dataset/geodata-of-satellite-detected-waters-over-can-avid-in-dolores-area-eastern-sa-december-09-2014)\n- [Geodata of Satellite Detected Waters Over San Miguel, Leyte, Eastern Visayas, Philippines](https://data.humdata.org/dataset/geodata-of-satellite-detected-waters-over-san-miguel-leyte-eastern-visayas-ph-december-08-2014)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20141204phl-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20141204phl-damage-sites/collection.json",
+      "type": "application/json",
+      "title": "Damage sites: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20141204phl-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

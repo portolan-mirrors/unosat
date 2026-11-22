@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2019/tc20190312moz",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Mozambique, 12 March 2019 (TC20190312MOZ)",
+  "description": "UNOSAT geodata for Tropical cyclone, Mozambique, 12 March 2019 (TC20190312MOZ), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the cumulative satellite-detected surface waters in central provinces of Mozambique and particularly the Sofala province and its surroundings, as observed from the Sentinel-1 imagery acquired between 13 & 26 March 2019. Within the analysis extent. over Sofala and Manica provinces, a total of 170,000 km2 of surface imagery were analyzed and about 10,000 km2 of lands experienced floods within this period. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\nSatellite data : Sentinel-1\nImagery date: 13-14-19-20-26 March 2019 Resolution: 10 m\nCopyright: Copernicus 2019/ESA\nSource:ESA\nBoundary data: OCHA ROSEA Water body & waterway: COD Analysis : UNITAR-UNOSAT\nProduction:UNITAR - UNOSAT\n\nHDX datasets:\n\n- [Cumulative Satellite detected waters extent overview between 13 & 26 March 2019 over Sofala province, Mozambique](https://data.humdata.org/dataset/cumulative-satellite-detected-waters-extent-13-26-march-2019-over-sofala-province-mozambique)\n- [Satellite detected waters extent, as of 7 April 2019 over Tete and Zambezia provinces, Mozambique](https://data.humdata.org/dataset/satellite-detected-waters-extent-as-of-7-april-2019-over-tete-and-zambezia-provinces-mozambique)\n- [UNOSAT Geospatial Data on Floods in Mozambique - March 2019](https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20190312moz-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Mozambique, 12 March 2019 (TC20190312MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20190312moz-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Mozambique, 12 March 2019 (TC20190312MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190312moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

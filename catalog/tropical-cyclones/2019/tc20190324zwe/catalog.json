@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "tropical-cyclones/2019/tc20190324zwe",
+  "stac_version": "1.1.0",
+  "title": "Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)",
+  "description": "UNOSAT geodata for Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE), from 3 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map illustrates the satellite detected surface waters in Mashonaland East Province, Zimbabwe, as observed from the Sentinel-1 data imageries acquired on 12 and 24 March 2019. Within the analysis extent, over Manicaland Province, 108,780 ha of surface waters were observed the 12 March 2019. and about of 469,680 ha of surface waters were observed the 24 March 2019. It represents an icrease of 23 %. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\nSatellite data (pre-event) : Sentinel-1\nImagery date: 12 March 2019\nResolution: 10 m\nCopyright: Copernicus 2019 / ESA\nSource: ESA\nSatellite data (post-event) : Sentinel-1\nImagery date: 24 March 2019\nResolution: 10 m\nCopyright: Copernicus 2019 / ESA\nSource: ESA\nBoundary data: OCHA ROSEA\nWater body & waterway: COD\nAnalysis : UNITAR-UNOSAT\nProduction: UNITAR - UNOSAT\n\nHDX datasets:\n\n- [Satellite detected waters extent, as of 24 March 2019 over Manicaland Province, Zimbabwe](https://data.humdata.org/dataset/satellite-detected-waters-extent-as-of-24-march-2019-over-manicaland-province-zimbabwe)\n- [Satellite detected waters extent, as of 24 March 2019 over Mashonaland East Province, Zimbabwe](https://data.humdata.org/dataset/satellite-detected-waters-extent-as-of-24-march-2019-over-mashonaland-east-province-zimbabwe)\n- [Satellite detected waters extent, as of 24 March 2019 over Masvingo Province, Zimbabwe](https://data.humdata.org/dataset/satellite-detected-waters-extent-as-of-24-march-2019-over-masvingo-province-zimbabwe)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20190324zwe-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)"
+    },
+    {
+      "rel": "child",
+      "href": "./tc20190324zwe-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

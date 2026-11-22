@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20190905lao",
+  "stac_version": "1.1.0",
+  "title": "Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO)",
+  "description": "UNOSAT geodata for Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO), from 5 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20190905LAO**  This map illustrates satellite-detected surface water in Khammouan and Savannakhet Province of Lao PDR as observed from Sentinel-1 imagery acquired on 11 September 2019. Within the analysed extent of about 8,300 km2, a total about 332 km2 of land appear to be flooded as of 11 September 2019. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR - UNOSAT.\nImportant Note: Flood analysis from Sentinel-1 imagery acquired on 11 September 2019 may seriously underestimate presence of standing flood water in built up areas due to backscattering of the radar signal\n\nHDX datasets:\n\n- [Satellite detected water extents, as of 10 Sep 2019 over Attapeu Province, Lao PDR](https://data.humdata.org/dataset/satellite-detected-water-extents-as-of-10-sep-2019-over-attapeu-province-lao-pdr)\n- [Satellite detected water extents, as of 10 Sep 2019 over Salavan Province, Lao PDR](https://data.humdata.org/dataset/satellite-detected-water-extents-as-of-10-sep-2019-over-salavan-province-lao-pdr)\n- [Satellite detected waters extents, as of 10 September 2019 over Champasak province of Lao PDR](https://data.humdata.org/dataset/waters-extents-as-of-10-september-2019-over-champasak-province-of-lao-pdr)\n- [Satellite detected waters extents, as of 11 September 2019 over Khammouan and Savannakhet Province of Lao PDR](https://data.humdata.org/dataset/waters-extents-as-of-11-september-2019-over-khammouan-and-savannakhet-province-of-lao-pdr)\n- [Satellite detected waters extents, as of 6 September 2019 over southern provinces of Lao PDR](https://data.humdata.org/dataset/waters-extents-as-of-6-september-2019-over-southern-provinces-of-lao-pdr)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190905lao-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190905lao-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190905lao/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

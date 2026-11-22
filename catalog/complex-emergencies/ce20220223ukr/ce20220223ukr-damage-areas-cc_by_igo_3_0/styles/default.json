@@ -1,0 +1,49 @@
+{
+  "version": 8,
+  "name": "Damage areas by Main_Damage_Site_Class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ce20220223ukr-damage-areas-cc_by_igo_3_0.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "Main_Damage_Site_Class_label"
+            ]
+          ],
+          "No Visible Damage",
+          "#969696",
+          "Damage",
+          "#1b9e77",
+          "No Damage",
+          "#d95f02",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "damage-areas",
+      "id": "damage-areas-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

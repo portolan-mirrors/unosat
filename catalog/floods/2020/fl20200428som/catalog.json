@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2020/fl20200428som",
+  "stac_version": "1.1.0",
+  "title": "Flood, Somalia, 28 April 2020 (FL20200428SOM)",
+  "description": "UNOSAT geodata for Flood, Somalia, 28 April 2020 (FL20200428SOM), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20200428SOM**  This map illustrates the flood-affected sectors of Beletweyne town in Hiiran Region, Somalia  as detected from the analysis of a satellite Worldview-2 images acquired on the 13 May 2020. Belet Weyne is heavily affected by floods and about 50% of the town and its vicinity is largely inundated; the sectors called Kutimbo, Radar, and Lamagalay Regional Military Base appear to be the most affected by floodwaters as of 13 May 2020. More than 110 IDP sites are located inside of the town and 25% of them are located within the completely flooded areas. This is a preliminary analysis and has not been validated in the field yet. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Satellite detected water & IDP distribution over  Belet Weyne Town](https://data.humdata.org/dataset/satellite-detected-water-idp-distribution-over-belet-weyne-town-as-of-13-may-2020)\n- [Satellite detected water over  Belet Weyne Town](https://data.humdata.org/dataset/satellite-detected-water-over-belet-weyne-town-as-of-16-may-2020)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200428som-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Somalia, 28 April 2020 (FL20200428SOM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20200428som-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Somalia, 28 April 2020 (FL20200428SOM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200428som/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

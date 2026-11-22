@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2015/fl20150730vnm",
+  "stac_version": "1.1.0",
+  "title": "Flood, Viet Nam, 30 July 2015 (FL20150730VNM)",
+  "description": "UNOSAT geodata for Flood, Viet Nam, 30 July 2015 (FL20150730VNM), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:\n\nThis map provides an overview of satellite detected waters along the coastline of Quang Ninh Province, northern Vietnam. Due to continuous rainfall, a notable increase in inundated areas occurred within this region. Using satellite imagery acquired 02 August 2015 and 28 March 2015, UNITAR-UNOSAT identified approximately 4,731 hectares of flood affected land within the analyzed extent. Several flooded areas are in close proximity to Ha Long Bay, a UNESCO World Heritage Site. This is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Geodata of Overview of Flood Waters Along Northern  Coast, Quang Ninh Province, Vietnam](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-along-northern-coast-quang-ninh-province-august-05-2015)\n- [Geodata of Overview of Flood Waters Near Ha Long City, Quang Ninh Province, Vietnam](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-near-ha-long-city-quang-ninh-province-vie-august-04-2015)\n- [Geodata of Overview of Flood Waters Near Hai Phong City, Vietnam](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-near-hai-phong-city-vietnam-august-03-2015)\n- [Geodata of Overview of Flood Waters in Hai Phong Province, Vietnam](https://data.humdata.org/dataset/geodata-of-overview-of-flood-waters-in-hai-phong-province-vietnam-august-06-2015)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150730vnm-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Viet Nam, 30 July 2015 (FL20150730VNM)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20150730vnm-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Viet Nam, 30 July 2015 (FL20150730VNM)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150730vnm/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

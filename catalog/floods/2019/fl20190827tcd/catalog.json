@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2019/fl20190827tcd",
+  "stac_version": "1.1.0",
+  "title": "Flood, Chad, 27 August 2019 (FL20190827TCD)",
+  "description": "UNOSAT geodata for Flood, Chad, 27 August 2019 (FL20190827TCD), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20190827TCD**  Cette carte illustre l'étendue des eaux de surface détectées par satellite (Landsat 8, image comprenant des données du 23 au 27 Août 2019) à Fada et alentours. Dans la zone analysée d'environs 20,000 ha,quelques centaines de personnes vivent en proximité des1,500 ha d'eau de surface détectées entre le 23 et le 27 Août2019. Ceci est une analyse préliminaire qui n'a pas été validée sur le terrain. Merci d'envoyer vos commentaires à UNITAR-UNOSAT.\n\nHDX datasets:\n\n- [Eaux de surface détectées par satellite à Fada et alentours, Tchad](https://data.humdata.org/dataset/eaux-de-surface-detectees-par-satellite-a-fada-et-alentours-tchad)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190827tcd-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Chad, 27 August 2019 (FL20190827TCD)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20190827tcd-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Chad, 27 August 2019 (FL20190827TCD)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190827tcd/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

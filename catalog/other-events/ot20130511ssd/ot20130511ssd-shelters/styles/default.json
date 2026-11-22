@@ -1,0 +1,52 @@
+{
+  "version": 8,
+  "name": "Shelters by CampType",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ot20130511ssd-shelters.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "shelters",
+      "id": "shelters-points",
+      "type": "circle",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "CampType"
+            ]
+          ],
+          "2",
+          "#1b9e77",
+          "1",
+          "#d95f02",
+          "#bdbdbd"
+        ],
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          1.5,
+          12,
+          3,
+          16,
+          6
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.3
+      }
+    }
+  ]
+}

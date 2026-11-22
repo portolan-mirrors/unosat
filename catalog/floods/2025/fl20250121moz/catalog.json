@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2025/fl20250121moz",
+  "stac_version": "1.1.0",
+  "title": "Flood, Mozambique, 21 January 2025 (FL20250121MOZ)",
+  "description": "UNOSAT geodata for Flood, Mozambique, 21 January 2025 (FL20250121MOZ), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20250121MOZ**  Este mapa ilustra a água detectada por satélite nos Distritos de Mossuril e Ilha de Moçambique, Província de Nampula, usando imagens satélite tirada no dia 18 de janeiro de 2025 às 09:34, horário local. Dentro da área analisada de aproximadamente 4.600 km², estima-se que 60 km² de terra tenham sido afetados pelas águas das enchentes. Com base nos dados demográficos espaciais do WorldPop, aproximadamente 9.000 pessoas estão expostas ou morando perto das áreas inundadas.\nEssa é uma análise preliminar e ainda não foi validada em campo. Envie comentários sobre o solo para o Centro de Satélites das Nações Unidas (UNOSAT).\n\nHDX datasets:\n\n- [Extensão de água detectada por satélite nos Distritos de Mossuril e Ilha de Moçambique, Província de Nampula, Moçambique, no dia 18 de janeiro de 2025](https://data.humdata.org/dataset/extensao-de-agua-detectada-por-satelite-nos-distritos-de-mossuril-e-ilha-de-mocambique-pro)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250121moz-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Mozambique, 21 January 2025 (FL20250121MOZ)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20250121moz-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Mozambique, 21 January 2025 (FL20250121MOZ)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250121moz/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

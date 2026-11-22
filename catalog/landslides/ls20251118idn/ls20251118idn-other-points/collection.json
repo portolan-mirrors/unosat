@@ -1,0 +1,219 @@
+{
+  "type": "Collection",
+  "id": "landslides/ls20251118idn/ls20251118idn-other-points",
+  "stac_version": "1.1.0",
+  "description": "Other points for Landslide, Indonesia, 18 November 2025 (LS20251118IDN): 8,529 features merged from 6 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.\n\nFrom these HDX datasets:\n\n- [Landslide impact analysis in Majenang Sub-district, Cilacap District, Jawa Tengah Province, Indonesia as of 18 November 2025](https://data.humdata.org/dataset/landslide-impact-analysis-in-majenang-sub-district-cilacap-district-jawa-tengah-province-i)\n- [Landslide impact analysis in Pandanarum Sub-district, Banjarnegara Regency, Jawa Tengah Province, Indonesia as of 18 & 19 November 2025](https://data.humdata.org/dataset/landslide-impact-analysis-in-pandanarum-sub-district-banjarnegara-regency-jawa-tengah-prov)\n- [UNOSAT Live web map - Landslides in Central Java, Indonesia](https://data.humdata.org/dataset/unosat-live-web-map-landslides-in-central-java-indonesia)\n\nRead [AGENTS.md](AGENTS.md) for the columns and query recipes.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://opendefinition.org/licenses/cc-by-sa/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/landslide-impact-analysis-in-majenang-sub-district-cilacap-district-jawa-tengah-province-i",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "./ls20251118idn-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "pmtiles:layers": [
+        "other-points"
+      ]
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-other-points/collection.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "updated": "2026-11-22T09:28:59Z",
+  "pmtiles:min_zoom": 0,
+  "pmtiles:max_zoom": 13,
+  "pmtiles:tile_type": "mvt",
+  "pmtiles:center": [
+    109.1705924,
+    -7.2779912,
+    6
+  ],
+  "pmtiles:layers": [
+    "other-points"
+  ],
+  "geoparquet:geometry_type": [
+    "MultiPoint"
+  ],
+  "geoparquet:feature_count": 8529,
+  "table:row_count": 8529,
+  "table:primary_geometry": "geometry",
+  "table:columns": [
+    {
+      "name": "OBJECTID",
+      "type": "int64"
+    },
+    {
+      "name": "osm_id",
+      "type": "string"
+    },
+    {
+      "name": "code",
+      "type": "int16"
+    },
+    {
+      "name": "fclass",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "ORIG_FID",
+      "type": "int32"
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Feature geometry, as UNOSAT published it (not repaired)."
+    },
+    {
+      "name": "source_layer",
+      "type": "string",
+      "description": "Name of the layer in the source file that this row came from."
+    },
+    {
+      "name": "source_file",
+      "type": "string",
+      "description": "Name of the file downloaded from HDX that this row came from."
+    },
+    {
+      "name": "bbox",
+      "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>",
+      "description": "Bounding box of the geometry (xmin, ymin, xmax, ymax), added for spatial filtering."
+    }
+  ],
+  "title": "Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          108.72972740009948,
+          -7.297709553253242,
+          109.61145744970162,
+          -7.258272999998894
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-11-20T00:00:00Z",
+          "2025-11-24T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "United Nations Satellite Centre (UNOSAT), UNITAR",
+      "description": "Produced the satellite-derived geodata and published it on the Humanitarian Data Exchange.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://unosat.org"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the GeoParquet and PMTiles copies, STAC metadata, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/unosat"
+    }
+  ],
+  "assets": {
+    "ls20251118idn-other-points": {
+      "href": "./ls20251118idn-other-points.parquet",
+      "type": "application/vnd.apache.parquet",
+      "file:size": 119997,
+      "file:checksum": "1220dc2b0b784914e53359bf0a8c9f3fd56b9c183f58742f0146ed2e3f26b4f524df",
+      "roles": [
+        "data"
+      ]
+    },
+    "ls20251118idn-other-points-tiles": {
+      "href": "./ls20251118idn-other-points.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "file:size": 109446,
+      "file:checksum": "122021c91a25d65639d5a102759ab57f3e231c58af3d05042d0d0983963f7bc201c0",
+      "roles": [
+        "visual"
+      ]
+    },
+    "styles/default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "roles": [
+        "style",
+        "default"
+      ],
+      "title": "Other points",
+      "file:size": 695,
+      "file:checksum": "1220ab8042f3cb1e4aed0a8ba82ee72048f2c84ed838e42f5cb76821eb03a1f5533f"
+    }
+  }
+}

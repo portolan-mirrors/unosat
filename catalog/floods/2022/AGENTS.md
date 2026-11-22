@@ -1,0 +1,25 @@
+# floods/2022: agent guide
+
+Each child below is one UNOSAT event. The [root agent guide](../../AGENTS.md) explains the layout.
+
+- [`fl20220119ssd`](fl20220119ssd/AGENTS.md)
+- [`fl20220119stp`](fl20220119stp/AGENTS.md)
+- [`fl20220314ssd`](fl20220314ssd/AGENTS.md)
+- [`fl20220418zaf`](fl20220418zaf/AGENTS.md)
+- [`fl20220424ssd`](fl20220424ssd/AGENTS.md)
+- [`fl20220525bgd`](fl20220525bgd/AGENTS.md)
+- [`fl20220526guy`](fl20220526guy/AGENTS.md)
+- [`fl20220627geo`](fl20220627geo/AGENTS.md)
+- [`fl20220721nga`](fl20220721nga/AGENTS.md)
+- [`fl20220728ner`](fl20220728ner/AGENTS.md)
+- [`fl20220801gmb`](fl20220801gmb/AGENTS.md)
+- [`fl20220803uga`](fl20220803uga/AGENTS.md)
+- [`fl20220808pak`](fl20220808pak/AGENTS.md)
+- [`fl20220816sdn`](fl20220816sdn/AGENTS.md)
+- [`fl20221004ner`](fl20221004ner/AGENTS.md)
+- [`fl20221014vnm`](fl20221014vnm/AGENTS.md)
+- [`fl20221019nga`](fl20221019nga/AGENTS.md)
+- [`fl20221019tcd`](fl20221019tcd/AGENTS.md)
+- [`fl20221117npl`](fl20221117npl/AGENTS.md)
+- [`fl20221121pak`](fl20221121pak/AGENTS.md)
+- [`fl20221125cod`](fl20221125cod/AGENTS.md)

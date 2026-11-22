@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2022/fl20220627geo",
+  "stac_version": "1.1.0",
+  "title": "Flood, Georgia, 27 June 2022 (FL20220627GEO)",
+  "description": "UNOSAT geodata for Flood, Georgia, 27 June 2022 (FL20220627GEO), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20220627GEO**  This map illustrates satellite-detected surface waters in Samegrelo-Zemo Svaneti and Imereti Regions, Georgia as observed from a Sentinel-1 image acquired on 23 Jun 2022 at 19:11 local time. Within the analyzed area of about 2,500 km2, about 50 km2 of lands appear to be flooded.\nBased on Worldpop population data and the detected surface waters, about 1,600 people are potentially exposed or living close to flooded areas.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to United Nations Satellite Centre (UNOSAT).\nImportant note: Flood analysis from radar images may underestimate the presence of standing waters in built-up areas and densely vegetated areas due to backscattering properties of the radar signal.\n\nHDX datasets:\n\n- [Satellite detected water extent over Samegrelo-Zemo Svaneti and Imereti Regions, Georgia as of 23 Jun 2022.](https://data.humdata.org/dataset/water-extent-over-samegrelo-zemo-svaneti-and-imereti-regions-georgia-as-of-23-jun-2022)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220627geo-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Georgia, 27 June 2022 (FL20220627GEO)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20220627geo-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Georgia, 27 June 2022 (FL20220627GEO)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220627geo/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}

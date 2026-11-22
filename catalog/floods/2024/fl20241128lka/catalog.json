@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "floods/2024/fl20241128lka",
+  "stac_version": "1.1.0",
+  "title": "Flood, Sri Lanka, 28 November 2024 (FL20241128LKA)",
+  "description": "UNOSAT geodata for Flood, Sri Lanka, 28 November 2024 (FL20241128LKA), from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:\n\n**UNOSAT code: FL20241128LKA**  This map illustrates cumulative satellite-detected water extent from multiple satellites in the Jaffna District, Northern Province, Sri Lanka from 3 to 10 December 2024. Within the cloud-free analysed area of approximately 760 km², an estimated 84 km² of land is observed to be affected by floodwaters, with around 43 km² of cropland\nBased on WorldPop spatial demographic data, approximately 2,400 people are exposed to or living near the flooded areas. Additionally, 3,400 buildings have been identified as potentially affected.\nThis is a preliminary analysis and has not yet been validated in the field. Please send ground feedback to the United Nations Satellite Centre (UNOSAT).\n\nHDX datasets:\n\n- [Satellite detected water extents from 3 to 10 December 2024 in the Jaffna District, Northern Province, Sri Lanka](https://data.humdata.org/dataset/water-extents-from-3-to-10-december-2024-in-the-jaffna-district-northern-province-sri-lank)\n\nRead [AGENTS.md](AGENTS.md) for how the collections were built.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20241128lka-analysis-extent/collection.json",
+      "type": "application/json",
+      "title": "Analysis extent: Flood, Sri Lanka, 28 November 2024 (FL20241128LKA)"
+    },
+    {
+      "rel": "child",
+      "href": "./fl20241128lka-water-extent/collection.json",
+      "type": "application/json",
+      "title": "Water extent: Flood, Sri Lanka, 28 November 2024 (FL20241128LKA)"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241128lka/catalog.json",
+      "type": "text/html",
+      "title": "Open in data browser"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/portolan-mirrors/unosat/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    },
+    {
+      "rel": "about",
+      "href": "https://source.coop/portolan-mirrors/unosat",
+      "type": "text/html",
+      "title": "Hosting repository"
+    }
+  ],
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ]
+}
