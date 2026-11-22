@@ -19,11 +19,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2022/eq20220622afg/eq20220622afg-analysis-extent](eq20220622afg/earthquakes/2022/eq20220622afg/eq20220622afg-analysis-extent/)
+### [eq20220622afg-analysis-extent](eq20220622afg-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-analysis-extent/collection.json)
 
-### [earthquakes/2022/eq20220622afg/eq20220622afg-damage-sites](eq20220622afg/earthquakes/2022/eq20220622afg/eq20220622afg-damage-sites/)
+### [eq20220622afg-damage-sites](eq20220622afg-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-damage-sites/collection.json)
 
-### [earthquakes/2022/eq20220622afg/eq20220622afg-shelters](eq20220622afg/earthquakes/2022/eq20220622afg/eq20220622afg-shelters/)
+### [eq20220622afg-shelters](eq20220622afg-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-shelters/collection.json)
 
 ## Coverage
 

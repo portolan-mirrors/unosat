@@ -13,9 +13,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857](population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857/)
+### [population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857](population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857/collection.json)
 
-### [no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326](population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326/)
+### [population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326](population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326/collection.json)
 
 ## Coverage
 

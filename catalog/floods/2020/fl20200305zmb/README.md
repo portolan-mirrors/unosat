@@ -18,11 +18,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2020/fl20200305zmb/fl20200305zmb-analysis-extent](fl20200305zmb/floods/2020/fl20200305zmb/fl20200305zmb-analysis-extent/)
+### [fl20200305zmb-analysis-extent](fl20200305zmb-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200305zmb/fl20200305zmb-analysis-extent/collection.json)
 
-### [floods/2020/fl20200305zmb/fl20200305zmb-damage-sites](fl20200305zmb/floods/2020/fl20200305zmb/fl20200305zmb-damage-sites/)
+### [fl20200305zmb-damage-sites](fl20200305zmb-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200305zmb/fl20200305zmb-damage-sites/collection.json)
 
-### [floods/2020/fl20200305zmb/fl20200305zmb-water-extent](fl20200305zmb/floods/2020/fl20200305zmb/fl20200305zmb-water-extent/)
+### [fl20200305zmb-water-extent](fl20200305zmb-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200305zmb/fl20200305zmb-water-extent/collection.json)
 
 ## Coverage
 

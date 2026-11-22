@@ -22,15 +22,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_32758](tc20200403vut/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_32758/)
+### [tc20200403vut-analysis-extent-epsg_32758](tc20200403vut-analysis-extent-epsg_32758/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_32758/collection.json)
 
-### [tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_4326](tc20200403vut/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_4326/)
+### [tc20200403vut-analysis-extent-epsg_4326](tc20200403vut-analysis-extent-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_4326/collection.json)
 
-### [tropical-cyclones/2020/tc20200403vut/tc20200403vut-damage-sites](tc20200403vut/tropical-cyclones/2020/tc20200403vut/tc20200403vut-damage-sites/)
+### [tc20200403vut-damage-sites](tc20200403vut-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-damage-sites/collection.json)
 
-### [tropical-cyclones/2020/tc20200403vut/tc20200403vut-other-polygons](tc20200403vut/tropical-cyclones/2020/tc20200403vut/tc20200403vut-other-polygons/)
+### [tc20200403vut-other-polygons](tc20200403vut-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-other-polygons/collection.json)
 
-### [tropical-cyclones/2020/tc20200403vut/tc20200403vut-water-extent-lines](tc20200403vut/tropical-cyclones/2020/tc20200403vut/tc20200403vut-water-extent-lines/)
+### [tc20200403vut-water-extent-lines](tc20200403vut-water-extent-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-water-extent-lines/collection.json)
 
 ## Coverage
 

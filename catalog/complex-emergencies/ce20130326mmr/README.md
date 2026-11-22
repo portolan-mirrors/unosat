@@ -19,15 +19,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_32646](ce20130326mmr/complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_32646/)
+### [ce20130326mmr-analysis-extent-epsg_32646](ce20130326mmr-analysis-extent-epsg_32646/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_32646/collection.json)
 
-### [complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_4326](ce20130326mmr/complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_4326/)
+### [ce20130326mmr-analysis-extent-epsg_4326](ce20130326mmr-analysis-extent-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_4326/collection.json)
 
-### [complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_32646](ce20130326mmr/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_32646/)
+### [ce20130326mmr-damage-areas-epsg_32646](ce20130326mmr-damage-areas-epsg_32646/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_32646/collection.json)
 
-### [complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_4326](ce20130326mmr/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_4326/)
+### [ce20130326mmr-damage-areas-epsg_4326](ce20130326mmr-damage-areas-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_4326/collection.json)
 
-### [complex-emergencies/ce20130326mmr/ce20130326mmr-damage-sites](ce20130326mmr/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-sites/)
+### [ce20130326mmr-damage-sites](ce20130326mmr-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-sites/collection.json)
 
 ## Coverage
 

@@ -27,15 +27,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2023/eq20230206syr/eq20230206syr-analysis-extent](eq20230206syr/earthquakes/2023/eq20230206syr/eq20230206syr-analysis-extent/)
+### [eq20230206syr-analysis-extent](eq20230206syr-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-analysis-extent/collection.json)
 
-### [earthquakes/2023/eq20230206syr/eq20230206syr-damage-areas](eq20230206syr/earthquakes/2023/eq20230206syr/eq20230206syr-damage-areas/)
+### [eq20230206syr-damage-areas](eq20230206syr-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-damage-areas/collection.json)
 
-### [earthquakes/2023/eq20230206syr/eq20230206syr-damage-lines](eq20230206syr/earthquakes/2023/eq20230206syr/eq20230206syr-damage-lines/)
+### [eq20230206syr-damage-lines](eq20230206syr-damage-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-damage-lines/collection.json)
 
-### [earthquakes/2023/eq20230206syr/eq20230206syr-damage-sites](eq20230206syr/earthquakes/2023/eq20230206syr/eq20230206syr-damage-sites/)
+### [eq20230206syr-damage-sites](eq20230206syr-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-damage-sites/collection.json)
 
-### [earthquakes/2023/eq20230206syr/eq20230206syr-water-extent](eq20230206syr/earthquakes/2023/eq20230206syr/eq20230206syr-water-extent/)
+### [eq20230206syr-water-extent](eq20230206syr-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-water-extent/collection.json)
 
 ## Coverage
 

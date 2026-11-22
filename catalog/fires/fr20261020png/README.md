@@ -14,7 +14,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [fires/fr20261020png/fr20261020png-damage-areas](fr20261020png/fires/fr20261020png/fr20261020png-damage-areas/)
+### [fr20261020png-damage-areas](fr20261020png-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20261020png/fr20261020png-damage-areas/collection.json)
 
 ## Coverage
 

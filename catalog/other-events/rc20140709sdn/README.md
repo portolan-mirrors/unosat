@@ -15,11 +15,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [other-events/rc20140709sdn/rc20140709sdn-other-lines](rc20140709sdn/other-events/rc20140709sdn/rc20140709sdn-other-lines/)
+### [rc20140709sdn-other-lines](rc20140709sdn-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-other-lines/collection.json)
 
-### [other-events/rc20140709sdn/rc20140709sdn-shelter-areas](rc20140709sdn/other-events/rc20140709sdn/rc20140709sdn-shelter-areas/)
+### [rc20140709sdn-shelter-areas](rc20140709sdn-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-shelter-areas/collection.json)
 
-### [other-events/rc20140709sdn/rc20140709sdn-shelters](rc20140709sdn/other-events/rc20140709sdn/rc20140709sdn-shelters/)
+### [rc20140709sdn-shelters](rc20140709sdn-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-shelters/collection.json)
 
 ## Coverage
 

@@ -13,13 +13,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2018/tc20180209ton/tc20180209ton-analysis-extent](tc20180209ton/tropical-cyclones/2018/tc20180209ton/tc20180209ton-analysis-extent/)
+### [tc20180209ton-analysis-extent](tc20180209ton-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-analysis-extent/collection.json)
 
-### [tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas](tc20180209ton/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/)
+### [tc20180209ton-damage-areas](tc20180209ton-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/collection.json)
 
-### [tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-sites](tc20180209ton/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-sites/)
+### [tc20180209ton-damage-sites](tc20180209ton-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-sites/collection.json)
 
-### [tropical-cyclones/2018/tc20180209ton/tc20180209ton-other-polygons](tc20180209ton/tropical-cyclones/2018/tc20180209ton/tc20180209ton-other-polygons/)
+### [tc20180209ton-other-polygons](tc20180209ton-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-other-polygons/collection.json)
 
 ## Coverage
 

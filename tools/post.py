@@ -126,6 +126,18 @@ def readme_nav():
         lines = [l for l in readme.read_text().splitlines() if not l.startswith(mark)]
         i = next((k for k, l in enumerate(lines) if l.startswith("# ")), -1)
         lines[i + 1:i + 1] = ["", line] if i + 1 < len(lines) and lines[i + 1].strip() else [line]
+        # portolan readme links a child by its collection id, which is the full
+        # catalog path, so the relative link is wrong. Link the child's own
+        # directory and its data browser page instead.
+        rel_dir = d.relative_to(CATALOG).as_posix()
+        for k, l in enumerate(lines):
+            m = re.match(r"^### \[([^\]]+)\]\(([^)]*)\)\s*$", l)
+            if m:
+                child = m.group(1).rstrip("/").split("/")[-1]
+                cj = d / child / ("collection.json" if (d / child / "collection.json").exists() else "catalog.json")
+                if cj.exists():
+                    cpub = f"{PUBLIC}/{(rel_dir + '/' if rel_dir != '.' else '')}{child}/{cj.name}"
+                    lines[k] = f"### [{child}]({child}/README.md) · [data browser]({browser_url(cpub)})"
         text = "\n".join(lines)
         text = re.sub(r"\n{3,}", "\n\n", text) + "\n"
         readme.write_text(text)

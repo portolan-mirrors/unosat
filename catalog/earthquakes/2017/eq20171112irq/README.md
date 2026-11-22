@@ -16,13 +16,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2017/eq20171112irq/eq20171112irq-damage-sites](eq20171112irq/earthquakes/2017/eq20171112irq/eq20171112irq-damage-sites/)
+### [eq20171112irq-damage-sites](eq20171112irq-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-damage-sites/collection.json)
 
-### [earthquakes/2017/eq20171112irq/eq20171112irq-other-polygons](eq20171112irq/earthquakes/2017/eq20171112irq/eq20171112irq-other-polygons/)
+### [eq20171112irq-other-polygons](eq20171112irq-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-other-polygons/collection.json)
 
-### [earthquakes/2017/eq20171112irq/eq20171112irq-shelter-areas](eq20171112irq/earthquakes/2017/eq20171112irq/eq20171112irq-shelter-areas/)
+### [eq20171112irq-shelter-areas](eq20171112irq-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-shelter-areas/collection.json)
 
-### [earthquakes/2017/eq20171112irq/eq20171112irq-shelters](eq20171112irq/earthquakes/2017/eq20171112irq/eq20171112irq-shelters/)
+### [eq20171112irq-shelters](eq20171112irq-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-shelters/collection.json)
 
 ## Coverage
 

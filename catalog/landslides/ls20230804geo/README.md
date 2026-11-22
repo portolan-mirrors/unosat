@@ -15,13 +15,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20230804geo/ls20230804geo-damage-areas](ls20230804geo/landslides/ls20230804geo/ls20230804geo-damage-areas/)
+### [ls20230804geo-damage-areas](ls20230804geo-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-damage-areas/collection.json)
 
-### [landslides/ls20230804geo/ls20230804geo-damage-sites](ls20230804geo/landslides/ls20230804geo/ls20230804geo-damage-sites/)
+### [ls20230804geo-damage-sites](ls20230804geo-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-damage-sites/collection.json)
 
-### [landslides/ls20230804geo/ls20230804geo-other-lines](ls20230804geo/landslides/ls20230804geo/ls20230804geo-other-lines/)
+### [ls20230804geo-other-lines](ls20230804geo-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-other-lines/collection.json)
 
-### [landslides/ls20230804geo/ls20230804geo-other-polygons](ls20230804geo/landslides/ls20230804geo/ls20230804geo-other-polygons/)
+### [ls20230804geo-other-polygons](ls20230804geo-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-other-polygons/collection.json)
 
 ## Coverage
 

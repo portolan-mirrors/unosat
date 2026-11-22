@@ -13,11 +13,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2017/fl20170418irn/fl20170418irn-analysis-extent](fl20170418irn/floods/2017/fl20170418irn/fl20170418irn-analysis-extent/)
+### [fl20170418irn-analysis-extent](fl20170418irn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-analysis-extent/collection.json)
 
-### [floods/2017/fl20170418irn/fl20170418irn-other-polygons](fl20170418irn/floods/2017/fl20170418irn/fl20170418irn-other-polygons/)
+### [fl20170418irn-other-polygons](fl20170418irn-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-other-polygons/collection.json)
 
-### [floods/2017/fl20170418irn/fl20170418irn-water-extent](fl20170418irn/floods/2017/fl20170418irn/fl20170418irn-water-extent/)
+### [fl20170418irn-water-extent](fl20170418irn-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-water-extent/collection.json)
 
 ## Coverage
 

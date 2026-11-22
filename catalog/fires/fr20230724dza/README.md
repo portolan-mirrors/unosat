@@ -20,13 +20,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [fires/fr20230724dza/fr20230724dza-analysis-extent](fr20230724dza/fires/fr20230724dza/fr20230724dza-analysis-extent/)
+### [fr20230724dza-analysis-extent](fr20230724dza-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-analysis-extent/collection.json)
 
-### [fires/fr20230724dza/fr20230724dza-damage-areas](fr20230724dza/fires/fr20230724dza/fr20230724dza-damage-areas/)
+### [fr20230724dza-damage-areas](fr20230724dza-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-damage-areas/collection.json)
 
-### [fires/fr20230724dza/fr20230724dza-damage-sites](fr20230724dza/fires/fr20230724dza/fr20230724dza-damage-sites/)
+### [fr20230724dza-damage-sites](fr20230724dza-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-damage-sites/collection.json)
 
-### [fires/fr20230724dza/fr20230724dza-other-polygons](fr20230724dza/fires/fr20230724dza/fr20230724dza-other-polygons/)
+### [fr20230724dza-other-polygons](fr20230724dza-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-other-polygons/collection.json)
 
 ## Coverage
 

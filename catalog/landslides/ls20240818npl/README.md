@@ -14,11 +14,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20240818npl/ls20240818npl-analysis-extent](ls20240818npl/landslides/ls20240818npl/ls20240818npl-analysis-extent/)
+### [ls20240818npl-analysis-extent](ls20240818npl-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-analysis-extent/collection.json)
 
-### [landslides/ls20240818npl/ls20240818npl-damage-areas](ls20240818npl/landslides/ls20240818npl/ls20240818npl-damage-areas/)
+### [ls20240818npl-damage-areas](ls20240818npl-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-damage-areas/collection.json)
 
-### [landslides/ls20240818npl/ls20240818npl-other-lines](ls20240818npl/landslides/ls20240818npl/ls20240818npl-other-lines/)
+### [ls20240818npl-other-lines](ls20240818npl-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-other-lines/collection.json)
 
 ## Coverage
 

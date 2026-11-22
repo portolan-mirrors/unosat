@@ -15,11 +15,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [fires/fr20250707syr/fr20250707syr-analysis-extent](fr20250707syr/fires/fr20250707syr/fr20250707syr-analysis-extent/)
+### [fr20250707syr-analysis-extent](fr20250707syr-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-analysis-extent/collection.json)
 
-### [fires/fr20250707syr/fr20250707syr-damage-areas](fr20250707syr/fires/fr20250707syr/fr20250707syr-damage-areas/)
+### [fr20250707syr-damage-areas](fr20250707syr-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-damage-areas/collection.json)
 
-### [fires/fr20250707syr/fr20250707syr-damage-sites](fr20250707syr/fires/fr20250707syr/fr20250707syr-damage-sites/)
+### [fr20250707syr-damage-sites](fr20250707syr-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-damage-sites/collection.json)
 
 ## Coverage
 

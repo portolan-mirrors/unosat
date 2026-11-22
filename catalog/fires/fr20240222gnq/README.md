@@ -14,13 +14,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [fires/fr20240222gnq/fr20240222gnq-analysis-extent](fr20240222gnq/fires/fr20240222gnq/fr20240222gnq-analysis-extent/)
+### [fr20240222gnq-analysis-extent](fr20240222gnq-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-analysis-extent/collection.json)
 
-### [fires/fr20240222gnq/fr20240222gnq-damage-areas](fr20240222gnq/fires/fr20240222gnq/fr20240222gnq-damage-areas/)
+### [fr20240222gnq-damage-areas](fr20240222gnq-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-damage-areas/collection.json)
 
-### [fires/fr20240222gnq/fr20240222gnq-damage-sites](fr20240222gnq/fires/fr20240222gnq/fr20240222gnq-damage-sites/)
+### [fr20240222gnq-damage-sites](fr20240222gnq-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-damage-sites/collection.json)
 
-### [fires/fr20240222gnq/fr20240222gnq-other-polygons](fr20240222gnq/fires/fr20240222gnq/fr20240222gnq-other-polygons/)
+### [fr20240222gnq-other-polygons](fr20240222gnq-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-other-polygons/collection.json)
 
 ## Coverage
 

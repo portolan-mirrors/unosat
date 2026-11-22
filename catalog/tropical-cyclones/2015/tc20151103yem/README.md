@@ -14,9 +14,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2015/tc20151103yem/tc20151103yem-analysis-extent](tc20151103yem/tropical-cyclones/2015/tc20151103yem/tc20151103yem-analysis-extent/)
+### [tc20151103yem-analysis-extent](tc20151103yem-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2015/tc20151103yem/tc20151103yem-analysis-extent/collection.json)
 
-### [tropical-cyclones/2015/tc20151103yem/tc20151103yem-damage-sites](tc20151103yem/tropical-cyclones/2015/tc20151103yem/tc20151103yem-damage-sites/)
+### [tc20151103yem-damage-sites](tc20151103yem-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2015/tc20151103yem/tc20151103yem-damage-sites/collection.json)
 
 ## Coverage
 

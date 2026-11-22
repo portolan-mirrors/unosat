@@ -26,15 +26,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2024/fl20240426ken/fl20240426ken-analysis-extent](fl20240426ken/floods/2024/fl20240426ken/fl20240426ken-analysis-extent/)
+### [fl20240426ken-analysis-extent](fl20240426ken-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-analysis-extent/collection.json)
 
-### [floods/2024/fl20240426ken/fl20240426ken-damage-areas](fl20240426ken/floods/2024/fl20240426ken/fl20240426ken-damage-areas/)
+### [fl20240426ken-damage-areas](fl20240426ken-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-damage-areas/collection.json)
 
-### [floods/2024/fl20240426ken/fl20240426ken-damage-sites](fl20240426ken/floods/2024/fl20240426ken/fl20240426ken-damage-sites/)
+### [fl20240426ken-damage-sites](fl20240426ken-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-damage-sites/collection.json)
 
-### [floods/2024/fl20240426ken/fl20240426ken-other-lines](fl20240426ken/floods/2024/fl20240426ken/fl20240426ken-other-lines/)
+### [fl20240426ken-other-lines](fl20240426ken-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-other-lines/collection.json)
 
-### [floods/2024/fl20240426ken/fl20240426ken-water-extent](fl20240426ken/floods/2024/fl20240426ken/fl20240426ken-water-extent/)
+### [fl20240426ken-water-extent](fl20240426ken-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-water-extent/collection.json)
 
 ## Coverage
 

@@ -26,13 +26,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2017/eq20170919mex/eq20170919mex-analysis-extent](eq20170919mex/earthquakes/2017/eq20170919mex/eq20170919mex-analysis-extent/)
+### [eq20170919mex-analysis-extent](eq20170919mex-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-analysis-extent/collection.json)
 
-### [earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas](eq20170919mex/earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/)
+### [eq20170919mex-damage-areas](eq20170919mex-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/collection.json)
 
-### [earthquakes/2017/eq20170919mex/eq20170919mex-damage-sites](eq20170919mex/earthquakes/2017/eq20170919mex/eq20170919mex-damage-sites/)
+### [eq20170919mex-damage-sites](eq20170919mex-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-damage-sites/collection.json)
 
-### [earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons](eq20170919mex/earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/)
+### [eq20170919mex-other-polygons](eq20170919mex-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/collection.json)
 
 ## Coverage
 

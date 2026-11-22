@@ -29,9 +29,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-analysis-extent](tc20190324zwe/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-analysis-extent/)
+### [tc20190324zwe-analysis-extent](tc20190324zwe-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-analysis-extent/collection.json)
 
-### [tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-water-extent](tc20190324zwe/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-water-extent/)
+### [tc20190324zwe-water-extent](tc20190324zwe-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-water-extent/collection.json)
 
 ## Coverage
 

@@ -17,11 +17,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2024/fl20240812lby/fl20240812lby-analysis-extent](fl20240812lby/floods/2024/fl20240812lby/fl20240812lby-analysis-extent/)
+### [fl20240812lby-analysis-extent](fl20240812lby-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812lby/fl20240812lby-analysis-extent/collection.json)
 
-### [floods/2024/fl20240812lby/fl20240812lby-damage-sites](fl20240812lby/floods/2024/fl20240812lby/fl20240812lby-damage-sites/)
+### [fl20240812lby-damage-sites](fl20240812lby-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812lby/fl20240812lby-damage-sites/collection.json)
 
-### [floods/2024/fl20240812lby/fl20240812lby-water-extent](fl20240812lby/floods/2024/fl20240812lby/fl20240812lby-water-extent/)
+### [fl20240812lby-water-extent](fl20240812lby-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812lby/fl20240812lby-water-extent/collection.json)
 
 ## Coverage
 

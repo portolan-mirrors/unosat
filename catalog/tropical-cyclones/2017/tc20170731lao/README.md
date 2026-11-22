@@ -17,9 +17,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2017/tc20170731lao/tc20170731lao-analysis-extent](tc20170731lao/tropical-cyclones/2017/tc20170731lao/tc20170731lao-analysis-extent/)
+### [tc20170731lao-analysis-extent](tc20170731lao-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170731lao/tc20170731lao-analysis-extent/collection.json)
 
-### [tropical-cyclones/2017/tc20170731lao/tc20170731lao-water-extent](tc20170731lao/tropical-cyclones/2017/tc20170731lao/tc20170731lao-water-extent/)
+### [tc20170731lao-water-extent](tc20170731lao-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170731lao/tc20170731lao-water-extent/collection.json)
 
 ## Coverage
 

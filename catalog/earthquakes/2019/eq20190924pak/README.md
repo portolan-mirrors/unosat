@@ -15,11 +15,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2019/eq20190924pak/eq20190924pak-analysis-extent](eq20190924pak/earthquakes/2019/eq20190924pak/eq20190924pak-analysis-extent/)
+### [eq20190924pak-analysis-extent](eq20190924pak-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-analysis-extent/collection.json)
 
-### [earthquakes/2019/eq20190924pak/eq20190924pak-damage-sites](eq20190924pak/earthquakes/2019/eq20190924pak/eq20190924pak-damage-sites/)
+### [eq20190924pak-damage-sites](eq20190924pak-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-damage-sites/collection.json)
 
-### [earthquakes/2019/eq20190924pak/eq20190924pak-other-lines](eq20190924pak/earthquakes/2019/eq20190924pak/eq20190924pak-other-lines/)
+### [eq20190924pak-other-lines](eq20190924pak-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-other-lines/collection.json)
 
 ## Coverage
 

@@ -17,11 +17,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2023/tc20231206slb/tc20231206slb-analysis-extent](tc20231206slb/tropical-cyclones/2023/tc20231206slb/tc20231206slb-analysis-extent/)
+### [tc20231206slb-analysis-extent](tc20231206slb-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-analysis-extent/collection.json)
 
-### [tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-areas](tc20231206slb/tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-areas/)
+### [tc20231206slb-damage-areas](tc20231206slb-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-areas/collection.json)
 
-### [tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-sites](tc20231206slb/tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-sites/)
+### [tc20231206slb-damage-sites](tc20231206slb-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-sites/collection.json)
 
 ## Coverage
 

@@ -20,11 +20,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2014/tc20141204phl/tc20141204phl-analysis-extent](tc20141204phl/tropical-cyclones/2014/tc20141204phl/tc20141204phl-analysis-extent/)
+### [tc20141204phl-analysis-extent](tc20141204phl-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-analysis-extent/collection.json)
 
-### [tropical-cyclones/2014/tc20141204phl/tc20141204phl-damage-sites](tc20141204phl/tropical-cyclones/2014/tc20141204phl/tc20141204phl-damage-sites/)
+### [tc20141204phl-damage-sites](tc20141204phl-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-damage-sites/collection.json)
 
-### [tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent](tc20141204phl/tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/)
+### [tc20141204phl-water-extent](tc20141204phl-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/collection.json)
 
 ## Coverage
 

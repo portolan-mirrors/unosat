@@ -18,9 +18,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [other-events/ot20151123idn/ot20151123idn-analysis-extent](ot20151123idn/other-events/ot20151123idn/ot20151123idn-analysis-extent/)
+### [ot20151123idn-analysis-extent](ot20151123idn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20151123idn/ot20151123idn-analysis-extent/collection.json)
 
-### [other-events/ot20151123idn/ot20151123idn-other-polygons](ot20151123idn/other-events/ot20151123idn/ot20151123idn-other-polygons/)
+### [ot20151123idn-other-polygons](ot20151123idn-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20151123idn/ot20151123idn-other-polygons/collection.json)
 
 ## Coverage
 

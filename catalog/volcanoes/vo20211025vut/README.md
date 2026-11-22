@@ -14,9 +14,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [volcanoes/vo20211025vut/vo20211025vut-analysis-extent](vo20211025vut/volcanoes/vo20211025vut/vo20211025vut-analysis-extent/)
+### [vo20211025vut-analysis-extent](vo20211025vut-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/vo20211025vut-analysis-extent/collection.json)
 
-### [volcanoes/vo20211025vut/vo20211025vut-damage-areas](vo20211025vut/volcanoes/vo20211025vut/vo20211025vut-damage-areas/)
+### [vo20211025vut-damage-areas](vo20211025vut-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/vo20211025vut-damage-areas/collection.json)
 
 ## Coverage
 

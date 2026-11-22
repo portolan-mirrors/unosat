@@ -15,11 +15,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2024/fl20240528arm/fl20240528arm-analysis-extent](fl20240528arm/floods/2024/fl20240528arm/fl20240528arm-analysis-extent/)
+### [fl20240528arm-analysis-extent](fl20240528arm-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-analysis-extent/collection.json)
 
-### [floods/2024/fl20240528arm/fl20240528arm-damage-areas](fl20240528arm/floods/2024/fl20240528arm/fl20240528arm-damage-areas/)
+### [fl20240528arm-damage-areas](fl20240528arm-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-damage-areas/collection.json)
 
-### [floods/2024/fl20240528arm/fl20240528arm-damage-sites](fl20240528arm/floods/2024/fl20240528arm/fl20240528arm-damage-sites/)
+### [fl20240528arm-damage-sites](fl20240528arm-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-damage-sites/collection.json)
 
 ## Coverage
 

@@ -13,7 +13,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent](satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji/no-event-code/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent/)
+### [satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent](satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent/collection.json)
 
 ## Coverage
 

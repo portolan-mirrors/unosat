@@ -13,9 +13,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2016/tc20160418syc/tc20160418syc-damage-sites](tc20160418syc/tropical-cyclones/2016/tc20160418syc/tc20160418syc-damage-sites/)
+### [tc20160418syc-damage-sites](tc20160418syc-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160418syc/tc20160418syc-damage-sites/collection.json)
 
-### [tropical-cyclones/2016/tc20160418syc/tc20160418syc-other-polygons](tc20160418syc/tropical-cyclones/2016/tc20160418syc/tc20160418syc-other-polygons/)
+### [tc20160418syc-other-polygons](tc20160418syc-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160418syc/tc20160418syc-other-polygons/collection.json)
 
 ## Coverage
 

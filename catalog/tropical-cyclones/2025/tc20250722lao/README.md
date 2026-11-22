@@ -22,17 +22,17 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2025/tc20250722lao/tc20250722lao-analysis-extent](tc20250722lao/tropical-cyclones/2025/tc20250722lao/tc20250722lao-analysis-extent/)
+### [tc20250722lao-analysis-extent](tc20250722lao-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-analysis-extent/collection.json)
 
-### [tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-areas](tc20250722lao/tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-areas/)
+### [tc20250722lao-damage-areas](tc20250722lao-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-areas/collection.json)
 
-### [tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-sites](tc20250722lao/tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-sites/)
+### [tc20250722lao-damage-sites](tc20250722lao-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-sites/collection.json)
 
-### [tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-lines](tc20250722lao/tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-lines/)
+### [tc20250722lao-other-lines](tc20250722lao-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-lines/collection.json)
 
-### [tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-points](tc20250722lao/tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-points/)
+### [tc20250722lao-other-points](tc20250722lao-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-points/collection.json)
 
-### [tropical-cyclones/2025/tc20250722lao/tc20250722lao-water-extent](tc20250722lao/tropical-cyclones/2025/tc20250722lao/tc20250722lao-water-extent/)
+### [tc20250722lao-water-extent](tc20250722lao-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-water-extent/collection.json)
 
 ## Coverage
 

@@ -23,11 +23,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2023/eq20230909mar/eq20230909mar-analysis-extent](eq20230909mar/earthquakes/2023/eq20230909mar/eq20230909mar-analysis-extent/)
+### [eq20230909mar-analysis-extent](eq20230909mar-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230909mar/eq20230909mar-analysis-extent/collection.json)
 
-### [earthquakes/2023/eq20230909mar/eq20230909mar-damage-sites](eq20230909mar/earthquakes/2023/eq20230909mar/eq20230909mar-damage-sites/)
+### [eq20230909mar-damage-sites](eq20230909mar-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230909mar/eq20230909mar-damage-sites/collection.json)
 
-### [earthquakes/2023/eq20230909mar/eq20230909mar-shelters](eq20230909mar/earthquakes/2023/eq20230909mar/eq20230909mar-shelters/)
+### [eq20230909mar-shelters](eq20230909mar-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230909mar/eq20230909mar-shelters/collection.json)
 
 ## Coverage
 

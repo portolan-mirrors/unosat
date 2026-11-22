@@ -25,9 +25,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2018/fl20180723lao/fl20180723lao-analysis-extent](fl20180723lao/floods/2018/fl20180723lao/fl20180723lao-analysis-extent/)
+### [fl20180723lao-analysis-extent](fl20180723lao-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180723lao/fl20180723lao-analysis-extent/collection.json)
 
-### [floods/2018/fl20180723lao/fl20180723lao-water-extent](fl20180723lao/floods/2018/fl20180723lao/fl20180723lao-water-extent/)
+### [fl20180723lao-water-extent](fl20180723lao-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180723lao/fl20180723lao-water-extent/collection.json)
 
 ## Coverage
 

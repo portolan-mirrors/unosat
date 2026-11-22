@@ -25,11 +25,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20140715pse/ce20140715pse-damage-areas](ce20140715pse/complex-emergencies/ce20140715pse/ce20140715pse-damage-areas/)
+### [ce20140715pse-damage-areas](ce20140715pse-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-damage-areas/collection.json)
 
-### [complex-emergencies/ce20140715pse/ce20140715pse-damage-sites](ce20140715pse/complex-emergencies/ce20140715pse/ce20140715pse-damage-sites/)
+### [ce20140715pse-damage-sites](ce20140715pse-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-damage-sites/collection.json)
 
-### [complex-emergencies/ce20140715pse/ce20140715pse-other-polygons](ce20140715pse/complex-emergencies/ce20140715pse/ce20140715pse-other-polygons/)
+### [ce20140715pse-other-polygons](ce20140715pse-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-other-polygons/collection.json)
 
 ## Coverage
 

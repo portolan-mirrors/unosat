@@ -14,11 +14,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent](tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent/)
+### [tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent](tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent/collection.json)
 
-### [no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides](tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/)
+### [tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides](tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/collection.json)
 
-### [no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons](tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons/)
+### [tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons](tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons/collection.json)
 
 ## Coverage
 

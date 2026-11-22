@@ -21,17 +21,17 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2014/fl20140430afg/fl20140430afg-damage-areas](fl20140430afg/floods/2014/fl20140430afg/fl20140430afg-damage-areas/)
+### [fl20140430afg-damage-areas](fl20140430afg-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-damage-areas/collection.json)
 
-### [floods/2014/fl20140430afg/fl20140430afg-damage-sites](fl20140430afg/floods/2014/fl20140430afg/fl20140430afg-damage-sites/)
+### [fl20140430afg-damage-sites](fl20140430afg-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-damage-sites/collection.json)
 
-### [floods/2014/fl20140430afg/fl20140430afg-landslides](fl20140430afg/floods/2014/fl20140430afg/fl20140430afg-landslides/)
+### [fl20140430afg-landslides](fl20140430afg-landslides/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-landslides/collection.json)
 
-### [floods/2014/fl20140430afg/fl20140430afg-other-polygons](fl20140430afg/floods/2014/fl20140430afg/fl20140430afg-other-polygons/)
+### [fl20140430afg-other-polygons](fl20140430afg-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-other-polygons/collection.json)
 
-### [floods/2014/fl20140430afg/fl20140430afg-shelters](fl20140430afg/floods/2014/fl20140430afg/fl20140430afg-shelters/)
+### [fl20140430afg-shelters](fl20140430afg-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-shelters/collection.json)
 
-### [floods/2014/fl20140430afg/fl20140430afg-water-extent](fl20140430afg/floods/2014/fl20140430afg/fl20140430afg-water-extent/)
+### [fl20140430afg-water-extent](fl20140430afg-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-water-extent/collection.json)
 
 ## Coverage
 

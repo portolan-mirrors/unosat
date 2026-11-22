@@ -18,15 +18,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2024/tc20241028phl/tc20241028phl-analysis-extent](tc20241028phl/tropical-cyclones/2024/tc20241028phl/tc20241028phl-analysis-extent/)
+### [tc20241028phl-analysis-extent](tc20241028phl-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-analysis-extent/collection.json)
 
-### [tropical-cyclones/2024/tc20241028phl/tc20241028phl-damage-areas](tc20241028phl/tropical-cyclones/2024/tc20241028phl/tc20241028phl-damage-areas/)
+### [tc20241028phl-damage-areas](tc20241028phl-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-damage-areas/collection.json)
 
-### [tropical-cyclones/2024/tc20241028phl/tc20241028phl-damage-sites](tc20241028phl/tropical-cyclones/2024/tc20241028phl/tc20241028phl-damage-sites/)
+### [tc20241028phl-damage-sites](tc20241028phl-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-damage-sites/collection.json)
 
-### [tropical-cyclones/2024/tc20241028phl/tc20241028phl-other-lines](tc20241028phl/tropical-cyclones/2024/tc20241028phl/tc20241028phl-other-lines/)
+### [tc20241028phl-other-lines](tc20241028phl-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-other-lines/collection.json)
 
-### [tropical-cyclones/2024/tc20241028phl/tc20241028phl-water-extent](tc20241028phl/tropical-cyclones/2024/tc20241028phl/tc20241028phl-water-extent/)
+### [tc20241028phl-water-extent](tc20241028phl-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-water-extent/collection.json)
 
 ## Coverage
 

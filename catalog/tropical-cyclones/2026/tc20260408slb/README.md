@@ -14,11 +14,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2026/tc20260408slb/tc20260408slb-analysis-extent](tc20260408slb/tropical-cyclones/2026/tc20260408slb/tc20260408slb-analysis-extent/)
+### [tc20260408slb-analysis-extent](tc20260408slb-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-analysis-extent/collection.json)
 
-### [tropical-cyclones/2026/tc20260408slb/tc20260408slb-damage-sites](tc20260408slb/tropical-cyclones/2026/tc20260408slb/tc20260408slb-damage-sites/)
+### [tc20260408slb-damage-sites](tc20260408slb-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-damage-sites/collection.json)
 
-### [tropical-cyclones/2026/tc20260408slb/tc20260408slb-water-extent](tc20260408slb/tropical-cyclones/2026/tc20260408slb/tc20260408slb-water-extent/)
+### [tc20260408slb-water-extent](tc20260408slb-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-water-extent/collection.json)
 
 ## Coverage
 

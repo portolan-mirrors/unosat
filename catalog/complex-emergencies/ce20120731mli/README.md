@@ -15,11 +15,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20120731mli/ce20120731mli-other-polygons](ce20120731mli/complex-emergencies/ce20120731mli/ce20120731mli-other-polygons/)
+### [ce20120731mli-other-polygons](ce20120731mli-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-other-polygons/collection.json)
 
-### [complex-emergencies/ce20120731mli/ce20120731mli-shelter-areas](ce20120731mli/complex-emergencies/ce20120731mli/ce20120731mli-shelter-areas/)
+### [ce20120731mli-shelter-areas](ce20120731mli-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelter-areas/collection.json)
 
-### [complex-emergencies/ce20120731mli/ce20120731mli-shelters](ce20120731mli/complex-emergencies/ce20120731mli/ce20120731mli-shelters/)
+### [ce20120731mli-shelters](ce20120731mli-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelters/collection.json)
 
 ## Coverage
 

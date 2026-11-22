@@ -27,11 +27,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2023/fl20231105som/fl20231105som-analysis-extent](fl20231105som/floods/2023/fl20231105som/fl20231105som-analysis-extent/)
+### [fl20231105som-analysis-extent](fl20231105som-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-analysis-extent/collection.json)
 
-### [floods/2023/fl20231105som/fl20231105som-damage-sites](fl20231105som/floods/2023/fl20231105som/fl20231105som-damage-sites/)
+### [fl20231105som-damage-sites](fl20231105som-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-damage-sites/collection.json)
 
-### [floods/2023/fl20231105som/fl20231105som-water-extent](fl20231105som/floods/2023/fl20231105som/fl20231105som-water-extent/)
+### [fl20231105som-water-extent](fl20231105som-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-water-extent/collection.json)
 
 ## Coverage
 

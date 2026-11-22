@@ -21,11 +21,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2021/fl20210907sdn/fl20210907sdn-analysis-extent](fl20210907sdn/floods/2021/fl20210907sdn/fl20210907sdn-analysis-extent/)
+### [fl20210907sdn-analysis-extent](fl20210907sdn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-analysis-extent/collection.json)
 
-### [floods/2021/fl20210907sdn/fl20210907sdn-other-polygons](fl20210907sdn/floods/2021/fl20210907sdn/fl20210907sdn-other-polygons/)
+### [fl20210907sdn-other-polygons](fl20210907sdn-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-other-polygons/collection.json)
 
-### [floods/2021/fl20210907sdn/fl20210907sdn-water-extent](fl20210907sdn/floods/2021/fl20210907sdn/fl20210907sdn-water-extent/)
+### [fl20210907sdn-water-extent](fl20210907sdn-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-water-extent/collection.json)
 
 ## Coverage
 

@@ -14,7 +14,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [other-events/st20150107pse/st20150107pse-other-polygons](st20150107pse/other-events/st20150107pse/st20150107pse-other-polygons/)
+### [st20150107pse-other-polygons](st20150107pse-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/st20150107pse/st20150107pse-other-polygons/collection.json)
 
 ## Coverage
 

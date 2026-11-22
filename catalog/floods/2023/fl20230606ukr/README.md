@@ -26,19 +26,19 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-analysis-extent](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-analysis-extent/)
+### [fl20230606ukr-analysis-extent](fl20230606ukr-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-analysis-extent/collection.json)
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-damage-areas](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-damage-areas/)
+### [fl20230606ukr-damage-areas](fl20230606ukr-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-damage-areas/collection.json)
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-damage-sites](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-damage-sites/)
+### [fl20230606ukr-damage-sites](fl20230606ukr-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-damage-sites/collection.json)
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-other-lines](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-other-lines/)
+### [fl20230606ukr-other-lines](fl20230606ukr-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-lines/collection.json)
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-other-points](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-other-points/)
+### [fl20230606ukr-other-points](fl20230606ukr-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-points/collection.json)
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-other-polygons](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-other-polygons/)
+### [fl20230606ukr-other-polygons](fl20230606ukr-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-polygons/collection.json)
 
-### [floods/2023/fl20230606ukr/fl20230606ukr-water-extent](fl20230606ukr/floods/2023/fl20230606ukr/fl20230606ukr-water-extent/)
+### [fl20230606ukr-water-extent](fl20230606ukr-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-water-extent/collection.json)
 
 ## Coverage
 

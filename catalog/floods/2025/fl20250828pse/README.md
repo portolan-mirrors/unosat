@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2025/fl20250828pse/fl20250828pse-analysis-extent](fl20250828pse/floods/2025/fl20250828pse/fl20250828pse-analysis-extent/)
+### [fl20250828pse-analysis-extent](fl20250828pse-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-analysis-extent/collection.json)
 
-### [floods/2025/fl20250828pse/fl20250828pse-other-lines](fl20250828pse/floods/2025/fl20250828pse/fl20250828pse-other-lines/)
+### [fl20250828pse-other-lines](fl20250828pse-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-other-lines/collection.json)
 
-### [floods/2025/fl20250828pse/fl20250828pse-shelters](fl20250828pse/floods/2025/fl20250828pse/fl20250828pse-shelters/)
+### [fl20250828pse-shelters](fl20250828pse-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-shelters/collection.json)
 
 ## Coverage
 

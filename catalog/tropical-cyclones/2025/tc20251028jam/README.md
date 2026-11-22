@@ -15,11 +15,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2025/tc20251028jam/tc20251028jam-analysis-extent](tc20251028jam/tropical-cyclones/2025/tc20251028jam/tc20251028jam-analysis-extent/)
+### [tc20251028jam-analysis-extent](tc20251028jam-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251028jam/tc20251028jam-analysis-extent/collection.json)
 
-### [tropical-cyclones/2025/tc20251028jam/tc20251028jam-damage-sites](tc20251028jam/tropical-cyclones/2025/tc20251028jam/tc20251028jam-damage-sites/)
+### [tc20251028jam-damage-sites](tc20251028jam-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251028jam/tc20251028jam-damage-sites/collection.json)
 
-### [tropical-cyclones/2025/tc20251028jam/tc20251028jam-water-extent](tc20251028jam/tropical-cyclones/2025/tc20251028jam/tc20251028jam-water-extent/)
+### [tc20251028jam-water-extent](tc20251028jam-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251028jam/tc20251028jam-water-extent/collection.json)
 
 ## Coverage
 

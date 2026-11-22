@@ -27,19 +27,19 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-analysis-extent](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-analysis-extent/)
+### [tc20161003hti-analysis-extent](tc20161003hti-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-analysis-extent/collection.json)
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-damage-sites](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-damage-sites/)
+### [tc20161003hti-damage-sites](tc20161003hti-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-damage-sites/collection.json)
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-points](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-points/)
+### [tc20161003hti-other-points](tc20161003hti-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-points/collection.json)
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719/)
+### [tc20161003hti-other-polygons-cc_by_4_0-epsg_26719](tc20161003hti-other-polygons-cc_by_4_0-epsg_26719/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719/collection.json)
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_4326](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_4326/)
+### [tc20161003hti-other-polygons-cc_by_4_0-epsg_4326](tc20161003hti-other-polygons-cc_by_4_0-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_4326/collection.json)
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_sa-epsg_4326](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_sa-epsg_4326/)
+### [tc20161003hti-other-polygons-cc_by_sa-epsg_4326](tc20161003hti-other-polygons-cc_by_sa-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_sa-epsg_4326/collection.json)
 
-### [tropical-cyclones/2016/tc20161003hti/tc20161003hti-shelters](tc20161003hti/tropical-cyclones/2016/tc20161003hti/tc20161003hti-shelters/)
+### [tc20161003hti-shelters](tc20161003hti-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-shelters/collection.json)
 
 ## Coverage
 

@@ -21,11 +21,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent](eq20160417ecu/earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent/)
+### [eq20160417ecu-analysis-extent](eq20160417ecu-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent/collection.json)
 
-### [earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites](eq20160417ecu/earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/)
+### [eq20160417ecu-damage-sites](eq20160417ecu-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/collection.json)
 
-### [earthquakes/2016/eq20160417ecu/eq20160417ecu-other-polygons](eq20160417ecu/earthquakes/2016/eq20160417ecu/eq20160417ecu-other-polygons/)
+### [eq20160417ecu-other-polygons](eq20160417ecu-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-other-polygons/collection.json)
 
 ## Coverage
 

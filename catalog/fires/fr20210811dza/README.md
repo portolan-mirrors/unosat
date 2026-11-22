@@ -17,11 +17,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [fires/fr20210811dza/fr20210811dza-damage-areas](fr20210811dza/fires/fr20210811dza/fr20210811dza-damage-areas/)
+### [fr20210811dza-damage-areas](fr20210811dza-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210811dza/fr20210811dza-damage-areas/collection.json)
 
-### [fires/fr20210811dza/fr20210811dza-damage-sites](fr20210811dza/fires/fr20210811dza/fr20210811dza-damage-sites/)
+### [fr20210811dza-damage-sites](fr20210811dza-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210811dza/fr20210811dza-damage-sites/collection.json)
 
-### [fires/fr20210811dza/fr20210811dza-other-polygons](fr20210811dza/fires/fr20210811dza/fr20210811dza-other-polygons/)
+### [fr20210811dza-other-polygons](fr20210811dza-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210811dza/fr20210811dza-other-polygons/collection.json)
 
 ## Coverage
 

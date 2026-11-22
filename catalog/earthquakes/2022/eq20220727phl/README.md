@@ -18,9 +18,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2022/eq20220727phl/eq20220727phl-damage-sites](eq20220727phl/earthquakes/2022/eq20220727phl/eq20220727phl-damage-sites/)
+### [eq20220727phl-damage-sites](eq20220727phl-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220727phl/eq20220727phl-damage-sites/collection.json)
 
-### [earthquakes/2022/eq20220727phl/eq20220727phl-other-polygons](eq20220727phl/earthquakes/2022/eq20220727phl/eq20220727phl-other-polygons/)
+### [eq20220727phl-other-polygons](eq20220727phl-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220727phl/eq20220727phl-other-polygons/collection.json)
 
 ## Coverage
 

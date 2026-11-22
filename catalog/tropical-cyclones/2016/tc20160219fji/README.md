@@ -20,13 +20,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2016/tc20160219fji/tc20160219fji-analysis-extent](tc20160219fji/tropical-cyclones/2016/tc20160219fji/tc20160219fji-analysis-extent/)
+### [tc20160219fji-analysis-extent](tc20160219fji-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-analysis-extent/collection.json)
 
-### [tropical-cyclones/2016/tc20160219fji/tc20160219fji-damage-sites](tc20160219fji/tropical-cyclones/2016/tc20160219fji/tc20160219fji-damage-sites/)
+### [tc20160219fji-damage-sites](tc20160219fji-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-damage-sites/collection.json)
 
-### [tropical-cyclones/2016/tc20160219fji/tc20160219fji-other-points](tc20160219fji/tropical-cyclones/2016/tc20160219fji/tc20160219fji-other-points/)
+### [tc20160219fji-other-points](tc20160219fji-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-other-points/collection.json)
 
-### [tropical-cyclones/2016/tc20160219fji/tc20160219fji-water-extent](tc20160219fji/tropical-cyclones/2016/tc20160219fji/tc20160219fji-water-extent/)
+### [tc20160219fji-water-extent](tc20160219fji-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-water-extent/collection.json)
 
 ## Coverage
 

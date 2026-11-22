@@ -23,15 +23,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2020/tc20201111phl/tc20201111phl-analysis-extent](tc20201111phl/tropical-cyclones/2020/tc20201111phl/tc20201111phl-analysis-extent/)
+### [tc20201111phl-analysis-extent](tc20201111phl-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-analysis-extent/collection.json)
 
-### [tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-areas](tc20201111phl/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-areas/)
+### [tc20201111phl-damage-areas](tc20201111phl-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-areas/collection.json)
 
-### [tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-sites](tc20201111phl/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-sites/)
+### [tc20201111phl-damage-sites](tc20201111phl-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-sites/collection.json)
 
-### [tropical-cyclones/2020/tc20201111phl/tc20201111phl-other-polygons](tc20201111phl/tropical-cyclones/2020/tc20201111phl/tc20201111phl-other-polygons/)
+### [tc20201111phl-other-polygons](tc20201111phl-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-other-polygons/collection.json)
 
-### [tropical-cyclones/2020/tc20201111phl/tc20201111phl-water-extent](tc20201111phl/tropical-cyclones/2020/tc20201111phl/tc20201111phl-water-extent/)
+### [tc20201111phl-water-extent](tc20201111phl-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-water-extent/collection.json)
 
 ## Coverage
 

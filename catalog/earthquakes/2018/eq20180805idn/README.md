@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2018/eq20180805idn/eq20180805idn-analysis-extent](eq20180805idn/earthquakes/2018/eq20180805idn/eq20180805idn-analysis-extent/)
+### [eq20180805idn-analysis-extent](eq20180805idn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-analysis-extent/collection.json)
 
-### [earthquakes/2018/eq20180805idn/eq20180805idn-damage-sites](eq20180805idn/earthquakes/2018/eq20180805idn/eq20180805idn-damage-sites/)
+### [eq20180805idn-damage-sites](eq20180805idn-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-damage-sites/collection.json)
 
-### [earthquakes/2018/eq20180805idn/eq20180805idn-shelters](eq20180805idn/earthquakes/2018/eq20180805idn/eq20180805idn-shelters/)
+### [eq20180805idn-shelters](eq20180805idn-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-shelters/collection.json)
 
 ## Coverage
 

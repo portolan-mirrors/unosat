@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20240525png/ls20240525png-analysis-extent](ls20240525png/landslides/ls20240525png/ls20240525png-analysis-extent/)
+### [ls20240525png-analysis-extent](ls20240525png-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-analysis-extent/collection.json)
 
-### [landslides/ls20240525png/ls20240525png-damage-areas](ls20240525png/landslides/ls20240525png/ls20240525png-damage-areas/)
+### [ls20240525png-damage-areas](ls20240525png-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-damage-areas/collection.json)
 
-### [landslides/ls20240525png/ls20240525png-damage-sites](ls20240525png/landslides/ls20240525png/ls20240525png-damage-sites/)
+### [ls20240525png-damage-sites](ls20240525png-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-damage-sites/collection.json)
 
 ## Coverage
 

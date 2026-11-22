@@ -22,23 +22,23 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-damage-areas](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-damage-areas/)
+### [eq20150425npl-damage-areas](eq20150425npl-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-damage-areas/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-damage-sites](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-damage-sites/)
+### [eq20150425npl-damage-sites](eq20150425npl-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-damage-sites/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-landslides](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-landslides/)
+### [eq20150425npl-landslides](eq20150425npl-landslides/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-landslides/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-other-lines](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-other-lines/)
+### [eq20150425npl-other-lines](eq20150425npl-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-lines/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/)
+### [eq20150425npl-other-mixed](eq20150425npl-other-mixed/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645/)
+### [eq20150425npl-other-points-epsg_32645](eq20150425npl-other-points-epsg_32645/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_4326](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_4326/)
+### [eq20150425npl-other-points-epsg_4326](eq20150425npl-other-points-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_4326/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_32645](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_32645/)
+### [eq20150425npl-other-polygons-epsg_32645](eq20150425npl-other-polygons-epsg_32645/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_32645/collection.json)
 
-### [earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_4326](eq20150425npl/earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_4326/)
+### [eq20150425npl-other-polygons-epsg_4326](eq20150425npl-other-polygons-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_4326/collection.json)
 
 ## Coverage
 

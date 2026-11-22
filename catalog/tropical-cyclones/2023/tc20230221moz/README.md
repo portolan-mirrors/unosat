@@ -25,11 +25,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2023/tc20230221moz/tc20230221moz-analysis-extent](tc20230221moz/tropical-cyclones/2023/tc20230221moz/tc20230221moz-analysis-extent/)
+### [tc20230221moz-analysis-extent](tc20230221moz-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-analysis-extent/collection.json)
 
-### [tropical-cyclones/2023/tc20230221moz/tc20230221moz-damage-sites](tc20230221moz/tropical-cyclones/2023/tc20230221moz/tc20230221moz-damage-sites/)
+### [tc20230221moz-damage-sites](tc20230221moz-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-damage-sites/collection.json)
 
-### [tropical-cyclones/2023/tc20230221moz/tc20230221moz-water-extent](tc20230221moz/tropical-cyclones/2023/tc20230221moz/tc20230221moz-water-extent/)
+### [tc20230221moz-water-extent](tc20230221moz-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-water-extent/collection.json)
 
 ## Coverage
 

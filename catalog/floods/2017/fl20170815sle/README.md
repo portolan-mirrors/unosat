@@ -15,13 +15,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2017/fl20170815sle/fl20170815sle-analysis-extent](fl20170815sle/floods/2017/fl20170815sle/fl20170815sle-analysis-extent/)
+### [fl20170815sle-analysis-extent](fl20170815sle-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-analysis-extent/collection.json)
 
-### [floods/2017/fl20170815sle/fl20170815sle-damage-areas](fl20170815sle/floods/2017/fl20170815sle/fl20170815sle-damage-areas/)
+### [fl20170815sle-damage-areas](fl20170815sle-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-damage-areas/collection.json)
 
-### [floods/2017/fl20170815sle/fl20170815sle-damage-sites](fl20170815sle/floods/2017/fl20170815sle/fl20170815sle-damage-sites/)
+### [fl20170815sle-damage-sites](fl20170815sle-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-damage-sites/collection.json)
 
-### [floods/2017/fl20170815sle/fl20170815sle-other-polygons](fl20170815sle/floods/2017/fl20170815sle/fl20170815sle-other-polygons/)
+### [fl20170815sle-other-polygons](fl20170815sle-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-other-polygons/collection.json)
 
 ## Coverage
 

@@ -18,9 +18,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-analysis-extent](tc20240905vnm/tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-analysis-extent/)
+### [tc20240905vnm-analysis-extent](tc20240905vnm-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-analysis-extent/collection.json)
 
-### [tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-water-extent](tc20240905vnm/tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-water-extent/)
+### [tc20240905vnm-water-extent](tc20240905vnm-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-water-extent/collection.json)
 
 ## Coverage
 

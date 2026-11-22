@@ -18,13 +18,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-analysis-extent](tc20170529bgd/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-analysis-extent/)
+### [tc20170529bgd-analysis-extent](tc20170529bgd-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-analysis-extent/collection.json)
 
-### [tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-damage-sites](tc20170529bgd/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-damage-sites/)
+### [tc20170529bgd-damage-sites](tc20170529bgd-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-damage-sites/collection.json)
 
-### [tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas](tc20170529bgd/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas/)
+### [tc20170529bgd-shelter-areas](tc20170529bgd-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas/collection.json)
 
-### [tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-water-extent](tc20170529bgd/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-water-extent/)
+### [tc20170529bgd-water-extent](tc20170529bgd-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-water-extent/collection.json)
 
 ## Coverage
 

@@ -15,9 +15,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2017/fl20170118moz/fl20170118moz-analysis-extent](fl20170118moz/floods/2017/fl20170118moz/fl20170118moz-analysis-extent/)
+### [fl20170118moz-analysis-extent](fl20170118moz-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170118moz/fl20170118moz-analysis-extent/collection.json)
 
-### [floods/2017/fl20170118moz/fl20170118moz-water-extent](fl20170118moz/floods/2017/fl20170118moz/fl20170118moz-water-extent/)
+### [fl20170118moz-water-extent](fl20170118moz-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170118moz/fl20170118moz-water-extent/collection.json)
 
 ## Coverage
 

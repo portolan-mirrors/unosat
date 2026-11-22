@@ -17,11 +17,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [fires/fr20210729tun/fr20210729tun-analysis-extent](fr20210729tun/fires/fr20210729tun/fr20210729tun-analysis-extent/)
+### [fr20210729tun-analysis-extent](fr20210729tun-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-analysis-extent/collection.json)
 
-### [fires/fr20210729tun/fr20210729tun-damage-areas](fr20210729tun/fires/fr20210729tun/fr20210729tun-damage-areas/)
+### [fr20210729tun-damage-areas](fr20210729tun-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-damage-areas/collection.json)
 
-### [fires/fr20210729tun/fr20210729tun-damage-sites](fr20210729tun/fires/fr20210729tun/fr20210729tun-damage-sites/)
+### [fr20210729tun-damage-sites](fr20210729tun-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-damage-sites/collection.json)
 
 ## Coverage
 

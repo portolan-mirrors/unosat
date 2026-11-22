@@ -35,9 +35,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2023/tc20230227vut/tc20230227vut-analysis-extent](tc20230227vut/tropical-cyclones/2023/tc20230227vut/tc20230227vut-analysis-extent/)
+### [tc20230227vut-analysis-extent](tc20230227vut-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230227vut/tc20230227vut-analysis-extent/collection.json)
 
-### [tropical-cyclones/2023/tc20230227vut/tc20230227vut-damage-sites](tc20230227vut/tropical-cyclones/2023/tc20230227vut/tc20230227vut-damage-sites/)
+### [tc20230227vut-damage-sites](tc20230227vut-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230227vut/tc20230227vut-damage-sites/collection.json)
 
 ## Coverage
 

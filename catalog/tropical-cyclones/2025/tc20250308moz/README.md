@@ -15,7 +15,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points](tc20250308moz/tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points/)
+### [tc20250308moz-other-points](tc20250308moz-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points/collection.json)
 
 ## Coverage
 

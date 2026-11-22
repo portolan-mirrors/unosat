@@ -18,13 +18,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20251118idn/ls20251118idn-analysis-extent](ls20251118idn/landslides/ls20251118idn/ls20251118idn-analysis-extent/)
+### [ls20251118idn-analysis-extent](ls20251118idn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-analysis-extent/collection.json)
 
-### [landslides/ls20251118idn/ls20251118idn-damage-areas](ls20251118idn/landslides/ls20251118idn/ls20251118idn-damage-areas/)
+### [ls20251118idn-damage-areas](ls20251118idn-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-damage-areas/collection.json)
 
-### [landslides/ls20251118idn/ls20251118idn-damage-sites](ls20251118idn/landslides/ls20251118idn/ls20251118idn-damage-sites/)
+### [ls20251118idn-damage-sites](ls20251118idn-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-damage-sites/collection.json)
 
-### [landslides/ls20251118idn/ls20251118idn-other-points](ls20251118idn/landslides/ls20251118idn/ls20251118idn-other-points/)
+### [ls20251118idn-other-points](ls20251118idn-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-other-points/collection.json)
 
 ## Coverage
 

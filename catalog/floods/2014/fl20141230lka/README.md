@@ -14,7 +14,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2014/fl20141230lka/fl20141230lka-water-extent](fl20141230lka/floods/2014/fl20141230lka/fl20141230lka-water-extent/)
+### [fl20141230lka-water-extent](fl20141230lka-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20141230lka/fl20141230lka-water-extent/collection.json)
 
 ## Coverage
 

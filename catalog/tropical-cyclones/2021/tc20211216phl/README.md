@@ -28,9 +28,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2021/tc20211216phl/tc20211216phl-analysis-extent](tc20211216phl/tropical-cyclones/2021/tc20211216phl/tc20211216phl-analysis-extent/)
+### [tc20211216phl-analysis-extent](tc20211216phl-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2021/tc20211216phl/tc20211216phl-analysis-extent/collection.json)
 
-### [tropical-cyclones/2021/tc20211216phl/tc20211216phl-damage-sites](tc20211216phl/tropical-cyclones/2021/tc20211216phl/tc20211216phl-damage-sites/)
+### [tc20211216phl-damage-sites](tc20211216phl-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2021/tc20211216phl/tc20211216phl-damage-sites/collection.json)
 
 ## Coverage
 

@@ -19,7 +19,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20150402yem/ce20150402yem-damage-sites](ce20150402yem/complex-emergencies/ce20150402yem/ce20150402yem-damage-sites/)
+### [ce20150402yem-damage-sites](ce20150402yem-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150402yem/ce20150402yem-damage-sites/collection.json)
 
 ## Coverage
 

@@ -14,7 +14,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [other-events/ac20210705tha/ac20210705tha-damage-sites](ac20210705tha/other-events/ac20210705tha/ac20210705tha-damage-sites/)
+### [ac20210705tha-damage-sites](ac20210705tha-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ac20210705tha/ac20210705tha-damage-sites/collection.json)
 
 ## Coverage
 

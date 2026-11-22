@@ -22,13 +22,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2018/fl20180501som/fl20180501som-analysis-extent](fl20180501som/floods/2018/fl20180501som/fl20180501som-analysis-extent/)
+### [fl20180501som-analysis-extent](fl20180501som-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-analysis-extent/collection.json)
 
-### [floods/2018/fl20180501som/fl20180501som-other-polygons](fl20180501som/floods/2018/fl20180501som/fl20180501som-other-polygons/)
+### [fl20180501som-other-polygons](fl20180501som-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-other-polygons/collection.json)
 
-### [floods/2018/fl20180501som/fl20180501som-shelters](fl20180501som/floods/2018/fl20180501som/fl20180501som-shelters/)
+### [fl20180501som-shelters](fl20180501som-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-shelters/collection.json)
 
-### [floods/2018/fl20180501som/fl20180501som-water-extent](fl20180501som/floods/2018/fl20180501som/fl20180501som-water-extent/)
+### [fl20180501som-water-extent](fl20180501som-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-water-extent/collection.json)
 
 ## Coverage
 

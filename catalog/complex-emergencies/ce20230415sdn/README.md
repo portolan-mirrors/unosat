@@ -16,7 +16,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20230415sdn/ce20230415sdn-other-polygons](ce20230415sdn/complex-emergencies/ce20230415sdn/ce20230415sdn-other-polygons/)
+### [ce20230415sdn-other-polygons](ce20230415sdn-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20230415sdn/ce20230415sdn-other-polygons/collection.json)
 
 ## Coverage
 

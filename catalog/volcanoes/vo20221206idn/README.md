@@ -16,13 +16,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [volcanoes/vo20221206idn/vo20221206idn-analysis-extent](vo20221206idn/volcanoes/vo20221206idn/vo20221206idn-analysis-extent/)
+### [vo20221206idn-analysis-extent](vo20221206idn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20221206idn/vo20221206idn-analysis-extent/collection.json)
 
-### [volcanoes/vo20221206idn/vo20221206idn-damage-areas](vo20221206idn/volcanoes/vo20221206idn/vo20221206idn-damage-areas/)
+### [vo20221206idn-damage-areas](vo20221206idn-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20221206idn/vo20221206idn-damage-areas/collection.json)
 
-### [volcanoes/vo20221206idn/vo20221206idn-damage-sites](vo20221206idn/volcanoes/vo20221206idn/vo20221206idn-damage-sites/)
+### [vo20221206idn-damage-sites](vo20221206idn-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20221206idn/vo20221206idn-damage-sites/collection.json)
 
-### [volcanoes/vo20221206idn/vo20221206idn-other-polygons](vo20221206idn/volcanoes/vo20221206idn/vo20221206idn-other-polygons/)
+### [vo20221206idn-other-polygons](vo20221206idn-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20221206idn/vo20221206idn-other-polygons/collection.json)
 
 ## Coverage
 

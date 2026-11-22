@@ -15,7 +15,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2014/fl20140213bol/fl20140213bol-water-extent](fl20140213bol/floods/2014/fl20140213bol/fl20140213bol-water-extent/)
+### [fl20140213bol-water-extent](fl20140213bol-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140213bol/fl20140213bol-water-extent/collection.json)
 
 ## Coverage
 

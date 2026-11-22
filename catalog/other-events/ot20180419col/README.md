@@ -13,7 +13,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [other-events/ot20180419col/ot20180419col-other-points](ot20180419col/other-events/ot20180419col/ot20180419col-other-points/)
+### [ot20180419col-other-points](ot20180419col-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20180419col/ot20180419col-other-points/collection.json)
 
 ## Coverage
 

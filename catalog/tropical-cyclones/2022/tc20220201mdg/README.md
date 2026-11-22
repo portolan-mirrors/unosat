@@ -28,9 +28,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-analysis-extent](tc20220201mdg/tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-analysis-extent/)
+### [tc20220201mdg-analysis-extent](tc20220201mdg-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-analysis-extent/collection.json)
 
-### [tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-water-extent](tc20220201mdg/tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-water-extent/)
+### [tc20220201mdg-water-extent](tc20220201mdg-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-water-extent/collection.json)
 
 ## Coverage
 

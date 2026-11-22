@@ -23,13 +23,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20131212caf/ce20131212caf-damage-areas](ce20131212caf/complex-emergencies/ce20131212caf/ce20131212caf-damage-areas/)
+### [ce20131212caf-damage-areas](ce20131212caf-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-damage-areas/collection.json)
 
-### [complex-emergencies/ce20131212caf/ce20131212caf-damage-sites](ce20131212caf/complex-emergencies/ce20131212caf/ce20131212caf-damage-sites/)
+### [ce20131212caf-damage-sites](ce20131212caf-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-damage-sites/collection.json)
 
-### [complex-emergencies/ce20131212caf/ce20131212caf-shelter-areas](ce20131212caf/complex-emergencies/ce20131212caf/ce20131212caf-shelter-areas/)
+### [ce20131212caf-shelter-areas](ce20131212caf-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-shelter-areas/collection.json)
 
-### [complex-emergencies/ce20131212caf/ce20131212caf-shelters](ce20131212caf/complex-emergencies/ce20131212caf/ce20131212caf-shelters/)
+### [ce20131212caf-shelters](ce20131212caf-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-shelters/collection.json)
 
 ## Coverage
 

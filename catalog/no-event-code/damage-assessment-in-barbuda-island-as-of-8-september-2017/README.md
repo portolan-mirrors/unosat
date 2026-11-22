@@ -13,11 +13,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons](damage-assessment-in-barbuda-island-as-of-8-september-2017/no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons/)
+### [damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons](damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons/collection.json)
 
-### [no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent](damage-assessment-in-barbuda-island-as-of-8-september-2017/no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent/)
+### [damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent](damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent/collection.json)
 
-### [no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-damage-sites](damage-assessment-in-barbuda-island-as-of-8-september-2017/no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-damage-sites/)
+### [damage-assessment-in-barbuda-island-as-of-8-september-2017-damage-sites](damage-assessment-in-barbuda-island-as-of-8-september-2017-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-barbuda-island-as-of-8-september-2017/damage-assessment-in-barbuda-island-as-of-8-september-2017-damage-sites/collection.json)
 
 ## Coverage
 

@@ -17,7 +17,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2023/tc20230510bgd/tc20230510bgd-damage-sites](tc20230510bgd/tropical-cyclones/2023/tc20230510bgd/tc20230510bgd-damage-sites/)
+### [tc20230510bgd-damage-sites](tc20230510bgd-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230510bgd/tc20230510bgd-damage-sites/collection.json)
 
 ## Coverage
 

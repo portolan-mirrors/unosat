@@ -18,9 +18,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2015/eq20151026afg/eq20151026afg-analysis-extent](eq20151026afg/earthquakes/2015/eq20151026afg/eq20151026afg-analysis-extent/)
+### [eq20151026afg-analysis-extent](eq20151026afg-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/eq20151026afg-analysis-extent/collection.json)
 
-### [earthquakes/2015/eq20151026afg/eq20151026afg-damage-sites](eq20151026afg/earthquakes/2015/eq20151026afg/eq20151026afg-damage-sites/)
+### [eq20151026afg-damage-sites](eq20151026afg-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/eq20151026afg-damage-sites/collection.json)
 
 ## Coverage
 

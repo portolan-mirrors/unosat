@@ -20,11 +20,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2022/fl20221019tcd/fl20221019tcd-analysis-extent](fl20221019tcd/floods/2022/fl20221019tcd/fl20221019tcd-analysis-extent/)
+### [fl20221019tcd-analysis-extent](fl20221019tcd-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221019tcd/fl20221019tcd-analysis-extent/collection.json)
 
-### [floods/2022/fl20221019tcd/fl20221019tcd-damage-sites](fl20221019tcd/floods/2022/fl20221019tcd/fl20221019tcd-damage-sites/)
+### [fl20221019tcd-damage-sites](fl20221019tcd-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221019tcd/fl20221019tcd-damage-sites/collection.json)
 
-### [floods/2022/fl20221019tcd/fl20221019tcd-water-extent](fl20221019tcd/floods/2022/fl20221019tcd/fl20221019tcd-water-extent/)
+### [fl20221019tcd-water-extent](fl20221019tcd-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221019tcd/fl20221019tcd-water-extent/collection.json)
 
 ## Coverage
 

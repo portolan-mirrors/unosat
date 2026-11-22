@@ -16,13 +16,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [other-events/ot20130511ssd/ot20130511ssd-other-lines](ot20130511ssd/other-events/ot20130511ssd/ot20130511ssd-other-lines/)
+### [ot20130511ssd-other-lines](ot20130511ssd-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-other-lines/collection.json)
 
-### [other-events/ot20130511ssd/ot20130511ssd-other-polygons](ot20130511ssd/other-events/ot20130511ssd/ot20130511ssd-other-polygons/)
+### [ot20130511ssd-other-polygons](ot20130511ssd-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-other-polygons/collection.json)
 
-### [other-events/ot20130511ssd/ot20130511ssd-shelter-areas](ot20130511ssd/other-events/ot20130511ssd/ot20130511ssd-shelter-areas/)
+### [ot20130511ssd-shelter-areas](ot20130511ssd-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-shelter-areas/collection.json)
 
-### [other-events/ot20130511ssd/ot20130511ssd-shelters](ot20130511ssd/other-events/ot20130511ssd/ot20130511ssd-shelters/)
+### [ot20130511ssd-shelters](ot20130511ssd-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-shelters/collection.json)
 
 ## Coverage
 

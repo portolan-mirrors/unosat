@@ -16,7 +16,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2015/fl20150723pak/fl20150723pak-water-extent](fl20150723pak/floods/2015/fl20150723pak/fl20150723pak-water-extent/)
+### [fl20150723pak-water-extent](fl20150723pak-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150723pak/fl20150723pak-water-extent/collection.json)
 
 ## Coverage
 

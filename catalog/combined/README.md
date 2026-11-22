@@ -5,9 +5,9 @@ Cross-event collections: damage sites and water extents from every event whose l
 
 ## Collections
 
-### [combined/damage-sites](combined/combined/damage-sites/)
+### [damage-sites](damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/damage-sites/collection.json)
 
-### [combined/water-extent](combined/combined/water-extent/)
+### [water-extent](water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/water-extent/collection.json)
 
 ## Coverage
 

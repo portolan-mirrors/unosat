@@ -28,29 +28,29 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 <details>
 <summary>📁 12 collections (click to expand)</summary>
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_nc_sa_3_0](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_nc_sa_3_0/)
+### [ce20140613irq-damage-sites-cc_by_nc_sa_3_0](ce20140613irq-damage-sites-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_sa](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_sa/)
+### [ce20140613irq-damage-sites-cc_by_sa](ce20140613irq-damage-sites-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_sa/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_nc_sa_3_0](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_nc_sa_3_0/)
+### [ce20140613irq-other-lines-cc_by_nc_sa_3_0](ce20140613irq-other-lines-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_sa](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_sa/)
+### [ce20140613irq-other-lines-cc_by_sa](ce20140613irq-other-lines-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_sa/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_32638](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_32638/)
+### [ce20140613irq-other-points-epsg_32638](ce20140613irq-other-points-epsg_32638/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_32638/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_4326](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_4326/)
+### [ce20140613irq-other-points-epsg_4326](ce20140613irq-other-points-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_4326/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-other-polygons-epsg_32638](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-other-polygons-epsg_32638/)
+### [ce20140613irq-other-polygons-epsg_32638](ce20140613irq-other-polygons-epsg_32638/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-polygons-epsg_32638/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-other-polygons-epsg_4326](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-other-polygons-epsg_4326/)
+### [ce20140613irq-other-polygons-epsg_4326](ce20140613irq-other-polygons-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-polygons-epsg_4326/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_nc_sa_3_0](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_nc_sa_3_0/)
+### [ce20140613irq-shelter-areas-cc_by_nc_sa_3_0](ce20140613irq-shelter-areas-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_sa](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_sa/)
+### [ce20140613irq-shelter-areas-cc_by_sa](ce20140613irq-shelter-areas-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_sa/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_nc_sa_3_0](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_nc_sa_3_0/)
+### [ce20140613irq-shelters-cc_by_nc_sa_3_0](ce20140613irq-shelters-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_sa](ce20140613irq/complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_sa/)
+### [ce20140613irq-shelters-cc_by_sa](ce20140613irq-shelters-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_sa/collection.json)
 
 </details>
 

@@ -13,7 +13,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [volcanoes/vo20141124cpv/vo20141124cpv-other-mixed](vo20141124cpv/volcanoes/vo20141124cpv/vo20141124cpv-other-mixed/)
+### [vo20141124cpv-other-mixed](vo20141124cpv-other-mixed/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20141124cpv/vo20141124cpv-other-mixed/collection.json)
 
 ## Coverage
 

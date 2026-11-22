@@ -18,11 +18,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2015/fl20150112moz/fl20150112moz-analysis-extent](fl20150112moz/floods/2015/fl20150112moz/fl20150112moz-analysis-extent/)
+### [fl20150112moz-analysis-extent](fl20150112moz-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150112moz/fl20150112moz-analysis-extent/collection.json)
 
-### [floods/2015/fl20150112moz/fl20150112moz-other-polygons](fl20150112moz/floods/2015/fl20150112moz/fl20150112moz-other-polygons/)
+### [fl20150112moz-other-polygons](fl20150112moz-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150112moz/fl20150112moz-other-polygons/collection.json)
 
-### [floods/2015/fl20150112moz/fl20150112moz-water-extent](fl20150112moz/floods/2015/fl20150112moz/fl20150112moz-water-extent/)
+### [fl20150112moz-water-extent](fl20150112moz-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150112moz/fl20150112moz-water-extent/collection.json)
 
 ## Coverage
 

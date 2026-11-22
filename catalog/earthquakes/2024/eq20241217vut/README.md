@@ -15,9 +15,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2024/eq20241217vut/eq20241217vut-damage-areas](eq20241217vut/earthquakes/2024/eq20241217vut/eq20241217vut-damage-areas/)
+### [eq20241217vut-damage-areas](eq20241217vut-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20241217vut/eq20241217vut-damage-areas/collection.json)
 
-### [earthquakes/2024/eq20241217vut/eq20241217vut-damage-sites](eq20241217vut/earthquakes/2024/eq20241217vut/eq20241217vut-damage-sites/)
+### [eq20241217vut-damage-sites](eq20241217vut-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20241217vut/eq20241217vut-damage-sites/collection.json)
 
 ## Coverage
 

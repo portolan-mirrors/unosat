@@ -13,13 +13,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20180712afg/ls20180712afg-analysis-extent](ls20180712afg/landslides/ls20180712afg/ls20180712afg-analysis-extent/)
+### [ls20180712afg-analysis-extent](ls20180712afg-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-analysis-extent/collection.json)
 
-### [landslides/ls20180712afg/ls20180712afg-damage-areas](ls20180712afg/landslides/ls20180712afg/ls20180712afg-damage-areas/)
+### [ls20180712afg-damage-areas](ls20180712afg-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-damage-areas/collection.json)
 
-### [landslides/ls20180712afg/ls20180712afg-damage-sites](ls20180712afg/landslides/ls20180712afg/ls20180712afg-damage-sites/)
+### [ls20180712afg-damage-sites](ls20180712afg-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-damage-sites/collection.json)
 
-### [landslides/ls20180712afg/ls20180712afg-water-extent](ls20180712afg/landslides/ls20180712afg/ls20180712afg-water-extent/)
+### [ls20180712afg-water-extent](ls20180712afg-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-water-extent/collection.json)
 
 ## Coverage
 

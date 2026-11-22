@@ -16,13 +16,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_nc_sa_3_0](fl20160714mmr/floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_nc_sa_3_0/)
+### [fl20160714mmr-analysis-extent-cc_by_nc_sa_3_0](fl20160714mmr-analysis-extent-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_nc_sa_3_0/collection.json)
 
-### [floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_sa](fl20160714mmr/floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_sa/)
+### [fl20160714mmr-analysis-extent-cc_by_sa](fl20160714mmr-analysis-extent-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_sa/collection.json)
 
-### [floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_nc_sa_3_0](fl20160714mmr/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_nc_sa_3_0/)
+### [fl20160714mmr-water-extent-cc_by_nc_sa_3_0](fl20160714mmr-water-extent-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_nc_sa_3_0/collection.json)
 
-### [floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_sa](fl20160714mmr/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_sa/)
+### [fl20160714mmr-water-extent-cc_by_sa](fl20160714mmr-water-extent-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_sa/collection.json)
 
 ## Coverage
 

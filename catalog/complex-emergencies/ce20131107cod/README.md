@@ -15,7 +15,7 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20131107cod/ce20131107cod-shelters](ce20131107cod/complex-emergencies/ce20131107cod/ce20131107cod-shelters/)
+### [ce20131107cod-shelters](ce20131107cod-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131107cod/ce20131107cod-shelters/collection.json)
 
 ## Coverage
 

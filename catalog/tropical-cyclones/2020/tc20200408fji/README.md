@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2020/tc20200408fji/tc20200408fji-analysis-extent](tc20200408fji/tropical-cyclones/2020/tc20200408fji/tc20200408fji-analysis-extent/)
+### [tc20200408fji-analysis-extent](tc20200408fji-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-analysis-extent/collection.json)
 
-### [tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites](tc20200408fji/tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/)
+### [tc20200408fji-damage-sites](tc20200408fji-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/collection.json)
 
-### [tropical-cyclones/2020/tc20200408fji/tc20200408fji-other-polygons](tc20200408fji/tropical-cyclones/2020/tc20200408fji/tc20200408fji-other-polygons/)
+### [tc20200408fji-other-polygons](tc20200408fji-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-other-polygons/collection.json)
 
 ## Coverage
 

@@ -15,13 +15,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2014/fl20140207zwe/fl20140207zwe-analysis-extent](fl20140207zwe/floods/2014/fl20140207zwe/fl20140207zwe-analysis-extent/)
+### [fl20140207zwe-analysis-extent](fl20140207zwe-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-analysis-extent/collection.json)
 
-### [floods/2014/fl20140207zwe/fl20140207zwe-damage-areas](fl20140207zwe/floods/2014/fl20140207zwe/fl20140207zwe-damage-areas/)
+### [fl20140207zwe-damage-areas](fl20140207zwe-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-damage-areas/collection.json)
 
-### [floods/2014/fl20140207zwe/fl20140207zwe-damage-sites](fl20140207zwe/floods/2014/fl20140207zwe/fl20140207zwe-damage-sites/)
+### [fl20140207zwe-damage-sites](fl20140207zwe-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-damage-sites/collection.json)
 
-### [floods/2014/fl20140207zwe/fl20140207zwe-water-extent](fl20140207zwe/floods/2014/fl20140207zwe/fl20140207zwe-water-extent/)
+### [fl20140207zwe-water-extent](fl20140207zwe-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-water-extent/collection.json)
 
 ## Coverage
 

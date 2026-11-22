@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2022/tc20220928tha/tc20220928tha-analysis-extent](tc20220928tha/tropical-cyclones/2022/tc20220928tha/tc20220928tha-analysis-extent/)
+### [tc20220928tha-analysis-extent](tc20220928tha-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-analysis-extent/collection.json)
 
-### [tropical-cyclones/2022/tc20220928tha/tc20220928tha-damage-sites](tc20220928tha/tropical-cyclones/2022/tc20220928tha/tc20220928tha-damage-sites/)
+### [tc20220928tha-damage-sites](tc20220928tha-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-damage-sites/collection.json)
 
-### [tropical-cyclones/2022/tc20220928tha/tc20220928tha-water-extent](tc20220928tha/tropical-cyclones/2022/tc20220928tha/tc20220928tha-water-extent/)
+### [tc20220928tha-water-extent](tc20220928tha-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-water-extent/collection.json)
 
 ## Coverage
 

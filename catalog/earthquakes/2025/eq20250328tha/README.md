@@ -14,15 +14,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2025/eq20250328tha/eq20250328tha-analysis-extent](eq20250328tha/earthquakes/2025/eq20250328tha/eq20250328tha-analysis-extent/)
+### [eq20250328tha-analysis-extent](eq20250328tha-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-analysis-extent/collection.json)
 
-### [earthquakes/2025/eq20250328tha/eq20250328tha-damage-sites](eq20250328tha/earthquakes/2025/eq20250328tha/eq20250328tha-damage-sites/)
+### [eq20250328tha-damage-sites](eq20250328tha-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-damage-sites/collection.json)
 
-### [earthquakes/2025/eq20250328tha/eq20250328tha-other-lines](eq20250328tha/earthquakes/2025/eq20250328tha/eq20250328tha-other-lines/)
+### [eq20250328tha-other-lines](eq20250328tha-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-lines/collection.json)
 
-### [earthquakes/2025/eq20250328tha/eq20250328tha-other-points](eq20250328tha/earthquakes/2025/eq20250328tha/eq20250328tha-other-points/)
+### [eq20250328tha-other-points](eq20250328tha-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-points/collection.json)
 
-### [earthquakes/2025/eq20250328tha/eq20250328tha-other-polygons](eq20250328tha/earthquakes/2025/eq20250328tha/eq20250328tha-other-polygons/)
+### [eq20250328tha-other-polygons](eq20250328tha-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-polygons/collection.json)
 
 ## Coverage
 

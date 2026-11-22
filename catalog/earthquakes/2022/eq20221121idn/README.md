@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2022/eq20221121idn/eq20221121idn-analysis-extent](eq20221121idn/earthquakes/2022/eq20221121idn/eq20221121idn-analysis-extent/)
+### [eq20221121idn-analysis-extent](eq20221121idn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-analysis-extent/collection.json)
 
-### [earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas](eq20221121idn/earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/)
+### [eq20221121idn-damage-areas](eq20221121idn-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/collection.json)
 
-### [earthquakes/2022/eq20221121idn/eq20221121idn-damage-sites](eq20221121idn/earthquakes/2022/eq20221121idn/eq20221121idn-damage-sites/)
+### [eq20221121idn-damage-sites](eq20221121idn-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-damage-sites/collection.json)
 
 ## Coverage
 

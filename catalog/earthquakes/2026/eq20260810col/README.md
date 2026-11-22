@@ -19,11 +19,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2026/eq20260810col/eq20260810col-damage-areas](eq20260810col/earthquakes/2026/eq20260810col/eq20260810col-damage-areas/)
+### [eq20260810col-damage-areas](eq20260810col-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-damage-areas/collection.json)
 
-### [earthquakes/2026/eq20260810col/eq20260810col-damage-sites](eq20260810col/earthquakes/2026/eq20260810col/eq20260810col-damage-sites/)
+### [eq20260810col-damage-sites](eq20260810col-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-damage-sites/collection.json)
 
-### [earthquakes/2026/eq20260810col/eq20260810col-other-polygons](eq20260810col/earthquakes/2026/eq20260810col/eq20260810col-other-polygons/)
+### [eq20260810col-other-polygons](eq20260810col-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-other-polygons/collection.json)
 
 ## Coverage
 

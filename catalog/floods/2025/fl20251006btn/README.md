@@ -17,13 +17,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2025/fl20251006btn/fl20251006btn-analysis-extent](fl20251006btn/floods/2025/fl20251006btn/fl20251006btn-analysis-extent/)
+### [fl20251006btn-analysis-extent](fl20251006btn-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-analysis-extent/collection.json)
 
-### [floods/2025/fl20251006btn/fl20251006btn-damage-sites](fl20251006btn/floods/2025/fl20251006btn/fl20251006btn-damage-sites/)
+### [fl20251006btn-damage-sites](fl20251006btn-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-damage-sites/collection.json)
 
-### [floods/2025/fl20251006btn/fl20251006btn-other-lines](fl20251006btn/floods/2025/fl20251006btn/fl20251006btn-other-lines/)
+### [fl20251006btn-other-lines](fl20251006btn-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-other-lines/collection.json)
 
-### [floods/2025/fl20251006btn/fl20251006btn-water-extent](fl20251006btn/floods/2025/fl20251006btn/fl20251006btn-water-extent/)
+### [fl20251006btn-water-extent](fl20251006btn-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-water-extent/collection.json)
 
 ## Coverage
 

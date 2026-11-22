@@ -25,17 +25,17 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2015/fl20150703mmr/fl20150703mmr-analysis-extent](fl20150703mmr/floods/2015/fl20150703mmr/fl20150703mmr-analysis-extent/)
+### [fl20150703mmr-analysis-extent](fl20150703mmr-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-analysis-extent/collection.json)
 
-### [floods/2015/fl20150703mmr/fl20150703mmr-damage-sites](fl20150703mmr/floods/2015/fl20150703mmr/fl20150703mmr-damage-sites/)
+### [fl20150703mmr-damage-sites](fl20150703mmr-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-damage-sites/collection.json)
 
-### [floods/2015/fl20150703mmr/fl20150703mmr-other-polygons](fl20150703mmr/floods/2015/fl20150703mmr/fl20150703mmr-other-polygons/)
+### [fl20150703mmr-other-polygons](fl20150703mmr-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-other-polygons/collection.json)
 
-### [floods/2015/fl20150703mmr/fl20150703mmr-shelter-areas](fl20150703mmr/floods/2015/fl20150703mmr/fl20150703mmr-shelter-areas/)
+### [fl20150703mmr-shelter-areas](fl20150703mmr-shelter-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-shelter-areas/collection.json)
 
-### [floods/2015/fl20150703mmr/fl20150703mmr-shelters](fl20150703mmr/floods/2015/fl20150703mmr/fl20150703mmr-shelters/)
+### [fl20150703mmr-shelters](fl20150703mmr-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-shelters/collection.json)
 
-### [floods/2015/fl20150703mmr/fl20150703mmr-water-extent](fl20150703mmr/floods/2015/fl20150703mmr/fl20150703mmr-water-extent/)
+### [fl20150703mmr-water-extent](fl20150703mmr-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-water-extent/collection.json)
 
 ## Coverage
 

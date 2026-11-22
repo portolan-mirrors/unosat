@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20170403col/ls20170403col-analysis-extent](ls20170403col/landslides/ls20170403col/ls20170403col-analysis-extent/)
+### [ls20170403col-analysis-extent](ls20170403col-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20170403col/ls20170403col-analysis-extent/collection.json)
 
-### [landslides/ls20170403col/ls20170403col-damage-sites](ls20170403col/landslides/ls20170403col/ls20170403col-damage-sites/)
+### [ls20170403col-damage-sites](ls20170403col-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20170403col/ls20170403col-damage-sites/collection.json)
 
-### [landslides/ls20170403col/ls20170403col-water-extent](ls20170403col/landslides/ls20170403col/ls20170403col-water-extent/)
+### [ls20170403col-water-extent](ls20170403col-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20170403col/ls20170403col-water-extent/collection.json)
 
 ## Coverage
 

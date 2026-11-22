@@ -14,11 +14,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2025/fl20251128lka/fl20251128lka-analysis-extent](fl20251128lka/floods/2025/fl20251128lka/fl20251128lka-analysis-extent/)
+### [fl20251128lka-analysis-extent](fl20251128lka-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-analysis-extent/collection.json)
 
-### [floods/2025/fl20251128lka/fl20251128lka-landslides-points](fl20251128lka/floods/2025/fl20251128lka/fl20251128lka-landslides-points/)
+### [fl20251128lka-landslides-points](fl20251128lka-landslides-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-landslides-points/collection.json)
 
-### [floods/2025/fl20251128lka/fl20251128lka-water-extent](fl20251128lka/floods/2025/fl20251128lka/fl20251128lka-water-extent/)
+### [fl20251128lka-water-extent](fl20251128lka-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-water-extent/collection.json)
 
 ## Coverage
 

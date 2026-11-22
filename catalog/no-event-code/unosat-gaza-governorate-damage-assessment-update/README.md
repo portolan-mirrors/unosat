@@ -13,9 +13,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-damage-sites](unosat-gaza-governorate-damage-assessment-update/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-damage-sites/)
+### [unosat-gaza-governorate-damage-assessment-update-damage-sites](unosat-gaza-governorate-damage-assessment-update-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-damage-sites/collection.json)
 
-### [no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed](unosat-gaza-governorate-damage-assessment-update/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed/)
+### [unosat-gaza-governorate-damage-assessment-update-other-mixed](unosat-gaza-governorate-damage-assessment-update-other-mixed/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed/collection.json)
 
 ## Coverage
 

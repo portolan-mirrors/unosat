@@ -20,9 +20,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2025/fl20250630pak/fl20250630pak-analysis-extent](fl20250630pak/floods/2025/fl20250630pak/fl20250630pak-analysis-extent/)
+### [fl20250630pak-analysis-extent](fl20250630pak-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250630pak/fl20250630pak-analysis-extent/collection.json)
 
-### [floods/2025/fl20250630pak/fl20250630pak-water-extent](fl20250630pak/floods/2025/fl20250630pak/fl20250630pak-water-extent/)
+### [fl20250630pak-water-extent](fl20250630pak-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250630pak/fl20250630pak-water-extent/collection.json)
 
 ## Coverage
 

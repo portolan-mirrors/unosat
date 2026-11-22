@@ -19,13 +19,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [volcanoes/vo20220115ton/vo20220115ton-analysis-extent](vo20220115ton/volcanoes/vo20220115ton/vo20220115ton-analysis-extent/)
+### [vo20220115ton-analysis-extent](vo20220115ton-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-analysis-extent/collection.json)
 
-### [volcanoes/vo20220115ton/vo20220115ton-damage-sites](vo20220115ton/volcanoes/vo20220115ton/vo20220115ton-damage-sites/)
+### [vo20220115ton-damage-sites](vo20220115ton-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-damage-sites/collection.json)
 
-### [volcanoes/vo20220115ton/vo20220115ton-other-lines](vo20220115ton/volcanoes/vo20220115ton/vo20220115ton-other-lines/)
+### [vo20220115ton-other-lines](vo20220115ton-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-other-lines/collection.json)
 
-### [volcanoes/vo20220115ton/vo20220115ton-water-extent](vo20220115ton/volcanoes/vo20220115ton/vo20220115ton-water-extent/)
+### [vo20220115ton-water-extent](vo20220115ton-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-water-extent/collection.json)
 
 ## Coverage
 

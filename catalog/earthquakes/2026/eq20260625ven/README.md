@@ -15,9 +15,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2026/eq20260625ven/eq20260625ven-analysis-extent](eq20260625ven/earthquakes/2026/eq20260625ven/eq20260625ven-analysis-extent/)
+### [eq20260625ven-analysis-extent](eq20260625ven-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260625ven/eq20260625ven-analysis-extent/collection.json)
 
-### [earthquakes/2026/eq20260625ven/eq20260625ven-damage-areas](eq20260625ven/earthquakes/2026/eq20260625ven/eq20260625ven-damage-areas/)
+### [eq20260625ven-damage-areas](eq20260625ven-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260625ven/eq20260625ven-damage-areas/collection.json)
 
 ## Coverage
 

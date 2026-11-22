@@ -20,19 +20,19 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_igo_3_0](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_igo_3_0/)
+### [ce20220223ukr-damage-areas-cc_by_igo_3_0](ce20220223ukr-damage-areas-cc_by_igo_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_igo_3_0/collection.json)
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_sa](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_sa/)
+### [ce20220223ukr-damage-areas-cc_by_sa](ce20220223ukr-damage-areas-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_sa/collection.json)
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_igo_3_0](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_igo_3_0/)
+### [ce20220223ukr-damage-sites-cc_by_igo_3_0](ce20220223ukr-damage-sites-cc_by_igo_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_igo_3_0/collection.json)
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_sa](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_sa/)
+### [ce20220223ukr-damage-sites-cc_by_sa](ce20220223ukr-damage-sites-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_sa/collection.json)
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_igo_3_0-epsg_4326](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_igo_3_0-epsg_4326/)
+### [ce20220223ukr-other-polygons-cc_by_igo_3_0-epsg_4326](ce20220223ukr-other-polygons-cc_by_igo_3_0-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_igo_3_0-epsg_4326/collection.json)
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_3857](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_3857/)
+### [ce20220223ukr-other-polygons-cc_by_sa-epsg_3857](ce20220223ukr-other-polygons-cc_by_sa-epsg_3857/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_3857/collection.json)
 
-### [complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_4326](ce20220223ukr/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_4326/)
+### [ce20220223ukr-other-polygons-cc_by_sa-epsg_4326](ce20220223ukr-other-polygons-cc_by_sa-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_4326/collection.json)
 
 ## Coverage
 

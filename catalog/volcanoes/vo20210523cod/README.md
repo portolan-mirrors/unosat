@@ -21,13 +21,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [volcanoes/vo20210523cod/vo20210523cod-analysis-extent](vo20210523cod/volcanoes/vo20210523cod/vo20210523cod-analysis-extent/)
+### [vo20210523cod-analysis-extent](vo20210523cod-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-analysis-extent/collection.json)
 
-### [volcanoes/vo20210523cod/vo20210523cod-damage-areas](vo20210523cod/volcanoes/vo20210523cod/vo20210523cod-damage-areas/)
+### [vo20210523cod-damage-areas](vo20210523cod-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-damage-areas/collection.json)
 
-### [volcanoes/vo20210523cod/vo20210523cod-damage-sites](vo20210523cod/volcanoes/vo20210523cod/vo20210523cod-damage-sites/)
+### [vo20210523cod-damage-sites](vo20210523cod-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-damage-sites/collection.json)
 
-### [volcanoes/vo20210523cod/vo20210523cod-other-lines](vo20210523cod/volcanoes/vo20210523cod/vo20210523cod-other-lines/)
+### [vo20210523cod-other-lines](vo20210523cod-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-other-lines/collection.json)
 
 ## Coverage
 

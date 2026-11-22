@@ -16,11 +16,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [floods/2022/fl20220119stp/fl20220119stp-analysis-extent](fl20220119stp/floods/2022/fl20220119stp/fl20220119stp-analysis-extent/)
+### [fl20220119stp-analysis-extent](fl20220119stp-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-analysis-extent/collection.json)
 
-### [floods/2022/fl20220119stp/fl20220119stp-damage-areas](fl20220119stp/floods/2022/fl20220119stp/fl20220119stp-damage-areas/)
+### [fl20220119stp-damage-areas](fl20220119stp-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-damage-areas/collection.json)
 
-### [floods/2022/fl20220119stp/fl20220119stp-damage-sites](fl20220119stp/floods/2022/fl20220119stp/fl20220119stp-damage-sites/)
+### [fl20220119stp-damage-sites](fl20220119stp-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-damage-sites/collection.json)
 
 ## Coverage
 

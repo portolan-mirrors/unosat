@@ -13,11 +13,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines](tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines/)
+### [tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines](tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-lines/collection.json)
 
-### [no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points](tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points/)
+### [tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points](tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points/collection.json)
 
-### [no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons](tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/)
+### [tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons](tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/collection.json)
 
 ## Coverage
 

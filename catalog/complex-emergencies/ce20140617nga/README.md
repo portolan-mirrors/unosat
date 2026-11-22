@@ -16,17 +16,17 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20140617nga/ce20140617nga-damage-areas](ce20140617nga/complex-emergencies/ce20140617nga/ce20140617nga-damage-areas/)
+### [ce20140617nga-damage-areas](ce20140617nga-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-damage-areas/collection.json)
 
-### [complex-emergencies/ce20140617nga/ce20140617nga-other-points](ce20140617nga/complex-emergencies/ce20140617nga/ce20140617nga-other-points/)
+### [ce20140617nga-other-points](ce20140617nga-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-other-points/collection.json)
 
-### [complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_nc_sa_3_0](ce20140617nga/complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_nc_sa_3_0/)
+### [ce20140617nga-shelter-areas-cc_by_nc_sa_3_0](ce20140617nga-shelter-areas-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_sa](ce20140617nga/complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_sa/)
+### [ce20140617nga-shelter-areas-cc_by_sa](ce20140617nga-shelter-areas-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_sa/collection.json)
 
-### [complex-emergencies/ce20140617nga/ce20140617nga-shelters-cc_by_nc_sa_3_0](ce20140617nga/complex-emergencies/ce20140617nga/ce20140617nga-shelters-cc_by_nc_sa_3_0/)
+### [ce20140617nga-shelters-cc_by_nc_sa_3_0](ce20140617nga-shelters-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-shelters-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20140617nga/ce20140617nga-shelters-cc_by_sa](ce20140617nga/complex-emergencies/ce20140617nga/ce20140617nga-shelters-cc_by_sa/)
+### [ce20140617nga-shelters-cc_by_sa](ce20140617nga-shelters-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-shelters-cc_by_sa/collection.json)
 
 ## Coverage
 

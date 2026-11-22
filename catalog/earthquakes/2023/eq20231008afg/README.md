@@ -19,13 +19,13 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent](eq20231008afg/earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent/)
+### [eq20231008afg-analysis-extent](eq20231008afg-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent/collection.json)
 
-### [earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent-points](eq20231008afg/earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent-points/)
+### [eq20231008afg-analysis-extent-points](eq20231008afg-analysis-extent-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent-points/collection.json)
 
-### [earthquakes/2023/eq20231008afg/eq20231008afg-damage-sites](eq20231008afg/earthquakes/2023/eq20231008afg/eq20231008afg-damage-sites/)
+### [eq20231008afg-damage-sites](eq20231008afg-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-damage-sites/collection.json)
 
-### [earthquakes/2023/eq20231008afg/eq20231008afg-shelters](eq20231008afg/earthquakes/2023/eq20231008afg/eq20231008afg-shelters/)
+### [eq20231008afg-shelters](eq20231008afg-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-shelters/collection.json)
 
 ## Coverage
 

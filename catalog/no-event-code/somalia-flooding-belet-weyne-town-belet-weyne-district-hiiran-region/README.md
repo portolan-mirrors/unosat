@@ -13,9 +13,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters](somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters/)
+### [somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters](somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters/collection.json)
 
-### [no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent](somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent/)
+### [somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent](somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent/collection.json)
 
 ## Coverage
 

@@ -20,9 +20,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent](eq20210814hti/earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/)
+### [eq20210814hti-analysis-extent](eq20210814hti-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/collection.json)
 
-### [earthquakes/2021/eq20210814hti/eq20210814hti-damage-sites](eq20210814hti/earthquakes/2021/eq20210814hti/eq20210814hti-damage-sites/)
+### [eq20210814hti-damage-sites](eq20210814hti-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/eq20210814hti-damage-sites/collection.json)
 
 ## Coverage
 

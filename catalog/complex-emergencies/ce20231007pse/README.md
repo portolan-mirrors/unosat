@@ -26,15 +26,15 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20231007pse/ce20231007pse-damage-sites](ce20231007pse/complex-emergencies/ce20231007pse/ce20231007pse-damage-sites/)
+### [ce20231007pse-damage-sites](ce20231007pse-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-damage-sites/collection.json)
 
-### [complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_3857](ce20231007pse/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_3857/)
+### [ce20231007pse-other-lines-epsg_3857](ce20231007pse-other-lines-epsg_3857/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_3857/collection.json)
 
-### [complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_4326](ce20231007pse/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_4326/)
+### [ce20231007pse-other-lines-epsg_4326](ce20231007pse-other-lines-epsg_4326/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_4326/collection.json)
 
-### [complex-emergencies/ce20231007pse/ce20231007pse-other-points](ce20231007pse/complex-emergencies/ce20231007pse/ce20231007pse-other-points/)
+### [ce20231007pse-other-points](ce20231007pse-other-points/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-points/collection.json)
 
-### [complex-emergencies/ce20231007pse/ce20231007pse-other-polygons](ce20231007pse/complex-emergencies/ce20231007pse/ce20231007pse-other-polygons/)
+### [ce20231007pse-other-polygons](ce20231007pse-other-polygons/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-polygons/collection.json)
 
 ## Coverage
 

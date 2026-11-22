@@ -18,9 +18,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_nc_sa_3_0](ce20150814lby/complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_nc_sa_3_0/)
+### [ce20150814lby-damage-sites-cc_by_nc_sa_3_0](ce20150814lby-damage-sites-cc_by_nc_sa_3_0/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_nc_sa_3_0/collection.json)
 
-### [complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_sa](ce20150814lby/complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_sa/)
+### [ce20150814lby-damage-sites-cc_by_sa](ce20150814lby-damage-sites-cc_by_sa/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_sa/collection.json)
 
 ## Coverage
 

@@ -17,11 +17,11 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [tropical-cyclones/2025/tc20251026hti/tc20251026hti-analysis-extent](tc20251026hti/tropical-cyclones/2025/tc20251026hti/tc20251026hti-analysis-extent/)
+### [tc20251026hti-analysis-extent](tc20251026hti-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-analysis-extent/collection.json)
 
-### [tropical-cyclones/2025/tc20251026hti/tc20251026hti-damage-sites](tc20251026hti/tropical-cyclones/2025/tc20251026hti/tc20251026hti-damage-sites/)
+### [tc20251026hti-damage-sites](tc20251026hti-damage-sites/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-damage-sites/collection.json)
 
-### [tropical-cyclones/2025/tc20251026hti/tc20251026hti-water-extent](tc20251026hti/tropical-cyclones/2025/tc20251026hti/tc20251026hti-water-extent/)
+### [tc20251026hti-water-extent](tc20251026hti-water-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-water-extent/collection.json)
 
 ## Coverage
 

@@ -16,9 +16,9 @@ Read [AGENTS.md](AGENTS.md) for how the collections were built.
 
 ## Collections
 
-### [landslides/ls20231208tza/ls20231208tza-analysis-extent](ls20231208tza/landslides/ls20231208tza/ls20231208tza-analysis-extent/)
+### [ls20231208tza-analysis-extent](ls20231208tza-analysis-extent/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20231208tza/ls20231208tza-analysis-extent/collection.json)
 
-### [landslides/ls20231208tza/ls20231208tza-damage-areas](ls20231208tza/landslides/ls20231208tza/ls20231208tza-damage-areas/)
+### [ls20231208tza-damage-areas](ls20231208tza-damage-areas/README.md) · [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20231208tza/ls20231208tza-damage-areas/collection.json)
 
 ## Coverage
 
