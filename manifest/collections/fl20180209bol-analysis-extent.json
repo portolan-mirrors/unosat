@@ -1,0 +1,140 @@
+{
+ "collection": "fl20180209bol-analysis-extent",
+ "event": "fl20180209bol",
+ "event_code": "FL20180209BOL",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180209bol/fl20180209bol-analysis-extent",
+ "parts": [
+  {
+   "key": "b96c0ca8dbf6a903",
+   "parquet": "00_RS20180209_AnalysisExtent_Trinidad.parquet",
+   "layer": "RS20180209_AnalysisExtent_Trinidad",
+   "source_file": "FL20180209BOL_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/BO/FL20180209BOL/FL20180209BOL_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-waters-over-cochabamba-department-bolivia",
+   "also_hdx": [
+    "satellite-detected-waters-over-el-beni-department-bolivia"
+   ]
+  },
+  {
+   "key": "b96c0ca8dbf6a903",
+   "parquet": "02_ST20180210_AnalysisExtent_Cochabamba.parquet",
+   "layer": "ST20180210_AnalysisExtent_Cochabamba",
+   "source_file": "FL20180209BOL_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/BO/FL20180209BOL/FL20180209BOL_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-waters-over-cochabamba-department-bolivia",
+   "also_hdx": [
+    "satellite-detected-waters-over-el-beni-department-bolivia"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-waters-over-cochabamba-department-bolivia",
+  "satellite-detected-waters-over-el-beni-department-bolivia"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

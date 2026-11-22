@@ -1,0 +1,675 @@
+{
+ "collection": "fl20151015som-water-extent",
+ "event": "fl20151015som",
+ "event_code": "FL20151015SOM",
+ "hazard": "floods",
+ "year": 2015,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2015/fl20151015som/fl20151015som-water-extent",
+ "parts": [
+  {
+   "key": "e9f3a119b3094464",
+   "parquet": "00_RS20153010_PostFlood.parquet",
+   "layer": "RS20153010_PostFlood",
+   "source_file": "FL20151015SOM_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SO/FL20151015SOM/FL20151015SOM_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 102926,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-saturated-soils-over-buulobarde-shabelle-region-somalia-october-30-2015",
+   "also_hdx": [
+    "geodata-of-saturated-soils-over-jowhar-middle-shabelle-region-somalia-november-03-2015",
+    "geodata-of-standing-waters-over-jowhar-middle-shabelle-region-somalia-november-16-2015"
+   ]
+  },
+  {
+   "key": "e9f3a119b3094464",
+   "parquet": "00_RS20151611_PostFlood.parquet",
+   "layer": "RS20151611_PostFlood",
+   "source_file": "FL20151015SOM_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SO/FL20151015SOM/FL20151015SOM_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4321,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-saturated-soils-over-buulobarde-shabelle-region-somalia-october-30-2015",
+   "also_hdx": [
+    "geodata-of-saturated-soils-over-jowhar-middle-shabelle-region-somalia-november-03-2015",
+    "geodata-of-standing-waters-over-jowhar-middle-shabelle-region-somalia-november-16-2015"
+   ]
+  },
+  {
+   "key": "e9f3a119b3094464",
+   "parquet": "00_LS20150201_PreFlood.parquet",
+   "layer": "LS20150201_PreFlood",
+   "source_file": "FL20151015SOM_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SO/FL20151015SOM/FL20151015SOM_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 185,
+   "fields": [
+    {
+     "name": "Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Source",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-saturated-soils-over-buulobarde-shabelle-region-somalia-october-30-2015",
+   "also_hdx": [
+    "geodata-of-saturated-soils-over-jowhar-middle-shabelle-region-somalia-november-03-2015",
+    "geodata-of-standing-waters-over-jowhar-middle-shabelle-region-somalia-november-16-2015"
+   ]
+  },
+  {
+   "key": "a60abf6675a794a1",
+   "parquet": "00_RS2_20151116_Flood.parquet",
+   "layer": "RS2_20151116_Flood",
+   "source_file": "FL20151015SOM_ShabelleHoose_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20151015SOM/FL20151015SOM_ShabelleHoose_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 3761,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-saturated-soils-over-the-shabelle-hoose-region-somalia-november-18-2015"
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-saturated-soils-over-buulobarde-shabelle-region-somalia-october-30-2015",
+  "geodata-of-saturated-soils-over-jowhar-middle-shabelle-region-somalia-november-03-2015",
+  "geodata-of-saturated-soils-over-the-shabelle-hoose-region-somalia-november-18-2015",
+  "geodata-of-standing-waters-over-jowhar-middle-shabelle-region-somalia-november-16-2015"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 33.5 MB"
+}

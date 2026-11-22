@@ -1,0 +1,411 @@
+{
+ "collection": "eq20230206syr-damage-lines",
+ "event": "eq20230206syr",
+ "event_code": "EQ20230206SYR",
+ "hazard": "earthquakes",
+ "year": 2023,
+ "family": "damage-lines",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:32636",
+ "path": "earthquakes/2023/eq20230206syr/eq20230206syr-damage-lines",
+ "parts": [
+  {
+   "key": "4b8fcfaec95249db",
+   "parquet": "00_PHR_20230211_DamageTransport_AlAtaarib.parquet",
+   "layer": "PHR_20230211_DamageTransport_AlAtaarib",
+   "source_file": "EQ20230206SYR_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3534/EQ20230206SYR_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "SiteID"
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "String",
+     "domain": null,
+     "alias": "ImageID"
+    }
+   ],
+   "domains": {
+    "RoadID": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    }
+   },
+   "hdx_dataset": "6-february-2023-m-7-8-marash-antep-kehramanmarash-earthquake-preliminary-satellite-based-c"
+  },
+  {
+   "key": "4b8fcfaec95249db",
+   "parquet": "00_PHR_20230216_DamageTransport_Sarmada.parquet",
+   "layer": "PHR_20230216_DamageTransport_Sarmada",
+   "source_file": "EQ20230206SYR_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3534/EQ20230206SYR_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 3,
+   "fields": [
+    {
+     "name": "RoadID",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "SiteID"
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "String",
+     "domain": null,
+     "alias": "ImageID"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "RoadID": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    }
+   },
+   "hdx_dataset": "6-february-2023-m-7-8-marash-antep-kehramanmarash-earthquake-preliminary-satellite-based-c"
+  }
+ ],
+ "hdx_datasets": [
+  "6-february-2023-m-7-8-marash-antep-kehramanmarash-earthquake-preliminary-satellite-based-c",
+  "damage-assessment-in-a-zaz-city-aleppo-governorate-syria-as-of-9-february-2023",
+  "damage-assessment-in-al-bab-qabasin-and-bza-a-towns-syria-as-of-11-february-2023",
+  "damage-assessment-in-al-bab-syria-as-of-11-february-2023",
+  "damage-assessment-in-idlib-city-syria-as-of-9-february-2023",
+  "damage-assessment-in-jableh-city-jableh-district-latakia-province-syria-as-of-9-february-2",
+  "damage-assessment-in-jindires-afrin-district-aleppo-governorate-syria-as-of-11-february-20",
+  "damage-assessment-in-jindires-and-the-surrounding-area-syria-as-of-10-february-2023",
+  "damage-assessment-in-jisr-al-shughur-city-idleb-as-of-9-february-2023",
+  "damage-assessment-in-killi-idlib-district-syria-as-of-16-february-2023",
+  "damage-assessment-in-lilawa-village-jarablus-district-aleppo-governorate-syria-as-of-7-feb",
+  "damage-assessment-in-salqin-idlib-as-of-9-february-2023",
+  "damage-assessment-in-the-northern-part-of-jableh-city-latakia-as-of-9-february-2023",
+  "damage-assessment-in-zayzafun-village-a-zaz-district-aleppo-governorate-syria-as-of-7-febr",
+  "damage-assessment-istamo-latakia-as-of-9-february-2023",
+  "flood-impact-analysis-along-the-orontes-river-al-assi-syrian-turkyie-boarder-as-of-9-febru",
+  "tqyym-ldrr-fy-jndyrs-mntq-fryn-mhfz-hlb-fy-11-fbryr-2023"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

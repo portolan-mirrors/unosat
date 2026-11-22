@@ -1,0 +1,4436 @@
+{
+ "collection": "fl20250812cpv-other-lines",
+ "event": "fl20250812cpv",
+ "event_code": "FL20250812CPV",
+ "hazard": "floods",
+ "year": 2025,
+ "family": "other-lines",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2025/fl20250812cpv/fl20250812cpv-other-lines",
+ "parts": [
+  {
+   "key": "28551b0b05b6a8e2",
+   "parquet": "00_PHR_20250813_20250816_AffectedRoad_SantoAntao.parquet",
+   "layer": "PHR_20250813_20250816_AffectedRoad_SantoAntao",
+   "source_file": "FL20250812CPV_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4190/FL20250812CPV_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Length",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "damage-to-cultural-heritage-in-the-area-of-cova-ribeira-paul-and-torre-natural-park-santo-"
+  },
+  {
+   "key": "28551b0b05b6a8e2",
+   "parquet": "00_PHR_20250813_20250816_AffectedRoad_SaoVicente.parquet",
+   "layer": "PHR_20250813_20250816_AffectedRoad_SaoVicente",
+   "source_file": "FL20250812CPV_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4190/FL20250812CPV_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Length",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "damage-to-cultural-heritage-in-the-area-of-cova-ribeira-paul-and-torre-natural-park-santo-"
+  },
+  {
+   "key": "488fa6e04e12412c",
+   "parquet": "00_PHR_20250813_20250816_AffectedRoad_SantoAntao.parquet",
+   "layer": "PHR_20250813_20250816_AffectedRoad_SantoAntao",
+   "source_file": "FL20250812CPV_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4191/FL20250812CPV_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Length",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "detecao-de-danos-no-patrimonio-cultural-atraves-da-analise-de-imagem-de-satelite-de-16-de-"
+  },
+  {
+   "key": "488fa6e04e12412c",
+   "parquet": "00_PHR_20250813_20250816_AffectedRoad_SaoVicente.parquet",
+   "layer": "PHR_20250813_20250816_AffectedRoad_SaoVicente",
+   "source_file": "FL20250812CPV_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4191/FL20250812CPV_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Length",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "detecao-de-danos-no-patrimonio-cultural-atraves-da-analise-de-imagem-de-satelite-de-16-de-"
+  },
+  {
+   "key": "9c964602ede8f62f",
+   "parquet": "00_PHR_20250813_AffectedRoads_PortoNovo.parquet",
+   "layer": "PHR_20250813_AffectedRoads_PortoNovo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4172/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-east-sao-vicente-municipality-cabo-verde-as-of-14-august-2025"
+  },
+  {
+   "key": "9c964602ede8f62f",
+   "parquet": "00_PHR_20250814_AffectedRoads_Mindelo.parquet",
+   "layer": "PHR_20250814_AffectedRoads_Mindelo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4172/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 65,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-east-sao-vicente-municipality-cabo-verde-as-of-14-august-2025"
+  },
+  {
+   "key": "9c964602ede8f62f",
+   "parquet": "00_PHR_20250814_AffectedRoads_EastSaoVicente.parquet",
+   "layer": "PHR_20250814_AffectedRoads_EastSaoVicente",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4172/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-east-sao-vicente-municipality-cabo-verde-as-of-14-august-2025"
+  },
+  {
+   "key": "eac73f97b4e29b63",
+   "parquet": "00_PHR_20250813_AffectedRoads_PortoNovo.parquet",
+   "layer": "PHR_20250813_AffectedRoads_PortoNovo",
+   "source_file": "FL20250812COD_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4169/FL20250812COD_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-mindelo-city-sao-vicente-municipality-cabo-verde-as-of-13-augus"
+  },
+  {
+   "key": "06f3d63ca621f51b",
+   "parquet": "00_PHR_20250813_AffectedRoads_PortoNovo.parquet",
+   "layer": "PHR_20250813_AffectedRoads_PortoNovo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4171/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-porto-novo-town-porto-novo-municipality-cabo-verde-as-of-13-aug"
+  },
+  {
+   "key": "92c166a123b34666",
+   "parquet": "00_PHR_20250813_20250816_AffectedRoad_SantoAntao.parquet",
+   "layer": "PHR_20250813_20250816_AffectedRoad_SantoAntao",
+   "source_file": "FL20250812CPV_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4178/FL20250812CPV_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Length",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-sao-vicente-island-cabo-verde-13-to-16-august-2025"
+  },
+  {
+   "key": "92c166a123b34666",
+   "parquet": "00_PHR_20250813_20250816_AffectedRoad_SaoVicente.parquet",
+   "layer": "PHR_20250813_20250816_AffectedRoad_SaoVicente",
+   "source_file": "FL20250812CPV_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4178/FL20250812CPV_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Length",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-in-sao-vicente-island-cabo-verde-13-to-16-august-2025"
+  },
+  {
+   "key": "519c16e4b2a8fa94",
+   "parquet": "00_PHR_20250813_AffectedRoads_PortoNovo.parquet",
+   "layer": "PHR_20250813_AffectedRoads_PortoNovo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4173/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-derived-flood-impact-assessment-north-santo-antao-island-cabo-verde"
+  },
+  {
+   "key": "519c16e4b2a8fa94",
+   "parquet": "00_PHR_20250814_AffectedRoads_Mindelo.parquet",
+   "layer": "PHR_20250814_AffectedRoads_Mindelo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4173/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 65,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-derived-flood-impact-assessment-north-santo-antao-island-cabo-verde"
+  },
+  {
+   "key": "519c16e4b2a8fa94",
+   "parquet": "00_PHR_20250814_AffectedRoads_EastSaoVicente.parquet",
+   "layer": "PHR_20250814_AffectedRoads_EastSaoVicente",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4173/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-derived-flood-impact-assessment-north-santo-antao-island-cabo-verde"
+  },
+  {
+   "key": "80764af15dba6630",
+   "parquet": "00_PHR_20250813_AffectedRoads_PortoNovo.parquet",
+   "layer": "PHR_20250813_AffectedRoads_PortoNovo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4176/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "unosat-live-web-map-home-layers-share-un-asign-flash-flood-in-cabo-verde"
+  },
+  {
+   "key": "80764af15dba6630",
+   "parquet": "00_PHR_20250814_AffectedRoads_Mindelo.parquet",
+   "layer": "PHR_20250814_AffectedRoads_Mindelo",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4176/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 65,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "unosat-live-web-map-home-layers-share-un-asign-flash-flood-in-cabo-verde"
+  },
+  {
+   "key": "80764af15dba6630",
+   "parquet": "00_PHR_20250814_AffectedRoads_EastSaoVicente.parquet",
+   "layer": "PHR_20250814_AffectedRoads_EastSaoVicente",
+   "source_file": "FL20250812CPV_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4176/FL20250812CPV_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "unosat-live-web-map-home-layers-share-un-asign-flash-flood-in-cabo-verde"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-to-cultural-heritage-in-the-area-of-cova-ribeira-paul-and-torre-natural-park-santo-",
+  "detecao-de-danos-no-patrimonio-cultural-atraves-da-analise-de-imagem-de-satelite-de-16-de-",
+  "flood-impact-assessment-in-east-sao-vicente-municipality-cabo-verde-as-of-14-august-2025",
+  "flood-impact-assessment-in-mindelo-city-sao-vicente-municipality-cabo-verde-as-of-13-augus",
+  "flood-impact-assessment-in-porto-novo-town-porto-novo-municipality-cabo-verde-as-of-13-aug",
+  "flood-impact-assessment-in-santo-antao-island-cabo-verde-13-to-16-august-2025",
+  "flood-impact-assessment-in-sao-vicente-and-santo-antao-islands-cabo-verde-13-to-16-august-",
+  "flood-impact-assessment-in-sao-vicente-island-cabo-verde-13-to-16-august-2025",
+  "preliminary-satellite-derived-flood-impact-assessment-north-santo-antao-island-cabo-verde",
+  "unosat-live-web-map-home-layers-share-un-asign-flash-flood-in-cabo-verde"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

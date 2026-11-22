@@ -1,0 +1,95 @@
+{
+ "collection": "tc20250308moz-other-points",
+ "event": "tc20250308moz",
+ "event_code": "TC20250308MOZ",
+ "hazard": "tropical-cyclones",
+ "year": 2025,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:3857",
+ "path": "tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points",
+ "parts": [
+  {
+   "key": "3e2c5a5ea4068991",
+   "parquet": "00_TC20250308MOZ.parquet",
+   "layer": "TC20250308MOZ",
+   "source_file": "TC20250308MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4091/TC20250308MOZ_SHP.zip",
+   "wgs84_horizontal": false,
+   "features": 78,
+   "fields": [
+    {
+     "name": "Site_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FeatureID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "MainDamage",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DamageStat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025"
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-damage-in-ile-de-mozambique-as-of-18-march-2025"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

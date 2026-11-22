@@ -1,0 +1,180 @@
+{
+ "collection": "satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent",
+ "event": "satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2016,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji/satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent",
+ "parts": [
+  {
+   "key": "6036d5c65589c8d8",
+   "parquet": "00_RS2_20150408_PreFlood_Savu.parquet",
+   "layer": "RS2_20150408_PreFlood_Savu",
+   "source_file": "tc20160219fji_shp.zip",
+   "source_url": "https://data.humdata.org/dataset/e65a452e-8154-49cf-afe5-9425563675ab/resource/b82da55a-279d-4cc5-8b82-bc4520c64356/download/tc20160219fji_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 4695,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji"
+  },
+  {
+   "key": "6036d5c65589c8d8",
+   "parquet": "01_RS2_20160221_PostFlood_Savu.parquet",
+   "layer": "RS2_20160221_PostFlood_Savu",
+   "source_file": "tc20160219fji_shp.zip",
+   "source_url": "https://data.humdata.org/dataset/e65a452e-8154-49cf-afe5-9425563675ab/resource/b82da55a-279d-4cc5-8b82-bc4520c64356/download/tc20160219fji_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 1361,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji"
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

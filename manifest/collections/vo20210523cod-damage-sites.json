@@ -1,0 +1,223 @@
+{
+ "collection": "vo20210523cod-damage-sites",
+ "event": "vo20210523cod",
+ "event_code": "VO20210523COD",
+ "hazard": "volcanoes",
+ "year": 2021,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "volcanoes/vo20210523cod/vo20210523cod-damage-sites",
+ "parts": [
+  {
+   "key": "7c6a827439c65f71",
+   "parquet": "00_USGS_VentLocation.parquet",
+   "layer": "USGS_VentLocation",
+   "source_file": "VO20210523COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/CD/VO20210523COD/VO20210523COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 3,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "coulee-de-lave-et-structures-affectees-suite-a-l-eruption-volcanique-du-nyiragongo-provinc",
+   "also_hdx": [
+    "lava-flow-and-affected-structures-caused-by-nyiragongo-volcanic-eruption-nord-kivu-provinc",
+    "lava-flow-and-affected-structures-caused-by-the-volcanic-eruption-of-the-22-may-2021-in-ka",
+    "lava-flow-and-affected-structures-caused-by-the-volcanic-eruption-of-the-22-may-2021-in-no",
+    "lava-flow-and-geological-information-in-nordkivu-province-dr-congo-and-western-province-rw",
+    "lava-flow-and-geological-information-related-to-the-volcanic-eruption-in-dr-congo-and-rwan",
+    "lava-flow-extent-and-affected-structures-caused-by-the-22-may-2021-nyiragongo-volcanic-eru"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "coulee-de-lave-et-structures-affectees-suite-a-l-eruption-volcanique-du-nyiragongo-provinc",
+  "lava-flow-and-affected-structures-caused-by-nyiragongo-volcanic-eruption-nord-kivu-provinc",
+  "lava-flow-and-affected-structures-caused-by-the-volcanic-eruption-of-the-22-may-2021-in-ka",
+  "lava-flow-and-affected-structures-caused-by-the-volcanic-eruption-of-the-22-may-2021-in-no",
+  "lava-flow-and-geological-information-in-nordkivu-province-dr-congo-and-western-province-rw",
+  "lava-flow-and-geological-information-related-to-the-volcanic-eruption-in-dr-congo-and-rwan",
+  "lava-flow-extent-and-affected-structures-caused-by-the-22-may-2021-nyiragongo-volcanic-eru"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

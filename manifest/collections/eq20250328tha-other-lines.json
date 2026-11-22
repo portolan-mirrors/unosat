@@ -1,0 +1,333 @@
+{
+ "collection": "eq20250328tha-other-lines",
+ "event": "eq20250328tha",
+ "event_code": "EQ20250328THA",
+ "hazard": "earthquakes",
+ "year": 2025,
+ "family": "other-lines",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2025/eq20250328tha/eq20250328tha-other-lines",
+ "parts": [
+  {
+   "key": "ac6182ff781bd2e5",
+   "parquet": "00_EMSR798_GRA_PRODUCT_facilitiesL_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_facilitiesL_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4112/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025"
+  },
+  {
+   "key": "ac6182ff781bd2e5",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationL_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationL_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4112/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 22423,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025"
+  },
+  {
+   "key": "ac6182ff781bd2e5",
+   "parquet": "01_ICube_SERTIT_en_HydrographyL_Merged.parquet",
+   "layer": "ICube_SERTIT_en_HydrographyL_Merged",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4112/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 74,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LENGTH_KM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025"
+  },
+  {
+   "key": "ac6182ff781bd2e5",
+   "parquet": "01_ICube_SERTIT_en_TransportationL_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_TransportationL_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4112/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1901,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LENGTH_KM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LEVEL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-the-unesco-tentative-list-component-chiang-mai-as-of-29-march-2025"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 3.5 MB"
+}

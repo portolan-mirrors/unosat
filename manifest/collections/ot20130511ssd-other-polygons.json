@@ -1,0 +1,67 @@
+{
+ "collection": "ot20130511ssd-other-polygons",
+ "event": "ot20130511ssd",
+ "event_code": "OT20130511SSD",
+ "hazard": "other-events",
+ "year": 2013,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "other-events/ot20130511ssd/ot20130511ssd-other-polygons",
+ "parts": [
+  {
+   "key": "e47cabaef3d3b38f",
+   "parquet": "00_Runway.parquet",
+   "layer": "Runway",
+   "source_file": "OT20130511SSD.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SS/OT20130511SSD/OT20130511SSD.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-ajuong-thok-refugee-camp-pariang-county-unity-state-south-sudan-january-13-2014",
+   "also_hdx": [
+    "geodata-of-batil-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014",
+    "geodata-of-doro-refugee-camp-maban-county-upper-nile-state-south-sudan-january-15-2014",
+    "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-ajuong-thok-refugee-camp-pariang-county-unity-state-south-sudan-january-13-2014",
+  "geodata-of-batil-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014",
+  "geodata-of-doro-refugee-camp-maban-county-upper-nile-state-south-sudan-january-15-2014",
+  "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

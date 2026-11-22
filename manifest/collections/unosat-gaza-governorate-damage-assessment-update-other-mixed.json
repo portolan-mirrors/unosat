@@ -1,0 +1,107 @@
+{
+ "collection": "unosat-gaza-governorate-damage-assessment-update-other-mixed",
+ "event": "unosat-gaza-governorate-damage-assessment-update",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2023,
+ "family": "other-mixed",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed",
+ "parts": [
+  {
+   "key": "231240083d31897a",
+   "parquet": "00_Damage_Sites_GazaGov_20231015.parquet",
+   "layer": "Damage_Sites_GazaGov_20231015",
+   "source_file": "CE20231007PSE_North_Gaza_Governorate_DA_20231015.kmz",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3698/CE20231007PSE_North_Gaza_Governorate_DA_20231015.kmz",
+   "wgs84_horizontal": true,
+   "features": 2491,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "description",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "timestamp",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "begin",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "end",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "altitudeMode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "tessellate",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "extrude",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "visibility",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "drawOrder",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "icon",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "snippet",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-gaza-governorate-damage-assessment-update"
+  }
+ ],
+ "hdx_datasets": [
+  "unosat-gaza-governorate-damage-assessment-update"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

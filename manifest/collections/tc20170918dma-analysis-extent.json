@@ -1,0 +1,263 @@
+{
+ "collection": "tc20170918dma-analysis-extent",
+ "event": "tc20170918dma",
+ "event_code": "TC20170918DMA",
+ "hazard": "tropical-cyclones",
+ "year": 2017,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2017/tc20170918dma/tc20170918dma-analysis-extent",
+ "parts": [
+  {
+   "key": "381b36a038d361f0",
+   "parquet": "00_Dominica_CloudObstruction_Total.parquet",
+   "layer": "Dominica_CloudObstruction_Total",
+   "source_file": "TC20170918DMA_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/DM/TC20170918DMA/TC20170918DMA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 186,
+   "fields": [
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Staff_ID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "Agency",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "ESRI World Imagery"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "16": "HA",
+     "18": "AM",
+     "21": "RF",
+     "41": "VDF"
+    },
+    "Staff_ID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "16": "HA",
+     "18": "AM",
+     "21": "RF",
+     "41": "VDF"
+    },
+    "Agency": {
+     "1": "UNOSAT",
+     "2": "Copernicus"
+    }
+   },
+   "hdx_dataset": "damage-assessment-related-density-in-the-central-southern-parts-of-dominica-2704",
+   "also_hdx": [
+    "damage-assessment-related-density-in-the-northeastern-part-of-dominica-2702",
+    "damage-assessment-related-density-in-the-southeastern-part-of-dominica-2703",
+    "maria-tropical-cyclone-damage-assessment-in-portsmouth-saint-john-parish-dominica",
+    "maria-tropical-cyclone-damage-assessment-in-roseau-south-saint-georges-parish-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-marigot-saint-andrew-parish-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-southern-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-the-southern-part-of-dominica",
+    "tropical-cyclone-maria-damage-density-in-the-north-western-part-of-dominica"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-related-density-in-the-central-southern-parts-of-dominica-2704",
+  "damage-assessment-related-density-in-the-northeastern-part-of-dominica-2702",
+  "damage-assessment-related-density-in-the-southeastern-part-of-dominica-2703",
+  "maria-tropical-cyclone-damage-assessment-in-portsmouth-saint-john-parish-dominica",
+  "maria-tropical-cyclone-damage-assessment-in-roseau-south-saint-georges-parish-dominica",
+  "tropical-cyclone-maria-damage-assessment-in-marigot-saint-andrew-parish-dominica",
+  "tropical-cyclone-maria-damage-assessment-in-southern-dominica",
+  "tropical-cyclone-maria-damage-assessment-in-the-southern-part-of-dominica",
+  "tropical-cyclone-maria-damage-density-in-the-north-western-part-of-dominica"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

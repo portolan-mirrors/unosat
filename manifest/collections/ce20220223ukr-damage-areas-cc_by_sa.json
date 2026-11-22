@@ -1,0 +1,7871 @@
+{
+ "collection": "ce20220223ukr-damage-areas-cc_by_sa",
+ "event": "ce20220223ukr",
+ "event_code": "CE20220223UKR",
+ "hazard": "complex-emergencies",
+ "year": 2022,
+ "family": "damage-areas",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:3857",
+ "path": "complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_sa",
+ "parts": [
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Sumy_22March2022_RDA.parquet",
+   "layer": "Sumy_22March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1111,
+   "fields": [
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Kharkiv_23March2022_RDA.parquet",
+   "layer": "Kharkiv_23March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 3601,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Field"
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Mariupol_26March2022_RDA.parquet",
+   "layer": "Mariupol_26March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 3456,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Chernihiv_22March2022_RDA.parquet",
+   "layer": "Chernihiv_22March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 901,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_MariupolDonesk_26March2022_RDA.parquet",
+   "layer": "MariupolDonesk_26March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 2869,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Mariupol_3April2022_RDA.parquet",
+   "layer": "Mariupol_3April2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 3459,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Donetsk_26March2022_RDA.parquet",
+   "layer": "Donetsk_26March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 6069,
+   "fields": [
+    {
+     "name": "PageName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PageNumber",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Hostomel_31March2022_RDA.parquet",
+   "layer": "Hostomel_31March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 217,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Irpin_31March2022_RDA.parquet",
+   "layer": "Irpin_31March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 246,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Bucha_31March2022_RDA.parquet",
+   "layer": "Bucha_31March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 304,
+   "fields": [
+    {
+     "name": "PageName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PageNumber",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Highly Damaged",
+     "13": "Moderately Damaged",
+     "14": "Damage",
+     "15": "No Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU",
+     "999": "PA"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Horenka_31March2022_RDA.parquet",
+   "layer": "Horenka_31March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 66,
+   "fields": [
+    {
+     "name": "PageName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PageNumber",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3_1",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_WestKyiv_31March2022_RDA.parquet",
+   "layer": "WestKyiv_31March2022_RDA",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 4672,
+   "fields": [
+    {
+     "name": "PageName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PageNumber",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Clas3",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": "Main_Damage_Site_Class_3"
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": "damage_type_1_1_1",
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": "Damage_Status",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer",
+     "domain": "StaffID_3_1",
+     "alias": "Field"
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "SensorID_2": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_2": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_3": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_3": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Clas3": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_3": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_4": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_4": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_4": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_4": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_5": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_5": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_5": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_5": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "SensorID_6": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "28": "WorldView-3"
+    },
+    "ConfidenceID_6": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_6": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Damaged",
+     "14": "Damage"
+    },
+    "Damage_Status_6": {
+     "0": "No change",
+     "1": "Increase - damage",
+     "2": "Decrease - damage",
+     "3": "New - damage",
+     "4": "Demolished",
+     "5": "Rebuilt",
+     "6": "Reconstructed"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Analyst": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "217": "AA",
+     "900": "SU"
+    }
+   },
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  },
+  {
+   "key": "16c2c3a1f18b39c3",
+   "parquet": "00_Mariupol_26March2022_RDA.parquet",
+   "layer": "Mariupol_26March2022_RDA",
+   "source_file": "UNOSAT_Mariupol_26March2022_RDA_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/UNOSAT_Mariupol_26March2022_RDA_shp.zip",
+   "wgs84_horizontal": false,
+   "features": 3456,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDa_1",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confiden_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dam_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborho",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map"
+  },
+  {
+   "key": "be44e0ae10d72648",
+   "parquet": "00_Kharkiv_23March2022_RDA.parquet",
+   "layer": "Kharkiv_23March2022_RDA",
+   "source_file": "kharkiv_23march2022_rda.zip",
+   "source_url": "https://data.humdata.org/dataset/541431bc-f704-426f-82e2-f7e1189131b0/resource/db58e9e3-2872-42b5-8d24-68563134c676/download/kharkiv_23march2022_rda.zip",
+   "wgs84_horizontal": false,
+   "features": 3601,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Sta",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDa_1",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confiden_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dam_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_S_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDa_2",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confiden_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dam_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_S_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDa_3",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confiden_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dam_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_S_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborho",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Analyst",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confiden_4",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dam_4",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDa_4",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confiden_5",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dam_5",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "north-kharkiv-rapid-damage-assessment-overview-map"
+  }
+ ],
+ "hdx_datasets": [
+  "kremenchuk-damage-assessment-overview",
+  "mariupol-rapid-damage-assessment-overview-map",
+  "mariupol-updated-building-damage-assessment-overview-map-livoberezhnyi-and-zhovtnevyi-dist",
+  "north-kharkiv-rapid-damage-assessment-overview-map",
+  "sumy-rapid-damage-assessment-overview-map",
+  "unosat-damage-assessment-overview-map-livoberezhnyi-district-mariupol-city-ukraine"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 8.0 MB"
+}

@@ -1,0 +1,1144 @@
+{
+ "collection": "unosat-gaza-governorate-damage-assessment-update-damage-sites",
+ "event": "unosat-gaza-governorate-damage-assessment-update",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2023,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-damage-sites",
+ "parts": [
+  {
+   "key": "3048295285e28a33",
+   "parquet": "00_Damage_Sites_GazaGov_20231010.parquet",
+   "layer": "Damage_Sites_GazaGov_20231010",
+   "source_file": "CE20231007PSE_Gaza_20231015_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3698/CE20231007PSE_Gaza_20231015_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 741,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments",
+     "6": "Damaged Port"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "unosat-gaza-governorate-damage-assessment-update"
+  },
+  {
+   "key": "3048295285e28a33",
+   "parquet": "00_Damage_Sites_NorthGazaGov_20231015.parquet",
+   "layer": "Damage_Sites_NorthGazaGov_20231015",
+   "source_file": "CE20231007PSE_Gaza_20231015_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3698/CE20231007PSE_Gaza_20231015_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 5535,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments",
+     "6": "Damaged Port"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "unosat-gaza-governorate-damage-assessment-update"
+  },
+  {
+   "key": "3048295285e28a33",
+   "parquet": "00_Damage_Sites_Agriculture_NorthGazaGov_20231015.parquet",
+   "layer": "Damage_Sites_Agriculture_NorthGazaGov_20231015",
+   "source_file": "CE20231007PSE_Gaza_20231015_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3698/CE20231007PSE_Gaza_20231015_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 371,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_3",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_4",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_4",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_4",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_4",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_4",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_5",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_5",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_5",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_5",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_5",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_6",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_6",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_6",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_6",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_6",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_7",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_7",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_7",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_7",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_7",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_8",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_8",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_8",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_8",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_8",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_9",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_9",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_9",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_9",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_9",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate_10",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_10",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_10",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_10",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Status_10",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Construction_Status",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-gaza-governorate-damage-assessment-update"
+  },
+  {
+   "key": "3048295285e28a33",
+   "parquet": "00_Damage_Sites_GazaGov_20231015.parquet",
+   "layer": "Damage_Sites_GazaGov_20231015",
+   "source_file": "CE20231007PSE_Gaza_20231015_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3698/CE20231007PSE_Gaza_20231015_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 2491,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "SensorDate_2",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID_2",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID_2",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class_2",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "SensorID_2": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "ConfidenceID_2": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class_2": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments",
+     "6": "Damaged Port"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "unosat-gaza-governorate-damage-assessment-update"
+  }
+ ],
+ "hdx_datasets": [
+  "unosat-gaza-governorate-damage-assessment-update"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

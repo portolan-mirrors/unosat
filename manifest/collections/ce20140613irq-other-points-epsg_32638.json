@@ -1,0 +1,556 @@
+{
+ "collection": "ce20140613irq-other-points-epsg_32638",
+ "event": "ce20140613irq",
+ "event_code": "CE20140613IRQ",
+ "hazard": "complex-emergencies",
+ "year": 2014,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:32638",
+ "path": "complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_32638",
+ "parts": [
+  {
+   "key": "9e6428a7ac1bec44",
+   "parquet": "00_M77.parquet",
+   "layer": "M77",
+   "source_file": "CE20140613IRQ_Al_Qayyarah.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq"
+  },
+  {
+   "key": "9e6428a7ac1bec44",
+   "parquet": "00_CE20140613IRQ_Al_Qayyarah_20161121_oil_fires.parquet",
+   "layer": "CE20140613IRQ_Al_Qayyarah_20161121_oil_fires",
+   "source_file": "CE20140613IRQ_Al_Qayyarah.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 85,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Status",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq"
+  },
+  {
+   "key": "72bd38b591d4c4a1",
+   "parquet": "00_CE20140613IRQ_Al_Qayyarah_20161121_oil_fires.parquet",
+   "layer": "CE20140613IRQ_Al_Qayyarah_20161121_oil_fires",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_20161121_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_20161121_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 85,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Status",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq"
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_M77_well.parquet",
+   "layer": "M77_well",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Oil_Fires.parquet",
+   "layer": "Oil_Fires",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 157,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Status",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_rain_over_smoke_20160718_20161025.parquet",
+   "layer": "rain_over_smoke_20160718_20161025",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 4,
+   "fields": [
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_rain_over_smoke_20160718_20161123.parquet",
+   "layer": "rain_over_smoke_20160718_20161123",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 18,
+   "fields": [
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_rain_over_smoke_20160718_20161214.parquet",
+   "layer": "rain_over_smoke_20160718_20161214",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 35,
+   "fields": [
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_rain_over_smoke_20160718_20170107.parquet",
+   "layer": "rain_over_smoke_20160718_20170107",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 33,
+   "fields": [
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_rain_over_smoke_20160718_20170123.parquet",
+   "layer": "rain_over_smoke_20160718_20170123",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 28,
+   "fields": [
+    {
+     "name": "POINTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_rain_over_smoke_20160718_20170309.parquet",
+   "layer": "rain_over_smoke_20160718_20170309",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 32,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "38a02e01a9001156",
+   "parquet": "00_rain_over_smoke_20160718_20161123.parquet",
+   "layer": "rain_over_smoke_20160718_20161123",
+   "source_file": "CE20140613IRQ_South_Mosul_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_South_Mosul_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 18,
+   "fields": [
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": "Precipitation over smoke (mm)"
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-and-14-december-2016"
+  },
+  {
+   "key": "38a02e01a9001156",
+   "parquet": "00_rain_over_smoke_20160718_20161214.parquet",
+   "layer": "rain_over_smoke_20160718_20161214",
+   "source_file": "CE20140613IRQ_South_Mosul_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_South_Mosul_oil_fires.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 35,
+   "fields": [
+    {
+     "name": "pointid",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "precip_mm",
+     "type": "Real",
+     "domain": null,
+     "alias": "Precipitation over smoke (mm)"
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-and-14-december-2016"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-11-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-16-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-18-july-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-30-june-2017",
+  "environmental-damage-in-al-qayyarah-iraq",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-and-14-december-2016",
+  "fires-at-the-qayyarah-oil-field-nineveh-governorate-between-july-18-and-october-24-2016",
+  "gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq",
+  "geodata-of-damage-assessment-for-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-in-central-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-of-al-sabbahiya-hamadan-village-sinjar-district-december-12-2015",
+  "geodata-of-damage-assessment-of-baiji-salah-ad-din-governorate-iraq-february-20-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-july-11-2016",
+  "geodata-of-damage-assessment-of-gundy-hamy-village-sinjar-district-nineveh-pr-december-11-2015",
+  "geodata-of-damage-assessment-of-jalawla-diyala-governorate-iraq-february-06-2015",
+  "geodata-of-damage-assessment-of-kany-sark-village-sinjar-district-nineveh-pro-december-12-2015",
+  "geodata-of-damage-assessment-of-ramadi-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-ramboosi-sharqi-village-sinjar-district-ninev-december-12-2015",
+  "geodata-of-damage-assessment-of-shkaftat-gharby-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-shkaftat-sharqy-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-02-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-sinjar-district-nineveh-province-iraq-november-30-2015",
+  "geodata-of-damage-assessment-of-tikrit-salah-ad-din-governorate-iraq-february-24-2015",
+  "geodata-of-damage-assessment-of-zravky-village-sinjar-district-nineveh-provin-december-22-2015",
+  "geodata-of-damage-assessment-of-zumar-nineveh-governorate-iraq-february-06-2015",
+  "geodata-of-gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq-august-17-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

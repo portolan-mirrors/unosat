@@ -1,0 +1,3585 @@
+{
+ "collection": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326",
+ "event": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2017,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326",
+ "parts": [
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "00_AIA_adm0_pop.parquet",
+   "layer": "AIA_adm0_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ENGLI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FAO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_LOCAL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_OBSOL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_VARIA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_NONLA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FRENC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_SPANI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_RUSSI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ARABI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_CHINE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WASPARTOF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CONTAINS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOVEREIGN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WWW",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FIPS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISON",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDFR",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDTO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POP2000",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POPSQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DEVELOPING",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Transition",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OECD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBREGION",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBINCOME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBDEBT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBOTHER",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEEAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEMAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEPLG",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COMESA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ECOWAS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IGAD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IOC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "MRU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SACU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UEMOA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UMA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PALOP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PARTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CACM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EurAsEC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Agadir",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SAARC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ASEAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAFTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GCC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CSN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CARICOM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ACP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Landlocked",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AOSIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SIDS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Islands",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LDC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "01_ATG_adm1_pop.parquet",
+   "layer": "ATG_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 8,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "02_BHS_adm1_pop.parquet",
+   "layer": "BHS_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 32,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "03_BLM_adm0_pop.parquet",
+   "layer": "BLM_adm0_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ENGLI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FAO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_LOCAL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_OBSOL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_VARIA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_NONLA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FRENC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_SPANI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_RUSSI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ARABI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_CHINE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WASPARTOF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CONTAINS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOVEREIGN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WWW",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FIPS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISON",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDFR",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDTO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POP2000",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POPSQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DEVELOPING",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Transition",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OECD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBREGION",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBINCOME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBDEBT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBOTHER",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEEAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEMAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEPLG",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COMESA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ECOWAS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IGAD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IOC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "MRU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SACU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UEMOA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UMA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PALOP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PARTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CACM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EurAsEC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Agadir",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SAARC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ASEAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAFTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GCC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CSN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CARICOM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ACP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Landlocked",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AOSIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SIDS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Islands",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LDC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "04_CUB_adm2_pop.parquet",
+   "layer": "CUB_adm2_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 168,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "05_DMA_adm1_pop.parquet",
+   "layer": "DMA_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 10,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "06_DOM_adm2_pop.parquet",
+   "layer": "DOM_adm2_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 155,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "07_GLP_adm2_pop.parquet",
+   "layer": "GLP_adm2_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 32,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "08_HTI_adm2_pop.parquet",
+   "layer": "HTI_adm2_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 41,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "09_KNA_adm1_pop.parquet",
+   "layer": "KNA_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 14,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "10_MAF_adm0_pop.parquet",
+   "layer": "MAF_adm0_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ENGLI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FAO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_LOCAL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_OBSOL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_VARIA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_NONLA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FRENC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_SPANI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_RUSSI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ARABI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_CHINE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WASPARTOF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CONTAINS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOVEREIGN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WWW",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FIPS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISON",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDFR",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDTO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POP2000",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POPSQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DEVELOPING",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Transition",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OECD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBREGION",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBINCOME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBDEBT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBOTHER",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEEAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEMAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEPLG",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COMESA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ECOWAS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IGAD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IOC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "MRU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SACU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UEMOA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UMA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PALOP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PARTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CACM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EurAsEC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Agadir",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SAARC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ASEAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAFTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GCC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CSN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CARICOM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ACP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Landlocked",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AOSIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SIDS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Islands",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LDC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "11_MSR_adm0_pop.parquet",
+   "layer": "MSR_adm0_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ENGLI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FAO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_LOCAL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_OBSOL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_VARIA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_NONLA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FRENC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_SPANI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_RUSSI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ARABI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_CHINE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WASPARTOF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CONTAINS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOVEREIGN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WWW",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FIPS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISON",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDFR",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDTO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POP2000",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POPSQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DEVELOPING",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Transition",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OECD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBREGION",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBINCOME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBDEBT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBOTHER",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEEAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEMAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEPLG",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COMESA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ECOWAS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IGAD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IOC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "MRU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SACU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UEMOA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UMA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PALOP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PARTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CACM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EurAsEC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Agadir",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SAARC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ASEAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAFTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GCC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CSN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CARICOM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ACP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Landlocked",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AOSIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SIDS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Islands",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LDC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "12_PRI_adm1_pop.parquet",
+   "layer": "PRI_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 78,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "13_SXM_adm0_pop.parquet",
+   "layer": "SXM_adm0_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ENGLI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FAO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_LOCAL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_OBSOL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_VARIA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_NONLA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_FRENC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_SPANI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_RUSSI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_ARABI",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_CHINE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WASPARTOF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CONTAINS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOVEREIGN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WWW",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FIPS",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISON",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDFR",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VALIDTO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POP2000",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POPSQKM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UNREGION2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DEVELOPING",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Transition",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OECD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBREGION",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBINCOME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBDEBT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WBOTHER",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEEAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEMAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CEPLG",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COMESA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EAC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ECOWAS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IGAD",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "IOC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "MRU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SACU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UEMOA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "UMA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PALOP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PARTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CACM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EurAsEC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Agadir",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SAARC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ASEAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAFTA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GCC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CSN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CARICOM",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EU",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CAN",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ACP",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Landlocked",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AOSIS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SIDS",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Islands",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LDC",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "16_TCA_adm1_pop.parquet",
+   "layer": "TCA_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 6,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "17_VGB_adm1_pop.parquet",
+   "layer": "VGB_adm1_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 5,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  },
+  {
+   "key": "9dcc6eed1439af6f",
+   "parquet": "18_VIR_adm2_pop.parquet",
+   "layer": "VIR_adm2_pop",
+   "source_file": "admin_pop.zip",
+   "source_url": "https://data.humdata.org/dataset/f5a928ff-c23b-4c44-9a48-94d7197b48ba/resource/4dd75d03-5928-4061-91d0-d6481178d5c5/download/admin_pop.zip",
+   "wgs84_horizontal": true,
+   "features": 20,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_60",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_90",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Pop_120",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total_pop",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+  }
+ ],
+ "hdx_datasets": [
+  "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

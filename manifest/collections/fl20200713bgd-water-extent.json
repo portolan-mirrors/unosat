@@ -1,0 +1,4484 @@
+{
+ "collection": "fl20200713bgd-water-extent",
+ "event": "fl20200713bgd",
+ "event_code": "FL20200713BGD",
+ "hazard": "floods",
+ "year": 2020,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2020/fl20200713bgd/fl20200713bgd-water-extent",
+ "parts": [
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_TDX_20200719_WaterExtent_NE_Bangladesh.parquet",
+   "layer": "TDX_20200719_WaterExtent_NE_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_TDX_20200719_FloodExtent_NE_Bangladesh.parquet",
+   "layer": "TDX_20200719_FloodExtent_NE_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200713_FloodExtent_Mymensingh_Rajshahi_Rangpur.parquet",
+   "layer": "ST1_20200713_FloodExtent_Mymensingh_Rajshahi_Rangpur",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1256,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200713_WaterExtent_Mymensingh_Rajshahi_Rangpur.parquet",
+   "layer": "ST1_20200713_WaterExtent_Mymensingh_Rajshahi_Rangpur",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 6038,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_TSX_20200718_FloodExtent_Mymensingh_Rajshahi_Rangpur.parquet",
+   "layer": "TSX_20200718_FloodExtent_Mymensingh_Rajshahi_Rangpur",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_TSX_20200718_WaterExtent_Mymensingh_Rajshahi_Rangpur.parquet",
+   "layer": "TSX_20200718_WaterExtent_Mymensingh_Rajshahi_Rangpur",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 15471,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_TSX_20200718_FloodExtent_E_Sylhet.parquet",
+   "layer": "TSX_20200718_FloodExtent_E_Sylhet",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_5",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_TSX_20200718_WaterExtent_E_Sylhet.parquet",
+   "layer": "TSX_20200718_WaterExtent_E_Sylhet",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 7665,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200713_FloodExtent_Bangladesh.parquet",
+   "layer": "ST1_20200713_FloodExtent_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 12914,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200713_WaterExtent_Bangladesh.parquet",
+   "layer": "ST1_20200713_WaterExtent_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 12407,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200720_FloodExtent_NE_Bangladesh.parquet",
+   "layer": "ST1_20200720_FloodExtent_NE_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 7,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_10",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200720_WaterExtent_NE_Bangladesh.parquet",
+   "layer": "ST1_20200720_WaterExtent_NE_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 13811,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confide_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200709_FloodExtent_Northwestern.parquet",
+   "layer": "ST1_20200709_FloodExtent_Northwestern",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 17993,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200709_WaterExtent_Northwestern.parquet",
+   "layer": "ST1_20200709_WaterExtent_Northwestern",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 33682,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200721_FloodExtent_Northwestern.parquet",
+   "layer": "ST1_20200721_FloodExtent_Northwestern",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 12562,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200721_FloodExtent_CentralRegion.parquet",
+   "layer": "ST1_20200721_FloodExtent_CentralRegion",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 42,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_NOAA_20200712_20200721_FloodExtent_Bangladesh.parquet",
+   "layer": "NOAA_20200712_20200721_FloodExtent_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_NOAA_20200723_20200727_FloodExtent_Bangladesh.parquet",
+   "layer": "NOAA_20200723_20200727_FloodExtent_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_NOAA_20200729_20200802_FloodExtent_Bangladesh.parquet",
+   "layer": "NOAA_20200729_20200802_FloodExtent_Bangladesh",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  },
+  {
+   "key": "09f7e3218bbe0b67",
+   "parquet": "00_ST1_20200808_FloodExtent_Central_Northern.parquet",
+   "layer": "ST1_20200808_FloodExtent_Central_Northern",
+   "source_file": "FL20200713BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20200713BGD/FL20200713BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 39,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES"
+    }
+   },
+   "hdx_dataset": "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+   "also_hdx": [
+    "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+    "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+    "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+    "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+    "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+    "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "population-potentially-exposed-to-floods-between-12-21-july-2020-in-bangladesh",
+  "satellite-detected-water-extent-as-of-19-july-2020-in-ne-bangladesh",
+  "satellite-detected-water-extent-as-of-19-july-2020-of-bangladesh",
+  "satellite-detected-water-extent-as-of-21-july-2020-over-northwestern-region-of-bangladesh",
+  "water-extent-as-of-18-july-2020-over-eastern-part-of-sylhet-division-bangladesh",
+  "water-extent-as-of-18-july-2020-over-mymensingh-rajshahi-and-rangpur-divisions-bangladesh",
+  "water-extent-as-of-20-july-2020-over-the-northeastern-region-of-bangladesh"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,1176 @@
+{
+ "collection": "tc20200403vut-other-polygons",
+ "event": "tc20200403vut",
+ "event_code": "TC20200403VUT",
+ "hazard": "tropical-cyclones",
+ "year": 2020,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2020/tc20200403vut/tc20200403vut-other-polygons",
+ "parts": [
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_AOI_UNOSAT.parquet",
+   "layer": "AOI_UNOSAT",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 8,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_vut_admbnda_adm0.parquet",
+   "layer": "vut_admbnda_adm0",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_vut_admbnda_adm1.parquet",
+   "layer": "vut_admbnda_adm1",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 6,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_vut_admbnda_adm2.parquet",
+   "layer": "vut_admbnda_adm2",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 66,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validTo",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_AOI_COPERNICUS.parquet",
+   "layer": "AOI_COPERNICUS",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 3,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_Land_Cover_AOI4_PortSandwich.parquet",
+   "layer": "Land_Cover_AOI4_PortSandwich",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1044,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_Land_Cover_AOI7_Panbanglap.parquet",
+   "layer": "Land_Cover_AOI7_Panbanglap",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 150,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_Land_Cover_AOI8_Oral.parquet",
+   "layer": "Land_Cover_AOI8_Oral",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 87,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_AOI_BLUECHAM_SAS.parquet",
+   "layer": "AOI_BLUECHAM_SAS",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+  "damage-assessment-in-ambae-island-penama-province-vanuatu",
+  "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+  "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+  "damage-assessment-in-maewo-island-penama-province-vanuatu",
+  "damage-assessment-in-malampa-province-vanuatu",
+  "damage-assessment-in-malo-island-sanma-province-vanuatu",
+  "damage-assessment-in-paama-island-malampa-province-vanuatu",
+  "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

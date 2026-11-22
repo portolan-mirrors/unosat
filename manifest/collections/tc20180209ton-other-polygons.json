@@ -1,0 +1,77 @@
+{
+ "collection": "tc20180209ton-other-polygons",
+ "event": "tc20180209ton",
+ "event_code": "TC20180209TON",
+ "hazard": "tropical-cyclones",
+ "year": 2018,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2018/tc20180209ton/tc20180209ton-other-polygons",
+ "parts": [
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "08_Kolonga_Tongatapu_Damage_Zones.parquet",
+   "layer": "Kolonga_Tongatapu_Damage_Zones",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-eua-island-tonga"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

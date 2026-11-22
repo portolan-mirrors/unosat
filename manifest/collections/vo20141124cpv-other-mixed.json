@@ -1,0 +1,107 @@
+{
+ "collection": "vo20141124cpv-other-mixed",
+ "event": "vo20141124cpv",
+ "event_code": "VO20141124CPV",
+ "hazard": "volcanoes",
+ "year": 2014,
+ "family": "other-mixed",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "volcanoes/vo20141124cpv/vo20141124cpv-other-mixed",
+ "parts": [
+  {
+   "key": "e5a2605aedf69872",
+   "parquet": "00_Lava.parquet",
+   "layer": "Lava",
+   "source_file": "WV20141125_lava_Flow_Fogo.kmz",
+   "source_url": "https://cern.ch/unosat-maps/CV/VO20141124CPV/WV20141125_lava_Flow_Fogo.kmz",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "description",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "timestamp",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "begin",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "end",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "altitudeMode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "tessellate",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "extrude",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "visibility",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "drawOrder",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "icon",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "snippet",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-pico-de-fogo-volcanic-eruption-fogo-island-cape-verde-impact-november-28-2014"
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-pico-de-fogo-volcanic-eruption-fogo-island-cape-verde-impact-november-28-2014"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,1989 @@
+{
+ "collection": "fl20251229moz-analysis-extent",
+ "event": "fl20251229moz",
+ "event_code": "FL20251229MOZ",
+ "hazard": "floods",
+ "year": 2025,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2025/fl20251229moz/fl20251229moz-analysis-extent",
+ "parts": [
+  {
+   "key": "85a40283de7f2382",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4228/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "222": "LD"
+    }
+   },
+   "hdx_dataset": "satellite-detected-water-extents-as-of-31-december-2025-in-sofala-province-mozambique"
+  },
+  {
+   "key": "a1eb5c366b8269d1",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4228/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extents-as-of-31-december-2025-in-sofala-province-mozambique"
+  },
+  {
+   "key": "69c91281b5418495",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4229/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "222": "LD"
+    }
+   },
+   "hdx_dataset": "satellite-detected-water-extents-as-of-5-january-2026-in-sofala-province-mozambique"
+  },
+  {
+   "key": "69c91281b5418495",
+   "parquet": "00_S1_20260105_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20260105_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4229/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extents-as-of-5-january-2026-in-sofala-province-mozambique"
+  },
+  {
+   "key": "775f418e37aabbbf",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4229/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extents-as-of-5-january-2026-in-sofala-province-mozambique"
+  },
+  {
+   "key": "775f418e37aabbbf",
+   "parquet": "03_S1_20260105_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20260105_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4229/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extents-as-of-5-january-2026-in-sofala-province-mozambique"
+  },
+  {
+   "key": "4ddffd914a87d42d",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4230/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "222": "LD"
+    }
+   },
+   "hdx_dataset": "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique"
+  },
+  {
+   "key": "4ddffd914a87d42d",
+   "parquet": "00_S1_20260105_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20260105_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4230/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique"
+  },
+  {
+   "key": "4ddffd914a87d42d",
+   "parquet": "00_S1_20260123_AnalysisExtent_Maputo.parquet",
+   "layer": "S1_20260123_AnalysisExtent_Maputo",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4230/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique"
+  },
+  {
+   "key": "1bf2466743a185f7",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4230/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique"
+  },
+  {
+   "key": "1bf2466743a185f7",
+   "parquet": "03_S1_20260105_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20260105_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4230/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique"
+  },
+  {
+   "key": "1bf2466743a185f7",
+   "parquet": "05_S1_20260123_AnalysisExtent_Maputo.parquet",
+   "layer": "S1_20260123_AnalysisExtent_Maputo",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4230/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique"
+  },
+  {
+   "key": "f69c5a112d52fd45",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "222": "LD"
+    }
+   },
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "f69c5a112d52fd45",
+   "parquet": "00_S1_20260105_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20260105_AnalysisExtent_Sofala",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "f69c5a112d52fd45",
+   "parquet": "00_S1_20260123_AnalysisExtent_Maputo.parquet",
+   "layer": "S1_20260123_AnalysisExtent_Maputo",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "f69c5a112d52fd45",
+   "parquet": "00_S1_20260124_AnalysisExtent_Maputo_Gaza.parquet",
+   "layer": "S1_20260124_AnalysisExtent_Maputo_Gaza",
+   "source_file": "FL20251229MOZ_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251229MOZ_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "6f323aee4586f630",
+   "parquet": "00_S1_20251231_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20251231_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "6f323aee4586f630",
+   "parquet": "03_S1_20260105_AnalysisExtent_Sofala.parquet",
+   "layer": "S1_20260105_AnalysisExtent_Sofala",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "6f323aee4586f630",
+   "parquet": "05_S1_20260123_AnalysisExtent_Maputo.parquet",
+   "layer": "S1_20260123_AnalysisExtent_Maputo",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  },
+  {
+   "key": "6f323aee4586f630",
+   "parquet": "07_S1_20260124_AnalysisExtent_Maputo_Gaza.parquet",
+   "layer": "S1_20260124_AnalysisExtent_Maputo_Gaza",
+   "source_file": "FL20251231MOZ_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4231/FL20251231MOZ_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-water-extents-as-of-31-december-2025-in-sofala-province-mozambique",
+  "satellite-detected-water-extents-as-of-5-january-2026-in-sofala-province-mozambique",
+  "water-extents-as-of-23-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambique",
+  "water-extents-from-23-to-24-january-2026-in-gaza-maputo-and-maputo-city-provinces-mozambiq"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

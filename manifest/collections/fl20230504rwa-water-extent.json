@@ -1,0 +1,4127 @@
+{
+ "collection": "fl20230504rwa-water-extent",
+ "event": "fl20230504rwa",
+ "event_code": "FL20230504RWA",
+ "hazard": "floods",
+ "year": 2023,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2023/fl20230504rwa/fl20230504rwa-water-extent",
+ "parts": [
+  {
+   "key": "d6e36bd1437044c7",
+   "parquet": "00_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3585/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-mukungwa-river-western-northern-provinces-rwanda-as-of-10-may-"
+  },
+  {
+   "key": "d6e36bd1437044c7",
+   "parquet": "00_S2_20230507_LandslideExtent_Kibingo_Surrounding.parquet",
+   "layer": "S2_20230507_LandslideExtent_Kibingo_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3585/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-mukungwa-river-western-northern-provinces-rwanda-as-of-10-may-"
+  },
+  {
+   "key": "d6e36bd1437044c7",
+   "parquet": "00_S1_20230505_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230505_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3585/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-mukungwa-river-western-northern-provinces-rwanda-as-of-10-may-"
+  },
+  {
+   "key": "d6e36bd1437044c7",
+   "parquet": "00_PHR_20230510_WaterExtent_NyabihuDistrict_WesternProvince_RWA.parquet",
+   "layer": "PHR_20230510_WaterExtent_NyabihuDistrict_WesternProvince_RWA",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3585/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_5",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_6",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "18": "TH",
+     "213": "JT",
+     "214": "ES",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-mukungwa-river-western-northern-provinces-rwanda-as-of-10-may-"
+  },
+  {
+   "key": "67523ec5daffd5fb",
+   "parquet": "00_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3590/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-sebaya-river-rubavu-and-karongi-districts-western-province-rwa"
+  },
+  {
+   "key": "67523ec5daffd5fb",
+   "parquet": "00_S2_20230507_LandslideExtent_Kibingo_Surrounding.parquet",
+   "layer": "S2_20230507_LandslideExtent_Kibingo_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3590/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-sebaya-river-rubavu-and-karongi-districts-western-province-rwa"
+  },
+  {
+   "key": "67523ec5daffd5fb",
+   "parquet": "00_S1_20230505_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230505_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3590/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-sebaya-river-rubavu-and-karongi-districts-western-province-rwa"
+  },
+  {
+   "key": "67523ec5daffd5fb",
+   "parquet": "00_PHR_20230510_WaterExtent_NyabihuDistrict_WesternProvince_RWA.parquet",
+   "layer": "PHR_20230510_WaterExtent_NyabihuDistrict_WesternProvince_RWA",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3590/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_5",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_6",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "18": "TH",
+     "213": "JT",
+     "214": "ES",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "damage-assessment-along-the-sebaya-river-rubavu-and-karongi-districts-western-province-rwa"
+  },
+  {
+   "key": "143b9c29ddac9020",
+   "parquet": "00_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3578/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "landslides-mudslides-over-kibingo-congonil-kagana-and-ghanga-villages-rutsiro-district-wes"
+  },
+  {
+   "key": "143b9c29ddac9020",
+   "parquet": "00_S2_20230507_LandslideExtent_Kibingo_Surrounding.parquet",
+   "layer": "S2_20230507_LandslideExtent_Kibingo_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3578/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM"
+    }
+   },
+   "hdx_dataset": "landslides-mudslides-over-kibingo-congonil-kagana-and-ghanga-villages-rutsiro-district-wes"
+  },
+  {
+   "key": "143b9c29ddac9020",
+   "parquet": "00_S1_20230505_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230505_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3578/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "landslides-mudslides-over-kibingo-congonil-kagana-and-ghanga-villages-rutsiro-district-wes"
+  },
+  {
+   "key": "989aa086972d6cb6",
+   "parquet": "00_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3579/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-flood-and-landslide-assessment-report-along-sebaya-river-rubavu-dist"
+  },
+  {
+   "key": "989aa086972d6cb6",
+   "parquet": "00_S2_20230507_LandslideExtent_Kibingo_Surrounding.parquet",
+   "layer": "S2_20230507_LandslideExtent_Kibingo_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3579/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-flood-and-landslide-assessment-report-along-sebaya-river-rubavu-dist"
+  },
+  {
+   "key": "989aa086972d6cb6",
+   "parquet": "00_S1_20230505_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230505_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3579/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-flood-and-landslide-assessment-report-along-sebaya-river-rubavu-dist"
+  },
+  {
+   "key": "2e960231989caae6",
+   "parquet": "00_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3581/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "water-extent-along-the-nyabarongo-river-west-and-south-of-kigali-city-in-southern-and-east"
+  },
+  {
+   "key": "2e960231989caae6",
+   "parquet": "00_S2_20230507_LandslideExtent_Kibingo_Surrounding.parquet",
+   "layer": "S2_20230507_LandslideExtent_Kibingo_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3581/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_1",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM"
+    }
+   },
+   "hdx_dataset": "water-extent-along-the-nyabarongo-river-west-and-south-of-kigali-city-in-southern-and-east"
+  },
+  {
+   "key": "2e960231989caae6",
+   "parquet": "00_S1_20230505_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230505_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230504RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3581/FL20230504RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "water-extent-along-the-nyabarongo-river-west-and-south-of-kigali-city-in-southern-and-east"
+  },
+  {
+   "key": "0018a3e23b087ce0",
+   "parquet": "00_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230304RWA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3573/FL20230304RWA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "1": "Flood Water",
+     "2": "Satellite Detected Water / Possible Saturated Soil",
+     "3": "Probable Flash Flood-Affected Land",
+     "4": "Aquaculture",
+     "5": "Possible Satuated, wet soil",
+     "6": "Tsunami-Affected Land",
+     "7": "Maximum Satellite Observed Water (Cumulative)",
+     "8": "Swamp / Marsh / Mangrove",
+     "0": "Archive Water Extent / Pre-Flood Water",
+     "9": "Snow Cover"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS"
+    }
+   },
+   "hdx_dataset": "water-extent-over-kigali-city-southern-northern-western-and-eastern-provinces-rwanda-as-of"
+  },
+  {
+   "key": "e659c9f3da1ab0cf",
+   "parquet": "01_S1_20230503_FloodExtent_KigaliCity_Surrounding.parquet",
+   "layer": "S1_20230503_FloodExtent_KigaliCity_Surrounding",
+   "source_file": "FL20230503RWA_SHP.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3573/FL20230503RWA_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "water-extent-over-kigali-city-southern-northern-western-and-eastern-provinces-rwanda-as-of"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-along-the-mukungwa-river-western-northern-provinces-rwanda-as-of-10-may-",
+  "damage-assessment-along-the-sebaya-river-rubavu-and-karongi-districts-western-province-rwa",
+  "landslides-mudslides-over-kibingo-congonil-kagana-and-ghanga-villages-rutsiro-district-wes",
+  "preliminary-satellite-flood-and-landslide-assessment-report-along-sebaya-river-rubavu-dist",
+  "water-extent-along-the-nyabarongo-river-west-and-south-of-kigali-city-in-southern-and-east",
+  "water-extent-over-kigali-city-southern-northern-western-and-eastern-provinces-rwanda-as-of"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

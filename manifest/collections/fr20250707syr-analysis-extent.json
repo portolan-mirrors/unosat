@@ -1,0 +1,326 @@
+{
+ "collection": "fr20250707syr-analysis-extent",
+ "event": "fr20250707syr",
+ "event_code": "FR20250707SYR",
+ "hazard": "fires",
+ "year": 2025,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "fires/fr20250707syr/fr20250707syr-analysis-extent",
+ "parts": [
+  {
+   "key": "5b700e2fbf4a5a4b",
+   "parquet": "00_PT_20250704_AnalysisExtent_QastalMaaf.parquet",
+   "layer": "PT_20250704_AnalysisExtent_QastalMaaf",
+   "source_file": "FR20250707SYR_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4146/FR20250707SYR_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "wildfires-in-qastal-maaf-rabee-a-and-kasab-sub-district-latakia-governorate-syria-as-of-8-"
+  },
+  {
+   "key": "5b700e2fbf4a5a4b",
+   "parquet": "00_PHR_20250708_AnalysisExtent_Latakia.parquet",
+   "layer": "PHR_20250708_AnalysisExtent_Latakia",
+   "source_file": "FR20250707SYR_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4146/FR20250707SYR_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "wildfires-in-qastal-maaf-rabee-a-and-kasab-sub-district-latakia-governorate-syria-as-of-8-"
+  },
+  {
+   "key": "660d79436fd1e80a",
+   "parquet": "00_PT_20250704_AnalysisExtent_QastalMaaf.parquet",
+   "layer": "PT_20250704_AnalysisExtent_QastalMaaf",
+   "source_file": "FR20250707SYR_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4145/FR20250707SYR_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "wildfires-in-qastal-maaf-sub-district-latakia-governorate-syria-as-of-4-july-2025"
+  }
+ ],
+ "hdx_datasets": [
+  "wildfires-in-qastal-maaf-rabee-a-and-kasab-sub-district-latakia-governorate-syria-as-of-8-",
+  "wildfires-in-qastal-maaf-sub-district-latakia-governorate-syria-as-of-4-july-2025"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

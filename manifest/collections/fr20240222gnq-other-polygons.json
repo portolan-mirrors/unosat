@@ -1,0 +1,65 @@
+{
+ "collection": "fr20240222gnq-other-polygons",
+ "event": "fr20240222gnq",
+ "event_code": "FR20240222GNQ",
+ "hazard": "fires",
+ "year": 2024,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "fires/fr20240222gnq/fr20240222gnq-other-polygons",
+ "parts": [
+  {
+   "key": "c03bbbe1d8e69f27",
+   "parquet": "00_S2_20240218_BurnedArea.parquet",
+   "layer": "S2_20240218_BurnedArea",
+   "source_file": "FR20240222GNQ_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3799/FR20240222GNQ_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "gridcode",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "areas-burned-from-february-3rd-to-18th-2024-around-the-pico-basil-volcano-on-bioko-island-"
+  }
+ ],
+ "hdx_datasets": [
+  "areas-burned-from-february-3rd-to-18th-2024-around-the-pico-basil-volcano-on-bioko-island-"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,1238 @@
+{
+ "collection": "fr20230724dza-other-polygons",
+ "event": "fr20230724dza",
+ "event_code": "FR20230724DZA",
+ "hazard": "fires",
+ "year": 2023,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "fires/fr20230724dza/fr20230724dza-other-polygons",
+ "parts": [
+  {
+   "key": "53bc88e09e837a35",
+   "parquet": "00_VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda.parquet",
+   "layer": "VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3641/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "densite-des-foyers-d-incendies-dans-les-wilayas-de-bouira-tizi-ouzou-et-bejaia-le-24-juill"
+  },
+  {
+   "key": "bbe2c594dbd1b1d3",
+   "parquet": "00_VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda.parquet",
+   "layer": "VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3640/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "fire-in-algeria-unosat-live-web-map"
+  },
+  {
+   "key": "c3fd4bd3c1b2ab4d",
+   "parquet": "00_VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda.parquet",
+   "layer": "VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3644/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-25-juillet-2023-dans-la-wilaya-de-bejaia-algerie"
+  },
+  {
+   "key": "c3fd4bd3c1b2ab4d",
+   "parquet": "00_S2_20220725_AnalysisArea_SoukElTenine.parquet",
+   "layer": "S2_20220725_AnalysisArea_SoukElTenine",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3644/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-25-juillet-2023-dans-la-wilaya-de-bejaia-algerie"
+  },
+  {
+   "key": "c3fd4bd3c1b2ab4d",
+   "parquet": "00_S2_20220725_AnalysisArea_Bejaja.parquet",
+   "layer": "S2_20220725_AnalysisArea_Bejaja",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3644/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-25-juillet-2023-dans-la-wilaya-de-bejaia-algerie"
+  },
+  {
+   "key": "c3fd4bd3c1b2ab4d",
+   "parquet": "00_PL_20220726_AnalysisArea_Bejaja.parquet",
+   "layer": "PL_20220726_AnalysisArea_Bejaja",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3644/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-25-juillet-2023-dans-la-wilaya-de-bejaia-algerie"
+  },
+  {
+   "key": "56b23331bbaaa1e9",
+   "parquet": "00_VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda.parquet",
+   "layer": "VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3643/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-25-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+  },
+  {
+   "key": "56b23331bbaaa1e9",
+   "parquet": "00_S2_20220725_AnalysisArea_SoukElTenine.parquet",
+   "layer": "S2_20220725_AnalysisArea_SoukElTenine",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3643/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-25-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+  },
+  {
+   "key": "9081feab90724233",
+   "parquet": "00_VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda.parquet",
+   "layer": "VIIRS_20230724_20230725_AreaOfInterest_Algjers_Bejaia_Skikda",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3646/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-27-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+  },
+  {
+   "key": "9081feab90724233",
+   "parquet": "00_S2_20230725_AnalysisArea_SoukElTenine.parquet",
+   "layer": "S2_20230725_AnalysisArea_SoukElTenine",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3646/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-27-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+  },
+  {
+   "key": "9081feab90724233",
+   "parquet": "00_S2_20230725_AnalysisArea_Bejaja.parquet",
+   "layer": "S2_20230725_AnalysisArea_Bejaja",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3646/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-27-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+  },
+  {
+   "key": "9081feab90724233",
+   "parquet": "00_PL_20230726_AnalysisArea_Bejaja.parquet",
+   "layer": "PL_20230726_AnalysisArea_Bejaja",
+   "source_file": "FR20230724DZA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3646/FR20230724DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "zones-incendiees-le-27-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+  }
+ ],
+ "hdx_datasets": [
+  "densite-des-foyers-d-incendies-dans-les-wilayas-de-bouira-tizi-ouzou-et-bejaia-le-24-juill",
+  "fire-in-algeria-unosat-live-web-map",
+  "zones-incendiees-le-25-juillet-2023-dans-la-wilaya-de-bejaia-algerie",
+  "zones-incendiees-le-25-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas",
+  "zones-incendiees-le-27-juillet-2023-dans-les-communes-de-melbou-et-ziama-mansouria-wilayas"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

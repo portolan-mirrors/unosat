@@ -1,0 +1,82 @@
+{
+ "collection": "fl20180518bgd-analysis-extent",
+ "event": "fl20180518bgd",
+ "event_code": "FL20180518BGD",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180518bgd/fl20180518bgd-analysis-extent",
+ "parts": [
+  {
+   "key": "98646e825fa0edb3",
+   "parquet": "02_ST20180613_Teknaf_Analysis_Extent.parquet",
+   "layer": "ST20180613_Teknaf_Analysis_Extent",
+   "source_file": "FL20180518BGD_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20180518BGD/FL20180518BGD_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extent-in-teknaf-upazila-cox-s-bazar-district-chittagong-division-",
+   "also_hdx": [
+    "satellite-detected-waters-evolution-by-camp-extent-in-cox-s-bazar-district-chittagong-division-"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-water-extent-in-teknaf-upazila-cox-s-bazar-district-chittagong-division-",
+  "satellite-detected-waters-evolution-by-camp-extent-in-cox-s-bazar-district-chittagong-division-"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

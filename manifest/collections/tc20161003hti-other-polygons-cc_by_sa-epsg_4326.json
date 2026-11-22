@@ -1,0 +1,661 @@
+{
+ "collection": "tc20161003hti-other-polygons-cc_by_sa-epsg_4326",
+ "event": "tc20161003hti",
+ "event_code": "TC20161003HTI",
+ "hazard": "tropical-cyclones",
+ "year": 2016,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_sa-epsg_4326",
+ "parts": [
+  {
+   "key": "901bf496a1997494",
+   "parquet": "00_AOI_UNOSAT.parquet",
+   "layer": "AOI_UNOSAT",
+   "source_file": "TC20161003THI_combined_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003THI_combined_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "damage-assessment-of-tiburon-town-and-surroundings",
+   "also_hdx": [
+    "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+    "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+    "damage-assessment-overview-of-tiburon-commune-sud-department",
+    "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+    "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti"
+   ]
+  },
+  {
+   "key": "901bf496a1997494",
+   "parquet": "00_AOI_NGA.parquet",
+   "layer": "AOI_NGA",
+   "source_file": "TC20161003THI_combined_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003THI_combined_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "damage-assessment-of-tiburon-town-and-surroundings",
+   "also_hdx": [
+    "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+    "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+    "damage-assessment-overview-of-tiburon-commune-sud-department",
+    "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+    "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti"
+   ]
+  },
+  {
+   "key": "901bf496a1997494",
+   "parquet": "00_AOI_COPERNICUS.parquet",
+   "layer": "AOI_COPERNICUS",
+   "source_file": "TC20161003THI_combined_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003THI_combined_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 59,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "damage-assessment-of-tiburon-town-and-surroundings",
+   "also_hdx": [
+    "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+    "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+    "damage-assessment-overview-of-tiburon-commune-sud-department",
+    "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+    "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti"
+   ]
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_AOI_UNOSAT.parquet",
+   "layer": "AOI_UNOSAT",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_AOI_NGA.parquet",
+   "layer": "AOI_NGA",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_AOI_COPERNICUS.parquet",
+   "layer": "AOI_COPERNICUS",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 59,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-tiburon-town-and-surroundings",
+  "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+  "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+  "damage-assessment-overview-of-tiburon-commune-sud-department",
+  "hazard-flood-zones",
+  "population-exposed-to-wind-speed-zones",
+  "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti",
+  "unosat-cuba-popexposure-windspeed-matthew-20161006",
+  "unosat-dominicanrep-popexposure-windspeed-matthew-20161006",
+  "unosat-haiti-popexposure-windspeed-matthew-20161006",
+  "unosat-jamaica-popexposure-windspeed-matthew-20161006"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

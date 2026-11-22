@@ -1,0 +1,200 @@
+{
+ "collection": "fl20180619bgd-water-extent",
+ "event": "fl20180619bgd",
+ "event_code": "FL20180619BGD",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180619bgd/fl20180619bgd-water-extent",
+ "parts": [
+  {
+   "key": "fd017d4968942553",
+   "parquet": "01_ST20180615_Assam_Flood_Water.parquet",
+   "layer": "ST20180615_Assam_Flood_Water",
+   "source_file": "FL20180619BGD_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20180619BGD/FL20180619BGD_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 47091,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-waters-in-ne-bangladesh-ne-india-2821",
+   "also_hdx": [
+    "satellite-detected-waters-in-sylhet-division-bangladesh-2819"
+   ]
+  },
+  {
+   "key": "fd017d4968942553",
+   "parquet": "03_ST20180615_Sylhet_Flood_Water.parquet",
+   "layer": "ST20180615_Sylhet_Flood_Water",
+   "source_file": "FL20180619BGD_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20180619BGD/FL20180619BGD_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 51629,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-waters-in-ne-bangladesh-ne-india-2821",
+   "also_hdx": [
+    "satellite-detected-waters-in-sylhet-division-bangladesh-2819"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-waters-in-ne-bangladesh-ne-india-2821",
+  "satellite-detected-waters-in-sylhet-division-bangladesh-2819"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 21.2 MB"
+}

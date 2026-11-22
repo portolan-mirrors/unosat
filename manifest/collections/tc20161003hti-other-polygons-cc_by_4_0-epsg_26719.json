@@ -1,0 +1,143 @@
+{
+ "collection": "tc20161003hti-other-polygons-cc_by_4_0-epsg_26719",
+ "event": "tc20161003hti",
+ "event_code": "TC20161003HTI",
+ "hazard": "tropical-cyclones",
+ "year": 2016,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:26719",
+ "path": "tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719",
+ "parts": [
+  {
+   "key": "1d52810bd411aaff",
+   "parquet": "00_UNOSAT_DominicanRep_PopExposure_WindSpeed_Matthew_20161006_v1.parquet",
+   "layer": "UNOSAT_DominicanRep_PopExposure_WindSpeed_Matthew_20161006_v1",
+   "source_file": "UNOSAT_DominicanRep_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/UNOSAT_DominicanRep_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "wgs84_horizontal": false,
+   "features": 7,
+   "fields": [
+    {
+     "name": "PROVINCIA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NOMBRE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CodUNICEF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Men",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Women",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PopTot",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "REGI_SALUD",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COD_ONE_T",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COD_ONE",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "POB_2000",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NO_REG_SAL",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Viviendas",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_120kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_90kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_60kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-dominicanrep-popexposure-windspeed-matthew-20161006"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-tiburon-town-and-surroundings",
+  "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+  "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+  "damage-assessment-overview-of-tiburon-commune-sud-department",
+  "hazard-flood-zones",
+  "population-exposed-to-wind-speed-zones",
+  "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti",
+  "unosat-cuba-popexposure-windspeed-matthew-20161006",
+  "unosat-dominicanrep-popexposure-windspeed-matthew-20161006",
+  "unosat-haiti-popexposure-windspeed-matthew-20161006",
+  "unosat-jamaica-popexposure-windspeed-matthew-20161006"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,53 @@
+{
+ "collection": "ls20191209uga-analysis-extent",
+ "event": "ls20191209uga",
+ "event_code": "LS20191209UGA",
+ "hazard": "landslides",
+ "year": 2019,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:32636",
+ "path": "landslides/ls20191209uga/ls20191209uga-analysis-extent",
+ "parts": [
+  {
+   "key": "e2407c0bc54fb9ce",
+   "parquet": "00_Analysis_Extent.parquet",
+   "layer": "Analysis_Extent",
+   "source_file": "LS20191209UGA_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/UG/LS20191209UGA/LS20191209UGA_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "potential-impact-caused-by-landslides-over-humya-city-bwanba-county-budibungyo-district-we"
+  }
+ ],
+ "hdx_datasets": [
+  "potential-impact-caused-by-landslides-over-humya-city-bwanba-county-budibungyo-district-we"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,896 @@
+{
+ "collection": "fl20180501som-water-extent",
+ "event": "fl20180501som",
+ "event_code": "FL20180501SOM",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180501som/fl20180501som-water-extent",
+ "parts": [
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "01_LS20131221_PreFlood.parquet",
+   "layer": "LS20131221_PreFlood",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 81,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "04_RS20180506_GE20180430_beletweyne_Flood_Analysis.parquet",
+   "layer": "RS20180506_GE20180430_beletweyne_Flood_Analysis",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 26345,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "05_RS20180506_GE20180430_beletweyne_Flood_Analysis_RW.parquet",
+   "layer": "RS20180506_GE20180430_beletweyne_Flood_Analysis_RW",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 26338,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "07_RS20180509_Saacow_Flood_Water.parquet",
+   "layer": "RS20180509_Saacow_Flood_Water",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 16035,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "09_RS2_20180509_BulobardeNorth_Flood_Analysis.parquet",
+   "layer": "RS2_20180509_BulobardeNorth_Flood_Analysis",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 30336,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "10_ST20141229_PreFlood.parquet",
+   "layer": "ST20141229_PreFlood",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1063,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "13_ST20180501_Middle_Juba_Flood_Water.parquet",
+   "layer": "ST20180501_Middle_Juba_Flood_Water",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 31084,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "15_ST20180501_Somali_Flood_Water.parquet",
+   "layer": "ST20180501_Somali_Flood_Water",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 22523,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  },
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "16_ST20180507_Moibalo_Somali_Flood_Water.parquet",
+   "layer": "ST20180507_Moibalo_Somali_Flood_Water",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 11720,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+  "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+  "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+  "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+  "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+  "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+  "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+  "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+  "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+  "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 19.8 MB"
+}

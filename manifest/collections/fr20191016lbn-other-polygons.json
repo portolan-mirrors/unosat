@@ -1,0 +1,131 @@
+{
+ "collection": "fr20191016lbn-other-polygons",
+ "event": "fr20191016lbn",
+ "event_code": "FR20191016LBN",
+ "hazard": "fires",
+ "year": 2019,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "fires/fr20191016lbn/fr20191016lbn-other-polygons",
+ "parts": [
+  {
+   "key": "1898da4766b6f2b5",
+   "parquet": "00_AOI_FR20191016LBN.parquet",
+   "layer": "AOI_FR20191016LBN",
+   "source_file": "FR20191016LBN_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LB/FR20191016LBN/FR20191016LBN_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church"
+    }
+   },
+   "hdx_dataset": "fire-hotspots-density-in-lebanon-and-syria-as-detected-by-viirs-between-october-15-16-2019",
+   "also_hdx": [
+    "wildfires-east-of-tyre-in-south-and-el-nabatieh-governorates-lebanon",
+    "wildfires-in-akkar-governorate-lebanon-tartous-and-homs-governorates-syria",
+    "wildfires-in-al-haffa-and-al-qardaha-districts-lattakia-governorate-syria",
+    "wildfires-south-of-beirut-in-aley-and-chouf-districts-lebanon"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "fire-hotspots-density-in-lebanon-and-syria-as-detected-by-viirs-between-october-15-16-2019",
+  "wildfires-east-of-tyre-in-south-and-el-nabatieh-governorates-lebanon",
+  "wildfires-in-akkar-governorate-lebanon-tartous-and-homs-governorates-syria",
+  "wildfires-in-al-haffa-and-al-qardaha-districts-lattakia-governorate-syria",
+  "wildfires-south-of-beirut-in-aley-and-chouf-districts-lebanon"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

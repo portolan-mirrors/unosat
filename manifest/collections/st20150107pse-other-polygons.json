@@ -1,0 +1,122 @@
+{
+ "collection": "st20150107pse-other-polygons",
+ "event": "st20150107pse",
+ "event_code": "ST20150107PSE",
+ "hazard": "other-events",
+ "year": 2015,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "other-events/st20150107pse/st20150107pse-other-polygons",
+ "parts": [
+  {
+   "key": "d9ae627cc978a71b",
+   "parquet": "00_modis_terra_20150112_snowcover_Final.parquet",
+   "layer": "modis_terra_20150112_snowcover_Final",
+   "source_file": "modis_terra_20150112_snowcover_Final.zip",
+   "source_url": "https://cern.ch/unosat-maps/PS/ST20150107PSE/modis_terra_20150112_snowcover_Final.zip",
+   "wgs84_horizontal": true,
+   "features": 159,
+   "fields": [
+    {
+     "name": "ID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GRIDCODE",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-snow-cover-extent-over-west-bank-israel-jordan-lebanon-and-syria-january-12-2015"
+  },
+  {
+   "key": "3a7420b442c1cff7",
+   "parquet": "00_Snow_Aqua_20150113.parquet",
+   "layer": "Snow_Aqua_20150113",
+   "source_file": "Modis_Aqua_Terra_Snowcover_20150113.zip",
+   "source_url": "https://cern.ch/unosat-maps/PS/ST20150107PSE/Modis_Aqua_Terra_Snowcover_20150113.zip",
+   "wgs84_horizontal": true,
+   "features": 2395,
+   "fields": [
+    {
+     "name": "CLASS_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AREA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Date",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-snow-cover-extent-over-west-bank-israel-jordan-lebanon-and-syria-january-13-2015"
+  },
+  {
+   "key": "3a7420b442c1cff7",
+   "parquet": "01_Snow_terra_20150113.parquet",
+   "layer": "Snow_terra_20150113",
+   "source_file": "Modis_Aqua_Terra_Snowcover_20150113.zip",
+   "source_url": "https://cern.ch/unosat-maps/PS/ST20150107PSE/Modis_Aqua_Terra_Snowcover_20150113.zip",
+   "wgs84_horizontal": true,
+   "features": 230,
+   "fields": [
+    {
+     "name": "CLASS_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AREA",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Date",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-snow-cover-extent-over-west-bank-israel-jordan-lebanon-and-syria-january-13-2015"
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-snow-cover-extent-over-west-bank-israel-jordan-lebanon-and-syria-january-12-2015",
+  "geodata-of-snow-cover-extent-over-west-bank-israel-jordan-lebanon-and-syria-january-13-2015"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

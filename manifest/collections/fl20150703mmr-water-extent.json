@@ -1,0 +1,4800 @@
+{
+ "collection": "fl20150703mmr-water-extent",
+ "event": "fl20150703mmr",
+ "event_code": "FL20150703MMR",
+ "hazard": "floods",
+ "year": 2015,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2015/fl20150703mmr/fl20150703mmr-water-extent",
+ "parts": [
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150718_PostFlood.parquet",
+   "layer": "ST20150718_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 106050,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_RS20150710_PostFlood.parquet",
+   "layer": "RS20150710_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 41664,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150711_PostFlood.parquet",
+   "layer": "ST20150711_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 21302,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_LS20150429_PreFlood.parquet",
+   "layer": "LS20150429_PreFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 3589,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_RS20150730_PostFlood.parquet",
+   "layer": "RS20150730_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 8573,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150207_Preflood.parquet",
+   "layer": "ST20150207_Preflood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 17077,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_6",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150806_Water.parquet",
+   "layer": "ST20150806_Water",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 23347,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_4",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_TX20150810_PostFlood.parquet",
+   "layer": "TX20150810_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 36947,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_RS20150806_PostFlood.parquet",
+   "layer": "RS20150806_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 21526,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_10",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150811_Flood.parquet",
+   "layer": "ST20150811_Flood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 54800,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_12",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150228_Preflood.parquet",
+   "layer": "ST20150228_Preflood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4651,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_13",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150511_Preflood.parquet",
+   "layer": "ST20150511_Preflood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 14280,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_13",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_RS20150809_Flood.parquet",
+   "layer": "RS20150809_Flood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 38793,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_13",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150806_Flood.parquet",
+   "layer": "ST20150806_Flood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 25552,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_14",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_TX20150806_PostFlood.parquet",
+   "layer": "TX20150806_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 21970,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_16",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150315_Preflood.parquet",
+   "layer": "ST20150315_Preflood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 6976,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_6",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_RS20150817_PostFlood.parquet",
+   "layer": "RS20150817_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 17249,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_18",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_LS20150130_PreFlood.parquet",
+   "layer": "LS20150130_PreFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 65703,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_19",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150320_PreFlood.parquet",
+   "layer": "ST20150320_PreFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 7884,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_ST20150904_PostFlood.parquet",
+   "layer": "ST20150904_PostFlood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 25593,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_PL20150916_Flood.parquet",
+   "layer": "PL20150916_Flood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 44,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_21",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  },
+  {
+   "key": "b6cedb4dd6ed4260",
+   "parquet": "00_WV20151017_Flood.parquet",
+   "layer": "WV20151017_Flood",
+   "source_file": "FL20150703MMR.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 28,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_24",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "88": "Swamp/Marsh/Mangrove",
+     "4": "Satellite Detected Water"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+    "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+    "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+    "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+    "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+    "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+    "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+    "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+    "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+    "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+    "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+    "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+    "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "fl20150703mmr-flood-vectors-alospalsar-12-august-2015",
+  "fl20150703mmr-flood-vectors-alospalsar-16-august-2015",
+  "fl20150703mmr-flood-vectors-radarsat2-06-august-2015",
+  "fl20150703mmr-flood-vectors-radarsat2-09-august-2015",
+  "fl20150703mmr-flood-vectors-radarsat2-10-july-2015",
+  "fl20150703mmr-flood-vectors-radarsat2-17-august-2015",
+  "fl20150703mmr-flood-vectors-radarsat2-30-july-2015",
+  "fl20150703mmr-flood-vectors-sentinel1-06-august-2015",
+  "fl20150703mmr-flood-vectors-sentinel1-11-august-2015",
+  "fl20150703mmr-flood-vectors-sentinel1-11-july-2015",
+  "fl20150703mmr-flood-vectors-sentinel1-18-july-2015",
+  "fl20150703mmr-flood-vectors-terrasarx-06-august-2015",
+  "fl20150703mmr-flood-vectors-terrasarx-10-august-2015",
+  "geodata-of-damage-assessment-over-tuikhingzang-tonzang-township-chin-division-september-17-2015",
+  "geodata-of-flood-waters-near-city-of-yangon-myanmar-august-10-2015",
+  "geodata-of-flood-waters-over-ann-and-myebon-area-rakhine-state-myanmar-august-17-2015",
+  "geodata-of-flood-waters-over-ann-area-rakhine-state-myanmar-august-14-2015",
+  "geodata-of-flood-waters-over-central-magway-state-myanmar-august-07-2015",
+  "geodata-of-flood-waters-over-central-sagaing-region-myanmar-august-13-2015",
+  "geodata-of-flood-waters-over-central-sagaing-state-myanmar-july-24-2015",
+  "geodata-of-flood-waters-over-kayin-and-mon-state-myanmar-august-14-2015",
+  "geodata-of-flood-waters-over-kyautaw-area-rakhine-state-myanmar-august-19-2015",
+  "geodata-of-flood-waters-over-northern-rakhine-state-myanmar-august-11-2015",
+  "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+  "geodata-of-flood-waters-over-south-bago-division-myanmar-august-13-2015",
+  "geodata-of-flood-waters-over-south-sagaing-state-myanmar-august-12-2015",
+  "geodata-of-flood-waters-over-southeast-bago-state-myanmar-august-08-2015",
+  "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+  "geodata-of-flood-waters-over-western-sagaing-division-myanmar-september-08-2015",
+  "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-october-21-2015",
+  "geodata-of-landslide-induced-dam-over-tonzang-township-chin-division-myanmar-september-16-2015",
+  "geodata-of-reservoir-expansion-near-shwebo-city-in-sagaing-region-myanmar-july-31-2015"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

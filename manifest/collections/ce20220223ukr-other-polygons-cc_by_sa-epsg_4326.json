@@ -1,0 +1,280 @@
+{
+ "collection": "ce20220223ukr-other-polygons-cc_by_sa-epsg_4326",
+ "event": "ce20220223ukr",
+ "event_code": "CE20220223UKR",
+ "hazard": "complex-emergencies",
+ "year": 2022,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_4326",
+ "parts": [
+  {
+   "key": "365c7cdb2feee18e",
+   "parquet": "00_Kremenchuk_boundaries.parquet",
+   "layer": "Kremenchuk_boundaries",
+   "source_file": "Kremenchuk_CDA_20220629.gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3483/Kremenchuk_CDA_20220629.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4_UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4_RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4_REF",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4ALT1EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4ALT2EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4ALT1UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4ALT2UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4ALT1RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM4ALT2RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM3_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM3_UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM3_RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM3_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_UA",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_RU",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validTo",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "kremenchuk-damage-assessment-overview"
+  },
+  {
+   "key": "5955c54a8f5a05f0",
+   "parquet": "00_Areas_of_Interest.parquet",
+   "layer": "Areas_of_Interest",
+   "source_file": "CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": "Name"
+    },
+    {
+     "name": "Dsitrict",
+     "type": "String",
+     "domain": null,
+     "alias": "District"
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "mariupol-rapid-damage-assessment-overview-map",
+   "also_hdx": [
+    "north-kharkiv-rapid-damage-assessment-overview-map",
+    "sumy-rapid-damage-assessment-overview-map"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "kremenchuk-damage-assessment-overview",
+  "mariupol-rapid-damage-assessment-overview-map",
+  "mariupol-updated-building-damage-assessment-overview-map-livoberezhnyi-and-zhovtnevyi-dist",
+  "north-kharkiv-rapid-damage-assessment-overview-map",
+  "sumy-rapid-damage-assessment-overview-map",
+  "unosat-damage-assessment-overview-map-livoberezhnyi-district-mariupol-city-ukraine"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

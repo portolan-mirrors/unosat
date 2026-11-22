@@ -1,0 +1,816 @@
+{
+ "collection": "tc20251026hti-damage-sites",
+ "event": "tc20251026hti",
+ "event_code": "TC20251026HTI",
+ "hazard": "tropical-cyclones",
+ "year": 2025,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2025/tc20251026hti/tc20251026hti-damage-sites",
+ "parts": [
+  {
+   "key": "3fe4a569a3ff290f",
+   "parquet": "00_WV2_20251029_Damagedbuilding_BlackRiver.parquet",
+   "layer": "WV2_20251029_Damagedbuilding_BlackRiver",
+   "source_file": "TC20251027JAM_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4212/TC20251027JAM_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1110,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dmg",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments",
+     "6": "Damaged Port"
+    }
+   },
+   "hdx_dataset": "building-damage-assessment-in-black-river-village-saint-elizabeth-parish-as-of-29-october-"
+  },
+  {
+   "key": "3fe4a569a3ff290f",
+   "parquet": "00_WV2_20251029_DamagedBuildings_BlackRiverVillage.parquet",
+   "layer": "WV2_20251029_DamagedBuildings_BlackRiverVillage",
+   "source_file": "TC20251027JAM_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4212/TC20251027JAM_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1497,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID_1",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port",
+     "50": "Power station",
+     "51": "Power tower",
+     "52": "Railway",
+     "12": "Cemetery",
+     "53": "Commercial",
+     "54": "Tourism"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "13": "Damage",
+     "2": "Severely damaged",
+     "3": "Moderately damaged",
+     "6": "No visible damage",
+     "5": "Impact crater (damage to road)",
+     "7": "Impact crater (damage to field)",
+     "9": "Suspected phosphorus shell attack zone",
+     "11": "Possible damage from adjacent impact, debris",
+     "10": "Road damage from tank passage",
+     "8": "Destroyed (demolition zone)",
+     "12": "Lava flow",
+     "4": "Possibly damaged"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "223": "KRS",
+     "224": "AZ",
+     "225": "RP",
+     "226": "AS",
+     "227": "MDE",
+     "228": "BV",
+     "229": "ZL",
+     "230": "ZT",
+     "231": "AI"
+    }
+   },
+   "hdx_dataset": "building-damage-assessment-in-black-river-village-saint-elizabeth-parish-as-of-29-october-"
+  },
+  {
+   "key": "3fe4a569a3ff290f",
+   "parquet": "00_PHR_20251030_DamagedCulturalHertiageSite_Jamaica.parquet",
+   "layer": "PHR_20251030_DamagedCulturalHertiageSite_Jamaica",
+   "source_file": "TC20251027JAM_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4212/TC20251027JAM_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 7,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    },
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments",
+     "6": "Damaged Port"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "222": "LD"
+    }
+   },
+   "hdx_dataset": "building-damage-assessment-in-black-river-village-saint-elizabeth-parish-as-of-29-october-"
+  },
+  {
+   "key": "08fc2d1488bfddf4",
+   "parquet": "00_WV2_20251029_Damagedbuilding_BlackRiver.parquet",
+   "layer": "WV2_20251029_Damagedbuilding_BlackRiver",
+   "source_file": "TC20251027JAM_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4211/TC20251027JAM_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1107,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dmg",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow",
+     "13": "Damage"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments",
+     "6": "Damaged Port"
+    }
+   },
+   "hdx_dataset": "building-damage-assessment-in-crawford-village-black-river-district-saint-elizabeth-parish"
+  }
+ ],
+ "hdx_datasets": [
+  "building-damage-assessment-in-black-river-village-saint-elizabeth-parish-as-of-29-october-",
+  "building-damage-assessment-in-crawford-village-black-river-district-saint-elizabeth-parish"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

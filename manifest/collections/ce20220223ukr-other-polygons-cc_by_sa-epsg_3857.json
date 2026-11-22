@@ -1,0 +1,53 @@
+{
+ "collection": "ce20220223ukr-other-polygons-cc_by_sa-epsg_3857",
+ "event": "ce20220223ukr",
+ "event_code": "CE20220223UKR",
+ "hazard": "complex-emergencies",
+ "year": 2022,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:3857",
+ "path": "complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_3857",
+ "parts": [
+  {
+   "key": "26f3cabb54b92708",
+   "parquet": "00_UNOSAT_Mariupol_Livoberezhyny_AOI_12May2022.parquet",
+   "layer": "UNOSAT_Mariupol_Livoberezhyny_AOI_12May2022",
+   "source_file": "UNOSAT_LivoberezhnyiDistrict_DamageAssessment_12May2022.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/UNOSAT_LivoberezhnyiDistrict_DamageAssessment_12May2022.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 2,
+   "fields": [
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "mariupol-updated-building-damage-assessment-overview-map-livoberezhnyi-and-zhovtnevyi-dist"
+  }
+ ],
+ "hdx_datasets": [
+  "kremenchuk-damage-assessment-overview",
+  "mariupol-rapid-damage-assessment-overview-map",
+  "mariupol-updated-building-damage-assessment-overview-map-livoberezhnyi-and-zhovtnevyi-dist",
+  "north-kharkiv-rapid-damage-assessment-overview-map",
+  "sumy-rapid-damage-assessment-overview-map",
+  "unosat-damage-assessment-overview-map-livoberezhnyi-district-mariupol-city-ukraine"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

@@ -1,0 +1,993 @@
+{
+ "collection": "eq20150425npl-other-points-epsg_32645",
+ "event": "eq20150425npl",
+ "event_code": "EQ20150425NPL",
+ "hazard": "earthquakes",
+ "year": 2015,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:32645",
+ "path": "earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645",
+ "parts": [
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_04BIDUR_02GRADING_v1_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_04BIDUR_02GRADING_v1_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 4799,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_02BHARATPUR_02GRADING_v3_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_02BHARATPUR_02GRADING_v3_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 18082,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_12GORKHA_02GRADING_v1_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_12GORKHA_02GRADING_v1_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 121,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_01KATHMANDU_02GRADING_v3_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_01KATHMANDU_02GRADING_v3_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 961,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_03POKHARA_02GRADING_v1_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_03POKHARA_02GRADING_v1_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 16218,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_04BIDUR_02GRADING_v2_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_04BIDUR_02GRADING_v2_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 4799,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_05HETAUDA_02GRADING_v1_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_05HETAUDA_02GRADING_v1_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 45,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_14CHILIME_02GRADING_v1_10000_crisis_information_point_grading.parquet",
+   "layer": "Copernicus_EMSR125_14CHILIME_02GRADING_v1_10000_crisis_information_point_grading",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 859,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Copernicus_EMSR125_07LEKHNATH_01DELINEATION_v1_50000_crisis_information_point.parquet",
+   "layer": "Copernicus_EMSR125_07LEKHNATH_01DELINEATION_v1_50000_crisis_information_point",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 5,
+   "fields": [
+    {
+     "name": "src_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "src_info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_scale",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ext_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "txt",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "act_id",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "source_nam",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "grading",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "interpret",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "settl_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "subtype",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_NGA_Bridge_Out_Nepal_May_6th_2015.parquet",
+   "layer": "NGA_Bridge_Out_Nepal_May_6th_2015",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 5,
+   "fields": [
+    {
+     "name": "ORIG_FID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Int",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Production",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Remote_Sen",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_NGA_Points_All_Damage_Nepal_May_7th_2015.parquet",
+   "layer": "NGA_Points_All_Damage_Nepal_May_7th_2015",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 8241,
+   "fields": [
+    {
+     "name": "Damage",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Remote_Sen",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Damage_Int",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Production",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ORIG_FID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-damage-and-displaced-persons-visible-in-satellite-imagery-kathmand-april-28-2015",
+  "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+  "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+  "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 1.3 MB"
+}

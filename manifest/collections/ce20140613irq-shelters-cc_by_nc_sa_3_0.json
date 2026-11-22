@@ -1,0 +1,174 @@
+{
+ "collection": "ce20140613irq-shelters-cc_by_nc_sa_3_0",
+ "event": "ce20140613irq",
+ "event_code": "CE20140613IRQ",
+ "hazard": "complex-emergencies",
+ "year": 2014,
+ "family": "shelters",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_nc_sa_3_0",
+ "parts": [
+  {
+   "key": "8d306006ec7266a9",
+   "parquet": "00_IDP_GawilanCamp_Structures_28June2016.parquet",
+   "layer": "IDP_GawilanCamp_Structures_28June2016",
+   "source_file": "CE20140613IRQ_Gawilan_20160628.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Gawilan_20160628.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 3193,
+   "fields": [
+    {
+     "name": "Structure_material",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Camp_SatusID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_District",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SectorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Note",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq-august-17-2016"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-11-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-16-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-18-july-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-30-june-2017",
+  "environmental-damage-in-al-qayyarah-iraq",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-and-14-december-2016",
+  "fires-at-the-qayyarah-oil-field-nineveh-governorate-between-july-18-and-october-24-2016",
+  "gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq",
+  "geodata-of-damage-assessment-for-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-in-central-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-of-al-sabbahiya-hamadan-village-sinjar-district-december-12-2015",
+  "geodata-of-damage-assessment-of-baiji-salah-ad-din-governorate-iraq-february-20-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-july-11-2016",
+  "geodata-of-damage-assessment-of-gundy-hamy-village-sinjar-district-nineveh-pr-december-11-2015",
+  "geodata-of-damage-assessment-of-jalawla-diyala-governorate-iraq-february-06-2015",
+  "geodata-of-damage-assessment-of-kany-sark-village-sinjar-district-nineveh-pro-december-12-2015",
+  "geodata-of-damage-assessment-of-ramadi-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-ramboosi-sharqi-village-sinjar-district-ninev-december-12-2015",
+  "geodata-of-damage-assessment-of-shkaftat-gharby-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-shkaftat-sharqy-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-02-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-sinjar-district-nineveh-province-iraq-november-30-2015",
+  "geodata-of-damage-assessment-of-tikrit-salah-ad-din-governorate-iraq-february-24-2015",
+  "geodata-of-damage-assessment-of-zravky-village-sinjar-district-nineveh-provin-december-22-2015",
+  "geodata-of-damage-assessment-of-zumar-nineveh-governorate-iraq-february-06-2015",
+  "geodata-of-gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq-august-17-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.2 MB"
+}

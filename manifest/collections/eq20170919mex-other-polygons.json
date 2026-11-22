@@ -1,0 +1,1940 @@
+{
+ "collection": "eq20170919mex-other-polygons",
+ "event": "eq20170919mex",
+ "event_code": "EQ20170919MEX",
+ "hazard": "earthquakes",
+ "year": 2017,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons",
+ "parts": [
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20170921_Izucar_de_Matamoros_AOI.parquet",
+   "layer": "PL20170921_Izucar_de_Matamoros_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20170922_Atzala_AOI.parquet",
+   "layer": "PL20170922_Atzala_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20170922_SanNicolasTolentinoAndAyutla_AOI.parquet",
+   "layer": "PL20170922_SanNicolasTolentinoAndAyutla_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20170922_LaGalarza_AOI.parquet",
+   "layer": "PL20170922_LaGalarza_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20170922_TepapayecaAndSantaCatarinaCoatepec_Damage_Sites_AOI.parquet",
+   "layer": "PL20170922_TepapayecaAndSantaCatarinaCoatepec_Damage_Sites_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV3_20170922_Cuernavaca_AOI.parquet",
+   "layer": "WV3_20170922_Cuernavaca_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV3_20170922_Coatetelco_AOI.parquet",
+   "layer": "WV3_20170922_Coatetelco_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20171003_Jojutla_AOI.parquet",
+   "layer": "PL20171003_Jojutla_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV2_20170926_SouthWestCuauhtemoc_AOI.parquet",
+   "layer": "WV2_20170926_SouthWestCuauhtemoc_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV3_20170923_PueblaCentroHistorico_AOI.parquet",
+   "layer": "WV3_20170923_PueblaCentroHistorico_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_PL20171005_Tlaquiltenango_AOI.parquet",
+   "layer": "PL20171005_Tlaquiltenango_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_UAV_20171007_Tlayacapan_AOI.parquet",
+   "layer": "UAV_20171007_Tlayacapan_AOI",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_EQ20170919MEX_CentralMexicoCity_AOI_UAEMEX.parquet",
+   "layer": "EQ20170919MEX_CentralMexicoCity_AOI_UAEMEX",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 14,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV2_20170920_MexicoCity_Xochimilco_Tlahuac_AOI_UAEMEX.parquet",
+   "layer": "WV2_20170920_MexicoCity_Xochimilco_Tlahuac_AOI_UAEMEX",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV2_20170926_MexicoCity_Capultitlan_AOI_UAEMEX.parquet",
+   "layer": "WV2_20170926_MexicoCity_Capultitlan_AOI_UAEMEX",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_WV2_20170926_MexicoCity_CuautepecMadero_AOI_UAEMEX.parquet",
+   "layer": "WV2_20170926_MexicoCity_CuautepecMadero_AOI_UAEMEX",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  },
+  {
+   "key": "720fcb142c25a8d2",
+   "parquet": "00_DG_SanAndresCholulaAndPedroCholula_Damage_Sites_AOI_UNAM.parquet",
+   "layer": "DG_SanAndresCholulaAndPedroCholula_Damage_Sites_AOI_UNAM",
+   "source_file": "EQ20170919MEX_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MX/EQ20170919MEX/EQ20170919MEX_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "IGG-UNAM",
+     "4": "UAEMex"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+   "also_hdx": [
+    "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+    "damage-assessment-in-mexico-city-mexico-2711",
+    "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+    "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+    "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+    "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+    "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+    "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+    "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+    "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+    "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+    "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-in-central-west-cuernavaca-city-municipality-of-cuernavaca-state-of-morelos",
+  "damage-assessment-in-jojutla-town-jojutla-municipality-state-of-morelos-mexico-2698",
+  "damage-assessment-in-mexico-city-mexico-2711",
+  "damage-assessment-in-san-andres-cholula-and-san-pedro-cholula-state-of-puebla-mexico-2717",
+  "damage-assessment-in-the-historical-center-of-puebla-state-of-puebla-2700",
+  "damage-assessment-in-the-south-west-of-cuauhtemoc-municipality-federal-district-mexico-2699",
+  "damage-assessment-in-the-town-of-atzala-municipality-of-atzala-state-of-puebla-mexico",
+  "damage-assessment-in-the-town-of-coatetelco-municipality-of-miacatlan-state-of-morelos-mexico",
+  "damage-assessment-in-tlaquiltenango-town-municipality-of-tlaquiltenango-state-of-morelos-mexico-2705",
+  "damage-assessment-in-tlayacapan-town-municipality-of-tlayacapan-state-of-morelos-mexico-2707",
+  "damage-assessment-in-xochimilco-and-tlahuac-municipalities-federal-state-mexico-2712",
+  "evaluacion-de-dano-en-la-colonia-capultitlan-ciudad-de-mexico-2713",
+  "evaluacion-de-dano-en-la-colonia-cuautepec-madero-ciudad-de-mexico-2714"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

@@ -1,0 +1,95 @@
+{
+ "collection": "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points",
+ "event": "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2017,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points",
+ "parts": [
+  {
+   "key": "718417b5e18b88a1",
+   "parquet": "00_Adv33_pts.parquet",
+   "layer": "Adv33_pts",
+   "source_file": "irma_unosat_7sept.zip",
+   "source_url": "https://data.humdata.org/dataset/13d54496-4f75-4e32-898f-62d015bff86c/resource/903ed1fe-2d86-4bef-aff6-8499a739ce95/download/irma_unosat_7sept.zip",
+   "wgs84_horizontal": true,
+   "features": 40,
+   "fields": [
+    {
+     "name": "ADV",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LAT",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "LON",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TIME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WIND",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PR",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "STAT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "status",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "heur",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017"
+  }
+ ],
+ "hdx_datasets": [
+  "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

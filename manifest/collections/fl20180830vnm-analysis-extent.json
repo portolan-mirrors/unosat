@@ -1,0 +1,82 @@
+{
+ "collection": "fl20180830vnm-analysis-extent",
+ "event": "fl20180830vnm",
+ "event_code": "FL20180830VNM",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180830vnm/fl20180830vnm-analysis-extent",
+ "parts": [
+  {
+   "key": "8135480a59ef6c0a",
+   "parquet": "02_ST20180828_Analysis_Extent.parquet",
+   "layer": "ST20180828_Analysis_Extent",
+   "source_file": "FL20180830VNM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VN/FL20180830VNM/FL20180830VNM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+   "also_hdx": [
+    "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+  "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.2 MB"
+}

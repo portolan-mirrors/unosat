@@ -1,0 +1,123 @@
+{
+ "collection": "ce20130710som-other-polygons",
+ "event": "ce20130710som",
+ "event_code": "CE20130710SOM",
+ "hazard": "complex-emergencies",
+ "year": 2013,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20130710som/ce20130710som-other-polygons",
+ "parts": [
+  {
+   "key": "5116c075af873050",
+   "parquet": "00_Moga_Districts_20130603.parquet",
+   "layer": "Moga_Districts_20130603",
+   "source_file": "CE20130710SOM_DD.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/CE20130710SOM/CE20130710SOM_DD.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "Mogadishu_Districts_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": "NAME"
+    },
+    {
+     "name": "Mogadishu_Districts_GEOCODE",
+     "type": "String",
+     "domain": null,
+     "alias": "GEOCODE"
+    },
+    {
+     "name": "Mogadishu_Districts_ADMIN3ID",
+     "type": "String",
+     "domain": null,
+     "alias": "ADMIN3ID"
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-idp-shelter-density-in-daynile-and-dharkenley-district-mogadishu-november-10-2014"
+  },
+  {
+   "key": "5116c075af873050",
+   "parquet": "00_Moga_Districts_UNHCR_2013.parquet",
+   "layer": "Moga_Districts_UNHCR_2013",
+   "source_file": "CE20130710SOM_DD.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/CE20130710SOM/CE20130710SOM_DD.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 16,
+   "fields": [
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Y_Coord",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "X_Coord",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-idp-shelter-density-in-daynile-and-dharkenley-district-mogadishu-november-10-2014"
+  }
+ ],
+ "hdx_datasets": [
+  "displaced-persons-shelters-in-dalxiska-somalia",
+  "geodata-of-6-reduction-of-somali-idp-shelter-concentrations-in-mogadishu-som-january-02-2014",
+  "geodata-of-idp-settlements-and-shelters-in-kismayo-lower-juba-somalia-april-30-2014",
+  "geodata-of-idp-settlements-and-shelters-in-kismayo-lower-juba-somalia-july-03-2014",
+  "geodata-of-idp-settlements-and-shelters-in-luuq-gedo-province-somalia-june-30-2014",
+  "geodata-of-idp-shelter-changes-in-baidoa-somalia-between-08-february-and-02-o-october-31-2014",
+  "geodata-of-idp-shelter-changes-in-baidoa-somalia-between-21-august-2013-and-0-march-18-2014",
+  "geodata-of-idp-shelter-changes-in-hargeisa-somalia-between-20-august-2012-and-december-17-2014",
+  "geodata-of-idp-shelter-changes-in-kismayo-somalia-between-11-august-2013-05-m-march-18-2014",
+  "geodata-of-idp-shelter-density-in-daynile-and-dharkenley-district-mogadishu-november-10-2014",
+  "geodata-of-idp-shelters-detected-in-galkayo-somalia-april-09-2014",
+  "geodata-of-idp-shelters-detected-north-of-galkayo-somalia-may-27-2014",
+  "geodata-of-informal-idp-shelters-in-border-town-of-doolow-somalia-october-28-2014",
+  "idps-sites-status-in-baidoa-town",
+  "internally-displaced-persons-shelters-in-baidoa-town"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

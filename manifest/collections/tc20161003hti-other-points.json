@@ -1,0 +1,909 @@
+{
+ "collection": "tc20161003hti-other-points",
+ "event": "tc20161003hti",
+ "event_code": "TC20161003HTI",
+ "hazard": "tropical-cyclones",
+ "year": 2016,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-points",
+ "parts": [
+  {
+   "key": "901bf496a1997494",
+   "parquet": "00_PL20161007_UNOSAT_Obstacles_AOI1.parquet",
+   "layer": "PL20161007_UNOSAT_Obstacles_AOI1",
+   "source_file": "TC20161003THI_combined_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003THI_combined_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 141,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "damage-assessment-of-tiburon-town-and-surroundings",
+   "also_hdx": [
+    "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+    "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+    "damage-assessment-overview-of-tiburon-commune-sud-department",
+    "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+    "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti"
+   ]
+  },
+  {
+   "key": "901bf496a1997494",
+   "parquet": "00_PL20161012_UNOSAT_Obstacles_AOI2.parquet",
+   "layer": "PL20161012_UNOSAT_Obstacles_AOI2",
+   "source_file": "TC20161003THI_combined_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003THI_combined_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 123,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "damage-assessment-of-tiburon-town-and-surroundings",
+   "also_hdx": [
+    "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+    "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+    "damage-assessment-overview-of-tiburon-commune-sud-department",
+    "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+    "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti"
+   ]
+  },
+  {
+   "key": "901bf496a1997494",
+   "parquet": "00_WV20161017_UNOSAT_Obstacles_AOI4.parquet",
+   "layer": "WV20161017_UNOSAT_Obstacles_AOI4",
+   "source_file": "TC20161003THI_combined_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003THI_combined_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 87,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "damage-assessment-of-tiburon-town-and-surroundings",
+   "also_hdx": [
+    "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+    "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+    "damage-assessment-overview-of-tiburon-commune-sud-department",
+    "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+    "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti"
+   ]
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_PL20161007_UNOSAT_Obstacles_AOI1.parquet",
+   "layer": "PL20161007_UNOSAT_Obstacles_AOI1",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 141,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_PL20161012_UNOSAT_Obstacles_AOI2.parquet",
+   "layer": "PL20161012_UNOSAT_Obstacles_AOI2",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 123,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_WV20161017_UNOSAT_Obstacles_AOI4.parquet",
+   "layer": "WV20161017_UNOSAT_Obstacles_AOI4",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 87,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  },
+  {
+   "key": "7de3066beb13e25a",
+   "parquet": "00_PL20161109_UNOSAT_Obstacles_AOI3.parquet",
+   "layer": "PL20161109_UNOSAT_Obstacles_AOI3",
+   "source_file": "TC20161003HTI_20161124.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/TC20161003HTI_20161124.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 157,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ObstacleID",
+     "type": "String",
+     "domain": null,
+     "alias": "Obstacle ID"
+    },
+    {
+     "name": "Type",
+     "type": "Integer",
+     "domain": "ObstacleType",
+     "alias": null
+    },
+    {
+     "name": "Opstatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational status"
+    },
+    {
+     "name": "CurntPRAC",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Practicability"
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "Type": {
+     "1": "Mines / UXO",
+     "2": "Roadblock",
+     "3": "Checkpoint-official",
+     "4": "Checkpoint-unofficial",
+     "5": "Debris",
+     "6": "Wreckage",
+     "7": "Avalanche / Snow",
+     "8": "Flood",
+     "9": "Landslide / Mudslide",
+     "10": "Ford",
+     "11": "Electric lines",
+     "12": "Trees",
+     "13": "Rapids / Cataracts",
+     "14": "Dam",
+     "15": "Sand bank",
+     "16": "Submerged rock",
+     "17": "Road damage",
+     "18": "Railway damage",
+     "19": "Bridge damage",
+     "20": "Culvert damage",
+     "21": "Traffic restriction",
+     "22": "Overhead clearance",
+     "23": "Ferry",
+     "99": "Other (used for labelling)",
+     "0": "Unspecified"
+    },
+    "Opstatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "CurntPRAC": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-tiburon-town-and-surroundings",
+  "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+  "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+  "damage-assessment-overview-of-tiburon-commune-sud-department",
+  "hazard-flood-zones",
+  "population-exposed-to-wind-speed-zones",
+  "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti",
+  "unosat-cuba-popexposure-windspeed-matthew-20161006",
+  "unosat-dominicanrep-popexposure-windspeed-matthew-20161006",
+  "unosat-haiti-popexposure-windspeed-matthew-20161006",
+  "unosat-jamaica-popexposure-windspeed-matthew-20161006"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,197 @@
+{
+ "collection": "fl20191118cod-damage-sites",
+ "event": "fl20191118cod",
+ "event_code": "FL20191118COD",
+ "hazard": "floods",
+ "year": 2019,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2019/fl20191118cod/fl20191118cod-damage-sites",
+ "parts": [
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_GE01_20191112_FloodedStructure_Zongo_COD.parquet",
+   "layer": "GE01_20191112_FloodedStructure_Zongo_COD",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 290,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  },
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_PL_20191115_FloodedStructure_Libenge_COD.parquet",
+   "layer": "PL_20191115_FloodedStructure_Libenge_COD",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 51,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+  "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+  "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+  "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+  "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

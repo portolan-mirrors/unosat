@@ -1,0 +1,119 @@
+{
+ "collection": "ls20180712afg-damage-areas",
+ "event": "ls20180712afg",
+ "event_code": "LS20180712AFG",
+ "hazard": "landslides",
+ "year": 2018,
+ "family": "damage-areas",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "landslides/ls20180712afg/ls20180712afg-damage-areas",
+ "parts": [
+  {
+   "key": "a3786d745e3c668e",
+   "parquet": "02_ST20180713_LandslideExtent_Peshghor.parquet",
+   "layer": "ST20180713_LandslideExtent_Peshghor",
+   "source_file": "LS20180712AFG_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/AF/LS20180712AFG/LS20180712AFG_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "potential-affected-"
+  }
+ ],
+ "hdx_datasets": [
+  "potential-affected-"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

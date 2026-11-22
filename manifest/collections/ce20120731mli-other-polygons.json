@@ -1,0 +1,62 @@
+{
+ "collection": "ce20120731mli-other-polygons",
+ "event": "ce20120731mli",
+ "event_code": "CE20120731MLI",
+ "hazard": "complex-emergencies",
+ "year": 2012,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20120731mli/ce20120731mli-other-polygons",
+ "parts": [
+  {
+   "key": "9fd484c1435b38b1",
+   "parquet": "00_MberaBlocks.parquet",
+   "layer": "MberaBlocks",
+   "source_file": "Mbera_20150814_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/ML/CE20120731MLI/Mbera_20150814_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 37,
+   "fields": [
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "blocknum",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-mbera-refugee-camp-bassikounou-south-eastern-mauritania-december-10-2015"
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-goudoubou-refugee-camp-seno-province-burkina-faso-january-14-2016",
+  "geodata-of-mbera-refugee-camp-bassikounou-south-eastern-mauritania-december-10-2015",
+  "geodata-of-mentao-refugee-camp-in-soum-district-sahel-province-burkina-faso-january-15-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

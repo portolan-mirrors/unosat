@@ -1,0 +1,348 @@
+{
+ "collection": "fl20180518bgd-water-extent",
+ "event": "fl20180518bgd",
+ "event_code": "FL20180518BGD",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180518bgd/fl20180518bgd-water-extent",
+ "parts": [
+  {
+   "key": "98646e825fa0edb3",
+   "parquet": "00_RS20180614_Cox_Bazar_Flood_Water.parquet",
+   "layer": "RS20180614_Cox_Bazar_Flood_Water",
+   "source_file": "FL20180518BGD_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20180518BGD/FL20180518BGD_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 26,
+   "fields": [
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "New_Camp_N",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "District",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Upazila",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Union",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Alias",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SSID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "zone_code",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "mean_0523d",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "mean_0614d",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "std_0523db",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "std_0614db",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "std_diff",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extent-in-teknaf-upazila-cox-s-bazar-district-chittagong-division-",
+   "also_hdx": [
+    "satellite-detected-waters-evolution-by-camp-extent-in-cox-s-bazar-district-chittagong-division-"
+   ]
+  },
+  {
+   "key": "98646e825fa0edb3",
+   "parquet": "01_ST20180522_Teknaf_Flood_Water.parquet",
+   "layer": "ST20180522_Teknaf_Flood_Water",
+   "source_file": "FL20180518BGD_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20180518BGD/FL20180518BGD_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 675,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extent-in-teknaf-upazila-cox-s-bazar-district-chittagong-division-",
+   "also_hdx": [
+    "satellite-detected-waters-evolution-by-camp-extent-in-cox-s-bazar-district-chittagong-division-"
+   ]
+  },
+  {
+   "key": "98646e825fa0edb3",
+   "parquet": "03_ST20180613_Teknaf_Flood_Water.parquet",
+   "layer": "ST20180613_Teknaf_Flood_Water",
+   "source_file": "FL20180518BGD_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/FL20180518BGD/FL20180518BGD_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 233,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-extent-in-teknaf-upazila-cox-s-bazar-district-chittagong-division-",
+   "also_hdx": [
+    "satellite-detected-waters-evolution-by-camp-extent-in-cox-s-bazar-district-chittagong-division-"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-water-extent-in-teknaf-upazila-cox-s-bazar-district-chittagong-division-",
+  "satellite-detected-waters-evolution-by-camp-extent-in-cox-s-bazar-district-chittagong-division-"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.2 MB"
+}

@@ -1,0 +1,254 @@
+{
+ "collection": "tc20170918dma-other-polygons",
+ "event": "tc20170918dma",
+ "event_code": "TC20170918DMA",
+ "hazard": "tropical-cyclones",
+ "year": 2017,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2017/tc20170918dma/tc20170918dma-other-polygons",
+ "parts": [
+  {
+   "key": "381b36a038d361f0",
+   "parquet": "00_Dominica_AOIs_Copernicus.parquet",
+   "layer": "Dominica_AOIs_Copernicus",
+   "source_file": "TC20170918DMA_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/DM/TC20170918DMA/TC20170918DMA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 10,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "50": "AL015 - Building",
+     "51": "AL016 - Point of interest"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "Copernicus"
+    }
+   },
+   "hdx_dataset": "damage-assessment-related-density-in-the-central-southern-parts-of-dominica-2704",
+   "also_hdx": [
+    "damage-assessment-related-density-in-the-northeastern-part-of-dominica-2702",
+    "damage-assessment-related-density-in-the-southeastern-part-of-dominica-2703",
+    "maria-tropical-cyclone-damage-assessment-in-portsmouth-saint-john-parish-dominica",
+    "maria-tropical-cyclone-damage-assessment-in-roseau-south-saint-georges-parish-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-marigot-saint-andrew-parish-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-southern-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-the-southern-part-of-dominica",
+    "tropical-cyclone-maria-damage-density-in-the-north-western-part-of-dominica"
+   ]
+  },
+  {
+   "key": "381b36a038d361f0",
+   "parquet": "00_Dominica_AOIs_UNOSAT.parquet",
+   "layer": "Dominica_AOIs_UNOSAT",
+   "source_file": "TC20170918DMA_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/DM/TC20170918DMA/TC20170918DMA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "Agency",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "50": "AL015 - Building",
+     "51": "AL016 - Point of interest"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "Copernicus"
+    }
+   },
+   "hdx_dataset": "damage-assessment-related-density-in-the-central-southern-parts-of-dominica-2704",
+   "also_hdx": [
+    "damage-assessment-related-density-in-the-northeastern-part-of-dominica-2702",
+    "damage-assessment-related-density-in-the-southeastern-part-of-dominica-2703",
+    "maria-tropical-cyclone-damage-assessment-in-portsmouth-saint-john-parish-dominica",
+    "maria-tropical-cyclone-damage-assessment-in-roseau-south-saint-georges-parish-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-marigot-saint-andrew-parish-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-southern-dominica",
+    "tropical-cyclone-maria-damage-assessment-in-the-southern-part-of-dominica",
+    "tropical-cyclone-maria-damage-density-in-the-north-western-part-of-dominica"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-related-density-in-the-central-southern-parts-of-dominica-2704",
+  "damage-assessment-related-density-in-the-northeastern-part-of-dominica-2702",
+  "damage-assessment-related-density-in-the-southeastern-part-of-dominica-2703",
+  "maria-tropical-cyclone-damage-assessment-in-portsmouth-saint-john-parish-dominica",
+  "maria-tropical-cyclone-damage-assessment-in-roseau-south-saint-georges-parish-dominica",
+  "tropical-cyclone-maria-damage-assessment-in-marigot-saint-andrew-parish-dominica",
+  "tropical-cyclone-maria-damage-assessment-in-southern-dominica",
+  "tropical-cyclone-maria-damage-assessment-in-the-southern-part-of-dominica",
+  "tropical-cyclone-maria-damage-density-in-the-north-western-part-of-dominica"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

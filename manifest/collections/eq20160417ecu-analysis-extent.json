@@ -1,0 +1,113 @@
+{
+ "collection": "eq20160417ecu-analysis-extent",
+ "event": "eq20160417ecu",
+ "event_code": "EQ20160417ECU",
+ "hazard": "earthquakes",
+ "year": 2016,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent",
+ "parts": [
+  {
+   "key": "fde70ffbadc17990",
+   "parquet": "00_PL_20160418_Atacames_CloudMask.parquet",
+   "layer": "PL_20160418_Atacames_CloudMask",
+   "source_file": "EQ20160417ECU.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/EC/EQ20160417ECU/EQ20160417ECU.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 53,
+   "fields": [
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-atacames-area-esmeraldas-province-ecuador-april-20-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bahia-de-caraquez-manabi-province-ecuador-april-21-2016",
+    "geodata-of-damage-assessment-of-chone-area-manabi-province-ecuador-april-25-2016",
+    "geodata-of-damage-assessment-of-crucita-area-manabi-province-ecuador-april-20-2016",
+    "geodata-of-damage-assessment-of-montecristi-manabi-province-ecuador-april-27-2016",
+    "geodata-of-damage-assessment-of-muisne-esmeraldas-province-ecuador-april-22-2016",
+    "geodata-of-damage-assessment-of-salinas-and-la-libertad-areas-santa-elena-pro-april-20-2016",
+    "geodata-of-damage-assessment-of-san-vicente-manabi-province-ecuador-april-21-2016",
+    "geodata-of-damage-density-in-the-city-of-jama-manabi-province-ecuador-may-18-2016"
+   ]
+  },
+  {
+   "key": "fde70ffbadc17990",
+   "parquet": "00_PL_20160419_SanVicente_CloudMask.parquet",
+   "layer": "PL_20160419_SanVicente_CloudMask",
+   "source_file": "EQ20160417ECU.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/EC/EQ20160417ECU/EQ20160417ECU.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-atacames-area-esmeraldas-province-ecuador-april-20-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bahia-de-caraquez-manabi-province-ecuador-april-21-2016",
+    "geodata-of-damage-assessment-of-chone-area-manabi-province-ecuador-april-25-2016",
+    "geodata-of-damage-assessment-of-crucita-area-manabi-province-ecuador-april-20-2016",
+    "geodata-of-damage-assessment-of-montecristi-manabi-province-ecuador-april-27-2016",
+    "geodata-of-damage-assessment-of-muisne-esmeraldas-province-ecuador-april-22-2016",
+    "geodata-of-damage-assessment-of-salinas-and-la-libertad-areas-santa-elena-pro-april-20-2016",
+    "geodata-of-damage-assessment-of-san-vicente-manabi-province-ecuador-april-21-2016",
+    "geodata-of-damage-density-in-the-city-of-jama-manabi-province-ecuador-may-18-2016"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-damage-assessment-of-atacames-area-esmeraldas-province-ecuador-april-20-2016",
+  "geodata-of-damage-assessment-of-bahia-de-caraquez-manabi-province-ecuador-april-21-2016",
+  "geodata-of-damage-assessment-of-chone-area-manabi-province-ecuador-april-25-2016",
+  "geodata-of-damage-assessment-of-crucita-area-manabi-province-ecuador-april-20-2016",
+  "geodata-of-damage-assessment-of-montecristi-manabi-province-ecuador-april-27-2016",
+  "geodata-of-damage-assessment-of-muisne-esmeraldas-province-ecuador-april-22-2016",
+  "geodata-of-damage-assessment-of-salinas-and-la-libertad-areas-santa-elena-pro-april-20-2016",
+  "geodata-of-damage-assessment-of-san-vicente-manabi-province-ecuador-april-21-2016",
+  "geodata-of-damage-density-in-the-city-of-jama-manabi-province-ecuador-may-18-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.5 MB"
+}

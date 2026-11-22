@@ -1,0 +1,948 @@
+{
+ "collection": "fl20150112moz-water-extent",
+ "event": "fl20150112moz",
+ "event_code": "FL20150112MOZ",
+ "hazard": "floods",
+ "year": 2015,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2015/fl20150112moz/fl20150112moz-water-extent",
+ "parts": [
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "01_CM_20150213_Flood.parquet",
+   "layer": "CM_20150213_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 10965,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "04_LS_20150207_Flood.parquet",
+   "layer": "LS_20150207_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 4644,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "07_MO_20150210_Flood.parquet",
+   "layer": "MO_20150210_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 240,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "08_RS2_0150118_Flood.parquet",
+   "layer": "RS2_0150118_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 5748,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "09_RS2_20150121_Flood.parquet",
+   "layer": "RS2_20150121_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 16364,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "11_RS2_20150130_Flood.parquet",
+   "layer": "RS2_20150130_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 10854,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "13_RS2_20150203_Flood.parquet",
+   "layer": "RS2_20150203_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 25496,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "15_RS2_20150204_Flood.parquet",
+   "layer": "RS2_20150204_Flood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 10789,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "18_S1_20141211_PreFlood.parquet",
+   "layer": "S1_20141211_PreFlood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 31428,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  },
+  {
+   "key": "1c05d1bc91dcdae5",
+   "parquet": "19_S1_20150111_PreFlood.parquet",
+   "layer": "S1_20150111_PreFlood",
+   "source_file": "FL20150112MOZ_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MZ/FL20150112MOZ/FL20150112MOZ_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 2463,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+   "also_hdx": [
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+    "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+    "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+    "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-flood-water-over-namacura-and-maganja-da-costa-district-zambezia-p-february-10-2015",
+  "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-02-2015",
+  "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-04-2015",
+  "geodata-of-flood-waters-in-zambezia-tete-and-sofala-mozambique-and-southern-r-february-16-2015",
+  "geodata-of-flood-waters-over-zambezia-province-mozambique-january-19-2015",
+  "geodata-of-flood-waters-over-zambezia-tete-and-sofala-provinces-mozambique-january-21-2015"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 28.6 MB"
+}

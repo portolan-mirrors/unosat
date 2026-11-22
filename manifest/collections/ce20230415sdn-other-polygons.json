@@ -1,0 +1,54 @@
+{
+ "collection": "ce20230415sdn-other-polygons",
+ "event": "ce20230415sdn",
+ "event_code": "CE20230415SDN",
+ "hazard": "complex-emergencies",
+ "year": 2023,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20230415sdn/ce20230415sdn-other-polygons",
+ "parts": [
+  {
+   "key": "7b8f278ecc7a6dc4",
+   "parquet": "00_ElFasher_DA_20240731.parquet",
+   "layer": "ElFasher_DA_20240731",
+   "source_file": "ElFasher_DA_20240731.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3913/ElFasher_DA_20240731.zip",
+   "wgs84_horizontal": true,
+   "features": 23646,
+   "fields": [
+    {
+     "name": "latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Date",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "el-fasher-damage-assessment-overview"
+  }
+ ],
+ "hdx_datasets": [
+  "el-fasher-damage-assessment-overview"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.7 MB"
+}

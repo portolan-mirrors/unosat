@@ -1,0 +1,94 @@
+{
+ "collection": "rc20140709sdn-other-lines",
+ "event": "rc20140709sdn",
+ "event_code": "RC20140709SDN",
+ "hazard": "other-events",
+ "year": 2014,
+ "family": "other-lines",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "other-events/rc20140709sdn/rc20140709sdn-other-lines",
+ "parts": [
+  {
+   "key": "eeb758568ce16398",
+   "parquet": "00_LocalRoad.parquet",
+   "layer": "LocalRoad",
+   "source_file": "RC20140709SDN.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SD/RC20140709SDN/RC20140709SDN.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 157,
+   "fields": [
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Camp_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-shagarab-1-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+   "also_hdx": [
+    "geodata-of-shagarab-2-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+    "geodata-of-um-gargour-refugee-camp-al-qadarif-province-sudan-july-21-2014"
+   ]
+  },
+  {
+   "key": "eeb758568ce16398",
+   "parquet": "00_SecondaryRoad.parquet",
+   "layer": "SecondaryRoad",
+   "source_file": "RC20140709SDN.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SD/RC20140709SDN/RC20140709SDN.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 26,
+   "fields": [
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Camp_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-shagarab-1-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+   "also_hdx": [
+    "geodata-of-shagarab-2-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+    "geodata-of-um-gargour-refugee-camp-al-qadarif-province-sudan-july-21-2014"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-shagarab-1-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+  "geodata-of-shagarab-2-refugee-camp-al-qadarif-province-sudan-july-21-2014",
+  "geodata-of-um-gargour-refugee-camp-al-qadarif-province-sudan-july-21-2014"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

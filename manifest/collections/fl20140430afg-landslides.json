@@ -1,0 +1,72 @@
+{
+ "collection": "fl20140430afg-landslides",
+ "event": "fl20140430afg",
+ "event_code": "FL20140430AFG",
+ "hazard": "floods",
+ "year": 2014,
+ "family": "landslides",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2014/fl20140430afg/fl20140430afg-landslides",
+ "parts": [
+  {
+   "key": "604f13498fad50bf",
+   "parquet": "00_Landslide_20140503_Extent.parquet",
+   "layer": "Landslide_20140503_Extent",
+   "source_file": "FL20140430AFG.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/AF/FL20140430AFG/FL20140430AFG.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-estimated-rainfall-accumulation-from-30-april-to-06-may-2014-afgha-may-06-2014",
+   "also_hdx": [
+    "geodata-of-flood-waters-and-inundation-near-khwaja-du-koh-jawzjan-province-af-may-01-2014",
+    "geodata-of-flood-waters-over-khwaja-du-koh-jawzjan-province-afghanistan-may-01-2014",
+    "geodata-of-flood-waters-over-khwaja-du-koh-jawzjan-province-afghanistan-may-07-2014",
+    "geodata-of-flood-waters-over-kulukh-tapah-kunduz-province-afghanistan-may-13-2014",
+    "geodata-of-inundation-near-sar-e-pol-sar-e-pol-province-afghanistan-may-02-2014",
+    "geodata-of-inundation-near-sar-e-pol-sar-e-pol-province-afghanistan-may-07-2014",
+    "geodata-of-landslide-in-ab-barek-badakshan-province-afghanistan-may-04-2014",
+    "geodata-of-landslide-in-ab-barek-badakshan-province-afghanistan-may-08-2014"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-estimated-rainfall-accumulation-from-30-april-to-06-may-2014-afgha-may-06-2014",
+  "geodata-of-flood-waters-and-inundation-near-khwaja-du-koh-jawzjan-province-af-may-01-2014",
+  "geodata-of-flood-waters-over-khwaja-du-koh-jawzjan-province-afghanistan-may-01-2014",
+  "geodata-of-flood-waters-over-khwaja-du-koh-jawzjan-province-afghanistan-may-07-2014",
+  "geodata-of-flood-waters-over-kulukh-tapah-kunduz-province-afghanistan-may-13-2014",
+  "geodata-of-inundation-near-sar-e-pol-sar-e-pol-province-afghanistan-may-02-2014",
+  "geodata-of-inundation-near-sar-e-pol-sar-e-pol-province-afghanistan-may-07-2014",
+  "geodata-of-landslide-in-ab-barek-badakshan-province-afghanistan-may-04-2014",
+  "geodata-of-landslide-in-ab-barek-badakshan-province-afghanistan-may-08-2014"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

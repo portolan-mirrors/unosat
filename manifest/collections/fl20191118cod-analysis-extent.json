@@ -1,0 +1,409 @@
+{
+ "collection": "fl20191118cod-analysis-extent",
+ "event": "fl20191118cod",
+ "event_code": "FL20191118COD",
+ "hazard": "floods",
+ "year": 2019,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2019/fl20191118cod/fl20191118cod-analysis-extent",
+ "parts": [
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_GE01_20191112_AnalysisExtent_Zongo_COD.parquet",
+   "layer": "GE01_20191112_AnalysisExtent_Zongo_COD",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  },
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_GE01_20191112_AnalysisExtent_ZongoNW_COD.parquet",
+   "layer": "GE01_20191112_AnalysisExtent_ZongoNW_COD",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  },
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_PL_20191115_AnalysisExtent_Libenge_COD.parquet",
+   "layer": "PL_20191115_AnalysisExtent_Libenge__COD",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  },
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_ST1_20191118_AnalysisExtent_BasseKotto_CAF_AOI4.parquet",
+   "layer": "ST1_20191118_AnalysisExtent_BasseKotto_CAF_AOI4",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  },
+  {
+   "key": "6c3d260bbd82ce17",
+   "parquet": "00_ST1_20191118_AnalysisExtent_BasseKotto_CAF_AOI5.parquet",
+   "layer": "ST1_20191118_AnalysisExtent_BasseKotto_CAF_AOI5",
+   "source_file": "FL20191118COD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CD/FL20191118COD/FL20191118COD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+   "also_hdx": [
+    "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+    "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+    "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "flood-waters-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+  "flood-waters-as-of-15-november-2019-libenge-libenge-territory-democratic-republic-of-the-c",
+  "flood-waters-over-mobayi-mbongo-nord-ubangi-province-democratic-republic-of-the-congo",
+  "flooded-structures-as-of-12-november-2019-over-zongo-democratic-republic-of-the-congo",
+  "flooded-structures-as-of-15-november-2019-over-libenge-democratic-republic-of-the-congo"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

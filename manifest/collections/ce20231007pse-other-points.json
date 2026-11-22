@@ -1,0 +1,359 @@
+{
+ "collection": "ce20231007pse-other-points",
+ "event": "ce20231007pse",
+ "event_code": "CE20231007PSE",
+ "hazard": "complex-emergencies",
+ "year": 2023,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20231007pse/ce20231007pse-other-points",
+ "parts": [
+  {
+   "key": "0c270b6856d9f742",
+   "parquet": "00_Security_Sites.parquet",
+   "layer": "Security_Sites",
+   "source_file": "UNOSAT_GazaStrip_CDA_07Nov2023_GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3734/UNOSAT_GazaStrip_CDA_07Nov2023_GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 24,
+   "fields": [
+    {
+     "name": "Site_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Tower_Type",
+     "type": "Integer",
+     "domain": "Tower Type",
+     "alias": null
+    },
+    {
+     "name": "BaseMaterial",
+     "type": "Integer",
+     "domain": "BaseMaterial",
+     "alias": null
+    },
+    {
+     "name": "Camouflage",
+     "type": "Integer",
+     "domain": "Camouflage",
+     "alias": null
+    },
+    {
+     "name": "Capability",
+     "type": "Integer",
+     "domain": "Capability",
+     "alias": null
+    },
+    {
+     "name": "Construction",
+     "type": "Integer",
+     "domain": "Construction",
+     "alias": null
+    },
+    {
+     "name": "Defense",
+     "type": "Integer",
+     "domain": "Defense",
+     "alias": null
+    },
+    {
+     "name": "Deployment",
+     "type": "Integer",
+     "domain": "Deployment",
+     "alias": null
+    },
+    {
+     "name": "Hardening",
+     "type": "Integer",
+     "domain": "Hardening",
+     "alias": null
+    },
+    {
+     "name": "Occupation",
+     "type": "Integer",
+     "domain": "Occupation",
+     "alias": null
+    },
+    {
+     "name": "Serviceability",
+     "type": "Integer",
+     "domain": "Serviceability",
+     "alias": null
+    },
+    {
+     "name": "IA_Comments",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Staff_ID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "25": "SPOT-4",
+     "41": "SPOT-6",
+     "43": "Kompsat-2",
+     "44": "Sentinel-2",
+     "45": "Sentinel-3",
+     "46": "Kompsat-3",
+     "47": "Deimos-2",
+     "48": "TripleSat",
+     "49": "PlanetLabs",
+     "50": "RapidEye",
+     "51": "WorldView-4",
+     "52": "SPOT-7",
+     "53": "Jilin-1",
+     "54": "GaoFen-2",
+     "55": "SkySat",
+     "56": "ICEYE",
+     "57": "Landsat-9",
+     "58": "VIIRS-NOAA",
+     "59": "RCM-1",
+     "60": "RCM-2",
+     "61": "RCM-3",
+     "62": "TanDEM-X",
+     "63": "BlackSky",
+     "64": "Pleiades NEO",
+     "65": "Kompsat-5",
+     "66": "NewSat",
+     "67": "Saocom-1",
+     "68": "Vision-1",
+     "69": "Kanopus-V",
+     "70": "PlanetScope"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Tower_Type": {
+     "0": "Unknown",
+     "1": "Bridge",
+     "2": "Cooling Tower",
+     "3": "Light Tower",
+     "4": "Observation/Lookout",
+     "5": "Powerline",
+     "6": "Radar Tower",
+     "7": "Radio Tower",
+     "8": "Television",
+     "9": "Water Tower",
+     "10": "Other"
+    },
+    "BaseMaterial": {
+     "1": "Wood",
+     "2": "Concrete",
+     "3": "Stone",
+     "4": "Steel",
+     "5": "PVC",
+     "0": "Unspecified"
+    },
+    "Camouflage": {
+     "0": "None Observed",
+     "1": "Camouflaged",
+     "2": "Partly Camouflaged"
+    },
+    "Capability": {
+     "0": "Unknown",
+     "1": "Operational",
+     "2": "Partialy Operational",
+     "3": "Non Operational"
+    },
+    "Construction": {
+     "0": "Non Observed",
+     "1": "Modified",
+     "2": "Under Construction"
+    },
+    "Defense": {
+     "1": "Local Air Defense",
+     "2": "Passive Defense",
+     "3": "Surface"
+    },
+    "Deployment": {
+     "0": "Unknown",
+     "1": "Permanent",
+     "2": "Temporary"
+    },
+    "Hardening": {
+     "0": "Unknown",
+     "1": "Hardening",
+     "2": "Partly Hardened",
+     "3": "Non-Hardened"
+    },
+    "Occupation": {
+     "0": "Unknown",
+     "1": "Occupied",
+     "2": "Partialy Occupied",
+     "3": "Unoccupied"
+    },
+    "Serviceability": {
+     "0": "Unknown",
+     "1": "Serviceable",
+     "2": "Partly Serviceable",
+     "3": "Unserviceable"
+    },
+    "Staff_ID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY",
+     "171": "SR",
+     "161": "DC",
+     "57": "PG",
+     "45": "MD",
+     "54": "HP",
+     "70": "SG",
+     "91": "KA",
+     "181": "NL",
+     "191": "DH",
+     "212": "MH",
+     "213": "JT",
+     "214": "ES",
+     "18": "TH",
+     "215": "KB",
+     "216": "JY",
+     "218": "PA",
+     "219": "SS",
+     "220": "YM",
+     "221": "IS",
+     "222": "LD",
+     "223": "KRS",
+     "225": "RP",
+     "226": "AS",
+     "227": "MDE",
+     "228": "BV"
+    }
+   },
+   "hdx_dataset": "unosat-gaza-strip-comprehensive-damage-assessment-7-november-2023"
+  }
+ ],
+ "hdx_datasets": [
+  "unosat-deir-al-balah-comprehensive-damage-assessment-gaza-strip-21-october-2023",
+  "unosat-fao-gaza-strip-cropland-damage-analysis-september-2024",
+  "unosat-fao-gaza-strip-cropland-damage-assessment-august-2024",
+  "unosat-fao-gaza-strip-cropland-damage-assessment-december-2024",
+  "unosat-fao-gaza-strip-cropland-damage-assessment-july-2024",
+  "unosat-fao-gaza-strip-cropland-damage-assessment-july-2025",
+  "unosat-fao-gaza-strip-cropland-damage-assessment-june-2024",
+  "unosat-fao-gaza-strip-greenhouse-comprehensive-damage-assessment-december-2024",
+  "unosat-gaza-governorate-comprehensive-damage-assessment-22-23-september-2025",
+  "unosat-gaza-governorate-comprehensive-damage-assessment-23-september-2025",
+  "unosat-gaza-governorate-damage-assessment-gaza-strip-occupied-palestinian-territory",
+  "unosat-gaza-strip-7th-comprehensive-damage-assessment-may-2024",
+  "unosat-gaza-strip-8th-comprehensive-damage-assessment-july-2024",
+  "unosat-gaza-strip-agricultural-damage-analysis-1km-stretch-of-land-from-the-armistice-dema",
+  "unosat-gaza-strip-agricultural-damage-assessment-april-2024",
+  "unosat-gaza-strip-agricultural-damage-assessment-december-2023",
+  "unosat-gaza-strip-agricultural-damage-assessment-january-2024",
+  "unosat-gaza-strip-agricultural-damage-assessment-november-2023",
+  "unosat-gaza-strip-comprehensive-building-housing-unit-damage-assessment-march-2024",
+  "unosat-gaza-strip-comprehensive-damage-assessment-01-december-2024",
+  "unosat-gaza-strip-comprehensive-damage-assessment-04-february-2025",
+  "unosat-gaza-strip-comprehensive-damage-assessment-08-july-2025",
+  "unosat-gaza-strip-comprehensive-damage-assessment-11-october-2025",
+  "unosat-gaza-strip-comprehensive-damage-assessment-1km-stretch-of-land-from-the-armistice-d",
+  "unosat-gaza-strip-comprehensive-damage-assessment-26-november-2023",
+  "unosat-gaza-strip-comprehensive-damage-assessment-7-november-2023",
+  "unosat-gaza-strip-comprehensive-damage-assessment-january-2024",
+  "unosat-gaza-strip-comprehensive-damage-assessment-september-2024",
+  "unosat-gaza-strip-road-network-comprehensive-damage-assessment",
+  "unosat-gaza-strip-road-network-comprehensive-damage-assessment-august-2024",
+  "unosat-gaza-strip-road-network-comprehensive-damage-assessment-july-2025",
+  "unosat-north-gaza-governorate-damage-assessment-analysis-15-october-2023"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

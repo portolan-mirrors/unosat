@@ -1,0 +1,828 @@
+{
+ "collection": "ce20140613irq-shelters-cc_by_sa",
+ "event": "ce20140613irq",
+ "event_code": "CE20140613IRQ",
+ "hazard": "complex-emergencies",
+ "year": 2014,
+ "family": "shelters",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20140613irq/ce20140613irq-shelters-cc_by_sa",
+ "parts": [
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Affected_settlements_20160718_20161025.parquet",
+   "layer": "Affected_settlements_20160718_20161025",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 31,
+   "fields": [
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCodeAlt1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAlt1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SmokeFreqD",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Affected_settlements_20160718_20161125.parquet",
+   "layer": "Affected_settlements_20160718_20161125",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 32,
+   "fields": [
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCodeAlt1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAlt1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SmokeFreqD",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Affected_settlements_20160718_20161214.parquet",
+   "layer": "Affected_settlements_20160718_20161214",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 33,
+   "fields": [
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCodeAlt1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAlt1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SmokeFreqD",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Affected_settlements_20160718_20170107.parquet",
+   "layer": "Affected_settlements_20160718_20170107",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2118,
+   "fields": [
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCodeAlt1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAlt1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SmokeFreqD",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Affected_settlements_20160718_20170124.parquet",
+   "layer": "Affected_settlements_20160718_20170124",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2226,
+   "fields": [
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCodeAlt1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAlt1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SmokeFreqD",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "b3ab038659316a1b",
+   "parquet": "00_Affected_settlements_20160718_20170313.parquet",
+   "layer": "Affected_settlements_20160718_20170313",
+   "source_file": "CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Al_Qayyarah_oil_fires.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2282,
+   "fields": [
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Longitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Latitude",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PCodeAlt1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PNameAlt1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A1NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2Code",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "A2NameEn",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SmokeFreqD",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "environmental-damage-in-al-qayyarah-iraq",
+   "also_hdx": [
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+    "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017"
+   ]
+  },
+  {
+   "key": "8d306006ec7266a9",
+   "parquet": "00_IDP_GawilanCamp_Structures_28June2016.parquet",
+   "layer": "IDP_GawilanCamp_Structures_28June2016",
+   "source_file": "CE20140613IRQ_Gawilan_20160628.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Gawilan_20160628.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 3193,
+   "fields": [
+    {
+     "name": "Structure_material",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Camp_SatusID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_District",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SectorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Note",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-11-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-16-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-18-july-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-30-june-2017",
+  "environmental-damage-in-al-qayyarah-iraq",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-and-14-december-2016",
+  "fires-at-the-qayyarah-oil-field-nineveh-governorate-between-july-18-and-october-24-2016",
+  "gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq",
+  "geodata-of-damage-assessment-for-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-in-central-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-of-al-sabbahiya-hamadan-village-sinjar-district-december-12-2015",
+  "geodata-of-damage-assessment-of-baiji-salah-ad-din-governorate-iraq-february-20-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-july-11-2016",
+  "geodata-of-damage-assessment-of-gundy-hamy-village-sinjar-district-nineveh-pr-december-11-2015",
+  "geodata-of-damage-assessment-of-jalawla-diyala-governorate-iraq-february-06-2015",
+  "geodata-of-damage-assessment-of-kany-sark-village-sinjar-district-nineveh-pro-december-12-2015",
+  "geodata-of-damage-assessment-of-ramadi-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-ramboosi-sharqi-village-sinjar-district-ninev-december-12-2015",
+  "geodata-of-damage-assessment-of-shkaftat-gharby-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-shkaftat-sharqy-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-02-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-sinjar-district-nineveh-province-iraq-november-30-2015",
+  "geodata-of-damage-assessment-of-tikrit-salah-ad-din-governorate-iraq-february-24-2015",
+  "geodata-of-damage-assessment-of-zravky-village-sinjar-district-nineveh-provin-december-22-2015",
+  "geodata-of-damage-assessment-of-zumar-nineveh-governorate-iraq-february-06-2015",
+  "geodata-of-gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq-august-17-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 3.1 MB"
+}

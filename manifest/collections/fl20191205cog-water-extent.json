@@ -1,0 +1,112 @@
+{
+ "collection": "fl20191205cog-water-extent",
+ "event": "fl20191205cog",
+ "event_code": "FL20191205COG",
+ "hazard": "floods",
+ "year": 2019,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2019/fl20191205cog/fl20191205cog-water-extent",
+ "parts": [
+  {
+   "key": "c183a263f36b3309",
+   "parquet": "01_PL_20191129_FloodWater_Loukolela_COG.parquet",
+   "layer": "PL_20191129_FloodWater_Loukolela_COG",
+   "source_file": "FL20191205COG_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CG/FL20191205COG/FL20191205COG_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 12,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "flood-waters-as-of-29-november-2019-over-loukolela-cuvette-department-republic-of-congo",
+   "also_hdx": [
+    "water-extents-as-of-10-december-2019-over-epena-district-likouala-department-republic-of-c"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "flood-waters-as-of-29-november-2019-over-loukolela-cuvette-department-republic-of-congo",
+  "water-extents-as-of-10-december-2019-over-epena-district-likouala-department-republic-of-c"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

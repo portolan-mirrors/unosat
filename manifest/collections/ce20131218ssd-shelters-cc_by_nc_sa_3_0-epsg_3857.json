@@ -1,0 +1,107 @@
+{
+ "collection": "ce20131218ssd-shelters-cc_by_nc_sa_3_0-epsg_3857",
+ "event": "ce20131218ssd",
+ "event_code": "CE20131218SSD",
+ "hazard": "complex-emergencies",
+ "year": 2013,
+ "family": "shelters",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:3857",
+ "path": "complex-emergencies/ce20131218ssd/ce20131218ssd-shelters-cc_by_nc_sa_3_0-epsg_3857",
+ "parts": [
+  {
+   "key": "96d18d6163486470",
+   "parquet": "00_IDP_Shelter_Estimation.parquet",
+   "layer": "IDP_Shelter_Estimation",
+   "source_file": "UNOSAT_RAR_CE20131218SSD.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/UNOSAT_RAR_CE20131218SSD.gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 7902,
+   "fields": [
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "0": "Geoeye-1",
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "Worldview-3",
+     "4": "QuickBird"
+    }
+   },
+   "hdx_dataset": "geodata-of-rapid-satellite-imagery-assessment-and-idp-shelter-analysis-south-december-08-2015"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-density-map-morobo-kaya-road-nahr-yei-district-south-sudan",
+  "damage-density-map-yei-nahr-yei-district-south-sudan",
+  "geodata-of-bentiu-idp-camp-rubkona-county-unity-state-south-sudan-march-24-2015",
+  "geodata-of-bentiu-idp-camp-rubkona-county-unity-state-south-sudan-november-16-2015",
+  "geodata-of-damage-assesment-in-the-city-of-bor-jonglei-state-south-sudan-january-21-2014",
+  "geodata-of-damage-assesment-in-the-city-of-malakal-upper-nile-state-south-sud-january-24-2014",
+  "geodata-of-damage-assesment-in-the-city-of-malakal-upper-nile-state-south-sud-march-21-2014",
+  "geodata-of-damage-assessment-in-the-city-of-bentiu-unity-state-south-sudan-january-18-2014",
+  "geodata-of-delthoma-idp-camp-melut-district-upper-nile-state-south-sudan-december-03-2015",
+  "geodata-of-destruction-in-leer-unity-state-south-sudan-february-07-2014",
+  "geodata-of-destruction-in-mayom-unity-state-south-sudan-january-21-2014",
+  "geodata-of-destruction-in-rubkona-unity-state-south-sudan-january-16-2014",
+  "geodata-of-elevation-map-of-kalobeyei-turkana-county-kenya-july-01-2015",
+  "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-july-01-2015",
+  "geodata-of-idp-camp-expansion-in-unmiss-base-juba-airport-south-sudan-january-09-2014",
+  "geodata-of-idp-camp-expansion-in-unmiss-base-juba-airport-south-sudan-january-20-2014",
+  "geodata-of-idp-camp-expansion-in-unmiss-base-juba-airport-south-sudan-january-31-2014",
+  "geodata-of-idp-camp-in-melut-upper-nile-state-south-sudan-december-23-2014",
+  "geodata-of-idp-camp-in-unmiss-malakal-base-malakal-south-sudan-february-23-2016",
+  "geodata-of-idp-camp-in-unmiss-malakal-base-malakal-south-sudan-january-20-2014",
+  "geodata-of-idp-camp-in-unmiss-malakal-base-malakal-south-sudan-october-22-2015",
+  "geodata-of-idp-camp-in-unmiss-rubkona-base-rubkona-south-sudan-january-09-2014",
+  "geodata-of-idp-camp-in-unmiss-rubkona-base-rubkona-south-sudan-january-15-2014",
+  "geodata-of-idp-settlements-in-wau-shilluk-upper-nile-state-south-sudan-february-24-2014",
+  "geodata-of-idp-shelters-in-un-house-compound-juba-central-equatoria-south-sud-august-19-2016",
+  "geodata-of-idp-shelters-in-un-house-compound-juba-central-equatoria-south-sud-july-11-2016",
+  "geodata-of-idp-shelters-in-un-house-compound-juba-central-equatoria-south-sud-october-14-2015",
+  "geodata-of-idp-shelters-in-un-house-compound-juba-central-equatoria-south-sudan",
+  "geodata-of-idp-shelters-in-un-house-compound-juba-south-sudan-february-20-2015",
+  "geodata-of-idp-structures-in-wau-shilluk-upper-nile-state-south-sudan-february-24-2014",
+  "geodata-of-idps-in-unmiss-base-bor-jonglei-state-south-sudan-october-30-2015",
+  "geodata-of-idps-in-unmiss-bor-base-jonglei-state-south-sudan-october-30-2015",
+  "geodata-of-landcover-classification-kalobeyei-and-kakuma-areas-turkana-county-july-01-2015",
+  "geodata-of-landcover-classification-kalobeyei-turkana-county-kenya-july-01-2015",
+  "geodata-of-leitchour-refugee-camp-gambella-region-ethiopia-june-03-2014",
+  "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-december-02-2014",
+  "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-february-09-2016",
+  "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-july-15-2014",
+  "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-june-13-2014",
+  "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-march-11-2015",
+  "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-september-25-2014",
+  "geodata-of-rapid-satellite-imagery-assessment-and-idp-shelter-analysis-south-december-08-2015",
+  "geodata-of-wunthou-idp-site-awerial-county-lakes-state-south-sudan-june-13-2014",
+  "idp-shelters-in-un-house-compound-juba-central-equatoria-south-sudan",
+  "structures-at-the-doro-settlement-in-south-sudan-2752",
+  "structures-at-the-yusuf-batil-settlement-in-south-sudan-2751"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.5 MB"
+}

@@ -1,0 +1,702 @@
+{
+ "collection": "tc20180209ton-damage-sites",
+ "event": "tc20180209ton",
+ "event_code": "TC20180209TON",
+ "hazard": "tropical-cyclones",
+ "year": 2018,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-sites",
+ "parts": [
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "01_EUA_Damage_Sites.parquet",
+   "layer": "EUA_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 542,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "03_Fuaamotu_Damage_Sites.parquet",
+   "layer": "Fuaamotu_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 188,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "05_Hamula_Tongatapu_Damage_Sites.parquet",
+   "layer": "Hamula_Tongatapu_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 298,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "07_Kolonga_Tongatapu_Damage_Sites.parquet",
+   "layer": "Kolonga_Tongatapu_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 548,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "09_Malapo_Damage_Sites.parquet",
+   "layer": "Malapo_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 354,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "11_Mua_Tongatapu_Damage_Sites.parquet",
+   "layer": "Mua_Tongatapu_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 662,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "13_Nukualofa_Damage_Sites.parquet",
+   "layer": "Nukualofa_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 637,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  },
+  {
+   "key": "46bc0d975f0ea113",
+   "parquet": "15_Pelehake_Damage_Sites.parquet",
+   "layer": "Pelehake_Damage_Sites",
+   "source_file": "TC20180209TON_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/TO/TC20180209TON/TC20180209TON_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 133,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-eua-island-tonga"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-eua-island-tonga"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

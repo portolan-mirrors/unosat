@@ -1,0 +1,204 @@
+{
+ "collection": "geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points",
+ "event": "geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2016,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points",
+ "parts": [
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160226_Vatukoula_Damge.parquet",
+   "layer": "PL_20160226_Vatukoula_Damge",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 299,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": null
+    },
+    {
+     "name": "DamageID1",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": "Main Damage Site Class"
+    },
+    {
+     "name": "DamageID2",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": "Grouped damage Classes"
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_5",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": "Notes"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_6",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SiteID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "DamageID1": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)"
+    },
+    "DamageID2": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "66": "RS",
+     "55": "MF",
+     "77": "LD",
+     "88": "HK"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016"
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

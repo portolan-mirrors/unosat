@@ -1,0 +1,367 @@
+{
+ "collection": "tc20161003hti-other-polygons-cc_by_4_0-epsg_4326",
+ "event": "tc20161003hti",
+ "event_code": "TC20161003HTI",
+ "hazard": "tropical-cyclones",
+ "year": 2016,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_4326",
+ "parts": [
+  {
+   "key": "5eba8828c471fbba",
+   "parquet": "00_UNOSAT_Cuba_PopExposure_WindSpeed_Matthew_20161006_v1.parquet",
+   "layer": "UNOSAT_Cuba_PopExposure_WindSpeed_Matthew_20161006_v1",
+   "source_file": "UNOSAT_Cuba_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/UNOSAT_Cuba_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "wgs84_horizontal": true,
+   "features": 28,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_2",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_2",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_120kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_90kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_60kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-cuba-popexposure-windspeed-matthew-20161006"
+  },
+  {
+   "key": "667dba3700e63c8e",
+   "parquet": "00_UNOSAT_Haiti_PopExposure_WindSpeed_Matthew_20161006.parquet",
+   "layer": "UNOSAT_Haiti_PopExposure_WindSpeed_Matthew_20161006",
+   "source_file": "UNOSAT_Haiti_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/UNOSAT_Haiti_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "wgs84_horizontal": true,
+   "features": 570,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "id_Section",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "No_section",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_Com",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id_dep",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "admin1pcod",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "admin2pcod",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "admin3pcod",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "admin1name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "admin2name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "admin3name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_120kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_90kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_60kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-haiti-popexposure-windspeed-matthew-20161006"
+  },
+  {
+   "key": "c19cde4ae70ab844",
+   "parquet": "00_UNOSAT_Jamaica_PopExposure_WindSpeed_Matthew_20161006_v1.parquet",
+   "layer": "UNOSAT_Jamaica_PopExposure_WindSpeed_Matthew_20161006_v1",
+   "source_file": "UNOSAT_Jamaica_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/HT/TC20161003HTI/UNOSAT_Jamaica_PopExposure_WindSpeed_Matthew_20161006.zip",
+   "wgs84_horizontal": true,
+   "features": 2,
+   "fields": [
+    {
+     "name": "ID_0",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ISO",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_0",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ID_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "HASC_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCN_1",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CCA_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ENGTYPE_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NL_NAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "VARNAME_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_120kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_90kmh",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "WSZ_60kmh",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Total",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-jamaica-popexposure-windspeed-matthew-20161006"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-tiburon-town-and-surroundings",
+  "damage-assessment-overview-of-dame-marie-and-anse-d-hainault-areas-grande-anse-sud-departments",
+  "damage-assessment-overview-of-jeremie-area-grande-anse-department",
+  "damage-assessment-overview-of-tiburon-commune-sud-department",
+  "hazard-flood-zones",
+  "population-exposed-to-wind-speed-zones",
+  "preliminary-satellite-based-damage-assessment-report-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-1-grand-anse-departement-haiti",
+  "preliminary-satellite-based-damage-assessment-report-update-3-grand-anse-and-sud-departements-haiti",
+  "unosat-cuba-popexposure-windspeed-matthew-20161006",
+  "unosat-dominicanrep-popexposure-windspeed-matthew-20161006",
+  "unosat-haiti-popexposure-windspeed-matthew-20161006",
+  "unosat-jamaica-popexposure-windspeed-matthew-20161006"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

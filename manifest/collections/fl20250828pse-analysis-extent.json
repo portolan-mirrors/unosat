@@ -1,0 +1,73 @@
+{
+ "collection": "fl20250828pse-analysis-extent",
+ "event": "fl20250828pse",
+ "event_code": "FL20250828PSE",
+ "hazard": "floods",
+ "year": 2025,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:32636",
+ "path": "floods/2025/fl20250828pse/fl20250828pse-analysis-extent",
+ "parts": [
+  {
+   "key": "6e4e7772a3a658eb",
+   "parquet": "00_Gaza_IDP_AnalysisExtent_20250829.parquet",
+   "layer": "Gaza_IDP_AnalysisExtent_20250829",
+   "source_file": "FL20250828PSE_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4195/FL20250828PSE_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-gaza-city-occupied-palestini"
+  },
+  {
+   "key": "13dba2661ff1ab3b",
+   "parquet": "00_Gaza_IDP_AnalysisExtent_20250829.parquet",
+   "layer": "Gaza_IDP_AnalysisExtent_20250829",
+   "source_file": "FL20250828PSE_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4200/FL20250828PSE_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-southern-gaza-strip-occupied"
+  }
+ ],
+ "hdx_datasets": [
+  "sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-gaza-city-occupied-palestini",
+  "sea-surge-risk-flood-impact-assessment-in-the-coastal-area-of-southern-gaza-strip-occupied"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

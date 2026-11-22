@@ -1,0 +1,7264 @@
+{
+ "collection": "ce20130604syr-shelters-cc_by_nc_sa_3_0-epsg_4326",
+ "event": "ce20130604syr",
+ "event_code": "CE20130604SYR",
+ "hazard": "complex-emergencies",
+ "year": 2013,
+ "family": "shelters",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20130604syr/ce20130604syr-shelters-cc_by_nc_sa_3_0-epsg_4326",
+ "parts": [
+  {
+   "key": "30602d9c83f4f50f",
+   "parquet": "00_Azraq_Shelters.parquet",
+   "layer": "Azraq_Shelters",
+   "source_file": "Azraq_20131228_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Azraq_20131228_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4482,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014"
+  },
+  {
+   "key": "ff4d1bd5f52b9e23",
+   "parquet": "00_Azraq_Shelters_20140426.parquet",
+   "layer": "Azraq_Shelters_20140426",
+   "source_file": "Azraq_20140426_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Azraq_20140426_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 8776,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatus",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shelter_St",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterClo",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-may-02-2014"
+  },
+  {
+   "key": "c3f4c5943f913822",
+   "parquet": "00_Azraq_Shelters.parquet",
+   "layer": "Azraq_Shelters",
+   "source_file": "Azraq_20151103.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Azraq_20151103.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 15969,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-03-2015"
+  },
+  {
+   "key": "4bfb61ab0fc6c307",
+   "parquet": "00_Azraq_Shelters.parquet",
+   "layer": "Azraq_Shelters",
+   "source_file": "Azraq_20141111_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Azraq_20141111_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 14246,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-28-2014"
+  },
+  {
+   "key": "97cb6946259add47",
+   "parquet": "00_Al_Kamoune_Structures_20160416.parquet",
+   "layer": "Al_Kamoune_Structures_20160416",
+   "source_file": "Al_Kamoune_20160416.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Kamoune_20160416.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1242,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_6",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_15",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-kamoune-idp-site-near-sarmada-idlib-governorate-syria-may-13-2016"
+  },
+  {
+   "key": "4886556fd6427cb9",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20160812.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20160812.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 92215,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_14",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "40": "WorldView-3"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF",
+     "141": "KJP"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-august-17-2016"
+  },
+  {
+   "key": "3b263e3cea74723f",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_Shelters.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20160812/Al_Zaatari_Shelters.zip",
+   "wgs84_horizontal": true,
+   "features": 92215,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatus",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shelter_St",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterClo",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-august-17-2016"
+  },
+  {
+   "key": "714aa9404310b219",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20151012.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20151012.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 89378,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_14",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-december-08-2015"
+  },
+  {
+   "key": "20f68fcd1f168a71",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20140107.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20140107.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 72555,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-february-03-2014"
+  },
+  {
+   "key": "7491d9ac2151b247",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20140706.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20140706.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 82290,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_14",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-july-21-2014"
+  },
+  {
+   "key": "0737c5c148daaf9c",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20140406.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20140406.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 79258,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-01-2014"
+  },
+  {
+   "key": "14eeaf92349ed1dd",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20150426.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20150426.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 87081,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_14",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-12-2015"
+  },
+  {
+   "key": "2d4d253fb9c6e645",
+   "parquet": "00_Al_Zaatari_Shelters.parquet",
+   "layer": "Al_Zaatari_Shelters",
+   "source_file": "Al_Zaatari_20141111.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20141111.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 84365,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_14",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MBF"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-november-19-2014"
+  },
+  {
+   "key": "695646997e3909e6",
+   "parquet": "00_Al_Zaatari_Shelters_1.parquet",
+   "layer": "Al_Zaatari_Shelters_1",
+   "source_file": "Al_Zaatari_Shelters_20141111_shp.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_Shelters_20141111_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 84365,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatus",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shelter_St",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterClo",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-november-19-2014"
+  },
+  {
+   "key": "92ce1aadc735140d",
+   "parquet": "00_BabAlSalame_Structure_20150605.parquet",
+   "layer": "BabAlSalame_Structure_20150605",
+   "source_file": "CE20130604SYR_BabAlSalame.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_BabAlSalame.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1834,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_15",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-bab-al-salame-idp-camp-azaz-district-aleppo-governorate-syria-june-12-2015"
+  },
+  {
+   "key": "6b4f1879f27a265c",
+   "parquet": "00_Domiz_Shelters.parquet",
+   "layer": "Domiz_Shelters",
+   "source_file": "Domiz_20131225.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Domiz_20131225.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 10949,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "55": "MF",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "66": "CJ"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-domiz-refugee-camp-duhok-governorate-iraq-january-10-2014"
+  },
+  {
+   "key": "2a78f75473e829c2",
+   "parquet": "00_Oncunipar_Structures_20150605.parquet",
+   "layer": "Oncunipar_Structures_20150605",
+   "source_file": "CE20130604SYR_Oncunipar.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Oncunipar.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2536,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-oncunipar-refugee-camp-merkez-district-kilis-province-turkey-june-16-2015"
+  },
+  {
+   "key": "f08eee6440514c4a",
+   "parquet": "00_Rubkan_Shelters.parquet",
+   "layer": "Rubkan_Shelters",
+   "source_file": "Rubkan_20140725.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/Rubkan_20140725.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 90,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampQuicklook",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_Town",
+     "type": "String",
+     "domain": null,
+     "alias": "City/Town"
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "55": "MF",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "66": "CJ",
+     "121": "CN"
+    }
+   },
+   "hdx_dataset": "geodata-of-rubkan-border-crossing-idp-settlement-homs-governorate-syria-july-31-2014"
+  },
+  {
+   "key": "a683435a8c409e68",
+   "parquet": "00_Rukban_Structures_20160523.parquet",
+   "layer": "Rukban_Structures_20160523",
+   "source_file": "CE20130604SYR_Rukban_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Rukban_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 6416,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-april-29-2016",
+   "also_hdx": [
+    "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-09-2016",
+    "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-28-2016"
+   ]
+  },
+  {
+   "key": "a683435a8c409e68",
+   "parquet": "00_Rukban_Structures_20160624.parquet",
+   "layer": "Rukban_Structures_20160624",
+   "source_file": "CE20130604SYR_Rukban_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Rukban_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 7925,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-april-29-2016",
+   "also_hdx": [
+    "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-09-2016",
+    "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-28-2016"
+   ]
+  },
+  {
+   "key": "5ed1bb00c0e0dc39",
+   "parquet": "00_Rukban_Structures_20160725.parquet",
+   "layer": "Rukban_Structures_20160725",
+   "source_file": "CE20130604SYR_Rukban_20160725_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Rukban_20160725_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 6563,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-july-27-2016"
+  },
+  {
+   "key": "116b67d3ba3eeef7",
+   "parquet": "00_Hadalat_Structures_20160713.parquet",
+   "layer": "Hadalat_Structures_20160713",
+   "source_file": "CE20130604SYR_Hadalat_20160713_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_20160713_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2132,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border",
+   "also_hdx": [
+    "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-july-14-2016"
+   ]
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20141202.parquet",
+   "layer": "Hadalat_Structures_20141202",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 95,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_15",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20150421.parquet",
+   "layer": "Hadalat_Structures_20150421",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 70,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_15",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20150830.parquet",
+   "layer": "Hadalat_Structures_20150830",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 72,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_15",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20160129.parquet",
+   "layer": "Hadalat_Structures_20160129",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 272,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_14",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20160429.parquet",
+   "layer": "Hadalat_Structures_20160429",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1869,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20160514.parquet",
+   "layer": "Hadalat_Structures_20160514",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1960,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20160713.parquet",
+   "layer": "Hadalat_Structures_20160713",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2132,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20160905.parquet",
+   "layer": "Hadalat_Structures_20160905",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1553,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20161018.parquet",
+   "layer": "Hadalat_Structures_20161018",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1428,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20161112.parquet",
+   "layer": "Hadalat_Structures_20161112",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1358,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20170124.parquet",
+   "layer": "Hadalat_Structures_20170124",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1535,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "b31b7418beafaad5",
+   "parquet": "00_Hadalat_Structures_20170304.parquet",
+   "layer": "Hadalat_Structures_20170304",
+   "source_file": "CE20130604SYR_Hadalat_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1553,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_1",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016"
+  },
+  {
+   "key": "6fd87faa848eb4bc",
+   "parquet": "00_Hadalat_Structures_20160429.parquet",
+   "layer": "Hadalat_Structures_20160429",
+   "source_file": "CE20130604SYR_Hadalat_20160429_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Hadalat_20160429_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1869,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1",
+     "44": "Deimos-2"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-may-09-2016"
+  },
+  {
+   "key": "29c4bb1a282e2cd4",
+   "parquet": "00_Sujjo_Structure_20150605.parquet",
+   "layer": "Sujjo_Structure_20150605",
+   "source_file": "CE20130604SYR_Sujjo.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Sujjo.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1029,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Camp_Bld_Type",
+     "alias": "Structure material"
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "CampStatusID",
+     "type": "Integer",
+     "domain": "Camp_StatusID",
+     "alias": "Camp_StatusID"
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "Integer",
+     "domain": "CampType",
+     "alias": null
+    },
+    {
+     "name": "CampTrend",
+     "type": "Integer",
+     "domain": "CampTrend",
+     "alias": null
+    },
+    {
+     "name": "Shelter_Status",
+     "type": "Integer",
+     "domain": "Shelter_Status",
+     "alias": null
+    },
+    {
+     "name": "ShelterClose_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Structure_Type",
+     "type": "Integer",
+     "domain": "Structure_Type",
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "1": "Tent Shelter",
+     "4": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "5": "Semi-Permanent Structure",
+     "2": "Metal Structure"
+    },
+    "Sensor_ID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "CampStatusID": {
+     "0": "Closed / Relocated",
+     "1": "Open (Operational)",
+     "2": "Planned / Under Construction",
+     "9": "Camp Destroyed"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "CampType": {
+     "1": "Refugee Camp",
+     "2": "IDP Camp"
+    },
+    "CampTrend": {
+     "1": "Increase",
+     "2": "Decrease"
+    },
+    "Shelter_Status": {
+     "1": "Open",
+     "2": "Closed"
+    },
+    "Structure_Type": {
+     "1": "Tent Shelter",
+     "2": "Admin Building",
+     "3": "Improvised Shelter (Wood / Stone / Mud)",
+     "4": "Semi-Permanent Structure",
+     "5": "Metal Structure"
+    }
+   },
+   "hdx_dataset": "geodata-of-sujjo-idp-camp-azaz-district-aleppo-governorate-syria-june-19-2015"
+  }
+ ],
+ "hdx_datasets": [
+  "atmeh-idp-settlement-shelter-density-in-dana-subdistrict-harem-district-idlib-governorate-syria-2744",
+  "damage-assessement-of-hama-hama-governorate-syria",
+  "damage-assessment-of-daraa-daraa-governorate-syria",
+  "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+  "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-2741",
+  "damage-assessment-of-idlib-idlib-governorate-syria",
+  "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+  "damage-density-2014-of-hama-hama-governorate-syria",
+  "damage-density-2015-of-daraa-daraa-governorate-syria",
+  "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+  "damage-density-2015-of-idlib-idlib-governorate-syria",
+  "damage-density-2016-of-daraa-daraa-governorate-syria",
+  "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+  "damage-density-2016-of-hama-hama-governorate-syria",
+  "damage-density-2016-of-idlib-idlib-governorate-syria",
+  "damage-density-in-the-city-of-aleppo-syria",
+  "damage-density-of-ar-raqqa-ar-raqqa-governorate-syria-2742",
+  "damage-density-of-damascus-kafr-batna-and-irbin-subdistricts-damascus-governorate-syria",
+  "damage-density-of-deir-ez-zor-deir-ez-zor-governorate-syria-2740",
+  "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+  "geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014",
+  "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-may-02-2014",
+  "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-03-2015",
+  "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-28-2014",
+  "geodata-of-al-kamoune-idp-site-near-sarmada-idlib-governorate-syria-may-13-2016",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-august-17-2016",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-december-08-2015",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-february-03-2014",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-july-21-2014",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-01-2014",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-12-2015",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-november-19-2014",
+  "geodata-of-bab-al-salame-idp-camp-azaz-district-aleppo-governorate-syria-june-12-2015",
+  "geodata-of-damage-assessment-al-quaryatayn-homs-governorate-syria-june-09-2016",
+  "geodata-of-damage-assessment-for-ancient-city-of-palmyra-syria-april-06-2016",
+  "geodata-of-damage-assessment-of-aleppo-aleppo-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-aleppo-aleppo-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-november-07-2014",
+  "geodata-of-damage-assessment-of-daraa-daraa-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-daraa-daraa-governorate-syria-november-07-2014",
+  "geodata-of-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-hama-hama-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-homs-homs-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-idlib-idlib-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-idlib-idlib-governorate-syria-november-07-2014",
+  "geodata-of-damage-assessment-of-kobane-aleppo-governorate-syria-february-11-2015",
+  "geodata-of-damage-assessment-of-kobane-aleppo-governorate-syria-march-06-2015",
+  "geodata-of-damage-assessment-of-tadmur-and-al-amiriyah-homs-governorate-syria-april-07-2016",
+  "geodata-of-damage-density-in-the-cities-of-homs-aleppo-hama-deir-ez-zor-ar-ra-july-21-2015",
+  "geodata-of-domiz-refugee-camp-duhok-governorate-iraq-january-10-2014",
+  "geodata-of-neighborhood-damage-assessment-kobane-aleppo-governorate-syria-march-06-2015",
+  "geodata-of-neighborhood-damage-percentages-aleppo-syria-february-18-2016",
+  "geodata-of-oncunipar-refugee-camp-merkez-district-kilis-province-turkey-june-16-2015",
+  "geodata-of-percentages-of-buildings-damaged-aleppo-syria-february-18-2016",
+  "geodata-of-percentages-of-buildings-damagedtadmur-and-al-miriyah-homs-governo-april-20-2016",
+  "geodata-of-rubkan-border-crossing-idp-settlement-homs-governorate-syria-july-31-2014",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-april-29-2016",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-july-27-2016",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-09-2016",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-28-2016",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-july-14-2016",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-may-09-2016",
+  "geodata-of-sujjo-idp-camp-azaz-district-aleppo-governorate-syria-june-19-2015",
+  "infrastructure-and-roads-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-2747",
+  "infrastructure-and-roads-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-2748",
+  "internally-displaced-persons-shelters-in-daraa-and-quneitra-governorate",
+  "internally-displaced-persons-shelters-in-idlib-lattakia-and-aleppo-governorate",
+  "neighborhood-shelter-damage-percentages-in-aleppo-city",
+  "percentage-damage-in-residential-area-of-aleppo-city",
+  "qah-idp-settlement-shelter-density-in-dana-subdistrict-harem-district-idlib-governorate-syria-2743",
+  "rapidly-assessed-damage-occurring-between-23-february-2018-and-2-march-2018-in-douma-eastern-ghouta-",
+  "rapidly-assessed-damage-occurring-between-23-february-2018-and-6-march-2018-in-eastern-ghouta-area-",
+  "rapidly-assessed-damage-occurring-december-february-eastern-ghouta-area-syria",
+  "rapidly-assessed-damage-occurring-february-march-douma-eastern-ghouta-area-syria",
+  "rapidly-assessed-damage-occurring-february-march-eastern-ghouta-area-damascus-governorate-2782",
+  "shelter-density-map-at-rukban-border-crossing",
+  "shelter-density-map-at-rukban-border-crossing-2824",
+  "shelter-density-map-at-rukban-border-crossing-jordan-syria-border",
+  "shelter-density-map-at-rukban-border-crossing-syria-jordan-border-2761",
+  "shelters-at-hadalat-border-crossing-jordan-syria-border",
+  "update-al-azraq-refugee-camp-az-zarqa-governorate-jordan",
+  "update-al-zaatari-refugee-camp-mafraq-governorate-jordan"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 10.7 MB"
+}

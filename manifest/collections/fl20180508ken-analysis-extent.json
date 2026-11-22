@@ -1,0 +1,90 @@
+{
+ "collection": "fl20180508ken-analysis-extent",
+ "event": "fl20180508ken",
+ "event_code": "FL20180508KEN",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180508ken/fl20180508ken-analysis-extent",
+ "parts": [
+  {
+   "key": "4cf774972d38f86a",
+   "parquet": "00_ST_20180508_AnalysisExtent_CumulativeKenya.parquet",
+   "layer": "ST_20180508_AnalysisExtent_CumulativeKenya",
+   "source_file": "FL20180508KEN_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/KE/FL20180508KEN/FL20180508KEN_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "potentially-affected-population-by-flooding-in-eastern-kenya-2804",
+   "also_hdx": [
+    "satellite-detected-water-along-tana-river-bura-ub-county-tana-river-county-kenya-2798",
+    "satellite-detected-water-along-tana-river-galole-garsen-sub-counties-tanariver-county-kenya-2799",
+    "satellite-detected-water-over-dadaab-sub-county-garissa-county-2802",
+    "satellite-detected-water-over-garsen-sub-county-tana-river-county-kenya-2794",
+    "satellite-detected-water-over-wajir-county-kenya-2801"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "potentially-affected-population-by-flooding-in-eastern-kenya-2804",
+  "satellite-detected-water-along-tana-river-bura-ub-county-tana-river-county-kenya-2798",
+  "satellite-detected-water-along-tana-river-galole-garsen-sub-counties-tanariver-county-kenya-2799",
+  "satellite-detected-water-over-dadaab-sub-county-garissa-county-2802",
+  "satellite-detected-water-over-garsen-sub-county-tana-river-county-kenya-2794",
+  "satellite-detected-water-over-wajir-county-kenya-2801"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.3 MB"
+}

@@ -1,0 +1,287 @@
+{
+ "collection": "ot20130511ssd-other-lines",
+ "event": "ot20130511ssd",
+ "event_code": "OT20130511SSD",
+ "hazard": "other-events",
+ "year": 2013,
+ "family": "other-lines",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "other-events/ot20130511ssd/ot20130511ssd-other-lines",
+ "parts": [
+  {
+   "key": "e47cabaef3d3b38f",
+   "parquet": "00_Roads.parquet",
+   "layer": "Roads",
+   "source_file": "OT20130511SSD.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SS/OT20130511SSD/OT20130511SSD.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 102,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_Old",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "55": "VG",
+     "1000": "Unknown",
+     "777": "SB",
+     "66": "CJ",
+     "111": "MFB"
+    }
+   },
+   "hdx_dataset": "geodata-of-ajuong-thok-refugee-camp-pariang-county-unity-state-south-sudan-january-13-2014",
+   "also_hdx": [
+    "geodata-of-batil-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014",
+    "geodata-of-doro-refugee-camp-maban-county-upper-nile-state-south-sudan-january-15-2014",
+    "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-ajuong-thok-refugee-camp-pariang-county-unity-state-south-sudan-january-13-2014",
+  "geodata-of-batil-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014",
+  "geodata-of-doro-refugee-camp-maban-county-upper-nile-state-south-sudan-january-15-2014",
+  "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-january-13-2014"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

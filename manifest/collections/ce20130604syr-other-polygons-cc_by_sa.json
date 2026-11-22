@@ -1,0 +1,2003 @@
+{
+ "collection": "ce20130604syr-other-polygons-cc_by_sa",
+ "event": "ce20130604syr",
+ "event_code": "CE20130604SYR",
+ "hazard": "complex-emergencies",
+ "year": 2013,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20130604syr/ce20130604syr-other-polygons-cc_by_sa",
+ "parts": [
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_Neighborhoods.parquet",
+   "layer": "Neighborhoods",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 330,
+   "fields": [
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Source",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_Damascus.parquet",
+   "layer": "Damascus",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "AOI",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Aleppo.parquet",
+   "layer": "No_Analysis_Areas_Aleppo",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 27,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Idlib.parquet",
+   "layer": "No_Analysis_Areas_Idlib",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 48,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Hama.parquet",
+   "layer": "No_Analysis_Areas_Hama",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 23,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Daraa.parquet",
+   "layer": "No_Analysis_Areas_Daraa",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 79,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Deir_ez_Zor.parquet",
+   "layer": "No_Analysis_Areas_Deir_ez_Zor",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 41,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Raqqa.parquet",
+   "layer": "No_Analysis_Areas_Raqqa",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 9,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Homs.parquet",
+   "layer": "No_Analysis_Areas_Homs",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 36,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_No_Analysis_Areas_Damascus.parquet",
+   "layer": "No_Analysis_Areas_Damascus",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_Aleppo_PercentageDamage_Neighborhood.parquet",
+   "layer": "Aleppo_PercentageDamage_Neighborhood",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 127,
+   "fields": [
+    {
+     "name": "Join_Count",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TARGET_FID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Ar",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ZoneMap",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Progress",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborho",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Cnt_Neighb",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Ar_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ZoneMap_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Ar_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Progress_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighbor_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Cnt_Neig_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Percent",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "e7182c84ce9bafa8",
+   "parquet": "00_Aleppo_ResidentialPercentageDamage.parquet",
+   "layer": "Aleppo_ResidentialPercentageDamage",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 553296,
+   "fields": [
+    {
+     "name": "ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GRIDCODE",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessement-of-hama-hama-governorate-syria",
+   "also_hdx": [
+    "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-assessment-of-idlib-idlib-governorate-syria",
+    "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+    "damage-density-2014-of-hama-hama-governorate-syria",
+    "damage-density-2015-of-daraa-daraa-governorate-syria",
+    "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2015-of-idlib-idlib-governorate-syria",
+    "damage-density-2016-of-daraa-daraa-governorate-syria",
+    "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+    "damage-density-2016-of-hama-hama-governorate-syria",
+    "damage-density-2016-of-idlib-idlib-governorate-syria",
+    "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria"
+   ]
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_Neighborhoods.parquet",
+   "layer": "Neighborhoods",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 330,
+   "fields": [
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Source",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_Damascus.parquet",
+   "layer": "Damascus",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "AOI",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Aleppo.parquet",
+   "layer": "No_Analysis_Areas_Aleppo",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 27,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Idlib.parquet",
+   "layer": "No_Analysis_Areas_Idlib",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 48,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Hama.parquet",
+   "layer": "No_Analysis_Areas_Hama",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 23,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Daraa.parquet",
+   "layer": "No_Analysis_Areas_Daraa",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 79,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Deir_ez_Zor.parquet",
+   "layer": "No_Analysis_Areas_Deir_ez_Zor",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 41,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Raqqa.parquet",
+   "layer": "No_Analysis_Areas_Raqqa",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 9,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Homs.parquet",
+   "layer": "No_Analysis_Areas_Homs",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 36,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_No_Analysis_Areas_Damascus.parquet",
+   "layer": "No_Analysis_Areas_Damascus",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_Aleppo_PercentageDamage_Neighborhood.parquet",
+   "layer": "Aleppo_PercentageDamage_Neighborhood",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 127,
+   "fields": [
+    {
+     "name": "Join_Count",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TARGET_FID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Ar",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ZoneMap",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Progress",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborho",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Cnt_Neighb",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Ar_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ZoneMap_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Ar_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Progress_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighbor_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Cnt_Neig_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Percent",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "8eabfeb768079090",
+   "parquet": "00_Aleppo_ResidentialPercentageDamage.parquet",
+   "layer": "Aleppo_ResidentialPercentageDamage",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 553296,
+   "fields": [
+    {
+     "name": "ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GRIDCODE",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-density-in-the-city-of-aleppo-syria"
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_Neighborhoods.parquet",
+   "layer": "Neighborhoods",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 330,
+   "fields": [
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborhood",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Source",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_Damascus.parquet",
+   "layer": "Damascus",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "AOI",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Aleppo.parquet",
+   "layer": "No_Analysis_Areas_Aleppo",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 27,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Idlib.parquet",
+   "layer": "No_Analysis_Areas_Idlib",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 48,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Hama.parquet",
+   "layer": "No_Analysis_Areas_Hama",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 23,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Daraa.parquet",
+   "layer": "No_Analysis_Areas_Daraa",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 79,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Deir_ez_Zor.parquet",
+   "layer": "No_Analysis_Areas_Deir_ez_Zor",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 41,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Raqqa.parquet",
+   "layer": "No_Analysis_Areas_Raqqa",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 9,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Homs.parquet",
+   "layer": "No_Analysis_Areas_Homs",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 36,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_No_Analysis_Areas_Damascus.parquet",
+   "layer": "No_Analysis_Areas_Damascus",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 64,
+   "fields": [
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_Aleppo_PercentageDamage_Neighborhood.parquet",
+   "layer": "Aleppo_PercentageDamage_Neighborhood",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 127,
+   "fields": [
+    {
+     "name": "Join_Count",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TARGET_FID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Ar",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ZoneMap",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Progress",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighborho",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Cnt_Neighb",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FID_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_2",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Id_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Name_Ar_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ZoneMap_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Le_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Ar_1",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Progress_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "OBJECTID_3",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Neighbor_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Cnt_Neig_1",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Percent",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  },
+  {
+   "key": "abb1e29200941d8d",
+   "parquet": "00_Aleppo_ResidentialPercentageDamage.parquet",
+   "layer": "Aleppo_ResidentialPercentageDamage",
+   "source_file": "UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/UNOSAT_CE20130604SYR_DamageAssessment_OFDA_REACH_UPDATE4/UNOSAT_CE20130604SYR_Syria_Damage_Assessment_2016_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 553296,
+   "fields": [
+    {
+     "name": "ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GRIDCODE",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "neighborhood-shelter-damage-percentages-in-aleppo-city",
+   "also_hdx": [
+    "percentage-damage-in-residential-area-of-aleppo-city"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "atmeh-idp-settlement-shelter-density-in-dana-subdistrict-harem-district-idlib-governorate-syria-2744",
+  "damage-assessement-of-hama-hama-governorate-syria",
+  "damage-assessment-of-daraa-daraa-governorate-syria",
+  "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+  "damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-2741",
+  "damage-assessment-of-idlib-idlib-governorate-syria",
+  "damage-assessment-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+  "damage-density-2014-of-hama-hama-governorate-syria",
+  "damage-density-2015-of-daraa-daraa-governorate-syria",
+  "damage-density-2015-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+  "damage-density-2015-of-idlib-idlib-governorate-syria",
+  "damage-density-2016-of-daraa-daraa-governorate-syria",
+  "damage-density-2016-of-deir-ez-zor-deir-ez-zor-governorate-syria",
+  "damage-density-2016-of-hama-hama-governorate-syria",
+  "damage-density-2016-of-idlib-idlib-governorate-syria",
+  "damage-density-in-the-city-of-aleppo-syria",
+  "damage-density-of-ar-raqqa-ar-raqqa-governorate-syria-2742",
+  "damage-density-of-damascus-kafr-batna-and-irbin-subdistricts-damascus-governorate-syria",
+  "damage-density-of-deir-ez-zor-deir-ez-zor-governorate-syria-2740",
+  "damage-density-of-jobar-neighborhood-and-irbin-city-damascus-governorate-syria",
+  "geodata-of-2-al-azraq-refugee-camp-az-zarqa-governorate-jordan-january-17-2014",
+  "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-may-02-2014",
+  "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-03-2015",
+  "geodata-of-al-azraq-refugee-camp-az-zarqa-governorate-jordan-november-28-2014",
+  "geodata-of-al-kamoune-idp-site-near-sarmada-idlib-governorate-syria-may-13-2016",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-august-17-2016",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-december-08-2015",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-february-03-2014",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-july-21-2014",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-01-2014",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-12-2015",
+  "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-november-19-2014",
+  "geodata-of-bab-al-salame-idp-camp-azaz-district-aleppo-governorate-syria-june-12-2015",
+  "geodata-of-damage-assessment-al-quaryatayn-homs-governorate-syria-june-09-2016",
+  "geodata-of-damage-assessment-for-ancient-city-of-palmyra-syria-april-06-2016",
+  "geodata-of-damage-assessment-of-aleppo-aleppo-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-aleppo-aleppo-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-november-07-2014",
+  "geodata-of-damage-assessment-of-daraa-daraa-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-daraa-daraa-governorate-syria-november-07-2014",
+  "geodata-of-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-hama-hama-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-homs-homs-governorate-syria-november-06-2014",
+  "geodata-of-damage-assessment-of-idlib-idlib-governorate-syria-july-21-2015",
+  "geodata-of-damage-assessment-of-idlib-idlib-governorate-syria-november-07-2014",
+  "geodata-of-damage-assessment-of-kobane-aleppo-governorate-syria-february-11-2015",
+  "geodata-of-damage-assessment-of-kobane-aleppo-governorate-syria-march-06-2015",
+  "geodata-of-damage-assessment-of-tadmur-and-al-amiriyah-homs-governorate-syria-april-07-2016",
+  "geodata-of-damage-density-in-the-cities-of-homs-aleppo-hama-deir-ez-zor-ar-ra-july-21-2015",
+  "geodata-of-domiz-refugee-camp-duhok-governorate-iraq-january-10-2014",
+  "geodata-of-neighborhood-damage-assessment-kobane-aleppo-governorate-syria-march-06-2015",
+  "geodata-of-neighborhood-damage-percentages-aleppo-syria-february-18-2016",
+  "geodata-of-oncunipar-refugee-camp-merkez-district-kilis-province-turkey-june-16-2015",
+  "geodata-of-percentages-of-buildings-damaged-aleppo-syria-february-18-2016",
+  "geodata-of-percentages-of-buildings-damagedtadmur-and-al-miriyah-homs-governo-april-20-2016",
+  "geodata-of-rubkan-border-crossing-idp-settlement-homs-governorate-syria-july-31-2014",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-april-29-2016",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-july-27-2016",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-09-2016",
+  "geodata-of-shelter-density-map-at-rukban-border-crossing-jordan-syria-border-june-28-2016",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-july-14-2016",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-june-09-2016",
+  "geodata-of-shelters-at-hadalat-border-crossing-jordan-syria-border-may-09-2016",
+  "geodata-of-sujjo-idp-camp-azaz-district-aleppo-governorate-syria-june-19-2015",
+  "infrastructure-and-roads-damage-assessment-of-ar-raqqa-ar-raqqa-governorate-syria-2747",
+  "infrastructure-and-roads-damage-assessment-of-deir-ez-zor-deir-ez-zor-governorate-syria-2748",
+  "internally-displaced-persons-shelters-in-daraa-and-quneitra-governorate",
+  "internally-displaced-persons-shelters-in-idlib-lattakia-and-aleppo-governorate",
+  "neighborhood-shelter-damage-percentages-in-aleppo-city",
+  "percentage-damage-in-residential-area-of-aleppo-city",
+  "qah-idp-settlement-shelter-density-in-dana-subdistrict-harem-district-idlib-governorate-syria-2743",
+  "rapidly-assessed-damage-occurring-between-23-february-2018-and-2-march-2018-in-douma-eastern-ghouta-",
+  "rapidly-assessed-damage-occurring-between-23-february-2018-and-6-march-2018-in-eastern-ghouta-area-",
+  "rapidly-assessed-damage-occurring-december-february-eastern-ghouta-area-syria",
+  "rapidly-assessed-damage-occurring-february-march-douma-eastern-ghouta-area-syria",
+  "rapidly-assessed-damage-occurring-february-march-eastern-ghouta-area-damascus-governorate-2782",
+  "shelter-density-map-at-rukban-border-crossing",
+  "shelter-density-map-at-rukban-border-crossing-2824",
+  "shelter-density-map-at-rukban-border-crossing-jordan-syria-border",
+  "shelter-density-map-at-rukban-border-crossing-syria-jordan-border-2761",
+  "shelters-at-hadalat-border-crossing-jordan-syria-border",
+  "update-al-azraq-refugee-camp-az-zarqa-governorate-jordan",
+  "update-al-zaatari-refugee-camp-mafraq-governorate-jordan"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

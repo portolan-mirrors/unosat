@@ -1,0 +1,827 @@
+{
+ "collection": "fl20180723lao-water-extent",
+ "event": "fl20180723lao",
+ "event_code": "FL20180723LAO",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180723lao/fl20180723lao-water-extent",
+ "parts": [
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "00_KS5_20180729_FloodExtent_SanamxayDistrict.parquet",
+   "layer": "KS5_20180729_FloodExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 6239,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "01_KS5_20180730_FloodExtent_SamakkhixayDistrict.parquet",
+   "layer": "KS5_20180730_FloodExtent_SamakkhixayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 68378,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "02_RS2_20180710_WaterExtent_SanamxayDistrict.parquet",
+   "layer": "RS2_20180710_WaterExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 20073,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "04_RS2_20180724_WaterExtent_SanamxayDistrict.parquet",
+   "layer": "RS2_20180724_WaterExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 37278,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "06_ST1_20180713_WaterExtent_SanamxayDistrict.parquet",
+   "layer": "ST1_20180713_WaterExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 19168,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "07_ST1_20180725_WaterExtent_SanamxayDistrict.parquet",
+   "layer": "ST1_20180725_WaterExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 19092,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "08_ST1_20180729_WaterExtent_SanamxayDistrict.parquet",
+   "layer": "ST1_20180729_WaterExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 12716,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  },
+  {
+   "key": "6e1f46a8917184bd",
+   "parquet": "10_TX_TDX_20180727_WaterExtent_SanamxayDistrict.parquet",
+   "layer": "TX_TDX_20180727_WaterExtent_SanamxayDistrict",
+   "source_file": "FL20180723LAO_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/LA/FL20180723LAO/FL20180723LAO_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 15043,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "evolution-satellite-",
+   "also_hdx": [
+    "evolution-satellite-detected-water-extent-over-",
+    "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+    "satellite-detected-",
+    "satellite-detected-water-extent-as-",
+    "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+    "satellite-detected-water-extent-over-sanamxay-",
+    "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+    "time-series-evolution-flood-satellite-detected-",
+    "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+    "time-series-evolution-satellite-detected-water-",
+    "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "evolution-satellite-",
+  "evolution-satellite-detected-water-extent-over-",
+  "evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-",
+  "satellite-detected-",
+  "satellite-detected-water-extent-as-",
+  "satellite-detected-water-extent-as-of-27-july-2018-over-sanamxay-district-attapeu-province-lao-",
+  "satellite-detected-water-extent-as-of-30-july-2018-over-samakkhixay-district-attapeu-province-lao-",
+  "satellite-detected-water-extent-over-sanamxay-",
+  "satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-people-democratic-",
+  "time-series-evolution-flood-satellite-detected-",
+  "time-series-evolution-flood-satellite-detected-waters-13-29-july-2018-2830",
+  "time-series-evolution-satellite-detected-water-",
+  "time-series-evolution-satellite-detected-water-extent-over-sanamxay-district-attapeu-province-lao-"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 30.5 MB"
+}

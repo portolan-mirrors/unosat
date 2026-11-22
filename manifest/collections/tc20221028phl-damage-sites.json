@@ -1,0 +1,174 @@
+{
+ "collection": "tc20221028phl-damage-sites",
+ "event": "tc20221028phl",
+ "event_code": "TC20221028PHL",
+ "hazard": "tropical-cyclones",
+ "year": 2022,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2022/tc20221028phl/tc20221028phl-damage-sites",
+ "parts": [
+  {
+   "key": "c9c37418544506b3",
+   "parquet": "00_KV_20221105_PotentiallyAffectedStructure_CabuyaoCalamba.parquet",
+   "layer": "KV_20221105_PotentiallyAffectedStructure_CabuyaoCalamba",
+   "source_file": "TC20221028PHL_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3441/TC20221028PHL_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 256,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Num",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Dmg",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)",
+     "12": "Lava Flow"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    }
+   },
+   "hdx_dataset": "flood-impact-assessment-of-cabuyao-city-and-city-of-calamba-laguna-province-region-iv-a-ph"
+  }
+ ],
+ "hdx_datasets": [
+  "flood-impact-assessment-of-cabuyao-city-and-city-of-calamba-laguna-province-region-iv-a-ph",
+  "surface-water-extents-in-bangsamoro-autonomous-region-in-muslim-mindanao-and-region-xii-ph",
+  "surface-water-extents-in-bulacan-nueva-ecija-pampanga-and-tarlac-provinces-region-iii-phil",
+  "water-extent-in-capiz-province-region-vi-philippines-as-of-2-november-2022"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

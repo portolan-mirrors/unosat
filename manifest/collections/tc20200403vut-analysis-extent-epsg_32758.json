@@ -1,0 +1,106 @@
+{
+ "collection": "tc20200403vut-analysis-extent-epsg_32758",
+ "event": "tc20200403vut",
+ "event_code": "TC20200403VUT",
+ "hazard": "tropical-cyclones",
+ "year": 2020,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:32758",
+ "path": "tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_32758",
+ "parts": [
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_CloudObstruction_AOI13_Paama.parquet",
+   "layer": "CloudObstruction_AOI13_Paama",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 8,
+   "fields": [
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  },
+  {
+   "key": "4a7d8c96c69a0423",
+   "parquet": "00_CloudObstruction_AOI11_Oba.parquet",
+   "layer": "CloudObstruction_AOI11_Oba",
+   "source_file": "TC20200403VUT_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VU/TC20200403VUT/TC20200403VUT_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 23,
+   "fields": [
+    {
+     "name": "SHAPE_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+   "also_hdx": [
+    "damage-assessment-in-ambae-island-penama-province-vanuatu",
+    "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+    "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+    "damage-assessment-in-maewo-island-penama-province-vanuatu",
+    "damage-assessment-in-malampa-province-vanuatu",
+    "damage-assessment-in-malo-island-sanma-province-vanuatu",
+    "damage-assessment-in-paama-island-malampa-province-vanuatu",
+    "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "buildings-damage-assessment-related-density-in-south-of-sanma-province-vanuatu",
+  "damage-assessment-in-ambae-island-penama-province-vanuatu",
+  "damage-assessment-in-canalfanafo-luganville-and-south-east-santo-municipalities-sanma-prov",
+  "damage-assessment-in-luganville-municipality-sanma-province-vanuatu",
+  "damage-assessment-in-maewo-island-penama-province-vanuatu",
+  "damage-assessment-in-malampa-province-vanuatu",
+  "damage-assessment-in-malo-island-sanma-province-vanuatu",
+  "damage-assessment-in-paama-island-malampa-province-vanuatu",
+  "damage-assessment-in-west-santo-and-south-santo-municipality-sanma-province-vanuatu"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

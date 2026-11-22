@@ -1,0 +1,273 @@
+{
+ "collection": "tc20250722lao-other-points",
+ "event": "tc20250722lao",
+ "event_code": "TC20250722LAO",
+ "hazard": "tropical-cyclones",
+ "year": 2025,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-points",
+ "parts": [
+  {
+   "key": "718c301d2bf4ca0d",
+   "parquet": "00_PHR_20250802_DamagedBridges_KhamDistrict.parquet",
+   "layer": "PHR_20250802_DamagedBridges_KhamDistrict",
+   "source_file": "TC20250722LAO_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4166/TC20250722LAO_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Picture",
+     "type": "Binary",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "BridgeID",
+     "type": "String",
+     "domain": null,
+     "alias": "Bridge ID"
+    },
+    {
+     "name": "Nme",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ReportNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Name used for reporting"
+    },
+    {
+     "name": "BridgeTpe",
+     "type": "Integer",
+     "domain": "BridgeType",
+     "alias": "Bridge Type"
+    },
+    {
+     "name": "TotLngthM",
+     "type": "Real",
+     "domain": null,
+     "alias": "Total Length (m)"
+    },
+    {
+     "name": "WidthM",
+     "type": "Real",
+     "domain": null,
+     "alias": "Width (m)"
+    },
+    {
+     "name": "MxTLdMT",
+     "type": "Real",
+     "domain": null,
+     "alias": "Maximal Total Load (t)"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "Dmg",
+     "type": "Integer",
+     "domain": "Damage",
+     "alias": "Damage"
+    },
+    {
+     "name": "RprsTpe",
+     "type": "Integer",
+     "domain": "RepairsType",
+     "alias": "Repairs Type"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "BaseMtrl",
+     "type": "Integer",
+     "domain": "BaseMaterial",
+     "alias": "Base Material"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Material"
+    },
+    {
+     "name": "TptnFtCat",
+     "type": "Integer",
+     "domain": "TransportationUseCategory",
+     "alias": "Transportation Use Category"
+    },
+    {
+     "name": "OvHdClrcM",
+     "type": "Real",
+     "domain": null,
+     "alias": "Over Head Clearance (m)"
+    },
+    {
+     "name": "HasBypass",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Has Bypass"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "GeneralCondition",
+     "alias": "Security"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Praticability"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "BridgeTpe": {
+     "1": "Arch",
+     "2": "Beam",
+     "3": "Truss",
+     "4": "Floating",
+     "5": "Suspension",
+     "6": "Culvert",
+     "7": "Culvert - round",
+     "8": "Culvert - box",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    },
+    "Dmg": {
+     "1": "Appears intact",
+     "2": "Appears damaged",
+     "3": "Appears destroyed/collapsed",
+     "0": "Unspecified"
+    },
+    "RprsTpe": {
+     "1": "Repairable locally",
+     "2": "Requires external expertise",
+     "3": "Not repairable",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "BaseMtrl": {
+     "1": "Wood",
+     "2": "Concrete",
+     "3": "Stone",
+     "4": "Steel",
+     "5": "PVC",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "TptnFtCat": {
+     "1": "Road",
+     "2": "Rail",
+     "3": "Both road and rail",
+     "4": "Canal",
+     "5": "Pipeline",
+     "6": "Cabling",
+     "0": "Unspecified"
+    },
+    "HasBypass": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Good",
+     "2": "Marginal",
+     "3": "Poor",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "mudflow-impact-in-kham-district-xiengkhouang-province-lao-pdr-as-of-2-august-2025"
+  }
+ ],
+ "hdx_datasets": [
+  "mudflow-impact-in-kham-district-xiengkhouang-province-lao-pdr-as-of-2-august-2025",
+  "preliminary-satellite-derived-flood-impact-assessment-muang-sam-tai-xamtay-district-houaph",
+  "water-extents-in-bolikhamxai-and-khammouan-provinces-lao-pdr-as-of-28-july-2025",
+  "water-extents-in-bolikhanh-and-pakxane-districts-bolikhamxai-province-lao-pdr-as-of-23-jul",
+  "water-extents-in-pakkading-district-bolikhamxai-province-lao-pdr-as-of-23-july-2025",
+  "water-extents-in-pek-and-phaxay-districts-xiengkhouang-province-lao-pdr-as-of-23-july-2025",
+  "water-extents-in-thoulakhom-district-vientiane-province-and-xaythany-district-vientiane-ca",
+  "water-extents-in-vientiane-capital-vientiane-and-bolikhamxai-provinces-lao-pdr-as-of-27-ju"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

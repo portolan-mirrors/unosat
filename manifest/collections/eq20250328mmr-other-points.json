@@ -1,0 +1,3590 @@
+{
+ "collection": "eq20250328mmr-other-points",
+ "event": "eq20250328mmr",
+ "event_code": "EQ20250328MMR",
+ "hazard": "earthquakes",
+ "year": 2025,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-points",
+ "parts": [
+  {
+   "key": "c30b769292cfcaf1",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4098/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025"
+  },
+  {
+   "key": "c30b769292cfcaf1",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4098/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025"
+  },
+  {
+   "key": "c30b769292cfcaf1",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4098/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025"
+  },
+  {
+   "key": "c30b769292cfcaf1",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4098/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025"
+  },
+  {
+   "key": "c30b769292cfcaf1",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4098/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025"
+  },
+  {
+   "key": "4b268ae0b30b9c12",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4127/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april"
+  },
+  {
+   "key": "4b268ae0b30b9c12",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4127/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april"
+  },
+  {
+   "key": "4b268ae0b30b9c12",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4127/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april"
+  },
+  {
+   "key": "4b268ae0b30b9c12",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4127/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april"
+  },
+  {
+   "key": "4b268ae0b30b9c12",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4127/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april"
+  },
+  {
+   "key": "c3987f235377b39c",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4097/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a"
+  },
+  {
+   "key": "c3987f235377b39c",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4097/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a"
+  },
+  {
+   "key": "c3987f235377b39c",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4097/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a"
+  },
+  {
+   "key": "c3987f235377b39c",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4097/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a"
+  },
+  {
+   "key": "c3987f235377b39c",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4097/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a"
+  },
+  {
+   "key": "dee80d1fa0852f99",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4100/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma"
+  },
+  {
+   "key": "dee80d1fa0852f99",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4100/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma"
+  },
+  {
+   "key": "dee80d1fa0852f99",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4100/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma"
+  },
+  {
+   "key": "dee80d1fa0852f99",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4100/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma"
+  },
+  {
+   "key": "dee80d1fa0852f99",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4100/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma"
+  },
+  {
+   "key": "396762e5c54fa372",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4102/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30"
+  },
+  {
+   "key": "396762e5c54fa372",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4102/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30"
+  },
+  {
+   "key": "396762e5c54fa372",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4102/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30"
+  },
+  {
+   "key": "396762e5c54fa372",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4102/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30"
+  },
+  {
+   "key": "396762e5c54fa372",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4102/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30"
+  },
+  {
+   "key": "d921db6189a9832c",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4101/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025"
+  },
+  {
+   "key": "d921db6189a9832c",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4101/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025"
+  },
+  {
+   "key": "d921db6189a9832c",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4101/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025"
+  },
+  {
+   "key": "d921db6189a9832c",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4101/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025"
+  },
+  {
+   "key": "d921db6189a9832c",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4101/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025"
+  },
+  {
+   "key": "f84e362361ee6225",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4111/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025"
+  },
+  {
+   "key": "f84e362361ee6225",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4111/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025"
+  },
+  {
+   "key": "f84e362361ee6225",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4111/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025"
+  },
+  {
+   "key": "f84e362361ee6225",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4111/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025"
+  },
+  {
+   "key": "f84e362361ee6225",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4111/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025"
+  },
+  {
+   "key": "a8b64726568cb994",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4110/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025"
+  },
+  {
+   "key": "a8b64726568cb994",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4110/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025"
+  },
+  {
+   "key": "a8b64726568cb994",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4110/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025"
+  },
+  {
+   "key": "a8b64726568cb994",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4110/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025"
+  },
+  {
+   "key": "a8b64726568cb994",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4110/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025"
+  },
+  {
+   "key": "9520ae9f35906b5b",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4109/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025"
+  },
+  {
+   "key": "9520ae9f35906b5b",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4109/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025"
+  },
+  {
+   "key": "9520ae9f35906b5b",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4109/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025"
+  },
+  {
+   "key": "9520ae9f35906b5b",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4109/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025"
+  },
+  {
+   "key": "9520ae9f35906b5b",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4109/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025"
+  },
+  {
+   "key": "a7077cde495f9a2f",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4113/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025"
+  },
+  {
+   "key": "a7077cde495f9a2f",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4113/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025"
+  },
+  {
+   "key": "a7077cde495f9a2f",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4113/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025"
+  },
+  {
+   "key": "a7077cde495f9a2f",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4113/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025"
+  },
+  {
+   "key": "a7077cde495f9a2f",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4113/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025"
+  },
+  {
+   "key": "47554d6cb7318c64",
+   "parquet": "00_EMSR798_GRA_PRODUCT_builtUpP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_builtUpP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4136/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 18885,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand"
+  },
+  {
+   "key": "47554d6cb7318c64",
+   "parquet": "00_EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_ancillaryCrisisInfoP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4136/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 19,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "obj_desc",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "elem_count",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand"
+  },
+  {
+   "key": "47554d6cb7318c64",
+   "parquet": "00_EMSR798_GRA_PRODUCT_transportationP_MERGED.parquet",
+   "layer": "EMSR798_GRA_PRODUCT_transportationP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4136/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "obj_type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "info",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "simplified",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "damage_gra",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "det_method",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "notation",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "or_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "dmg_src_id",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "cd_value",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand"
+  },
+  {
+   "key": "47554d6cb7318c64",
+   "parquet": "01_ICube_SERTIT_en_ObservedEventP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_ObservedEventP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4136/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand"
+  },
+  {
+   "key": "47554d6cb7318c64",
+   "parquet": "01_ICube_SERTIT_en_UrbanP_MERGED.parquet",
+   "layer": "ICube_SERTIT_en_UrbanP_MERGED",
+   "source_file": "GDB.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4136/GDB.zip",
+   "wgs84_horizontal": true,
+   "features": 295,
+   "fields": [
+    {
+     "name": "SRC_DATE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FRAMEWORK",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "TYPE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SOURCE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "DAMAGE_SRC",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "PROCESSING",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "COPYRIGHT",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-in-mahaaungmyay-chanmyathazi-and-chanayethazan-townships-mandalay-distri",
+  "damage-assessment-in-mandalay-sagaing-districts-myanmar-as-of-03-april-2025",
+  "damage-assessment-in-monywa-township-monywa-district-sagaing-region-myanmar-as-of-25-april",
+  "damage-assessment-in-sagaing-and-mandalay-myanmar-as-of-30-march-2025",
+  "damage-assessment-in-sagaing-township-sagaing-district-sagaing-region-myanmar-as-of-30-mar",
+  "damage-assessment-in-wundwin-township-meiktila-district-mandalay-region-myanmar-as-of-01-a",
+  "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-innwa-as-of-30-ma",
+  "damage-in-the-unesco-tentative-list-site-ancient-cities-of-upper-myanmar-mandalay-as-of-30",
+  "damage-in-the-unesco-world-heritage-site-bagan-component-7-as-of-03-april-2025",
+  "m7-7-28-march-2025-sagaing-earthquake-satellite-based-comprehensive-damage-assessment-repo",
+  "satellite-detected-damage-in-the-cultural-property-mahamuni-pagoda-as-of-30-march-2025",
+  "satellite-detected-damage-in-the-cultural-property-pinya-as-of-30-march-2025",
+  "satellite-detected-damage-to-cultural-heritage-in-min-kun-as-of-03-april-2025",
+  "satellite-detected-damage-to-cultural-heritage-in-tada-u-as-of-03-april-2025",
+  "unosat-live-web-map-m-7-7-sagaing-earthquake-in-myanmar-thailand"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.7 MB"
+}

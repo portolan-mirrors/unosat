@@ -1,0 +1,113 @@
+{
+ "collection": "ce20130326mmr-analysis-extent-epsg_32646",
+ "event": "ce20130326mmr",
+ "event_code": "CE20130326MMR",
+ "hazard": "complex-emergencies",
+ "year": 2013,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:32646",
+ "path": "complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_32646",
+ "parts": [
+  {
+   "key": "63e9ca1c4fdb258b",
+   "parquet": "00_Analysis_extent_Maungdaw_20170925.parquet",
+   "layer": "Analysis_extent_Maungdaw_20170925",
+   "source_file": "Damage_Analysis_Maungdaw_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/CE20130326MMR/Damage_Analysis_Maungdaw_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "destroyed-buildings-in-maungdaw-and-buthindaung-townships-maungdaw-district-myanmar",
+   "also_hdx": [
+    "destroyed-buildings-in-maungdaw-and-buthindaung-townships-maungdaw-district-myanmar-2697"
+   ]
+  },
+  {
+   "key": "f263eefb995d8808",
+   "parquet": "01_Analysis_extent_Maungdaw_20170925.parquet",
+   "layer": "Analysis_extent_Maungdaw_20170925",
+   "source_file": "Damage_Analysis_Maungdaw_shpb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/CE20130326MMR/Damage_Analysis_Maungdaw_shpb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "destroyed-buildings-in-maungdaw-and-buthindaung-townships-maungdaw-district-myanmar-2697"
+  },
+  {
+   "key": "d267a3b64bd5f5aa",
+   "parquet": "00_Analysis_extent_Maungdaw_20170916.parquet",
+   "layer": "Analysis_extent_Maungdaw_20170916",
+   "source_file": "Damage_Analysis_Maungdaw_20170916_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/MM/CE20130326MMR/Damage_Analysis_Maungdaw_20170916_gdb.zip",
+   "wgs84_horizontal": false,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "destroyed-buildings-in-maungdaw-district-myanmar"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-in-the-chein-khar-li-ku-lar-village-rakhine-state-myanmar",
+  "destroyed-areas-in-buthidaung-maungdaw-and-rathedaung-townships-of-rakhine-state-in-myanmar-2727",
+  "destroyed-buildings-in-maungdaw-and-buthindaung-townships-maungdaw-district-myanmar",
+  "destroyed-buildings-in-maungdaw-and-buthindaung-townships-maungdaw-district-myanmar-2697",
+  "destroyed-buildings-in-maungdaw-district-myanmar",
+  "fire-detections-in-buthidaung-maungdaw-and-rathedaung-townships-of-rakhine-state-in-myanmar-2746",
+  "internally-displaced-persons-shelters-in-maungdaw-township-of-rakhine-state-in-myanmar-2731"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

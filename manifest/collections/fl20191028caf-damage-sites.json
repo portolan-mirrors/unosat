@@ -1,0 +1,198 @@
+{
+ "collection": "fl20191028caf-damage-sites",
+ "event": "fl20191028caf",
+ "event_code": "FL20191028CAF",
+ "hazard": "floods",
+ "year": 2019,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2019/fl20191028caf/fl20191028caf-damage-sites",
+ "parts": [
+  {
+   "key": "b32202ae93220f95",
+   "parquet": "00_WV02_20191102_DamageSites_Mobaye_CAF.parquet",
+   "layer": "WV02_20191102_DamageSites_Mobaye_CAF",
+   "source_file": "FL20191028CAF_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/CF/FL20191028CAF/FL20191028CAF_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 395,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2_2",
+     "alias": null
+    },
+    {
+     "name": "ConfidenceID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "FieldValidation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Settlement_Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damage_Site_Class",
+     "type": "Integer",
+     "domain": "damage_type_1",
+     "alias": null
+    },
+    {
+     "name": "Grouped_Damage_Classes",
+     "type": "Integer",
+     "domain": "Density_Level",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_2",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM"
+    },
+    "ConfidenceID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "FieldValidation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Main_Damage_Site_Class": {
+     "1": "Destroyed",
+     "2": "Severe Damage",
+     "3": "Moderate Damage",
+     "4": "Possible Damage",
+     "6": "No Visible Damage",
+     "5": "Impact Crater (Damage to Road)",
+     "7": "Impact Crater (Damage to Field)",
+     "9": "Suspected Phosphorus shell Attack Zone",
+     "11": "Possible Damage from adjacent impact, debris",
+     "10": "Road Damage from Tank Passage",
+     "8": "Destroyed (Demolition Zone)"
+    },
+    "Grouped_Damage_Classes": {
+     "1": "Damaged Buildings",
+     "2": "Damaged Greenhouses",
+     "3": "Impacts on Roads / Bridges",
+     "4": "Impacts in Fields",
+     "5": "Damaged Road segments"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "55": "MF",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "66": "CA",
+     "111": "MBF"
+    }
+   },
+   "hdx_dataset": "water-extents-as-of-5-november-2019-over-basse-kotto-prefecture-of-the-central-african-rep",
+   "also_hdx": [
+    "water-extents-as-of-5-november-2019-over-basse-kotto-prefectures-of-the-central-african-re",
+    "waters-extents-as-of-17-november-2019-over-basse-kotto-prefecture-of-central-african-repub",
+    "waters-extents-as-of-17-november-2019-over-ouaka-and-basse-kotto-central-african-republic",
+    "waters-extents-as-of-17-november-2019-over-ouaka-prefecture-of-central-african-republic",
+    "waters-extents-as-of-18-november-2019-over-basse-kotto-prefecture-car-and-nord-ubangi-prov",
+    "waters-extents-as-of-5-november-2019-over-ouaka-prefecture-of-central-african-republic"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "water-extents-as-of-5-november-2019-over-basse-kotto-prefecture-of-the-central-african-rep",
+  "water-extents-as-of-5-november-2019-over-basse-kotto-prefectures-of-the-central-african-re",
+  "waters-extents-as-of-17-november-2019-over-basse-kotto-prefecture-of-central-african-repub",
+  "waters-extents-as-of-17-november-2019-over-ouaka-and-basse-kotto-central-african-republic",
+  "waters-extents-as-of-17-november-2019-over-ouaka-prefecture-of-central-african-republic",
+  "waters-extents-as-of-18-november-2019-over-basse-kotto-prefecture-car-and-nord-ubangi-prov",
+  "waters-extents-as-of-5-november-2019-over-ouaka-prefecture-of-central-african-republic"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

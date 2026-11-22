@@ -1,0 +1,329 @@
+{
+ "collection": "eq20171112irq-other-polygons",
+ "event": "eq20171112irq",
+ "event_code": "EQ20171112IRQ",
+ "hazard": "earthquakes",
+ "year": 2017,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2017/eq20171112irq/eq20171112irq-other-polygons",
+ "parts": [
+  {
+   "key": "6134042c6c72496a",
+   "parquet": "00_PL20171116_Sapol_Zahab_AOI.parquet",
+   "layer": "PL20171116_Sapol_Zahab_AOI",
+   "source_file": "EQ20171112IRQ_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/EQ20171112IRQ/EQ20171112IRQ_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-north-of-sarpol-e-zahab-county-iran-2737",
+   "also_hdx": [
+    "damage-assessment-of-koeeke-hasan-town-and-surroundings-kermanshah-iran-2736",
+    "damaged-structures-and-related-density-map-in-sarpol-e-zahab-kermanshah-iran-2732",
+    "shelters-and-people-gathering-sites-in-sarpol-e-zahab-kermanshah-iran-2729"
+   ]
+  },
+  {
+   "key": "6134042c6c72496a",
+   "parquet": "00_PL20171116_Ghara_Belagh_Azam_AOI.parquet",
+   "layer": "PL20171116_Ghara_Belagh_Azam_AOI",
+   "source_file": "EQ20171112IRQ_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/EQ20171112IRQ/EQ20171112IRQ_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-north-of-sarpol-e-zahab-county-iran-2737",
+   "also_hdx": [
+    "damage-assessment-of-koeeke-hasan-town-and-surroundings-kermanshah-iran-2736",
+    "damaged-structures-and-related-density-map-in-sarpol-e-zahab-kermanshah-iran-2732",
+    "shelters-and-people-gathering-sites-in-sarpol-e-zahab-kermanshah-iran-2729"
+   ]
+  },
+  {
+   "key": "6134042c6c72496a",
+   "parquet": "00_PL20171116_Sapol_Zahab_North_AOI.parquet",
+   "layer": "PL20171116_Sapol_Zahab_North_AOI",
+   "source_file": "EQ20171112IRQ_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/IQ/EQ20171112IRQ/EQ20171112IRQ_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-north-of-sarpol-e-zahab-county-iran-2737",
+   "also_hdx": [
+    "damage-assessment-of-koeeke-hasan-town-and-surroundings-kermanshah-iran-2736",
+    "damaged-structures-and-related-density-map-in-sarpol-e-zahab-kermanshah-iran-2732",
+    "shelters-and-people-gathering-sites-in-sarpol-e-zahab-kermanshah-iran-2729"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "buildings-damage-assessment-related-density-north-of-sarpol-e-zahab-county-iran-2737",
+  "damage-assessment-of-koeeke-hasan-town-and-surroundings-kermanshah-iran-2736",
+  "damaged-structures-and-related-density-map-in-sarpol-e-zahab-kermanshah-iran-2732",
+  "shelters-and-people-gathering-sites-in-sarpol-e-zahab-kermanshah-iran-2729"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

@@ -1,0 +1,781 @@
+{
+ "collection": "ce20140715pse-other-polygons",
+ "event": "ce20140715pse",
+ "event_code": "CE20140715PSE",
+ "hazard": "complex-emergencies",
+ "year": 2014,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20140715pse/ce20140715pse-other-polygons",
+ "parts": [
+  {
+   "key": "ce8950521fcece00",
+   "parquet": "00_Vegetation_L8_20140707.parquet",
+   "layer": "Vegetation_L8_20140707",
+   "source_file": "CE20140715PSE.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/PS/CE20140715PSE/CE20140715PSE.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1594,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "geodata-of-2009-2014-density-comparison-of-destroyed-and-severely-damaged-str-september-19-2014",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-atatra-gaza-strip-occupied-palestinian-territ-august-04-2014",
+    "geodata-of-damage-assessment-in-jarara-area-gaza-strip-occupied-palestinian-t-august-07-2014",
+    "geodata-of-damage-assessment-in-rafah-gaza-strip-occupied-palestinian-territo-august-07-2014",
+    "geodata-of-damage-to-agricultural-areas-and-greenhouses-gaza-strip-occupied-p-september-23-2014",
+    "geodata-of-damage-to-agricultural-fields-gaza-strip-occupied-palestinian-terr-august-05-2014",
+    "geodata-of-density-of-damage-assessment-in-gaza-strip-occupied-palestinian-te-september-19-2014",
+    "geodata-of-education-facilities-damage-assessment-in-gaza-strip-occupied-pale-september-26-2014",
+    "geodata-of-gaza-damage-assessment-2014-unosat-satellite-derived-geospatial-an-october-02-2014",
+    "geodata-of-health-facilities-damage-assessment-in-gaza-strip-occupied-palesti-september-26-2014",
+    "geodata-of-satellite-based-damage-assessment-of-gaza-strip-occupied-palestini-september-18-2014"
+   ]
+  },
+  {
+   "key": "ce8950521fcece00",
+   "parquet": "00_Vegetation_L8_20140730.parquet",
+   "layer": "Vegetation_L8_20140730",
+   "source_file": "CE20140715PSE.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/PS/CE20140715PSE/CE20140715PSE.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1111,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "geodata-of-2009-2014-density-comparison-of-destroyed-and-severely-damaged-str-september-19-2014",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-atatra-gaza-strip-occupied-palestinian-territ-august-04-2014",
+    "geodata-of-damage-assessment-in-jarara-area-gaza-strip-occupied-palestinian-t-august-07-2014",
+    "geodata-of-damage-assessment-in-rafah-gaza-strip-occupied-palestinian-territo-august-07-2014",
+    "geodata-of-damage-to-agricultural-areas-and-greenhouses-gaza-strip-occupied-p-september-23-2014",
+    "geodata-of-damage-to-agricultural-fields-gaza-strip-occupied-palestinian-terr-august-05-2014",
+    "geodata-of-density-of-damage-assessment-in-gaza-strip-occupied-palestinian-te-september-19-2014",
+    "geodata-of-education-facilities-damage-assessment-in-gaza-strip-occupied-pale-september-26-2014",
+    "geodata-of-gaza-damage-assessment-2014-unosat-satellite-derived-geospatial-an-october-02-2014",
+    "geodata-of-health-facilities-damage-assessment-in-gaza-strip-occupied-palesti-september-26-2014",
+    "geodata-of-satellite-based-damage-assessment-of-gaza-strip-occupied-palestini-september-18-2014"
+   ]
+  },
+  {
+   "key": "990282ff6f6ff2ef",
+   "parquet": "00_Vegetation_L8_20140707.parquet",
+   "layer": "Vegetation_L8_20140707",
+   "source_file": "CE20140715PSE.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/PS/CE20140715PSE/CE20140715PSE.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1594,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-beit-hanun-gaza-strip-occupied-palestinian-te-july-28-2014",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-beit-lahia-gaza-strip-occupied-palestinian-te-july-30-2014",
+    "geodata-of-damage-assessment-in-central-gaza-strip-occupied-palestinian-terri-july-21-2014",
+    "geodata-of-damage-assessment-in-gaza-city-gaza-strip-occupied-palestinian-ter-july-31-2014",
+    "geodata-of-damage-assessment-in-khuzaa-and-al-qararra-gaza-strip-occupied-pal-august-08-2014",
+    "geodata-of-damage-assessment-in-northeastern-gaza-strip-occupied-palestinian-july-27-2014"
+   ]
+  },
+  {
+   "key": "990282ff6f6ff2ef",
+   "parquet": "00_Vegetation_L8_20140730.parquet",
+   "layer": "Vegetation_L8_20140730",
+   "source_file": "CE20140715PSE.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/PS/CE20140715PSE/CE20140715PSE.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1111,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Land_Classification",
+     "type": "Integer",
+     "domain": "Land_Cover",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Land_Classification": {
+     "1": "Forest (Generic)",
+     "2": "Grasslands / Shrublands (Generic)",
+     "3": "Croplands",
+     "4": "Barren Land",
+     "5": "Aquaculture",
+     "6": "Wetlands / Marshlands",
+     "7": "Riparian",
+     "8": "Urban Area",
+     "9": "Peat",
+     "10": "Tundra",
+     "11": "Mangrove",
+     "12": "Palms / Oasis",
+     "13": "Snow / Ice",
+     "14": "Water",
+     "15": "Not Mapped"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-beit-hanun-gaza-strip-occupied-palestinian-te-july-28-2014",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-beit-lahia-gaza-strip-occupied-palestinian-te-july-30-2014",
+    "geodata-of-damage-assessment-in-central-gaza-strip-occupied-palestinian-terri-july-21-2014",
+    "geodata-of-damage-assessment-in-gaza-city-gaza-strip-occupied-palestinian-ter-july-31-2014",
+    "geodata-of-damage-assessment-in-khuzaa-and-al-qararra-gaza-strip-occupied-pal-august-08-2014",
+    "geodata-of-damage-assessment-in-northeastern-gaza-strip-occupied-palestinian-july-27-2014"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-2009-2014-density-comparison-of-destroyed-and-severely-damaged-str-september-19-2014",
+  "geodata-of-damage-assessment-in-atatra-gaza-strip-occupied-palestinian-territ-august-04-2014",
+  "geodata-of-damage-assessment-in-beit-hanun-gaza-strip-occupied-palestinian-te-july-28-2014",
+  "geodata-of-damage-assessment-in-beit-lahia-gaza-strip-occupied-palestinian-te-july-30-2014",
+  "geodata-of-damage-assessment-in-central-gaza-strip-occupied-palestinian-terri-july-21-2014",
+  "geodata-of-damage-assessment-in-gaza-city-gaza-strip-occupied-palestinian-ter-july-31-2014",
+  "geodata-of-damage-assessment-in-jarara-area-gaza-strip-occupied-palestinian-t-august-07-2014",
+  "geodata-of-damage-assessment-in-khuzaa-and-al-qararra-gaza-strip-occupied-pal-august-08-2014",
+  "geodata-of-damage-assessment-in-northeastern-gaza-strip-occupied-palestinian-july-27-2014",
+  "geodata-of-damage-assessment-in-rafah-gaza-strip-occupied-palestinian-territo-august-07-2014",
+  "geodata-of-damage-to-agricultural-areas-and-greenhouses-gaza-strip-occupied-p-september-23-2014",
+  "geodata-of-damage-to-agricultural-fields-gaza-strip-occupied-palestinian-terr-august-05-2014",
+  "geodata-of-density-of-damage-assessment-in-gaza-strip-occupied-palestinian-te-september-19-2014",
+  "geodata-of-education-facilities-damage-assessment-in-gaza-strip-occupied-pale-september-26-2014",
+  "geodata-of-gaza-damage-assessment-2014-unosat-satellite-derived-geospatial-an-october-02-2014",
+  "geodata-of-health-facilities-damage-assessment-in-gaza-strip-occupied-palesti-september-26-2014",
+  "geodata-of-satellite-based-damage-assessment-of-gaza-strip-occupied-palestini-september-18-2014"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 1.7 MB"
+}

@@ -1,0 +1,375 @@
+{
+ "collection": "fl20180830vnm-water-extent",
+ "event": "fl20180830vnm",
+ "event_code": "FL20180830VNM",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "water-extent",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180830vnm/fl20180830vnm-water-extent",
+ "parts": [
+  {
+   "key": "8135480a59ef6c0a",
+   "parquet": "00_ST20180816_DongThapAnGiang_FloodWater.parquet",
+   "layer": "ST20180816_DongThapAnGiang_FloodWater",
+   "source_file": "FL20180830VNM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VN/FL20180830VNM/FL20180830VNM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 635744,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+   "also_hdx": [
+    "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+   ]
+  },
+  {
+   "key": "8135480a59ef6c0a",
+   "parquet": "01_ST20180816_LangAn_Flood_Water.parquet",
+   "layer": "ST20180816_LangAn_Flood_Water",
+   "source_file": "FL20180830VNM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VN/FL20180830VNM/FL20180830VNM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 122675,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+   "also_hdx": [
+    "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+   ]
+  },
+  {
+   "key": "8135480a59ef6c0a",
+   "parquet": "03_ST20180828_DongThapAnGiang_FloodWater.parquet",
+   "layer": "ST20180828_DongThapAnGiang_FloodWater",
+   "source_file": "FL20180830VNM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VN/FL20180830VNM/FL20180830VNM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 635744,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+   "also_hdx": [
+    "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+   ]
+  },
+  {
+   "key": "8135480a59ef6c0a",
+   "parquet": "04_ST20180828_LangAn_Flood_Water.parquet",
+   "layer": "ST20180828_LangAn_Flood_Water",
+   "source_file": "FL20180830VNM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/VN/FL20180830VNM/FL20180830VNM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 22,
+   "fields": [
+    {
+     "name": "Water_Clas",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Water_Stat",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_ol",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+   "also_hdx": [
+    "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-surface-waters-evolution-in-long-an-province-vietnam-2840",
+  "satellite-detected-surface-waters-evolution-in-southern-provinces-of-kien-giang-dong-thap-an-giang-"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

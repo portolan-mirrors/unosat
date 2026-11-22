@@ -1,0 +1,102 @@
+{
+ "collection": "eq20150425npl-other-points-epsg_4326",
+ "event": "eq20150425npl",
+ "event_code": "EQ20150425NPL",
+ "hazard": "earthquakes",
+ "year": 2015,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_4326",
+ "parts": [
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Consolidated_NGA_Damage_Zones_Center_20150507.parquet",
+   "layer": "Consolidated_NGA_Damage_Zones_Center_20150507",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 8241,
+   "fields": [
+    {
+     "name": "Damage",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Source",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  },
+  {
+   "key": "69f10c1f81ce1699",
+   "parquet": "00_Consolidated_UNOSAT_Copernicus_20150508.parquet",
+   "layer": "Consolidated_UNOSAT_Copernicus_20150508",
+   "source_file": "EQ20150425NPL_gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 6634,
+   "fields": [
+    {
+     "name": "DamageLevel",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Source",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+   "also_hdx": [
+    "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-damage-and-displaced-persons-visible-in-satellite-imagery-kathmand-april-28-2015",
+  "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+  "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+  "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.5 MB"
+}

@@ -1,0 +1,47 @@
+{
+ "collection": "fl20251128lka-landslides-points",
+ "event": "fl20251128lka",
+ "event_code": "FL20251128LKA",
+ "hazard": "floods",
+ "year": 2025,
+ "family": "landslides-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2025/fl20251128lka/fl20251128lka-landslides-points",
+ "parts": [
+  {
+   "key": "a6891c652a07ca74",
+   "parquet": "00_S2_20251126_20251130_LandslideAssessment.parquet",
+   "layer": "S2_20251126_20251130_LandslideAssessment",
+   "source_file": "FL20251128LKA_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/4223/FL20251128LKA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 63,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Type",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "unosat-live-web-map-cyclone-ditwah-and-floods-in-sri-lanka-november-2025"
+  }
+ ],
+ "hdx_datasets": [
+  "unosat-live-web-map-cyclone-ditwah-and-floods-in-sri-lanka-november-2025"
+ ],
+ "merge_note": "M values were dropped from 1 layer(s) that mix Z and ZM geometry: S2_20251126_20251130_LandslideAssessment",
+ "status": "ok"
+}

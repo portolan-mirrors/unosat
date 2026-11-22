@@ -1,0 +1,122 @@
+{
+ "collection": "eq20180805idn-shelters",
+ "event": "eq20180805idn",
+ "event_code": "EQ20180805IDN",
+ "hazard": "earthquakes",
+ "year": 2018,
+ "family": "shelters",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2018/eq20180805idn/eq20180805idn-shelters",
+ "parts": [
+  {
+   "key": "b51f57b246a99b20",
+   "parquet": "04_PL20180808_IDPSite_Tandjung.parquet",
+   "layer": "PL20180808_IDPSite_Tandjung",
+   "source_file": "EQ20180805IDN_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/ID/EQ20180805IDN/EQ20180805IDN_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 176,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatus",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_Town",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836",
+   "also_hdx": [
+    "potential-informal-gathering-sites-over-tanjung-pemenang-districts-indonesia-2838",
+    "potentially-affected-settlements-over-tanjung-and-pemenang-districts-lombok-utara-regency-nusa-",
+    "potentially-damaged-buildings-gathering-sites-over-gili-islands-lombok-utara-district-indonesia-2837"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-gumantar-and-dangiang-desa-kagayan-district-lombok-island-indonesia-2836",
+  "potential-informal-gathering-sites-over-tanjung-pemenang-districts-indonesia-2838",
+  "potentially-affected-settlements-over-tanjung-and-pemenang-districts-lombok-utara-regency-nusa-",
+  "potentially-damaged-buildings-gathering-sites-over-gili-islands-lombok-utara-district-indonesia-2837"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.1 MB"
+}

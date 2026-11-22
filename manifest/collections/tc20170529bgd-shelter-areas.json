@@ -1,0 +1,345 @@
+{
+ "collection": "tc20170529bgd-shelter-areas",
+ "event": "tc20170529bgd",
+ "event_code": "TC20170529BGD",
+ "hazard": "tropical-cyclones",
+ "year": 2017,
+ "family": "shelter-areas",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas",
+ "parts": [
+  {
+   "key": "5d24b7fc86acd53c",
+   "parquet": "00_PL_20170605_LedaRefugeeCamp_AOI.parquet",
+   "layer": "PL_20170605_LedaRefugeeCamp_AOI",
+   "source_file": "TC20170529BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/TC20170529BGD/TC20170529BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh",
+   "also_hdx": [
+    "damage-assessment-in-leda-refugee-camp-nhilla-union-bangladesh",
+    "damage-assessment-in-nayapara-refugee-camp-teknaf-union-bangladesh",
+    "satellite-detected-water-extent-in-chittagong-district-chittagong-division-bangladesh",
+    "satellite-detected-water-extent-in-cox-s-bazar-district-chittagong-division-bangladesh",
+    "satellite-detected-water-extent-in-maheshkhali-chakaria-and-cox-s-bazar-sadar-upazilas"
+   ]
+  },
+  {
+   "key": "5d24b7fc86acd53c",
+   "parquet": "00_PL_20170605_NayaparaRefugeeCamp_AOI.parquet",
+   "layer": "PL_20170605_NayaparaRefugeeCamp_AOI",
+   "source_file": "TC20170529BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/TC20170529BGD/TC20170529BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh",
+   "also_hdx": [
+    "damage-assessment-in-leda-refugee-camp-nhilla-union-bangladesh",
+    "damage-assessment-in-nayapara-refugee-camp-teknaf-union-bangladesh",
+    "satellite-detected-water-extent-in-chittagong-district-chittagong-division-bangladesh",
+    "satellite-detected-water-extent-in-cox-s-bazar-district-chittagong-division-bangladesh",
+    "satellite-detected-water-extent-in-maheshkhali-chakaria-and-cox-s-bazar-sadar-upazilas"
+   ]
+  },
+  {
+   "key": "5d24b7fc86acd53c",
+   "parquet": "00_PL_20170606_KutupalongRefugeeCamp_AOI.parquet",
+   "layer": "PL_20170606_KutupalongRefugeeCamp_AOI",
+   "source_file": "TC20170529BGD_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/BD/TC20170529BGD/TC20170529BGD_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT"
+    }
+   },
+   "hdx_dataset": "damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh",
+   "also_hdx": [
+    "damage-assessment-in-leda-refugee-camp-nhilla-union-bangladesh",
+    "damage-assessment-in-nayapara-refugee-camp-teknaf-union-bangladesh",
+    "satellite-detected-water-extent-in-chittagong-district-chittagong-division-bangladesh",
+    "satellite-detected-water-extent-in-cox-s-bazar-district-chittagong-division-bangladesh",
+    "satellite-detected-water-extent-in-maheshkhali-chakaria-and-cox-s-bazar-sadar-upazilas"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-in-kutupalong-refugee-camp-palong-khali-union-bangladesh",
+  "damage-assessment-in-leda-refugee-camp-nhilla-union-bangladesh",
+  "damage-assessment-in-nayapara-refugee-camp-teknaf-union-bangladesh",
+  "satellite-detected-water-extent-in-chittagong-district-chittagong-division-bangladesh",
+  "satellite-detected-water-extent-in-cox-s-bazar-district-chittagong-division-bangladesh",
+  "satellite-detected-water-extent-in-maheshkhali-chakaria-and-cox-s-bazar-sadar-upazilas"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

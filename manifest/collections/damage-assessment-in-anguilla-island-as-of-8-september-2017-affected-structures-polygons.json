@@ -1,0 +1,78 @@
+{
+ "collection": "damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons",
+ "event": "damage-assessment-in-anguilla-island-as-of-8-september-2017",
+ "event_code": null,
+ "hazard": "no-event-code",
+ "year": 2017,
+ "family": "affected-structures-polygons",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons",
+ "parts": [
+  {
+   "key": "8e0a09b2ebc68306",
+   "parquet": "01_PL20170908_Anguilla_BuildingDamageAssessment_AOI.parquet",
+   "layer": "PL20170908_Anguilla_BuildingDamageAssessment_AOI",
+   "source_file": "anguila_building_damage_assessment_8sept.zip",
+   "source_url": "https://data.humdata.org/dataset/4b52d9d9-3c03-4ba6-a2cc-54b0896d1c6d/resource/534e489c-f7ee-4573-b7f1-a076a254831b/download/anguila_building_damage_assessment_8sept.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "damage-assessment-in-anguilla-island-as-of-8-september-2017"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-in-anguilla-island-as-of-8-september-2017"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

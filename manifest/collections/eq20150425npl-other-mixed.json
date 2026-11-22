@@ -1,0 +1,111 @@
+{
+ "collection": "eq20150425npl-other-mixed",
+ "event": "eq20150425npl",
+ "event_code": "EQ20150425NPL",
+ "hazard": "earthquakes",
+ "year": 2015,
+ "family": "other-mixed",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed",
+ "parts": [
+  {
+   "key": "6279f213f3f766a2",
+   "parquet": "00_Damage_and_Displaced_Persons_Visible_in_Satellite_Imagery_Kathmandu_Nepal_27_April_2015.parquet",
+   "layer": "Damage and Displaced Persons Visible in Satellite Imagery. Kathmandu, Nepal - 27 April 2015",
+   "source_file": "Kathmandu_Nepal_27April2015_IDP_Damage.kmz",
+   "source_url": "https://cern.ch/unosat-maps/NP/EQ20150425NPL/Kathmandu_Nepal_27April2015_IDP_Damage.kmz",
+   "wgs84_horizontal": true,
+   "features": 5,
+   "fields": [
+    {
+     "name": "Name",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "description",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "timestamp",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "begin",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "end",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "altitudeMode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "tessellate",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "extrude",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "visibility",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "drawOrder",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "icon",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-damage-and-displaced-persons-visible-in-satellite-imagery-kathmand-april-28-2015"
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-damage-and-displaced-persons-visible-in-satellite-imagery-kathmand-april-28-2015",
+  "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+  "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+  "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+  "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+  "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

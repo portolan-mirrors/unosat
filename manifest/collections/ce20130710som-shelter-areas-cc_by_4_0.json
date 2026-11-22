@@ -1,0 +1,170 @@
+{
+ "collection": "ce20130710som-shelter-areas-cc_by_4_0",
+ "event": "ce20130710som",
+ "event_code": "CE20130710SOM",
+ "hazard": "complex-emergencies",
+ "year": 2013,
+ "family": "shelter-areas",
+ "license": {
+  "spdx": "CC-BY-4.0",
+  "title": "Creative Commons Attribution International (CC BY)",
+  "url": "http://www.opendefinition.org/licenses/cc-by"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20130710som/ce20130710som-shelter-areas-cc_by_4_0",
+ "parts": [
+  {
+   "key": "e9e52452b7a022f2",
+   "parquet": "00_Baidoa_Camp_Extent_20171230.parquet",
+   "layer": "Baidoa_Camp_Extent_20171230",
+   "source_file": "CE20130710SOM_Baidoa_20171230_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/CE20130710SOM/CE20130710SOM_Baidoa_20171230_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 359,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatus",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampType",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_Distr",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Date_Opene",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterCou",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ShelterEst",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Formaltent",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Date_Ope_1",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "idps-sites-status-in-baidoa-town"
+  }
+ ],
+ "hdx_datasets": [
+  "displaced-persons-shelters-in-dalxiska-somalia",
+  "geodata-of-6-reduction-of-somali-idp-shelter-concentrations-in-mogadishu-som-january-02-2014",
+  "geodata-of-idp-settlements-and-shelters-in-kismayo-lower-juba-somalia-april-30-2014",
+  "geodata-of-idp-settlements-and-shelters-in-kismayo-lower-juba-somalia-july-03-2014",
+  "geodata-of-idp-settlements-and-shelters-in-luuq-gedo-province-somalia-june-30-2014",
+  "geodata-of-idp-shelter-changes-in-baidoa-somalia-between-08-february-and-02-o-october-31-2014",
+  "geodata-of-idp-shelter-changes-in-baidoa-somalia-between-21-august-2013-and-0-march-18-2014",
+  "geodata-of-idp-shelter-changes-in-hargeisa-somalia-between-20-august-2012-and-december-17-2014",
+  "geodata-of-idp-shelter-changes-in-kismayo-somalia-between-11-august-2013-05-m-march-18-2014",
+  "geodata-of-idp-shelter-density-in-daynile-and-dharkenley-district-mogadishu-november-10-2014",
+  "geodata-of-idp-shelters-detected-in-galkayo-somalia-april-09-2014",
+  "geodata-of-idp-shelters-detected-north-of-galkayo-somalia-may-27-2014",
+  "geodata-of-informal-idp-shelters-in-border-town-of-doolow-somalia-october-28-2014",
+  "idps-sites-status-in-baidoa-town",
+  "internally-displaced-persons-shelters-in-baidoa-town"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.2 MB"
+}

@@ -1,0 +1,413 @@
+{
+ "collection": "tc20200408fji-other-polygons",
+ "event": "tc20200408fji",
+ "event_code": "TC20200408FJI",
+ "hazard": "tropical-cyclones",
+ "year": 2020,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2020/tc20200408fji/tc20200408fji-other-polygons",
+ "parts": [
+  {
+   "key": "7252a4ec261bfc25",
+   "parquet": "00_AOI_UNOSAT.parquet",
+   "layer": "AOI_UNOSAT",
+   "source_file": "TC20200408FJI_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20200408FJI/TC20200408FJI_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 2,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": "AgencyID",
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint"
+    },
+    "AgencyID": {
+     "1": "UNOSAT",
+     "2": "COPERNICUS",
+     "3": "NGA"
+    }
+   },
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o",
+   "also_hdx": [
+    "damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji",
+    "damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji"
+   ]
+  },
+  {
+   "key": "7252a4ec261bfc25",
+   "parquet": "00_fji_admbnda_adm0.parquet",
+   "layer": "fji_admbnda_adm0",
+   "source_file": "TC20200408FJI_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20200408FJI/TC20200408FJI_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o",
+   "also_hdx": [
+    "damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji",
+    "damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji"
+   ]
+  },
+  {
+   "key": "7252a4ec261bfc25",
+   "parquet": "00_fji_admbnda_adm1.parquet",
+   "layer": "fji_admbnda_adm1",
+   "source_file": "TC20200408FJI_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20200408FJI/TC20200408FJI_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 4,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o",
+   "also_hdx": [
+    "damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji",
+    "damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji"
+   ]
+  },
+  {
+   "key": "7252a4ec261bfc25",
+   "parquet": "00_fji_admbnda_adm2.parquet",
+   "layer": "fji_admbnda_adm2",
+   "source_file": "TC20200408FJI_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20200408FJI/TC20200408FJI_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 46,
+   "fields": [
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_EN",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validOn",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "validTo",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o",
+   "also_hdx": [
+    "damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji",
+    "damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji"
+   ]
+  },
+  {
+   "key": "7252a4ec261bfc25",
+   "parquet": "00_fji_admbnda_adm3.parquet",
+   "layer": "fji_admbnda_adm3",
+   "source_file": "TC20200408FJI_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20200408FJI/TC20200408FJI_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 86,
+   "fields": [
+    {
+     "name": "ADM3_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM3_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_PCODE",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM2_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM1_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ADM0_NAME",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o",
+   "also_hdx": [
+    "damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji",
+    "damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "buildings-damage-assessment-related-density-in-kadavu-province-eastern-division-republic-o",
+  "damage-assessment-in-kadavu-province-eastern-division-republic-of-fiji",
+  "damage-assessment-in-ono-i-lau-lau-province-eastern-division-republic-of-fiji"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

@@ -1,0 +1,134 @@
+{
+ "collection": "fl20180501som-shelters",
+ "event": "fl20180501som",
+ "event_code": "FL20180501SOM",
+ "hazard": "floods",
+ "year": 2018,
+ "family": "shelters",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "floods/2018/fl20180501som/fl20180501som-shelters",
+ "parts": [
+  {
+   "key": "22a734a7d9e46d76",
+   "parquet": "00_IDP_Sites_BeletWeyne_WV3_20180505.parquet",
+   "layer": "IDP_Sites_BeletWeyne_WV3_20180505",
+   "source_file": "FL20180501SOM_SHP.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/SO/FL20180501SOM/FL20180501SOM_SHP.zip",
+   "wgs84_horizontal": true,
+   "features": 116,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Sensor_Dat",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Field_Vali",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampStatus",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "CampName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "City_Town",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+   "also_hdx": [
+    "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+    "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+    "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+    "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+    "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+    "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+    "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+    "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+    "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "satellite-detected-water-building-damage-assessment-over-belet-weyne-town-somalia-2806",
+  "satellite-detected-water-idp-distribution-over-belet-weyne-town-2792",
+  "satellite-detected-water-over-belet-weyne-bulo-burto-districts-hiraan-region-somalia-2793",
+  "satellite-detected-water-over-belet-weyne-district-hiraan-region-somalia-2791",
+  "satellite-detected-water-over-belet-weyne-town-belet-weyne-district-2789",
+  "satellite-detected-water-over-dinsoor-baardheere-bu-aale-saakow-district-gedo-middle-juba-bay-",
+  "satellite-detected-water-over-middle-juba-and-lower-juba-region-somalia-2788",
+  "satellite-detected-water-over-saakow-and-buaale-districts-middle-juba-somalia-2787",
+  "satellite-detected-water-over-shabelle-afder-zones-ethiopia-2790",
+  "satellite-detected-water-over-shabelle-afder-zones-somali-region-ethiopia-2795"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

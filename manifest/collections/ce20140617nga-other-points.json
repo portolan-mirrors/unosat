@@ -1,0 +1,63 @@
+{
+ "collection": "ce20140617nga-other-points",
+ "event": "ce20140617nga",
+ "event_code": "CE20140617NGA",
+ "hazard": "complex-emergencies",
+ "year": 2014,
+ "family": "other-points",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20140617nga/ce20140617nga-other-points",
+ "parts": [
+  {
+   "key": "19f7804ca118e83c",
+   "parquet": "00_Final_Output.parquet",
+   "layer": "Final_Output",
+   "source_file": "CE20140617NGA.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/NG/CE20140617NGA/CE20140617NGA.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 23573,
+   "fields": [
+    {
+     "name": "ID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GRIDCODE",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ORIG_FID",
+     "type": "Integer",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Leng",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "geodata-of-minawao-refugee-settlement-far-north-province-cameroon-february-25-2016"
+  }
+ ],
+ "hdx_datasets": [
+  "displaced-persons-shelters-in-dalakaleri-nigeria",
+  "displaced-persons-shelters-in-dikwa-nigeria",
+  "geodata-of-minawao-refugee-settlement-far-north-province-cameroon-april-02-2015",
+  "geodata-of-minawao-refugee-settlement-far-north-province-cameroon-february-25-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.4 MB"
+}

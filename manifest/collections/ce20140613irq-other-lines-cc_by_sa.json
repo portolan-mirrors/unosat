@@ -1,0 +1,289 @@
+{
+ "collection": "ce20140613irq-other-lines-cc_by_sa",
+ "event": "ce20140613irq",
+ "event_code": "CE20140613IRQ",
+ "hazard": "complex-emergencies",
+ "year": 2014,
+ "family": "other-lines",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_sa",
+ "parts": [
+  {
+   "key": "8d306006ec7266a9",
+   "parquet": "00_Roads_20160628.parquet",
+   "layer": "Roads_20160628",
+   "source_file": "CE20140613IRQ_Gawilan_20160628.gdb.zip",
+   "source_url": "https://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Gawilan_20160628.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 46,
+   "fields": [
+    {
+     "name": "SourceID",
+     "type": "String",
+     "domain": null,
+     "alias": "Source ID"
+    },
+    {
+     "name": "Exs",
+     "type": "Integer",
+     "domain": "ExistenceCategory",
+     "alias": "Existence"
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "RoadID",
+     "type": "String",
+     "domain": null,
+     "alias": "Road ID"
+    },
+    {
+     "name": "ONme",
+     "type": "String",
+     "domain": null,
+     "alias": "Official Road Name"
+    },
+    {
+     "name": "RteNme",
+     "type": "String",
+     "domain": null,
+     "alias": "Route Name"
+    },
+    {
+     "name": "FClass",
+     "type": "Integer",
+     "domain": "RdFunctionalClass",
+     "alias": "Functional Class"
+    },
+    {
+     "name": "SrfTpe",
+     "type": "Integer",
+     "domain": "SurfaceType",
+     "alias": "Surface Type"
+    },
+    {
+     "name": "SrfCond",
+     "type": "Integer",
+     "domain": "SurfaceCondition",
+     "alias": "Surface Condition"
+    },
+    {
+     "name": "SrfPrep",
+     "type": "Integer",
+     "domain": "SurfacePreparation",
+     "alias": "Surface Preparation"
+    },
+    {
+     "name": "IsSeasonal",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Affected by season"
+    },
+    {
+     "name": "CurntPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Current Road Praticability"
+    },
+    {
+     "name": "GdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Good Weather Road Praticability"
+    },
+    {
+     "name": "BdWthrPrac",
+     "type": "Integer",
+     "domain": "RdPracticability",
+     "alias": "Bad Weather Road Praticability"
+    },
+    {
+     "name": "CurntSpeed",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Current Average Speed"
+    },
+    {
+     "name": "IsUndrCstr",
+     "type": "Integer",
+     "domain": "Boolean",
+     "alias": "Is under Construction / Repairs"
+    },
+    {
+     "name": "CstWrkETC",
+     "type": "DateTime",
+     "domain": null,
+     "alias": "Construction Work Est Completion Date"
+    },
+    {
+     "name": "Sec",
+     "type": "Integer",
+     "domain": "RdSecurity",
+     "alias": "Road Security Category"
+    },
+    {
+     "name": "OpStatus",
+     "type": "Integer",
+     "domain": "OperationalStatus",
+     "alias": "Operational Status"
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Shape_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Exs": {
+     "1": "Definite",
+     "2": "Doubtful",
+     "0": "Unspecified"
+    },
+    "FClass": {
+     "1": "Highway",
+     "2": "Primary",
+     "3": "Secondary",
+     "4": "Tertiary",
+     "5": "Local/ Urban",
+     "6": "Trail",
+     "7": "Private",
+     "0": "Unspecified"
+    },
+    "SrfTpe": {
+     "1": "Paved",
+     "2": "Gravel",
+     "3": "Dirt/Sand",
+     "4": "Steel",
+     "5": "Wood",
+     "6": "Grass",
+     "0": "Unspecified"
+    },
+    "SrfCond": {
+     "1": "Rough (<40kph)",
+     "2": "Smooth (>40kph)",
+     "3": "Snow/Ice",
+     "4": "Mud",
+     "0": "Unspecified"
+    },
+    "SrfPrep": {
+     "1": "Natural Compaction",
+     "2": "Traffic Compaction",
+     "3": "Engineered Compaction",
+     "4": "Uncompacted",
+     "0": "Unspecified"
+    },
+    "IsSeasonal": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "CurntPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "GdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "BdWthrPrac": {
+     "1": "Non-motorized",
+     "2": "Motorbike",
+     "3": "4WD < 3.5MT",
+     "4": "Light truck < 10MT",
+     "5": "Heavy truck < 20MT",
+     "6": "Truck + Trailer > 20MT",
+     "0": "Unspecified"
+    },
+    "IsUndrCstr": {
+     "1": "Yes",
+     "2": "No",
+     "0": "Unspecified"
+    },
+    "Sec": {
+     "1": "Category A: low risk",
+     "2": "Category B: low to medium risk",
+     "3": "Category C: medium to high risk",
+     "4": "Category D: high risk",
+     "5": "Category E: critical risk",
+     "0": "Unspecified"
+    },
+    "OpStatus": {
+     "1": "Open",
+     "2": "Restricted",
+     "3": "Closed",
+     "4": "Abandonned/Disused",
+     "0": "Unspecified"
+    }
+   },
+   "hdx_dataset": "gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq"
+  }
+ ],
+ "hdx_datasets": [
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-11-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-16-june-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-18-july-2017",
+  "damage-assessment-of-old-city-mosul-ninawa-governorate-iraq-30-june-2017",
+  "environmental-damage-in-al-qayyarah-iraq",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-13-march-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-24-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-2016-and-7-january-2017",
+  "fires-at-the-al-qayyarah-oil-field-nineveh-governorate-between-18-july-and-14-december-2016",
+  "fires-at-the-qayyarah-oil-field-nineveh-governorate-between-july-18-and-october-24-2016",
+  "gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq",
+  "geodata-of-damage-assessment-for-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-in-central-ramadi-al-anbar-province-iraq-january-15-2016",
+  "geodata-of-damage-assessment-of-al-sabbahiya-hamadan-village-sinjar-district-december-12-2015",
+  "geodata-of-damage-assessment-of-baiji-salah-ad-din-governorate-iraq-february-20-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-fallujah-al-anbar-province-iraq-july-11-2016",
+  "geodata-of-damage-assessment-of-gundy-hamy-village-sinjar-district-nineveh-pr-december-11-2015",
+  "geodata-of-damage-assessment-of-jalawla-diyala-governorate-iraq-february-06-2015",
+  "geodata-of-damage-assessment-of-kany-sark-village-sinjar-district-nineveh-pro-december-12-2015",
+  "geodata-of-damage-assessment-of-ramadi-al-anbar-province-iraq-january-22-2015",
+  "geodata-of-damage-assessment-of-ramboosi-sharqi-village-sinjar-district-ninev-december-12-2015",
+  "geodata-of-damage-assessment-of-shkaftat-gharby-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-shkaftat-sharqy-village-sinjar-district-ninev-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-02-2015",
+  "geodata-of-damage-assessment-of-sinjar-area-nineveh-province-iraq-december-11-2015",
+  "geodata-of-damage-assessment-of-sinjar-sinjar-district-nineveh-province-iraq-november-30-2015",
+  "geodata-of-damage-assessment-of-tikrit-salah-ad-din-governorate-iraq-february-24-2015",
+  "geodata-of-damage-assessment-of-zravky-village-sinjar-district-nineveh-provin-december-22-2015",
+  "geodata-of-damage-assessment-of-zumar-nineveh-governorate-iraq-february-06-2015",
+  "geodata-of-gawilan-idp-settlement-al-hamdaniya-ninawa-province-iraq-august-17-2016"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 0.0 MB"
+}

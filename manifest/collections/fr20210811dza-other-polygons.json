@@ -1,0 +1,236 @@
+{
+ "collection": "fr20210811dza-other-polygons",
+ "event": "fr20210811dza",
+ "event_code": "FR20210811DZA",
+ "hazard": "fires",
+ "year": 2021,
+ "family": "other-polygons",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "fires/fr20210811dza/fr20210811dza-other-polygons",
+ "parts": [
+  {
+   "key": "feb30bf6dbb25f16",
+   "parquet": "00_S2_20210812_AreaOfInterest_Blida_Bouria_Medea.parquet",
+   "layer": "S2_20210812_AreaOfInterest_Blida_Bouria_Medea",
+   "source_file": "FR20210811DZA_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/DZ/FR20210811DZA/FR20210811DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church"
+    }
+   },
+   "hdx_dataset": "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-09-et-le-",
+   "also_hdx": [
+    "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-10-et-le-",
+    "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-11-et-le-",
+    "zones-incendiees-le-12-aout-2021-dans-les-wilayas-de-blida-bouira-et-medea-algerie",
+    "zones-incendiees-le-15-aout-2021-dans-la-commune-d-el-amra-wilaya-d-ain-defla-algerie"
+   ]
+  },
+  {
+   "key": "feb30bf6dbb25f16",
+   "parquet": "00_S2_20210815_AreaOfInterest_AinDefla.parquet",
+   "layer": "S2_20210815_AreaOfInterest_AinDefla",
+   "source_file": "FR20210811DZA_gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/DZ/FR20210811DZA/FR20210811DZA_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": "Camp Name"
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "16": "Staduim",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church"
+    }
+   },
+   "hdx_dataset": "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-09-et-le-",
+   "also_hdx": [
+    "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-10-et-le-",
+    "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-11-et-le-",
+    "zones-incendiees-le-12-aout-2021-dans-les-wilayas-de-blida-bouira-et-medea-algerie",
+    "zones-incendiees-le-15-aout-2021-dans-la-commune-d-el-amra-wilaya-d-ain-defla-algerie"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-09-et-le-",
+  "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-10-et-le-",
+  "densite-des-foyers-d-incendies-dans-les-wilayas-de-bejaia-et-tizi-ouzou-entre-le-11-et-le-",
+  "zones-incendiees-le-12-aout-2021-dans-les-wilayas-de-blida-bouira-et-medea-algerie",
+  "zones-incendiees-le-15-aout-2021-dans-la-commune-d-el-amra-wilaya-d-ain-defla-algerie"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

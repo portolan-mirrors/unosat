@@ -1,0 +1,1074 @@
+{
+ "collection": "tc20160219fji-analysis-extent",
+ "event": "tc20160219fji",
+ "event_code": "TC20160219FJI",
+ "hazard": "tropical-cyclones",
+ "year": 2016,
+ "family": "analysis-extent",
+ "license": {
+  "spdx": "CC-BY-NC-SA-3.0",
+  "title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+ },
+ "crs": "EPSG:4326",
+ "path": "tropical-cyclones/2016/tc20160219fji/tc20160219fji-analysis-extent",
+ "parts": [
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_RS2_20160221_Savu_AnalysisExtent.parquet",
+   "layer": "RS2_20160221_Savu_AnalysisExtent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "Water_Class",
+     "type": "Integer",
+     "domain": "Water_Class_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_ID",
+     "type": "Integer",
+     "domain": "SensorID_v2_3",
+     "alias": null
+    },
+    {
+     "name": "Sensor_Date",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence_ID",
+     "type": "Integer",
+     "domain": "Confidence_ID",
+     "alias": null
+    },
+    {
+     "name": "Field_Validation",
+     "type": "Integer",
+     "domain": "Field_Validation",
+     "alias": null
+    },
+    {
+     "name": "Water_StatusID",
+     "type": "Integer",
+     "domain": "Water_StatusID",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SenorID_old",
+     "type": "Integer",
+     "domain": "Sensor_ID",
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID_4",
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Water_Class": {
+     "0": "Preflood Water",
+     "1": "Flood Water",
+     "2": "Flood-Affected Land / Possible Flood water",
+     "3": "Probable Flash Flood-Affected Land",
+     "9": "Aquaculture (Wet Rice)",
+     "6": "Possible Saturated, wet Soil/ possible Flood Water",
+     "14": "Tsunami-Affected Land",
+     "99": "Maximum Flood Water Extent (Cumulative)",
+     "4": "Satellite Detected Waters"
+    },
+    "Sensor_ID": {
+     "1": "Worldview-1",
+     "2": "Worldview-2",
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "8": "Komsat-2",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "35": "Pleadies"
+    },
+    "Confidence_ID": {
+     "1": "Very High",
+     "2": "Medium",
+     "3": "Uncertain",
+     "4": "To Be Evaluated"
+    },
+    "Field_Validation": {
+     "0": "Not yet field validated",
+     "1": "Validated (correct)",
+     "2": "Validated (not correct)",
+     "3": "Site Not Identified in Image"
+    },
+    "Water_StatusID": {
+     "1": "New Water / Water Increase",
+     "2": "No water change / Static Level",
+     "3": "No water / Water levels decreased"
+    },
+    "SenorID_old": {
+     "1": "MODIS",
+     "2": "ASAR WSM",
+     "4": "Radarsat",
+     "5": "DMC",
+     "6": "SPOT5",
+     "7": "ALOS Palsar WB1",
+     "8": "ASAR APP",
+     "3": "ASAR IMP"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "66": "RS",
+     "55": "MF",
+     "77": "LD",
+     "88": "HK"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  },
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160222_Lautoka_Analysis_Extent.parquet",
+   "layer": "PL_20160222_Lautoka_Analysis_Extent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  },
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160222_Nausori_Analysis_Extent.parquet",
+   "layer": "PL_20160222_Nausori_Analysis_Extent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  },
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160226_Vatukoula_Analysis_Extent.parquet",
+   "layer": "PL_20160226_Vatukoula_Analysis_Extent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  },
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160228_Rakiraki_Analysis_Extent.parquet",
+   "layer": "PL_20160228_Rakiraki_Analysis_Extent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  },
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160226_Sassa_Damage_Analysis_Extent.parquet",
+   "layer": "PL_20160226_Sassa_Damage_Analysis_Extent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  },
+  {
+   "key": "7df18a2bbd9e6c80",
+   "parquet": "00_PL_20160226_West_Ba_Analysis_Extent.parquet",
+   "layer": "PL_20160226_West_Ba_Analysis_Extent",
+   "source_file": "TC20160219FJI.gdb.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/FJ/TC20160219FJI/TC20160219FJI.gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 1,
+   "fields": [
+    {
+     "name": "SensorDate",
+     "type": "DateTime",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "Integer",
+     "domain": "SensorID_v2",
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_m2",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "GlobalID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "Integer",
+     "domain": "StaffID",
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Area_ha",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Length",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SHAPE_Area",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "SensorID": {
+     "3": "QuickBird-2",
+     "4": "Ikonos",
+     "5": "GeoEye-1",
+     "6": "Formosat-2",
+     "7": "SPOT-5",
+     "9": "MODIS-Aqua",
+     "10": "MODIS-Terra",
+     "11": "ASTER",
+     "12": "EO-1 ALI",
+     "13": "EO-1 Hyperion",
+     "14": "MERIS",
+     "15": "Landsat-7",
+     "16": "Landsat-5",
+     "17": "ASAR WSM",
+     "18": "ASAR IMP",
+     "19": "ASAR GM1",
+     "20": "ASAR AP",
+     "21": "Radarsat-1",
+     "22": "Radarsat-2",
+     "23": "TerraSAR-X",
+     "24": "CosmoSkyMED",
+     "33": "Alos AVNIR",
+     "25": "SPOT4",
+     "26": "ALOS PALSAR",
+     "999": "Combination of Sensors",
+     "30": "UAV (Swinglet-Cam)",
+     "36": "DMC",
+     "37": "RISAT-1",
+     "38": "RISAT-2",
+     "27": "ASAR IMM",
+     "35": "Pleiades",
+     "39": "RESOURCESAT-1",
+     "40": "Landsat-8",
+     "41": "SPOT 6",
+     "43": "Komsat-2",
+     "1": "WorldView-1",
+     "2": "WorldView-2",
+     "8": "WorldView-3",
+     "42": "Sentinel-1"
+    },
+    "StaffID": {
+     "11": "EB",
+     "22": "WP",
+     "33": "LB",
+     "44": "JL",
+     "77": "LD",
+     "88": "HK",
+     "99": "ER",
+     "100": "KM",
+     "111": "MBF",
+     "1000": "Unknown",
+     "55": "VG",
+     "222": "CS",
+     "66": "CJ",
+     "121": "CN",
+     "131": "SB",
+     "73": "RS",
+     "141": "KJP",
+     "151": "MNY"
+    }
+   },
+   "hdx_dataset": "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+   "also_hdx": [
+    "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+    "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+    "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+    "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+    "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+    "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "geodata-of-damage-assessment-in-greater-lautoka-area-ba-province-western-divi-february-25-2016",
+  "geodata-of-damage-assessment-in-sasa-area-ba-province-western-division-fiji-march-03-2016",
+  "geodata-of-damage-assessment-in-vatukoula-area-ba-province-western-division-f-march-02-2016",
+  "geodata-of-damage-assessment-over-north-and-west-of-ba-town-ba-province-weste-march-03-2016",
+  "geodata-of-population-exposure-analysis-tropical-cyclone-winston-19-february-march-09-2016",
+  "geodata-of-population-exposure-analysis-tropical-cyclone-winston-22-february-march-09-2016",
+  "geodata-of-satellite-detected-waters-in-savu-area-naitasiri-province-central-february-22-2016",
+  "geodata-of-unosat-damage-assessment-activities-in-viti-levu-island-fiji-march-10-2016"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}

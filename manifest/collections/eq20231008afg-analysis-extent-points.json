@@ -1,0 +1,472 @@
+{
+ "collection": "eq20231008afg-analysis-extent-points",
+ "event": "eq20231008afg",
+ "event_code": "EQ20231008AFG",
+ "hazard": "earthquakes",
+ "year": 2023,
+ "family": "analysis-extent-points",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent-points",
+ "parts": [
+  {
+   "key": "316c3ecc1aa63b09",
+   "parquet": "00_MS_BuildingFootprint_HeratProvince.parquet",
+   "layer": "MS_BuildingFootprint_HeratProvince",
+   "source_file": "EQ20231008AFG_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3756/EQ20231008AFG_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 452237,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lat",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lon",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "7-october-2023-m6-3-western-afghanistan-herat-preliminary-satellite-based-comprehensive-da"
+  },
+  {
+   "key": "39e0034b5b9d1a2b",
+   "parquet": "00_MS_BuildingFootprint_HeratProvince.parquet",
+   "layer": "MS_BuildingFootprint_HeratProvince",
+   "source_file": "EQ20231008AFG_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3694/EQ20231008AFG_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 452237,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lat",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lon",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "building-damage-assessment-in-koshkak-village-zindajan-district-hirat-province-afghanistan"
+  },
+  {
+   "key": "38edcb9f00d8c1de",
+   "parquet": "00_MS_BuildingFootprint_HeratProvince.parquet",
+   "layer": "MS_BuildingFootprint_HeratProvince",
+   "source_file": "EQ20231008AFG_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3686/EQ20231008AFG_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 452237,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lat",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lon",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "damage-analysis-by-settlement-and-surface-displacement-of-the-7th-october-2023-hirat-earth"
+  },
+  {
+   "key": "7bae5c65e13979f0",
+   "parquet": "00_MS_BuildingFootprint_HeratProvince.parquet",
+   "layer": "MS_BuildingFootprint_HeratProvince",
+   "source_file": "EQ20231008AFG_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3688/EQ20231008AFG_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 452237,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lat",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lon",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "damage-analysis-by-settlement-of-the-11th-october-2023-hirat-earthquake"
+  },
+  {
+   "key": "db865ed5cd3e0e7f",
+   "parquet": "00_MS_BuildingFootprint_HeratProvince.parquet",
+   "layer": "MS_BuildingFootprint_HeratProvince",
+   "source_file": "EQ20231008AFG_gdb.zip",
+   "source_url": "https://unosat.org/static/unosat_filesystem/3692/EQ20231008AFG_gdb.zip",
+   "wgs84_horizontal": true,
+   "features": 452237,
+   "fields": [
+    {
+     "name": "Site_ID",
+     "type": "Integer",
+     "domain": "Site_ID",
+     "alias": "Site type"
+    },
+    {
+     "name": "AgencyID",
+     "type": "Integer",
+     "domain": null,
+     "alias": "Agency Name"
+    },
+    {
+     "name": "SiteName",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lat",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Lon",
+     "type": "Real",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {
+    "Site_ID": {
+     "0": "UN Building",
+     "1": "Mosque",
+     "2": "Hospital",
+     "4": "Market",
+     "6": "Square",
+     "7": "Government Building",
+     "9": "Border Crossing Point",
+     "13": "Ruins",
+     "12": "Cemetary",
+     "5": "School / University",
+     "21": "Greenhouse",
+     "22": "Bridge",
+     "23": "Road",
+     "24": "Tower",
+     "25": "Prison",
+     "27": "Field",
+     "28": "Industrial Facility",
+     "19": "Sewage Treatment Facility",
+     "26": "Building (General / Default)",
+     "3": "Refugee / IDP Camp Building",
+     "30": "Refugee / IDP Camp Site",
+     "45": "Suspected Mass Grave Site",
+     "35": "Transport Vehicle",
+     "40": "Military Base",
+     "41": "Checkpoint",
+     "42": "Military Facility",
+     "46": "Airport Facility",
+     "47": "Church",
+     "16": "Stadium",
+     "48": "Dam",
+     "49": "Port"
+    }
+   },
+   "hdx_dataset": "preliminary-satellite-derived-damage-assessment-6-3m-earthquake-of-15-october-2023-03-36-u"
+  }
+ ],
+ "hdx_datasets": [
+  "7-october-2023-m6-3-western-afghanistan-herat-preliminary-satellite-based-comprehensive-da",
+  "building-damage-assessment-in-koshkak-village-zindajan-district-hirat-province-afghanistan",
+  "damage-analysis-by-settlement-and-surface-displacement-of-the-7th-october-2023-hirat-earth",
+  "damage-analysis-by-settlement-of-the-11th-october-2023-hirat-earthquake",
+  "preliminary-satellite-derived-damage-assessment-6-3m-earthquake-of-15-october-2023-03-36-u"
+ ],
+ "merge_note": null,
+ "status": "ok",
+ "tiles": "ok 9.8 MB"
+}

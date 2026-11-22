@@ -1,0 +1,199 @@
+{
+ "collection": "vo20180605gtm-damage-sites",
+ "event": "vo20180605gtm",
+ "event_code": "VO20180605GTM",
+ "hazard": "volcanoes",
+ "year": 2018,
+ "family": "damage-sites",
+ "license": {
+  "spdx": "CC-BY-SA",
+  "title": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+ },
+ "crs": "EPSG:4326",
+ "path": "volcanoes/vo20180605gtm/vo20180605gtm-damage-sites",
+ "parts": [
+  {
+   "key": "b74427ed11c3cc24",
+   "parquet": "00_ST20180604_Damage_Structures.parquet",
+   "layer": "ST20180604_Damage_Structures",
+   "source_file": "VO20180605GTM_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/GT/VO20180605GTM/VO20180605GTM_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 411,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "estimacion-del-numero-de-viviendas-y-estructuras-danadas-en-la-aldea-de-san-miguel-de-los-lotes-y-",
+   "also_hdx": [
+    "volcano-de-fuego-estimation-of-damaged-buildings-in-san-miguel-de-los-lotes-and-surrouding-area-"
+   ]
+  },
+  {
+   "key": "b74427ed11c3cc24",
+   "parquet": "01_WV20180606_Damage_Structures.parquet",
+   "layer": "WV20180606_Damage_Structures",
+   "source_file": "VO20180605GTM_shp.zip",
+   "source_url": "https://unosat-maps.web.cern.ch/unosat-maps/GT/VO20180605GTM/VO20180605GTM_shp.zip",
+   "wgs84_horizontal": true,
+   "features": 490,
+   "fields": [
+    {
+     "name": "SiteID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorDate",
+     "type": "Date",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "SensorID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Confidence",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "FieldValid",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Settlement",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Notes",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Main_Damag",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "Grouped_Da",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "StaffID",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "EventCode",
+     "type": "String",
+     "domain": null,
+     "alias": null
+    },
+    {
+     "name": "ImageID_Nu",
+     "type": "Integer64",
+     "domain": null,
+     "alias": null
+    }
+   ],
+   "domains": {},
+   "hdx_dataset": "estimacion-del-numero-de-viviendas-y-estructuras-danadas-en-la-aldea-de-san-miguel-de-los-lotes-y-",
+   "also_hdx": [
+    "volcano-de-fuego-estimation-of-damaged-buildings-in-san-miguel-de-los-lotes-and-surrouding-area-"
+   ]
+  }
+ ],
+ "hdx_datasets": [
+  "estimacion-del-numero-de-viviendas-y-estructuras-danadas-en-la-aldea-de-san-miguel-de-los-lotes-y-",
+  "volcano-de-fuego-estimation-of-damaged-buildings-in-san-miguel-de-los-lotes-and-surrouding-area-"
+ ],
+ "merge_note": null,
+ "status": "ok"
+}
