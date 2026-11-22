@@ -1,5 +1,5 @@
 # Water extent: Flood, Lao People's Democratic Republic, 23 July 2018 (FL20180723LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180723lao/fl20180723lao-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180723lao/fl20180723lao-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Lao People's Democratic Republic, 23 July 2018 (FL20180723LAO): 197,987 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180723lao-water-extent.parquet | 82.7 MB | 122045c7dfbb... |
 | ./fl20180723lao-water-extent.pmtiles | 29.0 MB | 1220215ab7ab... |
 | ./styles/default.json | 879 B | 1220b62c3753... |
+| ./fl20180723lao-water-extent.thumb.jpg | 33.9 KB | 1220da08f823... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Damage areas: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20240326idn/eq20240326idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20240326idn/eq20240326idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN): 3 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20240326idn-damage-areas.parquet | 221.8 KB | 1220babe37e9... |
 | ./eq20240326idn-damage-areas.pmtiles | 74.5 KB | 12207aa86702... |
 | ./styles/default.json | 915 B | 12201b329afd... |
+| ./eq20240326idn-damage-areas.thumb.jpg | 2.3 KB | 1220659994f8... |
 
 ## Quick Start
 

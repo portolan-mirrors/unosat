@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ): 639 features merged from 9 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230221moz-damage-sites.parquet | 12.4 KB | 12208dd7f696... |
 | ./tc20230221moz-damage-sites.pmtiles | 35.1 KB | 1220d9c3236d... |
 | ./styles/default.json | 997 B | 12202dd357db... |
+| ./tc20230221moz-damage-sites.thumb.jpg | 6.1 KB | 122025e2727d... |
 
 ## Quick Start
 

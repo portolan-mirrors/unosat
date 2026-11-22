@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Sierra Leone, 15 August 2017 (FL20170815SLE): 3 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170815sle-analysis-extent.parquet | 38.9 KB | 1220cc4377af... |
 | ./fl20170815sle-analysis-extent.pmtiles | 42.6 KB | 1220be565e58... |
 | ./styles/default.json | 671 B | 12207249e0c7... |
+| ./fl20170815sle-analysis-extent.thumb.jpg | 12.1 KB | 12202b6aade0... |
 
 ## Quick Start
 

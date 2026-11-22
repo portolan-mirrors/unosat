@@ -1,5 +1,5 @@
 # Flood, Somalia, 15 October 2015 (FL20151015SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151015som/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151015som/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT geodata for Flood, Somalia, 15 October 2015 (FL20151015SOM), from 4 datasets on the Humanitarian Data Exchange. HDX describes the event:
 

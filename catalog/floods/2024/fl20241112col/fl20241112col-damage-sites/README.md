@@ -1,5 +1,5 @@
 # Damage sites: Flood, Colombia, 12 November 2024 (FL20241112COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241112col/fl20241112col-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241112col/fl20241112col-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Colombia, 12 November 2024 (FL20241112COL): 13,279 features merged from 7 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20241112col-damage-sites.parquet | 181.0 KB | 12204255b5b0... |
 | ./fl20241112col-damage-sites.pmtiles | 209.8 KB | 1220a255cecd... |
 | ./styles/default.json | 1.1 KB | 12209cf58631... |
+| ./fl20241112col-damage-sites.thumb.jpg | 4.8 KB | 122010c2e893... |
 
 ## Quick Start
 

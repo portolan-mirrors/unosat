@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928lao/tc20220928lao-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928lao/tc20220928lao-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO): 8 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220928lao-water-extent.parquet | 660.1 KB | 1220f639e846... |
 | ./tc20220928lao-water-extent.pmtiles | 552.6 KB | 12208fd358ce... |
 | ./styles/default.json | 887 B | 12208805c3b5... |
+| ./tc20220928lao-water-extent.thumb.jpg | 6.8 KB | 122098d12931... |
 
 ## Quick Start
 

@@ -249,7 +249,9 @@
       "file:checksum": "122011f6f85b03442ecc7fe7c19936384048a18bf3f56b68b160d70d3a77d55c0466",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR), one GeoParquet file with the source columns."
     },
     "eq20250328mmr-other-points-tiles": {
       "href": "./eq20250328mmr-other-points.pmtiles",
@@ -258,7 +260,9 @@
       "file:checksum": "12207b3392cb04150c9f4b93a9a485a0284b54ed20765d7bd379aa24080d2347889d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -269,7 +273,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220ec52c6b926dfbaa753fabd9eb62b6d4c6b1904d5733ca76c5dd9ef09517caecc"
+      "file:checksum": "1220ec52c6b926dfbaa753fabd9eb62b6d4c6b1904d5733ca76c5dd9ef09517caecc",
+      "description": "MapLibre style for Other points: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250328mmr-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5934,
+      "file:checksum": "122033183390be1e6b40badfddb59b82896940d2d2465bbca25e23d8609540255889",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)."
     }
   }
 }

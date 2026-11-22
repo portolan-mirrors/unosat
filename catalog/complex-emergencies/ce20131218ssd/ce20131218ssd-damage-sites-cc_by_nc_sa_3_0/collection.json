@@ -286,7 +286,9 @@
       "file:checksum": "1220c42faf08c9515cd684a9d649e7fcd91961a6fb8ec7a3bb2b889700571d249aae",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD), one GeoParquet file with the source columns."
     },
     "ce20131218ssd-damage-sites-cc_by_nc_sa_3_0-tiles": {
       "href": "./ce20131218ssd-damage-sites-cc_by_nc_sa_3_0.pmtiles",
@@ -295,7 +297,9 @@
       "file:checksum": "12204545beaabf0132c1d34920b5130cfcc02e0a5b304ef9b80cf978d61f7459eba6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -306,7 +310,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 966,
-      "file:checksum": "12200af4e15716b23d45e0dc523df340369240ccd68593c2a40fb7674cb84fbb9cb7"
+      "file:checksum": "12200af4e15716b23d45e0dc523df340369240ccd68593c2a40fb7674cb84fbb9cb7",
+      "description": "MapLibre style for Damage sites: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131218ssd-damage-sites-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4580,
+      "file:checksum": "1220a53a1f305baab41825ae5dfee77743a8e3e65a435fdd4c210dcc9fd7da297e33",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)."
     }
   }
 }

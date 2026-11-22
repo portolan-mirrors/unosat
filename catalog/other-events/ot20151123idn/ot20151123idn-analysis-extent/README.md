@@ -1,5 +1,5 @@
 # Analysis extent: Event, Indonesia, 23 November 2015 (OT20151123IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20151123idn/ot20151123idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20151123idn/ot20151123idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Event, Indonesia, 23 November 2015 (OT20151123IDN): 4,373 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ot20151123idn-analysis-extent.parquet | 1.6 MB | 122031a9847f... |
 | ./ot20151123idn-analysis-extent.pmtiles | 2.8 MB | 12206bbede9c... |
 | ./styles/default.json | 671 B | 1220fae52aa4... |
+| ./ot20151123idn-analysis-extent.thumb.jpg | 14.6 KB | 122044a6dcbd... |
 
 ## Quick Start
 

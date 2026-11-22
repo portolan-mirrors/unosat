@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Nepal, 30 June 2021 (FL20210630NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210630npl/fl20210630npl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210630npl/fl20210630npl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Nepal, 30 June 2021 (FL20210630NPL): 8 features merged from 8 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210630npl-analysis-extent.parquet | 312.0 KB | 122053c46b53... |
 | ./fl20210630npl-analysis-extent.pmtiles | 753.8 KB | 12204850e746... |
 | ./styles/default.json | 671 B | 1220eed13089... |
+| ./fl20210630npl-analysis-extent.thumb.jpg | 6.3 KB | 12209fc84af8... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -43,6 +43,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20180209ton-other-polygons.parquet | 4.0 KB | 12203e94b86a... |
 | ./tc20180209ton-other-polygons.pmtiles | 23.6 KB | 122008813505... |
 | ./styles/default.json | 664 B | 122061156a1c... |
+| ./tc20180209ton-other-polygons.thumb.jpg | 5.1 KB | 1220eb4d36f7... |
 
 ## Quick Start
 

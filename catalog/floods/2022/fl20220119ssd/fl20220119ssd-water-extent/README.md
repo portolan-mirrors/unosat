@@ -1,5 +1,5 @@
 # Water extent: Flood, South Sudan, 19 January 2022 (FL20220119SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119ssd/fl20220119ssd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119ssd/fl20220119ssd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, South Sudan, 19 January 2022 (FL20220119SSD): 5 features merged from 5 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220119ssd-water-extent.parquet | 1.1 MB | 1220462e9053... |
 | ./fl20220119ssd-water-extent.pmtiles | 11.2 MB | 1220a3defb58... |
 | ./styles/default.json | 960 B | 1220e000c9f9... |
+| ./fl20220119ssd-water-extent.thumb.jpg | 28.0 KB | 1220170c0d40... |
 
 ## Quick Start
 

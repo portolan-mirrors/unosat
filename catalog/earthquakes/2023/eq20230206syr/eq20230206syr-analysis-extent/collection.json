@@ -252,7 +252,9 @@
       "file:checksum": "122077c639b2dff1cd626e0486bc2c96a79b0acd20f0b395565166b5dd117d23add3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR), one GeoParquet file with the source columns."
     },
     "eq20230206syr-analysis-extent-tiles": {
       "href": "./eq20230206syr-analysis-extent.pmtiles",
@@ -261,7 +263,9 @@
       "file:checksum": "1220a9eba87a19fc2d462283ad85866352efdcd4780e80202c046fab549bfacd6e48",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -272,7 +276,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122072804dc04b1ab485ddfe4bdad51d4dd41f8bf3427be7e6de035b6f3d5fd41851"
+      "file:checksum": "122072804dc04b1ab485ddfe4bdad51d4dd41f8bf3427be7e6de035b6f3d5fd41851",
+      "description": "MapLibre style for Analysis extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230206syr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8877,
+      "file:checksum": "1220ef50d27e9b524de934243c820563537ad127b70b53f196ccb6a03ea27d6625fe",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)."
     }
   }
 }

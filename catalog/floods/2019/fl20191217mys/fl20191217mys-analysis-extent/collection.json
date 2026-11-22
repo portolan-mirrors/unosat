@@ -229,7 +229,9 @@
       "file:checksum": "1220308c6e901f56c71070f3d6e150493e51b2826b5c3b0843a806f7e2a4eea39f37",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Malaysia, 17 December 2019 (FL20191217MYS), one GeoParquet file with the source columns."
     },
     "fl20191217mys-analysis-extent-tiles": {
       "href": "./fl20191217mys-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122058e279751ff01dcf96cc37a77df405d27d7b5dc726fb437e2447fa9af617cc11",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Malaysia, 17 December 2019 (FL20191217MYS) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122062cf13b1fc3cd2e7e9feddeef58bf398a4c4979fef34522853d2134f688fca1c"
+      "file:checksum": "122062cf13b1fc3cd2e7e9feddeef58bf398a4c4979fef34522853d2134f688fca1c",
+      "description": "MapLibre style for Analysis extent: Flood, Malaysia, 17 December 2019 (FL20191217MYS); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191217mys-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8300,
+      "file:checksum": "12202ac9f8d64c7337980582baba510aae9c80420dbc8086cea35ca65d20bf3700f8",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Malaysia, 17 December 2019 (FL20191217MYS)."
     }
   }
 }

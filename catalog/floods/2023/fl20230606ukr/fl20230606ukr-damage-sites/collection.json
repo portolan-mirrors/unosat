@@ -262,7 +262,9 @@
       "file:checksum": "1220381ca53673007f1e00da78ef80d44df1323870a0433a28fd69f5dff68d47442b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Ukraine, 6 June 2023 (FL20230606UKR), one GeoParquet file with the source columns."
     },
     "fl20230606ukr-damage-sites-tiles": {
       "href": "./fl20230606ukr-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220bf3ee41559a616f324a58300ae72e3b06b8d3782b23671f3b65906fa4c48c896",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Ukraine, 6 June 2023 (FL20230606UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "12209dfb75732d61d10f099e18d589439f0312be57926182d3a5bc59ce889d30edc1"
+      "file:checksum": "12209dfb75732d61d10f099e18d589439f0312be57926182d3a5bc59ce889d30edc1",
+      "description": "MapLibre style for Damage sites: Flood, Ukraine, 6 June 2023 (FL20230606UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230606ukr-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7529,
+      "file:checksum": "1220aad4a5355c71f982e419d1ec6f03f70ef7304a59568b796d67d93d5375ca12d9",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Ukraine, 6 June 2023 (FL20230606UKR)."
     }
   }
 }

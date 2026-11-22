@@ -282,7 +282,9 @@
       "file:checksum": "1220e1ebb026843372d22e4cc6041718ffcae2ca383be54b732d15b2008604a75e5b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA), one GeoParquet file with the source columns."
     },
     "ls20231208tza-damage-areas-tiles": {
       "href": "./ls20231208tza-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220df46d522274316ca6ff3618273b155681d3743c9264004868ad3ba1ec67a2a95",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "1220e543369e25784dcd3f2a944a3721b45c675b98919aa02cb4794c0413addf9cd7"
+      "file:checksum": "1220e543369e25784dcd3f2a944a3721b45c675b98919aa02cb4794c0413addf9cd7",
+      "description": "MapLibre style for Damage areas: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20231208tza-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9215,
+      "file:checksum": "1220dd5cd0af0ef2b73e809a17be2443c52d81db75f012827e97a649c97bc70a9c5a",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA)."
     }
   }
 }

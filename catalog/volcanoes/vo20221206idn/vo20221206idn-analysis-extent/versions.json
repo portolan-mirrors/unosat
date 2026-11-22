@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "vo20221206idn-analysis-extent.parquet",
         "vo20221206idn-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:51:44.411915Z",
+      "breaking": false,
+      "assets": {
+        "vo20221206idn-analysis-extent.parquet": {
+          "sha256": "306efdd99320088fd6d6c99480a4aa1c19d6ba6f56108d8c06344f34c510a70e",
+          "size_bytes": 628569,
+          "href": "volcanoes/vo20221206idn/vo20221206idn-analysis-extent/vo20221206idn-analysis-extent.parquet",
+          "source_path": "vo20221206idn-analysis-extent.parquet",
+          "source_mtime": 1795333548.9607356,
+          "mtime": 1795333548.9607356,
+          "feature_count": 8,
+          "schema_fingerprint": "bbb2bc56c76c8b7f"
+        },
+        "vo20221206idn-analysis-extent.pmtiles": {
+          "sha256": "db4b23ba8c270b3e7f4c6e4a605a6206c82bff339986d5d67311c2d0ea4ffd3f",
+          "size_bytes": 144415,
+          "href": "volcanoes/vo20221206idn/vo20221206idn-analysis-extent/vo20221206idn-analysis-extent.pmtiles",
+          "mtime": 1795334331.568394
+        },
+        "vo20221206idn-analysis-extent.thumb.jpg": {
+          "sha256": "ab7c603efe2c7db4c845bd60a93711b01ca532beceff460c0eda81a48bf8e569",
+          "size_bytes": 40237,
+          "href": "volcanoes/vo20221206idn/vo20221206idn-analysis-extent/vo20221206idn-analysis-extent.thumb.jpg",
+          "mtime": 1795366304.4067938
+        }
+      },
+      "changes": [
+        "vo20221206idn-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: vo20221206idn-analysis-extent.thumb.jpg"
     }
   ]
 }

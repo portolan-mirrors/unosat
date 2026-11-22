@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240328mdg/tc20240328mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240328mdg/tc20240328mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20240328mdg-analysis-extent.parquet | 4.9 KB | 12201c7c0095... |
 | ./tc20240328mdg-analysis-extent.pmtiles | 51.9 KB | 1220ceba76a0... |
 | ./styles/default.json | 671 B | 122039cc338c... |
+| ./tc20240328mdg-analysis-extent.thumb.jpg | 7.8 KB | 12201da25080... |
 
 ## Quick Start
 

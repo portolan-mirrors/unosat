@@ -262,7 +262,9 @@
       "file:checksum": "1220b3fe2bee34103ededeb084f824639b78057583fcc93775624bd5ce1b076eb844",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Rwanda, 4 May 2023 (FL20230504RWA), one GeoParquet file with the source columns."
     },
     "fl20230504rwa-damage-sites-tiles": {
       "href": "./fl20230504rwa-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12206260d4a2fbbe3c71a1f320e95cf6f08ce251f389350d6e08f8582a82c5ee7ca2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Rwanda, 4 May 2023 (FL20230504RWA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1048,
-      "file:checksum": "122034ef2c03d43ef33d94e6dafc34b167eabe4f230b2085f22a823f74125726df41"
+      "file:checksum": "122034ef2c03d43ef33d94e6dafc34b167eabe4f230b2085f22a823f74125726df41",
+      "description": "MapLibre style for Damage sites: Flood, Rwanda, 4 May 2023 (FL20230504RWA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230504rwa-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3133,
+      "file:checksum": "1220ab361433db2845dd56a4eb85b0696d6277b52d5219ffff966602deb060b3a734",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Rwanda, 4 May 2023 (FL20230504RWA)."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20180209ton-damage-areas.parquet",
         "tc20180209ton-damage-areas.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:15.574042Z",
+      "breaking": false,
+      "assets": {
+        "tc20180209ton-damage-areas.parquet": {
+          "sha256": "c684d2f0a30f1289a4bc2efa09e3cb549f1e8a92dfbaec2850c62154f69bb83c",
+          "size_bytes": 6746,
+          "href": "tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/tc20180209ton-damage-areas.parquet",
+          "source_path": "tc20180209ton-damage-areas.parquet",
+          "source_mtime": 1795333491.2884867,
+          "mtime": 1795333491.2884867,
+          "feature_count": 7,
+          "schema_fingerprint": "a2591027bfc54e2f"
+        },
+        "tc20180209ton-damage-areas.pmtiles": {
+          "sha256": "365d74ab5799de95a2eb90816d0d9b734f570e8e8c3679ac39cb0dde98ead5f2",
+          "size_bytes": 127367,
+          "href": "tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/tc20180209ton-damage-areas.pmtiles",
+          "mtime": 1795334263.4022837
+        },
+        "tc20180209ton-damage-areas.thumb.jpg": {
+          "sha256": "a7934670fac71ec256067256a01ed9379f9073144cded7aa55c61a7edf12472a",
+          "size_bytes": 9021,
+          "href": "tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/tc20180209ton-damage-areas.thumb.jpg",
+          "mtime": 1795365855.569403
+        }
+      },
+      "changes": [
+        "tc20180209ton-damage-areas.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20180209ton-damage-areas.thumb.jpg"
     }
   ]
 }

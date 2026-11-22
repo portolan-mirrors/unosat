@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB): 18 features merged from 18 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20231206slb-analysis-extent.parquet | 110.2 KB | 122081a216ac... |
 | ./tc20231206slb-analysis-extent.pmtiles | 52.9 KB | 12200209c1db... |
 | ./styles/default.json | 671 B | 1220138369dd... |
+| ./tc20231206slb-analysis-extent.thumb.jpg | 5.5 KB | 122061df5623... |
 
 ## Quick Start
 

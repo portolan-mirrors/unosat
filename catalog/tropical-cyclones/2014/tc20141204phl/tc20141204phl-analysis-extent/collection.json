@@ -229,7 +229,9 @@
       "file:checksum": "12208efa57e3df1ac33d7cec768a10d76e79ddc8d495f33ec2befbe792fd0868ca2d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL), one GeoParquet file with the source columns."
     },
     "tc20141204phl-analysis-extent-tiles": {
       "href": "./tc20141204phl-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12209a81f06c383cea4846bd06689507a80f3f80cf8af604ed14d662ad06c5f9c754",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201e3e0b440f0219b8a8e2f2c7de91796c765009262010f4cd649266998dfbefc1"
+      "file:checksum": "12201e3e0b440f0219b8a8e2f2c7de91796c765009262010f4cd649266998dfbefc1",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20141204phl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8537,
+      "file:checksum": "1220faed5e89c94d085239517457740b15935daac1fff0e886c1a79c9311b2ed4c1c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)."
     }
   }
 }

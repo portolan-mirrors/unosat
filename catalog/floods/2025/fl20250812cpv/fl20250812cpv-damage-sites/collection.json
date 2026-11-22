@@ -262,7 +262,9 @@
       "file:checksum": "12203120c5d7a8c9fbae80a209c55e0b2a6da6222e907c86702d5573237fa3a32d57",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV), one GeoParquet file with the source columns."
     },
     "fl20250812cpv-damage-sites-tiles": {
       "href": "./fl20250812cpv-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122019755de69bb624f72ef7951a679a34e601561a44ecad956d9bdd904c8c1765f0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1041,
-      "file:checksum": "12204b6dadf89849733350dc1b3cf27246a7be1c173a89578e5f1990d1fe971acd9d"
+      "file:checksum": "12204b6dadf89849733350dc1b3cf27246a7be1c173a89578e5f1990d1fe971acd9d",
+      "description": "MapLibre style for Damage sites: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250812cpv-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9724,
+      "file:checksum": "122045061208323f6b7042cf3a510704a0137bf651a5b09a2ff7f8ac6e9681196a2c",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV)."
     }
   }
 }

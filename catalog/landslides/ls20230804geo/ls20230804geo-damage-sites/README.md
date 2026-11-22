@@ -1,5 +1,5 @@
 # Damage sites: Landslide, Georgia, 4 August 2023 (LS20230804GEO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Landslide, Georgia, 4 August 2023 (LS20230804GEO): 36 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20230804geo-damage-sites.parquet | 8.7 KB | 1220e94f761b... |
 | ./ls20230804geo-damage-sites.pmtiles | 27.3 KB | 1220ba906751... |
 | ./styles/default.json | 997 B | 1220746c9ffc... |
+| ./ls20230804geo-damage-sites.thumb.jpg | 4.0 KB | 1220e50e03f3... |
 
 ## Quick Start
 

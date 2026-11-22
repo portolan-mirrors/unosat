@@ -229,7 +229,9 @@
       "file:checksum": "122094cb7ee488b806d39f885eb2e4af8a6ea3b18d46046d6ad634e4890735dbd582",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ), one GeoParquet file with the source columns."
     },
     "tc20240313moz-analysis-extent-tiles": {
       "href": "./tc20240313moz-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122018a1e8464fefefcc9b3fe34b8204c40683e4b30fc0254afc18bf7269a4791d80",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122092bab13b3630eae619d7864dbc35279912940a3ea005cacf06e3e5d8b1a092ed"
+      "file:checksum": "122092bab13b3630eae619d7864dbc35279912940a3ea005cacf06e3e5d8b1a092ed",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240313moz-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6933,
+      "file:checksum": "1220743fa8f2c53143464780baa8ca6333d4956fa575fcabba989b6b360569356d83",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)."
     }
   }
 }

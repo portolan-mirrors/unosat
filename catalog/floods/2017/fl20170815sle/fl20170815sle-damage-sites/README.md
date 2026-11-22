@@ -1,5 +1,5 @@
 # Damage sites: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Sierra Leone, 15 August 2017 (FL20170815SLE): 349 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170815sle-damage-sites.parquet | 20.1 KB | 12204c06cac5... |
 | ./fl20170815sle-damage-sites.pmtiles | 40.2 KB | 12209a4b87c4... |
 | ./styles/default.json | 948 B | 1220460d6021... |
+| ./fl20170815sle-damage-sites.thumb.jpg | 5.7 KB | 122002135cf8... |
 
 ## Quick Start
 

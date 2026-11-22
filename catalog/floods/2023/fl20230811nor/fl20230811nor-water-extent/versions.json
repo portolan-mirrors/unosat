@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20230811nor-water-extent.parquet",
         "fl20230811nor-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:42.319637Z",
+      "breaking": false,
+      "assets": {
+        "fl20230811nor-water-extent.parquet": {
+          "sha256": "c5c22f0884a335ee7d88078719812b534e1aa3fc58bf653b4db0de1c892702c5",
+          "size_bytes": 17237289,
+          "href": "floods/2023/fl20230811nor/fl20230811nor-water-extent/fl20230811nor-water-extent.parquet",
+          "source_path": "fl20230811nor-water-extent.parquet",
+          "source_mtime": 1795333330.0816097,
+          "mtime": 1795333330.0816097,
+          "feature_count": 9,
+          "schema_fingerprint": "0f1f1dbd025ef702"
+        },
+        "fl20230811nor-water-extent.pmtiles": {
+          "sha256": "b6ec2cd1e669a5048c746e9b3b2ed090cd408f6aa25dc7486d32d51c13f3acd0",
+          "size_bytes": 1114619,
+          "href": "floods/2023/fl20230811nor/fl20230811nor-water-extent/fl20230811nor-water-extent.pmtiles",
+          "mtime": 1795334115.7062285
+        },
+        "fl20230811nor-water-extent.thumb.jpg": {
+          "sha256": "5e0c839ffff0ab8a2adba2af0003d321a1e07105c77d8a3a9c4e176c6abc6b59",
+          "size_bytes": 4592,
+          "href": "floods/2023/fl20230811nor/fl20230811nor-water-extent/fl20230811nor-water-extent.thumb.jpg",
+          "mtime": 1795343622.3039472
+        }
+      },
+      "changes": [
+        "fl20230811nor-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20230811nor-water-extent.thumb.jpg"
     }
   ]
 }

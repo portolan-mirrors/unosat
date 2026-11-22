@@ -253,7 +253,9 @@
       "file:checksum": "1220eaa63dfe7f700c6a704031c100c1da42eeec7b89c808eeec4ae0c6cf1dd41d9e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD), one GeoParquet file with the source columns."
     },
     "tc20170529bgd-analysis-extent-tiles": {
       "href": "./tc20170529bgd-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12204b49c98ea02fb3bcc8f10dc2151a36348e43a8bd01bf8175782752525127fdff",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122008b262f164b5fd81a635cd2ea19871dfa510df14a95dfef667b537904c369879"
+      "file:checksum": "122008b262f164b5fd81a635cd2ea19871dfa510df14a95dfef667b537904c369879",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170529bgd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8660,
+      "file:checksum": "122017bee513a9276528ec4d9b61ad09b110a084eedf6093f1842fc34bc4a8063e02",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)."
     }
   }
 }

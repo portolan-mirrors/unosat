@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220221mdg/tc20220221mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220221mdg/tc20220221mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG): 19 features merged from 19 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220221mdg-analysis-extent.parquet | 2.7 MB | 12209c356eb3... |
 | ./tc20220221mdg-analysis-extent.pmtiles | 1.2 MB | 12207bc81060... |
 | ./styles/default.json | 671 B | 122091e7f8f5... |
+| ./tc20220221mdg-analysis-extent.thumb.jpg | 7.7 KB | 122052ae98a0... |
 
 ## Quick Start
 

@@ -282,7 +282,9 @@
       "file:checksum": "12204bee39228a1763e2167d72e26156c331638d49c06410386c86f7c60234fb6166",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Fire, Algeria, 24 July 2023 (FR20230724DZA), one GeoParquet file with the source columns."
     },
     "fr20230724dza-damage-areas-tiles": {
       "href": "./fr20230724dza-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12205c2a230e719aeac9f93c7e7d6bbdc01a8a0df4e4c00e9a32a287f25088257d09",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Fire, Algeria, 24 July 2023 (FR20230724DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "12203cca229253e4ee21b3390fed2ee2d45fd487634f4c409f9435ff31cc876097bf"
+      "file:checksum": "12203cca229253e4ee21b3390fed2ee2d45fd487634f4c409f9435ff31cc876097bf",
+      "description": "MapLibre style for Damage areas: Fire, Algeria, 24 July 2023 (FR20230724DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20230724dza-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4816,
+      "file:checksum": "12205820e36064744e75ebba262c550a99ada67bf511776886eb57e7ab4057532cd3",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Fire, Algeria, 24 July 2023 (FR20230724DZA)."
     }
   }
 }

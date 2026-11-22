@@ -1,5 +1,5 @@
 # Water extent: Flood, Togo, 29 October 2019 (FL20191029TGO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191029tgo/fl20191029tgo-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191029tgo/fl20191029tgo-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Togo, 29 October 2019 (FL20191029TGO): 4,136 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191029tgo-water-extent.parquet | 873.1 KB | 122018ab4a6a... |
 | ./fl20191029tgo-water-extent.pmtiles | 1.6 MB | 12204205fdc6... |
 | ./styles/default.json | 887 B | 1220b71ac4ce... |
+| ./fl20191029tgo-water-extent.thumb.jpg | 15.2 KB | 1220b096f124... |
 
 ## Quick Start
 

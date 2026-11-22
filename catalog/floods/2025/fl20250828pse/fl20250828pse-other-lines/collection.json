@@ -176,7 +176,9 @@
       "proj:code": "EPSG:32636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Flood, State of Palestine, 28 August 2025 (FL20250828PSE), one GeoParquet file with the source columns."
     },
     "fl20250828pse-other-lines-tiles": {
       "href": "./fl20250828pse-other-lines.pmtiles",
@@ -185,7 +187,9 @@
       "file:checksum": "1220b5e7f65757d2ad8ef0b95bb2258f7f8f5afc9b75e40ebe0a71bcf4aa34b5ad0b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Flood, State of Palestine, 28 August 2025 (FL20250828PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -196,7 +200,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220493cab8efb44e864d4e9faec68dbc109839ebf550ac04c61d1ceb053908299d2"
+      "file:checksum": "1220493cab8efb44e864d4e9faec68dbc109839ebf550ac04c61d1ceb053908299d2",
+      "description": "MapLibre style for Other lines: Flood, State of Palestine, 28 August 2025 (FL20250828PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250828pse-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7908,
+      "file:checksum": "122016219245921cc57cef562db161d51a7afa8630d0f4ba5e8550a5a336484ea4de",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)."
     }
   }
 }

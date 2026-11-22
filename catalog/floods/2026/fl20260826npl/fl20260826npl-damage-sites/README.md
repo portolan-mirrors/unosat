@@ -1,5 +1,5 @@
 # Damage sites: Flood, Nepal, 26 August 2026 (FL20260826NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/fl20260826npl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/fl20260826npl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Nepal, 26 August 2026 (FL20260826NPL): 25,300 features merged from 15 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20260826npl-damage-sites.parquet | 321.2 KB | 1220a68d5f80... |
 | ./fl20260826npl-damage-sites.pmtiles | 315.1 KB | 1220ad45c8ba... |
 | ./styles/default.json | 947 B | 1220977a89b2... |
+| ./fl20260826npl-damage-sites.thumb.jpg | 6.9 KB | 1220ce68fb9f... |
 
 ## Quick Start
 

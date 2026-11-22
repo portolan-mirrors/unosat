@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20220928lao-water-extent.parquet",
         "tc20220928lao-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:19.433854Z",
+      "breaking": false,
+      "assets": {
+        "tc20220928lao-water-extent.parquet": {
+          "sha256": "f639e84661b26c4d96860153986a18b5fa164453ddfb01c4d4265436873ba1f7",
+          "size_bytes": 675974,
+          "href": "tropical-cyclones/2022/tc20220928lao/tc20220928lao-water-extent/tc20220928lao-water-extent.parquet",
+          "source_path": "tc20220928lao-water-extent.parquet",
+          "source_mtime": 1795333511.3792233,
+          "mtime": 1795333511.3792233,
+          "feature_count": 8,
+          "schema_fingerprint": "9778d28cbdd1c99a"
+        },
+        "tc20220928lao-water-extent.pmtiles": {
+          "sha256": "8fd358ce2c15f7b7e29f0401f74807a7e6637f6b886aea025d82ba7621601d8c",
+          "size_bytes": 565836,
+          "href": "tropical-cyclones/2022/tc20220928lao/tc20220928lao-water-extent/tc20220928lao-water-extent.pmtiles",
+          "mtime": 1795334298.9198196
+        },
+        "tc20220928lao-water-extent.thumb.jpg": {
+          "sha256": "98d129317fa9ba5a808623c8cdc245a086a358c3470e23badd92710e01cfa04b",
+          "size_bytes": 7003,
+          "href": "tropical-cyclones/2022/tc20220928lao/tc20220928lao-water-extent/tc20220928lao-water-extent.thumb.jpg",
+          "mtime": 1795365859.4153287
+        }
+      },
+      "changes": [
+        "tc20220928lao-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20220928lao-water-extent.thumb.jpg"
     }
   ]
 }

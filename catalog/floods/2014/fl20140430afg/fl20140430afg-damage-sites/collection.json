@@ -252,7 +252,9 @@
       "file:checksum": "1220d4f8583689f966ab4f4f322755a5a867b29c0982c687eb00389f1e9749228f22",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Afghanistan, 30 April 2014 (FL20140430AFG), one GeoParquet file with the source columns."
     },
     "fl20140430afg-damage-sites-tiles": {
       "href": "./fl20140430afg-damage-sites.pmtiles",
@@ -261,7 +263,9 @@
       "file:checksum": "1220b881810bc7eb17d396e57d0c292e3b8577bbb605b8ddfa7fe56dd3fc3ffd492a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Afghanistan, 30 April 2014 (FL20140430AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -272,7 +276,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1000,
-      "file:checksum": "1220a4be9edf3408be65a9a1e845f5e884d46ee3f3d34dc4c754656cdafab388d61c"
+      "file:checksum": "1220a4be9edf3408be65a9a1e845f5e884d46ee3f3d34dc4c754656cdafab388d61c",
+      "description": "MapLibre style for Damage sites: Flood, Afghanistan, 30 April 2014 (FL20140430AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140430afg-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2467,
+      "file:checksum": "1220ebfff191253c9dbff7aeb73538cafc39c167ab67c6fa330addc942056d4ca750",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)."
     }
   }
 }

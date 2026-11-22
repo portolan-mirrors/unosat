@@ -339,7 +339,9 @@
       "file:checksum": "12202db7563707215adb297f31ee4d5b89da2971a0154893fe02fa858cfbf64905a8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO), one GeoParquet file with the source columns."
     },
     "tc20250722lao-other-points-tiles": {
       "href": "./tc20250722lao-other-points.pmtiles",
@@ -348,7 +350,9 @@
       "file:checksum": "122014f3bd0e05c3ddbf11ddd356320ec17b1c0a4f8d1fc05ad9b4b0d217ec5671b5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -359,7 +363,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "122013975723bb892437277e0c2f4873875dc4234ef3f13e88931b816ae758bf0caf"
+      "file:checksum": "122013975723bb892437277e0c2f4873875dc4234ef3f13e88931b816ae758bf0caf",
+      "description": "MapLibre style for Other points: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20250722lao-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2499,
+      "file:checksum": "12200ac4a84e6c30f37818e63077021266fe5e15befc800a9c64e5d788d918d3ddb7",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)."
     }
   }
 }

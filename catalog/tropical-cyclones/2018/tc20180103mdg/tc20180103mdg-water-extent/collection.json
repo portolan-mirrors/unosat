@@ -274,7 +274,9 @@
       "file:checksum": "1220e5c261058bb0a8bc19353d7d83a193af44c7fb270ce88ea569f8680c50d4edc6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG), one GeoParquet file with the source columns."
     },
     "tc20180103mdg-water-extent-tiles": {
       "href": "./tc20180103mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12208fd189f51d4858855f384c2614efbe7660f2a074fed3c0e1a986b34d16837237",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12208173e76ce5afeeb692763226c2471cf96ce74aa8d6dd8ca7cf8092e2ed5ac7a1"
+      "file:checksum": "12208173e76ce5afeeb692763226c2471cf96ce74aa8d6dd8ca7cf8092e2ed5ac7a1",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20180103mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14876,
+      "file:checksum": "12201163e541bdf89cca2e366341be6f2e4cde9037c0c28a616c990d01077e0aeef1",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG)."
     }
   }
 }

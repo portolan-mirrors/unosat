@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Norway, 11 August 2023 (FL20230811NOR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230811nor/fl20230811nor-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230811nor/fl20230811nor-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Norway, 11 August 2023 (FL20230811NOR): 9 features merged from 9 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230811nor-analysis-extent.parquet | 8.4 MB | 1220b0334eb9... |
 | ./fl20230811nor-analysis-extent.pmtiles | 450.8 KB | 1220d0b4a404... |
 | ./styles/default.json | 671 B | 1220ae8645da... |
+| ./fl20230811nor-analysis-extent.thumb.jpg | 4.9 KB | 122073f0be9d... |
 
 ## Quick Start
 

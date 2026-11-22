@@ -262,7 +262,9 @@
       "file:checksum": "12206a4ef2a4a07e88d5421ac9c298e239c611d893d9280d98218e85489cca611520",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Nigeria, 1 June 2025 (FL20250601NGA), one GeoParquet file with the source columns."
     },
     "fl20250601nga-damage-sites-tiles": {
       "href": "./fl20250601nga-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122047f44dfcb74e0a8f1b1fba882d4d7486003a290b89cf73727e89573bdc3054d0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Nigeria, 1 June 2025 (FL20250601NGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "1220acd297168261a37e18e7b9ddf8247d533a85e33d050e65661bd7d7477970f19e"
+      "file:checksum": "1220acd297168261a37e18e7b9ddf8247d533a85e33d050e65661bd7d7477970f19e",
+      "description": "MapLibre style for Damage sites: Flood, Nigeria, 1 June 2025 (FL20250601NGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250601nga-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14281,
+      "file:checksum": "1220d141c1ba00d2a386cd7ee5403fcfd139297257ba3ef1bcd3b832b07722e3753b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Nigeria, 1 June 2025 (FL20250601NGA)."
     }
   }
 }

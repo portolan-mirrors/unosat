@@ -187,7 +187,9 @@
       "file:checksum": "122005587272b0a3dbbf1c4ad551af64919c40e190bec64044d62401c1de75fd7557",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD), one GeoParquet file with the source columns."
     },
     "vo20210523cod-other-lines-tiles": {
       "href": "./vo20210523cod-other-lines.pmtiles",
@@ -196,7 +198,9 @@
       "file:checksum": "12204efc46829204c595a62463bd8287826169d2049f1da64a2af5cb5f57e15f8d8f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -207,7 +211,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "12204cb54da339fbad32c0b0be6dc4a38db77b4f69497d18461c2548f12fdc58ef96"
+      "file:checksum": "12204cb54da339fbad32c0b0be6dc4a38db77b4f69497d18461c2548f12fdc58ef96",
+      "description": "MapLibre style for Other lines: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20210523cod-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5228,
+      "file:checksum": "122053aee0ea04cddcf7ed6b475050d3df707cc04587e547a10daca544a4d758e23b",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)."
     }
   }
 }

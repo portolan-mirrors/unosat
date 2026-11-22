@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI): 7 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200408fji-analysis-extent.parquet | 8.2 KB | 12204a658573... |
 | ./tc20200408fji-analysis-extent.pmtiles | 29.0 KB | 12209e766af9... |
 | ./styles/default.json | 671 B | 12208636cddb... |
+| ./tc20200408fji-analysis-extent.thumb.jpg | 7.8 KB | 1220ab5d7615... |
 
 ## Quick Start
 

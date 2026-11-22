@@ -274,7 +274,9 @@
       "file:checksum": "1220494b4b1d9f5926de1faf7d194e644cddf46efad174ad9a7ffdfcd9de560d755b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ), one GeoParquet file with the source columns."
     },
     "tc20220311moz-water-extent-tiles": {
       "href": "./tc20220311moz-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220498b3f21d61a90760b5ee17e0bc02dca548a78a19863a4aae737908ae58a8791",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "12201077714a191c543e99a0762800eaa54773c53319fa1b61684cfd6c12e39d622e"
+      "file:checksum": "12201077714a191c543e99a0762800eaa54773c53319fa1b61684cfd6c12e39d622e",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220311moz-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13960,
+      "file:checksum": "12206675e914a2c3cf9db0472ab20e2d43b1f24bb08629be55e2ef6991ce3211062d",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ)."
     }
   }
 }

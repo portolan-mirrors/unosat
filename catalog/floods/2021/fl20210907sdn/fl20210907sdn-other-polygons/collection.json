@@ -259,7 +259,9 @@
       "file:checksum": "122001e1428590efd1681be4aaf1bfb603fe3e2a24f58b2cfb0a05709747a845c9c3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Sudan, 7 September 2021 (FL20210907SDN), one GeoParquet file with the source columns."
     },
     "fl20210907sdn-other-polygons-tiles": {
       "href": "./fl20210907sdn-other-polygons.pmtiles",
@@ -268,7 +270,9 @@
       "file:checksum": "1220835973f515e8115685be433920e89f45daf3b7f56461a49fa1a9685b39ada7c4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Sudan, 7 September 2021 (FL20210907SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -279,7 +283,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220fe408cec02fe5f4da357758cc4fe6ee70e5d844dad08a5d93ebdd2e7afae7c97"
+      "file:checksum": "1220fe408cec02fe5f4da357758cc4fe6ee70e5d844dad08a5d93ebdd2e7afae7c97",
+      "description": "MapLibre style for Other polygons: Flood, Sudan, 7 September 2021 (FL20210907SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210907sdn-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 20553,
+      "file:checksum": "1220c8c47126fe2f94ad28623035a37f86d835f0638a3e83ced76ecf6ddcbaf105ed",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Sudan, 7 September 2021 (FL20210907SDN)."
     }
   }
 }

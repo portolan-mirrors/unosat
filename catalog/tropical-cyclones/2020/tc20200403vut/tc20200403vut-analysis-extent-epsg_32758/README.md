@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_32758/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_32758/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT): 31 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32758, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200403vut-analysis-extent-epsg_32758.parquet | 60.0 KB | 122067f058c0... |
 | ./tc20200403vut-analysis-extent-epsg_32758.pmtiles | 65.2 KB | 122074bb0255... |
 | ./styles/default.json | 682 B | 122086f6c901... |
+| ./tc20200403vut-analysis-extent-epsg_32758.thumb.jpg | 4.3 KB | 1220c7a49329... |
 
 ## Quick Start
 

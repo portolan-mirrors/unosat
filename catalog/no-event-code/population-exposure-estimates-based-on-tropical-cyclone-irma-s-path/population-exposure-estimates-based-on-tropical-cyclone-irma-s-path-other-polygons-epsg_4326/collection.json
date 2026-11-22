@@ -525,7 +525,9 @@
       "file:checksum": "12201fe15c0f1373afe4d1da54e8dce3f55bcbb56f4e31ade3aed54d686a71a30d64",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates, one GeoParquet file with the source columns."
     },
     "population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326-tiles": {
       "href": "./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326.pmtiles",
@@ -534,7 +536,9 @@
       "file:checksum": "12200ed299d349c34b2970f6acce4e84fc16ed11ee624dc0f7a26e73665e1bcb0b24",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -545,7 +549,19 @@
       ],
       "title": "Other polygons",
       "file:size": 728,
-      "file:checksum": "12208265eb64e0f0676e63547a8de6932bd09a6e59ab2bacf3f16a15aa75eea260fc"
+      "file:checksum": "12208265eb64e0f0676e63547a8de6932bd09a6e59ab2bacf3f16a15aa75eea260fc",
+      "description": "MapLibre style for Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11646,
+      "file:checksum": "1220e0529184386d9751f794f3ce0d34a9ec78881db6fa910c45b1860120ee02d72f",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates."
     }
   }
 }

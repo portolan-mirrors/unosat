@@ -262,7 +262,9 @@
       "file:checksum": "12208dd7f6969e8b21eea02478659e50c1aad86b7f1d9024ab74d347d46f10251b0b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ), one GeoParquet file with the source columns."
     },
     "tc20230221moz-damage-sites-tiles": {
       "href": "./tc20230221moz-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220d9c3236d7a785919eff42e90e6301a5e763adad72619a0b11001ef0dbb13249d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "12202dd357dbc73b8c51e623653795b81322acf2d1917f473aab2b800e06cc172edc"
+      "file:checksum": "12202dd357dbc73b8c51e623653795b81322acf2d1917f473aab2b800e06cc172edc",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230221moz-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6289,
+      "file:checksum": "122025e2727d0cd07954489363a041c4fb6aa06f0d10c1f81caba7b365f689fb7e26",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ)."
     }
   }
 }

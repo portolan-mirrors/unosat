@@ -262,7 +262,9 @@
       "file:checksum": "1220ddbee286973c0bd9219bddc1af5afa10c248f1227543981c051ccd35a0a2816f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG), one GeoParquet file with the source columns."
     },
     "eq20231008afg-damage-sites-tiles": {
       "href": "./eq20231008afg-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ba57fc7a498049817b0ef25a40bc70a4c399b0e5e43d22dbcbd95e3400d6ddb1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1100,
-      "file:checksum": "1220f8f593549b7c8c7b38f485f95332b6b6d0a8f4fb10566e4b27ca345bbda12fdb"
+      "file:checksum": "1220f8f593549b7c8c7b38f485f95332b6b6d0a8f4fb10566e4b27ca345bbda12fdb",
+      "description": "MapLibre style for Damage sites: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20231008afg-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12208,
+      "file:checksum": "12207bc4e54255ef1b78c69d9428ad02159c52f966e1d2e7e5b36c2598d56740c569",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)."
     }
   }
 }

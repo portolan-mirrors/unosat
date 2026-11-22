@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD): 1,876 features merged from 3 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170529bgd-damage-sites.parquet | 73.0 KB | 122016507a2f... |
 | ./tc20170529bgd-damage-sites.pmtiles | 73.7 KB | 1220ca914f9d... |
 | ./styles/default.json | 956 B | 12202353c2a5... |
+| ./tc20170529bgd-damage-sites.thumb.jpg | 2.9 KB | 1220e0427274... |
 
 ## Quick Start
 

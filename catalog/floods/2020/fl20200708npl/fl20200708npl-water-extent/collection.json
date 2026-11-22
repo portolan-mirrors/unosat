@@ -274,7 +274,9 @@
       "file:checksum": "122083da5ffbaa0667794fe4fc97bdb6958c817176c3e685f2713c9bf8c471e40359",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nepal, 8 July 2020 (FL20200708NPL), one GeoParquet file with the source columns."
     },
     "fl20200708npl-water-extent-tiles": {
       "href": "./fl20200708npl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12201753a089e344fd83bb94b3b85e01fb26c902bb2f57bce90f80b0faa2bd691505",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nepal, 8 July 2020 (FL20200708NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12200d530bfbf9f6dc651d7b75468f07fbcbb7c0a36329aad09aa45ff13247557c2b"
+      "file:checksum": "12200d530bfbf9f6dc651d7b75468f07fbcbb7c0a36329aad09aa45ff13247557c2b",
+      "description": "MapLibre style for Water extent: Flood, Nepal, 8 July 2020 (FL20200708NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200708npl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4640,
+      "file:checksum": "1220c517080673b38865c2222abbcead97c7e20fad5ac5b9bf52fcc9b8ccb6d28af1",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nepal, 8 July 2020 (FL20200708NPL)."
     }
   }
 }

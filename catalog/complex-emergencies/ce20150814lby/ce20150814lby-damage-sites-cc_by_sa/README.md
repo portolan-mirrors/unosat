@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Libya, 14 August 2015 (CE20150814LBY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150814lby/ce20150814lby-damage-sites-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Libya, 14 August 2015 (CE20150814LBY): 4,617 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20150814lby-damage-sites-cc_by_sa.parquet | 209.7 KB | 122028a85da6... |
 | ./ce20150814lby-damage-sites-cc_by_sa.pmtiles | 347.1 KB | 12209cba0ee8... |
 | ./styles/default.json | 1.1 KB | 1220ec455e44... |
+| ./ce20150814lby-damage-sites-cc_by_sa.thumb.jpg | 25.4 KB | 122029298ef2... |
 
 ## Quick Start
 

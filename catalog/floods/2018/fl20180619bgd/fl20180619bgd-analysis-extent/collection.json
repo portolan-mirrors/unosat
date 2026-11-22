@@ -198,7 +198,9 @@
       "file:checksum": "1220471ab600024423f365fd71a47eaa7edce73548137d946a9621c90a7cf7e60022",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Bangladesh, 19 June 2018 (FL20180619BGD), one GeoParquet file with the source columns."
     },
     "fl20180619bgd-analysis-extent-tiles": {
       "href": "./fl20180619bgd-analysis-extent.pmtiles",
@@ -207,7 +209,9 @@
       "file:checksum": "1220238f2bd8524a36a3017093d711545ccfebb247bdfa99b537a0a3ae2da0d03c40",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Bangladesh, 19 June 2018 (FL20180619BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -218,7 +222,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c0947326c8e8f7d1a530113c6f78fbf430fdf99b41fdb6252e27e4b612070758"
+      "file:checksum": "1220c0947326c8e8f7d1a530113c6f78fbf430fdf99b41fdb6252e27e4b612070758",
+      "description": "MapLibre style for Analysis extent: Flood, Bangladesh, 19 June 2018 (FL20180619BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20180619bgd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11424,
+      "file:checksum": "1220d7bc1676d32f1ffaf35fc3f03256c635d26f3f860538fa1b65c5b346b4670093",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Bangladesh, 19 June 2018 (FL20180619BGD)."
     }
   }
 }

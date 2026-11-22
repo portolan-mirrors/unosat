@@ -294,7 +294,9 @@
       "file:checksum": "12202796079ab6262700737e03ba5ea7fdeba583beebbac95e5b1f741b97d9ab6e5a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI), one GeoParquet file with the source columns."
     },
     "tc20160219fji-analysis-extent-tiles": {
       "href": "./tc20160219fji-analysis-extent.pmtiles",
@@ -303,7 +305,9 @@
       "file:checksum": "1220de2d63279a956ada51cd04d05d70cfbb056e62fa35d2a13d0f2e7852bc8cc0f6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -314,7 +318,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220cacf55223a80ff1357d5de2b73e7b339f00f9644ba6e8de35fade47dbb729dc1"
+      "file:checksum": "1220cacf55223a80ff1357d5de2b73e7b339f00f9644ba6e8de35fade47dbb729dc1",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20160219fji-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7519,
+      "file:checksum": "12208e0143840abef69dd3286b7eb0ba4029eac62172744dff1176a850861f634eee",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)."
     }
   }
 }

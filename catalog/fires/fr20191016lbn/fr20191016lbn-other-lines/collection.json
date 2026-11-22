@@ -342,7 +342,9 @@
       "file:checksum": "12206509e50218f00d87ccc8029bce2f9121dc9392a7c87ec37232e045b751b434a2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Fire, Lebanon, 16 October 2019 (FR20191016LBN), one GeoParquet file with the source columns."
     },
     "fr20191016lbn-other-lines-tiles": {
       "href": "./fr20191016lbn-other-lines.pmtiles",
@@ -351,7 +353,9 @@
       "file:checksum": "122060b3bc603d5e55c4e19af387ad9a377b58b4cdcb6e2a69f42bba0dfa27b07957",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Fire, Lebanon, 16 October 2019 (FR20191016LBN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -362,7 +366,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "12206f6fdae9ac44300e567d1987bb8290ddb76388f091a75dbb6b73392a946a46db"
+      "file:checksum": "12206f6fdae9ac44300e567d1987bb8290ddb76388f091a75dbb6b73392a946a46db",
+      "description": "MapLibre style for Other lines: Fire, Lebanon, 16 October 2019 (FR20191016LBN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20191016lbn-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 24719,
+      "file:checksum": "1220d177e87b4987d7003163a359d0d0f2259a108178800cf0a4c1cf01acf61544b7",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Fire, Lebanon, 16 October 2019 (FR20191016LBN)."
     }
   }
 }

@@ -193,7 +193,9 @@
       "file:checksum": "1220f5922c0030961f78c676b1e5e2eea981d4f3b28266d477275f2511bc1f3d9e1a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR), one GeoParquet file with the source columns."
     },
     "ce20130604syr-analysis-extent-cc_by_sa-tiles": {
       "href": "./ce20130604syr-analysis-extent-cc_by_sa.pmtiles",
@@ -202,7 +204,9 @@
       "file:checksum": "1220a1b2e52c02161b8897e52e75ea5c4d28393cf45116d553b2cfeaf6400b300337",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -213,7 +217,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 680,
-      "file:checksum": "122035511c710656c5a27ebcb56b0df9be94aa2be27121643efb2298dd5eb57c9ab6"
+      "file:checksum": "122035511c710656c5a27ebcb56b0df9be94aa2be27121643efb2298dd5eb57c9ab6",
+      "description": "MapLibre style for Analysis extent: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130604syr-analysis-extent-cc_by_sa.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6197,
+      "file:checksum": "122014b488701fbeb97841b60d04bda9d2bb01c6df143e740c0cf978e2cb146d0363",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)."
     }
   }
 }

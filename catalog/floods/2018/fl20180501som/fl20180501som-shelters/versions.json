@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20180501som-shelters.parquet",
         "fl20180501som-shelters.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.574724Z",
+      "breaking": false,
+      "assets": {
+        "fl20180501som-shelters.parquet": {
+          "sha256": "b5064b3e640dfe444c5eaca625b2e95a122681b975f286bfa520b3cb993bc7da",
+          "size_bytes": 10879,
+          "href": "floods/2018/fl20180501som/fl20180501som-shelters/fl20180501som-shelters.parquet",
+          "source_path": "fl20180501som-shelters.parquet",
+          "source_mtime": 1795333266.452483,
+          "mtime": 1795333266.452483,
+          "feature_count": 116,
+          "schema_fingerprint": "d2fd2163d86e1434"
+        },
+        "fl20180501som-shelters.pmtiles": {
+          "sha256": "72c6bf50329c54ccd6ce0f076d1f87c6c4c31b9c659355ea09b37afb7babf3b3",
+          "size_bytes": 37987,
+          "href": "floods/2018/fl20180501som/fl20180501som-shelters/fl20180501som-shelters.pmtiles",
+          "mtime": 1795334076.0737822
+        },
+        "fl20180501som-shelters.thumb.jpg": {
+          "sha256": "5867f4ce50a898b41eff88e3969d3456efc98a3dad040f9718227cf725ef73f2",
+          "size_bytes": 8175,
+          "href": "floods/2018/fl20180501som/fl20180501som-shelters/fl20180501som-shelters.thumb.jpg",
+          "mtime": 1795343617.5710135
+        }
+      },
+      "changes": [
+        "fl20180501som-shelters.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20180501som-shelters.thumb.jpg"
     }
   ]
 }

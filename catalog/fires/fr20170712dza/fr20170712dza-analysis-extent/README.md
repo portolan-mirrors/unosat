@@ -1,5 +1,5 @@
 # Analysis extent: Fire, Algeria, 12 July 2017 (FR20170712DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20170712dza/fr20170712dza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20170712dza/fr20170712dza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Fire, Algeria, 12 July 2017 (FR20170712DZA): 10,528 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20170712dza-analysis-extent.parquet | 15.4 MB | 1220ffa11999... |
 | ./fr20170712dza-analysis-extent.pmtiles | 6.4 MB | 12204f9bcdaf... |
 | ./styles/default.json | 671 B | 12205645af41... |
+| ./fr20170712dza-analysis-extent.thumb.jpg | 11.0 KB | 12207ca5c1be... |
 
 ## Quick Start
 

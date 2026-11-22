@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Jamaica, 26 October 2025 (TC20251026HTI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Jamaica, 26 October 2025 (TC20251026HTI): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20251026hti-analysis-extent.parquet | 10.9 KB | 1220d25cac5c... |
 | ./tc20251026hti-analysis-extent.pmtiles | 141.2 KB | 1220e259152c... |
 | ./styles/default.json | 671 B | 1220fa0c3f65... |
+| ./tc20251026hti-analysis-extent.thumb.jpg | 3.6 KB | 1220c153ac27... |
 
 ## Quick Start
 

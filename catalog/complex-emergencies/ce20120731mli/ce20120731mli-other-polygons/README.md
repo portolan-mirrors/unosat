@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, Mali, 31 July 2012 (CE20120731MLI): 37 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -41,6 +41,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20120731mli-other-polygons.parquet | 11.2 KB | 122029507b59... |
 | ./ce20120731mli-other-polygons.pmtiles | 33.1 KB | 1220facbeff9... |
 | ./styles/default.json | 664 B | 1220685d732e... |
+| ./ce20120731mli-other-polygons.thumb.jpg | 17.5 KB | 1220eee9673d... |
 
 ## Quick Start
 

@@ -198,7 +198,9 @@
       "file:checksum": "122004d99565ad7b8f40650762f76779be46a19f6c92b4cee337ce7ba68996d1b3b4",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Mozambique, 12 January 2015 (FL20150112MOZ), one GeoParquet file with the source columns."
     },
     "fl20150112moz-other-polygons-tiles": {
       "href": "./fl20150112moz-other-polygons.pmtiles",
@@ -207,7 +209,9 @@
       "file:checksum": "122093ca1e8d53146a20fce9a5a8fdde7b387bf0c198998ae27c24a6c7f5c86f2e16",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Mozambique, 12 January 2015 (FL20150112MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -218,7 +222,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220c19bb476d9ed381f06c98f7cd5227cab5167322ef5d60ccdb47bd841ed513dc8"
+      "file:checksum": "1220c19bb476d9ed381f06c98f7cd5227cab5167322ef5d60ccdb47bd841ed513dc8",
+      "description": "MapLibre style for Other polygons: Flood, Mozambique, 12 January 2015 (FL20150112MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20150112moz-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9865,
+      "file:checksum": "1220d69fc307d2e62a298ee6fa463b0589a1e887b4d24fabbbf45a9de0ce4abe54ac",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Mozambique, 12 January 2015 (FL20150112MOZ)."
     }
   }
 }

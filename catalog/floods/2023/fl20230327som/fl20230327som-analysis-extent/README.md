@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230327som/fl20230327som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230327som/fl20230327som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM): 462,898 features merged from 261 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230327som-analysis-extent.parquet | 79.9 MB | 122035c95e8d... |
 | ./fl20230327som-analysis-extent.pmtiles | 44.8 MB | 122071ba6480... |
 | ./styles/default.json | 671 B | 1220a00149b4... |
+| ./fl20230327som-analysis-extent.thumb.jpg | 21.9 KB | 1220f7c37e45... |
 
 ## Quick Start
 

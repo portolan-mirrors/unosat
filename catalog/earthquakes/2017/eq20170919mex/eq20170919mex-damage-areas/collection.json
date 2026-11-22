@@ -282,7 +282,9 @@
       "file:checksum": "122088ac81371d78f3649f2313ff82656582007b902a7dc32260332d435552e24178",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX), one GeoParquet file with the source columns."
     },
     "eq20170919mex-damage-areas-tiles": {
       "href": "./eq20170919mex-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220d9a3cd1a331427d4ed139c2187b650b27e0d216d53dbb1b0ad71cedc029c9e4a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 905,
-      "file:checksum": "1220670c72d59004d25bc0e9f823313672dafa0cadf9e32739e8350d62535931231f"
+      "file:checksum": "1220670c72d59004d25bc0e9f823313672dafa0cadf9e32739e8350d62535931231f",
+      "description": "MapLibre style for Damage areas: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20170919mex-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6704,
+      "file:checksum": "1220eddc8020bcf00ad39669c1f89c76b3a064b606691bf22d445ed39ff65886ea8e",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)."
     }
   }
 }

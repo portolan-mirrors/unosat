@@ -262,7 +262,9 @@
       "file:checksum": "122066b9a401b03b856ec86aacfbd60f753233b7335555412385a108556f45b41568",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR), one GeoParquet file with the source columns."
     },
     "fr20250707syr-damage-sites-tiles": {
       "href": "./fr20250707syr-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122024c45c76650a2cc15483e87b5cb3b2d8dff9bbe7841d4afda0ea7f999ed57871",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 947,
-      "file:checksum": "1220ad2697000e24a339ebfffb73e47b5407618c3cfb944754299c1ce03891a6e375"
+      "file:checksum": "1220ad2697000e24a339ebfffb73e47b5407618c3cfb944754299c1ce03891a6e375",
+      "description": "MapLibre style for Damage sites: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20250707syr-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15708,
+      "file:checksum": "12204288fb34419af75e5076cbee62915945107bda3f5c009df3f89664d7566f8d56",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR)."
     }
   }
 }

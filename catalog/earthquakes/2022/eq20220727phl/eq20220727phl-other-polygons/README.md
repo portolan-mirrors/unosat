@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220727phl/eq20220727phl-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220727phl/eq20220727phl-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Philippines, 27 July 2022 (EQ20220727PHL): 4 features merged from 4 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20220727phl-other-polygons.parquet | 4.7 KB | 12200a184e36... |
 | ./eq20220727phl-other-polygons.pmtiles | 25.8 KB | 12201d8f5235... |
 | ./styles/default.json | 664 B | 122011b7a1e8... |
+| ./eq20220727phl-other-polygons.thumb.jpg | 6.6 KB | 1220b915b354... |
 
 ## Quick Start
 

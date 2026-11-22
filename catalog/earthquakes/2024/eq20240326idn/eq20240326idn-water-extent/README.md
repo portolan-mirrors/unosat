@@ -1,5 +1,5 @@
 # Water extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20240326idn/eq20240326idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20240326idn/eq20240326idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN): 22 features merged from 22 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20240326idn-water-extent.parquet | 44.2 MB | 1220906c24fb... |
 | ./eq20240326idn-water-extent.pmtiles | 15.1 MB | 122011490895... |
 | ./styles/default.json | 972 B | 122072b22d02... |
+| ./eq20240326idn-water-extent.thumb.jpg | 35.7 KB | 12206276c846... |
 
 ## Quick Start
 

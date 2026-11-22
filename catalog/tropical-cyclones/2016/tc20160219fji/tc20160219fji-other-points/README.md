@@ -1,5 +1,5 @@
 # Other points: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI): 299 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20160219fji-other-points.parquet | 24.7 KB | 12209c07b313... |
 | ./tc20160219fji-other-points.pmtiles | 72.1 KB | 1220f1a2a74e... |
 | ./styles/default.json | 695 B | 1220043677bc... |
+| ./tc20160219fji-other-points.thumb.jpg | 8.9 KB | 122024de41a8... |
 
 ## Quick Start
 

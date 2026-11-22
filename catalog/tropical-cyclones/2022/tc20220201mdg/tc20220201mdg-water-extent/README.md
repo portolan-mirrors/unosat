@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220201mdg/tc20220201mdg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG): 21 features merged from 21 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -67,6 +67,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220201mdg-water-extent.parquet | 23.0 MB | 122022ac34d7... |
 | ./tc20220201mdg-water-extent.pmtiles | 8.5 MB | 12204dded48a... |
 | ./styles/default.json | 887 B | 122073f4ce7d... |
+| ./tc20220201mdg-water-extent.thumb.jpg | 7.0 KB | 1220386f76d8... |
 
 ## Quick Start
 

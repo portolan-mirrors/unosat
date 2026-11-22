@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2021/tc20211216phl/tc20211216phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2021/tc20211216phl/tc20211216phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL): 39 features merged from 16 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20211216phl-analysis-extent.parquet | 2.7 MB | 12205614d1c1... |
 | ./tc20211216phl-analysis-extent.pmtiles | 256.5 KB | 122068bca191... |
 | ./styles/default.json | 671 B | 1220d59e5d0a... |
+| ./tc20211216phl-analysis-extent.thumb.jpg | 3.1 KB | 1220de6bb7c8... |
 
 ## Quick Start
 

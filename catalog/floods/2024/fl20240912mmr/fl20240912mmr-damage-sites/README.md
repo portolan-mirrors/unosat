@@ -1,5 +1,5 @@
 # Damage sites: Flood, Myanmar, 12 September 2024 (FL20240912MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Myanmar, 12 September 2024 (FL20240912MMR): 2,238 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240912mmr-damage-sites.parquet | 96.1 KB | 122087e356f6... |
 | ./fl20240912mmr-damage-sites.pmtiles | 78.5 KB | 122045077a1f... |
 | ./styles/default.json | 947 B | 1220ddd0c912... |
+| ./fl20240912mmr-damage-sites.thumb.jpg | 14.4 KB | 12203cf102ec... |
 
 ## Quick Start
 

@@ -183,7 +183,9 @@
       "proj:code": "EPSG:32636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Flood, State of Palestine, 28 August 2025 (FL20250828PSE), one GeoParquet file with the source columns."
     },
     "fl20250828pse-shelters-tiles": {
       "href": "./fl20250828pse-shelters.pmtiles",
@@ -192,7 +194,9 @@
       "file:checksum": "122099ddc284eb382b8fa2ec955633230dec7272f515276eabdef0a0afaf50d597b6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Flood, State of Palestine, 28 August 2025 (FL20250828PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -203,7 +207,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "1220249125b86c4c18577e6bebd1a06f5a5d89cbeb4ac61182a8ef1ffd2f30000161"
+      "file:checksum": "1220249125b86c4c18577e6bebd1a06f5a5d89cbeb4ac61182a8ef1ffd2f30000161",
+      "description": "MapLibre style for Shelters: Flood, State of Palestine, 28 August 2025 (FL20250828PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250828pse-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8095,
+      "file:checksum": "12208ef5856296e56778a57077a7fc8d9c998257d0e6e78af61d5c7d0ae60fb8bd1b",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)."
     }
   }
 }

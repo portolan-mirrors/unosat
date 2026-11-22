@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20240328mdg-analysis-extent.parquet",
         "tc20240328mdg-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:21.328380Z",
+      "breaking": false,
+      "assets": {
+        "tc20240328mdg-analysis-extent.parquet": {
+          "sha256": "1c7c009517246cda395d056ab0bac09c0b1667fe6eca3fa8a244b98d0e5d9f8a",
+          "size_bytes": 4992,
+          "href": "tropical-cyclones/2024/tc20240328mdg/tc20240328mdg-analysis-extent/tc20240328mdg-analysis-extent.parquet",
+          "source_path": "tc20240328mdg-analysis-extent.parquet",
+          "source_mtime": 1795333517.8041391,
+          "mtime": 1795333517.8041391,
+          "feature_count": 1,
+          "schema_fingerprint": "29656547057a7fb9"
+        },
+        "tc20240328mdg-analysis-extent.pmtiles": {
+          "sha256": "ceba76a0ef2dc261b4d14c5350a004162659ed57f04c92865ee22e3be1741c12",
+          "size_bytes": 53164,
+          "href": "tropical-cyclones/2024/tc20240328mdg/tc20240328mdg-analysis-extent/tc20240328mdg-analysis-extent.pmtiles",
+          "mtime": 1795334311.1906598
+        },
+        "tc20240328mdg-analysis-extent.thumb.jpg": {
+          "sha256": "1da250803c9e73a6b2e5cb46395585924e309c27e9d28f530997e88a6974cbff",
+          "size_bytes": 7976,
+          "href": "tropical-cyclones/2024/tc20240328mdg/tc20240328mdg-analysis-extent/tc20240328mdg-analysis-extent.thumb.jpg",
+          "mtime": 1795365861.324292
+        }
+      },
+      "changes": [
+        "tc20240328mdg-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20240328mdg-analysis-extent.thumb.jpg"
     }
   ]
 }

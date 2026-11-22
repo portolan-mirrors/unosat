@@ -1,5 +1,5 @@
 # Other polygons: Fire, Algeria, 11 August 2021 (FR20210811DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210811dza/fr20210811dza-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210811dza/fr20210811dza-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Fire, Algeria, 11 August 2021 (FR20210811DZA): 2 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20210811dza-other-polygons.parquet | 4.4 KB | 12207c410cd0... |
 | ./fr20210811dza-other-polygons.pmtiles | 62.4 KB | 12206096e9c8... |
 | ./styles/default.json | 664 B | 12205356dbb3... |
+| ./fr20210811dza-other-polygons.thumb.jpg | 4.4 KB | 1220b4b668cd... |
 
 ## Quick Start
 

@@ -218,7 +218,9 @@
       "file:checksum": "12202a3a1143ce1fac5aec197822aa97b9ec353d7acb649409b99fd0d0cdc7521f4a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Somalia, 1 May 2018 (FL20180501SOM), one GeoParquet file with the source columns."
     },
     "fl20180501som-water-extent-tiles": {
       "href": "./fl20180501som-water-extent.pmtiles",
@@ -227,7 +229,9 @@
       "file:checksum": "12209e98875280f13cee958bedf8d83dd722697e3adcec56660a7f9ce6fe8056feb2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Somalia, 1 May 2018 (FL20180501SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -238,7 +242,19 @@
       ],
       "title": "Water extent by Water_Clas",
       "file:size": 1013,
-      "file:checksum": "1220927b2c793c0db24fd8745293135a34843f71ac0bbc7a5c1be0b9487a3b0b79ea"
+      "file:checksum": "1220927b2c793c0db24fd8745293135a34843f71ac0bbc7a5c1be0b9487a3b0b79ea",
+      "description": "MapLibre style for Water extent: Flood, Somalia, 1 May 2018 (FL20180501SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20180501som-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8461,
+      "file:checksum": "12202a5de97ddd52a2199b6ba125f44e5b8a4f539480f09a5347199d217bff583d8c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Somalia, 1 May 2018 (FL20180501SOM)."
     }
   }
 }

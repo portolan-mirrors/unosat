@@ -258,7 +258,9 @@
       "file:checksum": "1220a54f313e79a5305252007a7e0a11ac9f886f7510cb7163a6120aade1cb0dade1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Thailand, 12 September 2024 (FL20240912THA), one GeoParquet file with the source columns."
     },
     "fl20240912tha-analysis-extent-tiles": {
       "href": "./fl20240912tha-analysis-extent.pmtiles",
@@ -267,7 +269,9 @@
       "file:checksum": "122041d996f2e3501a06d5f3bfe0dc4bd6f1b5218923d1f32d2c3d0d2edee9131944",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Thailand, 12 September 2024 (FL20240912THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -278,7 +282,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12204473ab600686107bd344d7115be70222cac1c1073b47553a9c7a2aede6ba8654"
+      "file:checksum": "12204473ab600686107bd344d7115be70222cac1c1073b47553a9c7a2aede6ba8654",
+      "description": "MapLibre style for Analysis extent: Flood, Thailand, 12 September 2024 (FL20240912THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240912tha-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11906,
+      "file:checksum": "1220e79c41fad3c1dc2f2fb306f2c1aec3bba93091fbc53a1de94498de4d386473c7",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Thailand, 12 September 2024 (FL20240912THA)."
     }
   }
 }

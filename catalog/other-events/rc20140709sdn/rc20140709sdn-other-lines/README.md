@@ -1,5 +1,5 @@
 # Other lines: Event, Sudan, 9 July 2014 (RC20140709SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Event, Sudan, 9 July 2014 (RC20140709SDN): 183 features merged from 2 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -42,6 +42,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./rc20140709sdn-other-lines.parquet | 41.4 KB | 1220e5901fb7... |
 | ./rc20140709sdn-other-lines.pmtiles | 60.6 KB | 12202bd1bbcb... |
 | ./styles/default.json | 401 B | 1220b767c634... |
+| ./rc20140709sdn-other-lines.thumb.jpg | 4.1 KB | 12209e766f6e... |
 
 ## Quick Start
 

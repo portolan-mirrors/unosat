@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE): 162 features merged from 74 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20231007pse-other-polygons.parquet | 1.8 GB | 122070042a10... |
 | ./ce20231007pse-other-polygons.pmtiles | 20.0 MB | 12204b38a908... |
 | ./styles/default.json | 664 B | 1220bd86f1a5... |
+| ./ce20231007pse-other-polygons.thumb.jpg | 16.5 KB | 1220e270e008... |
 
 ## Quick Start
 

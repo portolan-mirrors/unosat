@@ -1,5 +1,5 @@
 # Damage sites: Volcano, Indonesia, 6 December 2022 (VO20221206IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20221206idn/vo20221206idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20221206idn/vo20221206idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Volcano, Indonesia, 6 December 2022 (VO20221206IDN): 2,066 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20221206idn-damage-sites.parquet | 27.0 KB | 1220bfe39371... |
 | ./vo20221206idn-damage-sites.pmtiles | 65.1 KB | 1220a43b8d18... |
 | ./styles/default.json | 1004 B | 1220a619c64a... |
+| ./vo20221206idn-damage-sites.thumb.jpg | 4.9 KB | 1220bd72573f... |
 
 ## Quick Start
 

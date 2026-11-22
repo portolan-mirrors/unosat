@@ -1,5 +1,5 @@
 # Other points: Event, Colombia, 19 April 2018 (OT20180419COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20180419col/ot20180419col-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20180419col/ot20180419col-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Event, Colombia, 19 April 2018 (OT20180419COL): 27 features merged from 2 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ot20180419col-other-points.parquet | 20.1 KB | 12205b20f823... |
 | ./ot20180419col-other-points.pmtiles | 73.9 KB | 12205a2f78a5... |
 | ./styles/default.json | 695 B | 1220e8431060... |
+| ./ot20180419col-other-points.thumb.jpg | 4.8 KB | 1220ce2b3696... |
 
 ## Quick Start
 

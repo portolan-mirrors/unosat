@@ -262,7 +262,9 @@
       "file:checksum": "12205689e70d987697c503ccde84d9882d89821717535dfe5946b08d8b9e681e24cb",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI), one GeoParquet file with the source columns."
     },
     "tc20160219fji-damage-sites-tiles": {
       "href": "./tc20160219fji-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122073af835facbc9537a4512ac9a4fb8c991ceac4275799929238214fc86056256d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1048,
-      "file:checksum": "12208dc98dbb4bd478f05a3e5edbb607d0286a5fe5bbf7fd53c0dc4986e40c3e006e"
+      "file:checksum": "12208dc98dbb4bd478f05a3e5edbb607d0286a5fe5bbf7fd53c0dc4986e40c3e006e",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20160219fji-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5904,
+      "file:checksum": "122032f4659526f7f6558865fdb70cd95fd30c756301a14426af4ad3942db60e3ee6",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)."
     }
   }
 }

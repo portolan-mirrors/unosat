@@ -217,7 +217,9 @@
       "file:checksum": "1220a18447052c3f08ab68c6c2f65e44ff600401854f5be1623493b70f2a40fefc43",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Nepal, 18 August 2024 (LS20240818NPL), one GeoParquet file with the source columns."
     },
     "ls20240818npl-analysis-extent-tiles": {
       "href": "./ls20240818npl-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220b5a82482ba0bb4dbce7d300fc952996dcbeb8b3db00dcbc0061a2b0ac6ac6ba4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Nepal, 18 August 2024 (LS20240818NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122023c45a58c6cfac27f980c7dc5a0b20070f5de56aca8462a53bb3ce2ede083eef"
+      "file:checksum": "122023c45a58c6cfac27f980c7dc5a0b20070f5de56aca8462a53bb3ce2ede083eef",
+      "description": "MapLibre style for Analysis extent: Landslide, Nepal, 18 August 2024 (LS20240818NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240818npl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5395,
+      "file:checksum": "1220e3bb3eea4d0d9c1ba7ead5574e8cd000bef11f3feeba083e0e1ac5fa1ff5fd89",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Nepal, 18 August 2024 (LS20240818NPL)."
     }
   }
 }

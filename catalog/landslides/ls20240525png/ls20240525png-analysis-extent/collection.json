@@ -282,7 +282,9 @@
       "file:checksum": "1220c55f47a8bf07c8f0e7ddba6ad2c3eded8a00bf3a84bb7c9768f9e09850aa0f99",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG), one GeoParquet file with the source columns."
     },
     "ls20240525png-analysis-extent-tiles": {
       "href": "./ls20240525png-analysis-extent.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220f0c8e8ee6891a7748a5fc14c89a38fdcd9264fed252c40d30bb788315d31fea2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12204be96480e9f5914b1c400dc8d6f4ac26d34a696711fc7086035af4c01bca21f4"
+      "file:checksum": "12204be96480e9f5914b1c400dc8d6f4ac26d34a696711fc7086035af4c01bca21f4",
+      "description": "MapLibre style for Analysis extent: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240525png-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16365,
+      "file:checksum": "122001add76b5067cad5d1ff64243bb9a67469a0d2c7d1ac926e5e4868faae680502",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)."
     }
   }
 }

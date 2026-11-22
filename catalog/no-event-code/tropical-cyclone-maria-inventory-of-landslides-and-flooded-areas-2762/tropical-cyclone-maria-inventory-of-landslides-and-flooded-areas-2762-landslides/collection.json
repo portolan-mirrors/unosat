@@ -207,7 +207,9 @@
       "proj:code": "EPSG:32620",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas, one GeoParquet file with the source columns."
     },
     "tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides-tiles": {
       "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.pmtiles",
@@ -216,7 +218,9 @@
       "file:checksum": "12201d83496b29eeb00eb6870fee603e946722099163ccdd68d232be1612dceb6d97",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -227,7 +231,19 @@
       ],
       "title": "Landslides",
       "file:size": 696,
-      "file:checksum": "1220450914825279b25d0d5b039e71ed148522ebc919562d382c610b27d809edd077"
+      "file:checksum": "1220450914825279b25d0d5b039e71ed148522ebc919562d382c610b27d809edd077",
+      "description": "MapLibre style for Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 26008,
+      "file:checksum": "1220fae31d3d76e3d3fdde1f503db919b05ca82ff0346f3933881b45aca01a315fe7",
+      "title": "Thumbnail",
+      "description": "Preview image of Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas."
     }
   }
 }

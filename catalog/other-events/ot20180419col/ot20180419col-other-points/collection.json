@@ -310,7 +310,9 @@
       "file:checksum": "12205b20f8231bbfbf637b8059b17c65e974fd5cd146b78fb637a93a546218ac4a2f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Event, Colombia, 19 April 2018 (OT20180419COL), one GeoParquet file with the source columns."
     },
     "ot20180419col-other-points-tiles": {
       "href": "./ot20180419col-other-points.pmtiles",
@@ -319,7 +321,9 @@
       "file:checksum": "12205a2f78a5ed7e5d59b61e279cdb62d4d41629fddf89d23ebeb1d4c523b103fc68",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Event, Colombia, 19 April 2018 (OT20180419COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -330,7 +334,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220e843106048862505d4f0b5ff47c8bb0d630bf691a7ac3230d653035249b30db7"
+      "file:checksum": "1220e843106048862505d4f0b5ff47c8bb0d630bf691a7ac3230d653035249b30db7",
+      "description": "MapLibre style for Other points: Event, Colombia, 19 April 2018 (OT20180419COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ot20180419col-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4955,
+      "file:checksum": "1220ce2b3696b484a3bf1623459dc742c2a1b77a895c874bb9e89ac46b5aeb7faef0",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Event, Colombia, 19 April 2018 (OT20180419COL)."
     }
   }
 }

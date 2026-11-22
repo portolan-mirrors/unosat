@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN): 12 features merged from 12 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20221121idn-analysis-extent.parquet | 5.4 KB | 12200670f5a3... |
 | ./eq20221121idn-analysis-extent.pmtiles | 37.1 KB | 1220278f49d0... |
 | ./styles/default.json | 671 B | 12202fca7dc6... |
+| ./eq20221121idn-analysis-extent.thumb.jpg | 11.0 KB | 12200b88caa5... |
 
 ## Quick Start
 

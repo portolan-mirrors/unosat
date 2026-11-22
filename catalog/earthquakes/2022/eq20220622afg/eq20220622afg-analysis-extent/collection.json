@@ -217,7 +217,9 @@
       "file:checksum": "1220281bc8103f3f7be6aa3c719fb295b10e5fdd1c5399a697e642457510f2cde8ae",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG), one GeoParquet file with the source columns."
     },
     "eq20220622afg-analysis-extent-tiles": {
       "href": "./eq20220622afg-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220766d358494a22812eaa48424d52b35b1c51f5349f36abc0d119bd7f7ed3f8bb4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122034d44f87c2597618a7281e05b6696595397cecb514a6dc52759de34f16db8685"
+      "file:checksum": "122034d44f87c2597618a7281e05b6696595397cecb514a6dc52759de34f16db8685",
+      "description": "MapLibre style for Analysis extent: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20220622afg-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9418,
+      "file:checksum": "1220b3af61608a100ce1745409b590328b9fb86268f4ab3ed6de0a123f236907dba1",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG)."
     }
   }
 }

@@ -262,7 +262,9 @@
       "file:checksum": "1220a3f4ca8789ef3ad50e62022041d15d4386999ede78ec450c28d76aa77e2e01a8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Landslide, Indonesia, 12 May 2024 (LS20240512IDN), one GeoParquet file with the source columns."
     },
     "ls20240512idn-damage-sites-tiles": {
       "href": "./ls20240512idn-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220e962fdfb9435db4672fdd9a097fa2a0b629b36f33a04f67af5a31fcbedff79db",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Landslide, Indonesia, 12 May 2024 (LS20240512IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220f65326ca7517ec9b4ad985bffcbdcc78dee60ef7d082b10bd84730e9b8c15883"
+      "file:checksum": "1220f65326ca7517ec9b4ad985bffcbdcc78dee60ef7d082b10bd84730e9b8c15883",
+      "description": "MapLibre style for Damage sites: Landslide, Indonesia, 12 May 2024 (LS20240512IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240512idn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4888,
+      "file:checksum": "1220ad1e57f12b79e83d6d1e493ea5930c30232ebcbced6729d5e3cf0f5201c7a0bf",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)."
     }
   }
 }

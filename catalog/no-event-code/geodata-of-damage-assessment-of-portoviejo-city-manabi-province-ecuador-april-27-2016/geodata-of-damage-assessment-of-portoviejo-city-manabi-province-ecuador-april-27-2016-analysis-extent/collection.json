@@ -298,7 +298,9 @@
       "file:checksum": "122031876452c7afeacf85de584642a8a72fbcf800600635522866e2c67af61a97bd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador, one GeoParquet file with the source columns."
     },
     "geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent-tiles": {
       "href": "./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent.pmtiles",
@@ -307,7 +309,9 @@
       "file:checksum": "12205b4a3215000e2f16afe541229bfefff87cb11b46c94c220b1b4ef1eeedc07ab2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -318,7 +322,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 743,
-      "file:checksum": "1220d44fb91b55a7b935eae5339795573da019803bf944c80604a6631655cffbfb04"
+      "file:checksum": "1220d44fb91b55a7b935eae5339795573da019803bf944c80604a6631655cffbfb04",
+      "description": "MapLibre style for Analysis extent: Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2431,
+      "file:checksum": "1220f99fe755e87807806891b3f200964308e85b7008d9562f7dec844f942a44f485",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador."
     }
   }
 }

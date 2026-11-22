@@ -1,5 +1,5 @@
 # Water extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Myanmar, 12 September 2024 (FL20240912MMR): 11 features merged from 11 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240912mmr-water-extent.parquet | 384.6 MB | 1220f0daef64... |
 | ./fl20240912mmr-water-extent.pmtiles | 54.3 MB | 122022f7b12e... |
 | ./styles/default.json | 887 B | 1220b4a2172b... |
+| ./fl20240912mmr-water-extent.thumb.jpg | 11.6 KB | 1220c6bc150f... |
 
 ## Quick Start
 

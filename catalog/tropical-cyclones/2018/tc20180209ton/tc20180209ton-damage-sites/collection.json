@@ -216,7 +216,9 @@
       "file:checksum": "122090e067ed13bbb65172e7c8d2cab6ba9a8866e060afc45620265c38cbd311dc1b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON), one GeoParquet file with the source columns."
     },
     "tc20180209ton-damage-sites-tiles": {
       "href": "./tc20180209ton-damage-sites.pmtiles",
@@ -225,7 +227,9 @@
       "file:checksum": "122089b38a45f28b0dd0819597d7e5734a65ff3637de145dfe615fb98028e09d32f0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -236,7 +240,19 @@
       ],
       "title": "Damage sites by Main_Damag",
       "file:size": 968,
-      "file:checksum": "122008fb9eab5e736d449c2a486c7f729c4f62e2aaa9e3bcbaea5dc5d74850e2b9e2"
+      "file:checksum": "122008fb9eab5e736d449c2a486c7f729c4f62e2aaa9e3bcbaea5dc5d74850e2b9e2",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20180209ton-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11374,
+      "file:checksum": "1220ee9399376d5554d9a8a09c3a6b59836a61d20d7dcb5e5fdb61096d51f0cae34b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)."
     }
   }
 }

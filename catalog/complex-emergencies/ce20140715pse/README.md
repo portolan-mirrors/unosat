@@ -1,5 +1,5 @@
 # Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT geodata for Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE), from 17 datasets on the Humanitarian Data Exchange. HDX describes the event:
 

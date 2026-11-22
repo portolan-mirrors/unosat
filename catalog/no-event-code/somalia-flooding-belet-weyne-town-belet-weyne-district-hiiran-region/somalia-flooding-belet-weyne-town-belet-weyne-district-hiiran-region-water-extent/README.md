@@ -1,5 +1,5 @@
 # Water extent: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region: 52,683 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.parquet | 11.1 MB | 1220891d949f... |
 | ./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.pmtiles | 4.8 MB | 1220f12d4d81... |
 | ./styles/default.json | 934 B | 1220f06bdb2d... |
+| ./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.thumb.jpg | 38.8 KB | 122053ae83e3... |
 
 ## Quick Start
 

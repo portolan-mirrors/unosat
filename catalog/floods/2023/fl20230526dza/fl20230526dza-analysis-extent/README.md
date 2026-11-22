@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Algeria, 26 May 2023 (FL20230526DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230526dza/fl20230526dza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230526dza/fl20230526dza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Algeria, 26 May 2023 (FL20230526DZA): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230526dza-analysis-extent.parquet | 4.8 KB | 12200449f4f1... |
 | ./fl20230526dza-analysis-extent.pmtiles | 34.9 KB | 1220042713e9... |
 | ./styles/default.json | 671 B | 12202c97cc4a... |
+| ./fl20230526dza-analysis-extent.thumb.jpg | 10.8 KB | 1220a060cf29... |
 
 ## Quick Start
 

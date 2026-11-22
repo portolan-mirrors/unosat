@@ -229,7 +229,9 @@
       "file:checksum": "1220aec06d4dc8184fb93bcc7bd26abfcb306398f0172f0d140f331fa71f7b296588",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL), one GeoParquet file with the source columns."
     },
     "tc20201111phl-other-polygons-tiles": {
       "href": "./tc20201111phl-other-polygons.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220d81e314081dc9bd9f99b2f290b83385dd3fa820df94c2e2ea13fc231b92c4dc4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220139aaa13aaa00ad090c07db1537e89783b9db76d137caa4b3342745a1308db3f"
+      "file:checksum": "1220139aaa13aaa00ad090c07db1537e89783b9db76d137caa4b3342745a1308db3f",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201111phl-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8634,
+      "file:checksum": "122045ef7e2bfd777e505a36d7c893f520ed7e0343f71434f23fe3ee7687358cf0b2",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)."
     }
   }
 }

@@ -198,7 +198,9 @@
       "file:checksum": "1220bdecead75e25ec17b4f91d3165d848b6f7de8de67d0e903d7ff68040ba4bab3a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG), one GeoParquet file with the source columns."
     },
     "ls20180712afg-analysis-extent-tiles": {
       "href": "./ls20180712afg-analysis-extent.pmtiles",
@@ -207,7 +209,9 @@
       "file:checksum": "122012d42ca987397a9b70ad21d51bf478502cc756f1248018597957388680ebddfb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -218,7 +222,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220d9d993bb871103b7b34d59a6fc8bb73d1981db83cf7a258a0028210a8aa392c8"
+      "file:checksum": "1220d9d993bb871103b7b34d59a6fc8bb73d1981db83cf7a258a0028210a8aa392c8",
+      "description": "MapLibre style for Analysis extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20180712afg-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8695,
+      "file:checksum": "1220178a20727404d944e20c63b4cd21607efe338cf8cb26231f3ec52dd72eb9c598",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)."
     }
   }
 }

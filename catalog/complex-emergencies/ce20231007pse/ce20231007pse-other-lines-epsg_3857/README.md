@@ -1,5 +1,5 @@
 # Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE): 187,625 features merged from 4 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20231007pse-other-lines-epsg_3857.parquet | 5.5 MB | 1220f97694c8... |
 | ./ce20231007pse-other-lines-epsg_3857.pmtiles | 11.1 MB | 1220aa64ef64... |
 | ./styles/default.json | 411 B | 12200c93a529... |
+| ./ce20231007pse-other-lines-epsg_3857.thumb.jpg | 27.9 KB | 122090e53dcf... |
 
 ## Quick Start
 

@@ -274,7 +274,9 @@
       "file:checksum": "12208ec8d3fc2b15f83fe6d7eca72b06496f4b989d02054e104438136a40ca4508a5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Niger, 4 October 2022 (FL20221004NER), one GeoParquet file with the source columns."
     },
     "fl20221004ner-water-extent-tiles": {
       "href": "./fl20221004ner-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220ca0fb0e900cac0142ce07b62b5681d5324cd37fbb8a5414309333132a3e47532",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Niger, 4 October 2022 (FL20221004NER) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122030dd72785ae6587a6e7039939fe0a41319bff8ec39cb664e9c80709ee124f9b4"
+      "file:checksum": "122030dd72785ae6587a6e7039939fe0a41319bff8ec39cb664e9c80709ee124f9b4",
+      "description": "MapLibre style for Water extent: Flood, Niger, 4 October 2022 (FL20221004NER); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20221004ner-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 30885,
+      "file:checksum": "1220299c67b3cc7ca5cd9045d3a3a72e8b608b3a912452dff3a1808098dd49238ffc",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Niger, 4 October 2022 (FL20221004NER)."
     }
   }
 }

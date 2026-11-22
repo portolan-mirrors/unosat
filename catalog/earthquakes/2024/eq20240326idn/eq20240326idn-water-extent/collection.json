@@ -274,7 +274,9 @@
       "file:checksum": "1220906c24fbadbaec6cd685855fea1c9f6453493f45124c9a44dc3161e2c8b135c7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN), one GeoParquet file with the source columns."
     },
     "eq20240326idn-water-extent-tiles": {
       "href": "./eq20240326idn-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220114908954f86477899b247368b4d6b5292e723c3cc6b4a09e17051658ccd46e0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122072b22d02de0dd56d7b38a295994fb70029f9e203213b21cb7ebfa286cb36c563"
+      "file:checksum": "122072b22d02de0dd56d7b38a295994fb70029f9e203213b21cb7ebfa286cb36c563",
+      "description": "MapLibre style for Water extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20240326idn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 36582,
+      "file:checksum": "12206276c84643cf0256ba63c51edc0c88970260a3da06ffcfd4e91adf511f1572eb",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN)."
     }
   }
 }

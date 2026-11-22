@@ -1,5 +1,5 @@
 # Water extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251126idn/fl20251126idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251126idn/fl20251126idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Indonesia, 26 November 2025 (FL20251126IDN): 7,622 features merged from 6 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20251126idn-water-extent.parquet | 85.9 MB | 1220b6598b15... |
 | ./fl20251126idn-water-extent.pmtiles | 18.1 MB | 1220911988e8... |
 | ./styles/default.json | 1.0 KB | 12208e000833... |
+| ./fl20251126idn-water-extent.thumb.jpg | 10.9 KB | 12208cf19e6f... |
 
 ## Quick Start
 

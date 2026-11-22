@@ -1,5 +1,5 @@
 # Water extent: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD): 442 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -40,6 +40,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131218ssd-water-extent.parquet | 230.4 KB | 1220e6795608... |
 | ./ce20131218ssd-water-extent.pmtiles | 124.2 KB | 122022a5bda6... |
 | ./styles/default.json | 652 B | 122048aa97f0... |
+| ./ce20131218ssd-water-extent.thumb.jpg | 22.1 KB | 1220deb2364c... |
 
 ## Quick Start
 

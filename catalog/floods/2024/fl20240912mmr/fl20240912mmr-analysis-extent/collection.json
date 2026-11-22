@@ -229,7 +229,9 @@
       "file:checksum": "12209adebbf72c1766731a82449c9da174ece7285559e68be5623dd8aaddb19f2875",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR), one GeoParquet file with the source columns."
     },
     "fl20240912mmr-analysis-extent-tiles": {
       "href": "./fl20240912mmr-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220e9ba5dade736acda127546f321115f9a53f196f5dfa991511733397626a51d0c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12209e3f6f4c423d723936feeba31b82a6addee14ee28d074ec503857fd3a4ad0ab5"
+      "file:checksum": "12209e3f6f4c423d723936feeba31b82a6addee14ee28d074ec503857fd3a4ad0ab5",
+      "description": "MapLibre style for Analysis extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240912mmr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13367,
+      "file:checksum": "12200b73544ef38653fc8a8ab13e40065869e508334299d7b01f8b30c78ff5e38876",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage areas: Volcano, Guatemala, 5 June 2018 (VO20180605GTM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20180605gtm/vo20180605gtm-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20180605gtm/vo20180605gtm-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Volcano, Guatemala, 5 June 2018 (VO20180605GTM): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20180605gtm-damage-areas.parquet | 40.1 KB | 1220079ed2e7... |
 | ./vo20180605gtm-damage-areas.pmtiles | 61.3 KB | 122086b53e4c... |
 | ./styles/default.json | 875 B | 1220a6b7ca1e... |
+| ./vo20180605gtm-damage-areas.thumb.jpg | 12.4 KB | 12208567688d... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Analysis extent: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/vo20211025vut-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/vo20211025vut-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Volcano, Vanuatu, 25 October 2021 (VO20211025VUT): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20211025vut-analysis-extent.parquet | 39.0 KB | 1220200b5c71... |
 | ./vo20211025vut-analysis-extent.pmtiles | 66.1 KB | 122020bf277e... |
 | ./styles/default.json | 671 B | 1220b70a058d... |
+| ./vo20211025vut-analysis-extent.thumb.jpg | 12.3 KB | 122079f78673... |
 
 ## Quick Start
 

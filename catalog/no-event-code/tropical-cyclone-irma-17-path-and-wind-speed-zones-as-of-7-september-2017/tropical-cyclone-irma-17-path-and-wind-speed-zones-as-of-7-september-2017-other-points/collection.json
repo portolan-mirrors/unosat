@@ -205,7 +205,9 @@
       "file:checksum": "1220f17c16e432c3fdbc5e599abc7b37d22066eb81f0079ab4ef5d5d84196634e48f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones, one GeoParquet file with the source columns."
     },
     "tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points-tiles": {
       "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points.pmtiles",
@@ -214,7 +216,9 @@
       "file:checksum": "1220814c7326599da65d41e64d8ca8b7756692d2a51653d3c639e43734c9bb553b12",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -225,7 +229,19 @@
       ],
       "title": "Other points",
       "file:size": 755,
-      "file:checksum": "12203771289de8c4061c444f8ccb86313942d9fbe300271a241d9e576da955ca2d3b"
+      "file:checksum": "12203771289de8c4061c444f8ccb86313942d9fbe300271a241d9e576da955ca2d3b",
+      "description": "MapLibre style for Other points: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4153,
+      "file:checksum": "1220dbdb7b50228a65327709c5d0ee7ca82d441cdfab4aac972a8835a7e421b3ef85",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones."
     }
   }
 }

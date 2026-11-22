@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL): 70,648 features merged from 6 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20141204phl-water-extent.parquet | 14.7 MB | 122070a08492... |
 | ./tc20141204phl-water-extent.pmtiles | 7.9 MB | 1220fa345076... |
 | ./styles/default.json | 900 B | 1220e929dfa2... |
+| ./tc20141204phl-water-extent.thumb.jpg | 9.8 KB | 1220dba5af7e... |
 
 ## Quick Start
 

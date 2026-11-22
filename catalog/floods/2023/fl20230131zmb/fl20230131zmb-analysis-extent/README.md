@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Zambia, 31 January 2023 (FL20230131ZMB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230131zmb/fl20230131zmb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230131zmb/fl20230131zmb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Zambia, 31 January 2023 (FL20230131ZMB): 12 features merged from 12 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230131zmb-analysis-extent.parquet | 1.7 MB | 12208240dcd4... |
 | ./fl20230131zmb-analysis-extent.pmtiles | 18.3 MB | 12209d5ba352... |
 | ./styles/default.json | 671 B | 1220964ca1f0... |
+| ./fl20230131zmb-analysis-extent.thumb.jpg | 32.1 KB | 12206471090c... |
 
 ## Quick Start
 

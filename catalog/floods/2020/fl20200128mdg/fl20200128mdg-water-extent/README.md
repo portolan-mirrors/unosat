@@ -1,5 +1,5 @@
 # Water extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200128mdg/fl20200128mdg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200128mdg/fl20200128mdg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Madagascar, 28 January 2020 (FL20200128MDG): 63,513 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200128mdg-water-extent.parquet | 3.6 MB | 12204d526749... |
 | ./fl20200128mdg-water-extent.pmtiles | 24.4 MB | 12204679a953... |
 | ./styles/default.json | 887 B | 1220e7e83f3a... |
+| ./fl20200128mdg-water-extent.thumb.jpg | 14.3 KB | 122074acb80d... |
 
 ## Quick Start
 

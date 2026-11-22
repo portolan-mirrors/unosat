@@ -275,7 +275,9 @@
       "file:checksum": "1220f7d24bda1ebdc9b30bbbf120614618158252e08607dd05f66cb469232bff77b9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Ukraine, 6 June 2023 (FL20230606UKR), one GeoParquet file with the source columns."
     },
     "fl20230606ukr-analysis-extent-tiles": {
       "href": "./fl20230606ukr-analysis-extent.pmtiles",
@@ -284,7 +286,9 @@
       "file:checksum": "122077439b2be9bc0b090c70859b679361f90cc55c0044fe8a585a3deb59568f3000",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Ukraine, 6 June 2023 (FL20230606UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -295,7 +299,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201206911f438e9f5698d113f9551c875db4a01a630bd87ab564f0286b5252ecd3"
+      "file:checksum": "12201206911f438e9f5698d113f9551c875db4a01a630bd87ab564f0286b5252ecd3",
+      "description": "MapLibre style for Analysis extent: Flood, Ukraine, 6 June 2023 (FL20230606UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230606ukr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 23459,
+      "file:checksum": "1220b1edf4bdfea37b6dd1a8b63c4b6689081652326292efa7b294f14438eb129e56",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Ukraine, 6 June 2023 (FL20230606UKR)."
     }
   }
 }

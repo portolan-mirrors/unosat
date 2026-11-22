@@ -205,7 +205,9 @@
       "file:checksum": "12207eac9dcd728c56638adffafb25d69cf82dfb9d3d9ecf79f52e48f362a43a273a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR), one GeoParquet file with the source columns."
     },
     "eq20230909mar-shelters-tiles": {
       "href": "./eq20230909mar-shelters.pmtiles",
@@ -214,7 +216,9 @@
       "file:checksum": "122028b008525ad7ffb0377c956a517bd26c89f927d51f1a043ec6d877f5e1eb3c4f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -225,7 +229,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "122027d0a8700fc71fb5c93c7006e98d0c371037cd385831736043e83605f5dad413"
+      "file:checksum": "122027d0a8700fc71fb5c93c7006e98d0c371037cd385831736043e83605f5dad413",
+      "description": "MapLibre style for Shelters: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230909mar-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5183,
+      "file:checksum": "12209d9213981dadb04ef2de5739e762c8002e128daf59057266f2991c7f410c2c76",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)."
     }
   }
 }

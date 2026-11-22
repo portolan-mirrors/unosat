@@ -274,7 +274,9 @@
       "file:checksum": "1220655d1650db4bab3a3688e505f2948b40772a99a6631deb02d4791817147a9c7e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Uganda, 3 August 2022 (FL20220803UGA), one GeoParquet file with the source columns."
     },
     "fl20220803uga-water-extent-tiles": {
       "href": "./fl20220803uga-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122099dfc783ed5c976648c2782f4a03edc292cf332fba245f973feb64f222d0f934",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Uganda, 3 August 2022 (FL20220803UGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d5786cc27ec071baf7b757a97dbcdad12854958f8c79d9de97b2a4f8c06a18ef"
+      "file:checksum": "1220d5786cc27ec071baf7b757a97dbcdad12854958f8c79d9de97b2a4f8c06a18ef",
+      "description": "MapLibre style for Water extent: Flood, Uganda, 3 August 2022 (FL20220803UGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220803uga-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10201,
+      "file:checksum": "122090579b78c450b8b12e961315b52ca1772aa36a847783add4c6718353f6a9f4ad",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Uganda, 3 August 2022 (FL20220803UGA)."
     }
   }
 }

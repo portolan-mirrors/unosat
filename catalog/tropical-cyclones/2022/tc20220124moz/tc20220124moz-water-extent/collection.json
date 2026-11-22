@@ -274,7 +274,9 @@
       "file:checksum": "1220f2d0d84cc3d12b9f5a78375907a89721f4a5bbf3443efa78615b375d40e61a62",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Mozambique, 24 January 2022 (TC20220124MOZ), one GeoParquet file with the source columns."
     },
     "tc20220124moz-water-extent-tiles": {
       "href": "./tc20220124moz-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220f6c324276e4e881d9d64e44db60de918750d0a9892e7cdcd88c8b87cce4e95db",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Mozambique, 24 January 2022 (TC20220124MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "1220a5a05ab3f4354a402420e0cd12e6960d42d0fca2d2cb6f6472e34b6d064e1f26"
+      "file:checksum": "1220a5a05ab3f4354a402420e0cd12e6960d42d0fca2d2cb6f6472e34b6d064e1f26",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Mozambique, 24 January 2022 (TC20220124MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220124moz-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14822,
+      "file:checksum": "1220b96df6b3879fa71c771a1621a9631186deda4c7efee838d8fc0b03f741da3250",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Mozambique, 24 January 2022 (TC20220124MOZ)."
     }
   }
 }

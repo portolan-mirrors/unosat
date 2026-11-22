@@ -350,7 +350,9 @@
       "file:checksum": "1220f42afedd8b45f49e221608f7c100e6cd29c91fd74cc76df125f83488ead98fcd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD), one GeoParquet file with the source columns."
     },
     "ce20131218ssd-other-lines-tiles": {
       "href": "./ce20131218ssd-other-lines.pmtiles",
@@ -359,7 +361,9 @@
       "file:checksum": "1220d0d7e4b2204f28f904c28e66f9d2da2d023c055ed27e90ecf3daa5975e693afc",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -370,7 +374,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220b240786dd7bfa345ffa680480a75fdc8b6b0a52f517bc4e1d4162b57df0af3a4"
+      "file:checksum": "1220b240786dd7bfa345ffa680480a75fdc8b6b0a52f517bc4e1d4162b57df0af3a4",
+      "description": "MapLibre style for Other lines: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131218ssd-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4514,
+      "file:checksum": "1220eac979451ef02642a16097329ff6ec20cb8bd0e54bd12bf65ae76db0d1e2a333",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)."
     }
   }
 }

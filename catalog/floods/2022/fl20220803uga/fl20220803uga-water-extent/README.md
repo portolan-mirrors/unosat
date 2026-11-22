@@ -1,5 +1,5 @@
 # Water extent: Flood, Uganda, 3 August 2022 (FL20220803UGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220803uga/fl20220803uga-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220803uga/fl20220803uga-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Uganda, 3 August 2022 (FL20220803UGA): 2 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220803uga-water-extent.parquet | 217.1 KB | 1220655d1650... |
 | ./fl20220803uga-water-extent.pmtiles | 161.4 KB | 122099dfc783... |
 | ./styles/default.json | 887 B | 1220d5786cc2... |
+| ./fl20220803uga-water-extent.thumb.jpg | 10.0 KB | 122090579b78... |
 
 ## Quick Start
 

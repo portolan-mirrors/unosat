@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB): 12 features merged from 12 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20260408slb-analysis-extent.parquet | 226.2 KB | 122012cbe2df... |
 | ./tc20260408slb-analysis-extent.pmtiles | 121.7 KB | 12207b4a39ef... |
 | ./styles/default.json | 671 B | 1220b96f0ae0... |
+| ./tc20260408slb-analysis-extent.thumb.jpg | 11.2 KB | 1220e480faed... |
 
 ## Quick Start
 

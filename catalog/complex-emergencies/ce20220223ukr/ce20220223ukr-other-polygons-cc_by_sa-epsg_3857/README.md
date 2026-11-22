@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-other-polygons-cc_by_sa-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR): 2 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -39,6 +39,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20220223ukr-other-polygons-cc_by_sa-epsg_3857.parquet | 11.5 KB | 12200d1cd0ee... |
 | ./ce20220223ukr-other-polygons-cc_by_sa-epsg_3857.pmtiles | 26.3 KB | 12203c867587... |
 | ./styles/default.json | 683 B | 1220089d43b0... |
+| ./ce20220223ukr-other-polygons-cc_by_sa-epsg_3857.thumb.jpg | 7.1 KB | 1220596b050f... |
 
 ## Quick Start
 

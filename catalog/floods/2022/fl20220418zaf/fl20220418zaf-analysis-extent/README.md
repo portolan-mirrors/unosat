@@ -1,5 +1,5 @@
 # Analysis extent: Flood, South Africa, 18 April 2022 (FL20220418ZAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220418zaf/fl20220418zaf-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220418zaf/fl20220418zaf-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, South Africa, 18 April 2022 (FL20220418ZAF): 16 features merged from 16 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220418zaf-analysis-extent.parquet | 284.0 MB | 1220d62e1ba4... |
 | ./fl20220418zaf-analysis-extent.pmtiles | 4.7 MB | 122080eadae5... |
 | ./styles/default.json | 671 B | 122000487b59... |
+| ./fl20220418zaf-analysis-extent.thumb.jpg | 9.2 KB | 122055f08c4c... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230327som/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230327som/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT geodata for Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM), from 14 datasets on the Humanitarian Data Exchange. HDX describes the event:
 

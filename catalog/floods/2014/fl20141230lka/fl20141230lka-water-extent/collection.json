@@ -269,7 +269,9 @@
       "file:checksum": "12205c938cad14bc1b5814c3352d51f2a8da0525ef72774ec9000a50fb690c82f0f1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Sri Lanka, 30 December 2014 (FL20141230LKA), one GeoParquet file with the source columns."
     },
     "fl20141230lka-water-extent-tiles": {
       "href": "./fl20141230lka-water-extent.pmtiles",
@@ -278,7 +280,9 @@
       "file:checksum": "122009e69da42f950655d31c47870b90025fda14193afccd96b3e54f94c4a6a1de96",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Sri Lanka, 30 December 2014 (FL20141230LKA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -289,7 +293,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 996,
-      "file:checksum": "122004ef25116a7804daf2acd97a2cc755979f00dc08772825ff3a6c490f8aa1194a"
+      "file:checksum": "122004ef25116a7804daf2acd97a2cc755979f00dc08772825ff3a6c490f8aa1194a",
+      "description": "MapLibre style for Water extent: Flood, Sri Lanka, 30 December 2014 (FL20141230LKA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20141230lka-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 28387,
+      "file:checksum": "1220b0f5fde8fc82571a968cee5f84ea2c5d78d8c54684ea354718c42412317d1056",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Sri Lanka, 30 December 2014 (FL20141230LKA)."
     }
   }
 }

@@ -197,7 +197,9 @@
       "proj:code": "EPSG:32645",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL), one GeoParquet file with the source columns."
     },
     "eq20150425npl-other-lines-tiles": {
       "href": "./eq20150425npl-other-lines.pmtiles",
@@ -206,7 +208,9 @@
       "file:checksum": "1220d84cc35d9eb94faa3c5df11e1c65582c1690e9467fed4f0094c563f4949c7155",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -217,7 +221,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220e4aeddf878c446ee958123a98db29814449f52096d8e87a5e3da36c11d40ac79"
+      "file:checksum": "1220e4aeddf878c446ee958123a98db29814449f52096d8e87a5e3da36c11d40ac79",
+      "description": "MapLibre style for Other lines: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20150425npl-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4204,
+      "file:checksum": "1220196ef5673af2e0239765548403cb089216994dc569b999dad16de87d76ed4bde",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)."
     }
   }
 }

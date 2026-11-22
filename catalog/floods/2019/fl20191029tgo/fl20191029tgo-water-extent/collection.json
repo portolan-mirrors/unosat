@@ -274,7 +274,9 @@
       "file:checksum": "122018ab4a6ac4091788db4e551cbeab8679c12d4c1882cb6eb7a61c2766a45b01d5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Togo, 29 October 2019 (FL20191029TGO), one GeoParquet file with the source columns."
     },
     "fl20191029tgo-water-extent-tiles": {
       "href": "./fl20191029tgo-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12204205fdc65b6506d5a15e03e65648287fe7d471d3b411e199b3b9babb9d255e9b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Togo, 29 October 2019 (FL20191029TGO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220b71ac4ceaaffa744efc8cb7c9255bebbd9c7e6b8828496ea9edf03ba7c630da2"
+      "file:checksum": "1220b71ac4ceaaffa744efc8cb7c9255bebbd9c7e6b8828496ea9edf03ba7c630da2",
+      "description": "MapLibre style for Water extent: Flood, Togo, 29 October 2019 (FL20191029TGO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191029tgo-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15546,
+      "file:checksum": "1220b096f12475ac50c1035be387a0056a3546c85efae0039dd5c36bc3b7431ef655",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Togo, 29 October 2019 (FL20191029TGO)."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20190815sdn-water-extent.parquet",
         "fl20190815sdn-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:41.580482Z",
+      "breaking": false,
+      "assets": {
+        "fl20190815sdn-water-extent.parquet": {
+          "sha256": "2fe71da6ff0494cd54fae9e953354b39445bc1fd8eb3238c564166be8e76cc62",
+          "size_bytes": 57729331,
+          "href": "floods/2019/fl20190815sdn/fl20190815sdn-water-extent/fl20190815sdn-water-extent.parquet",
+          "source_path": "fl20190815sdn-water-extent.parquet",
+          "source_mtime": 1795333292.123129,
+          "mtime": 1795333292.123129,
+          "feature_count": 5814,
+          "schema_fingerprint": "5dc7cf688091354d"
+        },
+        "fl20190815sdn-water-extent.pmtiles": {
+          "sha256": "13f87729b8a410078cac3c256ce8421e32df7a947bbbe56ca1395f89ea50044a",
+          "size_bytes": 21422468,
+          "href": "floods/2019/fl20190815sdn/fl20190815sdn-water-extent/fl20190815sdn-water-extent.pmtiles",
+          "mtime": 1795334097.8874736
+        },
+        "fl20190815sdn-water-extent.thumb.jpg": {
+          "sha256": "faba35aba915bcde12135a5d9c8b21e36d27b228fe15fdf0516dc13d46c573a1",
+          "size_bytes": 16345,
+          "href": "floods/2019/fl20190815sdn/fl20190815sdn-water-extent/fl20190815sdn-water-extent.thumb.jpg",
+          "mtime": 1795343621.4359593
+        }
+      },
+      "changes": [
+        "fl20190815sdn-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20190815sdn-water-extent.thumb.jpg"
     }
   ]
 }

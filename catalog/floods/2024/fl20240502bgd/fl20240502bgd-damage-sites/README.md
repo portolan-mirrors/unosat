@@ -1,5 +1,5 @@
 # Damage sites: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/fl20240502bgd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/fl20240502bgd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Bangladesh, 2 May 2024 (FL20240502BGD): 33,857 features merged from 39 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240502bgd-damage-sites.parquet | 231.3 KB | 12207dd1a6ea... |
 | ./fl20240502bgd-damage-sites.pmtiles | 236.5 KB | 1220f1679caf... |
 | ./styles/default.json | 997 B | 12203ddb5b61... |
+| ./fl20240502bgd-damage-sites.thumb.jpg | 6.1 KB | 1220a7d0627f... |
 
 ## Quick Start
 

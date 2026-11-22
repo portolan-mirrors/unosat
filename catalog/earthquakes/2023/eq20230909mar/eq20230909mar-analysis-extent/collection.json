@@ -217,7 +217,9 @@
       "file:checksum": "122066e8c54ce63ca9f9b59326915813a250038edc1dc63e71b0abcb921ecb97d247",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR), one GeoParquet file with the source columns."
     },
     "eq20230909mar-analysis-extent-tiles": {
       "href": "./eq20230909mar-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220a85ac003e5f27942d3430514f364c9a975c55d83af231afc17a4f835c37e7e11",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122019da58c66fe2bac294c46af18088887269598f05e58e3969301abc09b57d047e"
+      "file:checksum": "122019da58c66fe2bac294c46af18088887269598f05e58e3969301abc09b57d047e",
+      "description": "MapLibre style for Analysis extent: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230909mar-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8283,
+      "file:checksum": "122096f28ab84552fff0d98d154cb50770f0b549146c8384601c3e1e015ec4990005",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)."
     }
   }
 }

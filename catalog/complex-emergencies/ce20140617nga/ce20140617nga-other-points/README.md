@@ -1,5 +1,5 @@
 # Other points: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA): 23,573 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -41,6 +41,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140617nga-other-points.parquet | 543.9 KB | 1220c95419b4... |
 | ./ce20140617nga-other-points.pmtiles | 429.9 KB | 1220ad0024e8... |
 | ./styles/default.json | 695 B | 1220c6cd9b00... |
+| ./ce20140617nga-other-points.thumb.jpg | 17.0 KB | 12201838c677... |
 
 ## Quick Start
 

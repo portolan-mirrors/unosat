@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-damage-areas-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-damage-areas-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 1,936 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32637, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -45,6 +45,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130604syr-damage-areas-cc_by_sa.parquet | 35.1 KB | 1220ac336728... |
 | ./ce20130604syr-damage-areas-cc_by_sa.pmtiles | 217.6 KB | 12209901fa68... |
 | ./styles/default.json | 988 B | 1220eca8d598... |
+| ./ce20130604syr-damage-areas-cc_by_sa.thumb.jpg | 31.0 KB | 1220f755ef6b... |
 
 ## Quick Start
 

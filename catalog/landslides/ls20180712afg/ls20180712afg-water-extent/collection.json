@@ -218,7 +218,9 @@
       "file:checksum": "12201eea821764ade8275570e85960ab4b967adb1d8a80adcc9a7146a4869884553c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG), one GeoParquet file with the source columns."
     },
     "ls20180712afg-water-extent-tiles": {
       "href": "./ls20180712afg-water-extent.pmtiles",
@@ -227,7 +229,9 @@
       "file:checksum": "12207081c813febd038510fcc7f964a100b5726812c4ae43523862c09c186139664d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -238,7 +242,19 @@
       ],
       "title": "Water extent by Water_Clas",
       "file:size": 879,
-      "file:checksum": "1220e0ae28c91c54e6e29516db4581eb2f59b989021cbbacb06ec2e20b969ce2229c"
+      "file:checksum": "1220e0ae28c91c54e6e29516db4581eb2f59b989021cbbacb06ec2e20b969ce2229c",
+      "description": "MapLibre style for Water extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20180712afg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6952,
+      "file:checksum": "1220718f44860e53b52519d9668f2494d6a5239e266631c8699312a5697763eb2221",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)."
     }
   }
 }

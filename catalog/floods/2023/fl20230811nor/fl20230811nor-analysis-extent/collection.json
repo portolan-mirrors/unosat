@@ -253,7 +253,9 @@
       "file:checksum": "1220b0334eb9c2702064a36d9931aa9e4020dac8f57806ac1b9324bfecb41ffce49b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Norway, 11 August 2023 (FL20230811NOR), one GeoParquet file with the source columns."
     },
     "fl20230811nor-analysis-extent-tiles": {
       "href": "./fl20230811nor-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220d0b4a404cf06ff2df2117e718bb3faaf723c2672f95478c6f497213da5bbe622",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Norway, 11 August 2023 (FL20230811NOR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220ae8645da9ba04818ef2698f5e7c719df24959cdef7cff78d76b9a390aa1fd4e9"
+      "file:checksum": "1220ae8645da9ba04818ef2698f5e7c719df24959cdef7cff78d76b9a390aa1fd4e9",
+      "description": "MapLibre style for Analysis extent: Flood, Norway, 11 August 2023 (FL20230811NOR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230811nor-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5037,
+      "file:checksum": "122073f0be9df9f508e67a0f780bc2f4ef6e789b55fbd4224181c2700c2ae1ac2c0d",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Norway, 11 August 2023 (FL20230811NOR)."
     }
   }
 }

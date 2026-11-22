@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20210814hti-analysis-extent.parquet",
         "eq20210814hti-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.749982Z",
+      "breaking": false,
+      "assets": {
+        "eq20210814hti-analysis-extent.parquet": {
+          "sha256": "b99720346879c4dd16178cae3dae0c94bf95b891f32ae9b0484c3a6733b58af7",
+          "size_bytes": 82447,
+          "href": "earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/eq20210814hti-analysis-extent.parquet",
+          "source_path": "eq20210814hti-analysis-extent.parquet",
+          "source_mtime": 1795333231.3999584,
+          "mtime": 1795333231.3999584,
+          "feature_count": 7,
+          "schema_fingerprint": "9f5eddae93444454"
+        },
+        "eq20210814hti-analysis-extent.pmtiles": {
+          "sha256": "7450bbc58d35d3dea3e5f515fc1228ac3349c6779fc361f10bac2586815b0e76",
+          "size_bytes": 63584,
+          "href": "earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/eq20210814hti-analysis-extent.pmtiles",
+          "mtime": 1795334070.346861
+        },
+        "eq20210814hti-analysis-extent.thumb.jpg": {
+          "sha256": "2ba1c9236d621defc51446e6e9a86e6f3b573d608e3d1c1354317382afa084cb",
+          "size_bytes": 5309,
+          "href": "earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/eq20210814hti-analysis-extent.thumb.jpg",
+          "mtime": 1795343616.7468743
+        }
+      },
+      "changes": [
+        "eq20210814hti-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20210814hti-analysis-extent.thumb.jpg"
     }
   ]
 }

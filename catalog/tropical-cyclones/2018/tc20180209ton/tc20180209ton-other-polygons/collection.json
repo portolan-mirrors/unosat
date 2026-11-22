@@ -197,7 +197,9 @@
       "file:checksum": "12203e94b86a543c3a496869efc8b5115795afeeaa0d0aa1c2c563d489f4aecdea5d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON), one GeoParquet file with the source columns."
     },
     "tc20180209ton-other-polygons-tiles": {
       "href": "./tc20180209ton-other-polygons.pmtiles",
@@ -206,7 +208,9 @@
       "file:checksum": "1220088135051135913053762176dd9670e9700804a25e94c54e698c310e3ab0fe54",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -217,7 +221,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122061156a1cdeb1de852c7e27303836b963fae07ef577a8925ddf62b1c5f4818374"
+      "file:checksum": "122061156a1cdeb1de852c7e27303836b963fae07ef577a8925ddf62b1c5f4818374",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20180209ton-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5193,
+      "file:checksum": "1220eb4d36f7960621ebee911cb1aa6e6a6ac30d8f7028fdbecce37bef45b0ce12de",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)."
     }
   }
 }

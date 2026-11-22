@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON): 628 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -46,6 +46,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20180209ton-analysis-extent.parquet | 4.4 MB | 1220bb53f7d1... |
 | ./tc20180209ton-analysis-extent.pmtiles | 542.0 KB | 12206add4069... |
 | ./styles/default.json | 671 B | 1220ba2fea5d... |
+| ./tc20180209ton-analysis-extent.thumb.jpg | 23.3 KB | 1220a229cce0... |
 
 ## Quick Start
 

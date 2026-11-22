@@ -1,5 +1,5 @@
 # Water extent: Flood, Bangladesh, 13 July 2020 (FL20200713BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200713bgd/fl20200713bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200713bgd/fl20200713bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Bangladesh, 13 July 2020 (FL20200713BGD): 134,086 features merged from 20 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200713bgd-water-extent.parquet | 876.0 MB | 1220bfd9417a... |
 | ./fl20200713bgd-water-extent.pmtiles | 205.6 MB | 12201ea2ea26... |
 | ./styles/default.json | 972 B | 122090656a1f... |
+| ./fl20200713bgd-water-extent.thumb.jpg | 27.6 KB | 12204ac71a44... |
 
 ## Quick Start
 

@@ -253,7 +253,9 @@
       "file:checksum": "12203b354a2b96cbea6033f5e31ae8cec32b0105208287d10861a36e0eceefffdb30",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Congo, 20 October 2026 (FL20261020COG), one GeoParquet file with the source columns."
     },
     "fl20261020cog-analysis-extent-tiles": {
       "href": "./fl20261020cog-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12207d201fc4447a025c5e0d580079a9eb3a1e82db458be08740efd6c2adeb9d3915",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Congo, 20 October 2026 (FL20261020COG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12209713c8f1e9ca4facc635f1f85c705ad71403c2d508d2bc7578c13a2d5ed95185"
+      "file:checksum": "12209713c8f1e9ca4facc635f1f85c705ad71403c2d508d2bc7578c13a2d5ed95185",
+      "description": "MapLibre style for Analysis extent: Flood, Congo, 20 October 2026 (FL20261020COG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261020cog-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 33695,
+      "file:checksum": "1220fd7da493346551965186c042eca5f7bb8e9bbd8da22d69176a0d7fdb61dccdad",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Congo, 20 October 2026 (FL20261020COG)."
     }
   }
 }

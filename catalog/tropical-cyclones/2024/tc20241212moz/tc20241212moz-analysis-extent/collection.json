@@ -217,7 +217,9 @@
       "file:checksum": "1220466ce25cce09996214b32dd2a51ac99439b8b145ae56f362f0c3ef6cce4943cd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ), one GeoParquet file with the source columns."
     },
     "tc20241212moz-analysis-extent-tiles": {
       "href": "./tc20241212moz-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12208e3d4a9de82bf9f686b68397a61537feafd90fb4c1807f31d519ab59e5b95bc9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12202e5717327d6881c8722d43f46f9286180dc6120639b29102657c0447010fe01b"
+      "file:checksum": "12202e5717327d6881c8722d43f46f9286180dc6120639b29102657c0447010fe01b",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20241212moz-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5155,
+      "file:checksum": "122090c0aa9cfe742e0c18ca7b83456a23cf50dc0046ab1bab7b620db07d4c4e1b6b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)."
     }
   }
 }

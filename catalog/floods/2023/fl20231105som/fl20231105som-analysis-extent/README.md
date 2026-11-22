@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Somalia, 5 November 2023 (FL20231105SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Somalia, 5 November 2023 (FL20231105SOM): 1,568 features merged from 404 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231105som-analysis-extent.parquet | 3.6 MB | 122011bb442d... |
 | ./fl20231105som-analysis-extent.pmtiles | 10.1 MB | 12204878f6af... |
 | ./styles/default.json | 671 B | 12208562dc5c... |
+| ./fl20231105som-analysis-extent.thumb.jpg | 12.9 KB | 1220c6a7772f... |
 
 ## Quick Start
 

@@ -187,7 +187,9 @@
       "file:checksum": "122029507b5934e791d24a8994b524530e83434cca06d625b02b859f0aaf37b3865b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, Mali, 31 July 2012 (CE20120731MLI), one GeoParquet file with the source columns."
     },
     "ce20120731mli-other-polygons-tiles": {
       "href": "./ce20120731mli-other-polygons.pmtiles",
@@ -196,7 +198,9 @@
       "file:checksum": "1220facbeff90516f0f7da968e854af49ae3556dee5a93e54b10c013d735c5f25164",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, Mali, 31 July 2012 (CE20120731MLI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -207,7 +211,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220685d732e22a148fa37a8463ec40969f3052cd10b978fa02a87c61d2183d9e892"
+      "file:checksum": "1220685d732e22a148fa37a8463ec40969f3052cd10b978fa02a87c61d2183d9e892",
+      "description": "MapLibre style for Other polygons: Complex emergency, Mali, 31 July 2012 (CE20120731MLI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20120731mli-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 17901,
+      "file:checksum": "1220eee9673d42fdd4b32ca42f60a5c2caa722a11104c12844d5f939236544aeda6c",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)."
     }
   }
 }

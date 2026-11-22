@@ -1,5 +1,5 @@
 # Water extent: Flood, Senegal, 22 October 2024 (FL20241022SEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241022sen/fl20241022sen-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241022sen/fl20241022sen-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Senegal, 22 October 2024 (FL20241022SEN): 26 features merged from 14 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20241022sen-water-extent.parquet | 22.3 MB | 1220bc5f6104... |
 | ./fl20241022sen-water-extent.pmtiles | 22.6 MB | 122064d8e6f5... |
 | ./styles/default.json | 1.1 KB | 12201ff5868e... |
+| ./fl20241022sen-water-extent.thumb.jpg | 26.7 KB | 1220448ee5e1... |
 
 ## Quick Start
 

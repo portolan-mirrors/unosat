@@ -1,5 +1,5 @@
 # Damage sites: Event, Thailand, 5 July 2021 (AC20210705THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ac20210705tha/ac20210705tha-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ac20210705tha/ac20210705tha-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Event, Thailand, 5 July 2021 (AC20210705THA): 328 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ac20210705tha-damage-sites.parquet | 19.3 KB | 1220bad3389e... |
 | ./ac20210705tha-damage-sites.pmtiles | 37.2 KB | 1220a73c4d99... |
 | ./styles/default.json | 1.0 KB | 122099f6a30b... |
+| ./ac20210705tha-damage-sites.thumb.jpg | 12.8 KB | 1220884d501b... |
 
 ## Quick Start
 

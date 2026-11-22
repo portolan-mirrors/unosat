@@ -271,7 +271,9 @@
       "file:checksum": "12203c9ac457fa7035b8c929d52622fd34086ffaa773331c4a178c4727c1640b0846",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB), one GeoParquet file with the source columns."
     },
     "tc20161005cub-analysis-extent-tiles": {
       "href": "./tc20161005cub-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "1220d2b1ce958912f52d00db0197f0a1cfcb3433fe86147865649bb0d655b1cdf623",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220745aa37cbccaae521ac0822f6f290a491b33ff4a93d044d0c77cb5f679011e83"
+      "file:checksum": "1220745aa37cbccaae521ac0822f6f290a491b33ff4a93d044d0c77cb5f679011e83",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161005cub-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5314,
+      "file:checksum": "122031ce2aaf1c938e2fe2b945f82d5e6b5b0fb8bfa9bfe2fc1abf6773b92d270f37",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)."
     }
   }
 }

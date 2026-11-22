@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-damage-sites-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-damage-sites-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD): 18,252 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131218ssd-damage-sites-cc_by_sa.parquet | 622.5 KB | 1220ac3ab6e9... |
 | ./ce20131218ssd-damage-sites-cc_by_sa.pmtiles | 924.6 KB | 1220418f9454... |
 | ./styles/default.json | 959 B | 12202ffebd06... |
+| ./ce20131218ssd-damage-sites-cc_by_sa.thumb.jpg | 27.7 KB | 1220eeb61959... |
 
 ## Quick Start
 

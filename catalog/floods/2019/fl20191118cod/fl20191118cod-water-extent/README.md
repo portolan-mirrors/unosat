@@ -1,5 +1,5 @@
 # Water extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191118cod/fl20191118cod-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191118cod/fl20191118cod-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD): 39 features merged from 4 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191118cod-water-extent.parquet | 436.3 KB | 12200e13d32c... |
 | ./fl20191118cod-water-extent.pmtiles | 129.1 KB | 1220b8852807... |
 | ./styles/default.json | 871 B | 122069264b35... |
+| ./fl20191118cod-water-extent.thumb.jpg | 3.0 KB | 122025a7e34f... |
 
 ## Quick Start
 

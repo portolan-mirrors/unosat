@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Mozambique, 21 January 2025 (FL20250121MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250121moz/fl20250121moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250121moz/fl20250121moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Mozambique, 21 January 2025 (FL20250121MOZ): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250121moz-analysis-extent.parquet | 7.7 MB | 12208a0cdeba... |
 | ./fl20250121moz-analysis-extent.pmtiles | 1.7 MB | 1220aa11361d... |
 | ./styles/default.json | 671 B | 12202442212d... |
+| ./fl20250121moz-analysis-extent.thumb.jpg | 29.8 KB | 1220ed572c25... |
 
 ## Quick Start
 

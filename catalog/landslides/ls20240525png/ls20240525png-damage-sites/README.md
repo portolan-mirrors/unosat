@@ -1,5 +1,5 @@
 # Damage sites: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG): 63 features merged from 7 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240525png-damage-sites.parquet | 8.8 KB | 1220d53fad71... |
 | ./ls20240525png-damage-sites.pmtiles | 24.9 KB | 12200479f9dc... |
 | ./styles/default.json | 1.0 KB | 122035c6729a... |
+| ./ls20240525png-damage-sites.thumb.jpg | 4.3 KB | 1220f10f94d5... |
 
 ## Quick Start
 

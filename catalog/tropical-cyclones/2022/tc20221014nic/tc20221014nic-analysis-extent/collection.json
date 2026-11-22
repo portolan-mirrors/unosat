@@ -253,7 +253,9 @@
       "file:checksum": "12207881e8af416f09fedde756759d8e5be3d87f6cd658f410e7e2c4859a00ebd929",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC), one GeoParquet file with the source columns."
     },
     "tc20221014nic-analysis-extent-tiles": {
       "href": "./tc20221014nic-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "122051b721152a880e16fe07dfad2369f4644e4039d39e70bee68bd639e91b4393da",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220fec2b3b1cecd91dad68f98d5065822c2325804763bb68dd1dd75e5c915859038"
+      "file:checksum": "1220fec2b3b1cecd91dad68f98d5065822c2325804763bb68dd1dd75e5c915859038",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20221014nic-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 35057,
+      "file:checksum": "1220c6519372a81834b497833f56d796023ecdea0a02fafd1e91bb87082864f3b9d5",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC)."
     }
   }
 }

@@ -217,7 +217,9 @@
       "file:checksum": "12208a1e41a6449bd793500162407821ad41094958db89390468cc8ace68fd552642",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Viet Nam, 11 December 2017 (FL20171211VNM), one GeoParquet file with the source columns."
     },
     "fl20171211vnm-other-polygons-tiles": {
       "href": "./fl20171211vnm-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12203e84e9e58bf7a731fd3a54ab82c024e25c674efa891208104201056033b84263",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Viet Nam, 11 December 2017 (FL20171211VNM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122018b6b90068f3e14432df2eff52c4846673f388040f96564892342cae8ad12caa"
+      "file:checksum": "122018b6b90068f3e14432df2eff52c4846673f388040f96564892342cae8ad12caa",
+      "description": "MapLibre style for Other polygons: Flood, Viet Nam, 11 December 2017 (FL20171211VNM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20171211vnm-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9917,
+      "file:checksum": "122062aeb17371e5484d20c7cc00b135ecf8e75478b25486991f92638c6017406482",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Viet Nam, 11 December 2017 (FL20171211VNM)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-damage-sites-cc_by_sa-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-damage-sites-cc_by_sa-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 313,512 features merged from 26 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -106,6 +106,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130604syr-damage-sites-cc_by_sa-epsg_4326.parquet | 4.6 MB | 12204f6c4598... |
 | ./ce20130604syr-damage-sites-cc_by_sa-epsg_4326.pmtiles | 4.9 MB | 12207951a3aa... |
 | ./styles/default.json | 1.0 KB | 1220742a797a... |
+| ./ce20130604syr-damage-sites-cc_by_sa-epsg_4326.thumb.jpg | 6.2 KB | 122059dc6ab5... |
 
 ## Quick Start
 

@@ -262,7 +262,9 @@
       "file:checksum": "122002d6de375bb6fbdef9855d320352d9ad99296fc51e6b5218e7298ced69f94986",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Somalia, 5 November 2023 (FL20231105SOM), one GeoParquet file with the source columns."
     },
     "fl20231105som-damage-sites-tiles": {
       "href": "./fl20231105som-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12207960993aeadbdaf7fdccbe442d441ce56d23ce7400ae6f89623eeface1e9cebb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Somalia, 5 November 2023 (FL20231105SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1047,
-      "file:checksum": "1220fd70eab3da408e58fba91db1aef230de272d10be447334110a7c3b6b472bdd6f"
+      "file:checksum": "1220fd70eab3da408e58fba91db1aef230de272d10be447334110a7c3b6b472bdd6f",
+      "description": "MapLibre style for Damage sites: Flood, Somalia, 5 November 2023 (FL20231105SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231105som-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5437,
+      "file:checksum": "12205353bc58da6f1a96dcc49f1556be5e637d4c08710ed68bb19fc404cbd7b1eedd",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Somalia, 5 November 2023 (FL20231105SOM)."
     }
   }
 }

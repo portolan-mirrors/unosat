@@ -1,5 +1,5 @@
 # Damage areas: Flood, Chad, 20 August 2024 (FL20240820TCD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/fl20240820tcd-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/fl20240820tcd-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Chad, 20 August 2024 (FL20240820TCD): 4,945 features merged from 5 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240820tcd-damage-areas.parquet | 132.8 KB | 1220189b3e68... |
 | ./fl20240820tcd-damage-areas.pmtiles | 229.4 KB | 12204985de07... |
 | ./styles/default.json | 904 B | 122007c3fc7c... |
+| ./fl20240820tcd-damage-areas.thumb.jpg | 5.2 KB | 122036fb609a... |
 
 ## Quick Start
 

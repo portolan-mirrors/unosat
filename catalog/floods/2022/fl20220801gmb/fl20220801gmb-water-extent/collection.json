@@ -274,7 +274,9 @@
       "file:checksum": "122073db1998be7db0093393fca2b9d9741de6f6715008ca0e12b030dc82e3ff8f34",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Gambia, 1 August 2022 (FL20220801GMB), one GeoParquet file with the source columns."
     },
     "fl20220801gmb-water-extent-tiles": {
       "href": "./fl20220801gmb-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220d9ec7a30dc454e3eff5b73ecb9793d07ee16fa13cc3b75f838a4a67c39ac2563",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Gambia, 1 August 2022 (FL20220801GMB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122022c49714e5c440b15434aa038d1d9086d37fb1e9529f8f51629aa0c97a1f00a9"
+      "file:checksum": "122022c49714e5c440b15434aa038d1d9086d37fb1e9529f8f51629aa0c97a1f00a9",
+      "description": "MapLibre style for Water extent: Flood, Gambia, 1 August 2022 (FL20220801GMB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220801gmb-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 24087,
+      "file:checksum": "12201adb98d8ac74cab820f907fac91c93bedab3f03c709ba8195ae2558989701f63",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Gambia, 1 August 2022 (FL20220801GMB)."
     }
   }
 }

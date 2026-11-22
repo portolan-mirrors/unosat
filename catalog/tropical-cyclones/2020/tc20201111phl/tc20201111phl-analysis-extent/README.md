@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL): 8 features merged from 8 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201111phl-analysis-extent.parquet | 4.2 MB | 1220e293aeca... |
 | ./tc20201111phl-analysis-extent.pmtiles | 731.6 KB | 12205ee997f5... |
 | ./styles/default.json | 671 B | 1220de0e08b4... |
+| ./tc20201111phl-analysis-extent.thumb.jpg | 6.7 KB | 122012fe7b29... |
 
 ## Quick Start
 

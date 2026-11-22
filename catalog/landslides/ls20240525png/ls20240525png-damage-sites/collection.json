@@ -262,7 +262,9 @@
       "file:checksum": "1220d53fad71e884647cf52fcb543f2b52e71d483c2128bb52a89d03977fbc71f134",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG), one GeoParquet file with the source columns."
     },
     "ls20240525png-damage-sites-tiles": {
       "href": "./ls20240525png-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12200479f9dc7de67f969711aa5a7a7ec1e5ecfc9569bc4ae10391d08b4d01f23431",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1041,
-      "file:checksum": "122035c6729ab4a3000131d93476d66c8902c5b80eafbf74d1e95bc8135594f95473"
+      "file:checksum": "122035c6729ab4a3000131d93476d66c8902c5b80eafbf74d1e95bc8135594f95473",
+      "description": "MapLibre style for Damage sites: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240525png-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4424,
+      "file:checksum": "1220f10f94d597868d2a8e1426b14b5b34b575f413222ad6c0ea644f7a3cdc20eb96",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)."
     }
   }
 }

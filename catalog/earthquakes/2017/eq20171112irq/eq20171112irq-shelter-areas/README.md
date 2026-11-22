@@ -1,5 +1,5 @@
 # Shelter areas: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ): 816 features merged from 1 source layer. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -74,6 +74,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20171112irq-shelter-areas.parquet | 112.9 KB | 122013be8a12... |
 | ./eq20171112irq-shelter-areas.pmtiles | 330.4 KB | 12200677a1f2... |
 | ./styles/default.json | 658 B | 1220f4e1f71c... |
+| ./eq20171112irq-shelter-areas.thumb.jpg | 21.9 KB | 1220e3e09d4a... |
 
 ## Quick Start
 

@@ -217,7 +217,9 @@
       "file:checksum": "1220bf68a36b40a57747756d800f8eb8b9df491f406a5025b9ce0b8cceb6676a3256",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN), one GeoParquet file with the source columns."
     },
     "fr20191016lbn-other-polygons-tiles": {
       "href": "./fr20191016lbn-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12208717e6fd8dbf49d1ed49cdbb4cbed82e31dbf94397728779e92e891703ceab9c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220d6119891580bb302b9a66f1d6bd5c24a8328d49e47ad966e4960dbc7bd274fdc"
+      "file:checksum": "1220d6119891580bb302b9a66f1d6bd5c24a8328d49e47ad966e4960dbc7bd274fdc",
+      "description": "MapLibre style for Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20191016lbn-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7209,
+      "file:checksum": "12209839d64c27aa7889fc1d7c69a19d4834ba95c9f201095cd05d40f36f92ed4d46",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN)."
     }
   }
 }

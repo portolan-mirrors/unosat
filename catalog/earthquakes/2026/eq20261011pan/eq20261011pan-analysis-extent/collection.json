@@ -282,7 +282,9 @@
       "file:checksum": "1220e23b8ab694224a401060de54d8e0e7db4b685e0a8864bedef636565cb2325eb0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Panama, 11 October 2026 (EQ20261011PAN), one GeoParquet file with the source columns."
     },
     "eq20261011pan-analysis-extent-tiles": {
       "href": "./eq20261011pan-analysis-extent.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220ec2677d4f618291d827ac0df83dd8571a02d0321bb72a251972d55e647cc66a6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Panama, 11 October 2026 (EQ20261011PAN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b4bb430154342f89f39ebd645dda07dec426fa51a67b3e80980c7dc0fd1d479a"
+      "file:checksum": "1220b4bb430154342f89f39ebd645dda07dec426fa51a67b3e80980c7dc0fd1d479a",
+      "description": "MapLibre style for Analysis extent: Earthquake, Panama, 11 October 2026 (EQ20261011PAN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20261011pan-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7131,
+      "file:checksum": "12208ff3703c05b38b97d4de3774f3e504b8702f538e0861e6ac16eb01e9075adf4b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Panama, 11 October 2026 (EQ20261011PAN)."
     }
   }
 }

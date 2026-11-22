@@ -274,7 +274,9 @@
       "file:checksum": "1220b8a4ca860430d8eba8a28f51c7fe9b06e1142ef31da47b36e351c48d237e1b9f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Chad, 26 September 2017 (FL20170926TCD), one GeoParquet file with the source columns."
     },
     "fl20170926tcd-water-extent-tiles": {
       "href": "./fl20170926tcd-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12206001508dcd973d5e01ef271b35924a613790800d1aae15dab4cfab49bd5d2369",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Chad, 26 September 2017 (FL20170926TCD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12209d881eed6925b173680a0c10220f56345619453c0b56a955caad3ee8706d8d0a"
+      "file:checksum": "12209d881eed6925b173680a0c10220f56345619453c0b56a955caad3ee8706d8d0a",
+      "description": "MapLibre style for Water extent: Flood, Chad, 26 September 2017 (FL20170926TCD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170926tcd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16913,
+      "file:checksum": "1220bd4925cdbd79f526d442bc96488d8ed03cb579413a1100516bd737ef44273341",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Chad, 26 September 2017 (FL20170926TCD)."
     }
   }
 }

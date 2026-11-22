@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG): 15,100 features merged from 25 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20231008afg-damage-sites.parquet | 192.2 KB | 1220ddbee286... |
 | ./eq20231008afg-damage-sites.pmtiles | 440.5 KB | 1220ba57fc7a... |
 | ./styles/default.json | 1.1 KB | 1220f8f59354... |
+| ./eq20231008afg-damage-sites.thumb.jpg | 11.9 KB | 12207bc4e542... |
 
 ## Quick Start
 

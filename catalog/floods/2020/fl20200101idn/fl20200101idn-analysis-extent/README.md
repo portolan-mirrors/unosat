@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Indonesia, 1 January 2020 (FL20200101IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200101idn/fl20200101idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200101idn/fl20200101idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Indonesia, 1 January 2020 (FL20200101IDN): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200101idn-analysis-extent.parquet | 269.7 KB | 1220c70f739c... |
 | ./fl20200101idn-analysis-extent.pmtiles | 233.0 KB | 122056ca813f... |
 | ./styles/default.json | 671 B | 1220d29ca0c6... |
+| ./fl20200101idn-analysis-extent.thumb.jpg | 9.6 KB | 122007fe8764... |
 
 ## Quick Start
 

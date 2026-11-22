@@ -292,7 +292,9 @@
       "file:checksum": "12202d9611a760d63f38c28adedc88ae7f48b148d325f2038eab54d4a4d3db56d14d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Fire, Algeria, 12 July 2017 (FR20170712DZA), one GeoParquet file with the source columns."
     },
     "fr20170712dza-damage-areas-tiles": {
       "href": "./fr20170712dza-damage-areas.pmtiles",
@@ -301,7 +303,9 @@
       "file:checksum": "1220eaa7f9da9dbb10378e7acb9502b44bb85ce1eeb2d4e90c0d0933d6a249d8344f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Fire, Algeria, 12 July 2017 (FR20170712DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -312,7 +316,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "12202cfd813abff98e6d4a49d75fbf6f5a3bfb87294cb2bf4f2ee43afc6ba54d84bc"
+      "file:checksum": "12202cfd813abff98e6d4a49d75fbf6f5a3bfb87294cb2bf4f2ee43afc6ba54d84bc",
+      "description": "MapLibre style for Damage areas: Fire, Algeria, 12 July 2017 (FR20170712DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20170712dza-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5559,
+      "file:checksum": "122069bdc62c82950b8bc7c96bd33a5f8791e4f383e37da94d9ac49257a8ed87d58b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Fire, Algeria, 12 July 2017 (FR20170712DZA)."
     }
   }
 }

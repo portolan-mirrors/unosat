@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260831lao/fl20260831lao-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260831lao/fl20260831lao-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20260831lao-analysis-extent.parquet | 4.8 KB | 12200685e2eb... |
 | ./fl20260831lao-analysis-extent.pmtiles | 27.9 KB | 12207e031a41... |
 | ./styles/default.json | 671 B | 12202c496806... |
+| ./fl20260831lao-analysis-extent.thumb.jpg | 9.5 KB | 1220b2616141... |
 
 ## Quick Start
 

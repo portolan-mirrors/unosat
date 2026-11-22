@@ -229,7 +229,9 @@
       "file:checksum": "1220d7c39af2a43e0843639cbf0474b44025585fa7c68bf71398305aa32383d9ad5e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Sudan, 8 August 2016 (FL20160808SDN), one GeoParquet file with the source columns."
     },
     "fl20160808sdn-analysis-extent-cc_by_nc_sa_3_0-tiles": {
       "href": "./fl20160808sdn-analysis-extent-cc_by_nc_sa_3_0.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122034ac26ec698b6b50c5c0b75cd5b7112e88bc00036299ba22c2a8940cf0b4242f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Sudan, 8 August 2016 (FL20160808SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 687,
-      "file:checksum": "1220b3b19a108e5c7e4323dc72a19d10f335e6815f95aacc1b8c642180af14161fc6"
+      "file:checksum": "1220b3b19a108e5c7e4323dc72a19d10f335e6815f95aacc1b8c642180af14161fc6",
+      "description": "MapLibre style for Analysis extent: Flood, Sudan, 8 August 2016 (FL20160808SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20160808sdn-analysis-extent-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8070,
+      "file:checksum": "12201ab630677b70efeb9a913364efd009a22f7ea26643b1aea138905b0af4b99c6a",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Sudan, 8 August 2016 (FL20160808SDN)."
     }
   }
 }

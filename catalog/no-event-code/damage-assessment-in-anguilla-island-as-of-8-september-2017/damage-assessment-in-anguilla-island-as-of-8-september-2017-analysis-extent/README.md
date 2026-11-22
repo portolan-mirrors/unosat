@@ -1,5 +1,5 @@
 # Analysis extent: Damage Assessment in Anguilla Island as of 8 September 2017
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Damage Assessment in Anguilla Island as of 8 September 2017: 128 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent.parquet | 1.2 MB | 122010404f98... |
 | ./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent.pmtiles | 195.7 KB | 1220e36b33ed... |
 | ./styles/default.json | 717 B | 122039f09981... |
+| ./damage-assessment-in-anguilla-island-as-of-8-september-2017-analysis-extent.thumb.jpg | 19.5 KB | 1220c5e4592c... |
 
 ## Quick Start
 

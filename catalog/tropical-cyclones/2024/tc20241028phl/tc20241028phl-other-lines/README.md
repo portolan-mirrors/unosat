@@ -1,5 +1,5 @@
 # Other lines: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241028phl/tc20241028phl-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL): 192 features merged from 3 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -75,6 +75,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20241028phl-other-lines.parquet | 20.6 KB | 1220c7301e51... |
 | ./tc20241028phl-other-lines.pmtiles | 39.1 KB | 122082a7205c... |
 | ./styles/default.json | 401 B | 1220605f8564... |
+| ./tc20241028phl-other-lines.thumb.jpg | 2.3 KB | 1220b6a311aa... |
 
 ## Quick Start
 

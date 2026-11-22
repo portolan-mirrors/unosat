@@ -282,7 +282,9 @@
       "file:checksum": "1220319cc0f750270037458aef5ec6b45027e98e3d36dd63983be032d289c3bd8b57",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN), one GeoParquet file with the source columns."
     },
     "eq20221121idn-damage-areas-tiles": {
       "href": "./eq20221121idn-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220ac837a9e6483ac3e10f509197c1a410bed98fc57182570d58988ab1364cfb3a4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 911,
-      "file:checksum": "1220248cccbb817b62399daa125527605912493d7b9fa2d0756cc32f63073b1e2b36"
+      "file:checksum": "1220248cccbb817b62399daa125527605912493d7b9fa2d0756cc32f63073b1e2b36",
+      "description": "MapLibre style for Damage areas: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20221121idn-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5721,
+      "file:checksum": "1220a73de646db651af7f7e2d65c4e1e1c57fc81d4c6f3ed2e3a027506331859a2b4",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN)."
     }
   }
 }

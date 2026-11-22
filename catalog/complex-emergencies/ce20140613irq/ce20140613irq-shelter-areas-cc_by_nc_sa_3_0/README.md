@@ -1,5 +1,5 @@
 # Shelter areas: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-shelter-areas-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ): 6 features merged from 1 source layer. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140613irq-shelter-areas-cc_by_nc_sa_3_0.parquet | 8.0 KB | 122098518ef0... |
 | ./ce20140613irq-shelter-areas-cc_by_nc_sa_3_0.pmtiles | 30.3 KB | 1220529396fb... |
 | ./styles/default.json | 894 B | 1220b24e81c3... |
+| ./ce20140613irq-shelter-areas-cc_by_nc_sa_3_0.thumb.jpg | 14.7 KB | 12207cf8058c... |
 
 ## Quick Start
 

@@ -346,7 +346,9 @@
       "file:checksum": "1220974200f0b6a5c2123ee83f4b94fd03f6903323423b0e9d3a766a00169e922502",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV), one GeoParquet file with the source columns."
     },
     "fl20250812cpv-other-lines-tiles": {
       "href": "./fl20250812cpv-other-lines.pmtiles",
@@ -355,7 +357,9 @@
       "file:checksum": "122000e293cb37edf0c8efdf00c513f2cc71ea10f364b12840242f192c655fc7a571",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -366,7 +370,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220ad6a42e32ed578d6717d037e04df07bf887dd27593d11f806e2838a2a33f507f"
+      "file:checksum": "1220ad6a42e32ed578d6717d037e04df07bf887dd27593d11f806e2838a2a33f507f",
+      "description": "MapLibre style for Other lines: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250812cpv-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2348,
+      "file:checksum": "122052f99a2b6467b8a5f0bb5e8c43329aed6fab8b250064674d124fc1b92f5199d4",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV)."
     }
   }
 }

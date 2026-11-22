@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20190324zwe-analysis-extent.parquet | 5.5 KB | 12206daa5507... |
 | ./tc20190324zwe-analysis-extent.pmtiles | 1016.3 KB | 12201b1b4afd... |
 | ./styles/default.json | 671 B | 1220f68c95b9... |
+| ./tc20190324zwe-analysis-extent.thumb.jpg | 12.1 KB | 1220369379e2... |
 
 ## Quick Start
 

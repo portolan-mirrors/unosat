@@ -1,5 +1,5 @@
 # Water extent: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250812cpv/fl20250812cpv-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250812cpv/fl20250812cpv-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Cabo Verde, 12 August 2025 (FL20250812CPV): 28 features merged from 28 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250812cpv-water-extent.parquet | 1.1 MB | 122090736b26... |
 | ./fl20250812cpv-water-extent.pmtiles | 177.1 KB | 12200e88a837... |
 | ./styles/default.json | 956 B | 12208f548ee4... |
+| ./fl20250812cpv-water-extent.thumb.jpg | 11.3 KB | 122078c604a6... |
 
 ## Quick Start
 

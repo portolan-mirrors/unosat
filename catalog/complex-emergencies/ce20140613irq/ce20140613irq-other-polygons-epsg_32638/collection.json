@@ -232,7 +232,9 @@
       "proj:code": "EPSG:32638",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ), one GeoParquet file with the source columns."
     },
     "ce20140613irq-other-polygons-epsg_32638-tiles": {
       "href": "./ce20140613irq-other-polygons-epsg_32638.pmtiles",
@@ -241,7 +243,9 @@
       "file:checksum": "12208d2343d8055d1fc427bc28054a5faa23c696ce3f34919d45ccbf705c512ff110",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -252,7 +256,19 @@
       ],
       "title": "Other polygons",
       "file:size": 675,
-      "file:checksum": "1220f33ce465f09f17df771c066834dc9db30d1937fb385e07863a6b4e843a52c0b5"
+      "file:checksum": "1220f33ce465f09f17df771c066834dc9db30d1937fb385e07863a6b4e843a52c0b5",
+      "description": "MapLibre style for Other polygons: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140613irq-other-polygons-epsg_32638.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 39353,
+      "file:checksum": "1220ac3f377062aec6b750fda7c4d18a222ac91bdc63f85e8089e02a3ffc789aa4a6",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)."
     }
   }
 }

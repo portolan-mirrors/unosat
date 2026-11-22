@@ -262,7 +262,9 @@
       "file:checksum": "1220d2222a67b49ad4292ee60bee036f2c139475091de0936ab7fb5a668c3a6168d2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG), one GeoParquet file with the source columns."
     },
     "eq20220622afg-damage-sites-tiles": {
       "href": "./eq20220622afg-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220a46e6cdb63853b334690176ade54b6951c6b582ba744c15d06d67d3f533fd7d9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1050,
-      "file:checksum": "12209f207cd9bafa453ec1d79a7ce2fb982a66405feb07c30ceea826259672c445ac"
+      "file:checksum": "12209f207cd9bafa453ec1d79a7ce2fb982a66405feb07c30ceea826259672c445ac",
+      "description": "MapLibre style for Damage sites: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20220622afg-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11890,
+      "file:checksum": "1220628b115556a0a67ef5ce9dac9588d0db2d6b5804987daaa4bb842542936dc082",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG)."
     }
   }
 }

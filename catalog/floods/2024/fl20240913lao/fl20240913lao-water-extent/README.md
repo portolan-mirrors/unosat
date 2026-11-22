@@ -1,5 +1,5 @@
 # Water extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240913lao/fl20240913lao-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240913lao/fl20240913lao-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO): 12 features merged from 12 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -67,6 +67,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240913lao-water-extent.parquet | 27.4 MB | 12201241f487... |
 | ./fl20240913lao-water-extent.pmtiles | 4.6 MB | 1220270892de... |
 | ./styles/default.json | 887 B | 12207609fd27... |
+| ./fl20240913lao-water-extent.thumb.jpg | 13.4 KB | 122094cc0691... |
 
 ## Quick Start
 

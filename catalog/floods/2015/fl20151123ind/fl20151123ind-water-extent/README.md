@@ -1,5 +1,5 @@
 # Water extent: Flood, India, 23 November 2015 (FL20151123IND)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151123ind/fl20151123ind-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151123ind/fl20151123ind-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, India, 23 November 2015 (FL20151123IND): 360,945 features merged from 4 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20151123ind-water-extent.parquet | 55.8 MB | 1220df1683d1... |
 | ./fl20151123ind-water-extent.pmtiles | 84.5 MB | 1220d2ebacd4... |
 | ./styles/default.json | 985 B | 1220e378e6b2... |
+| ./fl20151123ind-water-extent.thumb.jpg | 36.6 KB | 1220e175eb90... |
 
 ## Quick Start
 

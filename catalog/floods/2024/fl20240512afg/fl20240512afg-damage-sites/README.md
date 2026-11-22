@@ -1,5 +1,5 @@
 # Damage sites: Flood, Afghanistan, 12 May 2024 (FL20240512AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240512afg/fl20240512afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240512afg/fl20240512afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Afghanistan, 12 May 2024 (FL20240512AFG): 7,131 features merged from 12 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240512afg-damage-sites.parquet | 92.8 KB | 1220d7044986... |
 | ./fl20240512afg-damage-sites.pmtiles | 176.0 KB | 1220f5e82a96... |
 | ./styles/default.json | 947 B | 12208b53ae30... |
+| ./fl20240512afg-damage-sites.thumb.jpg | 5.6 KB | 1220b8cb9271... |
 
 ## Quick Start
 

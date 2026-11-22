@@ -274,7 +274,9 @@
       "file:checksum": "12204d526749101a07b356e2f086b3e5ae02275ca5f086fa0fd7b2747d6293b5bb75",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG), one GeoParquet file with the source columns."
     },
     "fl20200128mdg-water-extent-tiles": {
       "href": "./fl20200128mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12204679a953584962e6515b4691ce8a6f84eaee7d8d0b40d3cc6044fcec96f6adda",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220e7e83f3a9014a31be70813e6c549b04dafa06a43c4080dea8c3b27bee6c398ff"
+      "file:checksum": "1220e7e83f3a9014a31be70813e6c549b04dafa06a43c4080dea8c3b27bee6c398ff",
+      "description": "MapLibre style for Water extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200128mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14643,
+      "file:checksum": "122074acb80dd0df51f96188c00ef649ed448bd95e6b72f1269b94403d0f2f1f7cc1",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Madagascar, 28 January 2020 (FL20200128MDG)."
     }
   }
 }

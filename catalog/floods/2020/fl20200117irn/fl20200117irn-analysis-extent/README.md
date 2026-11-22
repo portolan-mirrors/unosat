@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Iran (Islamic Republic of), 17 January 2020 (FL20200117IRN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200117irn/fl20200117irn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200117irn/fl20200117irn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Iran (Islamic Republic of), 17 January 2020 (FL20200117IRN): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200117irn-analysis-extent.parquet | 20.7 KB | 12200a2f5b62... |
 | ./fl20200117irn-analysis-extent.pmtiles | 80.2 KB | 1220bd711f3c... |
 | ./styles/default.json | 671 B | 12209ddf5eb8... |
+| ./fl20200117irn-analysis-extent.thumb.jpg | 5.3 KB | 12207ff5bcf7... |
 
 ## Quick Start
 

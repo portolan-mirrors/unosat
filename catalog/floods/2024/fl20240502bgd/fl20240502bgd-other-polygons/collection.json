@@ -234,7 +234,9 @@
       "file:checksum": "12207d9060d460dd4a9aa70c4de8612185cf3256104b26209ae97897274150f5d03d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Bangladesh, 2 May 2024 (FL20240502BGD), one GeoParquet file with the source columns."
     },
     "fl20240502bgd-other-polygons-tiles": {
       "href": "./fl20240502bgd-other-polygons.pmtiles",
@@ -243,7 +245,9 @@
       "file:checksum": "1220499269b44a328a9ec525b88a6a07ab4d74b1fe74a1091981c178d60ddc061f14",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Bangladesh, 2 May 2024 (FL20240502BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -254,7 +258,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12204d630ada2a55cc0afa2c5c66bffc09c9e8b200002058cabe654b8c74f55c03f0"
+      "file:checksum": "12204d630ada2a55cc0afa2c5c66bffc09c9e8b200002058cabe654b8c74f55c03f0",
+      "description": "MapLibre style for Other polygons: Flood, Bangladesh, 2 May 2024 (FL20240502BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240502bgd-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6197,
+      "file:checksum": "1220784da42f276849c1de28b8caa05be1beda46e0d4653e0342dfb5c4f34f439f54",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)."
     }
   }
 }

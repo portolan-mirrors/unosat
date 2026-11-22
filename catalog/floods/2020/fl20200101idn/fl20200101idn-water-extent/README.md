@@ -1,5 +1,5 @@
 # Water extent: Flood, Indonesia, 1 January 2020 (FL20200101IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200101idn/fl20200101idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200101idn/fl20200101idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Indonesia, 1 January 2020 (FL20200101IDN): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200101idn-water-extent.parquet | 6.4 MB | 122009bb1e2a... |
 | ./fl20200101idn-water-extent.pmtiles | 1.7 MB | 1220f098fbef... |
 | ./styles/default.json | 887 B | 12208ec7fead... |
+| ./fl20200101idn-water-extent.thumb.jpg | 17.0 KB | 1220f397284e... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_26719/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI): 7 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:26719, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20161003hti-other-polygons-cc_by_4_0-epsg_26719.parquet | 149.0 KB | 1220294a0d2f... |
 | ./tc20161003hti-other-polygons-cc_by_4_0-epsg_26719.pmtiles | 426.5 KB | 122008b8eb4d... |
 | ./styles/default.json | 685 B | 122093abd554... |
+| ./tc20161003hti-other-polygons-cc_by_4_0-epsg_26719.thumb.jpg | 10.5 KB | 12206c2fa2d6... |
 
 ## Quick Start
 

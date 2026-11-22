@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Sudan, 24 December 2024 (FL20241224SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241224sdn/fl20241224sdn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241224sdn/fl20241224sdn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Sudan, 24 December 2024 (FL20241224SDN): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20241224sdn-analysis-extent.parquet | 5.2 KB | 1220c789d884... |
 | ./fl20241224sdn-analysis-extent.pmtiles | 180.8 KB | 122041165c50... |
 | ./styles/default.json | 671 B | 1220da6219e9... |
+| ./fl20241224sdn-analysis-extent.thumb.jpg | 5.5 KB | 1220b964d276... |
 
 ## Quick Start
 

@@ -262,7 +262,9 @@
       "file:checksum": "122055b85d1afe689154c48f1a9c13f518f9a1df41ae68d332bb9b2ca43cc61e36a2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ), one GeoParquet file with the source columns."
     },
     "fl20240725kgz-damage-sites-tiles": {
       "href": "./fl20240725kgz-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122073cc57c300b720d45570a331725ef2d141c17d9fef3f4639c10ae2bac31b1424",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1226,
-      "file:checksum": "122039af6ac620f3289f495748fcf84ad3c040eb2020bccbda9f3adcb43c8b8ffdf2"
+      "file:checksum": "122039af6ac620f3289f495748fcf84ad3c040eb2020bccbda9f3adcb43c8b8ffdf2",
+      "description": "MapLibre style for Damage sites: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240725kgz-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5303,
+      "file:checksum": "1220de69c1ecb709be14972158f65cb44aac93a257e76cdb983f94fbff0ce4f3bc19",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ)."
     }
   }
 }

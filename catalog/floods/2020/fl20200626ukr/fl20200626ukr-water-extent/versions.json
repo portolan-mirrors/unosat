@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20200626ukr-water-extent.parquet",
         "fl20200626ukr-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:38.312465Z",
+      "breaking": false,
+      "assets": {
+        "fl20200626ukr-water-extent.parquet": {
+          "sha256": "dc8708e1570f7393b10579d8576476757a739662c782170e477db788b74c8dd6",
+          "size_bytes": 1222511,
+          "href": "floods/2020/fl20200626ukr/fl20200626ukr-water-extent/fl20200626ukr-water-extent.parquet",
+          "source_path": "fl20200626ukr-water-extent.parquet",
+          "source_mtime": 1795333282.2192667,
+          "mtime": 1795333282.2192667,
+          "feature_count": 1,
+          "schema_fingerprint": "372745105e7a9657"
+        },
+        "fl20200626ukr-water-extent.pmtiles": {
+          "sha256": "f0c44e54903835a9a1a77f9399c1d02a7f622e7ece4619ff892f9aada6f195f4",
+          "size_bytes": 323299,
+          "href": "floods/2020/fl20200626ukr/fl20200626ukr-water-extent/fl20200626ukr-water-extent.pmtiles",
+          "mtime": 1795334083.192682
+        },
+        "fl20200626ukr-water-extent.thumb.jpg": {
+          "sha256": "481317c447c97691490e39aed4e6ee2cf04808139902ea2e13a88954b74f044b",
+          "size_bytes": 17114,
+          "href": "floods/2020/fl20200626ukr/fl20200626ukr-water-extent/fl20200626ukr-water-extent.thumb.jpg",
+          "mtime": 1795343618.3070033
+        }
+      },
+      "changes": [
+        "fl20200626ukr-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20200626ukr-water-extent.thumb.jpg"
     }
   ]
 }

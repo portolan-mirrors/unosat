@@ -1,5 +1,5 @@
 # Shelters: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ): 1,526 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20171112irq-shelters.parquet | 92.8 KB | 12206f7916b3... |
 | ./eq20171112irq-shelters.pmtiles | 211.9 KB | 122085b144ea... |
 | ./styles/default.json | 679 B | 1220a705186f... |
+| ./eq20171112irq-shelters.thumb.jpg | 11.6 KB | 12208d5a104b... |
 
 ## Quick Start
 

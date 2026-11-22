@@ -253,7 +253,9 @@
       "file:checksum": "12203324cd0d9b67b0222e0417eb45b99d2632bcfc080ee2203bf1a66e23aa26c52f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Zambia, 5 March 2020 (FL20200305ZMB), one GeoParquet file with the source columns."
     },
     "fl20200305zmb-analysis-extent-tiles": {
       "href": "./fl20200305zmb-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12205b81dd3c758e2ebadbff3dd7d92411f4cc5fd8417d065999716d25a56fd0c71b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Zambia, 5 March 2020 (FL20200305ZMB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220906414fed9dfb2ed10ab51d9a2a8ad6246f520031d2ca3224bf857cc8ad62437"
+      "file:checksum": "1220906414fed9dfb2ed10ab51d9a2a8ad6246f520031d2ca3224bf857cc8ad62437",
+      "description": "MapLibre style for Analysis extent: Flood, Zambia, 5 March 2020 (FL20200305ZMB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200305zmb-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 33577,
+      "file:checksum": "1220dbc5211832bfc6baa18b6f3a1e5a8e39cff0d6adbf9fae5501db4e25dd001d67",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Zambia, 5 March 2020 (FL20200305ZMB)."
     }
   }
 }

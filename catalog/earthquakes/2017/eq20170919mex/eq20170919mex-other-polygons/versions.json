@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20170919mex-other-polygons.parquet",
         "eq20170919mex-other-polygons.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.717748Z",
+      "breaking": false,
+      "assets": {
+        "eq20170919mex-other-polygons.parquet": {
+          "sha256": "ee0c7ba9f0a1f1e9177ec0df55e4d8063eb09b33cd06ba82cfef74c3bf2115b5",
+          "size_bytes": 33695,
+          "href": "earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/eq20170919mex-other-polygons.parquet",
+          "source_path": "eq20170919mex-other-polygons.parquet",
+          "source_mtime": 1795333241.8278165,
+          "mtime": 1795333241.8278165,
+          "feature_count": 33,
+          "schema_fingerprint": "ad0cab86a24b3097"
+        },
+        "eq20170919mex-other-polygons.pmtiles": {
+          "sha256": "8246e453c5c2f97124ac01e2c09c2c84c8a5254fb6f515013a76051020d83b65",
+          "size_bytes": 88828,
+          "href": "earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/eq20170919mex-other-polygons.pmtiles",
+          "mtime": 1795334070.1639943
+        },
+        "eq20170919mex-other-polygons.thumb.jpg": {
+          "sha256": "b8fe8d5781e4849fc87f78d40ec02d742e9169c84b350808811eab31129e98e2",
+          "size_bytes": 7475,
+          "href": "earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/eq20170919mex-other-polygons.thumb.jpg",
+          "mtime": 1795343616.7140255
+        }
+      },
+      "changes": [
+        "eq20170919mex-other-polygons.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20170919mex-other-polygons.thumb.jpg"
     }
   ]
 }

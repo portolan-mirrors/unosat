@@ -1,5 +1,5 @@
 # Other lines: Fire, Lebanon, 16 October 2019 (FR20191016LBN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20191016lbn/fr20191016lbn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20191016lbn/fr20191016lbn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Fire, Lebanon, 16 October 2019 (FR20191016LBN): 63 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -77,6 +77,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20191016lbn-other-lines.parquet | 17.3 KB | 12206509e502... |
 | ./fr20191016lbn-other-lines.pmtiles | 30.4 KB | 122060b3bc60... |
 | ./styles/default.json | 401 B | 12206f6fdae9... |
+| ./fr20191016lbn-other-lines.thumb.jpg | 24.1 KB | 1220d177e87b... |
 
 ## Quick Start
 

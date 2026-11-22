@@ -1,5 +1,5 @@
 # Water extent: Flood, Rwanda, 4 May 2023 (FL20230504RWA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230504rwa/fl20230504rwa-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230504rwa/fl20230504rwa-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Rwanda, 4 May 2023 (FL20230504RWA): 19 features merged from 19 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230504rwa-water-extent.parquet | 9.5 MB | 12201a9335bb... |
 | ./fl20230504rwa-water-extent.pmtiles | 1.1 MB | 122060f13313... |
 | ./styles/default.json | 1.0 KB | 1220db91e02e... |
+| ./fl20230504rwa-water-extent.thumb.jpg | 13.8 KB | 1220f6527ad5... |
 
 ## Quick Start
 

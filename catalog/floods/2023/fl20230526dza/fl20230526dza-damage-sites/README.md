@@ -1,5 +1,5 @@
 # Damage sites: Flood, Algeria, 26 May 2023 (FL20230526DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230526dza/fl20230526dza-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230526dza/fl20230526dza-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Algeria, 26 May 2023 (FL20230526DZA): 1,654 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230526dza-damage-sites.parquet | 35.6 KB | 1220b7384ac4... |
 | ./fl20230526dza-damage-sites.pmtiles | 64.3 KB | 1220ba103af2... |
 | ./styles/default.json | 997 B | 12200076123c... |
+| ./fl20230526dza-damage-sites.thumb.jpg | 6.4 KB | 122066081574... |
 
 ## Quick Start
 

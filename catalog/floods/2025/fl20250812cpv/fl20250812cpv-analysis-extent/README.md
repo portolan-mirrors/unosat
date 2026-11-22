@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250812cpv/fl20250812cpv-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250812cpv/fl20250812cpv-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Cabo Verde, 12 August 2025 (FL20250812CPV): 46 features merged from 41 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250812cpv-analysis-extent.parquet | 132.3 KB | 122051f502ba... |
 | ./fl20250812cpv-analysis-extent.pmtiles | 113.9 KB | 1220ab47f5e1... |
 | ./styles/default.json | 671 B | 1220040e3c9d... |
+| ./fl20250812cpv-analysis-extent.thumb.jpg | 12.9 KB | 12203b634d83... |
 
 ## Quick Start
 

@@ -253,7 +253,9 @@
       "file:checksum": "12207e9e76ddd4851a96b4c2ed5b30546ab174b9fdbb019f4552cf29f6cc95ebc0f3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK), one GeoParquet file with the source columns."
     },
     "fl20221121pak-analysis-extent-tiles": {
       "href": "./fl20221121pak-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220fc369932c5229e6887247746be62b0d10d8ac9267756b8900ad5b2f0ca4d27ae",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12204137912570d8ee54b2b7cac7ddab33af7eac023c49abf5815fc5ca71c0515dec"
+      "file:checksum": "12204137912570d8ee54b2b7cac7ddab33af7eac023c49abf5815fc5ca71c0515dec",
+      "description": "MapLibre style for Analysis extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20221121pak-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 33391,
+      "file:checksum": "12201974587b9d5fddcc9ae61edf7ecf5780dbf4c359f7f7a7b3067734398fc8890a",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage areas: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/vo20211025vut-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211025vut/vo20211025vut-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Volcano, Vanuatu, 25 October 2021 (VO20211025VUT): 61 features merged from 2 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20211025vut-damage-areas.parquet | 99.5 KB | 12205cadfd91... |
 | ./vo20211025vut-damage-areas.pmtiles | 108.5 KB | 1220a276a118... |
 | ./styles/default.json | 913 B | 1220e113ba1d... |
+| ./vo20211025vut-damage-areas.thumb.jpg | 10.8 KB | 1220980882d8... |
 
 ## Quick Start
 

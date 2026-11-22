@@ -1,5 +1,5 @@
 # Water extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240821cmr/fl20240821cmr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240821cmr/fl20240821cmr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Cameroon, 21 August 2024 (FL20240821CMR): 8 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240821cmr-water-extent.parquet | 277.3 KB | 1220261c6ccb... |
 | ./fl20240821cmr-water-extent.pmtiles | 3.5 MB | 12202cb16afa... |
 | ./styles/default.json | 994 B | 122003488752... |
+| ./fl20240821cmr-water-extent.thumb.jpg | 14.6 KB | 1220abed9781... |
 
 ## Quick Start
 

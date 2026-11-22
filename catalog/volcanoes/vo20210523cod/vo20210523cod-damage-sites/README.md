@@ -1,5 +1,5 @@
 # Damage sites: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD): 3 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20210523cod-damage-sites.parquet | 5.0 KB | 1220dcd8b3dc... |
 | ./vo20210523cod-damage-sites.pmtiles | 21.0 KB | 1220b171bb4e... |
 | ./styles/default.json | 695 B | 12205f53b9c8... |
+| ./vo20210523cod-damage-sites.thumb.jpg | 2.4 KB | 12200fd192f0... |
 
 ## Quick Start
 

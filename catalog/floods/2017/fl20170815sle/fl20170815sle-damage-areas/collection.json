@@ -282,7 +282,9 @@
       "file:checksum": "1220779f9c2242dfba8e39750f11e059a67c5e4a5f0b607e7ccfab7cb3dfe9bcfd3c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE), one GeoParquet file with the source columns."
     },
     "fl20170815sle-damage-areas-tiles": {
       "href": "./fl20170815sle-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220430a3d6e7ae2fe23dfe07d1181b761e5700c1933ba6584b12ed35ebe94f619b7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "1220ee456bf9e260a7898a4facbd9b973148450e0ff4fda876169bf3e94492ef4ba4"
+      "file:checksum": "1220ee456bf9e260a7898a4facbd9b973148450e0ff4fda876169bf3e94492ef4ba4",
+      "description": "MapLibre style for Damage areas: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170815sle-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8548,
+      "file:checksum": "12205639634b16f18166f68a0fe9630f68d16ed4e86ed0173afce747c7590bf846d6",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)."
     }
   }
 }

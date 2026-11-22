@@ -209,7 +209,9 @@
       "file:checksum": "1220c19af407867264fc0b0df215f231f42367922ec29b5a600aecceaac053da7d81",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other mixed: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL), one GeoParquet file with the source columns."
     },
     "eq20150425npl-other-mixed-tiles": {
       "href": "./eq20150425npl-other-mixed.pmtiles",
@@ -218,7 +220,9 @@
       "file:checksum": "1220342fbc1cdf0bfb449cf313a16899fd2af4646540b9b2052e4a3b1b01b5ca3ca9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other mixed: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -229,7 +233,19 @@
       ],
       "title": "Other mixed",
       "file:size": 646,
-      "file:checksum": "1220ab24239c442b5f92783f411d3cbdf1c2e60f4a72f79783a4b113e1585754ad43"
+      "file:checksum": "1220ab24239c442b5f92783f411d3cbdf1c2e60f4a72f79783a4b113e1585754ad43",
+      "description": "MapLibre style for Other mixed: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20150425npl-other-mixed.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3617,
+      "file:checksum": "12206fafdcc0f99f4b0351cccb9d95604a2a89036d1869cbbf819013d391d4456bf2",
+      "title": "Thumbnail",
+      "description": "Preview image of Other mixed: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)."
     }
   }
 }

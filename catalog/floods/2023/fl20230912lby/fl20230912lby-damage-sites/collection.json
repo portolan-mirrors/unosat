@@ -262,7 +262,9 @@
       "file:checksum": "12208e6b3ddc108a146da09cd41fc6c20db7168bb0694a66eb5f7fdc166a5e92ab4b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Libya, 12 September 2023 (FL20230912LBY), one GeoParquet file with the source columns."
     },
     "fl20230912lby-damage-sites-tiles": {
       "href": "./fl20230912lby-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12205706e1f3980d1c0938148cccb2cf4b1df272b78a6492860182a44d3d596ff278",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Libya, 12 September 2023 (FL20230912LBY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1041,
-      "file:checksum": "12206dea49d4ed9eef3e8b8bf8e7c21c421944caa2dbfd2a91f0f4becc0363084ff9"
+      "file:checksum": "12206dea49d4ed9eef3e8b8bf8e7c21c421944caa2dbfd2a91f0f4becc0363084ff9",
+      "description": "MapLibre style for Damage sites: Flood, Libya, 12 September 2023 (FL20230912LBY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230912lby-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2877,
+      "file:checksum": "1220fc16563fc3d048e63313527237eb9a433dfd418766fd2333050168d80aa8a3f4",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Libya, 12 September 2023 (FL20230912LBY)."
     }
   }
 }

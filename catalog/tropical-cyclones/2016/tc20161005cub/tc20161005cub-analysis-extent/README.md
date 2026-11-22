@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161005cub/tc20161005cub-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161005cub/tc20161005cub-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB): 11 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20161005cub-analysis-extent.parquet | 87.7 KB | 12203c9ac457... |
 | ./tc20161005cub-analysis-extent.pmtiles | 50.4 KB | 1220d2b1ce95... |
 | ./styles/default.json | 671 B | 1220745aa37c... |
+| ./tc20161005cub-analysis-extent.thumb.jpg | 5.2 KB | 122031ce2aaf... |
 
 ## Quick Start
 

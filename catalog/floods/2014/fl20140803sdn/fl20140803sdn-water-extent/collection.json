@@ -254,7 +254,9 @@
       "file:checksum": "1220df6793682034c240837b28983b2ff07e4a6f307b0d654be1b2dabd51d4989d8b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Sudan, 3 August 2014 (FL20140803SDN), one GeoParquet file with the source columns."
     },
     "fl20140803sdn-water-extent-tiles": {
       "href": "./fl20140803sdn-water-extent.pmtiles",
@@ -263,7 +265,9 @@
       "file:checksum": "122042d7bd5f96492c8c2a627974f824d373dde94b6afc91126ff33c534b1f000bf6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Sudan, 3 August 2014 (FL20140803SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -274,7 +278,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1049,
-      "file:checksum": "1220e0d5f30e2c38ac2d843d74513986360b23ef94429268f3e881ebad15c8253a89"
+      "file:checksum": "1220e0d5f30e2c38ac2d843d74513986360b23ef94429268f3e881ebad15c8253a89",
+      "description": "MapLibre style for Water extent: Flood, Sudan, 3 August 2014 (FL20140803SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140803sdn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11523,
+      "file:checksum": "1220e862cd900e9ce0f3b1ec54be6e4d77ae1658e0e7d2bd1378a828c1c224567d1c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Sudan, 3 August 2014 (FL20140803SDN)."
     }
   }
 }

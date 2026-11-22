@@ -229,7 +229,9 @@
       "file:checksum": "1220f3eaa37b3d22ef431de8db1bb9458cf90cab5aae33928d6dccbbbee964f48aa6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Philippines, 1 November 2020 (TC20201101PHL), one GeoParquet file with the source columns."
     },
     "tc20201101phl-analysis-extent-tiles": {
       "href": "./tc20201101phl-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12209e4fdfca2bf6e4df664ae67bc81ddc3aee2534404b8d4fef4bdb24b4586d2d7e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Philippines, 1 November 2020 (TC20201101PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122075975c30cdb9283ef333fb9f44bc84611633a96f284fa171f428c0922e652e02"
+      "file:checksum": "122075975c30cdb9283ef333fb9f44bc84611633a96f284fa171f428c0922e652e02",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Philippines, 1 November 2020 (TC20201101PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201101phl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16771,
+      "file:checksum": "12206045e4ab0e503f734b8a53fc9dd0e926eae61ed110fb533e223c43c7246e6b64",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Philippines, 1 November 2020 (TC20201101PHL)."
     }
   }
 }

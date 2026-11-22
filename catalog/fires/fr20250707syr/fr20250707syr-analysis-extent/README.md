@@ -1,5 +1,5 @@
 # Analysis extent: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20250707syr-analysis-extent.parquet | 4.7 KB | 12205eb12887... |
 | ./fr20250707syr-analysis-extent.pmtiles | 42.7 KB | 1220a8e275d9... |
 | ./styles/default.json | 671 B | 122099f3bc38... |
+| ./fr20250707syr-analysis-extent.thumb.jpg | 11.1 KB | 12203afb5f6b... |
 
 ## Quick Start
 

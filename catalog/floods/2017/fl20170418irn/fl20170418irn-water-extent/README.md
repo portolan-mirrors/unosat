@@ -1,5 +1,5 @@
 # Water extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN): 348 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170418irn-water-extent.parquet | 95.5 KB | 1220d0edbea7... |
 | ./fl20170418irn-water-extent.pmtiles | 147.0 KB | 1220284249fb... |
 | ./styles/default.json | 900 B | 12207c95adf8... |
+| ./fl20170418irn-water-extent.thumb.jpg | 21.0 KB | 12201cf39cef... |
 
 ## Quick Start
 

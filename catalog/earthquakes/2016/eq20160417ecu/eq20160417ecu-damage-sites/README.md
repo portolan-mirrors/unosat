@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU): 1,759 features merged from 9 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20160417ecu-damage-sites.parquet | 73.5 KB | 1220bfce8892... |
 | ./eq20160417ecu-damage-sites.pmtiles | 264.6 KB | 1220b6818baf... |
 | ./styles/default.json | 1.0 KB | 122032f87a55... |
+| ./eq20160417ecu-damage-sites.thumb.jpg | 3.8 KB | 1220a09885ce... |
 
 ## Quick Start
 

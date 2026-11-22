@@ -1,5 +1,5 @@
 # Other polygons: Flood, Ukraine, 6 June 2023 (FL20230606UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Ukraine, 6 June 2023 (FL20230606UKR): 171 features merged from 114 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230606ukr-other-polygons.parquet | 26.8 KB | 12200e1a9fd1... |
 | ./fl20230606ukr-other-polygons.pmtiles | 61.0 KB | 1220fb76d1db... |
 | ./styles/default.json | 664 B | 1220ecfcbbde... |
+| ./fl20230606ukr-other-polygons.thumb.jpg | 19.4 KB | 1220328afb6c... |
 
 ## Quick Start
 

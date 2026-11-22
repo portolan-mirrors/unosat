@@ -282,7 +282,9 @@
       "file:checksum": "1220189b3e68bd9b556dbcf33ade1fec4cc594fe1c56a9a448d0f3712c595bd970b6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Chad, 20 August 2024 (FL20240820TCD), one GeoParquet file with the source columns."
     },
     "fl20240820tcd-damage-areas-tiles": {
       "href": "./fl20240820tcd-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12204985de077e2854a45eaa35b31f7731ab6c41405155df7cea5371d86410d02d09",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Chad, 20 August 2024 (FL20240820TCD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 904,
-      "file:checksum": "122007c3fc7c52a29e3b32979be1fe5781e2b58f16394e102c37be2cb63dbb44307c"
+      "file:checksum": "122007c3fc7c52a29e3b32979be1fe5781e2b58f16394e102c37be2cb63dbb44307c",
+      "description": "MapLibre style for Damage areas: Flood, Chad, 20 August 2024 (FL20240820TCD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240820tcd-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5331,
+      "file:checksum": "122036fb609a6fcbbc1b64a75a7e271b845d729a6febf03cc7588e999e3fbb5bb63a",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Chad, 20 August 2024 (FL20240820TCD)."
     }
   }
 }

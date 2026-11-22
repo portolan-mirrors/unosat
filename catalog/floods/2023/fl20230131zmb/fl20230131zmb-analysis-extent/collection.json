@@ -271,7 +271,9 @@
       "file:checksum": "12208240dcd4142be1aef6029be39ac90f244d102a1127ecf905dad50be6382c1221",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Zambia, 31 January 2023 (FL20230131ZMB), one GeoParquet file with the source columns."
     },
     "fl20230131zmb-analysis-extent-tiles": {
       "href": "./fl20230131zmb-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "12209d5ba352d7e4b40cc2017aa326f794159b0f3e3dcdc4a5b9d79efca72c900f54",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Zambia, 31 January 2023 (FL20230131ZMB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220964ca1f096f463c90c01081766cd0df59b29f0c4c56e7662111ce55ad1de53f0"
+      "file:checksum": "1220964ca1f096f463c90c01081766cd0df59b29f0c4c56e7662111ce55ad1de53f0",
+      "description": "MapLibre style for Analysis extent: Flood, Zambia, 31 January 2023 (FL20230131ZMB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230131zmb-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 32875,
+      "file:checksum": "12206471090c01453e15e1ea6683a5669b8671e758abc675a1828b1a2c63ba366bfb",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Zambia, 31 January 2023 (FL20230131ZMB)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Volcano, Tonga, 15 January 2022 (VO20220115TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Volcano, Tonga, 15 January 2022 (VO20220115TON): 9 features merged from 9 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20220115ton-analysis-extent.parquet | 2.8 MB | 1220a1c2ee93... |
 | ./vo20220115ton-analysis-extent.pmtiles | 151.4 KB | 122051d6e044... |
 | ./styles/default.json | 671 B | 12204e55df91... |
+| ./vo20220115ton-analysis-extent.thumb.jpg | 3.4 KB | 1220e939cbcb... |
 
 ## Quick Start
 

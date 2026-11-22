@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Kenya, 26 April 2024 (FL20240426KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Kenya, 26 April 2024 (FL20240426KEN): 123 features merged from 114 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240426ken-analysis-extent.parquet | 9.2 MB | 122007671df8... |
 | ./fl20240426ken-analysis-extent.pmtiles | 28.1 MB | 1220279dd1ee... |
 | ./styles/default.json | 671 B | 1220fd5d2bcf... |
+| ./fl20240426ken-analysis-extent.thumb.jpg | 36.0 KB | 1220cb4c84af... |
 
 ## Quick Start
 

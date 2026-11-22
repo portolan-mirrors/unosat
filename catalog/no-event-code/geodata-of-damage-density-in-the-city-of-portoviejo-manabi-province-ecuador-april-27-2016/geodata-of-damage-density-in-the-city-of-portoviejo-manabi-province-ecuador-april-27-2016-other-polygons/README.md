@@ -1,5 +1,5 @@
 # Other polygons: Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador: 9 features merged from 9 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -43,6 +43,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-other-polygons.parquet | 6.1 KB | 1220a46a9ffa... |
 | ./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-other-polygons.pmtiles | 62.9 KB | 1220a15720fb... |
 | ./styles/default.json | 740 B | 1220128f9495... |
+| ./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-other-polygons.thumb.jpg | 3.6 KB | 122026c65044... |
 
 ## Quick Start
 

@@ -275,7 +275,9 @@
       "file:checksum": "122053c46b538b3c0cfff27243b8513ef217756f3f3eff04ad25be6d835d4ac66fc8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Nepal, 30 June 2021 (FL20210630NPL), one GeoParquet file with the source columns."
     },
     "fl20210630npl-analysis-extent-tiles": {
       "href": "./fl20210630npl-analysis-extent.pmtiles",
@@ -284,7 +286,9 @@
       "file:checksum": "12204850e7464372539c2ee95e71f6c634867f9fb3161f78bb48c2e365271f9cb208",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Nepal, 30 June 2021 (FL20210630NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -295,7 +299,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220eed130892cfdf003dbbbb65ad03299b0a39fe1014457c4aa6871394967d14c7e"
+      "file:checksum": "1220eed130892cfdf003dbbbb65ad03299b0a39fe1014457c4aa6871394967d14c7e",
+      "description": "MapLibre style for Analysis extent: Flood, Nepal, 30 June 2021 (FL20210630NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210630npl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6437,
+      "file:checksum": "12209fc84af89aa9718b94e5f52830c6749146c324099e4577cf55b948b80a7b75ac",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Nepal, 30 June 2021 (FL20210630NPL)."
     }
   }
 }

@@ -274,7 +274,9 @@
       "file:checksum": "12200674b3ef3d11bb2f67ceec8cad688abda47efc4f4a5470963e705d6744907c51",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Afghanistan, 12 May 2024 (FL20240512AFG), one GeoParquet file with the source columns."
     },
     "fl20240512afg-water-extent-tiles": {
       "href": "./fl20240512afg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12209cc705bc50b77eee2b01129ea93572d9a2645b666d9952c8d594df0bfc24f36a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Afghanistan, 12 May 2024 (FL20240512AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 988,
-      "file:checksum": "12205affb2b8c051d4adb15b5a0477c030ffa18989f5077c9d34a17e1ae2e31b91eb"
+      "file:checksum": "12205affb2b8c051d4adb15b5a0477c030ffa18989f5077c9d34a17e1ae2e31b91eb",
+      "description": "MapLibre style for Water extent: Flood, Afghanistan, 12 May 2024 (FL20240512AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240512afg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12425,
+      "file:checksum": "1220a0b7d17f3c4a4019687e1ef93801daed2579bab2de5b0bd22091122882647cb3",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Afghanistan, 12 May 2024 (FL20240512AFG)."
     }
   }
 }

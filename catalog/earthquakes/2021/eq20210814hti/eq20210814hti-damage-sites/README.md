@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/eq20210814hti-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/eq20210814hti-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Haiti, 14 August 2021 (EQ20210814HTI): 583 features merged from 15 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20210814hti-damage-sites.parquet | 32.1 KB | 1220544416fa... |
 | ./eq20210814hti-damage-sites.pmtiles | 174.3 KB | 12206ca8df48... |
 | ./styles/default.json | 1.0 KB | 122086ca7e4c... |
+| ./eq20210814hti-damage-sites.thumb.jpg | 5.9 KB | 122063f4e617... |
 
 ## Quick Start
 

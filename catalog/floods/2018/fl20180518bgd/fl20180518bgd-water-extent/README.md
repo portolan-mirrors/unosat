@@ -1,5 +1,5 @@
 # Water extent: Flood, Bangladesh, 18 May 2018 (FL20180518BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180518bgd/fl20180518bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180518bgd/fl20180518bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Bangladesh, 18 May 2018 (FL20180518BGD): 934 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180518bgd-water-extent.parquet | 138.7 KB | 1220626a0853... |
 | ./fl20180518bgd-water-extent.pmtiles | 160.7 KB | 1220f24adf5d... |
 | ./styles/default.json | 879 B | 1220fece7d67... |
+| ./fl20180518bgd-water-extent.thumb.jpg | 6.8 KB | 1220b8a4009f... |
 
 ## Quick Start
 

@@ -205,7 +205,9 @@
       "file:checksum": "1220f5f756d3a1760238efbe455d2f2b81011e02b4e7bab850617024389acc2914f4",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG), one GeoParquet file with the source columns."
     },
     "eq20231008afg-shelters-tiles": {
       "href": "./eq20231008afg-shelters.pmtiles",
@@ -214,7 +216,9 @@
       "file:checksum": "1220924b3e8d19e2048d21b06394985498aa46ba427f6c5db62afe52b4b6bba0b2d4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -225,7 +229,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "122018519b75106ea295ad6670f1a6f0a3ea041219db6437644ad8408c0bd42866dc"
+      "file:checksum": "122018519b75106ea295ad6670f1a6f0a3ea041219db6437644ad8408c0bd42866dc",
+      "description": "MapLibre style for Shelters: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20231008afg-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4799,
+      "file:checksum": "1220e11cc2c25a9d8efd4813890bfe87752740dccc1243fdef67a9029a5cba229f67",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)."
     }
   }
 }

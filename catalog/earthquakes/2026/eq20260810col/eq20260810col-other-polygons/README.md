@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Colombia, 10 August 2026 (EQ20260810COL): 10 features merged from 10 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20260810col-other-polygons.parquet | 7.2 KB | 122035c1b15c... |
 | ./eq20260810col-other-polygons.pmtiles | 31.8 KB | 1220ebe8876d... |
 | ./styles/default.json | 664 B | 122048e7707f... |
+| ./eq20260810col-other-polygons.thumb.jpg | 3.3 KB | 1220c26406df... |
 
 ## Quick Start
 

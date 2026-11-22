@@ -1,5 +1,5 @@
 # Shelters: Flood, Myanmar, 3 July 2015 (FL20150703MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Flood, Myanmar, 3 July 2015 (FL20150703MMR): 260 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -75,6 +75,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20150703mmr-shelters.parquet | 22.7 KB | 12200cd77521... |
 | ./fl20150703mmr-shelters.pmtiles | 56.3 KB | 1220bb9fc652... |
 | ./styles/default.json | 892 B | 1220227530b8... |
+| ./fl20150703mmr-shelters.thumb.jpg | 3.9 KB | 1220df58a573... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Water extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR): 34 features merged from 34 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20230206syr-water-extent.parquet | 112.2 KB | 122058312588... |
 | ./eq20230206syr-water-extent.pmtiles | 123.5 KB | 12204dec1d01... |
 | ./styles/default.json | 887 B | 1220d154f3f1... |
+| ./eq20230206syr-water-extent.thumb.jpg | 10.4 KB | 1220bb00afd2... |
 
 ## Quick Start
 

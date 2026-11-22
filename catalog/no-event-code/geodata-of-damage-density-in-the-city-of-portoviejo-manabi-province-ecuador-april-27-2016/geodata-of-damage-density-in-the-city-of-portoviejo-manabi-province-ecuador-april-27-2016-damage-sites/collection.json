@@ -286,7 +286,9 @@
       "file:checksum": "122037da7e6bd3edef40e60dc21f95fa188d989a055efa5d3ebdf9029bcd5ea88108",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador, one GeoParquet file with the source columns."
     },
     "geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-damage-sites-tiles": {
       "href": "./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-damage-sites.pmtiles",
@@ -295,7 +297,9 @@
       "file:checksum": "122019801ced7a3b09464095c1cf6a879b10be36abf8b887a6dcb4cdb24f89c50b3a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -306,7 +310,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1124,
-      "file:checksum": "12202244a105e1041cb69ab63b770e72e9049cfd13d865689e95848a4f6f6e15b8d6"
+      "file:checksum": "12202244a105e1041cb69ab63b770e72e9049cfd13d865689e95848a4f6f6e15b8d6",
+      "description": "MapLibre style for Damage sites: Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2522,
+      "file:checksum": "12204a19ebd0299993b4e0127742105e1c62dddeec3bef4d0c58709b1b7bd537b8a5",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador."
     }
   }
 }

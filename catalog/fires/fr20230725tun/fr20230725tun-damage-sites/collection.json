@@ -262,7 +262,9 @@
       "file:checksum": "1220f883f1da132ed5cebcd798dcb49712f9832916439a0000369ce3fd1e27d4b3f2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Fire, Tunisia, 25 July 2023 (FR20230725TUN), one GeoParquet file with the source columns."
     },
     "fr20230725tun-damage-sites-tiles": {
       "href": "./fr20230725tun-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12204128c48a49d6235db1143675ae555739dcee6f551aa0c02ae5a0fde47faebe88",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Fire, Tunisia, 25 July 2023 (FR20230725TUN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "12203d62581d32250cd43952f938941392c2d1dba4551d63b607ae9bb2e80216ec8a"
+      "file:checksum": "12203d62581d32250cd43952f938941392c2d1dba4551d63b607ae9bb2e80216ec8a",
+      "description": "MapLibre style for Damage sites: Fire, Tunisia, 25 July 2023 (FR20230725TUN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20230725tun-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5762,
+      "file:checksum": "122097d2c9fcfaf6c88587b015b40b709594ba724cef00683293fa8f8e6bdd8f9d63",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Fire, Tunisia, 25 July 2023 (FR20230725TUN)."
     }
   }
 }

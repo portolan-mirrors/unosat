@@ -262,7 +262,9 @@
       "file:checksum": "1220f4d21c01c600beefc63410586f36aa3e543236ceef1944057bdc59e31531afb8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE), one GeoParquet file with the source columns."
     },
     "fl20140207zwe-damage-sites-tiles": {
       "href": "./fl20140207zwe-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12208024ae3e630ba69aa017d5033f50a70c413f4db80c64881e452904230a106dc7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "122027c5ff0c5b65294a29b81b27033571b5d2d62c9936bca15516356d59ba29ed18"
+      "file:checksum": "122027c5ff0c5b65294a29b81b27033571b5d2d62c9936bca15516356d59ba29ed18",
+      "description": "MapLibre style for Damage sites: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140207zwe-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10164,
+      "file:checksum": "12204d42d62b6b6d5b6ad8feacb678b2f9a055fe7ea6d922bdf930daa771ce52efd0",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)."
     }
   }
 }

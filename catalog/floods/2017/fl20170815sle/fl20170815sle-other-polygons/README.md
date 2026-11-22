@@ -1,5 +1,5 @@
 # Other polygons: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Sierra Leone, 15 August 2017 (FL20170815SLE): 2 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170815sle-other-polygons.parquet | 4.6 KB | 12202291e033... |
 | ./fl20170815sle-other-polygons.pmtiles | 30.1 KB | 1220b832197d... |
 | ./styles/default.json | 664 B | 1220eaee42df... |
+| ./fl20170815sle-other-polygons.thumb.jpg | 7.9 KB | 12201568f90d... |
 
 ## Quick Start
 

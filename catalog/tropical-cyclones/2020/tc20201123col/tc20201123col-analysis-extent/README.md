@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201123col/tc20201123col-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201123col/tc20201123col-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201123col-analysis-extent.parquet | 35.7 KB | 12200ff63740... |
 | ./tc20201123col-analysis-extent.pmtiles | 28.5 KB | 1220d9059be6... |
 | ./styles/default.json | 671 B | 1220436e6f53... |
+| ./tc20201123col-analysis-extent.thumb.jpg | 11.3 KB | 122001e28d19... |
 
 ## Quick Start
 

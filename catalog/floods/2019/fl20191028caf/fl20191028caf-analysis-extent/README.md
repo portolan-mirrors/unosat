@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191028caf/fl20191028caf-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191028caf/fl20191028caf-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Central African Republic, 28 October 2019 (FL20191028CAF): 11 features merged from 11 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191028caf-analysis-extent.parquet | 16.0 KB | 1220bddc080c... |
 | ./fl20191028caf-analysis-extent.pmtiles | 184.7 KB | 1220b21f44be... |
 | ./styles/default.json | 671 B | 1220ee599c7e... |
+| ./fl20191028caf-analysis-extent.thumb.jpg | 7.3 KB | 1220a6f22414... |
 
 ## Quick Start
 

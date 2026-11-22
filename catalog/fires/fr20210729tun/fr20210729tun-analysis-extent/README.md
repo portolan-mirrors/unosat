@@ -1,5 +1,5 @@
 # Analysis extent: Fire, Tunisia, 29 July 2021 (FR20210729TUN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Fire, Tunisia, 29 July 2021 (FR20210729TUN): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20210729tun-analysis-extent.parquet | 482.8 KB | 12209e77a951... |
 | ./fr20210729tun-analysis-extent.pmtiles | 1.3 MB | 1220c00457ba... |
 | ./styles/default.json | 671 B | 122082534bde... |
+| ./fr20210729tun-analysis-extent.thumb.jpg | 34.9 KB | 1220ae11377c... |
 
 ## Quick Start
 

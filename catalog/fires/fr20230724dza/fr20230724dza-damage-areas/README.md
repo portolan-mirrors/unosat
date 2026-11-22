@@ -1,5 +1,5 @@
 # Damage areas: Fire, Algeria, 24 July 2023 (FR20230724DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Fire, Algeria, 24 July 2023 (FR20230724DZA): 13 features merged from 13 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20230724dza-damage-areas.parquet | 94.1 MB | 12204bee3922... |
 | ./fr20230724dza-damage-areas.pmtiles | 10.2 MB | 12205c2a230e... |
 | ./styles/default.json | 652 B | 12203cca2292... |
+| ./fr20230724dza-damage-areas.thumb.jpg | 4.7 KB | 12205820e360... |
 
 ## Quick Start
 

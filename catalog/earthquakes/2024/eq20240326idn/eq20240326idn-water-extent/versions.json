@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20240326idn-water-extent.parquet",
         "eq20240326idn-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:49.208775Z",
+      "breaking": false,
+      "assets": {
+        "eq20240326idn-water-extent.parquet": {
+          "sha256": "906c24fbadbaec6cd685855fea1c9f6453493f45124c9a44dc3161e2c8b135c7",
+          "size_bytes": 46343722,
+          "href": "earthquakes/2024/eq20240326idn/eq20240326idn-water-extent/eq20240326idn-water-extent.parquet",
+          "source_path": "eq20240326idn-water-extent.parquet",
+          "source_mtime": 1795333284.728232,
+          "mtime": 1795333284.728232,
+          "feature_count": 22,
+          "schema_fingerprint": "9778d28cbdd1c99a"
+        },
+        "eq20240326idn-water-extent.pmtiles": {
+          "sha256": "114908954f86477899b247368b4d6b5292e723c3cc6b4a09e17051658ccd46e0",
+          "size_bytes": 15807172,
+          "href": "earthquakes/2024/eq20240326idn/eq20240326idn-water-extent/eq20240326idn-water-extent.pmtiles",
+          "mtime": 1795334120.8001595
+        },
+        "eq20240326idn-water-extent.thumb.jpg": {
+          "sha256": "6276c84643cf0256ba63c51edc0c88970260a3da06ffcfd4e91adf511f1572eb",
+          "size_bytes": 36582,
+          "href": "earthquakes/2024/eq20240326idn/eq20240326idn-water-extent/eq20240326idn-water-extent.thumb.jpg",
+          "mtime": 1795343628.9548538
+        }
+      },
+      "changes": [
+        "eq20240326idn-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20240326idn-water-extent.thumb.jpg"
     }
   ]
 }

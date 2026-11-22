@@ -253,7 +253,9 @@
       "file:checksum": "12206ba73e86fd80d389f48749cbfcce23c518de9f52a3434cf5baeb7622f5c02713",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK), one GeoParquet file with the source columns."
     },
     "tc20230616pak-analysis-extent-tiles": {
       "href": "./tc20230616pak-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220eb4c79f4c407cae820d794634a1167855f54293ac248795f82b3ef65bd8d6a6a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12200fa402b6c02c847b2bc730adda8e2f4cc5f5f7da0a9131d65c3f51ca6aeeeac1"
+      "file:checksum": "12200fa402b6c02c847b2bc730adda8e2f4cc5f5f7da0a9131d65c3f51ca6aeeeac1",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230616pak-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19965,
+      "file:checksum": "12209c87bca7b21f4b832c8abbd4813eee9f97179d1885382fa17fb463c0503c785c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK)."
     }
   }
 }

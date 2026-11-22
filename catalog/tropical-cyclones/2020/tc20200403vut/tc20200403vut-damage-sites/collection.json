@@ -266,7 +266,9 @@
       "file:checksum": "1220a760e6c0204e3c6ea7471e6e942f6d03375d67b38075bfd21215ec36a6a8e950",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT), one GeoParquet file with the source columns."
     },
     "tc20200403vut-damage-sites-tiles": {
       "href": "./tc20200403vut-damage-sites.pmtiles",
@@ -275,7 +277,9 @@
       "file:checksum": "1220523dc4a11a31032c131c9a3500341f222d9ad70c52a45641d8df0198416d4b92",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -286,7 +290,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1092,
-      "file:checksum": "12204c296a15b842c4a985628b6fc344a8067c5770ff3287e0469e851a98ec492bb0"
+      "file:checksum": "12204c296a15b842c4a985628b6fc344a8067c5770ff3287e0469e851a98ec492bb0",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200403vut-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13771,
+      "file:checksum": "12205dd1b9fead09c58d4cc6f8d20c13108897b9434e781457a45f3f5adab9e032b9",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)."
     }
   }
 }

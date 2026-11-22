@@ -1,5 +1,5 @@
 # Damage sites: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ): 16 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20240222gnq-damage-sites.parquet | 7.6 KB | 12204d3f7b30... |
 | ./fr20240222gnq-damage-sites.pmtiles | 23.9 KB | 122079f2f87b... |
 | ./styles/default.json | 956 B | 12209fdc266c... |
+| ./fr20240222gnq-damage-sites.thumb.jpg | 5.2 KB | 1220ea3555d0... |
 
 ## Quick Start
 

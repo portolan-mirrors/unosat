@@ -1,5 +1,5 @@
 # Other polygons: Volcano, Indonesia, 5 November 2024 (VO20241105IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20241105idn/vo20241105idn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20241105idn/vo20241105idn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Volcano, Indonesia, 5 November 2024 (VO20241105IDN): 2 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20241105idn-other-polygons.parquet | 4.3 KB | 122004d4d8d0... |
 | ./vo20241105idn-other-polygons.pmtiles | 24.4 KB | 1220d31e4f4a... |
 | ./styles/default.json | 664 B | 122053d367c5... |
+| ./vo20241105idn-other-polygons.thumb.jpg | 9.1 KB | 1220f7b87eca... |
 
 ## Quick Start
 

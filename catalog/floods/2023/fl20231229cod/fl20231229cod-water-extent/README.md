@@ -1,5 +1,5 @@
 # Water extent: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231229cod/fl20231229cod-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231229cod/fl20231229cod-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD): 7 features merged from 7 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231229cod-water-extent.parquet | 5.2 MB | 12202018494b... |
 | ./fl20231229cod-water-extent.pmtiles | 527.1 KB | 12208acfda26... |
 | ./styles/default.json | 960 B | 1220c7706322... |
+| ./fl20231229cod-water-extent.thumb.jpg | 16.0 KB | 1220d916f95e... |
 
 ## Quick Start
 

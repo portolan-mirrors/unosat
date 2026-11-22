@@ -256,7 +256,9 @@
       "file:checksum": "1220591d8b574bc6260aaf1a2618a60da5d79dcecff0ef8c6681d63a60b6f9d51e56",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Rwanda, 4 May 2023 (FL20230504RWA), one GeoParquet file with the source columns."
     },
     "fl20230504rwa-analysis-extent-tiles": {
       "href": "./fl20230504rwa-analysis-extent.pmtiles",
@@ -265,7 +267,9 @@
       "file:checksum": "1220e59e46548891f52d78c429be7709f2824e7438f8c64d8f21fa5ac1ead3e9ead4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Rwanda, 4 May 2023 (FL20230504RWA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -276,7 +280,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220a52a09b256767213597ad20d6cf44b737aa3fb9bbd5e2f3c4e71b73929cd89f2"
+      "file:checksum": "1220a52a09b256767213597ad20d6cf44b737aa3fb9bbd5e2f3c4e71b73929cd89f2",
+      "description": "MapLibre style for Analysis extent: Flood, Rwanda, 4 May 2023 (FL20230504RWA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230504rwa-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8566,
+      "file:checksum": "122084e9c92146dc4997c45454519e1bc0203899af04ef0385ec5522ad47886e3fe7",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Rwanda, 4 May 2023 (FL20230504RWA)."
     }
   }
 }

@@ -282,7 +282,9 @@
       "file:checksum": "1220bacd0fcc3bb03f5b898e709a7f44fb066860485744e7ee6d718794d14739d372",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB), one GeoParquet file with the source columns."
     },
     "tc20231206slb-damage-sites-tiles": {
       "href": "./tc20231206slb-damage-sites.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "122080ad717a740859df8d671a56da34ec070fc1ae8c9621076e7381f177b29b7ecf",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220fcf337554c71bcd3aba77941c525601eb82504d4700334c5c6fd08c0108068c7"
+      "file:checksum": "1220fcf337554c71bcd3aba77941c525601eb82504d4700334c5c6fd08c0108068c7",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20231206slb-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4758,
+      "file:checksum": "12206f13833009f720d42312569ed2aee3b6a401175814df7d7284d325321b987ce9",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)."
     }
   }
 }

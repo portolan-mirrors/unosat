@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE): 11,188 features merged from 4 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140715pse-damage-areas.parquet | 8.2 MB | 1220679eb18d... |
 | ./ce20140715pse-damage-areas.pmtiles | 3.4 MB | 1220986d5450... |
 | ./styles/default.json | 913 B | 122095590e3d... |
+| ./ce20140715pse-damage-areas.thumb.jpg | 15.3 KB | 1220a8d799de... |
 
 ## Quick Start
 

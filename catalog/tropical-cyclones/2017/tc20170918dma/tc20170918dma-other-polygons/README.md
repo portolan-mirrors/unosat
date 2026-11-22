@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170918dma/tc20170918dma-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170918dma/tc20170918dma-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA): 12 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170918dma-other-polygons.parquet | 6.6 KB | 12209a691398... |
 | ./tc20170918dma-other-polygons.pmtiles | 58.1 KB | 1220946df1b4... |
 | ./styles/default.json | 664 B | 1220c80915cf... |
+| ./tc20170918dma-other-polygons.thumb.jpg | 8.4 KB | 1220d76f7fe4... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180103mdg/tc20180103mdg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180103mdg/tc20180103mdg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Madagascar, 3 January 2018 (TC20180103MDG): 65,683 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20180103mdg-water-extent.parquet | 5.0 MB | 1220e5c26105... |
 | ./tc20180103mdg-water-extent.pmtiles | 9.6 MB | 12208fd189f5... |
 | ./styles/default.json | 887 B | 12208173e76c... |
+| ./tc20180103mdg-water-extent.thumb.jpg | 14.5 KB | 12201163e541... |
 
 ## Quick Start
 

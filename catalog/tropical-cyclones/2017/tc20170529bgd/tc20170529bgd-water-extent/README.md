@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD): 47,306 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170529bgd-water-extent.parquet | 43.1 MB | 122004089f7a... |
 | ./tc20170529bgd-water-extent.pmtiles | 17.4 MB | 12201056386c... |
 | ./styles/default.json | 926 B | 1220f10ad2a7... |
+| ./tc20170529bgd-water-extent.thumb.jpg | 15.7 KB | 1220d54db760... |
 
 ## Quick Start
 

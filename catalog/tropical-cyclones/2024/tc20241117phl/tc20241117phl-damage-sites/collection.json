@@ -262,7 +262,9 @@
       "file:checksum": "12208aab125c39384e917848b2a8a9ba3cb702787731fcff4cf4234b9b1178889a9d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL), one GeoParquet file with the source columns."
     },
     "tc20241117phl-damage-sites-tiles": {
       "href": "./tc20241117phl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220889c43d388aef91603de9405dbc4751421348f2d3a9265de2064e8e1b5fd5daa",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1049,
-      "file:checksum": "12208c9b48d5082dc14267fdd29dc5d3fe6e6309d93e74347af214fb07de5d55698e"
+      "file:checksum": "12208c9b48d5082dc14267fdd29dc5d3fe6e6309d93e74347af214fb07de5d55698e",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20241117phl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8961,
+      "file:checksum": "122048907f11fbf6ed003bf91d9d823b9368ff2ba988df7404a23f1f09dae9070aee",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Other polygons: Flood, Sudan, 7 September 2021 (FL20210907SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Sudan, 7 September 2021 (FL20210907SDN): 8 features merged from 8 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210907sdn-other-polygons.parquet | 10.9 MB | 122001e14285... |
 | ./fl20210907sdn-other-polygons.pmtiles | 2.4 MB | 1220835973f5... |
 | ./styles/default.json | 664 B | 1220fe408cec... |
+| ./fl20210907sdn-other-polygons.thumb.jpg | 20.1 KB | 1220c8c47126... |
 
 ## Quick Start
 

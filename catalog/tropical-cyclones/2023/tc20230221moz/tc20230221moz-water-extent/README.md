@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230221moz/tc20230221moz-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ): 99 features merged from 99 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -67,6 +67,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230221moz-water-extent.parquet | 24.8 MB | 1220fbe76d67... |
 | ./tc20230221moz-water-extent.pmtiles | 25.7 MB | 1220aa2d3370... |
 | ./styles/default.json | 972 B | 12208be4b185... |
+| ./tc20230221moz-water-extent.thumb.jpg | 18.9 KB | 12209ebe839a... |
 
 ## Quick Start
 

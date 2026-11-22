@@ -1,5 +1,5 @@
 # Shelter areas: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Complex emergency, Mali, 31 July 2012 (CE20120731MLI): 52 features merged from 3 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20120731mli-shelter-areas.parquet | 21.3 KB | 122099cdb316... |
 | ./ce20120731mli-shelter-areas.pmtiles | 100.5 KB | 122031cb8db7... |
 | ./styles/default.json | 907 B | 12201eb560a1... |
+| ./ce20120731mli-shelter-areas.thumb.jpg | 2.4 KB | 122023aa42a1... |
 
 ## Quick Start
 

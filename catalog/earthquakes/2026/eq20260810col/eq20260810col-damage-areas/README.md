@@ -1,5 +1,5 @@
 # Damage areas: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Earthquake, Colombia, 10 August 2026 (EQ20260810COL): 15 features merged from 10 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20260810col-damage-areas.parquet | 8.7 KB | 1220529102c8... |
 | ./eq20260810col-damage-areas.pmtiles | 35.1 KB | 1220cd005179... |
 | ./styles/default.json | 893 B | 1220cc0dee14... |
+| ./eq20260810col-damage-areas.thumb.jpg | 4.3 KB | 12208c740736... |
 
 ## Quick Start
 

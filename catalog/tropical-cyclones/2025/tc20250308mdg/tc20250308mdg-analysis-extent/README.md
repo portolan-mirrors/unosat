@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308mdg/tc20250308mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308mdg/tc20250308mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250308mdg-analysis-extent.parquet | 5.2 KB | 1220bd5aabd7... |
 | ./tc20250308mdg-analysis-extent.pmtiles | 150.7 KB | 1220a98842b6... |
 | ./styles/default.json | 671 B | 12204171f59c... |
+| ./tc20250308mdg-analysis-extent.thumb.jpg | 6.7 KB | 122051cb8f23... |
 
 ## Quick Start
 

@@ -262,7 +262,9 @@
       "file:checksum": "1220fbaae673ed0d4545ac09ddbddb37914706967eee23bc376a178db5490bc26a91",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Pakistan, 18 August 2025 (FL20250818PAK), one GeoParquet file with the source columns."
     },
     "fl20250818pak-damage-sites-tiles": {
       "href": "./fl20250818pak-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220a9c6eab1fb8f5bb146fef4e18ba2303a79e38dcf7564dab5ddbcadcfbca3d5e4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Pakistan, 18 August 2025 (FL20250818PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 947,
-      "file:checksum": "12206d4f214b4eaff9ff801f354835f400803686d73aeccdd3d3dbefd2df6864a191"
+      "file:checksum": "12206d4f214b4eaff9ff801f354835f400803686d73aeccdd3d3dbefd2df6864a191",
+      "description": "MapLibre style for Damage sites: Flood, Pakistan, 18 August 2025 (FL20250818PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250818pak-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8014,
+      "file:checksum": "1220f184c840a07cb4be993e478cfb751629e996fa26d43f9433f5a9d99216ddeb00",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Pakistan, 18 August 2025 (FL20250818PAK)."
     }
   }
 }

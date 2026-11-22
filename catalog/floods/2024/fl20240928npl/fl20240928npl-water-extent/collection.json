@@ -274,7 +274,9 @@
       "file:checksum": "12200527e4a771ad984771590c28e042213854841243e89fb470d4ea2316ca119c90",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nepal, 28 September 2024 (FL20240928NPL), one GeoParquet file with the source columns."
     },
     "fl20240928npl-water-extent-tiles": {
       "href": "./fl20240928npl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220c69a83fde190f70703f1212389138d5a2ed7faadd1d058643bf39343c8b2e4ff",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nepal, 28 September 2024 (FL20240928NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12200586b9aa669ff1e4ebf47715e42bd7317b44daa8155f63fa4657cad997422952"
+      "file:checksum": "12200586b9aa669ff1e4ebf47715e42bd7317b44daa8155f63fa4657cad997422952",
+      "description": "MapLibre style for Water extent: Flood, Nepal, 28 September 2024 (FL20240928NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240928npl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 28704,
+      "file:checksum": "1220606919ad8cc40f1ede318581515e50a0a81d67d46e0562aa464e4c5ba40c1372",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nepal, 28 September 2024 (FL20240928NPL)."
     }
   }
 }

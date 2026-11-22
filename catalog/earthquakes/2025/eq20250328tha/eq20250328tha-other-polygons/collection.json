@@ -280,7 +280,9 @@
       "file:checksum": "1220121d4bea4974d17fd5626b9e0a7962ed3d04955f98d5c760b355d703b34fb10a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Thailand, 28 March 2025 (EQ20250328THA), one GeoParquet file with the source columns."
     },
     "eq20250328tha-other-polygons-tiles": {
       "href": "./eq20250328tha-other-polygons.pmtiles",
@@ -289,7 +291,9 @@
       "file:checksum": "12208d4cf41db675c52e728809d3a7100728da899e74afa0a450d3957e5e9560cee7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Thailand, 28 March 2025 (EQ20250328THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -300,7 +304,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12206d363317cc00c9320e4f73fd4c7b41ae403d4a4790e27c4c7dc8083caea5e411"
+      "file:checksum": "12206d363317cc00c9320e4f73fd4c7b41ae403d4a4790e27c4c7dc8083caea5e411",
+      "description": "MapLibre style for Other polygons: Earthquake, Thailand, 28 March 2025 (EQ20250328THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250328tha-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4664,
+      "file:checksum": "12202e12b578068d6fe32b2ba80f118a83450f982c714567f97cbe055b8a45148894",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)."
     }
   }
 }

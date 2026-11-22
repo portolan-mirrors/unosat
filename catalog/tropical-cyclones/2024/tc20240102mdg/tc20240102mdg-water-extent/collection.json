@@ -274,7 +274,9 @@
       "file:checksum": "1220d86a3981ad65a27dd6200974fb140b2ad1d45da280e0ae4081455032f759cac4",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Madagascar, 2 January 2024 (TC20240102MDG), one GeoParquet file with the source columns."
     },
     "tc20240102mdg-water-extent-tiles": {
       "href": "./tc20240102mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12205206ebe1cd9c7eba99941d9cb1addfee6ac802c430d4d92ca69801b2fd6509ff",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Madagascar, 2 January 2024 (TC20240102MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 926,
-      "file:checksum": "1220b0c5c41765cc7766995efa72b5bb014f6247c7c09f3d77a726c930ba189a25c2"
+      "file:checksum": "1220b0c5c41765cc7766995efa72b5bb014f6247c7c09f3d77a726c930ba189a25c2",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Madagascar, 2 January 2024 (TC20240102MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240102mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6467,
+      "file:checksum": "122000d9bade86ea1ee0989028e436058073603663badcdc226dc34f00a8f6f10a77",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Madagascar, 2 January 2024 (TC20240102MDG)."
     }
   }
 }

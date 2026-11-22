@@ -262,7 +262,9 @@
       "file:checksum": "1220f7386c94bc10b73052087d37bbb9f7afab0f447ca0905cc389f973ea9917e2ab",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ), one GeoParquet file with the source columns."
     },
     "ce20140613irq-damage-sites-cc_by_nc_sa_3_0-tiles": {
       "href": "./ce20140613irq-damage-sites-cc_by_nc_sa_3_0.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12205be138c7399d85d3fd311c4f52083572d6bf5d69bc24d120042569302fbf46e7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1324,
-      "file:checksum": "1220c7ce1005c6bc72f421f0b7fda8d0e6482b20e1b98125999f6e2daa92fa9c6f26"
+      "file:checksum": "1220c7ce1005c6bc72f421f0b7fda8d0e6482b20e1b98125999f6e2daa92fa9c6f26",
+      "description": "MapLibre style for Damage sites: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140613irq-damage-sites-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5344,
+      "file:checksum": "1220c73423f92009ff92c8ed52d1eb75040a63b4aad88a61f9183ecb0061d73b940e",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)."
     }
   }
 }

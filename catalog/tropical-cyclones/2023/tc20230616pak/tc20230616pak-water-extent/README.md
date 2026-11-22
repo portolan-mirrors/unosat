@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230616pak/tc20230616pak-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230616pak/tc20230616pak-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK): 2 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230616pak-water-extent.parquet | 361.7 KB | 122081753f64... |
 | ./tc20230616pak-water-extent.pmtiles | 4.1 MB | 122081610e69... |
 | ./styles/default.json | 887 B | 122005fe2f50... |
+| ./tc20230616pak-water-extent.thumb.jpg | 18.1 KB | 1220d3b03159... |
 
 ## Quick Start
 

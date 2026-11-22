@@ -1,5 +1,5 @@
 # Other points: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Earthquake, Thailand, 28 March 2025 (EQ20250328THA): 19,204 features merged from 5 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328tha-other-points.parquet | 721.6 KB | 1220ab3e2607... |
 | ./eq20250328tha-other-points.pmtiles | 522.3 KB | 1220b8266d5b... |
 | ./styles/default.json | 695 B | 12206f762869... |
+| ./eq20250328tha-other-points.thumb.jpg | 5.5 KB | 12204411c523... |
 
 ## Quick Start
 

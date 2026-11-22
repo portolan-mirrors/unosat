@@ -262,7 +262,9 @@
       "file:checksum": "1220e0cfea6c71b95454ad731ad617a9dc5944d658c67a235b2e21b6eef1a13408ab",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN), one GeoParquet file with the source columns."
     },
     "eq20240326idn-damage-sites-tiles": {
       "href": "./eq20240326idn-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122092a6df34673f83dea768e48f35d3ee35ef3a112266b71b82b3bffbe052589b14",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "122082e4c734370166ccf972cbfff4c312b3704f1d17340b2a6a72994a8edc89133f"
+      "file:checksum": "122082e4c734370166ccf972cbfff4c312b3704f1d17340b2a6a72994a8edc89133f",
+      "description": "MapLibre style for Damage sites: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20240326idn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2492,
+      "file:checksum": "1220e0ea6a5f6f407badada213b677ad7ba97a0e210625f95eb65aa0a176ec3434d1",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN)."
     }
   }
 }

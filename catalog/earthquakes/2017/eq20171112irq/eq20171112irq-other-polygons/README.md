@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ): 3 features merged from 3 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20171112irq-other-polygons.parquet | 5.2 KB | 1220dee810c1... |
 | ./eq20171112irq-other-polygons.pmtiles | 37.9 KB | 1220233a1efc... |
 | ./styles/default.json | 664 B | 12205780a4f1... |
+| ./eq20171112irq-other-polygons.thumb.jpg | 7.6 KB | 122038cad93e... |
 
 ## Quick Start
 

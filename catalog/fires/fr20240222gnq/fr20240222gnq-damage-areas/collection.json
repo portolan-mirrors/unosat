@@ -282,7 +282,9 @@
       "file:checksum": "1220150c9f21e09e22d29043314d45a8545faa449aa855237dfd2cd8b0d8e31c32ce",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ), one GeoParquet file with the source columns."
     },
     "fr20240222gnq-damage-areas-tiles": {
       "href": "./fr20240222gnq-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12202db42406f242d6386bdb676e67ddeaf77c12186973ab599e70cc807dc6facbaa",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Grouped_Damage_Classes",
       "file:size": 915,
-      "file:checksum": "122013c3de8b07a87faada1fc183335612e049e92bce162586fe2f4aee80a851a005"
+      "file:checksum": "122013c3de8b07a87faada1fc183335612e049e92bce162586fe2f4aee80a851a005",
+      "description": "MapLibre style for Damage areas: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20240222gnq-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 20092,
+      "file:checksum": "122005866a74564f8f95cb430b1288c32ddf0ba9fa4914d31a0a66d485e6231dbabd",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)."
     }
   }
 }

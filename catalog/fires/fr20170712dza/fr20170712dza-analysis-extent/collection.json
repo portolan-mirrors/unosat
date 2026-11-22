@@ -263,7 +263,9 @@
       "file:checksum": "1220ffa11999a3aef112aa051ed7c7ed2482aedbaf26e5da810797b7116adbd21488",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Fire, Algeria, 12 July 2017 (FR20170712DZA), one GeoParquet file with the source columns."
     },
     "fr20170712dza-analysis-extent-tiles": {
       "href": "./fr20170712dza-analysis-extent.pmtiles",
@@ -272,7 +274,9 @@
       "file:checksum": "12204f9bcdaf961b7b0da15c8d38ef1ec679948d9dff6d94afe02b7e24eb1e11c2cb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Fire, Algeria, 12 July 2017 (FR20170712DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -283,7 +287,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12205645af415b2d6343fab0eb1477fa2ed7c60c02edc36f1b61f0d1d19fba6292f3"
+      "file:checksum": "12205645af415b2d6343fab0eb1477fa2ed7c60c02edc36f1b61f0d1d19fba6292f3",
+      "description": "MapLibre style for Analysis extent: Fire, Algeria, 12 July 2017 (FR20170712DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20170712dza-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11304,
+      "file:checksum": "12207ca5c1be0cb7d749bbd29a7a1ae5f549f3da77448503ee1de33d859d48648cb8",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Fire, Algeria, 12 July 2017 (FR20170712DZA)."
     }
   }
 }

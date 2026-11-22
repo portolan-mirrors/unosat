@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20150425npl-other-mixed.parquet",
         "eq20150425npl-other-mixed.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.657707Z",
+      "breaking": false,
+      "assets": {
+        "eq20150425npl-other-mixed.parquet": {
+          "sha256": "c19af407867264fc0b0df215f231f42367922ec29b5a600aecceaac053da7d81",
+          "size_bytes": 5204,
+          "href": "earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/eq20150425npl-other-mixed.parquet",
+          "source_path": "eq20150425npl-other-mixed.parquet",
+          "source_mtime": 1795333215.6431627,
+          "mtime": 1795333215.6431627,
+          "feature_count": 5,
+          "schema_fingerprint": "798f4acf92ebbce7"
+        },
+        "eq20150425npl-other-mixed.pmtiles": {
+          "sha256": "342fbc1cdf0bfb449cf313a16899fd2af4646540b9b2052e4a3b1b01b5ca3ca9",
+          "size_bytes": 21260,
+          "href": "earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/eq20150425npl-other-mixed.pmtiles",
+          "mtime": 1795334069.9638662
+        },
+        "eq20150425npl-other-mixed.thumb.jpg": {
+          "sha256": "6fafdcc0f99f4b0351cccb9d95604a2a89036d1869cbbf819013d391d4456bf2",
+          "size_bytes": 3617,
+          "href": "earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/eq20150425npl-other-mixed.thumb.jpg",
+          "mtime": 1795343616.655332
+        }
+      },
+      "changes": [
+        "eq20150425npl-other-mixed.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20150425npl-other-mixed.thumb.jpg"
     }
   ]
 }

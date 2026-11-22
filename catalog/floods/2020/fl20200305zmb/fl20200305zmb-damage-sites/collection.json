@@ -262,7 +262,9 @@
       "file:checksum": "1220b8f69bb3aed2e6ea0d40287054670debf80d44c2c6cb6933c4227bb3ade90dc1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Zambia, 5 March 2020 (FL20200305ZMB), one GeoParquet file with the source columns."
     },
     "fl20200305zmb-damage-sites-tiles": {
       "href": "./fl20200305zmb-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12200e95e503d78d08963d633d7e09e55d134b84cc5534fa386df4928c1988adf30c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Zambia, 5 March 2020 (FL20200305ZMB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "122094b0a9aef823f0c186ba89d73490381d309b58312a03bd42641bcff1bc7fd8df"
+      "file:checksum": "122094b0a9aef823f0c186ba89d73490381d309b58312a03bd42641bcff1bc7fd8df",
+      "description": "MapLibre style for Damage sites: Flood, Zambia, 5 March 2020 (FL20200305ZMB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200305zmb-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3957,
+      "file:checksum": "122036a27fa439f61af66ec549539dafad4c7bfb24cd4870a6b592cbc2f6b7f494c6",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Zambia, 5 March 2020 (FL20200305ZMB)."
     }
   }
 }

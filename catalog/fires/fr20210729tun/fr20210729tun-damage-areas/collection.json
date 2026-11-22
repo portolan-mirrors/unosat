@@ -282,7 +282,9 @@
       "file:checksum": "12202788544dd49c933c04e9ac5e3033f28ce53897cd574f338f77a74413ce2d5d79",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Fire, Tunisia, 29 July 2021 (FR20210729TUN), one GeoParquet file with the source columns."
     },
     "fr20210729tun-damage-areas-tiles": {
       "href": "./fr20210729tun-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12201e55c2b3d094c66eafad76190a301d3d83013bc2df97a57db156c5bc7d9c3193",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Fire, Tunisia, 29 July 2021 (FR20210729TUN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 909,
-      "file:checksum": "12206e9c92ec86444a20a526655dd4a458cdf4d2be80c6aece758318f8d503a79e07"
+      "file:checksum": "12206e9c92ec86444a20a526655dd4a458cdf4d2be80c6aece758318f8d503a79e07",
+      "description": "MapLibre style for Damage areas: Fire, Tunisia, 29 July 2021 (FR20210729TUN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20210729tun-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10901,
+      "file:checksum": "1220dad3a90d61e0aac0302b08dbb72c6810a298fdbc9c82d22dabdaf3ea349b94ab",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Fire, Tunisia, 29 July 2021 (FR20210729TUN)."
     }
   }
 }

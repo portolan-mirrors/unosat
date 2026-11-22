@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Nigeria, 2 September 2024 (FL20240902NGA): 25 features merged from 25 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240902nga-analysis-extent.parquet | 13.5 MB | 122065cf279e... |
 | ./fl20240902nga-analysis-extent.pmtiles | 74.9 MB | 12206113b9cb... |
 | ./styles/default.json | 671 B | 1220d407cf41... |
+| ./fl20240902nga-analysis-extent.thumb.jpg | 15.2 KB | 1220c50639cc... |
 
 ## Quick Start
 

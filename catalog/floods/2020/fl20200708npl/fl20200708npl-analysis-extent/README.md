@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Nepal, 8 July 2020 (FL20200708NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200708npl/fl20200708npl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200708npl/fl20200708npl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Nepal, 8 July 2020 (FL20200708NPL): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200708npl-analysis-extent.parquet | 60.4 KB | 122022499bff... |
 | ./fl20200708npl-analysis-extent.pmtiles | 240.6 KB | 122057c6b2bf... |
 | ./styles/default.json | 671 B | 122005104e1e... |
+| ./fl20200708npl-analysis-extent.thumb.jpg | 4.3 KB | 122097eb4f74... |
 
 ## Quick Start
 

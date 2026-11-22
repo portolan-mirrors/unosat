@@ -270,7 +270,9 @@
       "file:checksum": "1220cc4f5ebd06be742e09457dc32add8f4f3cc8896fe33949c21ee5bf4220d80512",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Guyana, 20 May 2021 (FL20210520GUY), one GeoParquet file with the source columns."
     },
     "fl20210520guy-analysis-extent-tiles": {
       "href": "./fl20210520guy-analysis-extent.pmtiles",
@@ -279,7 +281,9 @@
       "file:checksum": "12208dad1f00236310d64fbee622fc8342ba69855fece34bbe092e0fac91509608be",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Guyana, 20 May 2021 (FL20210520GUY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -290,7 +294,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12204fb828a003ada047dc444510fbee7a6552b6b887c24cfc31ebe31d7bfa464a0c"
+      "file:checksum": "12204fb828a003ada047dc444510fbee7a6552b6b887c24cfc31ebe31d7bfa464a0c",
+      "description": "MapLibre style for Analysis extent: Flood, Guyana, 20 May 2021 (FL20210520GUY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210520guy-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27199,
+      "file:checksum": "12200b1eaebdb4f56f03f6c28d65b098cc192d5b4c94a0323b6aed881c70a30a9526",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Guyana, 20 May 2021 (FL20210520GUY)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, Somalia, 10 July 2013 (CE20130710SOM): 35 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -45,6 +45,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130710som-other-polygons.parquet | 70.9 KB | 122048f48b28... |
 | ./ce20130710som-other-polygons.pmtiles | 78.1 KB | 122080ecb3fb... |
 | ./styles/default.json | 664 B | 1220d13399ae... |
+| ./ce20130710som-other-polygons.thumb.jpg | 13.2 KB | 12208267d3cf... |
 
 ## Quick Start
 

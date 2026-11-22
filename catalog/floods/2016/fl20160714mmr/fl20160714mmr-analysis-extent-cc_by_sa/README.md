@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-analysis-extent-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Myanmar, 14 July 2016 (FL20160714MMR): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20160714mmr-analysis-extent-cc_by_sa.parquet | 4.8 KB | 122058a499a5... |
 | ./fl20160714mmr-analysis-extent-cc_by_sa.pmtiles | 185.0 KB | 1220b2265a2d... |
 | ./styles/default.json | 680 B | 1220a9002bac... |
+| ./fl20160714mmr-analysis-extent-cc_by_sa.thumb.jpg | 8.7 KB | 1220a51190f6... |
 
 ## Quick Start
 

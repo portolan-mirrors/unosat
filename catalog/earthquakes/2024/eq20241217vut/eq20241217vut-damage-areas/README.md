@@ -1,5 +1,5 @@
 # Damage areas: Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20241217vut/eq20241217vut-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20241217vut/eq20241217vut-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT): 2 features merged from 2 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20241217vut-damage-areas.parquet | 41.3 KB | 122066113915... |
 | ./eq20241217vut-damage-areas.pmtiles | 51.4 KB | 1220627e5600... |
 | ./styles/default.json | 652 B | 12206f9f1dad... |
+| ./eq20241217vut-damage-areas.thumb.jpg | 11.0 KB | 12207cf6aa16... |
 
 ## Quick Start
 

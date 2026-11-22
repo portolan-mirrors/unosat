@@ -1,5 +1,5 @@
 # Other lines: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD): 50 features merged from 6 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -87,6 +87,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131218ssd-other-lines.parquet | 42.5 KB | 1220f42afedd... |
 | ./ce20131218ssd-other-lines.pmtiles | 54.5 KB | 1220d0d7e4b2... |
 | ./styles/default.json | 401 B | 1220b240786d... |
+| ./ce20131218ssd-other-lines.thumb.jpg | 4.4 KB | 1220eac97945... |
 
 ## Quick Start
 

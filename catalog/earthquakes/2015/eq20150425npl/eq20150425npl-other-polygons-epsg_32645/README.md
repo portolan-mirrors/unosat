@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_32645/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-polygons-epsg_32645/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 8,250 features merged from 10 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32645, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20150425npl-other-polygons-epsg_32645.parquet | 1.1 MB | 12208c1bd3b5... |
 | ./eq20150425npl-other-polygons-epsg_32645.pmtiles | 1.5 MB | 122004892ca3... |
 | ./styles/default.json | 675 B | 12202cc0fa9b... |
+| ./eq20150425npl-other-polygons-epsg_32645.thumb.jpg | 6.4 KB | 1220fdfa39d8... |
 
 ## Quick Start
 

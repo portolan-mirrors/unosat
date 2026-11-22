@@ -1,5 +1,5 @@
 # Damage sites: Volcano, Indonesia, 5 November 2024 (VO20241105IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20241105idn/vo20241105idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20241105idn/vo20241105idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Volcano, Indonesia, 5 November 2024 (VO20241105IDN): 18,164 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20241105idn-damage-sites.parquet | 319.5 KB | 12203eb2a182... |
 | ./vo20241105idn-damage-sites.pmtiles | 336.5 KB | 12202ca1bfee... |
 | ./styles/default.json | 1.0 KB | 1220ffa2b676... |
+| ./vo20241105idn-damage-sites.thumb.jpg | 27.6 KB | 1220ea96f622... |
 
 ## Quick Start
 

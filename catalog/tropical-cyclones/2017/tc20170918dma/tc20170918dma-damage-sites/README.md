@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170918dma/tc20170918dma-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170918dma/tc20170918dma-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA): 28,309 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170918dma-damage-sites.parquet | 1.0 MB | 12208e587535... |
 | ./tc20170918dma-damage-sites.pmtiles | 916.4 KB | 1220f95bed95... |
 | ./styles/default.json | 1.1 KB | 12209732cf69... |
+| ./tc20170918dma-damage-sites.thumb.jpg | 26.6 KB | 1220cdfe75a0... |
 
 ## Quick Start
 

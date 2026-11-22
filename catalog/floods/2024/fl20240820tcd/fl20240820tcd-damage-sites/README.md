@@ -1,5 +1,5 @@
 # Damage sites: Flood, Chad, 20 August 2024 (FL20240820TCD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/fl20240820tcd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/fl20240820tcd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Chad, 20 August 2024 (FL20240820TCD): 76,006 features merged from 15 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240820tcd-damage-sites.parquet | 1.1 MB | 1220e7101b75... |
 | ./fl20240820tcd-damage-sites.pmtiles | 828.4 KB | 12207f6d2f7f... |
 | ./styles/default.json | 956 B | 1220b904f198... |
+| ./fl20240820tcd-damage-sites.thumb.jpg | 3.6 KB | 12206884276e... |
 
 ## Quick Start
 

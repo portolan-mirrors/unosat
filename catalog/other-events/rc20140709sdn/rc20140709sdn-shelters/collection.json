@@ -297,7 +297,9 @@
       "file:checksum": "1220a61393132e1740118955696a19b572f01075ca96df057c8f72d4a7ddca63585a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Event, Sudan, 9 July 2014 (RC20140709SDN), one GeoParquet file with the source columns."
     },
     "rc20140709sdn-shelters-tiles": {
       "href": "./rc20140709sdn-shelters.pmtiles",
@@ -306,7 +308,9 @@
       "file:checksum": "12205083c9ac71d3f3c339040c54954f6e500a8580a846800dd2e4fc5c8f3806cb3a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Event, Sudan, 9 July 2014 (RC20140709SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -317,7 +321,19 @@
       ],
       "title": "Shelters by CampType",
       "file:size": 892,
-      "file:checksum": "1220a2bfa47629a441eb5a59760fd58dadb8c1c1ae7af15bfaeae3b983ab0886184b"
+      "file:checksum": "1220a2bfa47629a441eb5a59760fd58dadb8c1c1ae7af15bfaeae3b983ab0886184b",
+      "description": "MapLibre style for Shelters: Event, Sudan, 9 July 2014 (RC20140709SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./rc20140709sdn-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5363,
+      "file:checksum": "122060b0229e451a229452170cbc6d026c423a27e4b364c4e1caa105e3b1dc30e2ad",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Event, Sudan, 9 July 2014 (RC20140709SDN)."
     }
   }
 }

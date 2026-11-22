@@ -282,7 +282,9 @@
       "file:checksum": "12203932d1c35d8fabc4b25c168c66eb9e0899e50d549c306e70faccfb3a3e395385",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Armenia, 28 May 2024 (FL20240528ARM), one GeoParquet file with the source columns."
     },
     "fl20240528arm-damage-areas-tiles": {
       "href": "./fl20240528arm-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220a8fa81dd9eb311e6d66392dc1a5f4e9aa6e2be22b5e6aba58b5b91d46acae51b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Armenia, 28 May 2024 (FL20240528ARM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "12206d258e3df53355331353b9b62f02f03c021366de497665b09c6683adef9744f2"
+      "file:checksum": "12206d258e3df53355331353b9b62f02f03c021366de497665b09c6683adef9744f2",
+      "description": "MapLibre style for Damage areas: Flood, Armenia, 28 May 2024 (FL20240528ARM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240528arm-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10582,
+      "file:checksum": "12202e2eb8834f36980e9fb7824d12f2026e8008cbb95aa9678236ec8796201fd8c5",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Armenia, 28 May 2024 (FL20240528ARM)."
     }
   }
 }

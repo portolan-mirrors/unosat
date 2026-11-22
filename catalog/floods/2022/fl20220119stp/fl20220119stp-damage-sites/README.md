@@ -1,5 +1,5 @@
 # Damage sites: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP): 107 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220119stp-damage-sites.parquet | 11.2 KB | 1220ded6938c... |
 | ./fl20220119stp-damage-sites.pmtiles | 41.5 KB | 1220e11e4c0e... |
 | ./styles/default.json | 695 B | 1220262d2cd4... |
+| ./fl20220119stp-damage-sites.thumb.jpg | 5.1 KB | 12209ddc2ff2... |
 
 ## Quick Start
 

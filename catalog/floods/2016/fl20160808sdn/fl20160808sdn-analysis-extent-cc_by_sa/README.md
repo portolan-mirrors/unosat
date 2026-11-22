@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Sudan, 8 August 2016 (FL20160808SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160808sdn/fl20160808sdn-analysis-extent-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160808sdn/fl20160808sdn-analysis-extent-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Sudan, 8 August 2016 (FL20160808SDN): 7 features merged from 7 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20160808sdn-analysis-extent-cc_by_sa.parquet | 6.2 KB | 1220d7c39af2... |
 | ./fl20160808sdn-analysis-extent-cc_by_sa.pmtiles | 608.3 KB | 1220eada4001... |
 | ./styles/default.json | 680 B | 122064932a0d... |
+| ./fl20160808sdn-analysis-extent-cc_by_sa.thumb.jpg | 7.9 KB | 12201ab63067... |
 
 ## Quick Start
 

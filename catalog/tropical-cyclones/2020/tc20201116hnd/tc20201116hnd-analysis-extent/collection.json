@@ -253,7 +253,9 @@
       "file:checksum": "12208aa7a19917a7743a489be768b2e01f945202733962152de1d0d0fde09e70bd34",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND), one GeoParquet file with the source columns."
     },
     "tc20201116hnd-analysis-extent-tiles": {
       "href": "./tc20201116hnd-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220db037fd95a3bc4b1cd5f19c77a150ac80dfd429422361d66e52639161abadaab",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12206f8db0cfa42796c0070b854cea3b1f87ff66aa0b4b167b56c884d0299c84846f"
+      "file:checksum": "12206f8db0cfa42796c0070b854cea3b1f87ff66aa0b4b167b56c884d0299c84846f",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201116hnd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 18782,
+      "file:checksum": "1220f6ff06d851e2f5d361e1068296d71d4b2d50e20cd84634f0f6703decf3a73f31",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Honduras, 16 November 2020 (TC20201116HND)."
     }
   }
 }

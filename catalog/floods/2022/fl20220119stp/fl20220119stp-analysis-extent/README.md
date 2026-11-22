@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119stp/fl20220119stp-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220119stp-analysis-extent.parquet | 2.7 MB | 12202b6f3d57... |
 | ./fl20220119stp-analysis-extent.pmtiles | 127.8 KB | 122001244558... |
 | ./styles/default.json | 671 B | 1220ffdfdb8f... |
+| ./fl20220119stp-analysis-extent.thumb.jpg | 11.3 KB | 1220e4fb4f69... |
 
 ## Quick Start
 

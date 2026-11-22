@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220311moz/tc20220311moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220311moz/tc20220311moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ): 6 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220311moz-analysis-extent.parquet | 96.5 KB | 12209274b89c... |
 | ./tc20220311moz-analysis-extent.pmtiles | 531.9 KB | 1220165be9dc... |
 | ./styles/default.json | 671 B | 122003399876... |
+| ./tc20220311moz-analysis-extent.thumb.jpg | 9.7 KB | 12206e3cec2b... |
 
 ## Quick Start
 

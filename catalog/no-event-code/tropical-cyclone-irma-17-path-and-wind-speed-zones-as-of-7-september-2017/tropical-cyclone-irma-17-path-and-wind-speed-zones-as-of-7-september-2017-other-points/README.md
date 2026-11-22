@@ -1,5 +1,5 @@
 # Other points: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Tropical Cyclone IRMA-17 : Path and Wind Speed Zones: 40 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -46,6 +46,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points.parquet | 6.4 KB | 1220f17c16e4... |
 | ./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points.pmtiles | 114.3 KB | 1220814c7326... |
 | ./styles/default.json | 755 B | 12203771289d... |
+| ./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-points.thumb.jpg | 4.1 KB | 1220dbdb7b50... |
 
 ## Quick Start
 

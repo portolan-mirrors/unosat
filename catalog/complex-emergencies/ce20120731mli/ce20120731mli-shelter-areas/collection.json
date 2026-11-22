@@ -333,7 +333,9 @@
       "file:checksum": "122099cdb316b9138c9bbec206052fe531bc3a3630e15a3b2010566572edb0e91a76",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelter areas: Complex emergency, Mali, 31 July 2012 (CE20120731MLI), one GeoParquet file with the source columns."
     },
     "ce20120731mli-shelter-areas-tiles": {
       "href": "./ce20120731mli-shelter-areas.pmtiles",
@@ -342,7 +344,9 @@
       "file:checksum": "122031cb8db743f957c724795430fd94dbdd1b726d38040164f54883b3eb373ea90b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelter areas: Complex emergency, Mali, 31 July 2012 (CE20120731MLI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -353,7 +357,19 @@
       ],
       "title": "Shelter areas by CampType",
       "file:size": 907,
-      "file:checksum": "12201eb560a116309d2dd5bbc2c6d630a2c284163a667715bbd1de47e98c63538b44"
+      "file:checksum": "12201eb560a116309d2dd5bbc2c6d630a2c284163a667715bbd1de47e98c63538b44",
+      "description": "MapLibre style for Shelter areas: Complex emergency, Mali, 31 July 2012 (CE20120731MLI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20120731mli-shelter-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2420,
+      "file:checksum": "122023aa42a17e3a89a989eefbd2760cc3fefdfc57e5188034868946f707ca4c6f44",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelter areas: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)."
     }
   }
 }

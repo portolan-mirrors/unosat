@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE): 5,410 features merged from 4 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -67,6 +67,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140715pse-other-polygons.parquet | 1.1 MB | 1220b8c1d217... |
 | ./ce20140715pse-other-polygons.pmtiles | 1.7 MB | 1220da47af4d... |
 | ./styles/default.json | 664 B | 1220b96a9016... |
+| ./ce20140715pse-other-polygons.thumb.jpg | 22.9 KB | 1220ffe24b62... |
 
 ## Quick Start
 

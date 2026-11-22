@@ -304,7 +304,9 @@
       "file:checksum": "1220c6fc74d830de1b0abe7fa3fa032f034b04f60ba94e72c994c4a482d70b1a16c7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB), one GeoParquet file with the source columns."
     },
     "tc20260408slb-water-extent-tiles": {
       "href": "./tc20260408slb-water-extent.pmtiles",
@@ -313,7 +315,9 @@
       "file:checksum": "12208ac1d86dbdbc81558ca5dc1a9f3d1655f421790d9d0428e10178532094cbb13e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -324,7 +328,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220457b9719064416d7de2a3818e1490edb69902a4a4826e4d06c40ea6fd99a7fe3"
+      "file:checksum": "1220457b9719064416d7de2a3818e1490edb69902a4a4826e4d06c40ea6fd99a7fe3",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20260408slb-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2772,
+      "file:checksum": "1220adcef78b6632abf5c5287fd307dcec8402e0993de21603aa0c32a442d99ad4bd",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB)."
     }
   }
 }

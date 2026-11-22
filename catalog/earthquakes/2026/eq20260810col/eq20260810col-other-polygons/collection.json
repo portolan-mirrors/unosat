@@ -215,7 +215,9 @@
       "file:checksum": "122035c1b15c403bfb1a2a101353c8e2c555ac505fa14a204050a9dce614c1d31e78",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL), one GeoParquet file with the source columns."
     },
     "eq20260810col-other-polygons-tiles": {
       "href": "./eq20260810col-other-polygons.pmtiles",
@@ -224,7 +226,9 @@
       "file:checksum": "1220ebe8876dc36760d4a7ee351d570bd804562a06ab1460dc89390561a4a69ac82b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -235,7 +239,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122048e7707fc53e3ce5f3c5f6ad3776d96b3448de9ba9fa10f58535c8ebd145565f"
+      "file:checksum": "122048e7707fc53e3ce5f3c5f6ad3776d96b3448de9ba9fa10f58535c8ebd145565f",
+      "description": "MapLibre style for Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20260810col-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3353,
+      "file:checksum": "1220c26406dfdb56e14e84c13d518732fc8a61d6ad4828c1417809f72427d1676cd0",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)."
     }
   }
 }

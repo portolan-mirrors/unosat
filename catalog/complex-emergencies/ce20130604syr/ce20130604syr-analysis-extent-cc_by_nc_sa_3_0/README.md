@@ -1,5 +1,5 @@
 # Analysis extent: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-analysis-extent-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-analysis-extent-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 94 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130604syr-analysis-extent-cc_by_nc_sa_3_0.parquet | 95.5 KB | 1220e1a2beb3... |
 | ./ce20130604syr-analysis-extent-cc_by_nc_sa_3_0.pmtiles | 90.9 KB | 12209ba21a90... |
 | ./styles/default.json | 687 B | 1220724f19e4... |
+| ./ce20130604syr-analysis-extent-cc_by_nc_sa_3_0.thumb.jpg | 6.0 KB | 1220884b0193... |
 
 ## Quick Start
 

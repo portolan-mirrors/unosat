@@ -342,7 +342,9 @@
       "file:checksum": "1220c7301e5110b57d6b3a0ac2ce9133761ed3bb79426d015ea615826281aef8da55",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL), one GeoParquet file with the source columns."
     },
     "tc20241028phl-other-lines-tiles": {
       "href": "./tc20241028phl-other-lines.pmtiles",
@@ -351,7 +353,9 @@
       "file:checksum": "122082a7205c94bf77c209d617a078ab3cc5c306cf049b67843bcecfd8523cbddd6c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -362,7 +366,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220605f856499c750ae281a591c70b665683a8ecfb536ea36063291bdbe533a0277"
+      "file:checksum": "1220605f856499c750ae281a591c70b665683a8ecfb536ea36063291bdbe533a0277",
+      "description": "MapLibre style for Other lines: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20241028phl-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2381,
+      "file:checksum": "1220b6a311aa579c4b6a5f87d924e91a2808cd7d7fa40d3bcaa4f890bc041fdfe754",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)."
     }
   }
 }

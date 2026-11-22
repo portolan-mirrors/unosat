@@ -1,5 +1,5 @@
 # Damage sites: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Landslide, Afghanistan, 12 July 2018 (LS20180712AFG): 487 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20180712afg-damage-sites.parquet | 23.1 KB | 1220a5ed4622... |
 | ./ls20180712afg-damage-sites.pmtiles | 34.7 KB | 12209bed7b6a... |
 | ./styles/default.json | 978 B | 1220f942cd8e... |
+| ./ls20180712afg-damage-sites.thumb.jpg | 13.3 KB | 1220c916ff83... |
 
 ## Quick Start
 

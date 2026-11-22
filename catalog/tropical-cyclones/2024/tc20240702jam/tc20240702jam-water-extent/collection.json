@@ -274,7 +274,9 @@
       "file:checksum": "1220a104a28c34b0cf1359ac5c4616e2c1d9e5c86ffe6f37d7b64da6fe5339a2cdd2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM), one GeoParquet file with the source columns."
     },
     "tc20240702jam-water-extent-tiles": {
       "href": "./tc20240702jam-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220c902390a2f82ddf9f89a402aa3698e747d3931257ebcf94eb511d16cfd33f603",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "12207a6731de5e6862af736dee7cc9068b1b2dcbe0053f48b24038dbe65ea18ddd54"
+      "file:checksum": "12207a6731de5e6862af736dee7cc9068b1b2dcbe0053f48b24038dbe65ea18ddd54",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240702jam-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12036,
+      "file:checksum": "12203a6e6a66abb6e2c0e58d83c485f625e1d6975b82a15ff2435694ec69d1fa5699",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM)."
     }
   }
 }

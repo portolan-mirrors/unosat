@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Jamaica, 26 October 2025 (TC20251026HTI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251026hti/tc20251026hti-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Jamaica, 26 October 2025 (TC20251026HTI): 3,721 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20251026hti-damage-sites.parquet | 113.7 KB | 122000fd01e9... |
 | ./tc20251026hti-damage-sites.pmtiles | 115.0 KB | 122063cd2c8f... |
 | ./styles/default.json | 1.1 KB | 122002871657... |
+| ./tc20251026hti-damage-sites.thumb.jpg | 6.2 KB | 12205929ff9e... |
 
 ## Quick Start
 

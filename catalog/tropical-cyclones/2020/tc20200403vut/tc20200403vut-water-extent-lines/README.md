@@ -1,5 +1,5 @@
 # Water extent lines: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-water-extent-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-water-extent-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent lines for Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT): 5 features merged from 2 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200403vut-water-extent-lines.parquet | 11.2 KB | 12209e5e4818... |
 | ./tc20200403vut-water-extent-lines.pmtiles | 23.1 KB | 12200333ecb2... |
 | ./styles/default.json | 429 B | 1220dea64e35... |
+| ./tc20200403vut-water-extent-lines.thumb.jpg | 5.2 KB | 1220b9e31d00... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Damage sites: Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260831lao/fl20260831lao-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260831lao/fl20260831lao-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO): 1,284 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20260831lao-damage-sites.parquet | 54.2 KB | 1220677f16cf... |
 | ./fl20260831lao-damage-sites.pmtiles | 71.4 KB | 1220aa88333d... |
 | ./styles/default.json | 695 B | 12208e963c2c... |
+| ./fl20260831lao-damage-sites.thumb.jpg | 15.9 KB | 12205137f009... |
 
 ## Quick Start
 

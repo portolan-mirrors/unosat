@@ -32,4 +32,4 @@ import geopandas as gpd
 gdf = gpd.read_parquet('https://data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent.parquet')
 ```
 
-The [data browser](https://source.coop/portolan-mirrors/unosat) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.
+The [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent/collection.json) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.

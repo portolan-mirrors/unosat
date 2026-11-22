@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2015/tc20151103yem/tc20151103yem-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2015/tc20151103yem/tc20151103yem-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM): 231 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20151103yem-damage-sites.parquet | 16.8 KB | 1220856a62fb... |
 | ./tc20151103yem-damage-sites.pmtiles | 78.4 KB | 12209507f425... |
 | ./styles/default.json | 1.1 KB | 12208384ea21... |
+| ./tc20151103yem-damage-sites.thumb.jpg | 2.8 KB | 12204f47fe26... |
 
 ## Quick Start
 

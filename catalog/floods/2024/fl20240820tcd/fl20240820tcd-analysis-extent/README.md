@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Chad, 20 August 2024 (FL20240820TCD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/fl20240820tcd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240820tcd/fl20240820tcd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Chad, 20 August 2024 (FL20240820TCD): 76 features merged from 66 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240820tcd-analysis-extent.parquet | 5.9 MB | 1220a7123d7f... |
 | ./fl20240820tcd-analysis-extent.pmtiles | 80.6 MB | 122050a1bde6... |
 | ./styles/default.json | 671 B | 1220e2b66b7e... |
+| ./fl20240820tcd-analysis-extent.thumb.jpg | 22.6 KB | 1220ff529c74... |
 
 ## Quick Start
 

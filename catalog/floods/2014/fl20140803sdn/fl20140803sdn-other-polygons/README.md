@@ -1,5 +1,5 @@
 # Other polygons: Flood, Sudan, 3 August 2014 (FL20140803SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140803sdn/fl20140803sdn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140803sdn/fl20140803sdn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Sudan, 3 August 2014 (FL20140803SDN): 7 features merged from 7 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140803sdn-other-polygons.parquet | 5.8 KB | 12202338e284... |
 | ./fl20140803sdn-other-polygons.pmtiles | 233.4 KB | 122071fae4f3... |
 | ./styles/default.json | 664 B | 12205e81fb5a... |
+| ./fl20140803sdn-other-polygons.thumb.jpg | 10.0 KB | 12202091d976... |
 
 ## Quick Start
 

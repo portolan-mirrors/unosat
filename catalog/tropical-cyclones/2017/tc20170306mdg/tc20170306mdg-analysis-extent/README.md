@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170306mdg/tc20170306mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170306mdg/tc20170306mdg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170306mdg-analysis-extent.parquet | 5.2 KB | 1220ee6c6b2d... |
 | ./tc20170306mdg-analysis-extent.pmtiles | 231.2 KB | 122018531285... |
 | ./styles/default.json | 671 B | 12206893f89d... |
+| ./tc20170306mdg-analysis-extent.thumb.jpg | 8.1 KB | 12206b0943f3... |
 
 ## Quick Start
 

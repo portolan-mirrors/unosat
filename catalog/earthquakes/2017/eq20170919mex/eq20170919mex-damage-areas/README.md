@@ -1,5 +1,5 @@
 # Damage areas: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Earthquake, Mexico, 19 September 2017 (EQ20170919MEX): 39 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20170919mex-damage-areas.parquet | 24.1 KB | 122088ac8137... |
 | ./eq20170919mex-damage-areas.pmtiles | 37.5 KB | 1220d9a3cd1a... |
 | ./styles/default.json | 905 B | 1220670c72d5... |
+| ./eq20170919mex-damage-areas.thumb.jpg | 6.5 KB | 1220eddc8020... |
 
 ## Quick Start
 

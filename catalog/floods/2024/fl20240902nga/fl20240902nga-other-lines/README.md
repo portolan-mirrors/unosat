@@ -1,5 +1,5 @@
 # Other lines: Flood, Nigeria, 2 September 2024 (FL20240902NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Nigeria, 2 September 2024 (FL20240902NGA): 254 features merged from 4 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -74,6 +74,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240902nga-other-lines.parquet | 37.6 KB | 12207c30253e... |
 | ./fl20240902nga-other-lines.pmtiles | 49.8 KB | 122064f58cd1... |
 | ./styles/default.json | 401 B | 122065738c1f... |
+| ./fl20240902nga-other-lines.thumb.jpg | 2.3 KB | 1220ac4e63bb... |
 
 ## Quick Start
 

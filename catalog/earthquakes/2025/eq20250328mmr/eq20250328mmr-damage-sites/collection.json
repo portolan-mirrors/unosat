@@ -290,7 +290,9 @@
       "file:checksum": "1220e0476b8ad535b452c371c380825741910a79ac9044798ae0d5fe7c742a4d42cf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR), one GeoParquet file with the source columns."
     },
     "eq20250328mmr-damage-sites-tiles": {
       "href": "./eq20250328mmr-damage-sites.pmtiles",
@@ -299,7 +301,9 @@
       "file:checksum": "12200e9334ddb9e43801a5e30880621a3637336b8969aecfd3d1298e084d12c42880",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -310,7 +314,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1236,
-      "file:checksum": "1220b4aa972f3b43ab968a66e14adea041d9079adf9c32d245a80bd6f0b26ce1bc9d"
+      "file:checksum": "1220b4aa972f3b43ab968a66e14adea041d9079adf9c32d245a80bd6f0b26ce1bc9d",
+      "description": "MapLibre style for Damage sites: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250328mmr-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12664,
+      "file:checksum": "122033401e6a6c97952014f8b35288551661a47107d99d94a473dda10c4eeef36b03",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)."
     }
   }
 }

@@ -282,7 +282,9 @@
       "file:checksum": "1220e8f41bc733eba75b1ac63afeb7035a18d45bc67afdbdd1619ef30129235c1cbf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD), one GeoParquet file with the source columns."
     },
     "vo20210523cod-damage-areas-tiles": {
       "href": "./vo20210523cod-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12205e9ee187877de252b3300c3e707e2b4f811a3cc5f10cb426240833cb8cdc2e93",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 1019,
-      "file:checksum": "12208036e9257a97250f43a81dd78f796de11af36df4e7da42d51dd844918a4f96de"
+      "file:checksum": "12208036e9257a97250f43a81dd78f796de11af36df4e7da42d51dd844918a4f96de",
+      "description": "MapLibre style for Damage areas: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20210523cod-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8631,
+      "file:checksum": "1220931be9c567356b901aea0bb5ea907779e667573a6c6b3b81aec463a65372a21b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)."
     }
   }
 }

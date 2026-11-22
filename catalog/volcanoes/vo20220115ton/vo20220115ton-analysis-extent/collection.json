@@ -271,7 +271,9 @@
       "file:checksum": "1220a1c2ee93c9767b4fe328d72fcdc39d1be4075f8862ebe24ce7c52d649bee86b0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Volcano, Tonga, 15 January 2022 (VO20220115TON), one GeoParquet file with the source columns."
     },
     "vo20220115ton-analysis-extent-tiles": {
       "href": "./vo20220115ton-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "122051d6e044b2422a78a7bb5b6227c1162bf64cbfffcabf5a7fcdbe6620fe1a2715",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Volcano, Tonga, 15 January 2022 (VO20220115TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12204e55df91f8ef17157006758961c548dd3d6427e7ec453c3dc28c456303b33264"
+      "file:checksum": "12204e55df91f8ef17157006758961c548dd3d6427e7ec453c3dc28c456303b33264",
+      "description": "MapLibre style for Analysis extent: Volcano, Tonga, 15 January 2022 (VO20220115TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20220115ton-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3514,
+      "file:checksum": "1220e939cbcb72b3667c4872df6b89a51f7db8cbd4bad6e5783af06a905deabdac04",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Volcano, Tonga, 15 January 2022 (VO20220115TON)."
     }
   }
 }

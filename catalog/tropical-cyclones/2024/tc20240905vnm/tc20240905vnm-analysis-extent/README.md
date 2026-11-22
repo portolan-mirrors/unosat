@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240905vnm/tc20240905vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM): 13 features merged from 11 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20240905vnm-analysis-extent.parquet | 6.7 KB | 12205ff11cee... |
 | ./tc20240905vnm-analysis-extent.pmtiles | 338.4 KB | 12205c0cb59e... |
 | ./styles/default.json | 671 B | 1220d26b68aa... |
+| ./tc20240905vnm-analysis-extent.thumb.jpg | 10.1 KB | 1220d46085f1... |
 
 ## Quick Start
 

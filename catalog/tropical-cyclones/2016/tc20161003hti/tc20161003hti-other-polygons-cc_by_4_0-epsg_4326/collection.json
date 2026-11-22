@@ -309,7 +309,9 @@
       "file:checksum": "1220a0cfa65485608533bbf102c727f7bca2861bc2f2a0fbad26f8bf1755b1e03043",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI), one GeoParquet file with the source columns."
     },
     "tc20161003hti-other-polygons-cc_by_4_0-epsg_4326-tiles": {
       "href": "./tc20161003hti-other-polygons-cc_by_4_0-epsg_4326.pmtiles",
@@ -318,7 +320,9 @@
       "file:checksum": "1220c05e3015da817422e656841624ba936fd0ce845177d96f3b8f1851efa736c8f0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -329,7 +333,19 @@
       ],
       "title": "Other polygons",
       "file:size": 684,
-      "file:checksum": "12207526c70ab9da66a9bc431e78a6635175ffeaf9b516f7bd29ecfe529030f10360"
+      "file:checksum": "12207526c70ab9da66a9bc431e78a6635175ffeaf9b516f7bd29ecfe529030f10360",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161003hti-other-polygons-cc_by_4_0-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19776,
+      "file:checksum": "122097afadc2a94b911749448733ff80aa658b1618cd2e27fa3aa5da968050156efd",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)."
     }
   }
 }

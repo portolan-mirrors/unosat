@@ -262,7 +262,9 @@
       "file:checksum": "12200e9d75dfa5a88107ecf47cc2939782e9aad704a8ccdc4aa6cf99be5a25e5e8fd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL), one GeoParquet file with the source columns."
     },
     "tc20201111phl-damage-sites-tiles": {
       "href": "./tc20201111phl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122061fc6d2a59a41f966670a91c16ea2a29b11277c1995848cead5f658a80fe7cd9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220a0798bd73ecbca148a667182c5629c5721c18851b061e935b99a188424c6efd0"
+      "file:checksum": "1220a0798bd73ecbca148a667182c5629c5721c18851b061e935b99a188424c6efd0",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201111phl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8323,
+      "file:checksum": "1220665692c9a3b321875a866149f958f2442b169bc1473ef5f0a3a38ed93f340332",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)."
     }
   }
 }

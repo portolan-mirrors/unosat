@@ -217,7 +217,9 @@
       "file:checksum": "12200a328bffcec7c4310cfcd0bb152be5c317f0c5f124991252bec846d57a9f4d1b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Nepal, 26 August 2026 (FL20260826NPL), one GeoParquet file with the source columns."
     },
     "fl20260826npl-analysis-extent-tiles": {
       "href": "./fl20260826npl-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12209a7597f200ddeb510e800458350ba07ea665d1ba70974695d307fc4c9c0a653f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Nepal, 26 August 2026 (FL20260826NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12207de2df140bba50e577b06ed64b5ef79f451f57b9be989193af6102ddde6bac67"
+      "file:checksum": "12207de2df140bba50e577b06ed64b5ef79f451f57b9be989193af6102ddde6bac67",
+      "description": "MapLibre style for Analysis extent: Flood, Nepal, 26 August 2026 (FL20260826NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20260826npl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8683,
+      "file:checksum": "122090d9f63dead0a1908361a5cba1142e0beff354c4075ab2acfbc2c4d6ee3d4612",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Nepal, 26 August 2026 (FL20260826NPL)."
     }
   }
 }

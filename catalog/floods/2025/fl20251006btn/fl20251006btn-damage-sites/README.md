@@ -1,5 +1,5 @@
 # Damage sites: Flood, Bhutan, 6 October 2025 (FL20251006BTN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Bhutan, 6 October 2025 (FL20251006BTN): 232 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20251006btn-damage-sites.parquet | 17.4 KB | 1220f4679073... |
 | ./fl20251006btn-damage-sites.pmtiles | 129.8 KB | 1220dbabb901... |
 | ./styles/default.json | 1.2 KB | 1220b53b6aa2... |
+| ./fl20251006btn-damage-sites.thumb.jpg | 4.5 KB | 12208a2f80eb... |
 
 ## Quick Start
 

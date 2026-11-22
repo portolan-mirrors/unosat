@@ -1,5 +1,5 @@
 # Water extent, all events
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT satellite-detected water polygons from 194 per-event collections, in one GeoParquet file with a shared set of columns: `event`, `event_code`, `collection`, `source_layer`, `source_file`, `license`, `water_class`, `water_class_code`, `sensor_date`, `sensor`, `confidence`, `assessment_epoch`, and 2D EPSG:4326 geometry. Rows carry their own `license` column. Included: CC BY-SA (as HDX states it, no version), CC BY 4.0, and CC BY 3.0 IGO. The 20 collections under CC BY-NC-SA 3.0 are left out; they are in their event subcatalogs. For every source column, use the per-event collection named in `collection`. Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 
@@ -38,6 +38,7 @@ UNOSAT satellite-detected water polygons from 194 per-event collections, in one 
 | File | Size | Checksum |
 |------|------|----------|
 | ./water-extent.parquet | 13.6 GB | 1220902a1deb... |
+| ./water-extent.thumb.jpg | 7.9 KB | 122059875d4d... |
 
 ## Quick Start
 

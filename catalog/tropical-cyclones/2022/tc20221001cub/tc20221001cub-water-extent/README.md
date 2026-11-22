@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221001cub/tc20221001cub-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221001cub/tc20221001cub-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB): 3 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20221001cub-water-extent.parquet | 1.7 MB | 12200a4bacf0... |
 | ./tc20221001cub-water-extent.pmtiles | 1004.0 KB | 122057116948... |
 | ./styles/default.json | 972 B | 1220b9a2f226... |
+| ./tc20221001cub-water-extent.thumb.jpg | 23.0 KB | 1220ef181d20... |
 
 ## Quick Start
 

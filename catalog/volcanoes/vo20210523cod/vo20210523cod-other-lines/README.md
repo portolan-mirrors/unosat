@@ -1,5 +1,5 @@
 # Other lines: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD): 21 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20210523cod-other-lines.parquet | 5.8 KB | 122005587272... |
 | ./vo20210523cod-other-lines.pmtiles | 23.5 KB | 12204efc4682... |
 | ./styles/default.json | 401 B | 12204cb54da3... |
+| ./vo20210523cod-other-lines.thumb.jpg | 5.1 KB | 122053aee0ea... |
 
 ## Quick Start
 

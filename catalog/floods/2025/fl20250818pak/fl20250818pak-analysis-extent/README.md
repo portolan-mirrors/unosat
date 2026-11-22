@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250818pak/fl20250818pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250818pak/fl20250818pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Pakistan, 18 August 2025 (FL20250818PAK): 12 features merged from 12 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250818pak-analysis-extent.parquet | 213.6 KB | 12207d547c27... |
 | ./fl20250818pak-analysis-extent.pmtiles | 5.0 MB | 1220bdbc8f48... |
 | ./styles/default.json | 671 B | 1220ed540b19... |
+| ./fl20250818pak-analysis-extent.thumb.jpg | 15.7 KB | 1220d877be73... |
 
 ## Quick Start
 

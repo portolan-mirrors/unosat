@@ -1,5 +1,5 @@
 # Shelters: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG): 458 features merged from 5 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20220622afg-shelters.parquet | 35.7 KB | 1220f21802f5... |
 | ./eq20220622afg-shelters.pmtiles | 197.0 KB | 1220ff28cd95... |
 | ./styles/default.json | 679 B | 1220142ab10b... |
+| ./eq20220622afg-shelters.thumb.jpg | 8.2 KB | 1220b4b9a060... |
 
 ## Quick Start
 

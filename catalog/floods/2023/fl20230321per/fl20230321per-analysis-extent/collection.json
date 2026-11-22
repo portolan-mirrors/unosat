@@ -275,7 +275,9 @@
       "file:checksum": "12206c96a1c9322a0d2d553275e76dcbb8cad98df8185f457fd84616b8e897430ca0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Peru, 21 March 2023 (FL20230321PER), one GeoParquet file with the source columns."
     },
     "fl20230321per-analysis-extent-tiles": {
       "href": "./fl20230321per-analysis-extent.pmtiles",
@@ -284,7 +286,9 @@
       "file:checksum": "12201ab5aa175beae44d735b6357d43a5d9eb8af1f08eee020ab6d9366c031f7eef4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Peru, 21 March 2023 (FL20230321PER) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -295,7 +299,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220dbeb6e400cbb3c3aafbf97e51f277016e55e7aa458990ba686101466972e5873"
+      "file:checksum": "1220dbeb6e400cbb3c3aafbf97e51f277016e55e7aa458990ba686101466972e5873",
+      "description": "MapLibre style for Analysis extent: Flood, Peru, 21 March 2023 (FL20230321PER); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230321per-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11107,
+      "file:checksum": "12203c7ef6837091bcbbd5c1c8b6888b779591b4de9be80607ffda928d7b41751ab0",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Peru, 21 March 2023 (FL20230321PER)."
     }
   }
 }

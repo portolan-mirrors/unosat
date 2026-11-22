@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20221121idn-damage-areas.parquet",
         "eq20221121idn-damage-areas.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.762067Z",
+      "breaking": false,
+      "assets": {
+        "eq20221121idn-damage-areas.parquet": {
+          "sha256": "319cc0f750270037458aef5ec6b45027e98e3d36dd63983be032d289c3bd8b57",
+          "size_bytes": 23005,
+          "href": "earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/eq20221121idn-damage-areas.parquet",
+          "source_path": "eq20221121idn-damage-areas.parquet",
+          "source_mtime": 1795333231.1079624,
+          "mtime": 1795333231.1079624,
+          "feature_count": 12,
+          "schema_fingerprint": "1d9bda6778ef24ac"
+        },
+        "eq20221121idn-damage-areas.pmtiles": {
+          "sha256": "ac837a9e6483ac3e10f509197c1a410bed98fc57182570d58988ab1364cfb3a4",
+          "size_bytes": 31900,
+          "href": "earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/eq20221121idn-damage-areas.pmtiles",
+          "mtime": 1795334070.40886
+        },
+        "eq20221121idn-damage-areas.thumb.jpg": {
+          "sha256": "a73de646db651af7f7e2d65c4e1e1c57fc81d4c6f3ed2e3a027506331859a2b4",
+          "size_bytes": 5721,
+          "href": "earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/eq20221121idn-damage-areas.thumb.jpg",
+          "mtime": 1795343616.7597718
+        }
+      },
+      "changes": [
+        "eq20221121idn-damage-areas.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20221121idn-damage-areas.thumb.jpg"
     }
   ]
 }

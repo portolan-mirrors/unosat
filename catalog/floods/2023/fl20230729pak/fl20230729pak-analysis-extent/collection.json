@@ -249,7 +249,9 @@
       "file:checksum": "1220db57ed9af9b08b3ddfa8b1bb5dc44e096a618b4b31bbe31c93ac8b409783ec34",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Pakistan, 29 July 2023 (FL20230729PAK), one GeoParquet file with the source columns."
     },
     "fl20230729pak-analysis-extent-tiles": {
       "href": "./fl20230729pak-analysis-extent.pmtiles",
@@ -258,7 +260,9 @@
       "file:checksum": "1220f1f8da84208f30189d67572cfb60b907f69bc65c90dd0b8b1e811cbe45bf62d7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Pakistan, 29 July 2023 (FL20230729PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -269,7 +273,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220443b029e49d1d727a3d0d95e1fb73d660b270893737d4c88448e7430f8cea9af"
+      "file:checksum": "1220443b029e49d1d727a3d0d95e1fb73d660b270893737d4c88448e7430f8cea9af",
+      "description": "MapLibre style for Analysis extent: Flood, Pakistan, 29 July 2023 (FL20230729PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230729pak-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 26622,
+      "file:checksum": "12205347813608208b64e5528d57b6405758432b643835208f82b26ac438ca47e15c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Pakistan, 29 July 2023 (FL20230729PAK)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Water extent: Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230327som/fl20230327som-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230327som/fl20230327som-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM): 277 features merged from 172 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230327som-water-extent.parquet | 20.2 MB | 1220b6ccad09... |
 | ./fl20230327som-water-extent.pmtiles | 13.6 MB | 12206cd679ba... |
 | ./styles/default.json | 972 B | 12206908eb10... |
+| ./fl20230327som-water-extent.thumb.jpg | 26.7 KB | 122088a24878... |
 
 ## Quick Start
 

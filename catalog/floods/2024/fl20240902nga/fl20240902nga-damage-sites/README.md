@@ -1,5 +1,5 @@
 # Damage sites: Flood, Nigeria, 2 September 2024 (FL20240902NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Nigeria, 2 September 2024 (FL20240902NGA): 2,112 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240902nga-damage-sites.parquet | 40.2 KB | 12204a95cb24... |
 | ./fl20240902nga-damage-sites.pmtiles | 50.5 KB | 1220f52b53d6... |
 | ./styles/default.json | 695 B | 12209727f870... |
+| ./fl20240902nga-damage-sites.thumb.jpg | 4.3 KB | 12201abe1fe0... |
 
 ## Quick Start
 

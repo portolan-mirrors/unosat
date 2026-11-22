@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20261011pan-damage-sites.parquet",
         "eq20261011pan-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.875304Z",
+      "breaking": false,
+      "assets": {
+        "eq20261011pan-damage-sites.parquet": {
+          "sha256": "e4892d2680b6cb030b15d9869ffb7cbe64e222fc9f051d57d138a11fa7d10463",
+          "size_bytes": 8837,
+          "href": "earthquakes/2026/eq20261011pan/eq20261011pan-damage-sites/eq20261011pan-damage-sites.parquet",
+          "source_path": "eq20261011pan-damage-sites.parquet",
+          "source_mtime": 1795333236.8798838,
+          "mtime": 1795333236.8798838,
+          "feature_count": 24,
+          "schema_fingerprint": "1a39b9e37c300b69"
+        },
+        "eq20261011pan-damage-sites.pmtiles": {
+          "sha256": "1795c29d98111417a988819befa3fa9a625899aa598625987019389a453a0d35",
+          "size_bytes": 48011,
+          "href": "earthquakes/2026/eq20261011pan/eq20261011pan-damage-sites/eq20261011pan-damage-sites.pmtiles",
+          "mtime": 1795334071.281848
+        },
+        "eq20261011pan-damage-sites.thumb.jpg": {
+          "sha256": "dc2b1324e3088e15027cd98c06d923492fcd03ed5b68ec8a0ac39ab79e3d005c",
+          "size_bytes": 4011,
+          "href": "earthquakes/2026/eq20261011pan/eq20261011pan-damage-sites/eq20261011pan-damage-sites.thumb.jpg",
+          "mtime": 1795343616.8730266
+        }
+      },
+      "changes": [
+        "eq20261011pan-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20261011pan-damage-sites.thumb.jpg"
     }
   ]
 }

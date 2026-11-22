@@ -1,5 +1,5 @@
 # Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20180805idn/eq20180805idn-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN): 176 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20180805idn-shelters.parquet | 13.2 KB | 1220350a8b88... |
 | ./eq20180805idn-shelters.pmtiles | 69.8 KB | 1220948c9c5d... |
 | ./styles/default.json | 913 B | 1220df3395ee... |
+| ./eq20180805idn-shelters.thumb.jpg | 10.0 KB | 1220da34d5ff... |
 
 ## Quick Start
 

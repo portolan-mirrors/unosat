@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR): 4,354 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130326mmr-damage-areas-epsg_4326.parquet | 593.3 KB | 1220d6f3dcbe... |
 | ./ce20130326mmr-damage-areas-epsg_4326.pmtiles | 2.1 MB | 12209003aba4... |
 | ./styles/default.json | 917 B | 1220fc441bfd... |
+| ./ce20130326mmr-damage-areas-epsg_4326.thumb.jpg | 7.4 KB | 1220c205cb74... |
 
 ## Quick Start
 

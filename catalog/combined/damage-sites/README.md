@@ -1,5 +1,5 @@
 # Damage sites, all events
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/combined/damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT damage-site points (one point per assessed structure or site) from 119 per-event collections, in one GeoParquet file with a shared set of columns: `event`, `event_code`, `collection`, `source_layer`, `source_file`, `license`, `damage_class`, `damage_class_code`, `sensor_date`, `sensor`, `confidence`, `assessment_epoch`, and 2D EPSG:4326 geometry. Rows carry their own `license` column. Included: CC BY-SA (as HDX states it, no version), CC BY 4.0, and CC BY 3.0 IGO. The 20 collections under CC BY-NC-SA 3.0 are left out; they are in their event subcatalogs. For every source column, use the per-event collection named in `collection`. Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 
@@ -40,6 +40,7 @@ UNOSAT damage-site points (one point per assessed structure or site) from 119 pe
 | ./damage-sites.parquet | 47.5 MB | 1220972e7177... |
 | ./damage-sites.pmtiles | 32.4 MB | 12200ad31ff8... |
 | ./styles/default.json | 1.6 KB | 1220a3a8ef49... |
+| ./damage-sites.thumb.jpg | 5.6 KB | 122076cbdee4... |
 
 ## Quick Start
 

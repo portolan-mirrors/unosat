@@ -1,5 +1,5 @@
 # UNOSAT Rapid Mapping Archive
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 ![UNOSAT](https://img.shields.io/badge/UNOSAT-blue) ![UNITAR](https://img.shields.io/badge/UNITAR-blue) ![rapid mapping](https://img.shields.io/badge/rapid_mapping-blue) ![satellite imagery analysis](https://img.shields.io/badge/satellite_imagery_analysis-blue) ![disasters](https://img.shields.io/badge/disasters-blue) ![humanitarian](https://img.shields.io/badge/humanitarian-blue) ![floods](https://img.shields.io/badge/floods-blue) ![damage assessment](https://img.shields.io/badge/damage_assessment-blue)
 

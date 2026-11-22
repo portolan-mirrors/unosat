@@ -262,7 +262,9 @@
       "file:checksum": "1220bfce8892d7859a957a5b625e46c6e1949cc6161c83a611661f842853fcbbd03a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU), one GeoParquet file with the source columns."
     },
     "eq20160417ecu-damage-sites-tiles": {
       "href": "./eq20160417ecu-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220b6818bafb57c0fcbbe5c220803201fb82ddfc295d374aae40a63fe27f5c7e3be",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1048,
-      "file:checksum": "122032f87a55264df888757e09c241b75e490f7800c4cb445d31122b3f26b3df78d8"
+      "file:checksum": "122032f87a55264df888757e09c241b75e490f7800c4cb445d31122b3f26b3df78d8",
+      "description": "MapLibre style for Damage sites: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20160417ecu-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3903,
+      "file:checksum": "1220a09885ce3090bff077187852f908435e8e66faddc6d5cb0b3156bc59aa1f035b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)."
     }
   }
 }

@@ -262,7 +262,9 @@
       "file:checksum": "12206f7916b3da4ea2abfc234d34f150136b150089c95e373287297afcb7d532fc91",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ), one GeoParquet file with the source columns."
     },
     "eq20171112irq-shelters-tiles": {
       "href": "./eq20171112irq-shelters.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122085b144ea6f47a7cdcfa2ea05757aa233cc44df5516286c0da2d271746f660acf",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "1220a705186f7c249dba85179b5f03dad509740e72d432c4295575c8d3f47d5f0721"
+      "file:checksum": "1220a705186f7c249dba85179b5f03dad509740e72d432c4295575c8d3f47d5f0721",
+      "description": "MapLibre style for Shelters: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20171112irq-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11836,
+      "file:checksum": "12208d5a104b0b637352fcabf4054fb6dd967b6b53b9eb53a55e43e31059a0b17b7e",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)."
     }
   }
 }

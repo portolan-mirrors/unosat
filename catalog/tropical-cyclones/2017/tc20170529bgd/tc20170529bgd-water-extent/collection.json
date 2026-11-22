@@ -274,7 +274,9 @@
       "file:checksum": "122004089f7a1bf52404d6e132f43b613ca81b31e4b876315929dab465825a7d5832",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD), one GeoParquet file with the source columns."
     },
     "tc20170529bgd-water-extent-tiles": {
       "href": "./tc20170529bgd-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12201056386c2a245b814ef5153a3aff5b516fb0d8b61ab64e5c2139acd0c09e6e53",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 926,
-      "file:checksum": "1220f10ad2a7b4cbb3378e280b49a1e42f5d1613805834e78c176f250f8612660589"
+      "file:checksum": "1220f10ad2a7b4cbb3378e280b49a1e42f5d1613805834e78c176f250f8612660589",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170529bgd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16046,
+      "file:checksum": "1220d54db760eb4d0ff67c75a39d0ec490f0b104d014c52400658494368c774efe0f",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)."
     }
   }
 }

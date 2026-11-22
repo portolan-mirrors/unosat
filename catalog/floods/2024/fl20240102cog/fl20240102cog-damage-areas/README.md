@@ -1,5 +1,5 @@
 # Damage areas: Flood, Congo, 2 January 2024 (FL20240102COG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240102cog/fl20240102cog-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240102cog/fl20240102cog-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Congo, 2 January 2024 (FL20240102COG): 5 features merged from 5 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240102cog-damage-areas.parquet | 600.6 KB | 122088876837... |
 | ./fl20240102cog-damage-areas.pmtiles | 194.2 KB | 1220645873aa... |
 | ./styles/default.json | 915 B | 12202aeedc22... |
+| ./fl20240102cog-damage-areas.thumb.jpg | 16.7 KB | 122093c6f570... |
 
 ## Quick Start
 

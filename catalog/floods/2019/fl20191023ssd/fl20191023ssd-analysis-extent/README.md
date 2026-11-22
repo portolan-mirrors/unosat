@@ -1,5 +1,5 @@
 # Analysis extent: Flood, South Sudan, 23 October 2019 (FL20191023SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191023ssd/fl20191023ssd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191023ssd/fl20191023ssd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, South Sudan, 23 October 2019 (FL20191023SSD): 23 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191023ssd-analysis-extent.parquet | 23.5 KB | 1220d39be814... |
 | ./fl20191023ssd-analysis-extent.pmtiles | 1.4 MB | 1220aaffa581... |
 | ./styles/default.json | 671 B | 12207c87d4ec... |
+| ./fl20191023ssd-analysis-extent.thumb.jpg | 13.7 KB | 1220e3b95838... |
 
 ## Quick Start
 

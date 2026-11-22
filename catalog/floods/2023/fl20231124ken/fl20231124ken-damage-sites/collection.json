@@ -262,7 +262,9 @@
       "file:checksum": "122054cb97481c7c3f03d153318580f94586cbb022f14fd6ae3815a7e19f6d7067b1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Kenya, 24 November 2023 (FL20231124KEN), one GeoParquet file with the source columns."
     },
     "fl20231124ken-damage-sites-tiles": {
       "href": "./fl20231124ken-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220cb7df4c197fcdf21ec5c8de9bf0422c11a99e88e0dec1950a2d2c2f86ac952a5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Kenya, 24 November 2023 (FL20231124KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 999,
-      "file:checksum": "1220062511a71ecdd30255e25cf8f39a2a6ae6e7b9cdbec735065fccf4e660404d35"
+      "file:checksum": "1220062511a71ecdd30255e25cf8f39a2a6ae6e7b9cdbec735065fccf4e660404d35",
+      "description": "MapLibre style for Damage sites: Flood, Kenya, 24 November 2023 (FL20231124KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231124ken-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9353,
+      "file:checksum": "12203e8a723d6e4dfbd16c314baa44ab7c687317cd7c8b4d2aaba7530370512f757f",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Kenya, 24 November 2023 (FL20231124KEN)."
     }
   }
 }

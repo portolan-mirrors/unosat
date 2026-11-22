@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR): 671 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130326mmr-damage-sites.parquet | 31.4 KB | 122018458529... |
 | ./ce20130326mmr-damage-sites.pmtiles | 44.5 KB | 1220edf785c4... |
 | ./styles/default.json | 950 B | 122071eef878... |
+| ./ce20130326mmr-damage-sites.thumb.jpg | 16.1 KB | 1220ae9416f2... |
 
 ## Quick Start
 

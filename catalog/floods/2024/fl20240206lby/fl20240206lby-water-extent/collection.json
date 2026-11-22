@@ -274,7 +274,9 @@
       "file:checksum": "12203eeea8b1fb9a6a649e8f804b67c73fa4d9f3c61a7805b8b5c0be872ca7f73b14",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Libya, 6 February 2024 (FL20240206LBY), one GeoParquet file with the source columns."
     },
     "fl20240206lby-water-extent-tiles": {
       "href": "./fl20240206lby-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220e3f0835b2ac90bd8dcdc6cf714a512709a7f01ffa05281d2ee4dfa307d1d9041",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Libya, 6 February 2024 (FL20240206LBY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122073d3a2ce54a5cbd8cc9219039043b94e5815794a96f23c6b699d8c36787ae984"
+      "file:checksum": "122073d3a2ce54a5cbd8cc9219039043b94e5815794a96f23c6b699d8c36787ae984",
+      "description": "MapLibre style for Water extent: Flood, Libya, 6 February 2024 (FL20240206LBY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240206lby-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11210,
+      "file:checksum": "12200037df6abdb78785088dad6473f4095fdc91b6541c15ebcc3158d0ed1b6aafee",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Libya, 6 February 2024 (FL20240206LBY)."
     }
   }
 }

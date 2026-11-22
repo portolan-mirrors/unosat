@@ -1,5 +1,5 @@
 # Analysis extent: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20231208tza/ls20231208tza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20231208tza/ls20231208tza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20231208tza-analysis-extent.parquet | 4.5 KB | 12201e553c44... |
 | ./ls20231208tza-analysis-extent.pmtiles | 24.7 KB | 1220729e2b8b... |
 | ./styles/default.json | 671 B | 1220b4fd1b0c... |
+| ./ls20231208tza-analysis-extent.thumb.jpg | 7.7 KB | 12205b798852... |
 
 ## Quick Start
 

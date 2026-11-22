@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170118moz/fl20170118moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170118moz/fl20170118moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Madagascar, Mozambique, 18 January 2017 (FL20170118MOZ): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170118moz-analysis-extent.parquet | 5.8 KB | 12209c49529e... |
 | ./fl20170118moz-analysis-extent.pmtiles | 421.1 KB | 122058151612... |
 | ./styles/default.json | 671 B | 1220d0e26101... |
+| ./fl20170118moz-analysis-extent.thumb.jpg | 8.3 KB | 1220cc8eecdc... |
 
 ## Quick Start
 

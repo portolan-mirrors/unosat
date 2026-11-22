@@ -274,7 +274,9 @@
       "file:checksum": "12205d0bccd8cfa9fa8223601307da19d91c6d107d5c6cd97944dd53a22ed8c309a6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI), one GeoParquet file with the source columns."
     },
     "tc20220126mwi-water-extent-tiles": {
       "href": "./tc20220126mwi-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220c992e741f0a838be490acf487e22ef46ae467efeceef302f1760b0dc79040ce5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "1220e47ec9be622129369229313e079094f843a53f35cf0d33d3554c4adec377611a"
+      "file:checksum": "1220e47ec9be622129369229313e079094f843a53f35cf0d33d3554c4adec377611a",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220126mwi-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10951,
+      "file:checksum": "12207ebe4349be3958e17fad0418937e3d253ca2e2c9c63dada5ec5a8c95115760b5",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Water extent: Flood, Sudan, 7 September 2021 (FL20210907SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210907sdn/fl20210907sdn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Sudan, 7 September 2021 (FL20210907SDN): 8 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210907sdn-water-extent.parquet | 19.6 MB | 1220923964d6... |
 | ./fl20210907sdn-water-extent.pmtiles | 4.0 MB | 1220e2324e4e... |
 | ./styles/default.json | 887 B | 1220e3f8addd... |
+| ./fl20210907sdn-water-extent.thumb.jpg | 22.4 KB | 1220da2bd42f... |
 
 ## Quick Start
 

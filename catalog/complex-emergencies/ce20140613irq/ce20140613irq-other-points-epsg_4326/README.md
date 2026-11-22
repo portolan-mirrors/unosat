@@ -1,5 +1,5 @@
 # Other points: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-points-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ): 69 features merged from 4 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140613irq-other-points-epsg_4326.parquet | 9.7 KB | 1220e12cf7f3... |
 | ./ce20140613irq-other-points-epsg_4326.pmtiles | 60.9 KB | 12207edf0b58... |
 | ./styles/default.json | 705 B | 12200ae03cb7... |
+| ./ce20140613irq-other-points-epsg_4326.thumb.jpg | 3.3 KB | 12208703fb37... |
 
 ## Quick Start
 

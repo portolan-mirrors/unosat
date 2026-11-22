@@ -253,7 +253,9 @@
       "file:checksum": "1220d051760a0d50be51d0a165dbdfc02a7ae3ebe049a1d7bfcedc2203a31b4d0573",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER), one GeoParquet file with the source columns."
     },
     "eq20230321per-analysis-extent-tiles": {
       "href": "./eq20230321per-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220727ab4e44d5d99b161e12f972b88f8eb4453ac37ed2bc1ba29c4fe81911fe795",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12207de23cdd10b51b1762e4ca86b7cd33691848f18011c5b76fa0d972cbe96b0b65"
+      "file:checksum": "12207de23cdd10b51b1762e4ca86b7cd33691848f18011c5b76fa0d972cbe96b0b65",
+      "description": "MapLibre style for Analysis extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230321per-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27147,
+      "file:checksum": "1220fff5e332520b8c5e48f38f1d61a77f854030a0bcab7a68863dce8e795411595d",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Kenya, 21 March 2023 (FL20230321KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230321ken/fl20230321ken-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230321ken/fl20230321ken-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Kenya, 21 March 2023 (FL20230321KEN): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230321ken-analysis-extent.parquet | 46.8 KB | 122041d292f7... |
 | ./fl20230321ken-analysis-extent.pmtiles | 37.3 KB | 122005a17e09... |
 | ./styles/default.json | 671 B | 1220d1d5e7d7... |
+| ./fl20230321ken-analysis-extent.thumb.jpg | 13.3 KB | 1220779c85e9... |
 
 ## Quick Start
 

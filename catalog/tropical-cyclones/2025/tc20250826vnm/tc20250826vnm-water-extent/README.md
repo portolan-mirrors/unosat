@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250826vnm/tc20250826vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250826vnm/tc20250826vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250826vnm-water-extent.parquet | 6.6 MB | 12206c548af8... |
 | ./tc20250826vnm-water-extent.pmtiles | 5.5 MB | 1220470932f9... |
 | ./styles/default.json | 887 B | 1220d3e03907... |
+| ./tc20250826vnm-water-extent.thumb.jpg | 15.3 KB | 1220e3d6f015... |
 
 ## Quick Start
 

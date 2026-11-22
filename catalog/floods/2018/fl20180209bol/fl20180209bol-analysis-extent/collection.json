@@ -198,7 +198,9 @@
       "file:checksum": "122072d19474a13a295cb5d55cf31e1ec4ba1f5e66123db166864d66ccf336182b11",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Bolivia (Plurinational State of), 9 February 2018 (FL20180209BOL), one GeoParquet file with the source columns."
     },
     "fl20180209bol-analysis-extent-tiles": {
       "href": "./fl20180209bol-analysis-extent.pmtiles",
@@ -207,7 +209,9 @@
       "file:checksum": "12207cd7c446625fe70e8ca7e56cd63da07f81cb88093c2228b7bddfaeea154a21d3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Bolivia (Plurinational State of), 9 February 2018 (FL20180209BOL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -218,7 +222,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220065a8473ee353ce3e3d0798286f95a88ab5fb348f5e4cc458103106e8275c34f"
+      "file:checksum": "1220065a8473ee353ce3e3d0798286f95a88ab5fb348f5e4cc458103106e8275c34f",
+      "description": "MapLibre style for Analysis extent: Flood, Bolivia (Plurinational State of), 9 February 2018 (FL20180209BOL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20180209bol-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4613,
+      "file:checksum": "1220bbbe91fcf9a858aaebbe8e70c3b23529a31241bfb760c12bec3ca6be33752de6",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Bolivia (Plurinational State of), 9 February 2018 (FL20180209BOL)."
     }
   }
 }

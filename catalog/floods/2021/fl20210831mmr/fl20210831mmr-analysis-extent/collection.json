@@ -229,7 +229,9 @@
       "file:checksum": "122086ee32bcd0339abcab7992fc5fe8024d526ca72061022277da186a08eb3ac400",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR), one GeoParquet file with the source columns."
     },
     "fl20210831mmr-analysis-extent-tiles": {
       "href": "./fl20210831mmr-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220cf041cb1c12adc19fbdbd89c14d8ff3d64bfbdc1abcfdf17d8e8c07c10d432e9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220fb25b27c848898e8ec0306493d736fa5d0e562e6c7aeaf379ed0f27234b2fe97"
+      "file:checksum": "1220fb25b27c848898e8ec0306493d736fa5d0e562e6c7aeaf379ed0f27234b2fe97",
+      "description": "MapLibre style for Analysis extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210831mmr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12554,
+      "file:checksum": "12207f576fadbfdd989e33ab961499f243cb0b7e15f79b04dfcff585f13dbf422b61",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR)."
     }
   }
 }

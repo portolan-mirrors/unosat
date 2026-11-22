@@ -282,7 +282,9 @@
       "file:checksum": "12205d666676c526f16c812f6d83103f8467cb5ec0a175aee65d6ec4f366cc5bcf06",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK), one GeoParquet file with the source columns."
     },
     "eq20190924pak-analysis-extent-tiles": {
       "href": "./eq20190924pak-analysis-extent.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12207c36d240c842619210a45bd49c0e115a8ff60a27ebd19efbf693160d5f79ffb1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220ce2f2446c97b679dafadd0589e541ea5d4fe62c9e96eeb1e96be5a004669b1a2"
+      "file:checksum": "1220ce2f2446c97b679dafadd0589e541ea5d4fe62c9e96eeb1e96be5a004669b1a2",
+      "description": "MapLibre style for Analysis extent: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20190924pak-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8729,
+      "file:checksum": "122091d337b2584bb45723ec8f383cf244a8304db8b2dbed8052ba685c549f755a64",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK)."
     }
   }
 }

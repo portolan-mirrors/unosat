@@ -274,7 +274,9 @@
       "file:checksum": "12201c970e12333a2bf9babfa46643f8983e6bea239c69c810620a1ee87dd7b3c5e5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Sudan, 24 December 2024 (FL20241224SDN), one GeoParquet file with the source columns."
     },
     "fl20241224sdn-water-extent-tiles": {
       "href": "./fl20241224sdn-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12203bc067fee52bbf677fe522a998a961df5940ab4337a475e43ceb1d42b9f44b2d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Sudan, 24 December 2024 (FL20241224SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122031e43cf591b174d5878f9ecab032bfe624265c43491e38c8486f52b3a3bb56d1"
+      "file:checksum": "122031e43cf591b174d5878f9ecab032bfe624265c43491e38c8486f52b3a3bb56d1",
+      "description": "MapLibre style for Water extent: Flood, Sudan, 24 December 2024 (FL20241224SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20241224sdn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10144,
+      "file:checksum": "1220a42665d28282021175ab86719f9c6b5ffe5e127e5ce19bfbd00f12a203265b07",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Sudan, 24 December 2024 (FL20241224SDN)."
     }
   }
 }

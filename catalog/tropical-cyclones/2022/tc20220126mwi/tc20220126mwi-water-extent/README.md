@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220126mwi/tc20220126mwi-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220126mwi/tc20220126mwi-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI): 8 features merged from 6 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220126mwi-water-extent.parquet | 7.7 MB | 12205d0bccd8... |
 | ./tc20220126mwi-water-extent.pmtiles | 5.1 MB | 1220c992e741... |
 | ./styles/default.json | 972 B | 1220e47ec9be... |
+| ./tc20220126mwi-water-extent.thumb.jpg | 10.7 KB | 12207ebe4349... |
 
 ## Quick Start
 

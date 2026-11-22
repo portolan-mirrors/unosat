@@ -274,7 +274,9 @@
       "file:checksum": "1220d890c975417af2e6f3f9b7357f62824c9394e206e16f109c1ae68a291c3a4ed3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM), one GeoParquet file with the source columns."
     },
     "tc20201119gtm-water-extent-tiles": {
       "href": "./tc20201119gtm-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12208e35f14cbdd8519070bb6a59be5672b634f118e790d217034293d772ed177536",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220b865ffe7641ebecd2fab570fd585ca244cc945a5b7c57fb652f6d34daaf8758a"
+      "file:checksum": "1220b865ffe7641ebecd2fab570fd585ca244cc945a5b7c57fb652f6d34daaf8758a",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201119gtm-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 17351,
+      "file:checksum": "1220bba94b1d910376b12b853e40ab42a33f0082c5b23ec992bd1597406b8ac08360",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM)."
     }
   }
 }

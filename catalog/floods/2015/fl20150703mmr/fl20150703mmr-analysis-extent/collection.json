@@ -229,7 +229,9 @@
       "file:checksum": "122096c45e0f67d18937bfaaf75abe59e2265fbe60f159087b0d3c43d0c2292f0a32",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Myanmar, 3 July 2015 (FL20150703MMR), one GeoParquet file with the source columns."
     },
     "fl20150703mmr-analysis-extent-tiles": {
       "href": "./fl20150703mmr-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12209bc3db28df7de77f1cf7d02b6b5481833bbf6116509fa885c0d8ac06ce92fe9c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Myanmar, 3 July 2015 (FL20150703MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122083cb40a3eb4007ba25a467cb7aedadf8c79b3ac7cb6a08f243221019cebbb428"
+      "file:checksum": "122083cb40a3eb4007ba25a467cb7aedadf8c79b3ac7cb6a08f243221019cebbb428",
+      "description": "MapLibre style for Analysis extent: Flood, Myanmar, 3 July 2015 (FL20150703MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20150703mmr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12170,
+      "file:checksum": "1220f0b10a94644667cd0b28ecd542723841727af648c2c600dea33acc378093aabb",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Myanmar, 3 July 2015 (FL20150703MMR)."
     }
   }
 }

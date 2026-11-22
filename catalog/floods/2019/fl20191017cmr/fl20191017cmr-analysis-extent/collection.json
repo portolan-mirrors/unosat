@@ -229,7 +229,9 @@
       "file:checksum": "122023cd40970f68c246afacde00b6a2d5020d0ddac45da62c93ac4cd8f55d804636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Cameroon, 17 October 2019 (FL20191017CMR), one GeoParquet file with the source columns."
     },
     "fl20191017cmr-analysis-extent-tiles": {
       "href": "./fl20191017cmr-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220c4d5a2978ddd6b1e84999eddb4a51772f3af94a232d17ec0dc23856facf8508b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Cameroon, 17 October 2019 (FL20191017CMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201a57fcbad15eeca2d3302a610cfbe68b77d9161189af93dd528b26724484fa5b"
+      "file:checksum": "12201a57fcbad15eeca2d3302a610cfbe68b77d9161189af93dd528b26724484fa5b",
+      "description": "MapLibre style for Analysis extent: Flood, Cameroon, 17 October 2019 (FL20191017CMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191017cmr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6469,
+      "file:checksum": "1220eddb080076896d25f4ab9b963c89812e0f2d7cee6caddf80809ddab8d7de2fa0",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Cameroon, 17 October 2019 (FL20191017CMR)."
     }
   }
 }

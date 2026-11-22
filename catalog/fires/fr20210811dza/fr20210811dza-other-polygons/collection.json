@@ -217,7 +217,9 @@
       "file:checksum": "12207c410cd03c5a83575d80ba3ab221d08d8adba7e4be257573b5fa7d1dcecf37de",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Fire, Algeria, 11 August 2021 (FR20210811DZA), one GeoParquet file with the source columns."
     },
     "fr20210811dza-other-polygons-tiles": {
       "href": "./fr20210811dza-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12206096e9c81f0779f23ca2a0ea2d08805b045745256294807a98a350dcbb65a54a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Fire, Algeria, 11 August 2021 (FR20210811DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12205356dbb37a8077fb8c23d700726d3ffef14fc946c1bdd83429c9a799b9362afb"
+      "file:checksum": "12205356dbb37a8077fb8c23d700726d3ffef14fc946c1bdd83429c9a799b9362afb",
+      "description": "MapLibre style for Other polygons: Fire, Algeria, 11 August 2021 (FR20210811DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20210811dza-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4489,
+      "file:checksum": "1220b4b668cdb8672d6733a071087edad107b23491b6c5b1f6f503559e0381a87420",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Fire, Algeria, 11 August 2021 (FR20210811DZA)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Thailand, 28 March 2025 (EQ20250328THA): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328tha-analysis-extent.parquet | 7.7 KB | 12205c190bdf... |
 | ./eq20250328tha-analysis-extent.pmtiles | 74.7 KB | 12200d25601a... |
 | ./styles/default.json | 671 B | 1220c62cd662... |
+| ./eq20250328tha-analysis-extent.thumb.jpg | 7.3 KB | 12200c7ff712... |
 
 ## Quick Start
 

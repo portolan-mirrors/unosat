@@ -248,7 +248,9 @@
       "file:checksum": "122046b689b3936d1beb7b9e92c59e5cb41969d7a5fa098e5aad2d570ffa7f2eb9ee",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM), one GeoParquet file with the source columns."
     },
     "tc20151103yem-analysis-extent-tiles": {
       "href": "./tc20151103yem-analysis-extent.pmtiles",
@@ -257,7 +259,9 @@
       "file:checksum": "1220e5f724ac942d6f299e2637535729f2135b83a03114374f58915c663d84b902f4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -268,7 +272,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122079d3dd2a96cab1ce389bc8cf8eace5bf78dcb1d37198070d34cbf5f94bbddae7"
+      "file:checksum": "122079d3dd2a96cab1ce389bc8cf8eace5bf78dcb1d37198070d34cbf5f94bbddae7",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20151103yem-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 29660,
+      "file:checksum": "1220ecdfbd15153e6e57c0c2ba2f7ae4b84888b753ddc5d578803909754bbb37d69d",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM)."
     }
   }
 }

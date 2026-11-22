@@ -229,7 +229,9 @@
       "file:checksum": "12209274b89c552dc02b0e6734062d0ca46180d22e997a500fbcf001192c9adf96b3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ), one GeoParquet file with the source columns."
     },
     "tc20220311moz-analysis-extent-tiles": {
       "href": "./tc20220311moz-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220165be9dc82319d67091611b3c33262783c6a4e123b15ba49ba6f1202dfc30e7a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122003399876c244faf1eea4192d35717c4a1954e07965ac1df2ff890f1d40815879"
+      "file:checksum": "122003399876c244faf1eea4192d35717c4a1954e07965ac1df2ff890f1d40815879",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220311moz-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9947,
+      "file:checksum": "12206e3cec2bd1d037de71bac1aaf1597bbd95067fffd677dbc439533ee40cb26157",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ)."
     }
   }
 }

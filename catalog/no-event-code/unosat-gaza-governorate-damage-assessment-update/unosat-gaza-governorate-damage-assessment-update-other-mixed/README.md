@@ -1,5 +1,5 @@
 # Other mixed: UNOSAT Gaza Governorate Damage Assessment Update
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other mixed for UNOSAT Gaza Governorate Damage Assessment Update: 2,491 features merged from 1 source layer. Mixed layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./unosat-gaza-governorate-damage-assessment-update-other-mixed.parquet | 105.9 KB | 12204946481f... |
 | ./unosat-gaza-governorate-damage-assessment-update-other-mixed.pmtiles | 83.0 KB | 122031a36b71... |
 | ./styles/default.json | 681 B | 1220c761cc54... |
+| ./unosat-gaza-governorate-damage-assessment-update-other-mixed.thumb.jpg | 16.6 KB | 12203b9640c6... |
 
 ## Quick Start
 

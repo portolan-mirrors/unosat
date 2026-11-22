@@ -1,5 +1,5 @@
 # Other polygons: Fire, Lebanon, 16 October 2019 (FR20191016LBN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20191016lbn/fr20191016lbn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20191016lbn/fr20191016lbn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Fire, Lebanon, 16 October 2019 (FR20191016LBN): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20191016lbn-other-polygons.parquet | 4.0 KB | 1220bf68a36b... |
 | ./fr20191016lbn-other-polygons.pmtiles | 131.4 KB | 12208717e6fd... |
 | ./styles/default.json | 664 B | 1220d6119891... |
+| ./fr20191016lbn-other-polygons.thumb.jpg | 7.0 KB | 12209839d64c... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221014nic/tc20221014nic-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221014nic/tc20221014nic-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Nicaragua, 14 October 2022 (TC20221014NIC): 10 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20221014nic-analysis-extent.parquet | 22.8 MB | 12207881e8af... |
 | ./tc20221014nic-analysis-extent.pmtiles | 13.5 MB | 122051b72115... |
 | ./styles/default.json | 671 B | 1220fec2b3b1... |
+| ./tc20221014nic-analysis-extent.thumb.jpg | 34.2 KB | 1220c6519372... |
 
 ## Quick Start
 

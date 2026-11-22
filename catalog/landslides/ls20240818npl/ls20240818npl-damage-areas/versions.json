@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "ls20240818npl-damage-areas.parquet",
         "ls20240818npl-damage-areas.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:52.654407Z",
+      "breaking": false,
+      "assets": {
+        "ls20240818npl-damage-areas.parquet": {
+          "sha256": "caae6edf69182a16b8696f3e10f841c30c485969e929d03ed9792def736e4750",
+          "size_bytes": 76394,
+          "href": "landslides/ls20240818npl/ls20240818npl-damage-areas/ls20240818npl-damage-areas.parquet",
+          "source_path": "ls20240818npl-damage-areas.parquet",
+          "source_mtime": 1795333467.0298014,
+          "mtime": 1795333467.0298014,
+          "feature_count": 44,
+          "schema_fingerprint": "b0961c2d23747ddf"
+        },
+        "ls20240818npl-damage-areas.pmtiles": {
+          "sha256": "1bdda19037aa209955f2a681f874f717779797cb31dd027c502cef31f3ea5bfb",
+          "size_bytes": 58882,
+          "href": "landslides/ls20240818npl/ls20240818npl-damage-areas/ls20240818npl-damage-areas.pmtiles",
+          "mtime": 1795334249.3134625
+        },
+        "ls20240818npl-damage-areas.thumb.jpg": {
+          "sha256": "f02d2f71065be67632d8244b4d3e7cec3ec27b2f13b75a439f170592709040b7",
+          "size_bytes": 5893,
+          "href": "landslides/ls20240818npl/ls20240818npl-damage-areas/ls20240818npl-damage-areas.thumb.jpg",
+          "mtime": 1795343632.6509938
+        }
+      },
+      "changes": [
+        "ls20240818npl-damage-areas.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: ls20240818npl-damage-areas.thumb.jpg"
     }
   ]
 }

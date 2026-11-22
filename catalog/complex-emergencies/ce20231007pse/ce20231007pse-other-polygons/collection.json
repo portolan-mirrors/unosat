@@ -233,7 +233,9 @@
       "file:checksum": "122070042a108fc5ded75af6560cf7da48ee33f5b472c5ccfe50895260452847ba7a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE), one GeoParquet file with the source columns."
     },
     "ce20231007pse-other-polygons-tiles": {
       "href": "./ce20231007pse-other-polygons.pmtiles",
@@ -242,7 +244,9 @@
       "file:checksum": "12204b38a908ad6de267916b9f1f9a541dea13e6725b625755b09ab4b2613358c981",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -253,7 +257,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220bd86f1a5460a7cb3b29750266f756b1d3d883ccda06cbdf19b0b9b55ba2023b1"
+      "file:checksum": "1220bd86f1a5460a7cb3b29750266f756b1d3d883ccda06cbdf19b0b9b55ba2023b1",
+      "description": "MapLibre style for Other polygons: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20231007pse-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16942,
+      "file:checksum": "1220e270e00883ba464e8b201a5aa6bb821fc3064b9c8d9798f8bbd974c7999955b6",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20150703mmr-shelters.parquet",
         "fl20150703mmr-shelters.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.177248Z",
+      "breaking": false,
+      "assets": {
+        "fl20150703mmr-shelters.parquet": {
+          "sha256": "0cd775217c18b11ce5e6774b9ef24667f032c083251c13dbc7b4b6b575b6480b",
+          "size_bytes": 23207,
+          "href": "floods/2015/fl20150703mmr/fl20150703mmr-shelters/fl20150703mmr-shelters.parquet",
+          "source_mtime": 1795333245.481767,
+          "mtime": 1795333245.481767,
+          "feature_count": 260,
+          "schema_fingerprint": "6c296959c33be4aa"
+        },
+        "fl20150703mmr-shelters.pmtiles": {
+          "sha256": "bb9fc6522c34f3f2311246cac913367d61b52be7e40a1aad3ddd9ccbfac2aabc",
+          "size_bytes": 57626,
+          "href": "floods/2015/fl20150703mmr/fl20150703mmr-shelters/fl20150703mmr-shelters.pmtiles",
+          "source_path": "fl20150703mmr-shelters.pmtiles",
+          "mtime": 1795334071.6138434
+        },
+        "fl20150703mmr-shelters.thumb.jpg": {
+          "sha256": "df58a5739847aef20ddde7371a402c4f9b54d89491ea016112d7d1a874b6118f",
+          "size_bytes": 4006,
+          "href": "floods/2015/fl20150703mmr/fl20150703mmr-shelters/fl20150703mmr-shelters.thumb.jpg",
+          "mtime": 1795343617.1741707
+        }
+      },
+      "changes": [
+        "fl20150703mmr-shelters.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20150703mmr-shelters.thumb.jpg"
     }
   ]
 }

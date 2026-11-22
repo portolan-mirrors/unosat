@@ -234,7 +234,9 @@
       "file:checksum": "12205ff11ceeee3963c248d8c92e9895f9e869c054f9219778cbb51d582592d3e776",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM), one GeoParquet file with the source columns."
     },
     "tc20240905vnm-analysis-extent-tiles": {
       "href": "./tc20240905vnm-analysis-extent.pmtiles",
@@ -243,7 +245,9 @@
       "file:checksum": "12205c0cb59e3cc2274c109ba959974dcec720294b638943baa52bfd287d2b279011",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -254,7 +258,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220d26b68aa19897305d6c9379257240781d68e772a5abca688dcdc3b3c81e883a4"
+      "file:checksum": "1220d26b68aa19897305d6c9379257240781d68e772a5abca688dcdc3b3c81e883a4",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240905vnm-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10302,
+      "file:checksum": "1220d46085f1beb01bfc0149170f805a0ef627d6a5b58322d52675219b9623acf501",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Viet Nam, 5 September 2024 (TC20240905VNM)."
     }
   }
 }

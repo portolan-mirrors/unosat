@@ -298,7 +298,9 @@
       "file:checksum": "122012cbe2dfcfe1d5233f00f43fa626e44367d10a6cc5e5a048789e3083f43062bc",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB), one GeoParquet file with the source columns."
     },
     "tc20260408slb-analysis-extent-tiles": {
       "href": "./tc20260408slb-analysis-extent.pmtiles",
@@ -307,7 +309,9 @@
       "file:checksum": "12207b4a39ef50cebb83ffe8341307c6f83dd4aacfce84a688c1a460c7741718ac95",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -318,7 +322,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b96f0ae093e300b20be878be92a580dd25f25ea187b40cab22233781434b8607"
+      "file:checksum": "1220b96f0ae093e300b20be878be92a580dd25f25ea187b40cab22233781434b8607",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20260408slb-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11443,
+      "file:checksum": "1220e480faed062462b8da891267dabd39383827ce045f6786fdeab8c0616d4a2a9b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB)."
     }
   }
 }

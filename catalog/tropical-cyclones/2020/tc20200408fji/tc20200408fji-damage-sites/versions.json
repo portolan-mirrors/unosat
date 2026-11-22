@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20200408fji-damage-sites.parquet",
         "tc20200408fji-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:15.857142Z",
+      "breaking": false,
+      "assets": {
+        "tc20200408fji-damage-sites.parquet": {
+          "sha256": "05bce8ca241de87fdb734bc8b29fd8561d44929d00840e71773e92f32de6eeef",
+          "size_bytes": 49634,
+          "href": "tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/tc20200408fji-damage-sites.parquet",
+          "source_path": "tc20200408fji-damage-sites.parquet",
+          "source_mtime": 1795333492.8494663,
+          "mtime": 1795333492.8494663,
+          "feature_count": 1043,
+          "schema_fingerprint": "d0259756717b038a"
+        },
+        "tc20200408fji-damage-sites.pmtiles": {
+          "sha256": "2e5712eb355f3546ab58d3316614c90ebc9a60e3ee77b678b9f26f0bc42b5b58",
+          "size_bytes": 192537,
+          "href": "tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/tc20200408fji-damage-sites.pmtiles",
+          "mtime": 1795334269.3682084
+        },
+        "tc20200408fji-damage-sites.thumb.jpg": {
+          "sha256": "45ffab5c1e279f45bcc627d70a40e54404ea8f17b0c0a1f825242ad7aa395c14",
+          "size_bytes": 2467,
+          "href": "tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/tc20200408fji-damage-sites.thumb.jpg",
+          "mtime": 1795365855.8526587
+        }
+      },
+      "changes": [
+        "tc20200408fji-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20200408fji-damage-sites.thumb.jpg"
     }
   ]
 }

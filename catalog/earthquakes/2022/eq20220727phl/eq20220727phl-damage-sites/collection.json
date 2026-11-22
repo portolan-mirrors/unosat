@@ -262,7 +262,9 @@
       "file:checksum": "1220a1e21a1cb1fda4bcf21aecf8011d499e5d877c34180ccd1d493f5ac22c7fa079",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL), one GeoParquet file with the source columns."
     },
     "eq20220727phl-damage-sites-tiles": {
       "href": "./eq20220727phl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122059b06a6ca1ae37c49cef55cff37c73e580f3820180758a9a865b7a74ad43d254",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1006,
-      "file:checksum": "1220c1774f65e1fe39beac09d90f6645b2fcf11ce1ee4254a52111e88887af2ea297"
+      "file:checksum": "1220c1774f65e1fe39beac09d90f6645b2fcf11ce1ee4254a52111e88887af2ea297",
+      "description": "MapLibre style for Damage sites: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20220727phl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6872,
+      "file:checksum": "1220b53f122464e0be3fb3be834fdf09af0eba01dec473bb92d0b95dcb61bcabd27b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL)."
     }
   }
 }

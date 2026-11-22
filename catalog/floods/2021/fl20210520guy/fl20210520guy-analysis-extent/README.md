@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Guyana, 20 May 2021 (FL20210520GUY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210520guy/fl20210520guy-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210520guy/fl20210520guy-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Guyana, 20 May 2021 (FL20210520GUY): 10 features merged from 10 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210520guy-analysis-extent.parquet | 29.5 MB | 1220cc4f5ebd... |
 | ./fl20210520guy-analysis-extent.pmtiles | 13.3 MB | 12208dad1f00... |
 | ./styles/default.json | 671 B | 12204fb828a0... |
+| ./fl20210520guy-analysis-extent.thumb.jpg | 26.6 KB | 12200b1eaebd... |
 
 ## Quick Start
 

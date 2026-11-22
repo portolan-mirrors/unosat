@@ -1,5 +1,5 @@
 # Damage areas: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201111phl-damage-areas.parquet | 468.1 KB | 12208eeb563f... |
 | ./tc20201111phl-damage-areas.pmtiles | 65.3 KB | 1220830ecba2... |
 | ./styles/default.json | 913 B | 122086d45162... |
+| ./tc20201111phl-damage-areas.thumb.jpg | 24.7 KB | 1220fa044120... |
 
 ## Quick Start
 

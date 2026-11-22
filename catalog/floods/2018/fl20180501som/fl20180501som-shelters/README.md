@@ -1,5 +1,5 @@
 # Shelters: Flood, Somalia, 1 May 2018 (FL20180501SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Flood, Somalia, 1 May 2018 (FL20180501SOM): 116 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180501som-shelters.parquet | 10.6 KB | 1220b5064b3e... |
 | ./fl20180501som-shelters.pmtiles | 37.1 KB | 122072c6bf50... |
 | ./styles/default.json | 679 B | 1220059abfae... |
+| ./fl20180501som-shelters.thumb.jpg | 8.0 KB | 12205867f4ce... |
 
 ## Quick Start
 

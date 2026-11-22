@@ -218,7 +218,9 @@
       "file:checksum": "12202fc67e75338b1e7efd00df5bc398906d6f6baee3c04f61c58f204cc953af39ef",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Mozambique, 12 January 2015 (FL20150112MOZ), one GeoParquet file with the source columns."
     },
     "fl20150112moz-water-extent-tiles": {
       "href": "./fl20150112moz-water-extent.pmtiles",
@@ -227,7 +229,9 @@
       "file:checksum": "122068cf5ee84442f9fe14d8d2b93555e5c44bfbcc0891a8c339e1103c162e2f4345",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Mozambique, 12 January 2015 (FL20150112MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -238,7 +242,19 @@
       ],
       "title": "Water extent by Water_Clas",
       "file:size": 941,
-      "file:checksum": "122052d2e285d2927d758b9120efa56151b2cd1427c84653a3b48f7c37d20003464b"
+      "file:checksum": "122052d2e285d2927d758b9120efa56151b2cd1427c84653a3b48f7c37d20003464b",
+      "description": "MapLibre style for Water extent: Flood, Mozambique, 12 January 2015 (FL20150112MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20150112moz-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9727,
+      "file:checksum": "122029b00d730a68d3a88c96ee7f05088b1f3844e351a833e9b35a91681b275b1fe3",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Mozambique, 12 January 2015 (FL20150112MOZ)."
     }
   }
 }

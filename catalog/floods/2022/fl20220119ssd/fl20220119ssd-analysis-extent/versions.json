@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20220119ssd-analysis-extent.parquet",
         "fl20220119ssd-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:39.410037Z",
+      "breaking": false,
+      "assets": {
+        "fl20220119ssd-analysis-extent.parquet": {
+          "sha256": "5c72736c101c3bb1613d887b13ad16702e72d1a9eca4da255335db4e05744f1a",
+          "size_bytes": 449810,
+          "href": "floods/2022/fl20220119ssd/fl20220119ssd-analysis-extent/fl20220119ssd-analysis-extent.parquet",
+          "source_path": "fl20220119ssd-analysis-extent.parquet",
+          "source_mtime": 1795333293.7711058,
+          "mtime": 1795333293.7711058,
+          "feature_count": 4,
+          "schema_fingerprint": "f1e9c8a00adc8ef5"
+        },
+        "fl20220119ssd-analysis-extent.pmtiles": {
+          "sha256": "7347eeec919688c4625dea7ef8ba3b3e66a77436508eb2c2ee8780607e1ff893",
+          "size_bytes": 5440786,
+          "href": "floods/2022/fl20220119ssd/fl20220119ssd-analysis-extent/fl20220119ssd-analysis-extent.pmtiles",
+          "mtime": 1795334088.8686023
+        },
+        "fl20220119ssd-analysis-extent.thumb.jpg": {
+          "sha256": "47fd50858648f360fee8defa174dd88ca0004292b0e797d8444e922edd6bad10",
+          "size_bytes": 15955,
+          "href": "floods/2022/fl20220119ssd/fl20220119ssd-analysis-extent/fl20220119ssd-analysis-extent.thumb.jpg",
+          "mtime": 1795343619.4019878
+        }
+      },
+      "changes": [
+        "fl20220119ssd-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20220119ssd-analysis-extent.thumb.jpg"
     }
   ]
 }

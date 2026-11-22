@@ -254,7 +254,9 @@
       "file:checksum": "1220d0b9fdd0cacb1300426c2b01ec24f163b1617c1d20b8e1441a426b4bf24e766e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR), one GeoParquet file with the source columns."
     },
     "eq20250328mmr-other-lines-tiles": {
       "href": "./eq20250328mmr-other-lines.pmtiles",
@@ -263,7 +265,9 @@
       "file:checksum": "12205f0f8fd5f5442120c938d8d263281306e56b9b4380eb33831b342c826404e211",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -274,7 +278,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "12203e1838ac2d388b28970ae9386621e0ebfd7b4427e01c539a520d48083ffc63ba"
+      "file:checksum": "12203e1838ac2d388b28970ae9386621e0ebfd7b4427e01c539a520d48083ffc63ba",
+      "description": "MapLibre style for Other lines: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250328mmr-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5053,
+      "file:checksum": "1220a47e76e2f8054d0ab53b1b2cd321eb7dea09b9d34c2325917fe234dec37f2039",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)."
     }
   }
 }

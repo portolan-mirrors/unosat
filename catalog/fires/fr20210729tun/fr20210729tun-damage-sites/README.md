@@ -1,5 +1,5 @@
 # Damage sites: Fire, Tunisia, 29 July 2021 (FR20210729TUN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Fire, Tunisia, 29 July 2021 (FR20210729TUN): 249 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20210729tun-damage-sites.parquet | 13.9 KB | 1220e4bfcf9d... |
 | ./fr20210729tun-damage-sites.pmtiles | 73.0 KB | 1220e4b30edf... |
 | ./styles/default.json | 948 B | 12204d758551... |
+| ./fr20210729tun-damage-sites.thumb.jpg | 4.3 KB | 1220a1e5a039... |
 
 ## Quick Start
 

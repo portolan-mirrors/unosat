@@ -1,5 +1,5 @@
 # Damage sites: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240725kgz/fl20240725kgz-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240725kgz/fl20240725kgz-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ): 50 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240725kgz-damage-sites.parquet | 9.4 KB | 122055b85d1a... |
 | ./fl20240725kgz-damage-sites.pmtiles | 48.8 KB | 122073cc57c3... |
 | ./styles/default.json | 1.2 KB | 122039af6ac6... |
+| ./fl20240725kgz-damage-sites.thumb.jpg | 5.2 KB | 1220de69c1ec... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Water extent: Flood, Iran (Islamic Republic of), 17 January 2020 (FL20200117IRN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200117irn/fl20200117irn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200117irn/fl20200117irn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Iran (Islamic Republic of), 17 January 2020 (FL20200117IRN): 3 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200117irn-water-extent.parquet | 1.3 MB | 12209df4dfe7... |
 | ./fl20200117irn-water-extent.pmtiles | 1.2 MB | 122050d024ea... |
 | ./styles/default.json | 887 B | 1220cb4ba827... |
+| ./fl20200117irn-water-extent.thumb.jpg | 8.2 KB | 1220174b348c... |
 
 ## Quick Start
 

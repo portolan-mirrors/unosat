@@ -274,7 +274,9 @@
       "file:checksum": "122082133ebdcce34210a72d0a907bd74f9d0da82f77e81f068188d5b127f195ceb0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM), one GeoParquet file with the source columns."
     },
     "fl20221014vnm-water-extent-tiles": {
       "href": "./fl20221014vnm-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122049789c925383487f952ee1d229928f1da6c38f89931b2a07f940922861828585",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12208006a3de742880a429b73a5e8b8e81b0d066771b44c24277e2093cf304f669e2"
+      "file:checksum": "12208006a3de742880a429b73a5e8b8e81b0d066771b44c24277e2093cf304f669e2",
+      "description": "MapLibre style for Water extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20221014vnm-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5276,
+      "file:checksum": "122035abde2a418a2132db6e99ce5f13322500cf64765ea911a30340103625825414",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM)."
     }
   }
 }

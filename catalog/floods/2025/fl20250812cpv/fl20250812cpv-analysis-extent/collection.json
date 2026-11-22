@@ -253,7 +253,9 @@
       "file:checksum": "122051f502ba38a3ee17605ba1adb2a4f04aa77cd3530a914b79ebfa7b684866df8c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV), one GeoParquet file with the source columns."
     },
     "fl20250812cpv-analysis-extent-tiles": {
       "href": "./fl20250812cpv-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220ab47f5e131439e7070f7105e1268a4f0a0109fdf077121c719b3166c97338c81",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220040e3c9dc50b5624bf91c7c24e0b12dc1ef3ff5032bb151445dc8d3e8544974b"
+      "file:checksum": "1220040e3c9dc50b5624bf91c7c24e0b12dc1ef3ff5032bb151445dc8d3e8544974b",
+      "description": "MapLibre style for Analysis extent: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250812cpv-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13255,
+      "file:checksum": "12203b634d839d5273cc2a2255b7f944cd672c0eccc7648f74e07956c18ef98acdf8",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV)."
     }
   }
 }

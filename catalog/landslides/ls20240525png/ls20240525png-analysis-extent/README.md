@@ -1,5 +1,5 @@
 # Analysis extent: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240525png-analysis-extent.parquet | 33.1 KB | 1220c55f47a8... |
 | ./ls20240525png-analysis-extent.pmtiles | 28.7 KB | 1220f0c8e8ee... |
 | ./styles/default.json | 671 B | 12204be96480... |
+| ./ls20240525png-analysis-extent.thumb.jpg | 16.0 KB | 122001add76b... |
 
 ## Quick Start
 

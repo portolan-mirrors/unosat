@@ -229,7 +229,9 @@
       "file:checksum": "1220081ad5857fedbc04222b19e047f5fa6be7a8b0c6508d2d30becb4a38981be3e0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD), one GeoParquet file with the source columns."
     },
     "tc20200518bgd-analysis-extent-tiles": {
       "href": "./tc20200518bgd-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12202e8dd2ac15c0792a112d20ef33f61ec59b23fa13efc91f6c830c1c82336aba63",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220cfc4df8f5c3b163378eef84428100cc59c0a8245069226f460250c28d7c0a1e6"
+      "file:checksum": "1220cfc4df8f5c3b163378eef84428100cc59c0a8245069226f460250c28d7c0a1e6",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200518bgd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10828,
+      "file:checksum": "12209b15fee030a082b012faafe34f521f093ad12e966aaa80388203b50a50123714",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD)."
     }
   }
 }

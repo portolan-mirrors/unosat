@@ -1,5 +1,5 @@
 # Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Landslide, Indonesia, 18 November 2025 (LS20251118IDN): 8,529 features merged from 6 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -45,6 +45,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20251118idn-other-points.parquet | 117.2 KB | 1220dc2b0b78... |
 | ./ls20251118idn-other-points.pmtiles | 106.9 KB | 122021c91a25... |
 | ./styles/default.json | 695 B | 1220ab8042f3... |
+| ./ls20251118idn-other-points.thumb.jpg | 2.6 KB | 1220150ab69b... |
 
 ## Quick Start
 

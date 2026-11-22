@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140715pse/ce20140715pse-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE): 71,230 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140715pse-damage-sites.parquet | 1003.6 KB | 12207c3f3c82... |
 | ./ce20140715pse-damage-sites.pmtiles | 1.4 MB | 12201c18487c... |
 | ./styles/default.json | 1.3 KB | 122033fb9c0d... |
+| ./ce20140715pse-damage-sites.thumb.jpg | 30.7 KB | 1220354e7cae... |
 
 ## Quick Start
 

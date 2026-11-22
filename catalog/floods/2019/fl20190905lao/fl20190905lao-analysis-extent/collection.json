@@ -229,7 +229,9 @@
       "file:checksum": "12206172aa991a8814296083cc389319d3018565ebdc9f20ff918b8e9cc1c7c38b81",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO), one GeoParquet file with the source columns."
     },
     "fl20190905lao-analysis-extent-tiles": {
       "href": "./fl20190905lao-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122029c5c2d6ff0964b0ae843b9707c5cdc5a0fc3f6f07146c377affe6294b8a8e41",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122098b93f39386cf72958fde4bf09d114efd9ad4bd93bca5da4499b0935a17c6dbe"
+      "file:checksum": "122098b93f39386cf72958fde4bf09d114efd9ad4bd93bca5da4499b0935a17c6dbe",
+      "description": "MapLibre style for Analysis extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20190905lao-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12603,
+      "file:checksum": "1220b98105a86287af8996140dd37306b586b0b9ed881d99529c49898ec9ba6e656f",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO)."
     }
   }
 }

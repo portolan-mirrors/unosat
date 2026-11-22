@@ -217,7 +217,9 @@
       "file:checksum": "12205eb12887eff483a398e9657d5449b0348fce65dc69cbbcfb447ff2b08a936d28",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR), one GeoParquet file with the source columns."
     },
     "fr20250707syr-analysis-extent-tiles": {
       "href": "./fr20250707syr-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220a8e275d93dae7d43c5e2445505ac3de8e956523e43926bee418352cc6c408ca5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122099f3bc38a60795c78198b9f3fbb50f8b990fdb7b16b32f9f7fdbcebacbf614ab"
+      "file:checksum": "122099f3bc38a60795c78198b9f3fbb50f8b990fdb7b16b32f9f7fdbcebacbf614ab",
+      "description": "MapLibre style for Analysis extent: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20250707syr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11407,
+      "file:checksum": "12203afb5f6bcc284bc0a275f7455d543ab2c0ac088e466e43394e5f017b2596b3a0",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR)."
     }
   }
 }

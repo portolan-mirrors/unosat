@@ -1,5 +1,5 @@
 # Analysis extent: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20210523cod/vo20210523cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD): 7 features merged from 7 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20210523cod-analysis-extent.parquet | 243.5 KB | 1220434820cc... |
 | ./vo20210523cod-analysis-extent.pmtiles | 104.4 KB | 122004a0095f... |
 | ./styles/default.json | 671 B | 12202a36e2ff... |
+| ./vo20210523cod-analysis-extent.thumb.jpg | 11.7 KB | 1220e1c40fe0... |
 
 ## Quick Start
 

@@ -274,7 +274,9 @@
       "file:checksum": "12206c548af8979476c5be69e2a099d42f662573702c976b3d3c607f3ed908fc8f54",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM), one GeoParquet file with the source columns."
     },
     "tc20250826vnm-water-extent-tiles": {
       "href": "./tc20250826vnm-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220470932f9ac1b9e08ff3c95d5499c8efce88f92743cc53d391b665271b5cc9eeb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d3e03907c018eecd2e5cbd313a282fc17ec75d1bae8a320859ddf64b8686f750"
+      "file:checksum": "1220d3e03907c018eecd2e5cbd313a282fc17ec75d1bae8a320859ddf64b8686f750",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20250826vnm-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15620,
+      "file:checksum": "1220e3d6f015f4805b02d9506749401ab48d8bff2a7e38b5fa32d32ba137d49316c6",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM)."
     }
   }
 }

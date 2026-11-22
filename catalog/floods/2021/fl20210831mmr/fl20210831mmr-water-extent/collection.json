@@ -274,7 +274,9 @@
       "file:checksum": "1220a76b8f5490a981cc2bf9a8d6a5658e31da451339632d4417c416b17bc19cd200",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR), one GeoParquet file with the source columns."
     },
     "fl20210831mmr-water-extent-tiles": {
       "href": "./fl20210831mmr-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122056ec5e77c6d838e2b1d50408fea8e9609c833522cf452ba860bf384cddf82701",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12205234c534ad327b684bd67adb9daba3808b03e8601901ce6a838eaa997bbe7099"
+      "file:checksum": "12205234c534ad327b684bd67adb9daba3808b03e8601901ce6a838eaa997bbe7099",
+      "description": "MapLibre style for Water extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210831mmr-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 39479,
+      "file:checksum": "12200f207dde4eeff16ffffb9c39fe1c70fb1c50de15923ef37376124e13767cdc67",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR)."
     }
   }
 }

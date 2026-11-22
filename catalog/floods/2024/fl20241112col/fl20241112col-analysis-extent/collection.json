@@ -229,7 +229,9 @@
       "file:checksum": "12209c69f326b95542cde9275ba4b88d48c16b1a42c90458c3f40fbbe935639c9ecb",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Colombia, 12 November 2024 (FL20241112COL), one GeoParquet file with the source columns."
     },
     "fl20241112col-analysis-extent-tiles": {
       "href": "./fl20241112col-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12205b2397cf57d7a2b1e4c3fe7db4946d0f6b0eb9fb610b0aff183ad2bce8d364d9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Colombia, 12 November 2024 (FL20241112COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201871dc6f08be9c3c9a809aef930fb3e2968f04967712df4324ca34d2e4b8b98e"
+      "file:checksum": "12201871dc6f08be9c3c9a809aef930fb3e2968f04967712df4324ca34d2e4b8b98e",
+      "description": "MapLibre style for Analysis extent: Flood, Colombia, 12 November 2024 (FL20241112COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20241112col-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5422,
+      "file:checksum": "1220166842da67ad029a48d9ac6723ee2ff77f0039a72ec6aaa81c7a863632e7e3ff",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Colombia, 12 November 2024 (FL20241112COL)."
     }
   }
 }

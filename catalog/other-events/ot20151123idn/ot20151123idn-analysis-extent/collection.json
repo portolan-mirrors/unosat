@@ -249,7 +249,9 @@
       "file:checksum": "122031a9847f0db1e0ec36ba79d085943bfb908f14b73bead14c81cb8ac8c1c8d040",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Event, Indonesia, 23 November 2015 (OT20151123IDN), one GeoParquet file with the source columns."
     },
     "ot20151123idn-analysis-extent-tiles": {
       "href": "./ot20151123idn-analysis-extent.pmtiles",
@@ -258,7 +260,9 @@
       "file:checksum": "12206bbede9c54fc764e0d3b39f363987818e809a7de1589f8c70f79b6d65eb05a54",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Event, Indonesia, 23 November 2015 (OT20151123IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -269,7 +273,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220fae52aa4dd0e9eed500ae4ef3efb55fe216759c357f6f2c3e1125daff222327a"
+      "file:checksum": "1220fae52aa4dd0e9eed500ae4ef3efb55fe216759c357f6f2c3e1125daff222327a",
+      "description": "MapLibre style for Analysis extent: Event, Indonesia, 23 November 2015 (OT20151123IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ot20151123idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14964,
+      "file:checksum": "122044a6dcbd9f93ce4fdf62856d90b6b4512fd72a9f3506638501ef59ea659cbcd4",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Event, Indonesia, 23 November 2015 (OT20151123IDN)."
     }
   }
 }

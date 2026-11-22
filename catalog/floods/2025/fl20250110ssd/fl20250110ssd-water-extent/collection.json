@@ -353,7 +353,9 @@
       "file:checksum": "122039ba0146a203a208842ec5299bafb57b2fd7bf2085dca718c0404d10b96db581",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, South Sudan, 10 January 2025 (FL20250110SSD), one GeoParquet file with the source columns."
     },
     "fl20250110ssd-water-extent-tiles": {
       "href": "./fl20250110ssd-water-extent.pmtiles",
@@ -362,7 +364,9 @@
       "file:checksum": "1220d0aebec0be43122cd2c226b89f10321fdd432f483cb8b160343e7ff8241b2e98",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, South Sudan, 10 January 2025 (FL20250110SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -373,7 +377,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1125,
-      "file:checksum": "12203c4dd052eb84312c125fa5c28df5e81accab0bdd4c168fb0f327c553c21e7dd1"
+      "file:checksum": "12203c4dd052eb84312c125fa5c28df5e81accab0bdd4c168fb0f327c553c21e7dd1",
+      "description": "MapLibre style for Water extent: Flood, South Sudan, 10 January 2025 (FL20250110SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250110ssd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 35561,
+      "file:checksum": "12205d4ed4ee1d1468cd3535d132932055afcd8d1696f0848e3a34e28ccc97b63809",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, South Sudan, 10 January 2025 (FL20250110SSD)."
     }
   }
 }

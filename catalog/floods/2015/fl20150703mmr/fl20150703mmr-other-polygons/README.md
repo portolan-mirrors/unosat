@@ -1,5 +1,5 @@
 # Other polygons: Flood, Myanmar, 3 July 2015 (FL20150703MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Myanmar, 3 July 2015 (FL20150703MMR): 3 features merged from 3 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20150703mmr-other-polygons.parquet | 5.2 KB | 1220486836ec... |
 | ./fl20150703mmr-other-polygons.pmtiles | 537.6 KB | 1220d17ef687... |
 | ./styles/default.json | 664 B | 12207bb352ff... |
+| ./fl20150703mmr-other-polygons.thumb.jpg | 7.3 KB | 1220301fe302... |
 
 ## Quick Start
 

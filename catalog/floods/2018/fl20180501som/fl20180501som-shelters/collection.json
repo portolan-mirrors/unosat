@@ -222,7 +222,9 @@
       "file:checksum": "1220b5064b3e640dfe444c5eaca625b2e95a122681b975f286bfa520b3cb993bc7da",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Flood, Somalia, 1 May 2018 (FL20180501SOM), one GeoParquet file with the source columns."
     },
     "fl20180501som-shelters-tiles": {
       "href": "./fl20180501som-shelters.pmtiles",
@@ -231,7 +233,9 @@
       "file:checksum": "122072c6bf50329c54ccd6ce0f076d1f87c6c4c31b9c659355ea09b37afb7babf3b3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Flood, Somalia, 1 May 2018 (FL20180501SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -242,7 +246,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "1220059abfae369125976fe8e2e9fcd9691fd3c3bf19b93da3df2480d807bbbe9318"
+      "file:checksum": "1220059abfae369125976fe8e2e9fcd9691fd3c3bf19b93da3df2480d807bbbe9318",
+      "description": "MapLibre style for Shelters: Flood, Somalia, 1 May 2018 (FL20180501SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20180501som-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8175,
+      "file:checksum": "12205867f4ce50a898b41eff88e3969d3456efc98a3dad040f9718227cf725ef73f2",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Flood, Somalia, 1 May 2018 (FL20180501SOM)."
     }
   }
 }

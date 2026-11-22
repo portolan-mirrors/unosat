@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 4,583 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20150425npl-damage-sites.parquet | 195.6 KB | 1220be869b4e... |
 | ./eq20150425npl-damage-sites.pmtiles | 418.4 KB | 12204415ee1a... |
 | ./styles/default.json | 1.1 KB | 12203f408437... |
+| ./eq20150425npl-damage-sites.thumb.jpg | 8.5 KB | 1220ccb98eef... |
 
 ## Quick Start
 

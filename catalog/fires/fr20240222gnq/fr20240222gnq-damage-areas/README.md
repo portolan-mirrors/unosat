@@ -1,5 +1,5 @@
 # Damage areas: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20240222gnq-damage-areas.parquet | 13.9 KB | 1220150c9f21... |
 | ./fr20240222gnq-damage-areas.pmtiles | 33.5 KB | 12202db42406... |
 | ./styles/default.json | 915 B | 122013c3de8b... |
+| ./fr20240222gnq-damage-areas.thumb.jpg | 19.6 KB | 122005866a74... |
 
 ## Quick Start
 

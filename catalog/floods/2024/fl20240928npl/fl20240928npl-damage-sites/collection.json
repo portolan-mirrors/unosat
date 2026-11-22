@@ -262,7 +262,9 @@
       "file:checksum": "1220bbecb42c2fb2136e606690656fa62c64a15a691fb63c5eeeac167f0c0519dff2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Nepal, 28 September 2024 (FL20240928NPL), one GeoParquet file with the source columns."
     },
     "fl20240928npl-damage-sites-tiles": {
       "href": "./fl20240928npl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12203233ab44c8d03cdd60773de32a384ca51e8cb024db5607387cb95bf9f741d3dd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Nepal, 28 September 2024 (FL20240928NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220ebcdae4f972db2d432e9252d469cc5b0efe417f766e41368fb01b55a6980c7eb"
+      "file:checksum": "1220ebcdae4f972db2d432e9252d469cc5b0efe417f766e41368fb01b55a6980c7eb",
+      "description": "MapLibre style for Damage sites: Flood, Nepal, 28 September 2024 (FL20240928NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240928npl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15677,
+      "file:checksum": "12205a096d7aa67627a4d9d9433bcdd161a6a84cafcdc938f0b052296ae0228540de",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Nepal, 28 September 2024 (FL20240928NPL)."
     }
   }
 }

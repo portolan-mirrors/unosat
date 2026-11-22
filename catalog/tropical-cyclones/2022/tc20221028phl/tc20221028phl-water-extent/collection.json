@@ -274,7 +274,9 @@
       "file:checksum": "122096f863825aa4e64c10a35c627be1496af84f550c12f9d783687c8d1cc24f4f06",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL), one GeoParquet file with the source columns."
     },
     "tc20221028phl-water-extent-tiles": {
       "href": "./tc20221028phl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12207f16e2c804eaf3dc8e1a66b871defccace86307dd9e1d94de4f83315a8c287d0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12200f2e0ea44747d59acf4cf084f733a726bedae0ad9eb9cd8c14d1a6530e832dc6"
+      "file:checksum": "12200f2e0ea44747d59acf4cf084f733a726bedae0ad9eb9cd8c14d1a6530e832dc6",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20221028phl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3517,
+      "file:checksum": "1220302dfcb288eae8beb65255538b1a660af3c6f9b3a5ec9fee9851474587f475c1",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)."
     }
   }
 }

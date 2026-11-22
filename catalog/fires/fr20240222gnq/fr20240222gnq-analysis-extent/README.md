@@ -1,5 +1,5 @@
 # Analysis extent: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20240222gnq-analysis-extent.parquet | 37.6 KB | 122038f62dd4... |
 | ./fr20240222gnq-analysis-extent.pmtiles | 44.4 KB | 1220b00e295b... |
 | ./styles/default.json | 671 B | 12204517b941... |
+| ./fr20240222gnq-analysis-extent.thumb.jpg | 17.6 KB | 122089ac41f3... |
 
 ## Quick Start
 

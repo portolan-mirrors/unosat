@@ -229,7 +229,9 @@
       "file:checksum": "1220eb439c9d1cab89e1e71ea9a1445a1d75c4d1305e0c9c548a2f37869a8f981a4b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Colombia, 3 April 2017 (LS20170403COL), one GeoParquet file with the source columns."
     },
     "ls20170403col-analysis-extent-tiles": {
       "href": "./ls20170403col-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220050b4060c3c56177c5029b7fa3388d61d2a90a5de078c38a7aba938f3203ceac",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Colombia, 3 April 2017 (LS20170403COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b7919f062ba0126aec1a638a6dabba62f1ee7a7560ebcfa45392733c19fa8f19"
+      "file:checksum": "1220b7919f062ba0126aec1a638a6dabba62f1ee7a7560ebcfa45392733c19fa8f19",
+      "description": "MapLibre style for Analysis extent: Landslide, Colombia, 3 April 2017 (LS20170403COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20170403col-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8334,
+      "file:checksum": "1220f8bdf6707dc9435a43933df6990eb46d6ae0dc29a1de7af5b6ea3bd310b410dc",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Colombia, 3 April 2017 (LS20170403COL)."
     }
   }
 }

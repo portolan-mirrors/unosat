@@ -274,7 +274,9 @@
       "file:checksum": "12205d5bc539bc227dcefad6fe43094b0bebeee6eff1370a95466cc877101ea70c10",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Congo, 2 January 2024 (FL20240102COG), one GeoParquet file with the source columns."
     },
     "fl20240102cog-water-extent-tiles": {
       "href": "./fl20240102cog-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220251fdeb76be29f1f3c6d949a7fb2c4880c650a84aafdb698a177f5b488ab0f8b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Congo, 2 January 2024 (FL20240102COG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 960,
-      "file:checksum": "12203915496e01e5a85a24f203ee4334305e32fb01fa9caca1703732fe1bab472de5"
+      "file:checksum": "12203915496e01e5a85a24f203ee4334305e32fb01fa9caca1703732fe1bab472de5",
+      "description": "MapLibre style for Water extent: Flood, Congo, 2 January 2024 (FL20240102COG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240102cog-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13720,
+      "file:checksum": "1220e9e8aa15f94d2e655a3a093d6ac6fbb7cf20924110962bd33f11b73f673b3573",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Congo, 2 January 2024 (FL20240102COG)."
     }
   }
 }

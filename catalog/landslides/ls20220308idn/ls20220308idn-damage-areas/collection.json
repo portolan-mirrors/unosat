@@ -282,7 +282,9 @@
       "file:checksum": "122058dbb283b7fd52bd8b48831b3d8a931514abcf531f470cd15ddefaad884d8a68",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Landslide, Indonesia, 8 March 2022 (LS20220308IDN), one GeoParquet file with the source columns."
     },
     "ls20220308idn-damage-areas-tiles": {
       "href": "./ls20220308idn-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12206ff8c36b2fdea8f12f0072cedf34fcc7986d61baa941853952812e20f70e2261",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Landslide, Indonesia, 8 March 2022 (LS20220308IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 907,
-      "file:checksum": "12201611b34be1c663787d631ecba90e8ec17c85a7f6d8d165cbde08fc9c373f42a0"
+      "file:checksum": "12201611b34be1c663787d631ecba90e8ec17c85a7f6d8d165cbde08fc9c373f42a0",
+      "description": "MapLibre style for Damage areas: Landslide, Indonesia, 8 March 2022 (LS20220308IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20220308idn-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6899,
+      "file:checksum": "1220d2efeabd71e789aa6697aae934ee339ff38366a42ecf057540979b1277089e70",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Landslide, Indonesia, 8 March 2022 (LS20220308IDN)."
     }
   }
 }

@@ -282,7 +282,9 @@
       "file:checksum": "12204e5e4c782dcc566c62288404c50134fddc9e79fb55d16a4b5a5a4f08bc6c1d43",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL), one GeoParquet file with the source columns."
     },
     "tc20241028phl-damage-areas-tiles": {
       "href": "./tc20241028phl-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "122039791c1a6623f6d4ef76b84dac3160543054cf667f1bbcedc35a9fca35b3cbd3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 913,
-      "file:checksum": "12209217772ff56328e35efff434313b0e0fe9ce9bf98923e466265fc190e182bf54"
+      "file:checksum": "12209217772ff56328e35efff434313b0e0fe9ce9bf98923e466265fc190e182bf54",
+      "description": "MapLibre style for Damage areas: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20241028phl-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 21552,
+      "file:checksum": "1220acec9d1c347048ce85ed25c8e169e594c8d681cb36793b5c75c47740bfb44c9b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Tropical cyclone, Philippines, 28 October 2024 (TC20241028PHL)."
     }
   }
 }

@@ -219,7 +219,9 @@
       "file:checksum": "122044fbbba98774012cebb32d51cac08c2a30484f9885fcd68736a1e2f1c9c860fb",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Afghanistan, 30 April 2014 (FL20140430AFG), one GeoParquet file with the source columns."
     },
     "fl20140430afg-other-polygons-tiles": {
       "href": "./fl20140430afg-other-polygons.pmtiles",
@@ -228,7 +230,9 @@
       "file:checksum": "1220b9b317c49bc0dc122b396c5cebc1b46ce07ac8ee20c7e43aeae355b564c56db3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Afghanistan, 30 April 2014 (FL20140430AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -239,7 +243,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12202e46a77c2b1c226c71ef1786df5ee06e8f453218c68bd8fc14531551b510cd88"
+      "file:checksum": "12202e46a77c2b1c226c71ef1786df5ee06e8f453218c68bd8fc14531551b510cd88",
+      "description": "MapLibre style for Other polygons: Flood, Afghanistan, 30 April 2014 (FL20140430AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140430afg-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5309,
+      "file:checksum": "12208191b039c0ef1e9fcceaae97d4266ebf1871aee1991c68b2e7a471bd74237182",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)."
     }
   }
 }

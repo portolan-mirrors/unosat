@@ -249,7 +249,9 @@
       "file:checksum": "1220e25382ba89e598c00b2999a642d1641837ee66f63157066c7a47cfd76d2e76d9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Sudan, 12 August 2021 (FL20210812SDN), one GeoParquet file with the source columns."
     },
     "fl20210812sdn-analysis-extent-tiles": {
       "href": "./fl20210812sdn-analysis-extent.pmtiles",
@@ -258,7 +260,9 @@
       "file:checksum": "122033a3538e58648f41ab7f7bc44ae3435c35e9cd6ad17ce98259bdf4c4c67527f3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Sudan, 12 August 2021 (FL20210812SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -269,7 +273,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12202ee260884e84eff139df2f508999595ceb31ccbf9513f0c12bd3d50e15fdfe11"
+      "file:checksum": "12202ee260884e84eff139df2f508999595ceb31ccbf9513f0c12bd3d50e15fdfe11",
+      "description": "MapLibre style for Analysis extent: Flood, Sudan, 12 August 2021 (FL20210812SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210812sdn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 23838,
+      "file:checksum": "1220e5e64c149a3f58a1e0faee354c00db8920cf56be3c1150280c54f2dcb7e45e6c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Sudan, 12 August 2021 (FL20210812SDN)."
     }
   }
 }

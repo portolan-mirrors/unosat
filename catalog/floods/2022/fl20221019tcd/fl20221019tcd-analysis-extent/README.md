@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Chad, 19 October 2022 (FL20221019TCD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221019tcd/fl20221019tcd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221019tcd/fl20221019tcd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Chad, 19 October 2022 (FL20221019TCD): 49 features merged from 49 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20221019tcd-analysis-extent.parquet | 664.1 KB | 1220ab153e99... |
 | ./fl20221019tcd-analysis-extent.pmtiles | 11.0 MB | 1220e1a4dc0b... |
 | ./styles/default.json | 671 B | 1220c69710c8... |
+| ./fl20221019tcd-analysis-extent.thumb.jpg | 17.9 KB | 1220b835b47f... |
 
 ## Quick Start
 

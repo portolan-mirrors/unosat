@@ -217,7 +217,9 @@
       "file:checksum": "122099ef671af9c117798b3e0bbe6a0210688f42c576dbf0f7d1437ceb0cb5eca093",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU), one GeoParquet file with the source columns."
     },
     "eq20160417ecu-other-polygons-tiles": {
       "href": "./eq20160417ecu-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12208667f4b4adbc0804778946427be9746c938fa311fc71293269e85c4a745750f1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12205a567b6e85729439c01aedfaf272609b046ebaf9365e039bb820dc67cbe97dfc"
+      "file:checksum": "12205a567b6e85729439c01aedfaf272609b046ebaf9365e039bb820dc67cbe97dfc",
+      "description": "MapLibre style for Other polygons: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20160417ecu-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3700,
+      "file:checksum": "122026c65044d0ac4c78c90d87cb30e8c282b3310bb46f82d3b2fac7043b68c8e6c8",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)."
     }
   }
 }

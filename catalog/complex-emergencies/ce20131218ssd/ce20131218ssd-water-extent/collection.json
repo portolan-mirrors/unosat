@@ -183,7 +183,9 @@
       "file:checksum": "1220e6795608377ac49a97bf300739781647a6f5f08b403bdc4165ce0487ed87bd74",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD), one GeoParquet file with the source columns."
     },
     "ce20131218ssd-water-extent-tiles": {
       "href": "./ce20131218ssd-water-extent.pmtiles",
@@ -192,7 +194,9 @@
       "file:checksum": "122022a5bda6d9a58ef6f0fe0ac8eb6079b8835b457748251c1661cdcd75b93d7258",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -203,7 +207,19 @@
       ],
       "title": "Water extent",
       "file:size": 652,
-      "file:checksum": "122048aa97f01a9bebc93622af82b5db851c6ff4ea15c08a878b44dc9670b12b25a8"
+      "file:checksum": "122048aa97f01a9bebc93622af82b5db851c6ff4ea15c08a878b44dc9670b12b25a8",
+      "description": "MapLibre style for Water extent: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131218ssd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 22655,
+      "file:checksum": "1220deb2364c1597939ddea46192fc0bef90afaf6c773ba8b8e2edf9c7512deb6f0d",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)."
     }
   }
 }

@@ -274,7 +274,9 @@
       "file:checksum": "12201713d84bad10c3d3333eadd63aa9a7cd7fc6a18b59b6839acb67d2ebc25ad2b5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC), one GeoParquet file with the source columns."
     },
     "tc20201116nic-water-extent-tiles": {
       "href": "./tc20201116nic-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12200d5f4e5a12a6873576918147723b8078eebe11542ba6ba16660b62375d728ebe",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122057d8c87f2cb641b67f70ff60a1fef5b375c3b587079d850c1e53b5fffd82f34a"
+      "file:checksum": "122057d8c87f2cb641b67f70ff60a1fef5b375c3b587079d850c1e53b5fffd82f34a",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201116nic-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16839,
+      "file:checksum": "1220523828a136df30bfd6868b1b3f0993ef00599efe5b7a5d873be2f203b9182c24",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)."
     }
   }
 }

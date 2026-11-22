@@ -1,5 +1,5 @@
 # Shelter areas: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-shelter-areas-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA): 3 features merged from 2 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140617nga-shelter-areas-cc_by_nc_sa_3_0.parquet | 8.3 KB | 1220eb5e0bca... |
 | ./ce20140617nga-shelter-areas-cc_by_nc_sa_3_0.pmtiles | 30.7 KB | 1220b9da5046... |
 | ./styles/default.json | 887 B | 1220fbaf5d3c... |
+| ./ce20140617nga-shelter-areas-cc_by_nc_sa_3_0.thumb.jpg | 9.9 KB | 1220a61f3dc2... |
 
 ## Quick Start
 

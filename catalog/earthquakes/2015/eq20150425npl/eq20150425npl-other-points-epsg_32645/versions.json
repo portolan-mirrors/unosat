@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20150425npl-other-points-epsg_32645.parquet",
         "eq20150425npl-other-points-epsg_32645.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.321980Z",
+      "breaking": false,
+      "assets": {
+        "eq20150425npl-other-points-epsg_32645.parquet": {
+          "sha256": "c8afa66f80e80c2484574507bf3f85ccee6bc23717fe1bfedcb9a9449cea9662",
+          "size_bytes": 1792014,
+          "href": "earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645/eq20150425npl-other-points-epsg_32645.parquet",
+          "source_path": "eq20150425npl-other-points-epsg_32645.parquet",
+          "source_mtime": 1795333229.9879775,
+          "mtime": 1795333229.9879775,
+          "feature_count": 54135,
+          "schema_fingerprint": "da55de3c84824bea"
+        },
+        "eq20150425npl-other-points-epsg_32645.pmtiles": {
+          "sha256": "11475a3ca9c5997eb8cfff69794a42ce4213accebf0c824c897526e13a8da2a3",
+          "size_bytes": 1251273,
+          "href": "earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645/eq20150425npl-other-points-epsg_32645.pmtiles",
+          "mtime": 1795334071.8018408
+        },
+        "eq20150425npl-other-points-epsg_32645.thumb.jpg": {
+          "sha256": "7ef6af76b4c5906ef2a192a47889ded3a44d4171a6b31be3167a9f00323fea10",
+          "size_bytes": 15503,
+          "href": "earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_32645/eq20150425npl-other-points-epsg_32645.thumb.jpg",
+          "mtime": 1795343617.2952147
+        }
+      },
+      "changes": [
+        "eq20150425npl-other-points-epsg_32645.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20150425npl-other-points-epsg_32645.thumb.jpg"
     }
   ]
 }

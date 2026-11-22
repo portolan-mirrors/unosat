@@ -262,7 +262,9 @@
       "file:checksum": "1220a1346178ce92ba68a9fd07a75710d39c691bae23b7c494284e94e348ddbefd2d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Senegal, 8 October 2026 (FL20261008SEN), one GeoParquet file with the source columns."
     },
     "fl20261008sen-damage-sites-tiles": {
       "href": "./fl20261008sen-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220243497e1324875e39a024ef09d0c70b7da6f9821de2a9f288949cd5321c8f75f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Senegal, 8 October 2026 (FL20261008SEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "1220de14e56741114cb058c00a0f6ade88bc057601301619be6fa98261b553ca7559"
+      "file:checksum": "1220de14e56741114cb058c00a0f6ade88bc057601301619be6fa98261b553ca7559",
+      "description": "MapLibre style for Damage sites: Flood, Senegal, 8 October 2026 (FL20261008SEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261008sen-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5160,
+      "file:checksum": "12208198314b6c1da67b0c4f955759d048ca670f1ed8fab7034639f783709aa51323",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Senegal, 8 October 2026 (FL20261008SEN)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF): 23,598 features merged from 18 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131212caf-damage-sites.parquet | 360.9 KB | 1220e9185f7e... |
 | ./ce20131212caf-damage-sites.pmtiles | 614.1 KB | 12202d8bb8f8... |
 | ./styles/default.json | 1000 B | 122015aaee6f... |
+| ./ce20131212caf-damage-sites.thumb.jpg | 6.9 KB | 12202c203eb1... |
 
 ## Quick Start
 

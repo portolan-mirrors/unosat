@@ -1,5 +1,5 @@
 # Water extent: Flood, Nepal, 8 July 2020 (FL20200708NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200708npl/fl20200708npl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200708npl/fl20200708npl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Nepal, 8 July 2020 (FL20200708NPL): 24,187 features merged from 10 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200708npl-water-extent.parquet | 73.3 MB | 122083da5ffb... |
 | ./fl20200708npl-water-extent.pmtiles | 27.0 MB | 12201753a089... |
 | ./styles/default.json | 887 B | 12200d530bfb... |
+| ./fl20200708npl-water-extent.thumb.jpg | 4.5 KB | 1220c5170806... |
 
 ## Quick Start
 

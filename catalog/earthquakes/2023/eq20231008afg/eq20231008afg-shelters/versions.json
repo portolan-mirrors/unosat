@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20231008afg-shelters.parquet",
         "eq20231008afg-shelters.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.859761Z",
+      "breaking": false,
+      "assets": {
+        "eq20231008afg-shelters.parquet": {
+          "sha256": "f5f756d3a1760238efbe455d2f2b81011e02b4e7bab850617024389acc2914f4",
+          "size_bytes": 77421,
+          "href": "earthquakes/2023/eq20231008afg/eq20231008afg-shelters/eq20231008afg-shelters.parquet",
+          "source_path": "eq20231008afg-shelters.parquet",
+          "source_mtime": 1795333243.5097938,
+          "mtime": 1795333243.5097938,
+          "feature_count": 6165,
+          "schema_fingerprint": "d7724b23d9d55480"
+        },
+        "eq20231008afg-shelters.pmtiles": {
+          "sha256": "924b3e8d19e2048d21b06394985498aa46ba427f6c5db62afe52b4b6bba0b2d4",
+          "size_bytes": 88147,
+          "href": "earthquakes/2023/eq20231008afg/eq20231008afg-shelters/eq20231008afg-shelters.pmtiles",
+          "mtime": 1795334070.710856
+        },
+        "eq20231008afg-shelters.thumb.jpg": {
+          "sha256": "e11cc2c25a9d8efd4813890bfe87752740dccc1243fdef67a9029a5cba229f67",
+          "size_bytes": 4799,
+          "href": "earthquakes/2023/eq20231008afg/eq20231008afg-shelters/eq20231008afg-shelters.thumb.jpg",
+          "mtime": 1795343616.854727
+        }
+      },
+      "changes": [
+        "eq20231008afg-shelters.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20231008afg-shelters.thumb.jpg"
     }
   ]
 }

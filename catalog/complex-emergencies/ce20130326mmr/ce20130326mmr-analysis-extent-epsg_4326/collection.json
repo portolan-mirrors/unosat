@@ -191,7 +191,9 @@
       "file:checksum": "12204a40407833d626d1772ea3a787548b13d131340a6651031473ebcb7f09b0de77",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR), one GeoParquet file with the source columns."
     },
     "ce20130326mmr-analysis-extent-epsg_4326-tiles": {
       "href": "./ce20130326mmr-analysis-extent-epsg_4326.pmtiles",
@@ -200,7 +202,9 @@
       "file:checksum": "122058fbb924d1ca105401cd1f5fa90c8dd1a258ed0f93a04b9deb0c56f1f9af44f2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -211,7 +215,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 681,
-      "file:checksum": "1220415fc25da19da0d8a47072ba868a5b3283802f640f9375e4daf366c614f86629"
+      "file:checksum": "1220415fc25da19da0d8a47072ba868a5b3283802f640f9375e4daf366c614f86629",
+      "description": "MapLibre style for Analysis extent: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130326mmr-analysis-extent-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9130,
+      "file:checksum": "12201b91458d1ff1233a44895820b4e32ab828064e4566b3e150cba648e3146be833",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)."
     }
   }
 }

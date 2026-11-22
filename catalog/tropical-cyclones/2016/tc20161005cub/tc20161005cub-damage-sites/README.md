@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161005cub/tc20161005cub-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161005cub/tc20161005cub-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB): 4,617 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20161005cub-damage-sites.parquet | 187.5 KB | 1220d4de26f6... |
 | ./tc20161005cub-damage-sites.pmtiles | 156.6 KB | 1220ec761882... |
 | ./styles/default.json | 948 B | 1220e0faddd1... |
+| ./tc20161005cub-damage-sites.thumb.jpg | 5.4 KB | 122066aa7c06... |
 
 ## Quick Start
 

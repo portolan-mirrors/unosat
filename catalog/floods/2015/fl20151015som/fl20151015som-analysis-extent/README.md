@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Somalia, 15 October 2015 (FL20151015SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151015som/fl20151015som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151015som/fl20151015som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Somalia, 15 October 2015 (FL20151015SOM): 3 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20151015som-analysis-extent.parquet | 5.3 KB | 1220600bed9a... |
 | ./fl20151015som-analysis-extent.pmtiles | 277.4 KB | 12202c147ada... |
 | ./styles/default.json | 671 B | 1220d8c86d56... |
+| ./fl20151015som-analysis-extent.thumb.jpg | 8.5 KB | 1220225a7a4c... |
 
 ## Quick Start
 

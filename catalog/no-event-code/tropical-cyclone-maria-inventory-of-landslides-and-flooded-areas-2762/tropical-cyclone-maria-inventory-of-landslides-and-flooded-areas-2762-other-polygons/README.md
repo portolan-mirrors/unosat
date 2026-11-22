@@ -1,5 +1,5 @@
 # Other polygons: Tropical Cyclone Maria. Inventory of landslides and flooded areas
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical Cyclone Maria. Inventory of landslides and flooded areas: 5 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32620, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -40,6 +40,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons.parquet | 8.8 KB | 1220dde850a2... |
 | ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons.pmtiles | 43.6 KB | 1220121937a1... |
 | ./styles/default.json | 720 B | 1220aa723f95... |
+| ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-other-polygons.thumb.jpg | 9.0 KB | 12207a7b1bf3... |
 
 ## Quick Start
 

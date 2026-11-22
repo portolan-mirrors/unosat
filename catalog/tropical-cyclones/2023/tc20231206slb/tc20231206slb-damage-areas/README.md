@@ -1,5 +1,5 @@
 # Damage areas: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20231206slb/tc20231206slb-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB): 9 features merged from 9 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20231206slb-damage-areas.parquet | 130.0 KB | 1220a12c1d11... |
 | ./tc20231206slb-damage-areas.pmtiles | 90.3 KB | 12207974e8f4... |
 | ./styles/default.json | 913 B | 1220bf42f582... |
+| ./tc20231206slb-damage-areas.thumb.jpg | 4.8 KB | 1220c216806c... |
 
 ## Quick Start
 

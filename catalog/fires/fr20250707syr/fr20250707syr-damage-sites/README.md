@@ -1,5 +1,5 @@
 # Damage sites: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR): 2,444 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20250707syr-damage-sites.parquet | 106.3 KB | 122066b9a401... |
 | ./fr20250707syr-damage-sites.pmtiles | 146.5 KB | 122024c45c76... |
 | ./styles/default.json | 947 B | 1220ad269700... |
+| ./fr20250707syr-damage-sites.thumb.jpg | 15.3 KB | 12204288fb34... |
 
 ## Quick Start
 

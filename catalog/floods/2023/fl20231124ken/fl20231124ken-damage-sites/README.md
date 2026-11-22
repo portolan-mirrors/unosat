@@ -1,5 +1,5 @@
 # Damage sites: Flood, Kenya, 24 November 2023 (FL20231124KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231124ken/fl20231124ken-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231124ken/fl20231124ken-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Kenya, 24 November 2023 (FL20231124KEN): 655,485 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231124ken-damage-sites.parquet | 7.2 MB | 122054cb9748... |
 | ./fl20231124ken-damage-sites.pmtiles | 5.7 MB | 1220cb7df4c1... |
 | ./styles/default.json | 999 B | 1220062511a7... |
+| ./fl20231124ken-damage-sites.thumb.jpg | 9.1 KB | 12203e8a723d... |
 
 ## Quick Start
 

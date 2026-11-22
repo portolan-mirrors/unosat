@@ -274,7 +274,9 @@
       "file:checksum": "122079cfb9a38bcd5f3a9a814cac063b3a6e8cf0e06e9de4da30d89be99bce4c53dd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM), one GeoParquet file with the source columns."
     },
     "tc20251028jam-water-extent-tiles": {
       "href": "./tc20251028jam-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220cdb9607f0c91025715af9027438520adb75c75b5d77bdde1de81d99235013a27",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12201268cbd130066e1346af1d31e3fa20b841c0ff393303a6709253a6409c740987"
+      "file:checksum": "12201268cbd130066e1346af1d31e3fa20b841c0ff393303a6709253a6409c740987",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20251028jam-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7006,
+      "file:checksum": "12206f2ad68b8df584414bdbd5d806e33de4b0d4e9f3973a74ec5979ed2893646945",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)."
     }
   }
 }

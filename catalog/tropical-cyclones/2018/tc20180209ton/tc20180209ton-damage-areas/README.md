@@ -1,5 +1,5 @@
 # Damage areas: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON): 7 features merged from 7 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20180209ton-damage-areas.parquet | 6.6 KB | 1220c684d2f0... |
 | ./tc20180209ton-damage-areas.pmtiles | 124.4 KB | 1220365d74ab... |
 | ./styles/default.json | 925 B | 1220b2016658... |
+| ./tc20180209ton-damage-areas.thumb.jpg | 8.8 KB | 1220a7934670... |
 
 ## Quick Start
 

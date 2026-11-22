@@ -1,5 +1,5 @@
 # Shelter areas: Event, Sudan, 9 July 2014 (RC20140709SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Event, Sudan, 9 July 2014 (RC20140709SDN): 5 features merged from 3 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./rc20140709sdn-shelter-areas.parquet | 12.6 KB | 12207f501828... |
 | ./rc20140709sdn-shelter-areas.pmtiles | 58.9 KB | 1220e6b2f344... |
 | ./styles/default.json | 871 B | 1220b1becd98... |
+| ./rc20140709sdn-shelter-areas.thumb.jpg | 5.1 KB | 1220d26ce4e8... |
 
 ## Quick Start
 

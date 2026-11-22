@@ -282,7 +282,9 @@
       "file:checksum": "1220b5f39d23f8ce8f4306f55ab35e01263d3750032e8fb2a54cf24cb7064fe09921",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Fire, Chile, 29 December 2022 (FR20221229CHL), one GeoParquet file with the source columns."
     },
     "fr20221229chl-damage-areas-tiles": {
       "href": "./fr20221229chl-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220e2c45888376d7fd7f2a60d3597d44dd6140c2c932daa648c0c7af465bd66c8f5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Fire, Chile, 29 December 2022 (FR20221229CHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 909,
-      "file:checksum": "1220624e223ee6dd4a33ee62c30b50dbc902b763e51cbd1ecf532a210900d589885d"
+      "file:checksum": "1220624e223ee6dd4a33ee62c30b50dbc902b763e51cbd1ecf532a210900d589885d",
+      "description": "MapLibre style for Damage areas: Fire, Chile, 29 December 2022 (FR20221229CHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20221229chl-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9685,
+      "file:checksum": "1220dd53a6efe3a5992e3b8c5a0981de764364e8d73e97eaf16afccf54b0b9f6825d",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Fire, Chile, 29 December 2022 (FR20221229CHL)."
     }
   }
 }

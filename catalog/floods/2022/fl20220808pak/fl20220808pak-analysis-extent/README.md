@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Pakistan, 8 August 2022 (FL20220808PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220808pak/fl20220808pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220808pak/fl20220808pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Pakistan, 8 August 2022 (FL20220808PAK): 101 features merged from 101 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220808pak-analysis-extent.parquet | 2.4 MB | 122024b47ed2... |
 | ./fl20220808pak-analysis-extent.pmtiles | 36.0 MB | 12206b4dcafd... |
 | ./styles/default.json | 671 B | 1220c95490be... |
+| ./fl20220808pak-analysis-extent.thumb.jpg | 27.3 KB | 1220a6c16d92... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Damage areas: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20231208tza/ls20231208tza-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20231208tza/ls20231208tza-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA): 3 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20231208tza-damage-areas.parquet | 112.2 KB | 1220e1ebb026... |
 | ./ls20231208tza-damage-areas.pmtiles | 65.2 KB | 1220df46d522... |
 | ./styles/default.json | 652 B | 1220e543369e... |
+| ./ls20231208tza-damage-areas.thumb.jpg | 9.0 KB | 1220dd5cd0af... |
 
 ## Quick Start
 

@@ -274,7 +274,9 @@
       "file:checksum": "12209b9afb5101800148c5cade20a266d271d0eda430515d07508fde9356f2658a88",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL), one GeoParquet file with the source columns."
     },
     "tc20201111phl-water-extent-tiles": {
       "href": "./tc20201111phl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12206468b5422fe5d1b66dcf8c93a779b269bcbfaf51f8f95f712d10d399ef8ae675",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220c117bcc730cc64aa5a6439ec37b74dedbcbe41d05f1959ec321d6ca90b67d1bb"
+      "file:checksum": "1220c117bcc730cc64aa5a6439ec37b74dedbcbe41d05f1959ec321d6ca90b67d1bb",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201111phl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13189,
+      "file:checksum": "1220d14765d5ba30214b20c2f346af9fca27560f2d06e1fd6bd134658a631b1ef40e",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)."
     }
   }
 }

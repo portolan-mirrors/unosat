@@ -1,5 +1,5 @@
 # Shelters: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Flood, Afghanistan, 30 April 2014 (FL20140430AFG): 184 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140430afg-shelters.parquet | 19.0 KB | 1220de47eaec... |
 | ./fl20140430afg-shelters.pmtiles | 48.0 KB | 12207741dc0d... |
 | ./styles/default.json | 892 B | 12201cbe9fd8... |
+| ./fl20140430afg-shelters.thumb.jpg | 9.5 KB | 1220d6bf97e4... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Analysis extent: Fire, Chile, 29 December 2022 (FR20221229CHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20221229chl/fr20221229chl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20221229chl/fr20221229chl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Fire, Chile, 29 December 2022 (FR20221229CHL): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20221229chl-analysis-extent.parquet | 2.6 MB | 1220c1361e3b... |
 | ./fr20221229chl-analysis-extent.pmtiles | 116.3 KB | 12201ac92c2e... |
 | ./styles/default.json | 671 B | 1220cd45307e... |
+| ./fr20221229chl-analysis-extent.thumb.jpg | 9.0 KB | 122021e896bd... |
 
 ## Quick Start
 

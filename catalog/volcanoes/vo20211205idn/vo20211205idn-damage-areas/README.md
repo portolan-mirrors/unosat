@@ -1,5 +1,5 @@
 # Damage areas: Volcano, Indonesia, 5 December 2021 (VO20211205IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211205idn/vo20211205idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20211205idn/vo20211205idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Volcano, Indonesia, 5 December 2021 (VO20211205IDN): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20211205idn-damage-areas.parquet | 118.0 KB | 1220497efaaa... |
 | ./vo20211205idn-damage-areas.pmtiles | 84.5 KB | 12209d583c91... |
 | ./styles/default.json | 907 B | 12203bf62b6d... |
+| ./vo20211205idn-damage-areas.thumb.jpg | 11.0 KB | 12203fb51102... |
 
 ## Quick Start
 

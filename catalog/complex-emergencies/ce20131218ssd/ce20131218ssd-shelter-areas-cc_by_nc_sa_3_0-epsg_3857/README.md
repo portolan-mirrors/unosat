@@ -1,5 +1,5 @@
 # Shelter areas: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD): 3,897 features merged from 1 source layer. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857.parquet | 105.2 KB | 12207834982b... |
 | ./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857.pmtiles | 5.8 MB | 1220af882840... |
 | ./styles/default.json | 684 B | 12201f76302d... |
+| ./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857.thumb.jpg | 16.6 KB | 122074e1b1bd... |
 
 ## Quick Start
 

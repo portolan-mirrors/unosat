@@ -1,5 +1,5 @@
 # Damage areas: Fire, Tunisia, 29 July 2021 (FR20210729TUN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20210729tun/fr20210729tun-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Fire, Tunisia, 29 July 2021 (FR20210729TUN): 3 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20210729tun-damage-areas.parquet | 11.2 MB | 12202788544d... |
 | ./fr20210729tun-damage-areas.pmtiles | 1.9 MB | 12201e55c2b3... |
 | ./styles/default.json | 909 B | 12206e9c92ec... |
+| ./fr20210729tun-damage-areas.thumb.jpg | 10.6 KB | 1220dad3a90d... |
 
 ## Quick Start
 

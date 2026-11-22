@@ -216,7 +216,9 @@
       "file:checksum": "12204df3282da0b951b061c039d9f0e72c21106bc4690d380fd9e3227427cf6f8dc1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Congo, 5 December 2019 (FL20191205COG), one GeoParquet file with the source columns."
     },
     "fl20191205cog-damage-sites-tiles": {
       "href": "./fl20191205cog-damage-sites.pmtiles",
@@ -225,7 +227,9 @@
       "file:checksum": "122008ddd8c29c8ff9eb9c335bd14c7fc53f3d5f5a7595088a63020e8ba1fa36300e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Congo, 5 December 2019 (FL20191205COG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -236,7 +240,19 @@
       ],
       "title": "Damage sites by Main_Damag",
       "file:size": 926,
-      "file:checksum": "1220683646e594d9d760b3df00c15b2c502a1f3b9ca8fc226348bf968b086ddb3e83"
+      "file:checksum": "1220683646e594d9d760b3df00c15b2c502a1f3b9ca8fc226348bf968b086ddb3e83",
+      "description": "MapLibre style for Damage sites: Flood, Congo, 5 December 2019 (FL20191205COG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191205cog-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9312,
+      "file:checksum": "122090b588f778481f8d1b92872b450bce97eabbd8c0e264592c32920bae4eb237e8",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Congo, 5 December 2019 (FL20191205COG)."
     }
   }
 }

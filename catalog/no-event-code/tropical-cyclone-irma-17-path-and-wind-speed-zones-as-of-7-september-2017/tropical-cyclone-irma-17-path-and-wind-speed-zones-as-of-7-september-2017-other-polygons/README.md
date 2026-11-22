@@ -1,5 +1,5 @@
 # Other polygons: Tropical Cyclone IRMA-17 : Path and Wind Speed Zones
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical Cyclone IRMA-17 : Path and Wind Speed Zones: 3 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -38,6 +38,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons.parquet | 19.5 KB | 1220557f83cc... |
 | ./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons.pmtiles | 3.9 MB | 1220e2707dc6... |
 | ./styles/default.json | 724 B | 1220cf645a18... |
+| ./tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons.thumb.jpg | 9.8 KB | 12209ad9c52d... |
 
 ## Quick Start
 

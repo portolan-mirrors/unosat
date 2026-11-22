@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-other-polygons-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-other-polygons-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 1,662,252 features merged from 36 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -85,6 +85,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130604syr-other-polygons-cc_by_sa.parquet | 35.9 MB | 12200cb2db25... |
 | ./ce20130604syr-other-polygons-cc_by_sa.pmtiles | 16.4 MB | 12202f000778... |
 | ./styles/default.json | 673 B | 122018288321... |
+| ./ce20130604syr-other-polygons-cc_by_sa.thumb.jpg | 5.0 KB | 122079c50ff3... |
 
 ## Quick Start
 

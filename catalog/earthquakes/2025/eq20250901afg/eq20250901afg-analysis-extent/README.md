@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250901afg/eq20250901afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250901afg/eq20250901afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250901afg-analysis-extent.parquet | 7.7 KB | 12202a8228ad... |
 | ./eq20250901afg-analysis-extent.pmtiles | 52.5 KB | 1220db73eedb... |
 | ./styles/default.json | 671 B | 12202c3b6b0c... |
+| ./eq20250901afg-analysis-extent.thumb.jpg | 6.4 KB | 122010462f84... |
 
 ## Quick Start
 

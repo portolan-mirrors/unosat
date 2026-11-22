@@ -1,5 +1,5 @@
 # Shelter areas: Flood, Myanmar, 3 July 2015 (FL20150703MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Flood, Myanmar, 3 July 2015 (FL20150703MMR): 2 features merged from 1 source layer. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -83,6 +83,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20150703mmr-shelter-areas.parquet | 8.1 KB | 1220438fd28a... |
 | ./fl20150703mmr-shelter-areas.pmtiles | 26.5 KB | 12200a31c8cd... |
 | ./styles/default.json | 871 B | 122068f541d5... |
+| ./fl20150703mmr-shelter-areas.thumb.jpg | 3.6 KB | 1220177658d3... |
 
 ## Quick Start
 

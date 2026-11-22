@@ -229,7 +229,9 @@
       "file:checksum": "12209164b15017da5c5f35dcb8b36f7af658ea69ccde2f65ce12e5bb0e21b6d44581",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Philippines, 7 June 2017 (FL20170607PHL), one GeoParquet file with the source columns."
     },
     "fl20170607phl-analysis-extent-tiles": {
       "href": "./fl20170607phl-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220c771c76832b87d638095a62f4a844fa5e029cf6dcfd8d4994034f5a363a42b50",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Philippines, 7 June 2017 (FL20170607PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201d055721643e9876f6ef80507ed89ae8095c98897ec8585366252a1676749457"
+      "file:checksum": "12201d055721643e9876f6ef80507ed89ae8095c98897ec8585366252a1676749457",
+      "description": "MapLibre style for Analysis extent: Flood, Philippines, 7 June 2017 (FL20170607PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170607phl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8461,
+      "file:checksum": "1220c52b5919b40f9b18db7526c1cd12bc401804911ed91255149c952504cb89d819",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Philippines, 7 June 2017 (FL20170607PHL)."
     }
   }
 }

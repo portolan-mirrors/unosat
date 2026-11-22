@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR): 377 features merged from 377 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20230206syr-analysis-extent.parquet | 12.9 KB | 122077c639b2... |
 | ./eq20230206syr-analysis-extent.pmtiles | 136.5 KB | 1220a9eba87a... |
 | ./styles/default.json | 671 B | 122072804dc0... |
+| ./eq20230206syr-analysis-extent.thumb.jpg | 8.7 KB | 1220ef50d27e... |
 
 ## Quick Start
 

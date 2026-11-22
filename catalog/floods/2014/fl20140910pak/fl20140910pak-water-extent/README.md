@@ -1,5 +1,5 @@
 # Water extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140910pak/fl20140910pak-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140910pak/fl20140910pak-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Pakistan, 10 September 2014 (FL20140910PAK): 57,484 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140910pak-water-extent.parquet | 48.0 MB | 1220097846bb... |
 | ./fl20140910pak-water-extent.pmtiles | 23.7 MB | 122073a6774c... |
 | ./styles/default.json | 996 B | 122075a13115... |
+| ./fl20140910pak-water-extent.thumb.jpg | 13.8 KB | 122054803bea... |
 
 ## Quick Start
 

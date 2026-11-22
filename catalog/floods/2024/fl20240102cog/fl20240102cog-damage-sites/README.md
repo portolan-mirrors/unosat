@@ -1,5 +1,5 @@
 # Damage sites: Flood, Congo, 2 January 2024 (FL20240102COG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240102cog/fl20240102cog-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240102cog/fl20240102cog-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Congo, 2 January 2024 (FL20240102COG): 478 features merged from 3 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240102cog-damage-sites.parquet | 24.7 KB | 122019dd0741... |
 | ./fl20240102cog-damage-sites.pmtiles | 75.7 KB | 12209cbcfe3c... |
 | ./styles/default.json | 1.0 KB | 1220299d139b... |
+| ./fl20240102cog-damage-sites.thumb.jpg | 5.8 KB | 1220560774a8... |
 
 ## Quick Start
 

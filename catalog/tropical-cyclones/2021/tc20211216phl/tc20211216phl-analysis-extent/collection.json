@@ -271,7 +271,9 @@
       "file:checksum": "12205614d1c1165e51c234ad387de37b7d28d5c09b5697d17725163bc7a8ab145d2d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL), one GeoParquet file with the source columns."
     },
     "tc20211216phl-analysis-extent-tiles": {
       "href": "./tc20211216phl-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "122068bca19122e4be28d3745a5ec85219c04088c456276c72de68572e82a4259332",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220d59e5d0aef8f059dd2b12adbc3172460eeb2c032e9edcc6b57e708f63090319c"
+      "file:checksum": "1220d59e5d0aef8f059dd2b12adbc3172460eeb2c032e9edcc6b57e708f63090319c",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20211216phl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3219,
+      "file:checksum": "1220de6bb7c8b177690441040734696a8e4f5b0a6fee6cd5ea79ebef8a2bfb486a51",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL)."
     }
   }
 }

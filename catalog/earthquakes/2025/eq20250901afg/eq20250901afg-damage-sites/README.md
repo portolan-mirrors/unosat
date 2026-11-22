@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250901afg/eq20250901afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250901afg/eq20250901afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG): 272 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250901afg-damage-sites.parquet | 19.0 KB | 12207e5a19be... |
 | ./eq20250901afg-damage-sites.pmtiles | 118.9 KB | 12203e435a34... |
 | ./styles/default.json | 997 B | 12204079f1f4... |
+| ./eq20250901afg-damage-sites.thumb.jpg | 4.8 KB | 1220deba957f... |
 
 ## Quick Start
 

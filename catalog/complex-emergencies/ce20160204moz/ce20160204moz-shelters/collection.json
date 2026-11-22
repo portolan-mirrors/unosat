@@ -297,7 +297,9 @@
       "file:checksum": "1220483c7d75330186ec88041b9c5bf98db0440faf1a858f2c86f63cc223de119ab5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ), one GeoParquet file with the source columns."
     },
     "ce20160204moz-shelters-tiles": {
       "href": "./ce20160204moz-shelters.pmtiles",
@@ -306,7 +308,9 @@
       "file:checksum": "12209502369773cf54dd26fb92d371e945cd6b9a27e1bd51e0dd07e192255c0ba9c6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -317,7 +321,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "1220533e5321320a8d85e16291278994ee5872b19fffd8be0aa63ac952989073bd54"
+      "file:checksum": "1220533e5321320a8d85e16291278994ee5872b19fffd8be0aa63ac952989073bd54",
+      "description": "MapLibre style for Shelters: Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20160204moz-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16224,
+      "file:checksum": "12209b4b91a9a703014d9bb82f4e1fa5d41d980acc421c6dd99e655a07ea7e7a98c8",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ)."
     }
   }
 }

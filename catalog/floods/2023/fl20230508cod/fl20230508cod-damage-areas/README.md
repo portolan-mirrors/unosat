@@ -1,5 +1,5 @@
 # Damage areas: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230508cod/fl20230508cod-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230508cod/fl20230508cod-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD): 4 features merged from 4 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230508cod-damage-areas.parquet | 623.5 KB | 1220d20bbf58... |
 | ./fl20230508cod-damage-areas.pmtiles | 96.6 KB | 12209bda48cd... |
 | ./styles/default.json | 907 B | 12202d504807... |
+| ./fl20230508cod-damage-areas.thumb.jpg | 18.9 KB | 12207d771ecb... |
 
 ## Quick Start
 

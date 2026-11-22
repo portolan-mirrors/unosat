@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20250328mmr-other-points.parquet",
         "eq20250328mmr-other-points.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.691725Z",
+      "breaking": false,
+      "assets": {
+        "eq20250328mmr-other-points.parquet": {
+          "sha256": "11f6f85b03442ecc7fe7c19936384048a18bf3f56b68b160d70d3a77d55c0466",
+          "size_bytes": 1429496,
+          "href": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-points/eq20250328mmr-other-points.parquet",
+          "source_path": "eq20250328mmr-other-points.parquet",
+          "source_mtime": 1795333308.756901,
+          "mtime": 1795333308.756901,
+          "feature_count": 211244,
+          "schema_fingerprint": "b2c554c53fc48a45"
+        },
+        "eq20250328mmr-other-points.pmtiles": {
+          "sha256": "7b3392cb04150c9f4b93a9a485a0284b54ed20765d7bd379aa24080d2347889d",
+          "size_bytes": 713461,
+          "href": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-points/eq20250328mmr-other-points.pmtiles",
+          "mtime": 1795334071.726842
+        },
+        "eq20250328mmr-other-points.thumb.jpg": {
+          "sha256": "33183390be1e6b40badfddb59b82896940d2d2465bbca25e23d8609540255889",
+          "size_bytes": 5934,
+          "href": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-points/eq20250328mmr-other-points.thumb.jpg",
+          "mtime": 1795343617.6490123
+        }
+      },
+      "changes": [
+        "eq20250328mmr-other-points.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20250328mmr-other-points.thumb.jpg"
     }
   ]
 }

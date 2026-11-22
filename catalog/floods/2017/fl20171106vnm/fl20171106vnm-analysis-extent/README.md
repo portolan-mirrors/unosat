@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Viet Nam, 6 November 2017 (FL20171106VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171106vnm/fl20171106vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171106vnm/fl20171106vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Viet Nam, 6 November 2017 (FL20171106VNM): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20171106vnm-analysis-extent.parquet | 5.6 KB | 122034e1a8ea... |
 | ./fl20171106vnm-analysis-extent.pmtiles | 397.7 KB | 12203401eb38... |
 | ./styles/default.json | 671 B | 1220fc2ee1bd... |
+| ./fl20171106vnm-analysis-extent.thumb.jpg | 7.2 KB | 1220910bbeea... |
 
 ## Quick Start
 

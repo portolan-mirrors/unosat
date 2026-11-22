@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Kenya, 8 May 2018 (FL20180508KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180508ken/fl20180508ken-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180508ken/fl20180508ken-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Kenya, 8 May 2018 (FL20180508KEN): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180508ken-analysis-extent.parquet | 3.9 KB | 12205d3300ca... |
 | ./fl20180508ken-analysis-extent.pmtiles | 323.2 KB | 12203936ccc7... |
 | ./styles/default.json | 671 B | 122055a3d0db... |
+| ./fl20180508ken-analysis-extent.thumb.jpg | 6.3 KB | 1220feee7d5f... |
 
 ## Quick Start
 

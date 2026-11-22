@@ -257,7 +257,9 @@
       "file:checksum": "1220887334c34b636a1a72030be8a2523ae2f780d34fdff25fc2d97e132bcbf257ba",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Pakistan, 30 June 2025 (FL20250630PAK), one GeoParquet file with the source columns."
     },
     "fl20250630pak-analysis-extent-tiles": {
       "href": "./fl20250630pak-analysis-extent.pmtiles",
@@ -266,7 +268,9 @@
       "file:checksum": "122027b179e8935b80afffcdab990d4d84337c79b9fefc9e45f200db20cbbf91a59e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Pakistan, 30 June 2025 (FL20250630PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -277,7 +281,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122062c9f894cf78d051dc1f781900055ec4aad89c4c7b41cf63953fe071ac6bb53a"
+      "file:checksum": "122062c9f894cf78d051dc1f781900055ec4aad89c4c7b41cf63953fe071ac6bb53a",
+      "description": "MapLibre style for Analysis extent: Flood, Pakistan, 30 June 2025 (FL20250630PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250630pak-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10174,
+      "file:checksum": "122014b2bcab09f1a68383a0ac37677e489f0551c84cc6a93753d0e40f9d4a5619d4",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Pakistan, 30 June 2025 (FL20250630PAK)."
     }
   }
 }

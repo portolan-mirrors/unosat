@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Niger, 8 September 2021 (FL20210908NER)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210908ner/fl20210908ner-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210908ner/fl20210908ner-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Niger, 8 September 2021 (FL20210908NER): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210908ner-analysis-extent.parquet | 57.2 KB | 12202bb87279... |
 | ./fl20210908ner-analysis-extent.pmtiles | 2.2 MB | 12207bdaf4b8... |
 | ./styles/default.json | 671 B | 12205db862d8... |
+| ./fl20210908ner-analysis-extent.thumb.jpg | 10.7 KB | 122000682f57... |
 
 ## Quick Start
 

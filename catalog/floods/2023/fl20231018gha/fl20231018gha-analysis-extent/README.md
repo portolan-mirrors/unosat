@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Ghana, 18 October 2023 (FL20231018GHA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231018gha/fl20231018gha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231018gha/fl20231018gha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Ghana, 18 October 2023 (FL20231018GHA): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231018gha-analysis-extent.parquet | 6.5 KB | 1220803dfd38... |
 | ./fl20231018gha-analysis-extent.pmtiles | 76.6 KB | 1220b62569fb... |
 | ./styles/default.json | 671 B | 1220f2471e9f... |
+| ./fl20231018gha-analysis-extent.thumb.jpg | 6.0 KB | 1220a044ea1c... |
 
 ## Quick Start
 

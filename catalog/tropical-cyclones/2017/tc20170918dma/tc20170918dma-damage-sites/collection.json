@@ -272,7 +272,9 @@
       "file:checksum": "12208e587535f5767e6e0f76669f9d57ddba3eda1ac05fc5d3aa8d0b6882a05f58c7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA), one GeoParquet file with the source columns."
     },
     "tc20170918dma-damage-sites-tiles": {
       "href": "./tc20170918dma-damage-sites.pmtiles",
@@ -281,7 +283,9 @@
       "file:checksum": "1220f95bed95cba64ace83cf3f662c81c2b8d3de6a317cd49eceed55079338c74a05",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -292,7 +296,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1167,
-      "file:checksum": "12209732cf697ce788714eb19d340a64a95a2b908e280804c69dd99d4458ca9d3d68"
+      "file:checksum": "12209732cf697ce788714eb19d340a64a95a2b908e280804c69dd99d4458ca9d3d68",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170918dma-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27268,
+      "file:checksum": "1220cdfe75a0a875fd16068a1f3d23f294dcaf2e0e98b2eb6a0cbcdc45af88b0f5c8",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA)."
     }
   }
 }

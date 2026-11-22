@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Mexico, 19 September 2017 (EQ20170919MEX): 8,077 features merged from 17 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20170919mex-damage-sites.parquet | 282.7 KB | 122014a55e0f... |
 | ./eq20170919mex-damage-sites.pmtiles | 373.3 KB | 1220a874c9b3... |
 | ./styles/default.json | 998 B | 1220c4f84eea... |
+| ./eq20170919mex-damage-sites.thumb.jpg | 7.5 KB | 1220ea168e29... |
 
 ## Quick Start
 

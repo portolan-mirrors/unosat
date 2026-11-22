@@ -1,5 +1,5 @@
 # Water extent: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Sri Lanka, 28 November 2025 (FL20251128LKA): 3 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20251128lka-water-extent.parquet | 141.9 MB | 1220be33d218... |
 | ./fl20251128lka-water-extent.pmtiles | 35.1 MB | 1220df70d82d... |
 | ./styles/default.json | 887 B | 1220d76cad60... |
+| ./fl20251128lka-water-extent.thumb.jpg | 37.9 KB | 1220a7f428d6... |
 
 ## Quick Start
 

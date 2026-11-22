@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR): 135,981 features merged from 69 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -75,6 +75,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328mmr-damage-sites.parquet | 954.9 KB | 1220e0476b8a... |
 | ./eq20250328mmr-damage-sites.pmtiles | 1.6 MB | 12200e9334dd... |
 | ./styles/default.json | 1.2 KB | 1220b4aa972f... |
+| ./eq20250328mmr-damage-sites.thumb.jpg | 12.4 KB | 122033401e6a... |
 
 ## Quick Start
 

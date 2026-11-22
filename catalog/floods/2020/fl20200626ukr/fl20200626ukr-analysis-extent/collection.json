@@ -233,7 +233,9 @@
       "file:checksum": "122081f9e298945ac2430644ba0918155aadeb21b39d5a7d08ab43eb82ac5411f8b9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR), one GeoParquet file with the source columns."
     },
     "fl20200626ukr-analysis-extent-tiles": {
       "href": "./fl20200626ukr-analysis-extent.pmtiles",
@@ -242,7 +244,9 @@
       "file:checksum": "12201e6eeada68738b27447ceb0616331b735f8af289d285ebb8b3f504404efef860",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -253,7 +257,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c25806678c80871ac2b6dce2ad7e01a81235b4894a6cb2e3f9d8ec29985c035c"
+      "file:checksum": "1220c25806678c80871ac2b6dce2ad7e01a81235b4894a6cb2e3f9d8ec29985c035c",
+      "description": "MapLibre style for Analysis extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200626ukr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8980,
+      "file:checksum": "1220097f4c34828ec324f59bfd87d261f569d44d722ba7e522ce09a091b1a267aa99",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR)."
     }
   }
 }

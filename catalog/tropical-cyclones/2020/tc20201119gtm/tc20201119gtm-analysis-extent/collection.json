@@ -229,7 +229,9 @@
       "file:checksum": "12202e9debba395fd36306afe9325bb50e7c61aef146cce9e2ad3a85918d9b545bd7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM), one GeoParquet file with the source columns."
     },
     "tc20201119gtm-analysis-extent-tiles": {
       "href": "./tc20201119gtm-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220985e7607c92d2a0845a9e792173705e92c6207d413823916e6a4f00b2348e254",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220aa08137e1c4edf2a9408781aa07c269c76e9c2aa6b44e7ed628b23811cfa08ca"
+      "file:checksum": "1220aa08137e1c4edf2a9408781aa07c269c76e9c2aa6b44e7ed628b23811cfa08ca",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201119gtm-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10720,
+      "file:checksum": "1220a342842719ae3ad29f3aa62fda66edff1e42f9f06f85fa4273b2fe10cbcfab3a",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM)."
     }
   }
 }

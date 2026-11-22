@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Bangladesh, 19 June 2018 (FL20180619BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180619bgd/fl20180619bgd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180619bgd/fl20180619bgd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Bangladesh, 19 June 2018 (FL20180619BGD): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -44,6 +44,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180619bgd-analysis-extent.parquet | 672.3 KB | 1220471ab600... |
 | ./fl20180619bgd-analysis-extent.pmtiles | 365.3 KB | 1220238f2bd8... |
 | ./styles/default.json | 671 B | 1220c0947326... |
+| ./fl20180619bgd-analysis-extent.thumb.jpg | 11.2 KB | 1220d7bc1676... |
 
 ## Quick Start
 

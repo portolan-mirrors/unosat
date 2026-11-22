@@ -1,5 +1,5 @@
 # Damage areas: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/fl20240502bgd-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/fl20240502bgd-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Bangladesh, 2 May 2024 (FL20240502BGD): 432,638 features merged from 12 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -77,6 +77,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240502bgd-damage-areas.parquet | 12.6 MB | 122076c55a00... |
 | ./fl20240502bgd-damage-areas.pmtiles | 28.5 MB | 1220cde0296d... |
 | ./styles/default.json | 913 B | 1220b9adeed1... |
+| ./fl20240502bgd-damage-areas.thumb.jpg | 13.2 KB | 12204570bca3... |
 
 ## Quick Start
 

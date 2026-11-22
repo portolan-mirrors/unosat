@@ -1,5 +1,5 @@
 # Water extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240825bgd/fl20240825bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240825bgd/fl20240825bgd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Bangladesh, 25 August 2024 (FL20240825BGD): 2 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240825bgd-water-extent.parquet | 151.3 MB | 122013e3d549... |
 | ./fl20240825bgd-water-extent.pmtiles | 115.6 MB | 1220429029cd... |
 | ./styles/default.json | 887 B | 12201fc20d21... |
+| ./fl20240825bgd-water-extent.thumb.jpg | 28.9 KB | 1220561091cd... |
 
 ## Quick Start
 

@@ -213,7 +213,9 @@
       "file:checksum": "122056457e4826bd178e9a20bfbf585c408d51c9775c1121e7d3195c423d723af2e5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other mixed: Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV), one GeoParquet file with the source columns."
     },
     "vo20141124cpv-other-mixed-tiles": {
       "href": "./vo20141124cpv-other-mixed.pmtiles",
@@ -222,7 +224,9 @@
       "file:checksum": "1220ca1dd9137c1d43027b045f02975180932fb95513ebc16767abb77a801a3e8e51",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other mixed: Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -233,7 +237,19 @@
       ],
       "title": "Other mixed",
       "file:size": 646,
-      "file:checksum": "1220ef7839863445889d7508734594e3e5f692bbf0156f2d14379403030283378c29"
+      "file:checksum": "1220ef7839863445889d7508734594e3e5f692bbf0156f2d14379403030283378c29",
+      "description": "MapLibre style for Other mixed: Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20141124cpv-other-mixed.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9174,
+      "file:checksum": "12200ea7dffe25132e130e0efa107ab6df5285e96c977ac65abf9c4717ab2af95d2c",
+      "title": "Thumbnail",
+      "description": "Preview image of Other mixed: Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV)."
     }
   }
 }

@@ -229,7 +229,9 @@
       "file:checksum": "12200e3e8516f8e22163066d5280f2e583cd72a6b18f5029e37f31ad0bba8f91218f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI), one GeoParquet file with the source columns."
     },
     "tc20220126mwi-analysis-extent-tiles": {
       "href": "./tc20220126mwi-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220962f4ec45dbff4868dc7cae6b2d6cc6c5e297b0a1b34285c34da42dbf961581e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220bc2520d1e3a51f7ab3e626e97efa966f7ab3c46635b6e99fa1fa798a4f85d462"
+      "file:checksum": "1220bc2520d1e3a51f7ab3e626e97efa966f7ab3c46635b6e99fa1fa798a4f85d462",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220126mwi-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9303,
+      "file:checksum": "122023ba2bade3592b6de7f3b5891be73b9c60825d24868a1520f73c9ef6c9d61533",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)."
     }
   }
 }

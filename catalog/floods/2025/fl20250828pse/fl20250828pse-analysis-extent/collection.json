@@ -181,7 +181,9 @@
       "proj:code": "EPSG:32636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, State of Palestine, 28 August 2025 (FL20250828PSE), one GeoParquet file with the source columns."
     },
     "fl20250828pse-analysis-extent-tiles": {
       "href": "./fl20250828pse-analysis-extent.pmtiles",
@@ -190,7 +192,9 @@
       "file:checksum": "1220434e496e07b7b0c82d7f0e8803d01e46e1f2a341a5234f7f2d6bd951e8efa00f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, State of Palestine, 28 August 2025 (FL20250828PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -201,7 +205,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c78f530daee0d12d43afba0b345d33c14e641508fd3a416ea0fcc4b1091170b3"
+      "file:checksum": "1220c78f530daee0d12d43afba0b345d33c14e641508fd3a416ea0fcc4b1091170b3",
+      "description": "MapLibre style for Analysis extent: Flood, State of Palestine, 28 August 2025 (FL20250828PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250828pse-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9668,
+      "file:checksum": "1220707367fa22df07fc783096ac16ffa260a18022e12ce2ad80b412db78f83400d4",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)."
     }
   }
 }

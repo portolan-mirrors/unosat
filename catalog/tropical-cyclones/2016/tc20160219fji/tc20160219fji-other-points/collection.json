@@ -258,7 +258,9 @@
       "file:checksum": "12209c07b313eea547dc509133af2806cd11d1036d27e93e1075725b1279d5e118e1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI), one GeoParquet file with the source columns."
     },
     "tc20160219fji-other-points-tiles": {
       "href": "./tc20160219fji-other-points.pmtiles",
@@ -267,7 +269,9 @@
       "file:checksum": "1220f1a2a74ed6a7664cf831f6e01767156e447afe81baef02f5d48f2eae83f804b0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -278,7 +282,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220043677bcdf636af2b82f3a65d683159d5247d11a2b58f23d3e2547e442e73f03"
+      "file:checksum": "1220043677bcdf636af2b82f3a65d683159d5247d11a2b58f23d3e2547e442e73f03",
+      "description": "MapLibre style for Other points: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20160219fji-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9163,
+      "file:checksum": "122024de41a8856f1c00859666cf7f11878ff6e85ae328d375d0254b3394ab8a7252",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)."
     }
   }
 }

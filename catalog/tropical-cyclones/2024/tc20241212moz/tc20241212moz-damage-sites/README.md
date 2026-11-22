@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241212moz/tc20241212moz-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20241212moz/tc20241212moz-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ): 12,082 features merged from 3 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20241212moz-damage-sites.parquet | 343.8 KB | 1220fdfc399b... |
 | ./tc20241212moz-damage-sites.pmtiles | 204.2 KB | 122085553769... |
 | ./styles/default.json | 1.0 KB | 1220a6c7639b... |
+| ./tc20241212moz-damage-sites.thumb.jpg | 4.1 KB | 1220920e740a... |
 
 ## Quick Start
 

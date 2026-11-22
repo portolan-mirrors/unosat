@@ -262,7 +262,9 @@
       "file:checksum": "12203bfdc88629a4eac4db027dc52294f368d033686f6a8ee8f18c85f1924efe5314",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Volcano, Tonga, 15 January 2022 (VO20220115TON), one GeoParquet file with the source columns."
     },
     "vo20220115ton-damage-sites-tiles": {
       "href": "./vo20220115ton-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220e0305407e5761f69bf9d97f9df994b228c3d7bd60ca51b62ebb21ac6a4adefb9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Volcano, Tonga, 15 January 2022 (VO20220115TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "1220d7b01a62e0122a2d1709c5314dfc69c599bc19f7578e6fc9353a6047c3344eb2"
+      "file:checksum": "1220d7b01a62e0122a2d1709c5314dfc69c599bc19f7578e6fc9353a6047c3344eb2",
+      "description": "MapLibre style for Damage sites: Volcano, Tonga, 15 January 2022 (VO20220115TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20220115ton-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3269,
+      "file:checksum": "122019a56b5999116c26a621443cb0036b4b95096d7eed504030eaca950b49fb4b71",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Volcano, Tonga, 15 January 2022 (VO20220115TON)."
     }
   }
 }

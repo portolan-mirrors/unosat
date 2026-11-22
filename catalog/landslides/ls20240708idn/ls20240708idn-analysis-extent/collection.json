@@ -229,7 +229,9 @@
       "file:checksum": "1220c0f26ad836d37178523aa08c3ae104267070dc28f2245212636971727da2292e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN), one GeoParquet file with the source columns."
     },
     "ls20240708idn-analysis-extent-tiles": {
       "href": "./ls20240708idn-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220142aeab44104f404d271cb80fa26e0d525a3f3e6380802c2cf2e2f9089b38148",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12202b24679eada7f3f4f705f859738d19267e9ddcb0ff8121d952317a522a592974"
+      "file:checksum": "12202b24679eada7f3f4f705f859738d19267e9ddcb0ff8121d952317a522a592974",
+      "description": "MapLibre style for Analysis extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240708idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8687,
+      "file:checksum": "1220b31741d6affad5bfa1bfcaab617f885e52e17f77e8ab46a5fbc3e7da6847d5a4",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN)."
     }
   }
 }

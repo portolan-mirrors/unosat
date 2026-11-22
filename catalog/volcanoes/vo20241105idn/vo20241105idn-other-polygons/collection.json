@@ -217,7 +217,9 @@
       "file:checksum": "122004d4d8d0367318131f20367fee545b7ff08f3fa9597c0ca9465063d05b610143",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Volcano, Indonesia, 5 November 2024 (VO20241105IDN), one GeoParquet file with the source columns."
     },
     "vo20241105idn-other-polygons-tiles": {
       "href": "./vo20241105idn-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220d31e4f4acb2bd908327846e8bc9c7911266a73c4f00398e2bfdc6f9cbb9c0a76",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Volcano, Indonesia, 5 November 2024 (VO20241105IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122053d367c5e250c9177a2113f24808bf3bcac5f91495a84bd8a099f61c08b629c9"
+      "file:checksum": "122053d367c5e250c9177a2113f24808bf3bcac5f91495a84bd8a099f61c08b629c9",
+      "description": "MapLibre style for Other polygons: Volcano, Indonesia, 5 November 2024 (VO20241105IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20241105idn-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9313,
+      "file:checksum": "1220f7b87eca4cb1f6a7d233778a5f6ab480eb2b39517bd9900d70dfc2dd76c1b7e6",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Volcano, Indonesia, 5 November 2024 (VO20241105IDN)."
     }
   }
 }

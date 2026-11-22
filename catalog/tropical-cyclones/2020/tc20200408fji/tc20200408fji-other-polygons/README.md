@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI): 139 features merged from 5 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200408fji-other-polygons.parquet | 12.1 MB | 1220544c97dc... |
 | ./tc20200408fji-other-polygons.pmtiles | 2.7 MB | 12203d0dbf28... |
 | ./styles/default.json | 664 B | 122061e61861... |
+| ./tc20200408fji-other-polygons.thumb.jpg | 2.4 KB | 1220491e83b7... |
 
 ## Quick Start
 

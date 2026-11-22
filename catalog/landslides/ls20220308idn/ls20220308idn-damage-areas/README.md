@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Indonesia, 8 March 2022 (LS20220308IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20220308idn/ls20220308idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20220308idn/ls20220308idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Indonesia, 8 March 2022 (LS20220308IDN): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20220308idn-damage-areas.parquet | 79.4 KB | 122058dbb283... |
 | ./ls20220308idn-damage-areas.pmtiles | 174.5 KB | 12206ff8c36b... |
 | ./styles/default.json | 907 B | 12201611b34b... |
+| ./ls20220308idn-damage-areas.thumb.jpg | 6.7 KB | 1220d2efeabd... |
 
 ## Quick Start
 

@@ -269,7 +269,9 @@
       "file:checksum": "1220562d57bcbc8b3cdb72959e859852815c9c674356bcbc952dfdadd39fd7ade58d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Algeria, 26 May 2023 (FL20230526DZA), one GeoParquet file with the source columns."
     },
     "fl20230526dza-water-extent-tiles": {
       "href": "./fl20230526dza-water-extent.pmtiles",
@@ -278,7 +280,9 @@
       "file:checksum": "1220701626ec9f45f7a735c4ed63b5e4ec5bcb93285fb648f76964cbf31ad73de262",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Algeria, 26 May 2023 (FL20230526DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -289,7 +293,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12205ba51660a2382dfcbb344cabc9a7ce56bc1a20fead4ef0c19dac6339775d3375"
+      "file:checksum": "12205ba51660a2382dfcbb344cabc9a7ce56bc1a20fead4ef0c19dac6339775d3375",
+      "description": "MapLibre style for Water extent: Flood, Algeria, 26 May 2023 (FL20230526DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230526dza-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6838,
+      "file:checksum": "1220ba8b6115a01064958ed480182b7994b5ce22eb46b551a1f13cf04fbe686460cd",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Algeria, 26 May 2023 (FL20230526DZA)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Water extent: Flood, Myanmar, 14 July 2016 (FL20160714MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160714mmr/fl20160714mmr-water-extent-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Myanmar, 14 July 2016 (FL20160714MMR): 404,311 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20160714mmr-water-extent-cc_by_sa.parquet | 69.0 MB | 1220a1a1c10d... |
 | ./fl20160714mmr-water-extent-cc_by_sa.pmtiles | 89.7 MB | 1220e3effab4... |
 | ./styles/default.json | 909 B | 12200e48f869... |
+| ./fl20160714mmr-water-extent-cc_by_sa.thumb.jpg | 17.2 KB | 1220f068026d... |
 
 ## Quick Start
 

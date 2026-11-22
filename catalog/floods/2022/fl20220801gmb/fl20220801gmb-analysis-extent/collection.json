@@ -253,7 +253,9 @@
       "file:checksum": "12207186842cc8298890674de7d415d204795deb876cb8be862d918a5fa8258c7078",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Gambia, 1 August 2022 (FL20220801GMB), one GeoParquet file with the source columns."
     },
     "fl20220801gmb-analysis-extent-tiles": {
       "href": "./fl20220801gmb-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "122061e65dfddb1d607ac47a790da5db8d2e7e6e9a6f2efc3d65356293f2d69016fa",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Gambia, 1 August 2022 (FL20220801GMB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12207dc6f0a72fc50a57c898829744e328f2360a8c5d77bcaf32de11310b69cb5e22"
+      "file:checksum": "12207dc6f0a72fc50a57c898829744e328f2360a8c5d77bcaf32de11310b69cb5e22",
+      "description": "MapLibre style for Analysis extent: Flood, Gambia, 1 August 2022 (FL20220801GMB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220801gmb-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 32918,
+      "file:checksum": "1220afc78ee338999a7b949ffd06b1134f3cd2ea5bdf5521a34797b41afc87e51426",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Gambia, 1 August 2022 (FL20220801GMB)."
     }
   }
 }

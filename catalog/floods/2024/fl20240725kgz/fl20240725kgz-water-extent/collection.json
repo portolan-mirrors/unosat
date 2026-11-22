@@ -274,7 +274,9 @@
       "file:checksum": "12201c1851b9da854839ec7cf21dde8548f55b1acc4ff00687b1a874ddb050671e53",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ), one GeoParquet file with the source columns."
     },
     "fl20240725kgz-water-extent-tiles": {
       "href": "./fl20240725kgz-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12201486eea6fc94f20a1b222e05ccaa0464d077d3e82f8b32148432d3227cda4cbc",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 910,
-      "file:checksum": "122089add6319f2f74fc07a08b5b99234b6b8054498a0e5938a0a8ccdaec8564c196"
+      "file:checksum": "122089add6319f2f74fc07a08b5b99234b6b8054498a0e5938a0a8ccdaec8564c196",
+      "description": "MapLibre style for Water extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240725kgz-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8361,
+      "file:checksum": "12209852a0ae999166babed4c922fe4ced3e0efe97ae73825dab26024a6cf4ae5676",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ)."
     }
   }
 }

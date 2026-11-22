@@ -213,7 +213,9 @@
       "file:checksum": "1220d516d343e5d89e10c75626164d6098b93665effb6a23f40c4f9f29d7e3b9a460",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Satellite Detected Waters in Savu Area, Naitasiri Province, Central Division, Fiji, one GeoParquet file with the source columns."
     },
     "satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent-tiles": {
       "href": "./satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent.pmtiles",
@@ -222,7 +224,9 @@
       "file:checksum": "12203559e01dc698e485734aa68c0f7ad1629d80d8aa03cc00a46d2d6760b429cfeb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Satellite Detected Waters in Savu Area, Naitasiri Province, Central Division, Fiji for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -233,7 +237,19 @@
       ],
       "title": "Water extent by Water_Clas",
       "file:size": 976,
-      "file:checksum": "12202286e5d1e6485cab27f98a0a6135ccf5106bc9200de95490f6715d0566649190"
+      "file:checksum": "12202286e5d1e6485cab27f98a0a6135ccf5106bc9200de95490f6715d0566649190",
+      "description": "MapLibre style for Water extent: Satellite Detected Waters in Savu Area, Naitasiri Province, Central Division, Fiji; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./satellite-detected-waters-in-savu-area-naitasiri-province-central-division-fiji-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15797,
+      "file:checksum": "1220983752b9dc2c6c5a115420c5102c4932b970555ca3e2e24931c1a83ce06154b0",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Satellite Detected Waters in Savu Area, Naitasiri Province, Central Division, Fiji."
     }
   }
 }

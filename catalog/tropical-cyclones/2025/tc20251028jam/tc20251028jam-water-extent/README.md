@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251028jam/tc20251028jam-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20251028jam/tc20251028jam-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20251028jam-water-extent.parquet | 774.0 KB | 122079cfb9a3... |
 | ./tc20251028jam-water-extent.pmtiles | 554.5 KB | 1220cdb9607f... |
 | ./styles/default.json | 887 B | 12201268cbd1... |
+| ./tc20251028jam-water-extent.thumb.jpg | 6.8 KB | 12206f2ad68b... |
 
 ## Quick Start
 

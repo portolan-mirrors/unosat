@@ -1,5 +1,5 @@
 # Landslides: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Landslides for Flood, Afghanistan, 30 April 2014 (FL20140430AFG): 1 features merged from 1 source layer. Polygon layers whose names mention landslides, mudflows, or debris. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140430afg-landslides.parquet | 3.4 KB | 1220762dcafa... |
 | ./fl20140430afg-landslides.pmtiles | 18.4 KB | 1220b946298b... |
 | ./styles/default.json | 640 B | 1220dd5ca337... |
+| ./fl20140430afg-landslides.thumb.jpg | 8.8 KB | 1220a42ca59c... |
 
 ## Quick Start
 

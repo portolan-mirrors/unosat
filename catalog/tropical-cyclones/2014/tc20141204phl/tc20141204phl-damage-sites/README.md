@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2014/tc20141204phl/tc20141204phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL): 5,226 features merged from 12 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20141204phl-damage-sites.parquet | 103.5 KB | 1220031154f3... |
 | ./tc20141204phl-damage-sites.pmtiles | 174.5 KB | 1220eb5b947e... |
 | ./styles/default.json | 1.0 KB | 12200774c519... |
+| ./tc20141204phl-damage-sites.thumb.jpg | 5.6 KB | 1220be45381a... |
 
 ## Quick Start
 

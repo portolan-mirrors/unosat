@@ -263,7 +263,9 @@
       "file:checksum": "1220672185a70a36c809dc9b28f1fb5dc84c7e3f6cc3a9ca7ce2b9cedfe3d6e4d385",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Event, Indonesia, 23 November 2015 (OT20151123IDN), one GeoParquet file with the source columns."
     },
     "ot20151123idn-other-polygons-tiles": {
       "href": "./ot20151123idn-other-polygons.pmtiles",
@@ -272,7 +274,9 @@
       "file:checksum": "1220bf00ac78bffd435ffb5962a229126dd856e7c6cd5c613b13532edfadd09f2d26",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Event, Indonesia, 23 November 2015 (OT20151123IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -283,7 +287,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220094729c22c5080405c4a3b7bbb34d40e51ecf14416fd98c5ef4ffb5c5de30e86"
+      "file:checksum": "1220094729c22c5080405c4a3b7bbb34d40e51ecf14416fd98c5ef4ffb5c5de30e86",
+      "description": "MapLibre style for Other polygons: Event, Indonesia, 23 November 2015 (OT20151123IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ot20151123idn-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 29755,
+      "file:checksum": "1220917a40ba1c2b701b996eccd044968d4a18fa984d3860d862915387c0cb100496",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Event, Indonesia, 23 November 2015 (OT20151123IDN)."
     }
   }
 }

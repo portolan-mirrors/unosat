@@ -262,7 +262,9 @@
       "file:checksum": "1220052b17992f2cce7942e97ebcb956228607520f647bba1d97d26fecdf17449548",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Myanmar, 3 July 2015 (FL20150703MMR), one GeoParquet file with the source columns."
     },
     "fl20150703mmr-damage-sites-tiles": {
       "href": "./fl20150703mmr-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220af70da4c348c5cc46d1b00ae65910da256687137ffaca286e7bb4a0802c4651d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Myanmar, 3 July 2015 (FL20150703MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 998,
-      "file:checksum": "122036a7a5b7637e88a2b21d971c056d1ad020d8a8e346426b19e72db3daab0500a3"
+      "file:checksum": "122036a7a5b7637e88a2b21d971c056d1ad020d8a8e346426b19e72db3daab0500a3",
+      "description": "MapLibre style for Damage sites: Flood, Myanmar, 3 July 2015 (FL20150703MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20150703mmr-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8082,
+      "file:checksum": "12201ea5ce97263f72281a33896fa57994af4fdcb5fe8d122c5c866dfc6145f87540",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Myanmar, 3 July 2015 (FL20150703MMR)."
     }
   }
 }

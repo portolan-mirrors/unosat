@@ -1,5 +1,5 @@
 # Analysis extent: Fire, Algeria, 24 July 2023 (FR20230724DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Fire, Algeria, 24 July 2023 (FR20230724DZA): 8 features merged from 8 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20230724dza-analysis-extent.parquet | 9.8 MB | 122001a2d254... |
 | ./fr20230724dza-analysis-extent.pmtiles | 763.9 KB | 12203fb34769... |
 | ./styles/default.json | 671 B | 1220cf1568f7... |
+| ./fr20230724dza-analysis-extent.thumb.jpg | 17.7 KB | 122017772e2b... |
 
 ## Quick Start
 

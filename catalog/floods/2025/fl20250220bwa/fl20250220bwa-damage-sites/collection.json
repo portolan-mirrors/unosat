@@ -262,7 +262,9 @@
       "file:checksum": "1220577ca0f04d4687ed82cb7aa83afc66551a57d97825c84582aa70903f5d467ed2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Botswana, 20 February 2025 (FL20250220BWA), one GeoParquet file with the source columns."
     },
     "fl20250220bwa-damage-sites-tiles": {
       "href": "./fl20250220bwa-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220d1311322a308a6046e37fde1ef32501f42ea347cc9e7924c5165d7e2794f41e6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Botswana, 20 February 2025 (FL20250220BWA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 957,
-      "file:checksum": "122051e2cc0205cadf8ba8be91d2fbefa977042ab36151b42f6e1aebf5e0a37a6e64"
+      "file:checksum": "122051e2cc0205cadf8ba8be91d2fbefa977042ab36151b42f6e1aebf5e0a37a6e64",
+      "description": "MapLibre style for Damage sites: Flood, Botswana, 20 February 2025 (FL20250220BWA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250220bwa-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8048,
+      "file:checksum": "1220dc9db476f1b3625dd1be38df028f3f846e7607f47ff8f98f81e026beefdceb6c",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Botswana, 20 February 2025 (FL20250220BWA)."
     }
   }
 }

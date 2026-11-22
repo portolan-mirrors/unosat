@@ -1,5 +1,5 @@
 # Damage sites: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Afghanistan, 30 April 2014 (FL20140430AFG): 569 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140430afg-damage-sites.parquet | 24.4 KB | 1220d4f85836... |
 | ./fl20140430afg-damage-sites.pmtiles | 41.2 KB | 1220b881810b... |
 | ./styles/default.json | 1000 B | 1220a4be9edf... |
+| ./fl20140430afg-damage-sites.thumb.jpg | 2.4 KB | 1220ebfff191... |
 
 ## Quick Start
 

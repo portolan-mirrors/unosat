@@ -1,5 +1,5 @@
 # Water extent: Flood, Philippines, 7 June 2017 (FL20170607PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170607phl/fl20170607phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170607phl/fl20170607phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Philippines, 7 June 2017 (FL20170607PHL): 39,168 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170607phl-water-extent.parquet | 11.1 MB | 12202814594a... |
 | ./fl20170607phl-water-extent.pmtiles | 15.2 MB | 122033748325... |
 | ./styles/default.json | 900 B | 122028c5dee0... |
+| ./fl20170607phl-water-extent.thumb.jpg | 18.4 KB | 122072de93f8... |
 
 ## Quick Start
 

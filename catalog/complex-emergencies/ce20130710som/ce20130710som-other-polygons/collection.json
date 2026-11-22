@@ -203,7 +203,9 @@
       "file:checksum": "122048f48b280b141013a0f6144880d2c7f9fa21b138179392dd96b8ea974e6bac4d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM), one GeoParquet file with the source columns."
     },
     "ce20130710som-other-polygons-tiles": {
       "href": "./ce20130710som-other-polygons.pmtiles",
@@ -212,7 +214,9 @@
       "file:checksum": "122080ecb3fb286645423be46950dec8950cf8d903d5cb0dd1e5d7e4dbe2e7da9967",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -223,7 +227,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220d13399ae720aad4fea5dd6ed49cba2b063af1931966f9d2b78afabeb7c6ff4f0"
+      "file:checksum": "1220d13399ae720aad4fea5dd6ed49cba2b063af1931966f9d2b78afabeb7c6ff4f0",
+      "description": "MapLibre style for Other polygons: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130710som-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13554,
+      "file:checksum": "12208267d3cf3ac3f862f9dbebc72f8bb3fc225ca1053881468276da8b48ac2cc175",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)."
     }
   }
 }

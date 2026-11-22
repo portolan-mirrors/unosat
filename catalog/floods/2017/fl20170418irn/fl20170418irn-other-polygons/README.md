@@ -1,5 +1,5 @@
 # Other polygons: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170418irn/fl20170418irn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN): 2 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170418irn-other-polygons.parquet | 5.1 KB | 1220a4fcd8c1... |
 | ./fl20170418irn-other-polygons.pmtiles | 38.0 KB | 1220217eca19... |
 | ./styles/default.json | 664 B | 12205473fdf1... |
+| ./fl20170418irn-other-polygons.thumb.jpg | 7.3 KB | 1220fa877d77... |
 
 ## Quick Start
 

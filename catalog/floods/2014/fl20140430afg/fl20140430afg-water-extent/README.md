@@ -1,5 +1,5 @@
 # Water extent: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Afghanistan, 30 April 2014 (FL20140430AFG): 8,193 features merged from 5 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140430afg-water-extent.parquet | 2.0 MB | 122030761269... |
 | ./fl20140430afg-water-extent.pmtiles | 1.2 MB | 12208e5c272d... |
 | ./styles/default.json | 918 B | 12207e319afa... |
+| ./fl20140430afg-water-extent.thumb.jpg | 2.5 KB | 122091aeaeeb... |
 
 ## Quick Start
 

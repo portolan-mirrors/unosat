@@ -1,5 +1,5 @@
 # Other lines: Landslide, Georgia, 4 August 2023 (LS20230804GEO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Landslide, Georgia, 4 August 2023 (LS20230804GEO): 6 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20230804geo-other-lines.parquet | 12.7 KB | 1220c1e4a49c... |
 | ./ls20230804geo-other-lines.pmtiles | 21.6 KB | 1220dc35dd3b... |
 | ./styles/default.json | 401 B | 12209fb6ed43... |
+| ./ls20230804geo-other-lines.thumb.jpg | 5.1 KB | 1220afd9f6e5... |
 
 ## Quick Start
 

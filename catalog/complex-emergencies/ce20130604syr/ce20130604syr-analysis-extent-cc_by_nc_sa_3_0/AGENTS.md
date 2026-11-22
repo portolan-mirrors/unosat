@@ -32,4 +32,4 @@ import geopandas as gpd
 gdf = gpd.read_parquet('https://data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-analysis-extent-cc_by_nc_sa_3_0/ce20130604syr-analysis-extent-cc_by_nc_sa_3_0.parquet')
 ```
 
-The [data browser](https://source.coop/portolan-mirrors/unosat) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.
+The [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-analysis-extent-cc_by_nc_sa_3_0/collection.json) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.

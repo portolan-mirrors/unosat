@@ -1,5 +1,5 @@
 # Shelters: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-shelters-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-shelters-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Complex emergency, Somalia, 10 July 2013 (CE20130710SOM): 51,087 features merged from 3 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130710som-shelters-cc_by_sa.parquet | 2.1 MB | 1220e4365b2e... |
 | ./ce20130710som-shelters-cc_by_sa.pmtiles | 2.6 MB | 12207e2ffe8f... |
 | ./styles/default.json | 901 B | 1220b02159b2... |
+| ./ce20130710som-shelters-cc_by_sa.thumb.jpg | 2.5 KB | 12207f2a4f2c... |
 
 ## Quick Start
 

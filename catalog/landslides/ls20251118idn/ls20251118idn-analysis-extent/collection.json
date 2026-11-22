@@ -282,7 +282,9 @@
       "file:checksum": "12202c3515e6c3ad2feb26799137b2d057ec493b8f018204050bd84e1a4fbc9e178b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Indonesia, 18 November 2025 (LS20251118IDN), one GeoParquet file with the source columns."
     },
     "ls20251118idn-analysis-extent-tiles": {
       "href": "./ls20251118idn-analysis-extent.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12203bea1b0202d344eab0562a04bb88387790e1718e8f50e9d4c7562e3583c11bb0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Indonesia, 18 November 2025 (LS20251118IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c62be0e2ee89dbba885ebffdc283962c98db852bfea1e29edb0872b2e89c442f"
+      "file:checksum": "1220c62be0e2ee89dbba885ebffdc283962c98db852bfea1e29edb0872b2e89c442f",
+      "description": "MapLibre style for Analysis extent: Landslide, Indonesia, 18 November 2025 (LS20251118IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20251118idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2658,
+      "file:checksum": "1220f9d41097e1cc89b21b83329649cb07f52832253894404e7b848ed4124dcb00d1",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)."
     }
   }
 }

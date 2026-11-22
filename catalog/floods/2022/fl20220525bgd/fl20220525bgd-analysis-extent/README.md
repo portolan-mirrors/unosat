@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Bangladesh, 25 May 2022 (FL20220525BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220525bgd/fl20220525bgd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220525bgd/fl20220525bgd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Bangladesh, 25 May 2022 (FL20220525BGD): 7 features merged from 7 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220525bgd-analysis-extent.parquet | 560.4 KB | 1220f67439ab... |
 | ./fl20220525bgd-analysis-extent.pmtiles | 934.8 KB | 1220f6a89ba7... |
 | ./styles/default.json | 671 B | 1220c39a8d5d... |
+| ./fl20220525bgd-analysis-extent.thumb.jpg | 13.2 KB | 122040200d3c... |
 
 ## Quick Start
 

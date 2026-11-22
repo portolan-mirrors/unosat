@@ -217,7 +217,9 @@
       "file:checksum": "12200e1a9fd19eb2382f2b875499c50bc8eb2c049f47048426ae8fd17be1e2f26b78",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Ukraine, 6 June 2023 (FL20230606UKR), one GeoParquet file with the source columns."
     },
     "fl20230606ukr-other-polygons-tiles": {
       "href": "./fl20230606ukr-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220fb76d1db7f8ec7402cd479918095ead21a9123a1a4960d0e6824b1917d588537",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Ukraine, 6 June 2023 (FL20230606UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220ecfcbbdeb6a68b06ed93202b252b74c63fef473757b8ea42321b289ee7228abf"
+      "file:checksum": "1220ecfcbbdeb6a68b06ed93202b252b74c63fef473757b8ea42321b289ee7228abf",
+      "description": "MapLibre style for Other polygons: Flood, Ukraine, 6 June 2023 (FL20230606UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230606ukr-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19880,
+      "file:checksum": "1220328afb6c5a1de94165835157e7b7749d4c04a44e51ddf328392e169007ef9aa2",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Ukraine, 6 June 2023 (FL20230606UKR)."
     }
   }
 }

@@ -229,7 +229,9 @@
       "file:checksum": "1220c1d903c36325f26e262ada71930c221d877ec8605bcd2b6e0e98e651b03de4d3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Uganda, 31 August 2017 (FL20170831UGA), one GeoParquet file with the source columns."
     },
     "fl20170831uga-analysis-extent-tiles": {
       "href": "./fl20170831uga-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220c0af814dc396fa3fa564cbf10413e05f7373fa470e9ed938007859716b2b129c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Uganda, 31 August 2017 (FL20170831UGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12203677deb3a9be3996ecdf1b7d560d7e51a6dfafd7fc35ef3a3d0f012739b33a10"
+      "file:checksum": "12203677deb3a9be3996ecdf1b7d560d7e51a6dfafd7fc35ef3a3d0f012739b33a10",
+      "description": "MapLibre style for Analysis extent: Flood, Uganda, 31 August 2017 (FL20170831UGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170831uga-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9411,
+      "file:checksum": "1220b6d83eab4ccc808a12415607e6131bc3a7fc583df6fd6988d7dddf75e8a40218",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Uganda, 31 August 2017 (FL20170831UGA)."
     }
   }
 }

@@ -217,7 +217,9 @@
       "file:checksum": "12200a184e36c5ae2cc4237055ec4350fbe931f72ab0b5fd09dba5e422768e6419d2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL), one GeoParquet file with the source columns."
     },
     "eq20220727phl-other-polygons-tiles": {
       "href": "./eq20220727phl-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12201d8f5235ae5db877eaf97f901d0cf71afa8394512557718e045042a883dda3f4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122011b7a1e826c5e0f3638fc977643184d1dfe29e68205484fe2f96462bcd834971"
+      "file:checksum": "122011b7a1e826c5e0f3638fc977643184d1dfe29e68205484fe2f96462bcd834971",
+      "description": "MapLibre style for Other polygons: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20220727phl-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6708,
+      "file:checksum": "1220b915b354956e75560e16cb887070057b53137d2536e7e553d4284eff8143b922",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL)."
     }
   }
 }

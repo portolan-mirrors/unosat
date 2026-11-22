@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160725bgd/fl20160725bgd-analysis-extent-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2016/fl20160725bgd/fl20160725bgd-analysis-extent-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Bangladesh, 25 July 2016 (FL20160725BGD): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20160725bgd-analysis-extent-cc_by_nc_sa_3_0.parquet | 4.9 KB | 1220a4d354e8... |
 | ./fl20160725bgd-analysis-extent-cc_by_nc_sa_3_0.pmtiles | 208.1 KB | 12206a8d178b... |
 | ./styles/default.json | 687 B | 122066850e1b... |
+| ./fl20160725bgd-analysis-extent-cc_by_nc_sa_3_0.thumb.jpg | 8.7 KB | 12207d7065bc... |
 
 ## Quick Start
 

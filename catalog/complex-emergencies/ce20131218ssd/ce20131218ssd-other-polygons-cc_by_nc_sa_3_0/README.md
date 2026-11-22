@@ -1,5 +1,5 @@
 # Other polygons: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-other-polygons-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131218ssd/ce20131218ssd-other-polygons-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD): 1,001,347 features merged from 5 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131218ssd-other-polygons-cc_by_nc_sa_3_0.parquet | 328.4 MB | 122002876e65... |
 | ./ce20131218ssd-other-polygons-cc_by_nc_sa_3_0.pmtiles | 158.6 MB | 1220ace1cd47... |
 | ./styles/default.json | 680 B | 1220aac1c68b... |
+| ./ce20131218ssd-other-polygons-cc_by_nc_sa_3_0.thumb.jpg | 11.2 KB | 12203860a269... |
 
 ## Quick Start
 

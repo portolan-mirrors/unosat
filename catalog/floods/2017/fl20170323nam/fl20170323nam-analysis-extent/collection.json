@@ -229,7 +229,9 @@
       "file:checksum": "12206ae6f586ec5fa2a7a44d44ef8a68355afa8419ca4c3658cfe0d4939a1ebec30c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Namibia, 23 March 2017 (FL20170323NAM), one GeoParquet file with the source columns."
     },
     "fl20170323nam-analysis-extent-tiles": {
       "href": "./fl20170323nam-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220edbdd288bf781b754f48e15ef06e6caa36906c7bd93d8a4d7311a80740b74215",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Namibia, 23 March 2017 (FL20170323NAM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122092bf010a8935648ed1c3abd4a773d69084852e1531898a76a42d643c88ad9c45"
+      "file:checksum": "122092bf010a8935648ed1c3abd4a773d69084852e1531898a76a42d643c88ad9c45",
+      "description": "MapLibre style for Analysis extent: Flood, Namibia, 23 March 2017 (FL20170323NAM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170323nam-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9114,
+      "file:checksum": "12200ad598fbad2f0066c3ee010818e7c510b884a4f44780e377dc231b1c2a1f7afe",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Namibia, 23 March 2017 (FL20170323NAM)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2015/tc20151103yem/tc20151103yem-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2015/tc20151103yem/tc20151103yem-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM): 187 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20151103yem-analysis-extent.parquet | 166.9 KB | 122046b689b3... |
 | ./tc20151103yem-analysis-extent.pmtiles | 254.4 KB | 1220e5f724ac... |
 | ./styles/default.json | 671 B | 122079d3dd2a... |
+| ./tc20151103yem-analysis-extent.thumb.jpg | 29.0 KB | 1220ecdfbd15... |
 
 ## Quick Start
 

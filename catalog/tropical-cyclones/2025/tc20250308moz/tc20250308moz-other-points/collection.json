@@ -210,7 +210,9 @@
       "proj:code": "EPSG:3857",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ), one GeoParquet file with the source columns."
     },
     "tc20250308moz-other-points-tiles": {
       "href": "./tc20250308moz-other-points.pmtiles",
@@ -219,7 +221,9 @@
       "file:checksum": "1220ffc4b9a89e0df3e7dcabdea3ab37498938b89dab27234422852054caba43eab2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -230,7 +234,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220ce8847147361e3c690c5ac064ea2743b05e474efd19d02d09f45d874bbb37e92"
+      "file:checksum": "1220ce8847147361e3c690c5ac064ea2743b05e474efd19d02d09f45d874bbb37e92",
+      "description": "MapLibre style for Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20250308moz-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7387,
+      "file:checksum": "1220cf03661db7b7caae1af2e267904df74c9717d6cc7294fee893e44d19b02d97d8",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)."
     }
   }
 }

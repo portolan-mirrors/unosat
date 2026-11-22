@@ -324,7 +324,9 @@
       "file:checksum": "122037b1d02f0d4b07ff0188076522491f6bcae726577e578f8634f3173a6b9849b6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT), one GeoParquet file with the source columns."
     },
     "tc20200403vut-other-polygons-tiles": {
       "href": "./tc20200403vut-other-polygons.pmtiles",
@@ -333,7 +335,9 @@
       "file:checksum": "12209ae2bf60daad4400f0e0eebc3c10da99ea60bf2523c613fc90219e7f233975d8",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -344,7 +348,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220cfd9059388dc5857ecba3d429a60a0895edc0afb474c62121bd915d00a9a9e5b"
+      "file:checksum": "1220cfd9059388dc5857ecba3d429a60a0895edc0afb474c62121bd915d00a9a9e5b",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200403vut-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8344,
+      "file:checksum": "12208d19c74f604c55b251d5459d954d7b6b5c6f6abc9b2602f0b6b4b46cbc7a9b68",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)."
     }
   }
 }

@@ -229,7 +229,9 @@
       "file:checksum": "1220486836ecf4e092c11385168d37b18898d47bc84a4b14ff445069adf09eb38c61",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Myanmar, 3 July 2015 (FL20150703MMR), one GeoParquet file with the source columns."
     },
     "fl20150703mmr-other-polygons-tiles": {
       "href": "./fl20150703mmr-other-polygons.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220d17ef687cea87f6f26f3969dc0ce56354ee02ac3d6f6af98504913c9e06b80f9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Myanmar, 3 July 2015 (FL20150703MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12207bb352fffa39c0b5289f37623a2177d8215c242cd14cbcd501065a43688cecb5"
+      "file:checksum": "12207bb352fffa39c0b5289f37623a2177d8215c242cd14cbcd501065a43688cecb5",
+      "description": "MapLibre style for Other polygons: Flood, Myanmar, 3 July 2015 (FL20150703MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20150703mmr-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7525,
+      "file:checksum": "1220301fe30275e352e71d42cc400591424f743a30e78ea01264957f4f4c04ff63a7",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Myanmar, 3 July 2015 (FL20150703MMR)."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20250328mmr-other-polygons.parquet",
         "eq20250328mmr-other-polygons.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.155050Z",
+      "breaking": false,
+      "assets": {
+        "eq20250328mmr-other-polygons.parquet": {
+          "sha256": "7b7437aec528e79c160771cdb652c37a7e9ef623cd12563d691340cc1535e5e9",
+          "size_bytes": 813012,
+          "href": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-polygons/eq20250328mmr-other-polygons.parquet",
+          "source_path": "eq20250328mmr-other-polygons.parquet",
+          "source_mtime": 1795333334.4855497,
+          "mtime": 1795333334.4855497,
+          "feature_count": 3465,
+          "schema_fingerprint": "c2503bddae271407"
+        },
+        "eq20250328mmr-other-polygons.pmtiles": {
+          "sha256": "c32ebbce22614aef49ef5d7a5977193cb09eb4a7709ef89035348d9450fa855c",
+          "size_bytes": 450169,
+          "href": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-polygons/eq20250328mmr-other-polygons.pmtiles",
+          "mtime": 1795334071.2598484
+        },
+        "eq20250328mmr-other-polygons.thumb.jpg": {
+          "sha256": "f6aaca371ca02b3713465b45bd3c82c2684cae80519ead3d62c9c7d68e44b3a8",
+          "size_bytes": 5146,
+          "href": "earthquakes/2025/eq20250328mmr/eq20250328mmr-other-polygons/eq20250328mmr-other-polygons.thumb.jpg",
+          "mtime": 1795343617.149138
+        }
+      },
+      "changes": [
+        "eq20250328mmr-other-polygons.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20250328mmr-other-polygons.thumb.jpg"
     }
   ]
 }

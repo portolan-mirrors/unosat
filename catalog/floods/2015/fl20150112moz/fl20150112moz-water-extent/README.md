@@ -1,5 +1,5 @@
 # Water extent: Flood, Mozambique, 12 January 2015 (FL20150112MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150112moz/fl20150112moz-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150112moz/fl20150112moz-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Mozambique, 12 January 2015 (FL20150112MOZ): 118,991 features merged from 10 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20150112moz-water-extent.parquet | 44.8 MB | 12202fc67e75... |
 | ./fl20150112moz-water-extent.pmtiles | 27.3 MB | 122068cf5ee8... |
 | ./styles/default.json | 941 B | 122052d2e285... |
+| ./fl20150112moz-water-extent.thumb.jpg | 9.5 KB | 122029b00d73... |
 
 ## Quick Start
 

@@ -259,7 +259,9 @@
       "file:checksum": "1220f82597516bdc851c69a44c0e80571041dfa43121e7647007e1b2364520b2157a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC), one GeoParquet file with the source columns."
     },
     "tc20160418syc-other-polygons-tiles": {
       "href": "./tc20160418syc-other-polygons.pmtiles",
@@ -268,7 +270,9 @@
       "file:checksum": "1220223d11d3d600006b24080263865052ea41a115a8051f1a3e1dd83fa747debfe1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -279,7 +283,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122090164241fc99a84102110f2365e37e7a0f9e3819263bc96725e23a0b556ea650"
+      "file:checksum": "122090164241fc99a84102110f2365e37e7a0f9e3819263bc96725e23a0b556ea650",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20160418syc-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7958,
+      "file:checksum": "1220bc37be6723f4d010ff5726fb64d3f78c91f4bb35577c379e10c47301b40225bf",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC)."
     }
   }
 }

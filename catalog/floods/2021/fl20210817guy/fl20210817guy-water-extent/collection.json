@@ -274,7 +274,9 @@
       "file:checksum": "1220a60456cf614431a18a125f524acba1d4f72cc08c49c3a9e3b0332ffd70bed32b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Guyana, 17 August 2021 (FL20210817GUY), one GeoParquet file with the source columns."
     },
     "fl20210817guy-water-extent-tiles": {
       "href": "./fl20210817guy-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122086ad0d24a4bd6c9a59616a3b2cf6d9946786962e8f48e372a0c2c85a0cad88cb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Guyana, 17 August 2021 (FL20210817GUY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220dabb71cd6048c9455e8944640ea2c3da989859cfca6bbd8533a84b309afab72d"
+      "file:checksum": "1220dabb71cd6048c9455e8944640ea2c3da989859cfca6bbd8533a84b309afab72d",
+      "description": "MapLibre style for Water extent: Flood, Guyana, 17 August 2021 (FL20210817GUY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210817guy-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 18912,
+      "file:checksum": "12206ee13570ce7445c972cd523d0af08afc9d36d0ffdfad0712c56165ac0df4f66e",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Guyana, 17 August 2021 (FL20210817GUY)."
     }
   }
 }

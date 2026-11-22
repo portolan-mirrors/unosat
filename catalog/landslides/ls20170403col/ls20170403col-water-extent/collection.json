@@ -274,7 +274,9 @@
       "file:checksum": "122079705aa5c53c93e717a136df67bf08dc56fc2b250be5c65608a7e5f69f91111b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Landslide, Colombia, 3 April 2017 (LS20170403COL), one GeoParquet file with the source columns."
     },
     "ls20170403col-water-extent-tiles": {
       "href": "./ls20170403col-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220bc91515671ce68506fcef404ae6b7fc716a610c72e8b40d964ccf98ea7ebb480",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Landslide, Colombia, 3 April 2017 (LS20170403COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 900,
-      "file:checksum": "12202eb687a4197557fdd2be8bdf2ef98f88ddd9c6ff8e6cbc62e56624e4519c3736"
+      "file:checksum": "12202eb687a4197557fdd2be8bdf2ef98f88ddd9c6ff8e6cbc62e56624e4519c3736",
+      "description": "MapLibre style for Water extent: Landslide, Colombia, 3 April 2017 (LS20170403COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20170403col-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 20790,
+      "file:checksum": "12202252a279f6edf954dbbbf181d9d376b0830dcdd162dcff5f3a003040a31e9e9c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Landslide, Colombia, 3 April 2017 (LS20170403COL)."
     }
   }
 }

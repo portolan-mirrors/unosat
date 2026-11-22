@@ -1,5 +1,5 @@
 # Damage areas: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140430afg/fl20140430afg-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Afghanistan, 30 April 2014 (FL20140430AFG): 3 features merged from 2 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140430afg-damage-areas.parquet | 8.8 KB | 122079b44a7d... |
 | ./fl20140430afg-damage-areas.pmtiles | 23.9 KB | 12204fae6f66... |
 | ./styles/default.json | 955 B | 12204ff552d4... |
+| ./fl20140430afg-damage-areas.thumb.jpg | 11.9 KB | 12208da61840... |
 
 ## Quick Start
 

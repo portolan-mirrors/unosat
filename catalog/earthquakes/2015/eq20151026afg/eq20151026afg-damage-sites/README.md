@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/eq20151026afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/eq20151026afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG): 1,006 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20151026afg-damage-sites.parquet | 49.1 KB | 12207efe7177... |
 | ./eq20151026afg-damage-sites.pmtiles | 277.2 KB | 12204deb47a2... |
 | ./styles/default.json | 956 B | 122078e4b86f... |
+| ./eq20151026afg-damage-sites.thumb.jpg | 3.3 KB | 12203369532a... |
 
 ## Quick Start
 

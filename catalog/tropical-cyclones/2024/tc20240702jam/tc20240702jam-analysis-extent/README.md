@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240702jam/tc20240702jam-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240702jam/tc20240702jam-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20240702jam-analysis-extent.parquet | 45.0 KB | 122016a2cc9a... |
 | ./tc20240702jam-analysis-extent.pmtiles | 169.2 KB | 1220c609ea12... |
 | ./styles/default.json | 671 B | 12206577e038... |
+| ./tc20240702jam-analysis-extent.thumb.jpg | 9.6 KB | 1220816aebe6... |
 
 ## Quick Start
 

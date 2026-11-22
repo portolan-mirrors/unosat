@@ -274,7 +274,9 @@
       "file:checksum": "122020962df488cee3f1abf8d0a4a5b09ef4f5246eff55dee1f9bd78a19bdabbc405",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN), one GeoParquet file with the source columns."
     },
     "fl20200324irn-water-extent-tiles": {
       "href": "./fl20200324irn-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122055a0093789eadaa235f8fc2e345b57c7e2bc4e06185a96055bcb6d6ae2c32290",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122087aa538bff2ed00eba8b153b68b36798876257fa22e01c18f6b3a7fa91214cd5"
+      "file:checksum": "122087aa538bff2ed00eba8b153b68b36798876257fa22e01c18f6b3a7fa91214cd5",
+      "description": "MapLibre style for Water extent: Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200324irn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 24063,
+      "file:checksum": "12203c3305db1c4d41e0a3bc7f35207a3c8416b9aeccd54250ce04fdfea778ee4284",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Iran (Islamic Republic of), 24 March 2020 (FL20200324IRN)."
     }
   }
 }

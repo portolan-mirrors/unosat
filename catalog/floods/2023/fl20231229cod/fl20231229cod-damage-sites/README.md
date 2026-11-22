@@ -1,5 +1,5 @@
 # Damage sites: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231229cod/fl20231229cod-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231229cod/fl20231229cod-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD): 9,353 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231229cod-damage-sites.parquet | 375.0 KB | 12206c0689bf... |
 | ./fl20231229cod-damage-sites.pmtiles | 221.6 KB | 1220c3ba8d29... |
 | ./styles/default.json | 956 B | 122044b9c494... |
+| ./fl20231229cod-damage-sites.thumb.jpg | 7.5 KB | 122085fc4c3f... |
 
 ## Quick Start
 

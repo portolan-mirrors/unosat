@@ -189,7 +189,9 @@
       "file:checksum": "12208ca893c2c8c9e53be5fee0bfa378ffb30fce5be74caab57e3a91eab8f87c8087",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Event, State of Palestine, 7 January 2015 (ST20150107PSE), one GeoParquet file with the source columns."
     },
     "st20150107pse-other-polygons-tiles": {
       "href": "./st20150107pse-other-polygons.pmtiles",
@@ -198,7 +200,9 @@
       "file:checksum": "1220c349b1476b094891f45555afeaf325bc83ec53c743b59cf5020f9912fd067a12",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Event, State of Palestine, 7 January 2015 (ST20150107PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -209,7 +213,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220e3163533f2ac5a1117599a59d87b7335e8afa6ec12a417896380aa298a75693c"
+      "file:checksum": "1220e3163533f2ac5a1117599a59d87b7335e8afa6ec12a417896380aa298a75693c",
+      "description": "MapLibre style for Other polygons: Event, State of Palestine, 7 January 2015 (ST20150107PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./st20150107pse-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12954,
+      "file:checksum": "12205cbaec9d0b6f6c1fed9b51b422f6383e8f378af80bfb090282678aa37811551b",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Event, State of Palestine, 7 January 2015 (ST20150107PSE)."
     }
   }
 }

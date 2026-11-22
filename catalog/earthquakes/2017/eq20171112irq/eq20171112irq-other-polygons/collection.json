@@ -217,7 +217,9 @@
       "file:checksum": "1220dee810c121bbddf78932a61e221ebf2bf8244aef85e047cc4788c084c3be0949",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ), one GeoParquet file with the source columns."
     },
     "eq20171112irq-other-polygons-tiles": {
       "href": "./eq20171112irq-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220233a1efcc71e2c8b97bced48db28e800564a926fa6ea16ac4153ba3eced09f0e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12205780a4f176f151f126118e2b0e2e7a61b7c2b8e665f448795c1cbe1d2eecc3c1"
+      "file:checksum": "12205780a4f176f151f126118e2b0e2e7a61b7c2b8e665f448795c1cbe1d2eecc3c1",
+      "description": "MapLibre style for Other polygons: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20171112irq-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7770,
+      "file:checksum": "122038cad93eeb652d3a3cbaa79871b45325899ade05ce87167267ea551f0f4c963b",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)."
     }
   }
 }

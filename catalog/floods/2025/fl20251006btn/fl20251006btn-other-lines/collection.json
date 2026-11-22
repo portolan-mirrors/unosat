@@ -342,7 +342,9 @@
       "file:checksum": "12202211e1f22249261ca2e9f7df1e6870d673a571961d35dd5333157aa1830680fe",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Flood, Bhutan, 6 October 2025 (FL20251006BTN), one GeoParquet file with the source columns."
     },
     "fl20251006btn-other-lines-tiles": {
       "href": "./fl20251006btn-other-lines.pmtiles",
@@ -351,7 +353,9 @@
       "file:checksum": "1220cc5ed18e5a9c6de227e64a684cb3da3220f4d53d7265612b6a7e93a6c5a08312",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Flood, Bhutan, 6 October 2025 (FL20251006BTN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -362,7 +366,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220a9dc28aa01f7c84ed2a775e5c557b98bc8604ec5a6c9902466ac9d6721e837ed"
+      "file:checksum": "1220a9dc28aa01f7c84ed2a775e5c557b98bc8604ec5a6c9902466ac9d6721e837ed",
+      "description": "MapLibre style for Other lines: Flood, Bhutan, 6 October 2025 (FL20251006BTN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20251006btn-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2354,
+      "file:checksum": "1220ac19c8d93d021456be30be116c9c3aa9e89d34729862f719fc91455053d8c62a",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Flood, Bhutan, 6 October 2025 (FL20251006BTN)."
     }
   }
 }

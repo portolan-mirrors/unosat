@@ -229,7 +229,9 @@
       "file:checksum": "1220a4fcd8c19f336d6419c5cf319464c8618294836029e913d2381b831a93a81bab",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN), one GeoParquet file with the source columns."
     },
     "fl20170418irn-other-polygons-tiles": {
       "href": "./fl20170418irn-other-polygons.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220217eca19ceeafe6a7b3afe9612bc1346750062e177f0b5c62f05f9f91ff4e5e5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12205473fdf1da5c4d3193bbb01add24ea910aca615962cf51cbdae5fbe1a80d0fd1"
+      "file:checksum": "12205473fdf1da5c4d3193bbb01add24ea910aca615962cf51cbdae5fbe1a80d0fd1",
+      "description": "MapLibre style for Other polygons: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170418irn-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7479,
+      "file:checksum": "1220fa877d770c9d0a33db382b186fd5e1809633ef9c5faedd3201f4ac2f4b608844",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)."
     }
   }
 }

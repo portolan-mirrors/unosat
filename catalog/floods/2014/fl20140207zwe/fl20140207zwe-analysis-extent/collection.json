@@ -229,7 +229,9 @@
       "file:checksum": "122026d6e337cb59bd9798d1c677f323adaf6637c7499f3e94b55b0b6839ac63f6e0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE), one GeoParquet file with the source columns."
     },
     "fl20140207zwe-analysis-extent-tiles": {
       "href": "./fl20140207zwe-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122033038bbaa33e4716c368c835a89fad48ba11c265d73f7cf00d525af5120f52ed",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12203a30fe2416a226baa619394498340fa9796ad422abf1f601f64aad6a5b371a63"
+      "file:checksum": "12203a30fe2416a226baa619394498340fa9796ad422abf1f601f64aad6a5b371a63",
+      "description": "MapLibre style for Analysis extent: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140207zwe-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10516,
+      "file:checksum": "122077d938d4457251dd95d5fb297a2ff598f4f4e7b1ab5392b0cd06a68544db104a",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)."
     }
   }
 }

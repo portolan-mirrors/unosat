@@ -262,7 +262,9 @@
       "file:checksum": "12208819ea70937da952bd2c42ec3c7fd10c3fca90201717098034b89dcd94d83701",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT), one GeoParquet file with the source columns."
     },
     "tc20230227vut-damage-sites-tiles": {
       "href": "./tc20230227vut-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220332200a90f75aae79dea5cdb830e9d7f13150abdf8ed4eafda2f9644205f2750",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "1220c03f2f8195317d547f1bd749670d33cff555786a366007d5cdbb6d0771d67e52"
+      "file:checksum": "1220c03f2f8195317d547f1bd749670d33cff555786a366007d5cdbb6d0771d67e52",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230227vut-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4059,
+      "file:checksum": "122083ae14a41f6c154c45131075b44876cc3a6de80744f0f4b471ab7efe738d9031",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT)."
     }
   }
 }

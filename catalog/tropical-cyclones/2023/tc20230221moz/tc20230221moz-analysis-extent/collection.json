@@ -253,7 +253,9 @@
       "file:checksum": "1220c66837f7739422f1b086ce98cacbc75815f6f2cb87de29b900d0f8e3947ffc11",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ), one GeoParquet file with the source columns."
     },
     "tc20230221moz-analysis-extent-tiles": {
       "href": "./tc20230221moz-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220a2a3447c5db05bc52d36f177ef7f59c446fa080644dea637a01e78e5e57695e0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220a7b91eb744512c014b98f6a131b39988c4f431f8c90dd92cb529816f6d4a21bb"
+      "file:checksum": "1220a7b91eb744512c014b98f6a131b39988c4f431f8c90dd92cb529816f6d4a21bb",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230221moz-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 21307,
+      "file:checksum": "122048620f7472cc35f3a8e9b846c7119675cfba6da3ecb29673cef61ca4bd45fbb0",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Mozambique, 21 February 2023 (TC20230221MOZ)."
     }
   }
 }

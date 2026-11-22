@@ -223,7 +223,9 @@
       "file:checksum": "1220ee0c7ba9f0a1f1e9177ec0df55e4d8063eb09b33cd06ba82cfef74c3bf2115b5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX), one GeoParquet file with the source columns."
     },
     "eq20170919mex-other-polygons-tiles": {
       "href": "./eq20170919mex-other-polygons.pmtiles",
@@ -232,7 +234,9 @@
       "file:checksum": "12208246e453c5c2f97124ac01e2c09c2c84c8a5254fb6f515013a76051020d83b65",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -243,7 +247,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220bac77f4d9909dbbb9f2bbbbb3cfbf1fce1dd0a88bc4e5db04d4dc4de1a24ad79"
+      "file:checksum": "1220bac77f4d9909dbbb9f2bbbbb3cfbf1fce1dd0a88bc4e5db04d4dc4de1a24ad79",
+      "description": "MapLibre style for Other polygons: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20170919mex-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7475,
+      "file:checksum": "1220b8fe8d5781e4849fc87f78d40ec02d742e9169c84b350808811eab31129e98e2",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)."
     }
   }
 }

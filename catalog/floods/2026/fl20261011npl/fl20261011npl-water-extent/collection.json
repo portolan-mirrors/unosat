@@ -274,7 +274,9 @@
       "file:checksum": "12201d63b3c6bcac015646ce2d6e25ad2d3dd0b3c9c59e3950823a783873df7f6b86",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nepal, 11 October 2026 (FL20261011NPL), one GeoParquet file with the source columns."
     },
     "fl20261011npl-water-extent-tiles": {
       "href": "./fl20261011npl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220ed0d8bb8452531aef227010121d09c0ad15654c475f1c09c412f3897230e5f5f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nepal, 11 October 2026 (FL20261011NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122040d381389b05aaef48b78a6c0c307d828399a85c28d9f169cf34f171320b7450"
+      "file:checksum": "122040d381389b05aaef48b78a6c0c307d828399a85c28d9f169cf34f171320b7450",
+      "description": "MapLibre style for Water extent: Flood, Nepal, 11 October 2026 (FL20261011NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261011npl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5487,
+      "file:checksum": "1220fa4ee9df8c92ff81f941a7d8ad17f0ebad1a9d88832a86b46c596c536fe7770d",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nepal, 11 October 2026 (FL20261011NPL)."
     }
   }
 }

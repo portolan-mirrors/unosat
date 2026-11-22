@@ -1,5 +1,5 @@
 # Water extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221014vnm/fl20221014vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221014vnm/fl20221014vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Viet Nam, 14 October 2022 (FL20221014VNM): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20221014vnm-water-extent.parquet | 1.8 MB | 122082133ebd... |
 | ./fl20221014vnm-water-extent.pmtiles | 1.5 MB | 122049789c92... |
 | ./styles/default.json | 887 B | 12208006a3de... |
+| ./fl20221014vnm-water-extent.thumb.jpg | 5.2 KB | 122035abde2a... |
 
 ## Quick Start
 

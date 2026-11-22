@@ -229,7 +229,9 @@
       "file:checksum": "1220077d940fa76a0f00c2a5d7faaa90b9c7060ccee5b3012dd712bacb4e5bc43c87",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO), one GeoParquet file with the source columns."
     },
     "tc20220928lao-analysis-extent-tiles": {
       "href": "./tc20220928lao-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220f5a15210d3b217cfb304fe95b76c8cb2606e6fe17298c69176100edc2f5c6a24",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220088bebf4ee3b1712d9129c64f43ed256098f17cc4fd4adf4aaa064322b9b63b5"
+      "file:checksum": "1220088bebf4ee3b1712d9129c64f43ed256098f17cc4fd4adf4aaa064322b9b63b5",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220928lao-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4515,
+      "file:checksum": "1220af8499dc753af1c3eeae0116cbb74f5b2f942969d0ae2cf95653369f5c03f65f",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 28 September 2022 (TC20220928LAO)."
     }
   }
 }

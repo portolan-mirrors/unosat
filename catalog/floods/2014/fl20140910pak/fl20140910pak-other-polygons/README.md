@@ -1,5 +1,5 @@
 # Other polygons: Flood, Pakistan, 10 September 2014 (FL20140910PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140910pak/fl20140910pak-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140910pak/fl20140910pak-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Pakistan, 10 September 2014 (FL20140910PAK): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140910pak-other-polygons.parquet | 4.8 KB | 122065be3e97... |
 | ./fl20140910pak-other-polygons.pmtiles | 34.2 KB | 12208096aaed... |
 | ./styles/default.json | 664 B | 1220ef7f0924... |
+| ./fl20140910pak-other-polygons.thumb.jpg | 7.3 KB | 1220b7d906e8... |
 
 ## Quick Start
 

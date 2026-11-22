@@ -1,5 +1,5 @@
 # Water extent: Flood, Ukraine, 6 June 2023 (FL20230606UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Ukraine, 6 June 2023 (FL20230606UKR): 531 features merged from 531 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -76,6 +76,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230606ukr-water-extent.parquet | 64.6 MB | 12208352a1cf... |
 | ./fl20230606ukr-water-extent.pmtiles | 19.6 MB | 1220e11061ab... |
 | ./styles/default.json | 1.1 KB | 1220ea5e6808... |
+| ./fl20230606ukr-water-extent.thumb.jpg | 22.8 KB | 122010087d8f... |
 
 ## Quick Start
 

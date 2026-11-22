@@ -1,5 +1,5 @@
 # Other lines: Flood, Nepal, 26 August 2026 (FL20260826NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/fl20260826npl-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/fl20260826npl-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Nepal, 26 August 2026 (FL20260826NPL): 5 features merged from 5 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -78,6 +78,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20260826npl-other-lines.parquet | 95.9 KB | 1220c1221f24... |
 | ./fl20260826npl-other-lines.pmtiles | 95.1 KB | 1220520b14dc... |
 | ./styles/default.json | 401 B | 1220a93df446... |
+| ./fl20260826npl-other-lines.thumb.jpg | 2.4 KB | 12204caeed6f... |
 
 ## Quick Start
 

@@ -299,7 +299,9 @@
       "file:checksum": "122027e347e5407279de13077351a97048e813c6cfda488f328598baff6f7682fee6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Somalia, 5 November 2023 (FL20231105SOM), one GeoParquet file with the source columns."
     },
     "fl20231105som-water-extent-tiles": {
       "href": "./fl20231105som-water-extent.pmtiles",
@@ -308,7 +310,9 @@
       "file:checksum": "12207f929ef11614510bc019611528b8a7f662d8e7a428cb813a23a68c32acbe528e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Somalia, 5 November 2023 (FL20231105SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -319,7 +323,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122063a7d1267308a7aa37f514048989fe41a926a919b7f5029ae2ed2af1dfe98ee4"
+      "file:checksum": "122063a7d1267308a7aa37f514048989fe41a926a919b7f5029ae2ed2af1dfe98ee4",
+      "description": "MapLibre style for Water extent: Flood, Somalia, 5 November 2023 (FL20231105SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231105som-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15562,
+      "file:checksum": "122025bc66bc330492a409cdd7d7de8a050b397ad3368831cca082376e482c512048",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Somalia, 5 November 2023 (FL20231105SOM)."
     }
   }
 }

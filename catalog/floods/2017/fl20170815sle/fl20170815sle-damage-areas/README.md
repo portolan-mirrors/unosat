@@ -1,5 +1,5 @@
 # Damage areas: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170815sle/fl20170815sle-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Sierra Leone, 15 August 2017 (FL20170815SLE): 6 features merged from 2 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170815sle-damage-areas.parquet | 62.0 KB | 1220779f9c22... |
 | ./fl20170815sle-damage-areas.pmtiles | 51.4 KB | 1220430a3d6e... |
 | ./styles/default.json | 652 B | 1220ee456bf9... |
+| ./fl20170815sle-damage-areas.thumb.jpg | 8.3 KB | 12205639634b... |
 
 ## Quick Start
 

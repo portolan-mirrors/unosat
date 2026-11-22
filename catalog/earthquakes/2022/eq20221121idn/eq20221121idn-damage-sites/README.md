@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN): 3,045 features merged from 12 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20221121idn-damage-sites.parquet | 49.4 KB | 1220c0d8d20a... |
 | ./eq20221121idn-damage-sites.pmtiles | 191.1 KB | 1220df76149f... |
 | ./styles/default.json | 1004 B | 122075783fef... |
+| ./eq20221121idn-damage-sites.thumb.jpg | 15.8 KB | 12207d3a40d8... |
 
 ## Quick Start
 

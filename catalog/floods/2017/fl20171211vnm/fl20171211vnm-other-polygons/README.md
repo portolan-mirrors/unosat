@@ -1,5 +1,5 @@
 # Other polygons: Flood, Viet Nam, 11 December 2017 (FL20171211VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171211vnm/fl20171211vnm-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171211vnm/fl20171211vnm-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Viet Nam, 11 December 2017 (FL20171211VNM): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20171211vnm-other-polygons.parquet | 4.2 KB | 12208a1e41a6... |
 | ./fl20171211vnm-other-polygons.pmtiles | 50.1 KB | 12203e84e9e5... |
 | ./styles/default.json | 664 B | 122018b6b900... |
+| ./fl20171211vnm-other-polygons.thumb.jpg | 9.7 KB | 122062aeb173... |
 
 ## Quick Start
 

@@ -274,7 +274,9 @@
       "file:checksum": "1220d120331dd976ccf58ae0bad7758a6066f06efcd564f093fe303420f197756c14",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG), one GeoParquet file with the source columns."
     },
     "tc20220221mdg-water-extent-tiles": {
       "href": "./tc20220221mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122032215bc59def4fe30d2fe5337860bcefa72db3bed7d9f0042210613cbd5d5cbb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220fed7cf050b3a5f6e52b920fa8852c25ee6574d941453613d191a4037c13b15c4"
+      "file:checksum": "1220fed7cf050b3a5f6e52b920fa8852c25ee6574d941453613d191a4037c13b15c4",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220221mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8254,
+      "file:checksum": "12206f83cf940538d36b333d4d599e2d51bcdcbf3c12d92a785fed1dcf9dd154aacb",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Madagascar, 21 February 2022 (TC20220221MDG)."
     }
   }
 }

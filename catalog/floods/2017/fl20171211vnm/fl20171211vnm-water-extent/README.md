@@ -1,5 +1,5 @@
 # Water extent: Flood, Viet Nam, 11 December 2017 (FL20171211VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171211vnm/fl20171211vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171211vnm/fl20171211vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Viet Nam, 11 December 2017 (FL20171211VNM): 79,825 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20171211vnm-water-extent.parquet | 27.8 MB | 12205f698c2f... |
 | ./fl20171211vnm-water-extent.pmtiles | 14.4 MB | 1220577e0eee... |
 | ./styles/default.json | 887 B | 12208e3c2daa... |
+| ./fl20171211vnm-water-extent.thumb.jpg | 56.4 KB | 122036173869... |
 
 ## Quick Start
 

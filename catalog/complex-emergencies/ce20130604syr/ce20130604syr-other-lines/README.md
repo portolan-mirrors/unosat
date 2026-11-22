@@ -1,5 +1,5 @@
 # Other lines: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 1,008 features merged from 7 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -81,6 +81,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130604syr-other-lines.parquet | 142.6 KB | 1220e417f882... |
 | ./ce20130604syr-other-lines.pmtiles | 195.1 KB | 12204748478b... |
 | ./styles/default.json | 401 B | 122004088ef2... |
+| ./ce20130604syr-other-lines.thumb.jpg | 4.5 KB | 1220bd177bbe... |
 
 ## Quick Start
 

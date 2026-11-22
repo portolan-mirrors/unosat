@@ -274,7 +274,9 @@
       "file:checksum": "12200ea2da4e4d9c30ade147b435a088b35ac795f46f01c37518d05684ac36f05598",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG), one GeoParquet file with the source columns."
     },
     "tc20170306mdg-water-extent-tiles": {
       "href": "./tc20170306mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12206d7d85fe51ba0c99a8e299ec165993104bf33cb86185136e5ef17001d11ea895",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 900,
-      "file:checksum": "12204e5aff4732196728fae3e686f747a3356bc8504c846654220f6c58c7901c9c86"
+      "file:checksum": "12204e5aff4732196728fae3e686f747a3356bc8504c846654220f6c58c7901c9c86",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170306mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10139,
+      "file:checksum": "122066c1169b92e5865c1ee21d62e3be69648ea8541a7bf3ee315bb15ad396c63d4c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Madagascar, 6 March 2017 (TC20170306MDG)."
     }
   }
 }

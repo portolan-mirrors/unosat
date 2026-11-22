@@ -274,7 +274,9 @@
       "file:checksum": "122067c70b6ba75e3afd2a84f3c81483baafaa16f41e6b190d10f82b63efbc2240db",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV), one GeoParquet file with the source columns."
     },
     "tc20201118slv-water-extent-tiles": {
       "href": "./tc20201118slv-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12205cf76d1be77a00332f10d98d80288afb2b871fb3e19c091317d0122ab3bc1902",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220093666911e4f66ccdebabdd39165e91f5472c2b7a30a3c39cc374fe894d175af"
+      "file:checksum": "1220093666911e4f66ccdebabdd39165e91f5472c2b7a30a3c39cc374fe894d175af",
+      "description": "MapLibre style for Water extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201118slv-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8805,
+      "file:checksum": "122064c093611db8c81bbf5c8aa2d42f7005c2fc774ae542600311296a354eabcb3a",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV)."
     }
   }
 }

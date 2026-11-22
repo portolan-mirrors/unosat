@@ -253,7 +253,9 @@
       "file:checksum": "12200ff63740e8aa180720d9f5d019f0d29efd6f6ef49dd452627c6af5beded65bbe",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL), one GeoParquet file with the source columns."
     },
     "tc20201123col-analysis-extent-tiles": {
       "href": "./tc20201123col-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220d9059be6b22ed6467a3b6b6b4afde8cb0449e8a13e323eb4d9c242a6b5ceb3bb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220436e6f53e9fb96b782699eed31ebcc2688c760b0dc964a98ffcd2f7b81da11b0"
+      "file:checksum": "1220436e6f53e9fb96b782699eed31ebcc2688c760b0dc964a98ffcd2f7b81da11b0",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201123col-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11573,
+      "file:checksum": "122001e28d195114eff3d223a4fd70e2bc1e8f789ba01594cf01637a94a466028404",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Colombia, 23 November 2020 (TC20201123COL)."
     }
   }
 }

@@ -216,7 +216,9 @@
       "file:checksum": "1220485beb5e77d36c0ec4a95fe4b18155f05b23e9c17cbc6030dd3b340384f54f72",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD), one GeoParquet file with the source columns."
     },
     "fl20191118cod-damage-sites-tiles": {
       "href": "./fl20191118cod-damage-sites.pmtiles",
@@ -225,7 +227,9 @@
       "file:checksum": "1220fa8919d3ddc253f7d15748bd56f3e00df9d7f22df053fdd4f2dcd279ee7ce06f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -236,7 +240,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 936,
-      "file:checksum": "1220f641c6f74d89603e315441ec666529fd2c8fad50df36555211f6d0d10718556c"
+      "file:checksum": "1220f641c6f74d89603e315441ec666529fd2c8fad50df36555211f6d0d10718556c",
+      "description": "MapLibre style for Damage sites: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191118cod-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2766,
+      "file:checksum": "1220fccbed91dce4b348a512689410e8d74141c1145579ac2f96ba4d200f8b3b82db",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD)."
     }
   }
 }

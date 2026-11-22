@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Senegal, 8 October 2026 (FL20261008SEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20261008sen/fl20261008sen-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20261008sen/fl20261008sen-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Senegal, 8 October 2026 (FL20261008SEN): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20261008sen-analysis-extent.parquet | 4.7 KB | 12206a6b9d20... |
 | ./fl20261008sen-analysis-extent.pmtiles | 165.7 KB | 1220292a34a2... |
 | ./styles/default.json | 671 B | 122010d1ac8d... |
+| ./fl20261008sen-analysis-extent.thumb.jpg | 7.9 KB | 12208ea0c051... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Water extent: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Landslide, Indonesia, 12 May 2024 (LS20240512IDN): 7 features merged from 7 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240512idn-water-extent.parquet | 59.7 KB | 1220dc5f84c5... |
 | ./ls20240512idn-water-extent.pmtiles | 37.9 KB | 1220af161cb0... |
 | ./styles/default.json | 910 B | 12202147ab44... |
+| ./ls20240512idn-water-extent.thumb.jpg | 5.3 KB | 1220398350c9... |
 
 ## Quick Start
 

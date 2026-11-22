@@ -881,7 +881,9 @@
       "file:checksum": "122079578514545102fa74d57b9906055d285627a1683286493598d04ff0bc31a9db",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE), one GeoParquet file with the source columns."
     },
     "ce20231007pse-damage-sites-tiles": {
       "href": "./ce20231007pse-damage-sites.pmtiles",
@@ -890,7 +892,9 @@
       "file:checksum": "1220126ad21dd45f310ecc4c165fe8955c259c4f275a9436ba86d4247f552173891e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -901,7 +905,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1318,
-      "file:checksum": "122046057a710238f707ba6094529f38b30c5c8b4a7ccca394f8940fe23530f2fd99"
+      "file:checksum": "122046057a710238f707ba6094529f38b30c5c8b4a7ccca394f8940fe23530f2fd99",
+      "description": "MapLibre style for Damage sites: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20231007pse-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 24567,
+      "file:checksum": "1220c2f551f9cd9eb6e7726da07548216c34c7ef015e7e9d1e3378d63ab6cab0d493",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)."
     }
   }
 }

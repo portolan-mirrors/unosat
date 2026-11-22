@@ -1,5 +1,5 @@
 # Damage sites: Flood, Rwanda, 4 May 2023 (FL20230504RWA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230504rwa/fl20230504rwa-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230504rwa/fl20230504rwa-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Rwanda, 4 May 2023 (FL20230504RWA): 385 features merged from 3 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230504rwa-damage-sites.parquet | 20.2 KB | 1220b3fe2bee... |
 | ./fl20230504rwa-damage-sites.pmtiles | 51.6 KB | 12206260d4a2... |
 | ./styles/default.json | 1.0 KB | 122034ef2c03... |
+| ./fl20230504rwa-damage-sites.thumb.jpg | 3.1 KB | 1220ab361433... |
 
 ## Quick Start
 

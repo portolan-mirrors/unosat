@@ -1,5 +1,5 @@
 # Analysis extent: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130710som/ce20130710som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Complex emergency, Somalia, 10 July 2013 (CE20130710SOM): 120 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130710som-analysis-extent.parquet | 93.6 KB | 12201e31463d... |
 | ./ce20130710som-analysis-extent.pmtiles | 91.7 KB | 1220b4bedeef... |
 | ./styles/default.json | 671 B | 122018d7dab0... |
+| ./ce20130710som-analysis-extent.thumb.jpg | 3.6 KB | 12209532be6c... |
 
 ## Quick Start
 

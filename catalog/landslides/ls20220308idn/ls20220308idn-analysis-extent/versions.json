@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "ls20220308idn-analysis-extent.parquet",
         "ls20220308idn-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:52.138172Z",
+      "breaking": false,
+      "assets": {
+        "ls20220308idn-analysis-extent.parquet": {
+          "sha256": "a169722eed0da22ef05d88ce7833afa255f74a0dbf30e7913367329551072d91",
+          "size_bytes": 65718,
+          "href": "landslides/ls20220308idn/ls20220308idn-analysis-extent/ls20220308idn-analysis-extent.parquet",
+          "source_path": "ls20220308idn-analysis-extent.parquet",
+          "source_mtime": 1795333460.4068885,
+          "mtime": 1795333460.4068885,
+          "feature_count": 2,
+          "schema_fingerprint": "f32cc1a6feb07bd1"
+        },
+        "ls20220308idn-analysis-extent.pmtiles": {
+          "sha256": "4becd2d1674633e7b3c7b2a4bfe3ef9503d77ceba8fefb3cca8c4beeb267d74e",
+          "size_bytes": 66461,
+          "href": "landslides/ls20220308idn/ls20220308idn-analysis-extent/ls20220308idn-analysis-extent.pmtiles",
+          "mtime": 1795334246.5604975
+        },
+        "ls20220308idn-analysis-extent.thumb.jpg": {
+          "sha256": "b7aebaa8467a57578b9e0c261298bd07258cc3ab9995dce492b008aec40159c5",
+          "size_bytes": 12578,
+          "href": "landslides/ls20220308idn/ls20220308idn-analysis-extent/ls20220308idn-analysis-extent.thumb.jpg",
+          "mtime": 1795343632.134809
+        }
+      },
+      "changes": [
+        "ls20220308idn-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: ls20220308idn-analysis-extent.thumb.jpg"
     }
   ]
 }

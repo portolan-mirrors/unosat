@@ -1,5 +1,5 @@
 # Water extent: Flood, Algeria, 26 May 2023 (FL20230526DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230526dza/fl20230526dza-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230526dza/fl20230526dza-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Algeria, 26 May 2023 (FL20230526DZA): 2 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230526dza-water-extent.parquet | 18.2 KB | 1220562d57bc... |
 | ./fl20230526dza-water-extent.pmtiles | 27.4 KB | 1220701626ec... |
 | ./styles/default.json | 887 B | 12205ba51660... |
+| ./fl20230526dza-water-extent.thumb.jpg | 6.7 KB | 1220ba8b6115... |
 
 ## Quick Start
 

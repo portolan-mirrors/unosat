@@ -229,7 +229,9 @@
       "file:checksum": "1220bf531c430b5d3d83ca50bab7b8aa7eabfc1e26a0fcff5745e21d5848df8b4d31",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD), one GeoParquet file with the source columns."
     },
     "fl20211008cod-analysis-extent-tiles": {
       "href": "./fl20211008cod-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12207613b1a4127a805be235268ce880c32b44ea170fa0dc0ccbf50707da3c02b410",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220fe1dd3c33b57af96a47f4f3c7caea3c9093df8463f3ac3c78a9d253d8ad5e6ad"
+      "file:checksum": "1220fe1dd3c33b57af96a47f4f3c7caea3c9093df8463f3ac3c78a9d253d8ad5e6ad",
+      "description": "MapLibre style for Analysis extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20211008cod-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11149,
+      "file:checksum": "12205ad6748501dadf1f36aee8dbb10ce2a6082ff7d6da1b12c513550d4be70fd135",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD)."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "ls20240525png-damage-sites.parquet",
         "ls20240525png-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:52.615866Z",
+      "breaking": false,
+      "assets": {
+        "ls20240525png-damage-sites.parquet": {
+          "sha256": "d53fad71e884647cf52fcb543f2b52e71d483c2128bb52a89d03977fbc71f134",
+          "size_bytes": 8992,
+          "href": "landslides/ls20240525png/ls20240525png-damage-sites/ls20240525png-damage-sites.parquet",
+          "source_path": "ls20240525png-damage-sites.parquet",
+          "source_mtime": 1795333469.1717732,
+          "mtime": 1795333469.1717732,
+          "feature_count": 63,
+          "schema_fingerprint": "aeef0cdfd6139d2b"
+        },
+        "ls20240525png-damage-sites.pmtiles": {
+          "sha256": "0479f9dc7de67f969711aa5a7a7ec1e5ecfc9569bc4ae10391d08b4d01f23431",
+          "size_bytes": 25505,
+          "href": "landslides/ls20240525png/ls20240525png-damage-sites/ls20240525png-damage-sites.pmtiles",
+          "mtime": 1795334249.049466
+        },
+        "ls20240525png-damage-sites.thumb.jpg": {
+          "sha256": "f10f94d597868d2a8e1426b14b5b34b575f413222ad6c0ea644f7a3cdc20eb96",
+          "size_bytes": 4424,
+          "href": "landslides/ls20240525png/ls20240525png-damage-sites/ls20240525png-damage-sites.thumb.jpg",
+          "mtime": 1795343632.6128025
+        }
+      },
+      "changes": [
+        "ls20240525png-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: ls20240525png-damage-sites.thumb.jpg"
     }
   ]
 }

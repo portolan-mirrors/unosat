@@ -1,5 +1,5 @@
 # Water extent: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Landslide, Afghanistan, 12 July 2018 (LS20180712AFG): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20180712afg-water-extent.parquet | 13.8 KB | 12201eea8217... |
 | ./ls20180712afg-water-extent.pmtiles | 20.9 KB | 12207081c813... |
 | ./styles/default.json | 879 B | 1220e0ae28c9... |
+| ./ls20180712afg-water-extent.thumb.jpg | 6.8 KB | 1220718f4486... |
 
 ## Quick Start
 

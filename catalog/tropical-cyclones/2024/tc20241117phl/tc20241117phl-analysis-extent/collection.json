@@ -282,7 +282,9 @@
       "file:checksum": "1220f7c013e35b80148a9483596a9e62e678da065cde530bfcb6589324c628e4633b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL), one GeoParquet file with the source columns."
     },
     "tc20241117phl-analysis-extent-tiles": {
       "href": "./tc20241117phl-analysis-extent.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220021d6ab30bf70e918040b3cdb11d30860fd777df02445de9dab63a8952db3f3e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b866cb5838b6c8b716afccbe25793b6a5a85d5530f96aeb8a74514f5bbbab259"
+      "file:checksum": "1220b866cb5838b6c8b716afccbe25793b6a5a85d5530f96aeb8a74514f5bbbab259",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20241117phl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7246,
+      "file:checksum": "12206baabe7865fa3b4bbeea04ce9c9093455d9aa3ec512827998287f33db05f527b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Philippines, 17 November 2024 (TC20241117PHL)."
     }
   }
 }

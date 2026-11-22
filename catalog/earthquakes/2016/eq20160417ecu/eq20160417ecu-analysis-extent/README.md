@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU): 54 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20160417ecu-analysis-extent.parquet | 3.5 MB | 1220ab6f04c4... |
 | ./eq20160417ecu-analysis-extent.pmtiles | 447.7 KB | 1220f666c702... |
 | ./styles/default.json | 671 B | 12201a0a2aba... |
+| ./eq20160417ecu-analysis-extent.thumb.jpg | 4.2 KB | 12204447a068... |
 
 ## Quick Start
 

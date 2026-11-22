@@ -1,5 +1,5 @@
 # Other polygons: Landslide, Georgia, 4 August 2023 (LS20230804GEO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Landslide, Georgia, 4 August 2023 (LS20230804GEO): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20230804geo-other-polygons.parquet | 11.0 KB | 122041722214... |
 | ./ls20230804geo-other-polygons.pmtiles | 28.3 KB | 12208ca12882... |
 | ./styles/default.json | 664 B | 1220ee95a063... |
+| ./ls20230804geo-other-polygons.thumb.jpg | 10.1 KB | 122000281cbb... |
 
 ## Quick Start
 

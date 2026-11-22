@@ -274,7 +274,9 @@
       "file:checksum": "1220af9f8f94f10313484f7f40b91018573d1b27047ab165d1a84d77f02594c181e9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Myanmar, 15 July 2019 (FL20190715MMR), one GeoParquet file with the source columns."
     },
     "fl20190715mmr-water-extent-tiles": {
       "href": "./fl20190715mmr-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12207c47a989e3d12aa6b75a1522586f1216c878ef9c88df2bc876edd36c74ea4c70",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Myanmar, 15 July 2019 (FL20190715MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d66f8373e20707fe00d7583491d26d98fcc00341e8aac8a76fd1bb12345d97ff"
+      "file:checksum": "1220d66f8373e20707fe00d7583491d26d98fcc00341e8aac8a76fd1bb12345d97ff",
+      "description": "MapLibre style for Water extent: Flood, Myanmar, 15 July 2019 (FL20190715MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20190715mmr-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7754,
+      "file:checksum": "1220b70bdf1225b56f8ede39df09e33ee21708eb4fd7901e9e4620a9e586534221f6",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Myanmar, 15 July 2019 (FL20190715MMR)."
     }
   }
 }

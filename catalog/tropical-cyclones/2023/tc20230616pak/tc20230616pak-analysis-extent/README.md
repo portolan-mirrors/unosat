@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230616pak/tc20230616pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230616pak/tc20230616pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Pakistan, 16 June 2023 (TC20230616PAK): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230616pak-analysis-extent.parquet | 439.6 KB | 12206ba73e86... |
 | ./tc20230616pak-analysis-extent.pmtiles | 9.8 MB | 1220eb4c79f4... |
 | ./styles/default.json | 671 B | 12200fa402b6... |
+| ./tc20230616pak-analysis-extent.thumb.jpg | 19.5 KB | 12209c87bca7... |
 
 ## Quick Start
 

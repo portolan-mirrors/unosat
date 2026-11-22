@@ -217,7 +217,9 @@
       "file:checksum": "1220ad2a589eb54e7a77c951928beea50994f45d286626d6adca7c092c0343ab1ae5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Fire, Tunisia, 25 July 2023 (FR20230725TUN), one GeoParquet file with the source columns."
     },
     "fr20230725tun-analysis-extent-tiles": {
       "href": "./fr20230725tun-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220997d3bd4999eab2c24608b0c2249617f6ac3c9849ffd16765c6354776e2f99e2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Fire, Tunisia, 25 July 2023 (FR20230725TUN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220069c69156febde4246ef8ec6530ecacd6280d484bc649437a75c3ede7f7a7d53"
+      "file:checksum": "1220069c69156febde4246ef8ec6530ecacd6280d484bc649437a75c3ede7f7a7d53",
+      "description": "MapLibre style for Analysis extent: Fire, Tunisia, 25 July 2023 (FR20230725TUN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20230725tun-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7137,
+      "file:checksum": "1220d3aef50912189a3d3a3f06d61921c0104b1303d5fd241a29bb9d5bfb87422460",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Fire, Tunisia, 25 July 2023 (FR20230725TUN)."
     }
   }
 }

@@ -262,7 +262,9 @@
       "file:checksum": "122039dd54a7eec2bcdf66882568da02717267b74ba4fa20290cf380f33fafbc5e00",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Sudan, 26 August 2024 (FL20240826SDN), one GeoParquet file with the source columns."
     },
     "fl20240826sdn-damage-sites-tiles": {
       "href": "./fl20240826sdn-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12200002bc9f3beb406bba0362ca2929e8d27c5827df88e7fa7b3fb5a3d09b439a39",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Sudan, 26 August 2024 (FL20240826SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1049,
-      "file:checksum": "1220fe1c866c8761d24453b9405ff0be991b02ec0ba41da84913318e39d098c16467"
+      "file:checksum": "1220fe1c866c8761d24453b9405ff0be991b02ec0ba41da84913318e39d098c16467",
+      "description": "MapLibre style for Damage sites: Flood, Sudan, 26 August 2024 (FL20240826SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240826sdn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3471,
+      "file:checksum": "122047501301231bdf1ed17688410f559a198236157286338771b886a635caee7a21",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Sudan, 26 August 2024 (FL20240826SDN)."
     }
   }
 }

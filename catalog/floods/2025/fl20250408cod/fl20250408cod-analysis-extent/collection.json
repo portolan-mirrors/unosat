@@ -229,7 +229,9 @@
       "file:checksum": "122094ed6021d087adef37e36a5b6b0dd3f65a08b5e833a4ab3ad5ce8bf0d869c0c6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Democratic Republic of the Congo, 8 April 2025 (FL20250408COD), one GeoParquet file with the source columns."
     },
     "fl20250408cod-analysis-extent-tiles": {
       "href": "./fl20250408cod-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220e19e3ac0f63bb55bd1cdd1862fa116d420076aa62dd208d52dfdf364fb178dca",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Democratic Republic of the Congo, 8 April 2025 (FL20250408COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122041feb78c36ec40a49e1cf932268bfaf9e049757f8aa08f751c57ec17cc251631"
+      "file:checksum": "122041feb78c36ec40a49e1cf932268bfaf9e049757f8aa08f751c57ec17cc251631",
+      "description": "MapLibre style for Analysis extent: Flood, Democratic Republic of the Congo, 8 April 2025 (FL20250408COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250408cod-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5157,
+      "file:checksum": "122047161edf739625223f5c781bc1c0e1d8ffb9771ae8452a8567b49cc0d129b17e",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Democratic Republic of the Congo, 8 April 2025 (FL20250408COD)."
     }
   }
 }

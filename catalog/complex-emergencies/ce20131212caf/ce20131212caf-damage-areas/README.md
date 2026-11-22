@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF): 32 features merged from 6 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131212caf-damage-areas.parquet | 16.0 KB | 1220b0c2d5f9... |
 | ./ce20131212caf-damage-areas.pmtiles | 115.2 KB | 122037b24f56... |
 | ./styles/default.json | 907 B | 12208be9150a... |
+| ./ce20131212caf-damage-areas.thumb.jpg | 4.1 KB | 1220f5f345c9... |
 
 ## Quick Start
 

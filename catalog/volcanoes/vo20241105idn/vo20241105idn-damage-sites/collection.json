@@ -262,7 +262,9 @@
       "file:checksum": "12203eb2a18235d700a2cc38e5cc541b350f200d92392dc8cd271e212846ecff503a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Volcano, Indonesia, 5 November 2024 (VO20241105IDN), one GeoParquet file with the source columns."
     },
     "vo20241105idn-damage-sites-tiles": {
       "href": "./vo20241105idn-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12202ca1bfee051a856441806bbe35bd0902a6402baf985e4ca18076c19ea0213a07",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Volcano, Indonesia, 5 November 2024 (VO20241105IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1050,
-      "file:checksum": "1220ffa2b676917463351c52666344722b6e665c11c33502ba3b0b0fe56acc4d7286"
+      "file:checksum": "1220ffa2b676917463351c52666344722b6e665c11c33502ba3b0b0fe56acc4d7286",
+      "description": "MapLibre style for Damage sites: Volcano, Indonesia, 5 November 2024 (VO20241105IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20241105idn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 28248,
+      "file:checksum": "1220ea96f622031ae1cc11648d8a2f12711bdca6a83e7b0cb287355fa5bea800be23",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Volcano, Indonesia, 5 November 2024 (VO20241105IDN)."
     }
   }
 }

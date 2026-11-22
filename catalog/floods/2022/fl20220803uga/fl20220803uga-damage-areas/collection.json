@@ -282,7 +282,9 @@
       "file:checksum": "1220e0d166bf0ae95242a236a0cf8aacd2af56fe86a00df7f74d75fef15318669e80",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Uganda, 3 August 2022 (FL20220803UGA), one GeoParquet file with the source columns."
     },
     "fl20220803uga-damage-areas-tiles": {
       "href": "./fl20220803uga-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12209c9649e03c68d690abb1ea48a2c640350c449f093e4d07c2b746a5ff6774dbf5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Uganda, 3 August 2022 (FL20220803UGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "122005c2814d571f35e105cf7c569cd79f527251d593e490ecad92cafcef89b3241b"
+      "file:checksum": "122005c2814d571f35e105cf7c569cd79f527251d593e490ecad92cafcef89b3241b",
+      "description": "MapLibre style for Damage areas: Flood, Uganda, 3 August 2022 (FL20220803UGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220803uga-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2367,
+      "file:checksum": "1220cccfbae7d8f23e4495c9c3b64c4eff34e09f25857c85818ad169ede07e3d529d",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Uganda, 3 August 2022 (FL20220803UGA)."
     }
   }
 }

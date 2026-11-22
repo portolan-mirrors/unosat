@@ -1,5 +1,5 @@
 # Shelter areas: Event, South Sudan, 11 May 2013 (OT20130511SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Event, South Sudan, 11 May 2013 (OT20130511SSD): 58 features merged from 5 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ot20130511ssd-shelter-areas.parquet | 81.7 KB | 1220eeb67679... |
 | ./ot20130511ssd-shelter-areas.pmtiles | 174.1 KB | 12204e28866a... |
 | ./styles/default.json | 871 B | 12203a227d21... |
+| ./ot20130511ssd-shelter-areas.thumb.jpg | 2.5 KB | 12200692f9e9... |
 
 ## Quick Start
 

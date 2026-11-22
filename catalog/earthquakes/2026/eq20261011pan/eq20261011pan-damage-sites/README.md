@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Panama, 11 October 2026 (EQ20261011PAN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20261011pan/eq20261011pan-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20261011pan/eq20261011pan-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Panama, 11 October 2026 (EQ20261011PAN): 24 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20261011pan-damage-sites.parquet | 8.6 KB | 1220e4892d26... |
 | ./eq20261011pan-damage-sites.pmtiles | 46.9 KB | 12201795c29d... |
 | ./styles/default.json | 997 B | 1220c7b8edfe... |
+| ./eq20261011pan-damage-sites.thumb.jpg | 3.9 KB | 1220dc2b1324... |
 
 ## Quick Start
 

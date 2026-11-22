@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Somalia, 30 October 2019 (FL20191030SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191030som/fl20191030som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191030som/fl20191030som-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Somalia, 30 October 2019 (FL20191030SOM): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191030som-analysis-extent.parquet | 5.7 KB | 1220257a7192... |
 | ./fl20191030som-analysis-extent.pmtiles | 230.5 KB | 12205522f08f... |
 | ./styles/default.json | 671 B | 1220cfb45803... |
+| ./fl20191030som-analysis-extent.thumb.jpg | 6.6 KB | 1220957de232... |
 
 ## Quick Start
 

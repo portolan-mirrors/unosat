@@ -187,7 +187,9 @@
       "file:checksum": "1220f6db75b91441490d7235680f664b181b05410e515e229272a391f593d7b755ed",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL), one GeoParquet file with the source columns."
     },
     "eq20150425npl-other-polygons-epsg_4326-tiles": {
       "href": "./eq20150425npl-other-polygons-epsg_4326.pmtiles",
@@ -196,7 +198,9 @@
       "file:checksum": "1220cc9600608954570db37d7aa018aee9516444df9e1d391781e56e75ca7f3679a5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -207,7 +211,19 @@
       ],
       "title": "Other polygons",
       "file:size": 674,
-      "file:checksum": "122053685f2927dfe05cf85027cabe085b96ade1ccf6ce4f2555bf6b644a6b55c1c1"
+      "file:checksum": "122053685f2927dfe05cf85027cabe085b96ade1ccf6ce4f2555bf6b644a6b55c1c1",
+      "description": "MapLibre style for Other polygons: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20150425npl-other-polygons-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5604,
+      "file:checksum": "12200b61921f6be2fc73e28e01e0c359ff223a8cb580a6c65f57116f65fd485bcb0a",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)."
     }
   }
 }

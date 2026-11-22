@@ -282,7 +282,9 @@
       "file:checksum": "1220caae6edf69182a16b8696f3e10f841c30c485969e929d03ed9792def736e4750",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Landslide, Nepal, 18 August 2024 (LS20240818NPL), one GeoParquet file with the source columns."
     },
     "ls20240818npl-damage-areas-tiles": {
       "href": "./ls20240818npl-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12201bdda19037aa209955f2a681f874f717779797cb31dd027c502cef31f3ea5bfb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Landslide, Nepal, 18 August 2024 (LS20240818NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 911,
-      "file:checksum": "1220b5490134f53974a49777ff327a37fba76d7aeb14779693001c1de1ec095a0486"
+      "file:checksum": "1220b5490134f53974a49777ff327a37fba76d7aeb14779693001c1de1ec095a0486",
+      "description": "MapLibre style for Damage areas: Landslide, Nepal, 18 August 2024 (LS20240818NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240818npl-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5893,
+      "file:checksum": "1220f02d2f71065be67632d8244b4d3e7cec3ec27b2f13b75a439f170592709040b7",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Landslide, Nepal, 18 August 2024 (LS20240818NPL)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20161003hti/tc20161003hti-other-polygons-cc_by_4_0-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI): 600 features merged from 3 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -74,6 +74,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20161003hti-other-polygons-cc_by_4_0-epsg_4326.parquet | 994.5 KB | 1220a0cfa654... |
 | ./tc20161003hti-other-polygons-cc_by_4_0-epsg_4326.pmtiles | 3.1 MB | 1220c05e3015... |
 | ./styles/default.json | 684 B | 12207526c70a... |
+| ./tc20161003hti-other-polygons-cc_by_4_0-epsg_4326.thumb.jpg | 19.3 KB | 122097afadc2... |
 
 ## Quick Start
 

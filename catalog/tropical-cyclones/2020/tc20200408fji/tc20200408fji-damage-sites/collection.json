@@ -262,7 +262,9 @@
       "file:checksum": "122005bce8ca241de87fdb734bc8b29fd8561d44929d00840e71773e92f32de6eeef",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI), one GeoParquet file with the source columns."
     },
     "tc20200408fji-damage-sites-tiles": {
       "href": "./tc20200408fji-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12202e5712eb355f3546ab58d3316614c90ebc9a60e3ee77b678b9f26f0bc42b5b58",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 996,
-      "file:checksum": "122031d870ff3f7dab7b21eb6498759f0d8d2574dcd156acbf2593e1e088792ca603"
+      "file:checksum": "122031d870ff3f7dab7b21eb6498759f0d8d2574dcd156acbf2593e1e088792ca603",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200408fji-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2467,
+      "file:checksum": "122045ffab5c1e279f45bcc627d70a40e54404ea8f17b0c0a1f825242ad7aa395c14",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)."
     }
   }
 }

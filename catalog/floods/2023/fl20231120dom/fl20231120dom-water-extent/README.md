@@ -1,5 +1,5 @@
 # Water extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231120dom/fl20231120dom-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231120dom/fl20231120dom-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Dominican Republic, 20 November 2023 (FL20231120DOM): 13 features merged from 13 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231120dom-water-extent.parquet | 5.8 MB | 122054579c9b... |
 | ./fl20231120dom-water-extent.pmtiles | 1.4 MB | 12202e534b11... |
 | ./styles/default.json | 887 B | 12201ab21e91... |
+| ./fl20231120dom-water-extent.thumb.jpg | 12.2 KB | 1220a5884a32... |
 
 ## Quick Start
 

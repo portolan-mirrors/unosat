@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL): 18 features merged from 18 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201111phl-water-extent.parquet | 60.7 MB | 12209b9afb51... |
 | ./tc20201111phl-water-extent.pmtiles | 10.2 MB | 12206468b542... |
 | ./styles/default.json | 887 B | 1220c117bcc7... |
+| ./tc20201111phl-water-extent.thumb.jpg | 12.9 KB | 1220d14765d5... |
 
 ## Quick Start
 

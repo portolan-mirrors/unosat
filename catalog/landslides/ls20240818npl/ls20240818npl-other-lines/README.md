@@ -1,5 +1,5 @@
 # Other lines: Landslide, Nepal, 18 August 2024 (LS20240818NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Landslide, Nepal, 18 August 2024 (LS20240818NPL): 64 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240818npl-other-lines.parquet | 19.8 KB | 1220216aa9ef... |
 | ./ls20240818npl-other-lines.pmtiles | 35.6 KB | 12203566d6bb... |
 | ./styles/default.json | 401 B | 1220fe9ebd08... |
+| ./ls20240818npl-other-lines.thumb.jpg | 2.3 KB | 12204b93e11b... |
 
 ## Quick Start
 

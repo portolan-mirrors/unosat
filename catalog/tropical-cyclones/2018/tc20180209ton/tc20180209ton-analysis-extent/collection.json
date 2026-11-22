@@ -210,7 +210,9 @@
       "file:checksum": "1220bb53f7d1814290088e937cbec23e806a1db4b36e2c30e4d3a7bb2e7462369a7d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON), one GeoParquet file with the source columns."
     },
     "tc20180209ton-analysis-extent-tiles": {
       "href": "./tc20180209ton-analysis-extent.pmtiles",
@@ -219,7 +221,9 @@
       "file:checksum": "12206add4069657f053f05da52231575d22b7528a04163780e7f495afe7a67b1f7a9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -230,7 +234,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220ba2fea5da07873ed0474b28ca7c8d865230998e63719e9521305bc3c9cb43e82"
+      "file:checksum": "1220ba2fea5da07873ed0474b28ca7c8d865230998e63719e9521305bc3c9cb43e82",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20180209ton-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 23861,
+      "file:checksum": "1220a229cce08a8f99f3cc99092a85b9998e04c1f06227d03b222026daf8da917a8c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)."
     }
   }
 }

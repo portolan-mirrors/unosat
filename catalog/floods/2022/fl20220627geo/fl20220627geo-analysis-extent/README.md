@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Georgia, 27 June 2022 (FL20220627GEO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220627geo/fl20220627geo-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220627geo/fl20220627geo-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Georgia, 27 June 2022 (FL20220627GEO): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220627geo-analysis-extent.parquet | 33.8 KB | 1220b78db12a... |
 | ./fl20220627geo-analysis-extent.pmtiles | 76.2 KB | 122089002010... |
 | ./styles/default.json | 671 B | 1220fa58340b... |
+| ./fl20220627geo-analysis-extent.thumb.jpg | 5.9 KB | 12208ceaf0d0... |
 
 ## Quick Start
 

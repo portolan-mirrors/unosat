@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR): 3,465 features merged from 77 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -74,6 +74,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328mmr-other-polygons.parquet | 794.0 KB | 12207b7437ae... |
 | ./eq20250328mmr-other-polygons.pmtiles | 439.6 KB | 1220c32ebbce... |
 | ./styles/default.json | 664 B | 12205b0b9f61... |
+| ./eq20250328mmr-other-polygons.thumb.jpg | 5.0 KB | 1220f6aaca37... |
 
 ## Quick Start
 

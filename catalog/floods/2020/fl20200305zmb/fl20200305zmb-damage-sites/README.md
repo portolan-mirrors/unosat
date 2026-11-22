@@ -1,5 +1,5 @@
 # Damage sites: Flood, Zambia, 5 March 2020 (FL20200305ZMB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200305zmb/fl20200305zmb-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2020/fl20200305zmb/fl20200305zmb-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Zambia, 5 March 2020 (FL20200305ZMB): 144 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20200305zmb-damage-sites.parquet | 13.2 KB | 1220b8f69bb3... |
 | ./fl20200305zmb-damage-sites.pmtiles | 34.5 KB | 12200e95e503... |
 | ./styles/default.json | 956 B | 122094b0a9ae... |
+| ./fl20200305zmb-damage-sites.thumb.jpg | 3.9 KB | 122036a27fa4... |
 
 ## Quick Start
 

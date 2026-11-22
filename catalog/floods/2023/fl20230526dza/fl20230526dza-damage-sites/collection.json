@@ -262,7 +262,9 @@
       "file:checksum": "1220b7384ac48e410550126328ef832159af0027addafe0cf75a45e919e1d018afe2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Algeria, 26 May 2023 (FL20230526DZA), one GeoParquet file with the source columns."
     },
     "fl20230526dza-damage-sites-tiles": {
       "href": "./fl20230526dza-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ba103af29e8e6f88d7f7d1bce85487284f299621bbd826a4b608a8c80ce4479e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Algeria, 26 May 2023 (FL20230526DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "12200076123c3bb1570dd5e4ac8a4c2c56174512926c6b0830c9908682da050affa7"
+      "file:checksum": "12200076123c3bb1570dd5e4ac8a4c2c56174512926c6b0830c9908682da050affa7",
+      "description": "MapLibre style for Damage sites: Flood, Algeria, 26 May 2023 (FL20230526DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230526dza-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6527,
+      "file:checksum": "122066081574545756bc1f37097d57555a251b5afd7de85ed5ab2ac0e6868e746778",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Algeria, 26 May 2023 (FL20230526DZA)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT geodata for Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador, from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:
 

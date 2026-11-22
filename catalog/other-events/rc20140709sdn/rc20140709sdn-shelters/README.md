@@ -1,5 +1,5 @@
 # Shelters: Event, Sudan, 9 July 2014 (RC20140709SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/rc20140709sdn/rc20140709sdn-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Event, Sudan, 9 July 2014 (RC20140709SDN): 21,579 features merged from 3 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./rc20140709sdn-shelters.parquet | 1.1 MB | 1220a6139313... |
 | ./rc20140709sdn-shelters.pmtiles | 1.4 MB | 12205083c9ac... |
 | ./styles/default.json | 892 B | 1220a2bfa476... |
+| ./rc20140709sdn-shelters.thumb.jpg | 5.2 KB | 122060b0229e... |
 
 ## Quick Start
 

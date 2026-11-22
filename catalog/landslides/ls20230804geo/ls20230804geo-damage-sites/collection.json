@@ -262,7 +262,9 @@
       "file:checksum": "1220e94f761b6c1ddab8f986dab7e5f3dece1c5a371ae0a85849835ab34d0bed720f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Landslide, Georgia, 4 August 2023 (LS20230804GEO), one GeoParquet file with the source columns."
     },
     "ls20230804geo-damage-sites-tiles": {
       "href": "./ls20230804geo-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ba906751b20d91d14d8ca54dc9e9c057ca2e32cb6d9881ced92eca1e2e138015",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Landslide, Georgia, 4 August 2023 (LS20230804GEO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "1220746c9ffc2a2e5ef2e339ad6f668f66d2668c687960a46bd8af254b11b1a343af"
+      "file:checksum": "1220746c9ffc2a2e5ef2e339ad6f668f66d2668c687960a46bd8af254b11b1a343af",
+      "description": "MapLibre style for Damage sites: Landslide, Georgia, 4 August 2023 (LS20230804GEO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20230804geo-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4119,
+      "file:checksum": "1220e50e03f36cb373095d6b0d6828668921521d426336e9a76fb80ea43238b2f469",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Landslide, Georgia, 4 August 2023 (LS20230804GEO)."
     }
   }
 }

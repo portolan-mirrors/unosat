@@ -220,7 +220,9 @@
       "file:checksum": "122065bec25c66c8b8b69309db7d0c88aa39235417f4a8ea1cfa1025431b73ef5601",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN), one GeoParquet file with the source columns."
     },
     "eq20181001idn-damage-sites-tiles": {
       "href": "./eq20181001idn-damage-sites.pmtiles",
@@ -229,7 +231,9 @@
       "file:checksum": "1220378c57a52fb758f55997a99bd4d8769aff4045ac7ad4cc5dbd47f7221397cb56",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -240,7 +244,19 @@
       ],
       "title": "Damage sites by Main_Damag",
       "file:size": 970,
-      "file:checksum": "122002372ae645bac1486be19ed88f67db6a4944ab069efc8d714f442c1b72d5e701"
+      "file:checksum": "122002372ae645bac1486be19ed88f67db6a4944ab069efc8d714f442c1b72d5e701",
+      "description": "MapLibre style for Damage sites: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20181001idn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6943,
+      "file:checksum": "12201a241b8a02261d481712c54630ce58013762a443aa91d0513835dc28541f87c0",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN)."
     }
   }
 }

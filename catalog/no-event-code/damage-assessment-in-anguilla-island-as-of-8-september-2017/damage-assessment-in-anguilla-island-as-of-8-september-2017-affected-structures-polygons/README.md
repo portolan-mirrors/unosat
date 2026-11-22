@@ -1,5 +1,5 @@
 # Affected structures polygons: Damage Assessment in Anguilla Island as of 8 September 2017
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Affected structures polygons for Damage Assessment in Anguilla Island as of 8 September 2017: 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -43,6 +43,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons.parquet | 4.3 KB | 12201fa924ab... |
 | ./damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons.pmtiles | 26.0 KB | 1220367b93f9... |
 | ./styles/default.json | 794 B | 1220972d2e22... |
+| ./damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons.thumb.jpg | 7.5 KB | 122017449fc7... |
 
 ## Quick Start
 

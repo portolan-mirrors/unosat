@@ -1,5 +1,5 @@
 # Water extent: Flood, Myanmar, 31 August 2021 (FL20210831MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210831mmr/fl20210831mmr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210831mmr/fl20210831mmr-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Myanmar, 31 August 2021 (FL20210831MMR): 3 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210831mmr-water-extent.parquet | 7.1 MB | 1220a76b8f54... |
 | ./fl20210831mmr-water-extent.pmtiles | 5.1 MB | 122056ec5e77... |
 | ./styles/default.json | 887 B | 12205234c534... |
+| ./fl20210831mmr-water-extent.thumb.jpg | 38.6 KB | 12200f207dde... |
 
 ## Quick Start
 

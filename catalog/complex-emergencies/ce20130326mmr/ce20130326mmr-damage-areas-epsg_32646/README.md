@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_32646/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-damage-areas-epsg_32646/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR): 932 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32646, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130326mmr-damage-areas-epsg_32646.parquet | 232.9 KB | 1220e135d74c... |
 | ./ce20130326mmr-damage-areas-epsg_32646.pmtiles | 748.6 KB | 1220fa9653dd... |
 | ./styles/default.json | 918 B | 1220876bd9c7... |
+| ./ce20130326mmr-damage-areas-epsg_32646.thumb.jpg | 7.0 KB | 1220283629b3... |
 
 ## Quick Start
 

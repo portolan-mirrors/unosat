@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201116nic/tc20201116nic-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201116nic/tc20201116nic-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC): 2 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201116nic-water-extent.parquet | 396.8 KB | 12201713d84b... |
 | ./tc20201116nic-water-extent.pmtiles | 1.9 MB | 12200d5f4e5a... |
 | ./styles/default.json | 972 B | 122057d8c87f... |
+| ./tc20201116nic-water-extent.thumb.jpg | 16.4 KB | 1220523828a1... |
 
 ## Quick Start
 

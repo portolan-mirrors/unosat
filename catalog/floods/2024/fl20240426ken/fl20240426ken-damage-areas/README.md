@@ -1,5 +1,5 @@
 # Damage areas: Flood, Kenya, 26 April 2024 (FL20240426KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Kenya, 26 April 2024 (FL20240426KEN): 11 features merged from 11 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240426ken-damage-areas.parquet | 80.0 KB | 1220e9588277... |
 | ./fl20240426ken-damage-areas.pmtiles | 50.9 KB | 1220a272e050... |
 | ./styles/default.json | 904 B | 1220332f7df0... |
+| ./fl20240426ken-damage-areas.thumb.jpg | 8.7 KB | 12203df4c01a... |
 
 ## Quick Start
 

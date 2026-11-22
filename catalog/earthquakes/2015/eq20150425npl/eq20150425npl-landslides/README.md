@@ -1,5 +1,5 @@
 # Landslides: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Landslides for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 51 features merged from 1 source layer. Polygon layers whose names mention landslides, mudflows, or debris. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32645, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20150425npl-landslides.parquet | 42.2 KB | 12209d030e76... |
 | ./eq20150425npl-landslides.pmtiles | 58.5 KB | 122087103822... |
 | ./styles/default.json | 640 B | 122078209e9f... |
+| ./eq20150425npl-landslides.thumb.jpg | 4.8 KB | 122085731f09... |
 
 ## Quick Start
 

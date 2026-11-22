@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Yemen, 2 April 2015 (CE20150402YEM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150402yem/ce20150402yem-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20150402yem/ce20150402yem-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Yemen, 2 April 2015 (CE20150402YEM): 5,448 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20150402yem-damage-sites.parquet | 200.2 KB | 12208179c59a... |
 | ./ce20150402yem-damage-sites.pmtiles | 334.3 KB | 12200d253ea8... |
 | ./styles/default.json | 1.2 KB | 12206bc59a97... |
+| ./ce20150402yem-damage-sites.thumb.jpg | 2.8 KB | 12205dd9933e... |
 
 ## Quick Start
 

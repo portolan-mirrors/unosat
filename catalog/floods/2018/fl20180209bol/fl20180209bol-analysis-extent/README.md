@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Bolivia (Plurinational State of), 9 February 2018 (FL20180209BOL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180209bol/fl20180209bol-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180209bol/fl20180209bol-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Bolivia (Plurinational State of), 9 February 2018 (FL20180209BOL): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -44,6 +44,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180209bol-analysis-extent.parquet | 4.1 KB | 122072d19474... |
 | ./fl20180209bol-analysis-extent.pmtiles | 82.1 KB | 12207cd7c446... |
 | ./styles/default.json | 671 B | 1220065a8473... |
+| ./fl20180209bol-analysis-extent.thumb.jpg | 4.5 KB | 1220bbbe91fc... |
 
 ## Quick Start
 

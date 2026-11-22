@@ -214,7 +214,9 @@
       "file:checksum": "122037eec000c2916c1d4303964f86ba55b6cb6dd72e6d397d20462af5cc323f7a12",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Damage Assessment in Barbuda Island as of 8 September 2017, one GeoParquet file with the source columns."
     },
     "damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent-tiles": {
       "href": "./damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent.pmtiles",
@@ -223,7 +225,9 @@
       "file:checksum": "122012309bf4dca133afe574e6bf381610d3f6c446a2584ab196724c206862c33ace",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Damage Assessment in Barbuda Island as of 8 September 2017 for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -234,7 +238,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 716,
-      "file:checksum": "1220b869dcafb0f8e8c7c4bf28af1db9801ca0657b56f99fd5dee271ddf055587758"
+      "file:checksum": "1220b869dcafb0f8e8c7c4bf28af1db9801ca0657b56f99fd5dee271ddf055587758",
+      "description": "MapLibre style for Analysis extent: Damage Assessment in Barbuda Island as of 8 September 2017; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./damage-assessment-in-barbuda-island-as-of-8-september-2017-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 33796,
+      "file:checksum": "122074fe7c0353dd50fe09f324dd9c3ec8fa4efec2e9ad6c60cd120aaaa6c28e8d2e",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Damage Assessment in Barbuda Island as of 8 September 2017."
     }
   }
 }

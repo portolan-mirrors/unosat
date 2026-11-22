@@ -262,7 +262,9 @@
       "file:checksum": "12204a95cb243e5c34708ececf9df6ee55fbc75fa10b0940f5757b583aa9d66a8e66",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Nigeria, 2 September 2024 (FL20240902NGA), one GeoParquet file with the source columns."
     },
     "fl20240902nga-damage-sites-tiles": {
       "href": "./fl20240902nga-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220f52b53d6dadb81596fd41b38d9984b92e8d9aba8830d55d87c334b7941080e85",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Nigeria, 2 September 2024 (FL20240902NGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "12209727f870c5b5086dd005f58664d614efa78b1e3d615be84eeef87ca83c69198a"
+      "file:checksum": "12209727f870c5b5086dd005f58664d614efa78b1e3d615be84eeef87ca83c69198a",
+      "description": "MapLibre style for Damage sites: Flood, Nigeria, 2 September 2024 (FL20240902NGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240902nga-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4402,
+      "file:checksum": "12201abe1fe06c358d17f8951c7c092e66d7564f3e99693b735902c1b567bcd3c336",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Nigeria, 2 September 2024 (FL20240902NGA)."
     }
   }
 }

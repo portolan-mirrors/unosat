@@ -1,5 +1,5 @@
 # Analysis extent: Landslide, Indonesia, 8 March 2022 (LS20220308IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20220308idn/ls20220308idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20220308idn/ls20220308idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Landslide, Indonesia, 8 March 2022 (LS20220308IDN): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20220308idn-analysis-extent.parquet | 64.2 KB | 1220a169722e... |
 | ./ls20220308idn-analysis-extent.pmtiles | 64.9 KB | 12204becd2d1... |
 | ./styles/default.json | 671 B | 12205f370e8d... |
+| ./ls20220308idn-analysis-extent.thumb.jpg | 12.3 KB | 1220b7aebaa8... |
 
 ## Quick Start
 

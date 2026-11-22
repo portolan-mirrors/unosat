@@ -229,7 +229,9 @@
       "file:checksum": "122088fe53c17640562fcd29edbc29212329f0ece93552188e00492d8bb627db41c8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, India, 23 November 2015 (FL20151123IND), one GeoParquet file with the source columns."
     },
     "fl20151123ind-analysis-extent-tiles": {
       "href": "./fl20151123ind-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220ae366879d3671bbb11b8561aecd1c14739331c89f8d42d8ebd6db9251f66bd2a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, India, 23 November 2015 (FL20151123IND) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201fa1eb60a457527c7b6d695213cc10d03d36216856e0711ad05379e800e1d40c"
+      "file:checksum": "12201fa1eb60a457527c7b6d695213cc10d03d36216856e0711ad05379e800e1d40c",
+      "description": "MapLibre style for Analysis extent: Flood, India, 23 November 2015 (FL20151123IND); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20151123ind-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12716,
+      "file:checksum": "1220f02678a12aa2ddc205b56e6b8c6366d466e46fd835874dd3bc63b708c35a89dd",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, India, 23 November 2015 (FL20151123IND)."
     }
   }
 }

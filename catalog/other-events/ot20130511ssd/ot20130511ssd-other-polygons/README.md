@@ -1,5 +1,5 @@
 # Other polygons: Event, South Sudan, 11 May 2013 (OT20130511SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Event, South Sudan, 11 May 2013 (OT20130511SSD): 2 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -44,6 +44,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ot20130511ssd-other-polygons.parquet | 4.6 KB | 1220d71d564e... |
 | ./ot20130511ssd-other-polygons.pmtiles | 21.4 KB | 1220dd8640e3... |
 | ./styles/default.json | 664 B | 122042005197... |
+| ./ot20130511ssd-other-polygons.thumb.jpg | 2.3 KB | 122078266bd5... |
 
 ## Quick Start
 

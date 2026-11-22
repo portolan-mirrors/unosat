@@ -1,5 +1,5 @@
 # Other mixed: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-mixed/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other mixed for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 5 features merged from 1 source layer. Mixed layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20150425npl-other-mixed.parquet | 5.1 KB | 1220c19af407... |
 | ./eq20150425npl-other-mixed.pmtiles | 20.8 KB | 1220342fbc1c... |
 | ./styles/default.json | 646 B | 1220ab24239c... |
+| ./eq20150425npl-other-mixed.thumb.jpg | 3.5 KB | 12206fafdcc0... |
 
 ## Quick Start
 

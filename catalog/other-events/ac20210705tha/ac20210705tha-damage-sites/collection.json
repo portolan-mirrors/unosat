@@ -256,7 +256,9 @@
       "file:checksum": "1220bad3389e35bdec491670d6ff59bd529a109ee2bd404185230e6e7349f2a8acd2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Event, Thailand, 5 July 2021 (AC20210705THA), one GeoParquet file with the source columns."
     },
     "ac20210705tha-damage-sites-tiles": {
       "href": "./ac20210705tha-damage-sites.pmtiles",
@@ -265,7 +267,9 @@
       "file:checksum": "1220a73c4d99963ec92641a3bbfaddae17bc2ddfe6601a7c9958ffe72c544f140d10",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Event, Thailand, 5 July 2021 (AC20210705THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -276,7 +280,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1048,
-      "file:checksum": "122099f6a30bd302dd294cb64aa6aa3ffd08651572d836cf9183e4509a6edbc35a46"
+      "file:checksum": "122099f6a30bd302dd294cb64aa6aa3ffd08651572d836cf9183e4509a6edbc35a46",
+      "description": "MapLibre style for Damage sites: Event, Thailand, 5 July 2021 (AC20210705THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ac20210705tha-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13101,
+      "file:checksum": "1220884d501bfdb513ecb13fb5121b25906fc9115d5dddce67e0c9716860c2721669",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Event, Thailand, 5 July 2021 (AC20210705THA)."
     }
   }
 }

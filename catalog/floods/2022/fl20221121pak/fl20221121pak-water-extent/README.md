@@ -1,5 +1,5 @@
 # Water extent: Flood, Pakistan, 21 November 2022 (FL20221121PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221121pak/fl20221121pak-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221121pak/fl20221121pak-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Pakistan, 21 November 2022 (FL20221121PAK): 100 features merged from 34 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20221121pak-water-extent.parquet | 11.9 MB | 12200841ae82... |
 | ./fl20221121pak-water-extent.pmtiles | 39.2 MB | 12202dc86ecc... |
 | ./styles/default.json | 967 B | 1220af42bce9... |
+| ./fl20221121pak-water-extent.thumb.jpg | 31.7 KB | 1220b8d35f21... |
 
 ## Quick Start
 

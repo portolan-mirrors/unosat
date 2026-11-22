@@ -274,7 +274,9 @@
       "file:checksum": "1220de7a6705235915118f4dad76b804b20b605f57b1c4a9459a67816bda4c66925e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK), one GeoParquet file with the source columns."
     },
     "fl20250818pak-water-extent-tiles": {
       "href": "./fl20250818pak-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220163487da24b8d0bfb9cfb2effea04b15252642baf6f7320b7bf8c441dc8298c5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220cb0989c054a0a913946dc908a39cd6451b3ec5dcd660c0bdd094d79bec3426d2"
+      "file:checksum": "1220cb0989c054a0a913946dc908a39cd6451b3ec5dcd660c0bdd094d79bec3426d2",
+      "description": "MapLibre style for Water extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250818pak-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19619,
+      "file:checksum": "1220a21bf7fc517d84cf4633dae6f43114d5019fb213eb7e50ed27c8478a001906fc",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Pakistan, 18 August 2025 (FL20250818PAK)."
     }
   }
 }

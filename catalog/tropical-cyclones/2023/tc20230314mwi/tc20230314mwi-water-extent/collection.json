@@ -274,7 +274,9 @@
       "file:checksum": "12207b4c87135c77b4264d2e1a70f73c661c08e14a6f02967048bb747f92bc3aeba1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI), one GeoParquet file with the source columns."
     },
     "tc20230314mwi-water-extent-tiles": {
       "href": "./tc20230314mwi-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220d24cc0895df150c04c3e35a91316521427d00f72f65141d8b6d67cf05aec12f2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1125,
-      "file:checksum": "122019d46b4675a0d0331f941d94aa98018cdf8d0d9674f321685c31cd4114f8d380"
+      "file:checksum": "122019d46b4675a0d0331f941d94aa98018cdf8d0d9674f321685c31cd4114f8d380",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230314mwi-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10454,
+      "file:checksum": "1220ba5bfeb66f0eefb8383456f050fd6fc19b46b1124867d491a7d6695d33d89099",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI)."
     }
   }
 }

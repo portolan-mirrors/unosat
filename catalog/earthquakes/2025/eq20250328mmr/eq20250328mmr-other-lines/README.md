@@ -1,5 +1,5 @@
 # Other lines: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR): 268,389 features merged from 44 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328mmr-other-lines.parquet | 3.8 MB | 1220d0b9fdd0... |
 | ./eq20250328mmr-other-lines.pmtiles | 3.4 MB | 12205f0f8fd5... |
 | ./styles/default.json | 401 B | 12203e1838ac... |
+| ./eq20250328mmr-other-lines.thumb.jpg | 4.9 KB | 1220a47e76e2... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, State of Palestine, 28 August 2025 (FL20250828PSE): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -40,6 +40,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250828pse-analysis-extent.parquet | 11.6 KB | 1220875e6416... |
 | ./fl20250828pse-analysis-extent.pmtiles | 26.9 KB | 1220434e496e... |
 | ./styles/default.json | 671 B | 1220c78f530d... |
+| ./fl20250828pse-analysis-extent.thumb.jpg | 9.4 KB | 1220707367fa... |
 
 ## Quick Start
 

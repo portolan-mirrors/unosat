@@ -23,4 +23,4 @@ import geopandas as gpd
 gdf = gpd.read_parquet('https://data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed/unosat-gaza-governorate-damage-assessment-update-other-mixed.parquet')
 ```
 
-The [data browser](https://source.coop/portolan-mirrors/unosat) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.
+The [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-other-mixed/collection.json) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.

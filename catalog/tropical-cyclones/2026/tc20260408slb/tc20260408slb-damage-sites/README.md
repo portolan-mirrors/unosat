@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2026/tc20260408slb/tc20260408slb-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Solomon Islands, 8 April 2026 (TC20260408SLB): 15,652 features merged from 10 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20260408slb-damage-sites.parquet | 290.7 KB | 1220287b1e7f... |
 | ./tc20260408slb-damage-sites.pmtiles | 369.6 KB | 12201cd70835... |
 | ./styles/default.json | 1.0 KB | 1220e8dfcb9f... |
+| ./tc20260408slb-damage-sites.thumb.jpg | 7.7 KB | 12206bb4384f... |
 
 ## Quick Start
 

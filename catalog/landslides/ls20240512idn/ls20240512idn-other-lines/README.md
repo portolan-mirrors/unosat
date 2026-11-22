@@ -1,5 +1,5 @@
 # Other lines: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Landslide, Indonesia, 12 May 2024 (LS20240512IDN): 874 features merged from 9 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -76,6 +76,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240512idn-other-lines.parquet | 33.0 KB | 1220b0eaac8e... |
 | ./ls20240512idn-other-lines.pmtiles | 63.5 KB | 122085dd87bc... |
 | ./styles/default.json | 401 B | 1220d51f44ab... |
+| ./ls20240512idn-other-lines.thumb.jpg | 2.3 KB | 12201f6b9718... |
 
 ## Quick Start
 

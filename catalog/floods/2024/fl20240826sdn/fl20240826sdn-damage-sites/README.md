@@ -1,5 +1,5 @@
 # Damage sites: Flood, Sudan, 26 August 2024 (FL20240826SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240826sdn/fl20240826sdn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240826sdn/fl20240826sdn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Sudan, 26 August 2024 (FL20240826SDN): 6,616 features merged from 22 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240826sdn-damage-sites.parquet | 83.5 KB | 122039dd54a7... |
 | ./fl20240826sdn-damage-sites.pmtiles | 208.7 KB | 12200002bc9f... |
 | ./styles/default.json | 1.0 KB | 1220fe1c866c... |
+| ./fl20240826sdn-damage-sites.thumb.jpg | 3.4 KB | 122047501301... |
 
 ## Quick Start
 

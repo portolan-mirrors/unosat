@@ -232,7 +232,9 @@
       "file:checksum": "12200e13d32ccff8bbafecba94ad9a3227129933b41c7a62e4bbb32ed17db229c8ca",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD), one GeoParquet file with the source columns."
     },
     "fl20191118cod-water-extent-tiles": {
       "href": "./fl20191118cod-water-extent.pmtiles",
@@ -241,7 +243,9 @@
       "file:checksum": "1220b885280753ec126cfdad5c6b2300da36ca540e85a8b3937bf54e0a186a7d8804",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -252,7 +256,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 871,
-      "file:checksum": "122069264b352bd70bc7f01da34ea62b4fd982ba291e910e0b08b9d2d85b82402cd2"
+      "file:checksum": "122069264b352bd70bc7f01da34ea62b4fd982ba291e910e0b08b9d2d85b82402cd2",
+      "description": "MapLibre style for Water extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191118cod-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3122,
+      "file:checksum": "122025a7e34fc0b39914eebc85d23516a8a753919fbeeffca4a5b1615ca13e398fff",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD)."
     }
   }
 }

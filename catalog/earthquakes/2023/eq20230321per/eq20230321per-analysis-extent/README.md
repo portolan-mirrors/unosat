@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230321per/eq20230321per-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230321per/eq20230321per-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Peru, 21 March 2023 (EQ20230321PER): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20230321per-analysis-extent.parquet | 12.0 MB | 1220d051760a... |
 | ./eq20230321per-analysis-extent.pmtiles | 2.9 MB | 1220727ab4e4... |
 | ./styles/default.json | 671 B | 12207de23cdd... |
+| ./eq20230321per-analysis-extent.thumb.jpg | 26.5 KB | 1220fff5e332... |
 
 ## Quick Start
 

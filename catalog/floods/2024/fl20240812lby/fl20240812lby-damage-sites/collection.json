@@ -262,7 +262,9 @@
       "file:checksum": "12204a046d0ad5ae53742fed28fab6f6a7b5d30bbcdfd9473f1e77e7bfa0e25c1945",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Libya, 12 August 2024 (FL20240812LBY), one GeoParquet file with the source columns."
     },
     "fl20240812lby-damage-sites-tiles": {
       "href": "./fl20240812lby-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220f09bbadd565bab252e094d6078e44c7fef35d327d0b546461e3633cff75faa0e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Libya, 12 August 2024 (FL20240812LBY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "122062169f8f093d9c7db6942b2f116a634ad9c6bd3c599d8777c0a6690655f288b3"
+      "file:checksum": "122062169f8f093d9c7db6942b2f116a634ad9c6bd3c599d8777c0a6690655f288b3",
+      "description": "MapLibre style for Damage sites: Flood, Libya, 12 August 2024 (FL20240812LBY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240812lby-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5656,
+      "file:checksum": "1220d7e6d3c48476abb45bcf9e1441705255384744179587955838f4d266afd09476",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Libya, 12 August 2024 (FL20240812LBY)."
     }
   }
 }

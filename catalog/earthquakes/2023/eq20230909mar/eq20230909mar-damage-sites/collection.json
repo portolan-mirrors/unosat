@@ -262,7 +262,9 @@
       "file:checksum": "122083fde0e528fb8fed5dcff7758ff29058b72056175844ed1871a16e012e37dcf5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR), one GeoParquet file with the source columns."
     },
     "eq20230909mar-damage-sites-tiles": {
       "href": "./eq20230909mar-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122022573edfbc0c351dca0c9abd0b03cb488a2829d6b60f61604b041c25dea8c08b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "12201a82f796095c5a6b8e02f671f5c912382ea338f2bce54266216912a412614266"
+      "file:checksum": "12201a82f796095c5a6b8e02f671f5c912382ea338f2bce54266216912a412614266",
+      "description": "MapLibre style for Damage sites: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230909mar-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9893,
+      "file:checksum": "1220c26be4aa6ecc1b7a7e8b282827e27b59f3c58574c77046cc0a1d0d7264a7a46b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)."
     }
   }
 }

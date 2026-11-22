@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Guyana, 26 May 2022 (FL20220526GUY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220526guy/fl20220526guy-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220526guy/fl20220526guy-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Guyana, 26 May 2022 (FL20220526GUY): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220526guy-analysis-extent.parquet | 971.0 KB | 12201d6d3951... |
 | ./fl20220526guy-analysis-extent.pmtiles | 11.9 MB | 122038314418... |
 | ./styles/default.json | 671 B | 1220358ee7c7... |
+| ./fl20220526guy-analysis-extent.thumb.jpg | 27.6 KB | 122020658c79... |
 
 ## Quick Start
 

@@ -298,7 +298,9 @@
       "file:checksum": "12205950a41f8b281d2376a6d3395ec075187962bd5bf75ae6fbceaa9abd979c2106",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE), one GeoParquet file with the source columns."
     },
     "ce20210515pse-damage-sites-tiles": {
       "href": "./ce20210515pse-damage-sites.pmtiles",
@@ -307,7 +309,9 @@
       "file:checksum": "12202ed355ed61b21e51c0e117a24a845129888ea4c59e4d88b12545ac55af0ed659",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -318,7 +322,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1308,
-      "file:checksum": "1220214a1c505e7c6346a387a72e8038345a5bd3d3da4cc006264e495264ff7768d1"
+      "file:checksum": "1220214a1c505e7c6346a387a72e8038345a5bd3d3da4cc006264e495264ff7768d1",
+      "description": "MapLibre style for Damage sites: Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20210515pse-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13029,
+      "file:checksum": "122070360ea7701350e8d2901ee7db501e205b77e900c6e3ed452883fd475e3425c9",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, State of Palestine, 15 May 2021 (CE20210515PSE)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Thailand, 28 September 2021 (FL20210928THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210928tha/fl20210928tha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210928tha/fl20210928tha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Thailand, 28 September 2021 (FL20210928THA): 13 features merged from 13 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210928tha-analysis-extent.parquet | 7.1 KB | 12201649b8f4... |
 | ./fl20210928tha-analysis-extent.pmtiles | 2.1 MB | 12202a0a35b7... |
 | ./styles/default.json | 671 B | 1220a56a9e7b... |
+| ./fl20210928tha-analysis-extent.thumb.jpg | 13.0 KB | 1220453ad995... |
 
 ## Quick Start
 

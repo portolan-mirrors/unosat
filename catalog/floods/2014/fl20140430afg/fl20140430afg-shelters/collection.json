@@ -287,7 +287,9 @@
       "file:checksum": "1220de47eaec4090cdf029968cffa50caf4d6316d0cfa0f89c918eaddf257b9adc0f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Flood, Afghanistan, 30 April 2014 (FL20140430AFG), one GeoParquet file with the source columns."
     },
     "fl20140430afg-shelters-tiles": {
       "href": "./fl20140430afg-shelters.pmtiles",
@@ -296,7 +298,9 @@
       "file:checksum": "12207741dc0d0058e1b290e91f3e8408e2b95268071a2ac38d4c47231d672f274c6a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Flood, Afghanistan, 30 April 2014 (FL20140430AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -307,7 +311,19 @@
       ],
       "title": "Shelters by CampType",
       "file:size": 892,
-      "file:checksum": "12201cbe9fd8b6fada7b2044abc4c794d1324ce8822a5a8c3bed626fd239c061be33"
+      "file:checksum": "12201cbe9fd8b6fada7b2044abc4c794d1324ce8822a5a8c3bed626fd239c061be33",
+      "description": "MapLibre style for Shelters: Flood, Afghanistan, 30 April 2014 (FL20140430AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140430afg-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9779,
+      "file:checksum": "1220d6bf97e45506dd1a9976d773ee1c1d6b2e674ae738e2860c7c47dd0503f6a5ea",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)."
     }
   }
 }

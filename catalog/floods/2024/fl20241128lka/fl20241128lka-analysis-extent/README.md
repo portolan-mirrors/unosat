@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Sri Lanka, 28 November 2024 (FL20241128LKA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241128lka/fl20241128lka-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241128lka/fl20241128lka-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Sri Lanka, 28 November 2024 (FL20241128LKA): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20241128lka-analysis-extent.parquet | 312.3 KB | 1220ee6ad056... |
 | ./fl20241128lka-analysis-extent.pmtiles | 87.1 KB | 12203d6823a1... |
 | ./styles/default.json | 671 B | 1220629c8e57... |
+| ./fl20241128lka-analysis-extent.thumb.jpg | 9.5 KB | 1220a0a34d9e... |
 
 ## Quick Start
 

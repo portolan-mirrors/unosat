@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201119gtm/tc20201119gtm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201119gtm/tc20201119gtm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM): 9 features merged from 9 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201119gtm-water-extent.parquet | 54.4 MB | 1220d890c975... |
 | ./tc20201119gtm-water-extent.pmtiles | 6.9 MB | 12208e35f14c... |
 | ./styles/default.json | 887 B | 1220b865ffe7... |
+| ./tc20201119gtm-water-extent.thumb.jpg | 16.9 KB | 1220bba94b1d... |
 
 ## Quick Start
 

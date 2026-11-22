@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160418syc/tc20160418syc-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160418syc/tc20160418syc-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC): 50 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20160418syc-damage-sites.parquet | 9.8 KB | 1220466ff568... |
 | ./tc20160418syc-damage-sites.pmtiles | 30.7 KB | 122083cdaf18... |
 | ./styles/default.json | 1.0 KB | 12207bb9831b... |
+| ./tc20160418syc-damage-sites.thumb.jpg | 5.3 KB | 12204692706f... |
 
 ## Quick Start
 

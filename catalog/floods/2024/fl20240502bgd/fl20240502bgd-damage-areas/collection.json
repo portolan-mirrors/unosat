@@ -336,7 +336,9 @@
       "file:checksum": "122076c55a008e1e40432c55d1adff12c329ea1b463d24133186ae808a04191bcc37",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Bangladesh, 2 May 2024 (FL20240502BGD), one GeoParquet file with the source columns."
     },
     "fl20240502bgd-damage-areas-tiles": {
       "href": "./fl20240502bgd-damage-areas.pmtiles",
@@ -345,7 +347,9 @@
       "file:checksum": "1220cde0296dfe55d267487e4fba99e7a302f47d7bfe77553ee28ff99cae8e43cfca",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Bangladesh, 2 May 2024 (FL20240502BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -356,7 +360,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 913,
-      "file:checksum": "1220b9adeed1b1d4d2439fbb4ae76eac1cb1f0d2b9faf17c42b564dd06d34d287c2d"
+      "file:checksum": "1220b9adeed1b1d4d2439fbb4ae76eac1cb1f0d2b9faf17c42b564dd06d34d287c2d",
+      "description": "MapLibre style for Damage areas: Flood, Bangladesh, 2 May 2024 (FL20240502BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240502bgd-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13550,
+      "file:checksum": "12204570bca32425600b6d8d49ca27dd7afb33a83c4620158bcb6a6696d83dcf0724",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)."
     }
   }
 }

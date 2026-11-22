@@ -197,7 +197,9 @@
       "proj:code": "EPSG:32645",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Landslides: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL), one GeoParquet file with the source columns."
     },
     "eq20150425npl-landslides-tiles": {
       "href": "./eq20150425npl-landslides.pmtiles",
@@ -206,7 +208,9 @@
       "file:checksum": "1220871038224b1c8f64fd86d4c2780a7b3646508efd6fb130238c8295ffbb86ae2e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Landslides: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -217,7 +221,19 @@
       ],
       "title": "Landslides",
       "file:size": 640,
-      "file:checksum": "122078209e9f0c78048fb6861615e7274ba2b039b6f34af833da041ed1d7d7dfe6c8"
+      "file:checksum": "122078209e9f0c78048fb6861615e7274ba2b039b6f34af833da041ed1d7d7dfe6c8",
+      "description": "MapLibre style for Landslides: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20150425npl-landslides.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4883,
+      "file:checksum": "122085731f09c6c6a68a386dc127e83e8ca2e0410e37ef5b875ac888d0f87d521ac8",
+      "title": "Thumbnail",
+      "description": "Preview image of Landslides: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)."
     }
   }
 }

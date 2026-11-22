@@ -183,7 +183,9 @@
       "file:checksum": "1220762dcafa69d28d51618947bd1903f8523b8a63038a230af35ab526b8d3b7eddd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Landslides: Flood, Afghanistan, 30 April 2014 (FL20140430AFG), one GeoParquet file with the source columns."
     },
     "fl20140430afg-landslides-tiles": {
       "href": "./fl20140430afg-landslides.pmtiles",
@@ -192,7 +194,9 @@
       "file:checksum": "1220b946298b416e39fc414e05ca39bdc76bf83d957b93989794bbe15ad477cf838c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Landslides: Flood, Afghanistan, 30 April 2014 (FL20140430AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -203,7 +207,19 @@
       ],
       "title": "Landslides",
       "file:size": 640,
-      "file:checksum": "1220dd5ca337c2f0e538401774dee0022204bd96fac563f1488410089fe478950640"
+      "file:checksum": "1220dd5ca337c2f0e538401774dee0022204bd96fac563f1488410089fe478950640",
+      "description": "MapLibre style for Landslides: Flood, Afghanistan, 30 April 2014 (FL20140430AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140430afg-landslides.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8975,
+      "file:checksum": "1220a42ca59cda6f54eb6c75eac54e51cc332626d8f25f05c8f8e1092e4a7205caaf",
+      "title": "Thumbnail",
+      "description": "Preview image of Landslides: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)."
     }
   }
 }

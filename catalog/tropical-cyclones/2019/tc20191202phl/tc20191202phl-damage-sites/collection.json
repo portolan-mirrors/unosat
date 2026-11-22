@@ -262,7 +262,9 @@
       "file:checksum": "122023a0f237bd7d30fe277cc5039692027ba53d0ba801b9b53dda279d60a410352c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL), one GeoParquet file with the source columns."
     },
     "tc20191202phl-damage-sites-tiles": {
       "href": "./tc20191202phl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12200c02ff1d06445170538fda9534609ef7a21955b78ed36569715cdf9142443926",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "12204c788e483c3304f863d7265661cfc1cdaf79b574b5139fad52ea8e6bf4f606ac"
+      "file:checksum": "12204c788e483c3304f863d7265661cfc1cdaf79b574b5139fad52ea8e6bf4f606ac",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20191202phl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5362,
+      "file:checksum": "1220965cf77c7b8a1d95f0355c4af7d42dd239a53a962b4a4f37f56f1368f3014da7",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL)."
     }
   }
 }

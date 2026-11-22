@@ -282,7 +282,9 @@
       "file:checksum": "1220e9588277ce74cc7cd2ef4c96f8a5e3fbb60d36437ae258905a36677079ea8711",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Kenya, 26 April 2024 (FL20240426KEN), one GeoParquet file with the source columns."
     },
     "fl20240426ken-damage-areas-tiles": {
       "href": "./fl20240426ken-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220a272e050e362a69e5629c324d78291759d2bd705cac9e9096a4518832f16bc01",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Kenya, 26 April 2024 (FL20240426KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 904,
-      "file:checksum": "1220332f7df00d2d2d4069cd7ca57a63a5a592b4da5ef707dd12620926c06602c452"
+      "file:checksum": "1220332f7df00d2d2d4069cd7ca57a63a5a592b4da5ef707dd12620926c06602c452",
+      "description": "MapLibre style for Damage areas: Flood, Kenya, 26 April 2024 (FL20240426KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240426ken-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8894,
+      "file:checksum": "12203df4c01a767df3b9ab97b54d029df493eb058af5395d6c45a4fa2995141a2cc7",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Kenya, 26 April 2024 (FL20240426KEN)."
     }
   }
 }

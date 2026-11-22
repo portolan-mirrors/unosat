@@ -297,7 +297,9 @@
       "file:checksum": "1220891efae65def372fb6cd0d5cd1b81ebfd4ef7a116a386db1495f5d8934c5b61b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD), one GeoParquet file with the source columns."
     },
     "ce20131107cod-shelters-tiles": {
       "href": "./ce20131107cod-shelters.pmtiles",
@@ -306,7 +308,9 @@
       "file:checksum": "1220d2ca0d4ea2e4b2fbd388bb33feb8a6de40388a0bec83208d4475aec1c7b8757b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -317,7 +321,19 @@
       ],
       "title": "Shelters by CampType",
       "file:size": 928,
-      "file:checksum": "1220e49376174e60fa4a4e5e9e045ca4d2277c590fc1081873aafb7a1e77f6d50f9f"
+      "file:checksum": "1220e49376174e60fa4a4e5e9e045ca4d2277c590fc1081873aafb7a1e77f6d50f9f",
+      "description": "MapLibre style for Shelters: Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131107cod-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2979,
+      "file:checksum": "1220134ffb9c53e10b5bdd12314d8e73b43f1d7897cb00c3f7b4b434533acf09b91a",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD)."
     }
   }
 }

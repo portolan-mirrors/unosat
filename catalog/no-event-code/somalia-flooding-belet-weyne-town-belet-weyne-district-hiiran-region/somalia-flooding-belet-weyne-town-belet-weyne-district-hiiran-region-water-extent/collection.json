@@ -218,7 +218,9 @@
       "file:checksum": "1220891d949f6caa189e60d4b6028cc36044c0bdadfef8218b72b2c29e7fc1d0c702",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region, one GeoParquet file with the source columns."
     },
     "somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent-tiles": {
       "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.pmtiles",
@@ -227,7 +229,9 @@
       "file:checksum": "1220f12d4d81c86174d6a213c7f6dbd8281121402bbf60d894c58b6a0585f2ab9efd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -238,7 +242,19 @@
       ],
       "title": "Water extent by Water_Clas",
       "file:size": 934,
-      "file:checksum": "1220f06bdb2d6fbc3d87cce72ae04f45bc549f5e3a9bdc6097b4024881cdaf922dcc"
+      "file:checksum": "1220f06bdb2d6fbc3d87cce72ae04f45bc549f5e3a9bdc6097b4024881cdaf922dcc",
+      "description": "MapLibre style for Water extent: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 39751,
+      "file:checksum": "122053ae83e3e4419af28c6e6b9fbdec8f40fc4423154eb9794439bfe11a54ce7c0b",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region."
     }
   }
 }

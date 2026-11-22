@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20161005cub-damage-sites.parquet",
         "tc20161005cub-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:15.140637Z",
+      "breaking": false,
+      "assets": {
+        "tc20161005cub-damage-sites.parquet": {
+          "sha256": "d4de26f6aae7a97bc5e9777383aad34bd184233739fce995f6f362e5a634f8c0",
+          "size_bytes": 192036,
+          "href": "tropical-cyclones/2016/tc20161005cub/tc20161005cub-damage-sites/tc20161005cub-damage-sites.parquet",
+          "source_path": "tc20161005cub-damage-sites.parquet",
+          "source_mtime": 1795333478.438652,
+          "mtime": 1795333478.438652,
+          "feature_count": 4617,
+          "schema_fingerprint": "1a39b9e37c300b69"
+        },
+        "tc20161005cub-damage-sites.pmtiles": {
+          "sha256": "ec761882a8687f51e1ca2fc3ec259bf6635b82c1d77d526c8b4acd8026ac2b18",
+          "size_bytes": 160391,
+          "href": "tropical-cyclones/2016/tc20161005cub/tc20161005cub-damage-sites/tc20161005cub-damage-sites.pmtiles",
+          "mtime": 1795334259.819329
+        },
+        "tc20161005cub-damage-sites.thumb.jpg": {
+          "sha256": "66aa7c065f87ba8ea448be3e6984372e5965bbeb0614206111c592a2c68221cb",
+          "size_bytes": 5505,
+          "href": "tropical-cyclones/2016/tc20161005cub/tc20161005cub-damage-sites/tc20161005cub-damage-sites.thumb.jpg",
+          "mtime": 1795365855.1314116
+        }
+      },
+      "changes": [
+        "tc20161005cub-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20161005cub-damage-sites.thumb.jpg"
     }
   ]
 }

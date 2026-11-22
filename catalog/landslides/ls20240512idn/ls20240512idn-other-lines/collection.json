@@ -342,7 +342,9 @@
       "file:checksum": "1220b0eaac8ecdaa8b167bd97c320b97f074c442b9a8aabee49b0a08bd53d620ecd3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Landslide, Indonesia, 12 May 2024 (LS20240512IDN), one GeoParquet file with the source columns."
     },
     "ls20240512idn-other-lines-tiles": {
       "href": "./ls20240512idn-other-lines.pmtiles",
@@ -351,7 +353,9 @@
       "file:checksum": "122085dd87bcc32c3cb2e5b014dfb6bb6e16cc8190e1e749f3ce668fef04f7b987f8",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Landslide, Indonesia, 12 May 2024 (LS20240512IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -362,7 +366,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220d51f44abe8a2764f40ad221994499953c5f25edae386fd11f2b31b873ec7c276"
+      "file:checksum": "1220d51f44abe8a2764f40ad221994499953c5f25edae386fd11f2b31b873ec7c276",
+      "description": "MapLibre style for Other lines: Landslide, Indonesia, 12 May 2024 (LS20240512IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240512idn-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2334,
+      "file:checksum": "12201f6b97186720ecce2e7a64d390af4b36e14fe69b7203cbfa3725ca6a966616d9",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)."
     }
   }
 }

@@ -271,7 +271,9 @@
       "file:checksum": "1220a74b6d501708ef59413ef21188002f6cfd2c677c50ee1993fc7f6cfe61280504",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI), one GeoParquet file with the source columns."
     },
     "tc20161003hti-shelters-tiles": {
       "href": "./tc20161003hti-shelters.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "1220fdbcefc4f954fa22136a4f2d501120b74bb5535f0d2ae2a038dde3fa3a3d8763",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "122062485a25fa39233d05342f647af3a92241d367d16171655b384e287f517459a6"
+      "file:checksum": "122062485a25fa39233d05342f647af3a92241d367d16171655b384e287f517459a6",
+      "description": "MapLibre style for Shelters: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161003hti-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13545,
+      "file:checksum": "1220144c17e033aaecb42bfdecfc7ca537b0b3f7eead457525733e806a42d5b9ed12",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Other lines: Flood, Myanmar, 12 September 2024 (FL20240912MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Myanmar, 12 September 2024 (FL20240912MMR): 64 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240912mmr-other-lines.parquet | 24.6 KB | 1220e647910f... |
 | ./fl20240912mmr-other-lines.pmtiles | 40.9 KB | 122047b1f07c... |
 | ./styles/default.json | 401 B | 1220ca8fa074... |
+| ./fl20240912mmr-other-lines.thumb.jpg | 2.3 KB | 122060c496d8... |
 
 ## Quick Start
 

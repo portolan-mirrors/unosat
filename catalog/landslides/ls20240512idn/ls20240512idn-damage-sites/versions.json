@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "ls20240512idn-damage-sites.parquet",
         "ls20240512idn-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:52.548275Z",
+      "breaking": false,
+      "assets": {
+        "ls20240512idn-damage-sites.parquet": {
+          "sha256": "a3f4ca8789ef3ad50e62022041d15d4386999ede78ec450c28d76aa77e2e01a8",
+          "size_bytes": 15090,
+          "href": "landslides/ls20240512idn/ls20240512idn-damage-sites/ls20240512idn-damage-sites.parquet",
+          "source_path": "ls20240512idn-damage-sites.parquet",
+          "source_mtime": 1795333463.3838494,
+          "mtime": 1795333463.3838494,
+          "feature_count": 468,
+          "schema_fingerprint": "585780a948266072"
+        },
+        "ls20240512idn-damage-sites.pmtiles": {
+          "sha256": "e962fdfb9435db4672fdd9a097fa2a0b629b36f33a04f67af5a31fcbedff79db",
+          "size_bytes": 59872,
+          "href": "landslides/ls20240512idn/ls20240512idn-damage-sites/ls20240512idn-damage-sites.pmtiles",
+          "mtime": 1795334248.553472
+        },
+        "ls20240512idn-damage-sites.thumb.jpg": {
+          "sha256": "ad1e57f12b79e83d6d1e493ea5930c30232ebcbced6729d5e3cf0f5201c7a0bf",
+          "size_bytes": 4888,
+          "href": "landslides/ls20240512idn/ls20240512idn-damage-sites/ls20240512idn-damage-sites.thumb.jpg",
+          "mtime": 1795343632.5445354
+        }
+      },
+      "changes": [
+        "ls20240512idn-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: ls20240512idn-damage-sites.thumb.jpg"
     }
   ]
 }

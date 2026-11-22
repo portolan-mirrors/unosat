@@ -274,7 +274,9 @@
       "file:checksum": "1220b9c3e627417872ac882e45c8eab48f7b329fd46cec5ff8accbb28a2e31e4dc7b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Yemen, 29 July 2021 (FL20210729YEM), one GeoParquet file with the source columns."
     },
     "fl20210729yem-water-extent-tiles": {
       "href": "./fl20210729yem-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12200c8b525b84b4c986199151ef5e37b2f024f01a860f7ddaaa4357faa452c8ea2e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Yemen, 29 July 2021 (FL20210729YEM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122088112b0a103b54f930d74005c4a66154147f5db0a738159331061a7e2dacda03"
+      "file:checksum": "122088112b0a103b54f930d74005c4a66154147f5db0a738159331061a7e2dacda03",
+      "description": "MapLibre style for Water extent: Flood, Yemen, 29 July 2021 (FL20210729YEM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210729yem-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9385,
+      "file:checksum": "12205784ab1dc7ace45d62df347e01f2eeda3553abf1a9d799b8c3296240afe71de1",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Yemen, 29 July 2021 (FL20210729YEM)."
     }
   }
 }

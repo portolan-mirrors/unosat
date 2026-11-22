@@ -1,5 +1,5 @@
 # Damage sites: Fire, Algeria, 24 July 2023 (FR20230724DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230724dza/fr20230724dza-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Fire, Algeria, 24 July 2023 (FR20230724DZA): 4,950 features merged from 7 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20230724dza-damage-sites.parquet | 55.8 KB | 12202657fcf7... |
 | ./fr20230724dza-damage-sites.pmtiles | 364.9 KB | 122061185d86... |
 | ./styles/default.json | 997 B | 12201662c6f5... |
+| ./fr20230724dza-damage-sites.thumb.jpg | 4.7 KB | 1220c5f9f662... |
 
 ## Quick Start
 

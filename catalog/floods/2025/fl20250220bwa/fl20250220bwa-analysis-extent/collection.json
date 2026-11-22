@@ -253,7 +253,9 @@
       "file:checksum": "12200a461b53f0b7a6838f238b5a1ce02b6d6410e7219664152094042e5f128f2e78",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Botswana, 20 February 2025 (FL20250220BWA), one GeoParquet file with the source columns."
     },
     "fl20250220bwa-analysis-extent-tiles": {
       "href": "./fl20250220bwa-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12209d44e84279ac93c6244a9981a7e5ba39225b17cef2b930d417e4012267e01b03",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Botswana, 20 February 2025 (FL20250220BWA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220690664d6354a89a0714cbae4e69b6b41e3aaeec3edd476fe73f95bafdba269a7"
+      "file:checksum": "1220690664d6354a89a0714cbae4e69b6b41e3aaeec3edd476fe73f95bafdba269a7",
+      "description": "MapLibre style for Analysis extent: Flood, Botswana, 20 February 2025 (FL20250220BWA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250220bwa-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 40619,
+      "file:checksum": "122042a498eb7360a526430aab8145f3cfe80e177c5a8f129d279b1a560b35a2b300",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Botswana, 20 February 2025 (FL20250220BWA)."
     }
   }
 }

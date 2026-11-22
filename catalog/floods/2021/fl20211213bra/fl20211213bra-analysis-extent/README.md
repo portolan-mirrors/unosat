@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Brazil, 13 December 2021 (FL20211213BRA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211213bra/fl20211213bra-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211213bra/fl20211213bra-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Brazil, 13 December 2021 (FL20211213BRA): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20211213bra-analysis-extent.parquet | 7.0 KB | 1220c23ed57c... |
 | ./fl20211213bra-analysis-extent.pmtiles | 63.7 KB | 1220394455a0... |
 | ./styles/default.json | 671 B | 1220586be824... |
+| ./fl20211213bra-analysis-extent.thumb.jpg | 9.2 KB | 1220203a8597... |
 
 ## Quick Start
 

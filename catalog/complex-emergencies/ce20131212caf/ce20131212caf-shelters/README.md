@@ -1,5 +1,5 @@
 # Shelters: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131212caf/ce20131212caf-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF): 71,134 features merged from 20 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -77,6 +77,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131212caf-shelters.parquet | 1.6 MB | 12205998944e... |
 | ./ce20131212caf-shelters.pmtiles | 1.8 MB | 12202c8964e9... |
 | ./styles/default.json | 928 B | 1220e5bb86fd... |
+| ./ce20131212caf-shelters.thumb.jpg | 2.7 KB | 12203361d533... |
 
 ## Quick Start
 

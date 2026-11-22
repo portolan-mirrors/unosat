@@ -249,7 +249,9 @@
       "file:checksum": "1220cfa3cf5394de9be45c39da64c741c5f5cab09fd6c6bdd4a5852b70166ac45177",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG), one GeoParquet file with the source columns."
     },
     "tc20220201mdg-analysis-extent-tiles": {
       "href": "./tc20220201mdg-analysis-extent.pmtiles",
@@ -258,7 +260,9 @@
       "file:checksum": "122020f903f5cfc3f1dc222172a4a055f1c883451718bc44465fdbf7a87d767e8fb5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -269,7 +273,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12208e949fe6a30c0bd5fdd4e3e8a888487845947d1b34753ce75ae250c5d28424f8"
+      "file:checksum": "12208e949fe6a30c0bd5fdd4e3e8a888487845947d1b34753ce75ae250c5d28424f8",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220201mdg-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6435,
+      "file:checksum": "122064b8b715a242a49d5e0450d296ec71dc9ad41732b83b77f387ec1df6b5cf2f03",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Madagascar, 1 February 2022 (TC20220201MDG)."
     }
   }
 }

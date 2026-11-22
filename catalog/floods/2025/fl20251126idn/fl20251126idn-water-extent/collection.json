@@ -274,7 +274,9 @@
       "file:checksum": "1220b6598b15531b1cf780b9427a0a6e86259258030c8132702c518bc8f6a4c0fe86",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN), one GeoParquet file with the source columns."
     },
     "fl20251126idn-water-extent-tiles": {
       "href": "./fl20251126idn-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220911988e88867b4176cecdda1d30d21ac2c223d4d6b30e7d35a94f5dd9b31f941",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1052,
-      "file:checksum": "12208e0008335d9f68847f052073281ff2efa2a005693fe22541fe394d08417f2ae1"
+      "file:checksum": "12208e0008335d9f68847f052073281ff2efa2a005693fe22541fe394d08417f2ae1",
+      "description": "MapLibre style for Water extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20251126idn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11135,
+      "file:checksum": "12208cf19e6f15b11f4568827a189acaaaf44f557cd185e9ab4f0f22d69b03d89483",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN)."
     }
   }
 }

@@ -280,7 +280,9 @@
       "file:checksum": "12207b7437aec528e79c160771cdb652c37a7e9ef623cd12563d691340cc1535e5e9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR), one GeoParquet file with the source columns."
     },
     "eq20250328mmr-other-polygons-tiles": {
       "href": "./eq20250328mmr-other-polygons.pmtiles",
@@ -289,7 +291,9 @@
       "file:checksum": "1220c32ebbce22614aef49ef5d7a5977193cb09eb4a7709ef89035348d9450fa855c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -300,7 +304,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "12205b0b9f610d7396809279680a4888bde07cc1c75fd04d1e9f669e9dd1016c9b72"
+      "file:checksum": "12205b0b9f610d7396809279680a4888bde07cc1c75fd04d1e9f669e9dd1016c9b72",
+      "description": "MapLibre style for Other polygons: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250328mmr-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5146,
+      "file:checksum": "1220f6aaca371ca02b3713465b45bd3c82c2684cae80519ead3d62c9c7d68e44b3a8",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)."
     }
   }
 }

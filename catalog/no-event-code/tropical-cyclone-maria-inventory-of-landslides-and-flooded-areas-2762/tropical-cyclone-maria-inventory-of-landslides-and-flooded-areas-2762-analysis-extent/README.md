@@ -1,5 +1,5 @@
 # Analysis extent: Tropical Cyclone Maria. Inventory of landslides and flooded areas
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical Cyclone Maria. Inventory of landslides and flooded areas: 221 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32620, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -38,6 +38,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent.parquet | 1.1 MB | 1220a932d1cf... |
 | ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent.pmtiles | 189.0 KB | 1220424ce97e... |
 | ./styles/default.json | 727 B | 1220bed74e54... |
+| ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-analysis-extent.thumb.jpg | 14.2 KB | 12209e6cde48... |
 
 ## Quick Start
 

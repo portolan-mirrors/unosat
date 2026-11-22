@@ -257,7 +257,9 @@
       "file:checksum": "12201e31463dc76bcf7f86db22a435fbba59464b520f8252f4ceac11927e54dff0bc",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM), one GeoParquet file with the source columns."
     },
     "ce20130710som-analysis-extent-tiles": {
       "href": "./ce20130710som-analysis-extent.pmtiles",
@@ -266,7 +268,9 @@
       "file:checksum": "1220b4bedeef834ec224de6f33520d8fa92620dffd82938bea7a00a9e0a60734f3be",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -277,7 +281,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122018d7dab0e976fdba2120174d7d01452a32d1f4a21420f8b9c840b2d77bafa6d1"
+      "file:checksum": "122018d7dab0e976fdba2120174d7d01452a32d1f4a21420f8b9c840b2d77bafa6d1",
+      "description": "MapLibre style for Analysis extent: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130710som-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3686,
+      "file:checksum": "12209532be6cdc23f8ef3c2115d44f0a74dcbf1f1a4a6f11ae15f97633e11118e00f",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "damage-sites.parquet",
         "damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.938204Z",
+      "breaking": false,
+      "assets": {
+        "damage-sites.parquet": {
+          "sha256": "972e7177521ff1e2c56bf4cd843fea6dcc1d6ecd7d716a69935f46e1a6f1be5a",
+          "size_bytes": 49829714,
+          "href": "combined/damage-sites/damage-sites.parquet",
+          "source_path": "damage-sites.parquet",
+          "source_mtime": 1795335854.213222,
+          "mtime": 1795335854.213222,
+          "feature_count": 5916005,
+          "schema_fingerprint": "51633a726457f536"
+        },
+        "damage-sites.pmtiles": {
+          "sha256": "0ad31ff855bf833c4a2a2f0ed86eb96c96b7ab52c228855dbf078647ac11f499",
+          "size_bytes": 34009137,
+          "href": "combined/damage-sites/damage-sites.pmtiles",
+          "mtime": 1795336864.9402175
+        },
+        "damage-sites.thumb.jpg": {
+          "sha256": "76cbdee4a347fa113dfb2dfeae2cc269e3c411f29ca549b49d85e90dca5a49a9",
+          "size_bytes": 5716,
+          "href": "combined/damage-sites/damage-sites.thumb.jpg",
+          "mtime": 1795343617.8416324
+        }
+      },
+      "changes": [
+        "damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: damage-sites.thumb.jpg"
     }
   ]
 }

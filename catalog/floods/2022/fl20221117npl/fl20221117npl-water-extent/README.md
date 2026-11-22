@@ -1,5 +1,5 @@
 # Water extent: Flood, Nepal, 17 November 2022 (FL20221117NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221117npl/fl20221117npl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221117npl/fl20221117npl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Nepal, 17 November 2022 (FL20221117NPL): 12 features merged from 12 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20221117npl-water-extent.parquet | 19.5 MB | 1220f24f9bdb... |
 | ./fl20221117npl-water-extent.pmtiles | 12.4 MB | 1220d35db1cd... |
 | ./styles/default.json | 1.0 KB | 12207f48b5ea... |
+| ./fl20221117npl-water-extent.thumb.jpg | 82.4 KB | 122090aec0f6... |
 
 ## Quick Start
 

@@ -183,7 +183,9 @@
       "file:checksum": "12206e83568b29a605f77af87dbb8548890e9de009d52d0a5ede20d5f72791c44f32",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD), one GeoParquet file with the source columns."
     },
     "ce20131218ssd-other-polygons-cc_by_sa-tiles": {
       "href": "./ce20131218ssd-other-polygons-cc_by_sa.pmtiles",
@@ -192,7 +194,9 @@
       "file:checksum": "12204260b689944c6473db786c4e19cf0ebee3aeeb7ee948d44bdb1a4142c44ff422",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -203,7 +207,19 @@
       ],
       "title": "Other polygons",
       "file:size": 673,
-      "file:checksum": "12205f1fb2507587a7c7b4e1dea85c205c0ac60346f5243c6d1bbdcdfe4d5e76dbec"
+      "file:checksum": "12205f1fb2507587a7c7b4e1dea85c205c0ac60346f5243c6d1bbdcdfe4d5e76dbec",
+      "description": "MapLibre style for Other polygons: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131218ssd-other-polygons-cc_by_sa.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7992,
+      "file:checksum": "12206f00cd0477a17c7157fb8042ccc5a695e127f03a743bfe825b98dd9584be5318",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)."
     }
   }
 }

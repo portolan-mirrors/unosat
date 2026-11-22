@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140207zwe-analysis-extent.parquet | 5.5 KB | 122026d6e337... |
 | ./fl20140207zwe-analysis-extent.pmtiles | 546.6 KB | 122033038bba... |
 | ./styles/default.json | 671 B | 12203a30fe24... |
+| ./fl20140207zwe-analysis-extent.thumb.jpg | 10.3 KB | 122077d938d4... |
 
 ## Quick Start
 

@@ -235,7 +235,9 @@
       "file:checksum": "122006aeb3526221149f521e2f61d90d115a9828b72eed84fda177087f65181de597",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI), one GeoParquet file with the source columns."
     },
     "tc20161003hti-other-points-tiles": {
       "href": "./tc20161003hti-other-points.pmtiles",
@@ -244,7 +246,9 @@
       "file:checksum": "12200649b4dbf2178210fd0e5e84682108f073ef134ad12459894aba1a7c0a371504",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -255,7 +259,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "12208d30fe5804d7daab4cfb87543690e3f17c404a9e159cfc8335eb3af79958131c"
+      "file:checksum": "12208d30fe5804d7daab4cfb87543690e3f17c404a9e159cfc8335eb3af79958131c",
+      "description": "MapLibre style for Other points: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161003hti-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11975,
+      "file:checksum": "122023538e1cbb10a2fea19b589d681618377b4f6a6e4ec1a1e3731546a4f9c7f508",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)."
     }
   }
 }

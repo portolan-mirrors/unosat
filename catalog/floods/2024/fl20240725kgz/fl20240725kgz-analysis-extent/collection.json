@@ -282,7 +282,9 @@
       "file:checksum": "12200cafabc2cb8b18fd686417cb5b1ebe2bda86136f89043075748cdf401e65340b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ), one GeoParquet file with the source columns."
     },
     "fl20240725kgz-analysis-extent-tiles": {
       "href": "./fl20240725kgz-analysis-extent.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "122033c797c22c0fd33f99ca79fc1c1eb78d5f97973b64cebbb08e751f8e8147f563",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122081661ad1ed74587f4711baeb29a2cdb49875ad3797ba2e4fedebdbb63163044d"
+      "file:checksum": "122081661ad1ed74587f4711baeb29a2cdb49875ad3797ba2e4fedebdbb63163044d",
+      "description": "MapLibre style for Analysis extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240725kgz-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8815,
+      "file:checksum": "122045bf84fdc1a5f633b674ce40feeb390fc589ba8a21eb785e844326c9c0606076",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Kyrgyzstan, 25 July 2024 (FL20240725KGZ)."
     }
   }
 }

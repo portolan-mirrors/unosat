@@ -274,7 +274,9 @@
       "file:checksum": "12203d2158b43151b17964228aed1b2fbde4edbb8a7a03b13231f2aeddd719072d4e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Haiti, 24 April 2017 (FL20170424HTI), one GeoParquet file with the source columns."
     },
     "fl20170424hti-water-extent-tiles": {
       "href": "./fl20170424hti-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12201fb001893e8d039b9d18efb11fc225374a54d488438060e357f5aed68cb2d76e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Haiti, 24 April 2017 (FL20170424HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 985,
-      "file:checksum": "12204f7e96e274bf2a33433afb84459b652010aea94122c53baeede13b7e368474be"
+      "file:checksum": "12204f7e96e274bf2a33433afb84459b652010aea94122c53baeede13b7e368474be",
+      "description": "MapLibre style for Water extent: Flood, Haiti, 24 April 2017 (FL20170424HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170424hti-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15401,
+      "file:checksum": "122068ede8eacd1231e5dd8e1634a3b52cf83901f91b49499860bddf6036f1855684",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Haiti, 24 April 2017 (FL20170424HTI)."
     }
   }
 }

@@ -421,7 +421,9 @@
       "file:checksum": "1220b9592373199d6afb6021990951530ca2f912936fa0ff212e9845d86dea802e61",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR), one GeoParquet file with the source columns."
     },
     "ce20130604syr-damage-sites-cc_by_nc_sa_3_0-epsg_4326-tiles": {
       "href": "./ce20130604syr-damage-sites-cc_by_nc_sa_3_0-epsg_4326.pmtiles",
@@ -430,7 +432,9 @@
       "file:checksum": "12209c107ec64b9dbe0afc7926dbc71681f75ecfc9c7ed1510c806e6a5600b5bc590",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -441,7 +445,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1255,
-      "file:checksum": "122075e563455522b4083ac518fd3e35996103dee0d9fe83a80349e4d7e398745861"
+      "file:checksum": "122075e563455522b4083ac518fd3e35996103dee0d9fe83a80349e4d7e398745861",
+      "description": "MapLibre style for Damage sites: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130604syr-damage-sites-cc_by_nc_sa_3_0-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5371,
+      "file:checksum": "1220b117f519dcdcb0158c58a6de5b05430a125bf54c4ecb8b3dd75db5ef423178b6",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)."
     }
   }
 }

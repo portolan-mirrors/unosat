@@ -262,7 +262,9 @@
       "file:checksum": "122091537aff8a6832d7a04a4db431d0d733c77f381cbd524894be54ec58264ba6cf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT), one GeoParquet file with the source columns."
     },
     "eq20241217vut-damage-sites-tiles": {
       "href": "./eq20241217vut-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12201139bb733645c050992ad3542f860c14ac7a18a252fda30b71ce681e9e843501",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220cd1de00110f843c0a27dc0ea8200d043c762c0722a3d715a0c8202f5573428f5"
+      "file:checksum": "1220cd1de00110f843c0a27dc0ea8200d043c762c0722a3d715a0c8202f5573428f5",
+      "description": "MapLibre style for Damage sites: Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20241217vut-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2513,
+      "file:checksum": "1220c5b17a8b126e55c1c7da11bd8240e7c5dd27346acf8dc11cdd8a0790cbadc9b3",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT)."
     }
   }
 }

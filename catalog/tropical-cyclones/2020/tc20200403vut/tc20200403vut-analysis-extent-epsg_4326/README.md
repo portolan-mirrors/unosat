@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-analysis-extent-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT): 242 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200403vut-analysis-extent-epsg_4326.parquet | 415.8 KB | 1220e4ba8988... |
 | ./tc20200403vut-analysis-extent-epsg_4326.pmtiles | 430.7 KB | 12204f94a5f2... |
 | ./styles/default.json | 681 B | 12203293a8e3... |
+| ./tc20200403vut-analysis-extent-epsg_4326.thumb.jpg | 9.4 KB | 12203b73799a... |
 
 ## Quick Start
 

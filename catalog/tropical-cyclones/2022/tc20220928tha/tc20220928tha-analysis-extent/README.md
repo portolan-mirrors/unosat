@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220928tha-analysis-extent.parquet | 5.4 KB | 12207c763a09... |
 | ./tc20220928tha-analysis-extent.pmtiles | 70.9 KB | 122015a4ac1c... |
 | ./styles/default.json | 671 B | 1220ab6b94fe... |
+| ./tc20220928tha-analysis-extent.thumb.jpg | 3.3 KB | 12205ab8e21a... |
 
 ## Quick Start
 

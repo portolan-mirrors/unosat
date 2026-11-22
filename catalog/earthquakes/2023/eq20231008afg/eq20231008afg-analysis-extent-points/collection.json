@@ -205,7 +205,9 @@
       "file:checksum": "12203549bb75122a3bf8c50cb9cb6f4fff216bac5ce920b36a99ca054b1b2cc547e0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent points: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG), one GeoParquet file with the source columns."
     },
     "eq20231008afg-analysis-extent-points-tiles": {
       "href": "./eq20231008afg-analysis-extent-points.pmtiles",
@@ -214,7 +216,9 @@
       "file:checksum": "12202f31d73d35e9bb8c7c2017d107c5feabd2f753433f76cd631aab1d229b85c01c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent points: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -225,7 +229,19 @@
       ],
       "title": "Analysis extent points",
       "file:size": 735,
-      "file:checksum": "122012d95b4abb19b813a58446aa47a9d7afc1c665fd55ac324502e95557159a8491"
+      "file:checksum": "122012d95b4abb19b813a58446aa47a9d7afc1c665fd55ac324502e95557159a8491",
+      "description": "MapLibre style for Analysis extent points: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20231008afg-analysis-extent-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 40350,
+      "file:checksum": "12207109d82ed4748cf324986894be2ae877dda0a68bb989e1069f1cbe54b63cff1d",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent points: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)."
     }
   }
 }

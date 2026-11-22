@@ -262,7 +262,9 @@
       "file:checksum": "12201d8c8af46ed7f0de1b1e925f14c2a6984a0acc365d5b2be966aad4778d58219e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR), one GeoParquet file with the source columns."
     },
     "eq20230206syr-damage-sites-tiles": {
       "href": "./eq20230206syr-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220223dd52cc2440a27e5b89b065b5fb30a2c2587de83aa1d1ad8b9c5e9bfaf4566",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "1220954083f0ac2a5f7d42019ed829ef3df7d3186070d3a2b5d6604d84a4d3dfa90f"
+      "file:checksum": "1220954083f0ac2a5f7d42019ed829ef3df7d3186070d3a2b5d6604d84a4d3dfa90f",
+      "description": "MapLibre style for Damage sites: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230206syr-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9613,
+      "file:checksum": "1220c9f0534331bbe3e606508e920909859dfa401649c32bfbcfcacd695823613416",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)."
     }
   }
 }

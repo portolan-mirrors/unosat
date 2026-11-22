@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20160417ecu-damage-sites.parquet",
         "eq20160417ecu-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.696744Z",
+      "breaking": false,
+      "assets": {
+        "eq20160417ecu-damage-sites.parquet": {
+          "sha256": "bfce8892d7859a957a5b625e46c6e1949cc6161c83a611661f842853fcbbd03a",
+          "size_bytes": 75292,
+          "href": "earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/eq20160417ecu-damage-sites.parquet",
+          "source_path": "eq20160417ecu-damage-sites.parquet",
+          "source_mtime": 1795333231.194961,
+          "mtime": 1795333231.194961,
+          "feature_count": 1759,
+          "schema_fingerprint": "e4370662678940bf"
+        },
+        "eq20160417ecu-damage-sites.pmtiles": {
+          "sha256": "b6818bafb57c0fcbbe5c220803201fb82ddfc295d374aae40a63fe27f5c7e3be",
+          "size_bytes": 270972,
+          "href": "earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/eq20160417ecu-damage-sites.pmtiles",
+          "mtime": 1795334070.0918643
+        },
+        "eq20160417ecu-damage-sites.thumb.jpg": {
+          "sha256": "a09885ce3090bff077187852f908435e8e66faddc6d5cb0b3156bc59aa1f035b",
+          "size_bytes": 3903,
+          "href": "earthquakes/2016/eq20160417ecu/eq20160417ecu-damage-sites/eq20160417ecu-damage-sites.thumb.jpg",
+          "mtime": 1795343616.6926103
+        }
+      },
+      "changes": [
+        "eq20160417ecu-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20160417ecu-damage-sites.thumb.jpg"
     }
   ]
 }

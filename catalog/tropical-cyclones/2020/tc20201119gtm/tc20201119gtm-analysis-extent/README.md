@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201119gtm/tc20201119gtm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201119gtm/tc20201119gtm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201119gtm-analysis-extent.parquet | 70.8 KB | 12202e9debba... |
 | ./tc20201119gtm-analysis-extent.pmtiles | 383.7 KB | 1220985e7607... |
 | ./styles/default.json | 671 B | 1220aa08137e... |
+| ./tc20201119gtm-analysis-extent.thumb.jpg | 10.5 KB | 1220a3428427... |
 
 ## Quick Start
 

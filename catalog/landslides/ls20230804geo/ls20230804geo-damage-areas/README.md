@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Georgia, 4 August 2023 (LS20230804GEO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20230804geo/ls20230804geo-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Georgia, 4 August 2023 (LS20230804GEO): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20230804geo-damage-areas.parquet | 2.7 MB | 12204a69dda1... |
 | ./ls20230804geo-damage-areas.pmtiles | 358.0 KB | 12207f279c5c... |
 | ./styles/default.json | 652 B | 12200d223cb8... |
+| ./ls20230804geo-damage-areas.thumb.jpg | 16.7 KB | 122051b4a4ff... |
 
 ## Quick Start
 

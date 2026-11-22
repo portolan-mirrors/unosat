@@ -253,7 +253,9 @@
       "file:checksum": "12200fbfcddc94806482b238014977c37de302850b9c69c0b4d54af3c40ae72d42fc",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Somalia, 28 April 2020 (FL20200428SOM), one GeoParquet file with the source columns."
     },
     "fl20200428som-analysis-extent-tiles": {
       "href": "./fl20200428som-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "122058f6f3f50a7331ee5dd3f057f062a144d4a4b02dd1161bd1039871bb61c38ca1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Somalia, 28 April 2020 (FL20200428SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220827fde78311157572786905189b743808021198cf8731a7b4743b6f4d3b96824"
+      "file:checksum": "1220827fde78311157572786905189b743808021198cf8731a7b4743b6f4d3b96824",
+      "description": "MapLibre style for Analysis extent: Flood, Somalia, 28 April 2020 (FL20200428SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200428som-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 26614,
+      "file:checksum": "122051e7c45450cd28355124fde2e5a19df0f4d450539bd94fbae8767eb4f0f7e860",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Somalia, 28 April 2020 (FL20200428SOM)."
     }
   }
 }

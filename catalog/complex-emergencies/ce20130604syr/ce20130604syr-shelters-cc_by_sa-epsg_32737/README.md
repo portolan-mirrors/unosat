@@ -1,5 +1,5 @@
 # Shelters: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-shelters-cc_by_sa-epsg_32737/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130604syr/ce20130604syr-shelters-cc_by_sa-epsg_32737/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR): 11,702 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32737, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130604syr-shelters-cc_by_sa-epsg_32737.parquet | 363.8 KB | 122077ba5b41... |
 | ./ce20130604syr-shelters-cc_by_sa-epsg_32737.pmtiles | 172.8 KB | 12209797d7b4... |
 | ./styles/default.json | 699 B | 12204068af60... |
+| ./ce20130604syr-shelters-cc_by_sa-epsg_32737.thumb.jpg | 22.8 KB | 1220b68f464a... |
 
 ## Quick Start
 

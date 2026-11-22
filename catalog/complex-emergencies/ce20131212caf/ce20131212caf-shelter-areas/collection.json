@@ -341,7 +341,9 @@
       "file:checksum": "1220c85ef7b53a94638451dbea53e7a8328784d673e3dfe5340fb8111833f5dd5252",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelter areas: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF), one GeoParquet file with the source columns."
     },
     "ce20131212caf-shelter-areas-tiles": {
       "href": "./ce20131212caf-shelter-areas.pmtiles",
@@ -350,7 +352,9 @@
       "file:checksum": "12207e78349bda40db15145785ba2df759076165ec987d34f07c500d651c7fc5ba5a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelter areas: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -361,7 +365,19 @@
       ],
       "title": "Shelter areas by CampType",
       "file:size": 871,
-      "file:checksum": "12201af90a55dec1927ec3ad2fabf4789b8c72ddb963af1da9d34bd787770c6a8d0c"
+      "file:checksum": "12201af90a55dec1927ec3ad2fabf4789b8c72ddb963af1da9d34bd787770c6a8d0c",
+      "description": "MapLibre style for Shelter areas: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131212caf-shelter-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4964,
+      "file:checksum": "122076bd8cacad83a47db5fc64c5a61071196ba433f5d9d48129d5bfde7212ad4c6a",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelter areas: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF)."
     }
   }
 }

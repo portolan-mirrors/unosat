@@ -1,5 +1,5 @@
 # Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240702jam/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240702jam/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT geodata for Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM), from 2 datasets on the Humanitarian Data Exchange. HDX describes the event:
 

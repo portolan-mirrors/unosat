@@ -274,7 +274,9 @@
       "file:checksum": "122084cbfcd2c0fe2f0b6acfb3c280e5bac05f1395f02e3f8340745f81a30edac1cf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nigeria, 28 September 2025 (FL20250928NGA), one GeoParquet file with the source columns."
     },
     "fl20250928nga-water-extent-tiles": {
       "href": "./fl20250928nga-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12200a816e9bfb1328e7890878e81d34fad58f3c46ea6360c9fe872051d38b7b814b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nigeria, 28 September 2025 (FL20250928NGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220e7e3354045f598c0724fe4789bcdcfc77b38550d50ceec307d5d942021b251ee"
+      "file:checksum": "1220e7e3354045f598c0724fe4789bcdcfc77b38550d50ceec307d5d942021b251ee",
+      "description": "MapLibre style for Water extent: Flood, Nigeria, 28 September 2025 (FL20250928NGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20250928nga-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 21532,
+      "file:checksum": "12203cc13707ed5aa7d263ee246489b4bd15e0d26a67a7d57fdc8e9f34efb90d542d",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nigeria, 28 September 2025 (FL20250928NGA)."
     }
   }
 }

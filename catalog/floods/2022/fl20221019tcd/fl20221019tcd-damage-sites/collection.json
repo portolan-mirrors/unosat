@@ -282,7 +282,9 @@
       "file:checksum": "1220b1b94c304788a7463f92e9cdd1d6b0c878bebbe1a0e22950b46034790aad4ba7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Chad, 19 October 2022 (FL20221019TCD), one GeoParquet file with the source columns."
     },
     "fl20221019tcd-damage-sites-tiles": {
       "href": "./fl20221019tcd-damage-sites.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12207e752c639908d13beb9a9a11b62be826a0426aa5a685d76ebdf40af6bf46c862",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Chad, 19 October 2022 (FL20221019TCD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "12205f74c2de9eb3db25a56ce7dc7efaa8c3c76f11b9e2a074dd7e8f0275ca26463e"
+      "file:checksum": "12205f74c2de9eb3db25a56ce7dc7efaa8c3c76f11b9e2a074dd7e8f0275ca26463e",
+      "description": "MapLibre style for Damage sites: Flood, Chad, 19 October 2022 (FL20221019TCD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20221019tcd-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16459,
+      "file:checksum": "1220240db31c0c0d390ee3691e4ec0a8f4180c9110fb49bce1fa9ec25304e4b09a6b",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Chad, 19 October 2022 (FL20221019TCD)."
     }
   }
 }

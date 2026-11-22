@@ -262,7 +262,9 @@
       "file:checksum": "122064b73ffaea4bde21be35ee39655843db1926e357a84b6674c776481e31720609",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Fire, Lebanon, 16 October 2019 (FR20191016LBN), one GeoParquet file with the source columns."
     },
     "fr20191016lbn-damage-sites-tiles": {
       "href": "./fr20191016lbn-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220c66513877965ebcb30e356c41cf1662a73089dff9e2de73163d5927f6106a89e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Fire, Lebanon, 16 October 2019 (FR20191016LBN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "1220e1b2cb5389c788c9cc25ceba4cc050a717aeddce407d7a054a8eeb15d036ee57"
+      "file:checksum": "1220e1b2cb5389c788c9cc25ceba4cc050a717aeddce407d7a054a8eeb15d036ee57",
+      "description": "MapLibre style for Damage sites: Fire, Lebanon, 16 October 2019 (FR20191016LBN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20191016lbn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6339,
+      "file:checksum": "12200998850169736126a6ccf4728d5ea83d92047b16201f8df401082d7e67635dd2",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Fire, Lebanon, 16 October 2019 (FR20191016LBN)."
     }
   }
 }

@@ -299,7 +299,9 @@
       "file:checksum": "1220bfd9417ae26c35be7a4b0ebe2bda43b6b3891e7ea19a20490c68a30d6b144b5d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Bangladesh, 13 July 2020 (FL20200713BGD), one GeoParquet file with the source columns."
     },
     "fl20200713bgd-water-extent-tiles": {
       "href": "./fl20200713bgd-water-extent.pmtiles",
@@ -308,7 +310,9 @@
       "file:checksum": "12201ea2ea26e62b512afe8ac0e8e970194a51c31b222c78f204f28f79a992e16746",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Bangladesh, 13 July 2020 (FL20200713BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -319,7 +323,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122090656a1f7462c0a3490f32090e54b66dc068110e3ab3283a02826ecdb54a5487"
+      "file:checksum": "122090656a1f7462c0a3490f32090e54b66dc068110e3ab3283a02826ecdb54a5487",
+      "description": "MapLibre style for Water extent: Flood, Bangladesh, 13 July 2020 (FL20200713BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200713bgd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 28253,
+      "file:checksum": "12204ac71a44bdab89c6a386bfb71b7829b8101e052f6dbc624d47891c9f2c7d8fd1",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Bangladesh, 13 July 2020 (FL20200713BGD)."
     }
   }
 }

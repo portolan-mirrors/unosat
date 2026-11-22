@@ -297,7 +297,9 @@
       "file:checksum": "1220e4365b2e8eb5d6344849c12f6fa320974df566dddf4ab715364420b9f5ea47dc",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM), one GeoParquet file with the source columns."
     },
     "ce20130710som-shelters-cc_by_sa-tiles": {
       "href": "./ce20130710som-shelters-cc_by_sa.pmtiles",
@@ -306,7 +308,9 @@
       "file:checksum": "12207e2ffe8f724afa86d3d0307ce14471f22c7ef8b0cc8a010fbe610d5ec6fde6a3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -317,7 +321,19 @@
       ],
       "title": "Shelters by CampType",
       "file:size": 901,
-      "file:checksum": "1220b02159b2e6a1d75271a1aca4ea26f98c2f6a79f8d4307b00d00215af9487e0ce"
+      "file:checksum": "1220b02159b2e6a1d75271a1aca4ea26f98c2f6a79f8d4307b00d00215af9487e0ce",
+      "description": "MapLibre style for Shelters: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130710som-shelters-cc_by_sa.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2548,
+      "file:checksum": "12207f2a4f2c7c78417881c141db29d2eaf01c8ce06a66a51ff645d49fcf596a5058",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Complex emergency, Somalia, 10 July 2013 (CE20130710SOM)."
     }
   }
 }

@@ -229,7 +229,9 @@
       "file:checksum": "12206daa5507b0d1af8fb569704a5b53c3aa6af51c8b3488390e94b9413f4097c853",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE), one GeoParquet file with the source columns."
     },
     "tc20190324zwe-analysis-extent-tiles": {
       "href": "./tc20190324zwe-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12201b1b4afdbbea4b62581517561fd67c16faf17c3a3fa45664e23d91cee1c7f626",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220f68c95b93b508da90892dd915d85396500e8adc5da9b3c5319318bfe9db93914"
+      "file:checksum": "1220f68c95b93b508da90892dd915d85396500e8adc5da9b3c5319318bfe9db93914",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20190324zwe-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12393,
+      "file:checksum": "1220369379e2c11beb9bdb3c8751d3564ab30d401230262e7287e513be573f745f3d",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)."
     }
   }
 }

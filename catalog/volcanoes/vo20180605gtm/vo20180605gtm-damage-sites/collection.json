@@ -216,7 +216,9 @@
       "file:checksum": "12208f0e706190fed4dc0da31389d66ef46582544d99ada3d39c545909a03621f21e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Volcano, Guatemala, 5 June 2018 (VO20180605GTM), one GeoParquet file with the source columns."
     },
     "vo20180605gtm-damage-sites-tiles": {
       "href": "./vo20180605gtm-damage-sites.pmtiles",
@@ -225,7 +227,9 @@
       "file:checksum": "12208f2eb2fb4e3c5ae19ba76e1594976e5da55c7cdbbde01f48a9146d2a8eb347a5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Volcano, Guatemala, 5 June 2018 (VO20180605GTM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -236,7 +240,19 @@
       ],
       "title": "Damage sites by Main_Damag",
       "file:size": 968,
-      "file:checksum": "1220cfe5be5619485ab97b6478e3dab3926aee2b17bd2352bce6cb69b2fc317f91e4"
+      "file:checksum": "1220cfe5be5619485ab97b6478e3dab3926aee2b17bd2352bce6cb69b2fc317f91e4",
+      "description": "MapLibre style for Damage sites: Volcano, Guatemala, 5 June 2018 (VO20180605GTM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20180605gtm-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4981,
+      "file:checksum": "122008fceabe5b384ae29ada7a78ce14db7dc5effa31faca57de67fc89d3dcfd7dfa",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Volcano, Guatemala, 5 June 2018 (VO20180605GTM)."
     }
   }
 }

@@ -262,7 +262,9 @@
       "file:checksum": "1220856a62fb3c6aef7c84e166b25fcf1acbf7e3dc07cdbd324be5648476fef41e6d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM), one GeoParquet file with the source columns."
     },
     "tc20151103yem-damage-sites-tiles": {
       "href": "./tc20151103yem-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12209507f42585043ee376583a940ae64f96a39a73c2cd777297f511711836af34be",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1098,
-      "file:checksum": "12208384ea213033d91f81119e8a085ffe63f6516abad9fcbbf9d7f10dd66fece940"
+      "file:checksum": "12208384ea213033d91f81119e8a085ffe63f6516abad9fcbbf9d7f10dd66fece940",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20151103yem-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2876,
+      "file:checksum": "12204f47fe2627b36e9e1327a9e9f24a7eb5ab9144b0ce528d15fa92e2ac3671db38",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Yemen, 3 November 2015 (TC20151103YEM)."
     }
   }
 }

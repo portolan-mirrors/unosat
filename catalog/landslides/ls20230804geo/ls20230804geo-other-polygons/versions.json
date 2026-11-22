@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "ls20230804geo-other-polygons.parquet",
         "ls20230804geo-other-polygons.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:52.430505Z",
+      "breaking": false,
+      "assets": {
+        "ls20230804geo-other-polygons.parquet": {
+          "sha256": "41722214721ef873135c424c6ca7db4fcc8dcb55eb5f796b962698960dfa40c6",
+          "size_bytes": 11214,
+          "href": "landslides/ls20230804geo/ls20230804geo-other-polygons/ls20230804geo-other-polygons.parquet",
+          "source_path": "ls20230804geo-other-polygons.parquet",
+          "source_mtime": 1795333460.1288922,
+          "mtime": 1795333460.1288922,
+          "feature_count": 1,
+          "schema_fingerprint": "93a566c0c1aab315"
+        },
+        "ls20230804geo-other-polygons.pmtiles": {
+          "sha256": "8ca12882b2783d4fe2c91ecb2d6ebae472c8ddbdf46f8a520ca319136d64a24c",
+          "size_bytes": 28940,
+          "href": "landslides/ls20230804geo/ls20230804geo-other-polygons/ls20230804geo-other-polygons.pmtiles",
+          "mtime": 1795334247.6124842
+        },
+        "ls20230804geo-other-polygons.thumb.jpg": {
+          "sha256": "00281cbbb68c12ed3daca841f5744ff9939eaa9733cb84c988daf9414e07b411",
+          "size_bytes": 10293,
+          "href": "landslides/ls20230804geo/ls20230804geo-other-polygons/ls20230804geo-other-polygons.thumb.jpg",
+          "mtime": 1795343632.426805
+        }
+      },
+      "changes": [
+        "ls20230804geo-other-polygons.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: ls20230804geo-other-polygons.thumb.jpg"
     }
   ]
 }

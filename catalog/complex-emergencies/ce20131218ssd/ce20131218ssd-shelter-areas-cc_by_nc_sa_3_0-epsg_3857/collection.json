@@ -264,7 +264,9 @@
       "proj:code": "EPSG:3857",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelter areas: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD), one GeoParquet file with the source columns."
     },
     "ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857-tiles": {
       "href": "./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857.pmtiles",
@@ -273,7 +275,9 @@
       "file:checksum": "1220af882840bec98f13aad8e08ddc2b404e4b0deb1d560081c313c613c30f09c545",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelter areas: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -284,7 +288,19 @@
       ],
       "title": "Shelter areas",
       "file:size": 684,
-      "file:checksum": "12201f76302d2104bc681e8c08991824629d8935694783713cd04f8fcf87591ea202"
+      "file:checksum": "12201f76302d2104bc681e8c08991824629d8935694783713cd04f8fcf87591ea202",
+      "description": "MapLibre style for Shelter areas: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131218ssd-shelter-areas-cc_by_nc_sa_3_0-epsg_3857.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16974,
+      "file:checksum": "122074e1b1bd515eea7273fd051af1464520972cb769350e8761bd8ffea54d326e6c",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelter areas: Complex emergency, South Sudan, 18 December 2013 (CE20131218SSD)."
     }
   }
 }

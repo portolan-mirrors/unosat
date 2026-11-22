@@ -226,7 +226,9 @@
       "file:checksum": "122022b534c5c092b068b85983a9303da00dc3f03c893e8bef95746fbcf5899cc21a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG), one GeoParquet file with the source columns."
     },
     "ls20180712afg-damage-areas-tiles": {
       "href": "./ls20180712afg-damage-areas.pmtiles",
@@ -235,7 +237,9 @@
       "file:checksum": "1220e951de61e14b47955010f76cf24252d551ea602384bc08d3a9d5ef3ccb5d03cf",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -246,7 +250,19 @@
       ],
       "title": "Damage areas by Main_Damag",
       "file:size": 883,
-      "file:checksum": "122069e97f607bc76f2c51c9a636facc882f68b9a46eca0fb97f843481edc563a883"
+      "file:checksum": "122069e97f607bc76f2c51c9a636facc882f68b9a46eca0fb97f843481edc563a883",
+      "description": "MapLibre style for Damage areas: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20180712afg-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12382,
+      "file:checksum": "122089eeec3097a764b5cb46c8c0fc616e991a5f6ff968d65c8b478b06897a039086",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)."
     }
   }
 }

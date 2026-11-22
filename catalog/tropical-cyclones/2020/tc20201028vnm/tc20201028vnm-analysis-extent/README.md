@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201028vnm/tc20201028vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201028vnm/tc20201028vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM): 14 features merged from 14 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201028vnm-analysis-extent.parquet | 698.5 KB | 1220ce4131f9... |
 | ./tc20201028vnm-analysis-extent.pmtiles | 1.1 MB | 12208b9791d0... |
 | ./styles/default.json | 671 B | 1220a6e9273c... |
+| ./tc20201028vnm-analysis-extent.thumb.jpg | 10.7 KB | 1220849467fb... |
 
 ## Quick Start
 

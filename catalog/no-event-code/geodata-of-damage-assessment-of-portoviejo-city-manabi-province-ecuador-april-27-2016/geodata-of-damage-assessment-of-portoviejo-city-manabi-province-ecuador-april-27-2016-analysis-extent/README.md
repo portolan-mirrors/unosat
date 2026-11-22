@@ -1,5 +1,5 @@
 # Analysis extent: Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador: 61 features merged from 9 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent.parquet | 3.5 MB | 122031876452... |
 | ./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent.pmtiles | 528.6 KB | 12205b4a3215... |
 | ./styles/default.json | 743 B | 1220d44fb91b... |
+| ./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-analysis-extent.thumb.jpg | 2.4 KB | 1220f99fe755... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Shelters: Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20160204moz/ce20160204moz-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20160204moz/ce20160204moz-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Complex emergency, Mozambique, 4 February 2016 (CE20160204MOZ): 1,497 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20160204moz-shelters.parquet | 87.8 KB | 1220483c7d75... |
 | ./ce20160204moz-shelters.pmtiles | 121.1 KB | 122095023697... |
 | ./styles/default.json | 679 B | 1220533e5321... |
+| ./ce20160204moz-shelters.thumb.jpg | 15.8 KB | 12209b4b91a9... |
 
 ## Quick Start
 

@@ -282,7 +282,9 @@
       "file:checksum": "1220312a2080c5e3c5dd2ff30a1f874924300b3365ba41227fd0291661963a310828",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD), one GeoParquet file with the source columns."
     },
     "fl20231229cod-damage-areas-tiles": {
       "href": "./fl20231229cod-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12203f0f45cd06a73d137f5e92284aceb532e435c5f3fdb82aaef6f2f8999160a8b4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "12206014d6c682541c2450630e0ce502428c30c4040e9b3f47ed7db52feabf7c13aa"
+      "file:checksum": "12206014d6c682541c2450630e0ce502428c30c4040e9b3f47ed7db52feabf7c13aa",
+      "description": "MapLibre style for Damage areas: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231229cod-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11760,
+      "file:checksum": "1220e85cd040f71d89e225d5046d488e69c0ce7b30ddbd4a280ce7660143ace282e5",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD)."
     }
   }
 }

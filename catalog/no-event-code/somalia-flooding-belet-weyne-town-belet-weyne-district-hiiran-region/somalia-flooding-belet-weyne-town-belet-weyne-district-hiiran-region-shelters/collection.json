@@ -222,7 +222,9 @@
       "file:checksum": "1220a1cca233bc71b2d100ef70f6c22b8273f88aec9b7b8ad3500a239292e194e84e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region, one GeoParquet file with the source columns."
     },
     "somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters-tiles": {
       "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters.pmtiles",
@@ -231,7 +233,9 @@
       "file:checksum": "12208f75313b282f6f8c3574077c5017cccd29ec02702adb7f08bf09dc9de02fdc20",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -242,7 +246,19 @@
       ],
       "title": "Shelters",
       "file:size": 734,
-      "file:checksum": "12202881b118539b466d33066d5a45ad7a6df5abe3fa1518ace14f07f005cf566cbe"
+      "file:checksum": "12202881b118539b466d33066d5a45ad7a6df5abe3fa1518ace14f07f005cf566cbe",
+      "description": "MapLibre style for Shelters: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8175,
+      "file:checksum": "12205867f4ce50a898b41eff88e3969d3456efc98a3dad040f9718227cf725ef73f2",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region."
     }
   }
 }

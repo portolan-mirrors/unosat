@@ -1,5 +1,5 @@
 # Water extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240902nga/fl20240902nga-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Nigeria, 2 September 2024 (FL20240902NGA): 20 features merged from 20 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240902nga-water-extent.parquet | 370.3 MB | 122017c7bed5... |
 | ./fl20240902nga-water-extent.pmtiles | 77.5 MB | 1220ab2ac240... |
 | ./styles/default.json | 967 B | 12208564dd44... |
+| ./fl20240902nga-water-extent.thumb.jpg | 22.8 KB | 1220f74cdeb3... |
 
 ## Quick Start
 

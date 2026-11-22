@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20261011pan-analysis-extent.parquet",
         "eq20261011pan-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.873949Z",
+      "breaking": false,
+      "assets": {
+        "eq20261011pan-analysis-extent.parquet": {
+          "sha256": "e23b8ab694224a401060de54d8e0e7db4b685e0a8864bedef636565cb2325eb0",
+          "size_bytes": 6361,
+          "href": "earthquakes/2026/eq20261011pan/eq20261011pan-analysis-extent/eq20261011pan-analysis-extent.parquet",
+          "source_path": "eq20261011pan-analysis-extent.parquet",
+          "source_mtime": 1795333237.4778757,
+          "mtime": 1795333237.4778757,
+          "feature_count": 1,
+          "schema_fingerprint": "9b7b3cd588079d28"
+        },
+        "eq20261011pan-analysis-extent.pmtiles": {
+          "sha256": "ec2677d4f618291d827ac0df83dd8571a02d0321bb72a251972d55e647cc66a6",
+          "size_bytes": 36267,
+          "href": "earthquakes/2026/eq20261011pan/eq20261011pan-analysis-extent/eq20261011pan-analysis-extent.pmtiles",
+          "mtime": 1795334071.2328486
+        },
+        "eq20261011pan-analysis-extent.thumb.jpg": {
+          "sha256": "8ff3703c05b38b97d4de3774f3e504b8702f538e0861e6ac16eb01e9075adf4b",
+          "size_bytes": 7131,
+          "href": "earthquakes/2026/eq20261011pan/eq20261011pan-analysis-extent/eq20261011pan-analysis-extent.thumb.jpg",
+          "mtime": 1795343616.8716776
+        }
+      },
+      "changes": [
+        "eq20261011pan-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20261011pan-analysis-extent.thumb.jpg"
     }
   ]
 }

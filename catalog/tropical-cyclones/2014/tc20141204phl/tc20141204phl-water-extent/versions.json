@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20141204phl-water-extent.parquet",
         "tc20141204phl-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:16.701711Z",
+      "breaking": false,
+      "assets": {
+        "tc20141204phl-water-extent.parquet": {
+          "sha256": "70a08492d7e314ae55717145d2518f8178fb73107cdcb1d180fa9c9fc40952a1",
+          "size_bytes": 15465728,
+          "href": "tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/tc20141204phl-water-extent.parquet",
+          "source_path": "tc20141204phl-water-extent.parquet",
+          "source_mtime": 1795333484.102579,
+          "mtime": 1795333484.102579,
+          "feature_count": 70648,
+          "schema_fingerprint": "7878480963580f18"
+        },
+        "tc20141204phl-water-extent.pmtiles": {
+          "sha256": "fa345076c0030492482feeffcf10dc3bca9e3fe699b1cac17cd55ea0b263d35a",
+          "size_bytes": 8270089,
+          "href": "tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/tc20141204phl-water-extent.pmtiles",
+          "mtime": 1795334258.3753471
+        },
+        "tc20141204phl-water-extent.thumb.jpg": {
+          "sha256": "dba5af7e0c225c006283d24fabfe736f0427367b9b7ef39536943663ba57d115",
+          "size_bytes": 10027,
+          "href": "tropical-cyclones/2014/tc20141204phl/tc20141204phl-water-extent/tc20141204phl-water-extent.thumb.jpg",
+          "mtime": 1795365856.5923834
+        }
+      },
+      "changes": [
+        "tc20141204phl-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20141204phl-water-extent.thumb.jpg"
     }
   ]
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240804pak/fl20240804pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240804pak/fl20240804pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Pakistan, 4 August 2024 (FL20240804PAK): 58 features merged from 58 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240804pak-analysis-extent.parquet | 6.4 MB | 1220b4489629... |
 | ./fl20240804pak-analysis-extent.pmtiles | 72.6 MB | 1220755382ef... |
 | ./styles/default.json | 671 B | 122041cc1561... |
+| ./fl20240804pak-analysis-extent.thumb.jpg | 24.6 KB | 12202962098a... |
 
 ## Quick Start
 

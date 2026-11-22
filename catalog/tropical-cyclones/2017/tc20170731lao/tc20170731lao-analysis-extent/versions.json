@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20170731lao-analysis-extent.parquet",
         "tc20170731lao-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:15.181209Z",
+      "breaking": false,
+      "assets": {
+        "tc20170731lao-analysis-extent.parquet": {
+          "sha256": "5770689cc8d7a882ec2a24b564e794242baa4cfc40af214a890f0ead6081c1d8",
+          "size_bytes": 182133,
+          "href": "tropical-cyclones/2017/tc20170731lao/tc20170731lao-analysis-extent/tc20170731lao-analysis-extent.parquet",
+          "source_path": "tc20170731lao-analysis-extent.parquet",
+          "source_mtime": 1795333490.5254967,
+          "mtime": 1795333490.5254967,
+          "feature_count": 9,
+          "schema_fingerprint": "bf1f77416f7889c8"
+        },
+        "tc20170731lao-analysis-extent.pmtiles": {
+          "sha256": "2956d11d1f3c5061b2b8b6c05e7df8ab73a179e16ff0464fe04d810cad0c1f7c",
+          "size_bytes": 435698,
+          "href": "tropical-cyclones/2017/tc20170731lao/tc20170731lao-analysis-extent/tc20170731lao-analysis-extent.pmtiles",
+          "mtime": 1795334260.8643157
+        },
+        "tc20170731lao-analysis-extent.thumb.jpg": {
+          "sha256": "aecb240e337e02c327c06a5f3a8913e83bc83cdf895851f30318f4cf494c8dd8",
+          "size_bytes": 9058,
+          "href": "tropical-cyclones/2017/tc20170731lao/tc20170731lao-analysis-extent/tc20170731lao-analysis-extent.thumb.jpg",
+          "mtime": 1795365855.1764107
+        }
+      },
+      "changes": [
+        "tc20170731lao-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20170731lao-analysis-extent.thumb.jpg"
     }
   ]
 }

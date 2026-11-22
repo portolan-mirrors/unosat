@@ -1,5 +1,5 @@
 # Damage sites: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191028caf/fl20191028caf-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191028caf/fl20191028caf-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Central African Republic, 28 October 2019 (FL20191028CAF): 395 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191028caf-damage-sites.parquet | 21.4 KB | 12209efe94ba... |
 | ./fl20191028caf-damage-sites.pmtiles | 59.9 KB | 12204164124b... |
 | ./styles/default.json | 956 B | 122004970e8e... |
+| ./fl20191028caf-damage-sites.thumb.jpg | 4.4 KB | 12202193a6a7... |
 
 ## Quick Start
 

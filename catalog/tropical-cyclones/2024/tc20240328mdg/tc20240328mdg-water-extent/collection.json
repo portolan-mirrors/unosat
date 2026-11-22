@@ -274,7 +274,9 @@
       "file:checksum": "122039ee1aef35a0509df2de31ad0184bad03a9bdb6a4ea30e5da567dd28f034edb6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG), one GeoParquet file with the source columns."
     },
     "tc20240328mdg-water-extent-tiles": {
       "href": "./tc20240328mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12206050a7ff7fb788e9cb5dfbc188da3ed8570b2818624ab776b8f2e329aadef4c2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220a8f0956df5f2249018a3c1c614add2218a3dbdd54e8923685a616a81b893af1f"
+      "file:checksum": "1220a8f0956df5f2249018a3c1c614add2218a3dbdd54e8923685a616a81b893af1f",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240328mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12534,
+      "file:checksum": "12208355100569955b0debd1ff7fed0dba9c2ffa57c1a7879e0309bf51e51eb565a6",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Madagascar, 28 March 2024 (TC20240328MDG)."
     }
   }
 }

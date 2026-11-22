@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328mmr/eq20250328mmr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Myanmar, 28 March 2025 (EQ20250328MMR): 23 features merged from 22 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328mmr-analysis-extent.parquet | 13.7 KB | 122030bd3c19... |
 | ./eq20250328mmr-analysis-extent.pmtiles | 182.0 KB | 12207c67acd9... |
 | ./styles/default.json | 671 B | 1220cf667a29... |
+| ./eq20250328mmr-analysis-extent.thumb.jpg | 9.4 KB | 122068cca1df... |
 
 ## Quick Start
 

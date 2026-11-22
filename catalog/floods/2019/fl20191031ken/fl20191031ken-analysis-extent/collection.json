@@ -229,7 +229,9 @@
       "file:checksum": "122096392cc005122931ffaf90637d2fc0f13772b9c00ba936c9751b417c579f2b18",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Kenya, 31 October 2019 (FL20191031KEN), one GeoParquet file with the source columns."
     },
     "fl20191031ken-analysis-extent-tiles": {
       "href": "./fl20191031ken-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220afc33406dfbcf3d1f26e28b86a75028058d907c7a69442e53389f074dc54e005",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Kenya, 31 October 2019 (FL20191031KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b37edfed6ac856f552a5984cedc182c8014d4e90ce4c9d0e12f59796517cb989"
+      "file:checksum": "1220b37edfed6ac856f552a5984cedc182c8014d4e90ce4c9d0e12f59796517cb989",
+      "description": "MapLibre style for Analysis extent: Flood, Kenya, 31 October 2019 (FL20191031KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191031ken-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2806,
+      "file:checksum": "122005c9f0ad618da33dbe5df65ea971d14d00ace44eb5b2c1512d930e146046e1d3",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Kenya, 31 October 2019 (FL20191031KEN)."
     }
   }
 }

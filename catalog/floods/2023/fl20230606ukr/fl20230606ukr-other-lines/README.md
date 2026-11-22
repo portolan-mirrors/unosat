@@ -1,5 +1,5 @@
 # Other lines: Flood, Ukraine, 6 June 2023 (FL20230606UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Ukraine, 6 June 2023 (FL20230606UKR): 1,216 features merged from 19 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -85,6 +85,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230606ukr-other-lines.parquet | 29.4 KB | 12205f6a8336... |
 | ./fl20230606ukr-other-lines.pmtiles | 43.6 KB | 12201fd78f5a... |
 | ./styles/default.json | 401 B | 1220656a8710... |
+| ./fl20230606ukr-other-lines.thumb.jpg | 2.3 KB | 1220105a0ebb... |
 
 ## Quick Start
 

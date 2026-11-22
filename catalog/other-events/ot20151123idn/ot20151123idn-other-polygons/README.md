@@ -1,5 +1,5 @@
 # Other polygons: Event, Indonesia, 23 November 2015 (OT20151123IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20151123idn/ot20151123idn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20151123idn/ot20151123idn-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Event, Indonesia, 23 November 2015 (OT20151123IDN): 212,726 features merged from 9 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ot20151123idn-other-polygons.parquet | 58.4 MB | 1220672185a7... |
 | ./ot20151123idn-other-polygons.pmtiles | 71.5 MB | 1220bf00ac78... |
 | ./styles/default.json | 664 B | 1220094729c2... |
+| ./ot20151123idn-other-polygons.thumb.jpg | 29.1 KB | 1220917a40ba... |
 
 ## Quick Start
 

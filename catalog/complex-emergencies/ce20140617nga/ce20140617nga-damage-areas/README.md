@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140617nga/ce20140617nga-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA): 93 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140617nga-damage-areas.parquet | 30.1 KB | 1220bdede6ce... |
 | ./ce20140617nga-damage-areas.pmtiles | 113.4 KB | 12202244864b... |
 | ./styles/default.json | 959 B | 1220249996e1... |
+| ./ce20140617nga-damage-areas.thumb.jpg | 17.0 KB | 12205d192deb... |
 
 ## Quick Start
 

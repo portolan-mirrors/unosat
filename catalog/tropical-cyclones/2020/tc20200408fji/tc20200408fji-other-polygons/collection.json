@@ -284,7 +284,9 @@
       "file:checksum": "1220544c97dc984e1c2062dc0ff8ab76ede5e862a8e6f1810f392c3a87f441f8d265",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI), one GeoParquet file with the source columns."
     },
     "tc20200408fji-other-polygons-tiles": {
       "href": "./tc20200408fji-other-polygons.pmtiles",
@@ -293,7 +295,9 @@
       "file:checksum": "12203d0dbf28e9a00b6df2ff6717ac35650f77f5674bbbfdbc29d5813c3f81f5cb0c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -304,7 +308,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122061e6186101987eb4cf27ce5b561a3bb3d3ab5036451116bc23db7b16e2a5ad32"
+      "file:checksum": "122061e6186101987eb4cf27ce5b561a3bb3d3ab5036451116bc23db7b16e2a5ad32",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200408fji-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2496,
+      "file:checksum": "1220491e83b74dc1a17173727b7d39179cf6b038baf8063de45ca0af22b12c929fee",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)."
     }
   }
 }

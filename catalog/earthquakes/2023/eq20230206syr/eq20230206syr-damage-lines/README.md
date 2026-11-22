@@ -1,5 +1,5 @@
 # Damaged lines: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-damage-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230206syr/eq20230206syr-damage-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damaged lines for Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR): 4 features merged from 2 source layers. Line layers with a damage class column, such as damaged roads or bridges. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20230206syr-damage-lines.parquet | 11.3 KB | 1220c199ba87... |
 | ./eq20230206syr-damage-lines.pmtiles | 27.8 KB | 1220a39f41fb... |
 | ./styles/default.json | 745 B | 12208d79d451... |
+| ./eq20230206syr-damage-lines.thumb.jpg | 3.4 KB | 122005fba21d... |
 
 ## Quick Start
 

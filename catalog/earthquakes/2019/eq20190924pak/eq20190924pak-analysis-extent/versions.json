@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20190924pak-analysis-extent.parquet",
         "eq20190924pak-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.738581Z",
+      "breaking": false,
+      "assets": {
+        "eq20190924pak-analysis-extent.parquet": {
+          "sha256": "5d666676c526f16c812f6d83103f8467cb5ec0a175aee65d6ec4f366cc5bcf06",
+          "size_bytes": 6576,
+          "href": "earthquakes/2019/eq20190924pak/eq20190924pak-analysis-extent/eq20190924pak-analysis-extent.parquet",
+          "source_path": "eq20190924pak-analysis-extent.parquet",
+          "source_mtime": 1795333222.5900753,
+          "mtime": 1795333222.5900753,
+          "feature_count": 1,
+          "schema_fingerprint": "df71255ed877cc50"
+        },
+        "eq20190924pak-analysis-extent.pmtiles": {
+          "sha256": "7c36d240c842619210a45bd49c0e115a8ff60a27ebd19efbf693160d5f79ffb1",
+          "size_bytes": 38744,
+          "href": "earthquakes/2019/eq20190924pak/eq20190924pak-analysis-extent/eq20190924pak-analysis-extent.pmtiles",
+          "mtime": 1795334070.3368611
+        },
+        "eq20190924pak-analysis-extent.thumb.jpg": {
+          "sha256": "91d337b2584bb45723ec8f383cf244a8304db8b2dbed8052ba685c549f755a64",
+          "size_bytes": 8729,
+          "href": "earthquakes/2019/eq20190924pak/eq20190924pak-analysis-extent/eq20190924pak-analysis-extent.thumb.jpg",
+          "mtime": 1795343616.736132
+        }
+      },
+      "changes": [
+        "eq20190924pak-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20190924pak-analysis-extent.thumb.jpg"
     }
   ]
 }

@@ -249,7 +249,9 @@
       "file:checksum": "12202bb872790cf80a3862772da7b7a6b789dcd50f6c685379daff740029a3177125",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Niger, 8 September 2021 (FL20210908NER), one GeoParquet file with the source columns."
     },
     "fl20210908ner-analysis-extent-tiles": {
       "href": "./fl20210908ner-analysis-extent.pmtiles",
@@ -258,7 +260,9 @@
       "file:checksum": "12207bdaf4b81fe9a14e8cc4ce22a38e3121d50cb0b97f3cffcb623b98249aed39e3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Niger, 8 September 2021 (FL20210908NER) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -269,7 +273,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12205db862d82fae8846a995cf34cd6376d0fc62466142e19c3e9c9cfec08a96b980"
+      "file:checksum": "12205db862d82fae8846a995cf34cd6376d0fc62466142e19c3e9c9cfec08a96b980",
+      "description": "MapLibre style for Analysis extent: Flood, Niger, 8 September 2021 (FL20210908NER); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210908ner-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11007,
+      "file:checksum": "122000682f57979afe3c3292f623cea16b86f41f383d51c5e2e1ced099a1c6ea479a",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Niger, 8 September 2021 (FL20210908NER)."
     }
   }
 }

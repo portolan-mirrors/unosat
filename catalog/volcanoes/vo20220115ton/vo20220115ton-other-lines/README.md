@@ -1,5 +1,5 @@
 # Other lines: Volcano, Tonga, 15 January 2022 (VO20220115TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Volcano, Tonga, 15 January 2022 (VO20220115TON): 6 features merged from 6 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20220115ton-other-lines.parquet | 23.9 KB | 12200ae6caef... |
 | ./vo20220115ton-other-lines.pmtiles | 24.8 KB | 12204a71ca84... |
 | ./styles/default.json | 401 B | 1220b871f844... |
+| ./vo20220115ton-other-lines.thumb.jpg | 2.4 KB | 122026263e91... |
 
 ## Quick Start
 

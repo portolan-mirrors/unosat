@@ -342,7 +342,9 @@
       "file:checksum": "1220e647910fe1957ffdcfda88b6875694732be4e953a2be6cfa51682e1e64be52f1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Flood, Myanmar, 12 September 2024 (FL20240912MMR), one GeoParquet file with the source columns."
     },
     "fl20240912mmr-other-lines-tiles": {
       "href": "./fl20240912mmr-other-lines.pmtiles",
@@ -351,7 +353,9 @@
       "file:checksum": "122047b1f07c102ae38fc2f449f6b92bcac5f1555d206d6a3513b1b0af6b154c54f9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Flood, Myanmar, 12 September 2024 (FL20240912MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -362,7 +366,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220ca8fa0748d5be8cc2a398aeb0b3602ddf8700cce70982b965087504d33d77c41"
+      "file:checksum": "1220ca8fa0748d5be8cc2a398aeb0b3602ddf8700cce70982b965087504d33d77c41",
+      "description": "MapLibre style for Other lines: Flood, Myanmar, 12 September 2024 (FL20240912MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240912mmr-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2369,
+      "file:checksum": "122060c496d8a9abfb361aa9886614fc78514655054522e38a468ded60831d12bb6d",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Flood, Myanmar, 12 September 2024 (FL20240912MMR)."
     }
   }
 }

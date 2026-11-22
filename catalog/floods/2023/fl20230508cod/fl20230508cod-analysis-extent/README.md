@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230508cod/fl20230508cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230508cod/fl20230508cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD): 12 features merged from 12 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230508cod-analysis-extent.parquet | 327.0 KB | 12206caba22a... |
 | ./fl20230508cod-analysis-extent.pmtiles | 105.5 KB | 1220ae4a67f9... |
 | ./styles/default.json | 671 B | 12202619cbe6... |
+| ./fl20230508cod-analysis-extent.thumb.jpg | 26.9 KB | 122063710103... |
 
 ## Quick Start
 

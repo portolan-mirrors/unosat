@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20180518bgd-analysis-extent.parquet",
         "fl20180518bgd-analysis-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:37.603743Z",
+      "breaking": false,
+      "assets": {
+        "fl20180518bgd-analysis-extent.parquet": {
+          "sha256": "fd9af8a3e20d96492d04d904e4d2909da8f96528f16cb66a84cbb9c31400f765",
+          "size_bytes": 3913,
+          "href": "floods/2018/fl20180518bgd/fl20180518bgd-analysis-extent/fl20180518bgd-analysis-extent.parquet",
+          "source_path": "fl20180518bgd-analysis-extent.parquet",
+          "source_mtime": 1795333267.1444736,
+          "mtime": 1795333267.1444736,
+          "feature_count": 1,
+          "schema_fingerprint": "beffdd3c3fa708a1"
+        },
+        "fl20180518bgd-analysis-extent.pmtiles": {
+          "sha256": "adba8156e54f19b204d799f51c242f467c18ad95f538b80f40828e4c87d63adc",
+          "size_bytes": 21562,
+          "href": "floods/2018/fl20180518bgd/fl20180518bgd-analysis-extent/fl20180518bgd-analysis-extent.pmtiles",
+          "mtime": 1795334076.461777
+        },
+        "fl20180518bgd-analysis-extent.thumb.jpg": {
+          "sha256": "1e182fcebee53d8dc1153acebd8e9551efff8461b4c0883b88245fe6d0645db6",
+          "size_bytes": 6020,
+          "href": "floods/2018/fl20180518bgd/fl20180518bgd-analysis-extent/fl20180518bgd-analysis-extent.thumb.jpg",
+          "mtime": 1795343617.601453
+        }
+      },
+      "changes": [
+        "fl20180518bgd-analysis-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20180518bgd-analysis-extent.thumb.jpg"
     }
   ]
 }

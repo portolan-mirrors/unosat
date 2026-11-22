@@ -282,7 +282,9 @@
       "file:checksum": "12205cadfd916be9edc6c4b3334a6601b8b147ce5f9946832b4fcc43e7f9b3c4b3d8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT), one GeoParquet file with the source columns."
     },
     "vo20211025vut-damage-areas-tiles": {
       "href": "./vo20211025vut-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220a276a1188938de98601365083dd97a3ca4ef44ac9d6d6261d0d2f98ae48ec458",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 913,
-      "file:checksum": "1220e113ba1d3759494efcd90a64788d2ae1cc31820484eae51846f164f2b99dff74"
+      "file:checksum": "1220e113ba1d3759494efcd90a64788d2ae1cc31820484eae51846f164f2b99dff74",
+      "description": "MapLibre style for Damage areas: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20211025vut-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11020,
+      "file:checksum": "1220980882d8373186a595de44e603cd1197fb099053436f05d4ada0d0487eb68135",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)."
     }
   }
 }

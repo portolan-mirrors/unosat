@@ -282,7 +282,9 @@
       "file:checksum": "122052332b9539a25adccb303b023da7c101f557785201797d637293a9f429406e4a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO), one GeoParquet file with the source columns."
     },
     "tc20250722lao-damage-areas-tiles": {
       "href": "./tc20250722lao-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220734d5557989e02a7461f24ad246b77b9c4d9fc6ea02bf70021ad2593eb8832c7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Grouped_Damage_Classes",
       "file:size": 915,
-      "file:checksum": "1220ff31fbebb3f05c0b6806fccd7dcf3ebf6a02897f6729b37afcea4d2c1c2c1631"
+      "file:checksum": "1220ff31fbebb3f05c0b6806fccd7dcf3ebf6a02897f6729b37afcea4d2c1c2c1631",
+      "description": "MapLibre style for Damage areas: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20250722lao-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12604,
+      "file:checksum": "12200abf1c81ca895ecc6730cb884ef46e15f2a71781cf0a20d9271f300540f108ee",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)."
     }
   }
 }

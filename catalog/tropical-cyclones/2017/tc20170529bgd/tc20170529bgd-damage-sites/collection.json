@@ -262,7 +262,9 @@
       "file:checksum": "122016507a2f4cbd758801ca1458f5ef6c7b22caf251c100928c055390033e5fa9dd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD), one GeoParquet file with the source columns."
     },
     "tc20170529bgd-damage-sites-tiles": {
       "href": "./tc20170529bgd-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ca914f9d33f1d9b204fd41b20b6497b94233a49da0f34c70f9b2cfe4b1ba7148",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "12202353c2a5f31ebb17b1dc29a66692906547a615991e134d0d0dfa511d2918fdc8"
+      "file:checksum": "12202353c2a5f31ebb17b1dc29a66692906547a615991e134d0d0dfa511d2918fdc8",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170529bgd-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2988,
+      "file:checksum": "1220e04272749cf052abd9b668b767261950b52ea56a34228fec30dab21eceef8d91",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)."
     }
   }
 }

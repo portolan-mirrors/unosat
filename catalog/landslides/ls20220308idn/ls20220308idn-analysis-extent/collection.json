@@ -271,7 +271,9 @@
       "file:checksum": "1220a169722eed0da22ef05d88ce7833afa255f74a0dbf30e7913367329551072d91",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, Indonesia, 8 March 2022 (LS20220308IDN), one GeoParquet file with the source columns."
     },
     "ls20220308idn-analysis-extent-tiles": {
       "href": "./ls20220308idn-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "12204becd2d1674633e7b3c7b2a4bfe3ef9503d77ceba8fefb3cca8c4beeb267d74e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, Indonesia, 8 March 2022 (LS20220308IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12205f370e8d9fd13761029d089e330db66962a1d828effcda75d84a58b47efe2790"
+      "file:checksum": "12205f370e8d9fd13761029d089e330db66962a1d828effcda75d84a58b47efe2790",
+      "description": "MapLibre style for Analysis extent: Landslide, Indonesia, 8 March 2022 (LS20220308IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20220308idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12578,
+      "file:checksum": "1220b7aebaa8467a57578b9e0c261298bd07258cc3ab9995dce492b008aec40159c5",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, Indonesia, 8 March 2022 (LS20220308IDN)."
     }
   }
 }

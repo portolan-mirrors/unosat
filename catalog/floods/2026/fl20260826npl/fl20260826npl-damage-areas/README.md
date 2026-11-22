@@ -1,5 +1,5 @@
 # Damage areas: Flood, Nepal, 26 August 2026 (FL20260826NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/fl20260826npl-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20260826npl/fl20260826npl-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Nepal, 26 August 2026 (FL20260826NPL): 20 features merged from 15 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20260826npl-damage-areas.parquet | 2.2 MB | 1220dea4ffc2... |
 | ./fl20260826npl-damage-areas.pmtiles | 637.8 KB | 1220eaca28de... |
 | ./styles/default.json | 652 B | 1220cffc740e... |
+| ./fl20260826npl-damage-areas.thumb.jpg | 9.1 KB | 12205570e7e5... |
 
 ## Quick Start
 

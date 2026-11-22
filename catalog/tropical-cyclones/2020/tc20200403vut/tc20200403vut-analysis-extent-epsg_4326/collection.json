@@ -253,7 +253,9 @@
       "file:checksum": "1220e4ba8988c707abe545df1e999733359fca5cfe4ce84ec0ff2135be3e8e820704",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT), one GeoParquet file with the source columns."
     },
     "tc20200403vut-analysis-extent-epsg_4326-tiles": {
       "href": "./tc20200403vut-analysis-extent-epsg_4326.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12204f94a5f20a2164a8d4b2f49c0942ed6dac4e4687e574fe079b0ee7d40050b6fa",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 681,
-      "file:checksum": "12203293a8e31ac1eb94c4a7c4154d3f690abe8bfa9f136627feb3711df4f97501b7"
+      "file:checksum": "12203293a8e31ac1eb94c4a7c4154d3f690abe8bfa9f136627feb3711df4f97501b7",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200403vut-analysis-extent-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9659,
+      "file:checksum": "12203b73799a5c4cffe4e70e27bb6881cf82fdfbad04784c66fb53ec12fd0cdab575",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)."
     }
   }
 }

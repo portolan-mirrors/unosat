@@ -274,7 +274,9 @@
       "file:checksum": "1220d7ff6f96166bce6604f564e79d95b6c8c20b6b7dfabf8d4c74dabbb359caa0ca",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Kenya, 26 April 2024 (FL20240426KEN), one GeoParquet file with the source columns."
     },
     "fl20240426ken-water-extent-tiles": {
       "href": "./fl20240426ken-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220f6c00e17e9be30c3d69ebef868e78298251ec3435217a05cf2a42796eb7910ca",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Kenya, 26 April 2024 (FL20240426KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220c218a99486dbdc8f6f4325f515babf0d5344e91148c101c61d7c5c246c8ec18e"
+      "file:checksum": "1220c218a99486dbdc8f6f4325f515babf0d5344e91148c101c61d7c5c246c8ec18e",
+      "description": "MapLibre style for Water extent: Flood, Kenya, 26 April 2024 (FL20240426KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240426ken-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19106,
+      "file:checksum": "1220dc625f2f8e2487238437dcb3db57b60c7388e45870cb6e65cca8d1b174a99109",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Kenya, 26 April 2024 (FL20240426KEN)."
     }
   }
 }

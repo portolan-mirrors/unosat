@@ -269,7 +269,9 @@
       "file:checksum": "122075fa7e7d8943a44f97030da97fbdf9d4f506d229f663fecc8918c78cf229eb59",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA), one GeoParquet file with the source columns."
     },
     "tc20170918dma-analysis-extent-tiles": {
       "href": "./tc20170918dma-analysis-extent.pmtiles",
@@ -278,7 +280,9 @@
       "file:checksum": "12204ce20c8d261c80c04cf2d00eb28923d80e531da412a507a910634408a62c5272",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -289,7 +293,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220753c7471f7eb3d2062b91a5e48fb22f6ed860e0b96575e2e4cabd6d9e289b3e5"
+      "file:checksum": "1220753c7471f7eb3d2062b91a5e48fb22f6ed860e0b96575e2e4cabd6d9e289b3e5",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170918dma-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14374,
+      "file:checksum": "1220543b1a5076a9a3a3844c6d671bba403db4f7f0b4c7b7806d9ed4ab596e89a2e5",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA)."
     }
   }
 }

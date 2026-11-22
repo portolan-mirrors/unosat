@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-sites-cc_by_sa/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR): 10,720 features merged from 11 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -108,6 +108,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20220223ukr-damage-sites-cc_by_sa.parquet | 402.4 KB | 1220c471b226... |
 | ./ce20220223ukr-damage-sites-cc_by_sa.pmtiles | 654.8 KB | 122062a384db... |
 | ./styles/default.json | 1.3 KB | 122019dddf3e... |
+| ./ce20220223ukr-damage-sites-cc_by_sa.thumb.jpg | 5.0 KB | 1220e4e1fb55... |
 
 ## Quick Start
 

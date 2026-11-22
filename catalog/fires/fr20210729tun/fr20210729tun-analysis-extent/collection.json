@@ -271,7 +271,9 @@
       "file:checksum": "12209e77a951c536cc038d4463dffd40096b36252e6364f8160dbfafce11d1a6eb51",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Fire, Tunisia, 29 July 2021 (FR20210729TUN), one GeoParquet file with the source columns."
     },
     "fr20210729tun-analysis-extent-tiles": {
       "href": "./fr20210729tun-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "1220c00457baea60c8ed2c8d2da25110cac6f4209f3a2ffd5a1753af1100bbc8e0ed",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Fire, Tunisia, 29 July 2021 (FR20210729TUN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122082534bde55844ed7cd086e6519ae3907121a0834bf876906b768917c2876229b"
+      "file:checksum": "122082534bde55844ed7cd086e6519ae3907121a0834bf876906b768917c2876229b",
+      "description": "MapLibre style for Analysis extent: Fire, Tunisia, 29 July 2021 (FR20210729TUN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20210729tun-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 35783,
+      "file:checksum": "1220ae11377c0e7abb96c23a221d09fc4069b87a54e8eab67219c809d1c56f2456b6",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Fire, Tunisia, 29 July 2021 (FR20210729TUN)."
     }
   }
 }

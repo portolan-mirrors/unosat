@@ -229,7 +229,9 @@
       "file:checksum": "1220f67439ab91292e868ac3c354bbbbd6854b4e9d089c97b61dc1f7bbbd9ccca40d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Bangladesh, 25 May 2022 (FL20220525BGD), one GeoParquet file with the source columns."
     },
     "fl20220525bgd-analysis-extent-tiles": {
       "href": "./fl20220525bgd-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220f6a89ba77e69fa8c76b88755e35a902218ab33ba6232c6d101c46721ba59d750",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Bangladesh, 25 May 2022 (FL20220525BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c39a8d5d64016c4569f4944598dd1cf7ad3bd8ce0fb4b08f5f628eb1b8e9525d"
+      "file:checksum": "1220c39a8d5d64016c4569f4944598dd1cf7ad3bd8ce0fb4b08f5f628eb1b8e9525d",
+      "description": "MapLibre style for Analysis extent: Flood, Bangladesh, 25 May 2022 (FL20220525BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220525bgd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13503,
+      "file:checksum": "122040200d3c46a6b0fd2890bb4a4c9a5ebc37da0e5f4128b2ee328ab4d828478f23",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Bangladesh, 25 May 2022 (FL20220525BGD)."
     }
   }
 }

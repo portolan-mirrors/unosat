@@ -229,7 +229,9 @@
       "file:checksum": "1220756733bb4a7e06b2cc5004c0bf4f5252c2158f3b8bc95fcf8aa7524e154b0bdf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO), one GeoParquet file with the source columns."
     },
     "fl20230807lao-analysis-extent-tiles": {
       "href": "./fl20230807lao-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122032de351f6cdaf23e08b0cbe2220c8928a6d4c4d98a491e9aaaa28627d4d3190d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220066d8198d5576bf4c32b8e5fdaab0345b8b77871d063cf54c62133a5a8321fa6"
+      "file:checksum": "1220066d8198d5576bf4c32b8e5fdaab0345b8b77871d063cf54c62133a5a8321fa6",
+      "description": "MapLibre style for Analysis extent: Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230807lao-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9147,
+      "file:checksum": "12209edc039d5c6b6b4c8ce0e218a350fa8f5f53ce614cf627caa824c4a285c2c29b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Lao People's Democratic Republic, 7 August 2023 (FL20230807LAO)."
     }
   }
 }

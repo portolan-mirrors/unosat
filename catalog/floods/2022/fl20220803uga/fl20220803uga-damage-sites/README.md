@@ -1,5 +1,5 @@
 # Damage sites: Flood, Uganda, 3 August 2022 (FL20220803UGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220803uga/fl20220803uga-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220803uga/fl20220803uga-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Uganda, 3 August 2022 (FL20220803UGA): 49 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220803uga-damage-sites.parquet | 9.1 KB | 122061489e80... |
 | ./fl20220803uga-damage-sites.pmtiles | 27.5 KB | 12205922df45... |
 | ./styles/default.json | 956 B | 122093613fe3... |
+| ./fl20220803uga-damage-sites.thumb.jpg | 3.9 KB | 12207e62a65b... |
 
 ## Quick Start
 

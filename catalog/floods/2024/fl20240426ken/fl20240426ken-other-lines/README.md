@@ -1,5 +1,5 @@
 # Other lines: Flood, Kenya, 26 April 2024 (FL20240426KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Kenya, 26 April 2024 (FL20240426KEN): 2,136 features merged from 33 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -83,6 +83,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240426ken-other-lines.parquet | 258.1 KB | 1220033c6d87... |
 | ./fl20240426ken-other-lines.pmtiles | 147.1 KB | 1220ca9faa5a... |
 | ./styles/default.json | 401 B | 122047f4b11d... |
+| ./fl20240426ken-other-lines.thumb.jpg | 4.6 KB | 12204743060e... |
 
 ## Quick Start
 

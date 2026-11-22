@@ -274,7 +274,9 @@
       "file:checksum": "12205d07808077962107924ce542a6d8342d34288285c9a7de134578d4a890c03cc8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Congo, 20 October 2026 (FL20261020COG), one GeoParquet file with the source columns."
     },
     "fl20261020cog-water-extent-tiles": {
       "href": "./fl20261020cog-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220d77b4a95fbacc5ef1e0d29937ef9231163c902643e46a68abac7fde27ee24282",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Congo, 20 October 2026 (FL20261020COG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent",
       "file:size": 652,
-      "file:checksum": "12206616ff011838879c28ee3961a0c467d7024c4e971a485650c04e9cc93fd8a4e9"
+      "file:checksum": "12206616ff011838879c28ee3961a0c467d7024c4e971a485650c04e9cc93fd8a4e9",
+      "description": "MapLibre style for Water extent: Flood, Congo, 20 October 2026 (FL20261020COG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261020cog-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10335,
+      "file:checksum": "122072687dffc655d534b889dacdabfb07b5626db8a9f8a7c1abbe97eef4750dadc6",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Congo, 20 October 2026 (FL20261020COG)."
     }
   }
 }

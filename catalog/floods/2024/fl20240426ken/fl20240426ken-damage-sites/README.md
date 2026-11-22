@@ -1,5 +1,5 @@
 # Damage sites: Flood, Kenya, 26 April 2024 (FL20240426KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Kenya, 26 April 2024 (FL20240426KEN): 226,608 features merged from 77 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240426ken-damage-sites.parquet | 1.4 MB | 12204a2816f6... |
 | ./fl20240426ken-damage-sites.pmtiles | 1.0 MB | 1220286aad0f... |
 | ./styles/default.json | 997 B | 1220d3a7ba6f... |
+| ./fl20240426ken-damage-sites.thumb.jpg | 3.5 KB | 12205559a847... |
 
 ## Quick Start
 

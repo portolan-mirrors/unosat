@@ -274,7 +274,9 @@
       "file:checksum": "1220553897d446c1e86ded1485d80980e1e59c35efcbbc8d472409c08648c6c45438",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD), one GeoParquet file with the source columns."
     },
     "fl20160725bgd-water-extent-cc_by_nc_sa_3_0-tiles": {
       "href": "./fl20160725bgd-water-extent-cc_by_nc_sa_3_0.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220475c50368a619e6953167264cafffcd24d92a12100a8a933916a34bd47f2de8e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 916,
-      "file:checksum": "12205ed1cfe0e95d7dea8bd35b10a8ca517afcc55bfbce9db3d0e5e74f5345228c80"
+      "file:checksum": "12205ed1cfe0e95d7dea8bd35b10a8ca517afcc55bfbce9db3d0e5e74f5345228c80",
+      "description": "MapLibre style for Water extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20160725bgd-water-extent-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 36658,
+      "file:checksum": "12208b90e22a87c63dddc266510999879cead4a526d4bdf51b36ed73bed529fb31e2",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Bangladesh, 25 July 2016 (FL20160725BGD)."
     }
   }
 }

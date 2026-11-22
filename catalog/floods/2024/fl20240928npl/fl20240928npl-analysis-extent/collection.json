@@ -253,7 +253,9 @@
       "file:checksum": "1220f3ebd3d9d511da7f2b57b341664f4253b3b1b6efdcadca51a6a22bc0e6960882",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Nepal, 28 September 2024 (FL20240928NPL), one GeoParquet file with the source columns."
     },
     "fl20240928npl-analysis-extent-tiles": {
       "href": "./fl20240928npl-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "122085ae88b90dec971460894befd2ff749d4587f935037b60e69d410da1a6edd2c0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Nepal, 28 September 2024 (FL20240928NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122076ebf378c5d8d9ff52c8595048551b00d6fa7e373355f43f9cb04ba42f2171df"
+      "file:checksum": "122076ebf378c5d8d9ff52c8595048551b00d6fa7e373355f43f9cb04ba42f2171df",
+      "description": "MapLibre style for Analysis extent: Flood, Nepal, 28 September 2024 (FL20240928NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240928npl-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14499,
+      "file:checksum": "122014fcbfa7e221f2307a0503b875ea4cedc9a4f42a60395fe3f2b245258d13298c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Nepal, 28 September 2024 (FL20240928NPL)."
     }
   }
 }

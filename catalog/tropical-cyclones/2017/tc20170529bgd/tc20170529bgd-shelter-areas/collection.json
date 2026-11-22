@@ -223,7 +223,9 @@
       "file:checksum": "12201171c73fc424113b2bd763f478c5b7d7b534ab429e6d729216f23442e1a6d373",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD), one GeoParquet file with the source columns."
     },
     "tc20170529bgd-shelter-areas-tiles": {
       "href": "./tc20170529bgd-shelter-areas.pmtiles",
@@ -232,7 +234,9 @@
       "file:checksum": "1220a3c0ddfbca6dc56cb9de335791782dea531afe4b4773304d73d3b1a40e71541d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -243,7 +247,19 @@
       ],
       "title": "Shelter areas",
       "file:size": 658,
-      "file:checksum": "1220a2bf0f6e9a2463ea11c7873fa7d4a312c4b52c9f3d43dcd86ccdea2ec0082d86"
+      "file:checksum": "1220a2bf0f6e9a2463ea11c7873fa7d4a312c4b52c9f3d43dcd86ccdea2ec0082d86",
+      "description": "MapLibre style for Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170529bgd-shelter-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2884,
+      "file:checksum": "12209a3b429498955d43ee71a86ad152c6306ac868bcea941dc51e84d27bfbee577b",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)."
     }
   }
 }

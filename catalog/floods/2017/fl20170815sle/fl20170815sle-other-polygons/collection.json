@@ -217,7 +217,9 @@
       "file:checksum": "12202291e0338d0cafdb15aafa2275a2583964f18380e35a1b66526d9a82145b6568",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE), one GeoParquet file with the source columns."
     },
     "fl20170815sle-other-polygons-tiles": {
       "href": "./fl20170815sle-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220b832197db486fe234f27ba5d7043cd9705cf706c9959d584c252d194ed108d71",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220eaee42df0bc333fe1d3f02c4690ff93a539c94ccb9d823a219e093bd4a6428f8"
+      "file:checksum": "1220eaee42df0bc333fe1d3f02c4690ff93a539c94ccb9d823a219e093bd4a6428f8",
+      "description": "MapLibre style for Other polygons: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170815sle-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8039,
+      "file:checksum": "12201568f90d2736eb9b31e0e70677960fa29f7e80c6ce8d8fbd8d29860d807746d8",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)."
     }
   }
 }

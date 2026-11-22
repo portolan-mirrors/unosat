@@ -262,7 +262,9 @@
       "file:checksum": "1220fdfc399bbe8493905256d2353f158b0da394cdf7c0df985c6a84348252c10214",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ), one GeoParquet file with the source columns."
     },
     "tc20241212moz-damage-sites-tiles": {
       "href": "./tc20241212moz-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122085553769a52f6615c1452e5ff629499ac45a9730d70093e30cb2ee087a13e533",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1043,
-      "file:checksum": "1220a6c7639b6a37f1f78fbfb63a75a3ddd5ee6da1b31babda4a095b40b1c81cafb4"
+      "file:checksum": "1220a6c7639b6a37f1f78fbfb63a75a3ddd5ee6da1b31babda4a095b40b1c81cafb4",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20241212moz-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4195,
+      "file:checksum": "1220920e740a3c5bafb32c12d765c8556f6803b92cf9774f9215e348899768db84ce",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Mozambique, 12 December 2024 (TC20241212MOZ)."
     }
   }
 }

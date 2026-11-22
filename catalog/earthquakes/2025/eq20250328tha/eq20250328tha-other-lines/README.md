@@ -1,5 +1,5 @@
 # Other lines: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Earthquake, Thailand, 28 March 2025 (EQ20250328THA): 24,399 features merged from 4 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328tha-other-lines.parquet | 3.0 MB | 122013e48182... |
 | ./eq20250328tha-other-lines.pmtiles | 3.3 MB | 1220bdb85ccf... |
 | ./styles/default.json | 401 B | 12206b5a756e... |
+| ./eq20250328tha-other-lines.thumb.jpg | 4.7 KB | 1220c62be9cb... |
 
 ## Quick Start
 

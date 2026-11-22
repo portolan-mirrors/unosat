@@ -1,5 +1,5 @@
 # Damage sites: Flood, Cabo Verde, 12 August 2025 (FL20250812CPV)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250812cpv/fl20250812cpv-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250812cpv/fl20250812cpv-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Cabo Verde, 12 August 2025 (FL20250812CPV): 51,237 features merged from 59 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250812cpv-damage-sites.parquet | 573.3 KB | 12203120c5d7... |
 | ./fl20250812cpv-damage-sites.pmtiles | 457.6 KB | 122019755de6... |
 | ./styles/default.json | 1.0 KB | 12204b6dadf8... |
+| ./fl20250812cpv-damage-sites.thumb.jpg | 9.5 KB | 122045061208... |
 
 ## Quick Start
 

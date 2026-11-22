@@ -254,7 +254,9 @@
       "file:checksum": "122030761269f7665f8ba2752bf8fc5a59dab08af7ffa8c960293e54daf485169a0c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Afghanistan, 30 April 2014 (FL20140430AFG), one GeoParquet file with the source columns."
     },
     "fl20140430afg-water-extent-tiles": {
       "href": "./fl20140430afg-water-extent.pmtiles",
@@ -263,7 +265,9 @@
       "file:checksum": "12208e5c272d69a5720b51750278f36fd0996a290497fff1c3457b1e5484cb2b81b8",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Afghanistan, 30 April 2014 (FL20140430AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -274,7 +278,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 918,
-      "file:checksum": "12207e319afa2a8e11179e3fec1bcc2b339c31f7546e00c3f1eb730b57d362fe165d"
+      "file:checksum": "12207e319afa2a8e11179e3fec1bcc2b339c31f7546e00c3f1eb730b57d362fe165d",
+      "description": "MapLibre style for Water extent: Flood, Afghanistan, 30 April 2014 (FL20140430AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140430afg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2545,
+      "file:checksum": "122091aeaeeb0250c5b85b756168ebf561851ce89fa7167ebc0dde883a57a1324043",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Afghanistan, 30 April 2014 (FL20140430AFG)."
     }
   }
 }

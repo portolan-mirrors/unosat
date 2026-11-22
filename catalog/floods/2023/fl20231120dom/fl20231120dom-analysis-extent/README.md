@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231120dom/fl20231120dom-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231120dom/fl20231120dom-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Dominican Republic, 20 November 2023 (FL20231120DOM): 19 features merged from 19 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231120dom-analysis-extent.parquet | 1.9 MB | 1220faed82cf... |
 | ./fl20231120dom-analysis-extent.pmtiles | 1.1 MB | 1220855b1fa6... |
 | ./styles/default.json | 671 B | 1220616ddb99... |
+| ./fl20231120dom-analysis-extent.thumb.jpg | 16.7 KB | 1220eaa8d164... |
 
 ## Quick Start
 

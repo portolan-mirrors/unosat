@@ -245,7 +245,9 @@
       "file:checksum": "1220bf5684e4dc85516a7401fd5c9d87b2818455723df8224c433dc497611f46f394",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ), one GeoParquet file with the source columns."
     },
     "ce20140613irq-shelters-cc_by_nc_sa_3_0-tiles": {
       "href": "./ce20140613irq-shelters-cc_by_nc_sa_3_0.pmtiles",
@@ -254,7 +256,9 @@
       "file:checksum": "122093a5464e8ad4fe7741a5b7f14e8eb52f200065493ce94caf20b2a880a6c9a9d6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -265,7 +269,19 @@
       ],
       "title": "Shelters by CampType",
       "file:size": 915,
-      "file:checksum": "12203b30d00d17596142788bb175c0aea9046c6e5c54cf400b994926c039882a6e24"
+      "file:checksum": "12203b30d00d17596142788bb175c0aea9046c6e5c54cf400b994926c039882a6e24",
+      "description": "MapLibre style for Shelters: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140613irq-shelters-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13693,
+      "file:checksum": "122004032453e78857400d0cbe75addfc4429a4cd0f93d6ca552eecbdc5af87e0deb",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)."
     }
   }
 }

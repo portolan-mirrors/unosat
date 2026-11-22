@@ -1,5 +1,5 @@
 # Water extent: Flood, Colombia, 12 November 2024 (FL20241112COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241112col/fl20241112col-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20241112col/fl20241112col-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Colombia, 12 November 2024 (FL20241112COL): 15 features merged from 15 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20241112col-water-extent.parquet | 81.7 MB | 1220a68cfe19... |
 | ./fl20241112col-water-extent.pmtiles | 4.4 MB | 12207553f58a... |
 | ./styles/default.json | 972 B | 1220cc287db7... |
+| ./fl20241112col-water-extent.thumb.jpg | 5.3 KB | 1220d7e9014f... |
 
 ## Quick Start
 

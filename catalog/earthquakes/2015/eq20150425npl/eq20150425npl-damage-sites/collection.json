@@ -262,7 +262,9 @@
       "file:checksum": "1220be869b4e771b925ba5adbf2fe264011ca2db9cc1c58a33498a2cd865545eb4b2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL), one GeoParquet file with the source columns."
     },
     "eq20150425npl-damage-sites-tiles": {
       "href": "./eq20150425npl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12204415ee1ab57971b5881d947959ad062f93cd7b33cc2994d0eb081ca7c35c4abd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1098,
-      "file:checksum": "12203f40843758939f9e6332674ca847242fc93f80f9c9c538b27eb7e41e2b77250f"
+      "file:checksum": "12203f40843758939f9e6332674ca847242fc93f80f9c9c538b27eb7e41e2b77250f",
+      "description": "MapLibre style for Damage sites: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20150425npl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8707,
+      "file:checksum": "1220ccb98eef0171df30b0a19adda5a45b852a8773b10e64cd39e6ba1b74dd37613f",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)."
     }
   }
 }

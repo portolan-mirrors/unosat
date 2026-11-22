@@ -1,5 +1,5 @@
 # Damage sites: Flood, Somalia, 5 November 2023 (FL20231105SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20231105som/fl20231105som-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Somalia, 5 November 2023 (FL20231105SOM): 2,105,124 features merged from 186 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -67,6 +67,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20231105som-damage-sites.parquet | 12.7 MB | 122002d6de37... |
 | ./fl20231105som-damage-sites.pmtiles | 4.0 MB | 12207960993a... |
 | ./styles/default.json | 1.0 KB | 1220fd70eab3... |
+| ./fl20231105som-damage-sites.thumb.jpg | 5.3 KB | 12205353bc58... |
 
 ## Quick Start
 

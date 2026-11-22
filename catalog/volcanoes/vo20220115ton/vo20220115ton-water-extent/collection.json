@@ -274,7 +274,9 @@
       "file:checksum": "1220928f34a0befb29e25dcff2b60fb657997e7149ded432a5b3502ed0e388be5bb3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Volcano, Tonga, 15 January 2022 (VO20220115TON), one GeoParquet file with the source columns."
     },
     "vo20220115ton-water-extent-tiles": {
       "href": "./vo20220115ton-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220b5b0ad5c403c4ea442c59f5ebc4e7c95c3b09fc7be9720b94353a0860ea9ef5c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Volcano, Tonga, 15 January 2022 (VO20220115TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1045,
-      "file:checksum": "122060637134ce0b2cba2dd14eac27dfcf902487955a9018c1b31d06f549d273fd17"
+      "file:checksum": "122060637134ce0b2cba2dd14eac27dfcf902487955a9018c1b31d06f549d273fd17",
+      "description": "MapLibre style for Water extent: Volcano, Tonga, 15 January 2022 (VO20220115TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20220115ton-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13461,
+      "file:checksum": "1220fd7e3ccdfb853b4ae946d0618b5bd8bb32fbe1a3d1379b908eb9b999ca176e45",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Volcano, Tonga, 15 January 2022 (VO20220115TON)."
     }
   }
 }

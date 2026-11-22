@@ -252,7 +252,9 @@
       "file:checksum": "12209efe94ba2033915e490da10615c17d823493c2ab6ea59b1cfb516f2cdf1ac098",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Central African Republic, 28 October 2019 (FL20191028CAF), one GeoParquet file with the source columns."
     },
     "fl20191028caf-damage-sites-tiles": {
       "href": "./fl20191028caf-damage-sites.pmtiles",
@@ -261,7 +263,9 @@
       "file:checksum": "12204164124b8976dbf525a991f25113eee543aef5b83dc28ddd04d30360e5c8b169",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Central African Republic, 28 October 2019 (FL20191028CAF) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -272,7 +276,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "122004970e8e110297ff812a3f4265df7b02815316498f6c54838f99862174990cb8"
+      "file:checksum": "122004970e8e110297ff812a3f4265df7b02815316498f6c54838f99862174990cb8",
+      "description": "MapLibre style for Damage sites: Flood, Central African Republic, 28 October 2019 (FL20191028CAF); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191028caf-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4485,
+      "file:checksum": "12202193a6a750afa9c8e99a38e3733f6a86fc2a0fdbfbd83bc3f549f30f324d5044",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)."
     }
   }
 }

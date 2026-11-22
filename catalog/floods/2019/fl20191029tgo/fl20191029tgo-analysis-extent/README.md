@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Togo, 29 October 2019 (FL20191029TGO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191029tgo/fl20191029tgo-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191029tgo/fl20191029tgo-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Togo, 29 October 2019 (FL20191029TGO): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191029tgo-analysis-extent.parquet | 4.7 KB | 122004a345a2... |
 | ./fl20191029tgo-analysis-extent.pmtiles | 49.9 KB | 1220ea34c82d... |
 | ./styles/default.json | 671 B | 1220feea0345... |
+| ./fl20191029tgo-analysis-extent.thumb.jpg | 7.2 KB | 12206668b74f... |
 
 ## Quick Start
 

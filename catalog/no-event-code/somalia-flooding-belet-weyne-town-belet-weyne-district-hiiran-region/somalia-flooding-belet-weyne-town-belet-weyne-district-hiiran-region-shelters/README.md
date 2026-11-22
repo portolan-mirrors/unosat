@@ -1,5 +1,5 @@
 # Shelters: Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region: 116 features merged from 1 source layer. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters.parquet | 10.8 KB | 1220a1cca233... |
 | ./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters.pmtiles | 38.1 KB | 12208f75313b... |
 | ./styles/default.json | 734 B | 12202881b118... |
+| ./somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region-shelters.thumb.jpg | 8.0 KB | 12205867f4ce... |
 
 ## Quick Start
 

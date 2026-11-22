@@ -217,7 +217,9 @@
       "file:checksum": "12201e553c4415f9ad28a747f81b228f6ded097bda88ae5fcbb86b100af26e5c6272",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA), one GeoParquet file with the source columns."
     },
     "ls20231208tza-analysis-extent-tiles": {
       "href": "./ls20231208tza-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220729e2b8beb9b2eb0c79aff0514dda84a0ab7ffd2a33f8cf005cab5a1ed99270c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b4fd1b0cc0fca7e298d0b64e6c9283ec15142ab700fe7c757dc5f29467c81e5c"
+      "file:checksum": "1220b4fd1b0cc0fca7e298d0b64e6c9283ec15142ab700fe7c757dc5f29467c81e5c",
+      "description": "MapLibre style for Analysis extent: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20231208tza-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7911,
+      "file:checksum": "12205b7988527117fd9a312b44cfb9a308a5453019a466d8710f76bd301c681bd9c1",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Landslide, United Republic of Tanzania, 8 December 2023 (LS20231208TZA)."
     }
   }
 }

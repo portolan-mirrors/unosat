@@ -253,7 +253,9 @@
       "file:checksum": "1220cc4377afa58f8d07c3ae7bdb1b2adaf9414cde2afce8f3adc04fa73541cd5387",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE), one GeoParquet file with the source columns."
     },
     "fl20170815sle-analysis-extent-tiles": {
       "href": "./fl20170815sle-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220be565e58b63c7eccb72bcf792da59e800b45f5b9e7cf26dbcbba257a5b8d2417",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12207249e0c74b4066299cd07964eeb88854f57177a1e27bf4354ce1776b425eea72"
+      "file:checksum": "12207249e0c74b4066299cd07964eeb88854f57177a1e27bf4354ce1776b425eea72",
+      "description": "MapLibre style for Analysis extent: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170815sle-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12343,
+      "file:checksum": "12202b6aade07b4f449e5038fe6b1d0365211d1961d134c9f05a43b8c9b54468a272",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Sierra Leone, 15 August 2017 (FL20170815SLE)."
     }
   }
 }

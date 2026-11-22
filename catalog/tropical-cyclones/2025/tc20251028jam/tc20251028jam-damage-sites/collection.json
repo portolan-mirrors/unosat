@@ -283,7 +283,9 @@
       "file:checksum": "12206a8226e6713b95955b0ea2db472b07714813713e1e5d280c9d840d9bbec5a0d4",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM), one GeoParquet file with the source columns."
     },
     "tc20251028jam-damage-sites-tiles": {
       "href": "./tc20251028jam-damage-sites.pmtiles",
@@ -292,7 +294,9 @@
       "file:checksum": "1220326ad07b480fe7e0f0eb11c660c2a1d144fd1ce493248ee35c79185654663441",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -303,7 +307,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1093,
-      "file:checksum": "12206031d76407afdda2c3ecbf7d2923d5606a52a9eca3f349eaba89466b51c4e1cd"
+      "file:checksum": "12206031d76407afdda2c3ecbf7d2923d5606a52a9eca3f349eaba89466b51c4e1cd",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20251028jam-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3464,
+      "file:checksum": "12203552b47b4dcb7380755f6752acc523dc1e40b7e15bbbb79a48289606a7084fa1",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)."
     }
   }
 }

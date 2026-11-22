@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Sudan, 12 August 2021 (FL20210812SDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210812sdn/fl20210812sdn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210812sdn/fl20210812sdn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Sudan, 12 August 2021 (FL20210812SDN): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210812sdn-analysis-extent.parquet | 586.7 KB | 1220e25382ba... |
 | ./fl20210812sdn-analysis-extent.pmtiles | 480.2 KB | 122033a3538e... |
 | ./styles/default.json | 671 B | 12202ee26088... |
+| ./fl20210812sdn-analysis-extent.thumb.jpg | 23.3 KB | 1220e5e64c14... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201116nic/tc20201116nic-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201116nic/tc20201116nic-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Nicaragua, 16 November 2020 (TC20201116NIC): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201116nic-analysis-extent.parquet | 385.6 KB | 12204ae0a1d7... |
 | ./tc20201116nic-analysis-extent.pmtiles | 2.5 MB | 12205594346a... |
 | ./styles/default.json | 671 B | 1220f43ea53e... |
+| ./tc20201116nic-analysis-extent.thumb.jpg | 18.0 KB | 1220af036eea... |
 
 ## Quick Start
 

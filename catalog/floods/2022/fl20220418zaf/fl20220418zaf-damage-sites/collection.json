@@ -262,7 +262,9 @@
       "file:checksum": "122061c9136b4d967cefc3409b9ed40860e7c185183ab58374e3a5a3bcb35467a361",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, South Africa, 18 April 2022 (FL20220418ZAF), one GeoParquet file with the source columns."
     },
     "fl20220418zaf-damage-sites-tiles": {
       "href": "./fl20220418zaf-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12202888302998b4a506dedbf21f9b00cec2f9e750587c89e028709b077b71045833",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, South Africa, 18 April 2022 (FL20220418ZAF) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1282,
-      "file:checksum": "122047dd1e85cb38afc0f2ce224233b04a7d191af7860fa06025c85b2ee1687f6e25"
+      "file:checksum": "122047dd1e85cb38afc0f2ce224233b04a7d191af7860fa06025c85b2ee1687f6e25",
+      "description": "MapLibre style for Damage sites: Flood, South Africa, 18 April 2022 (FL20220418ZAF); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220418zaf-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7911,
+      "file:checksum": "12200be3ba3cdefb8ff250d1adb9a69f6269f66869ac659f794b41858d7cacd36565",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, South Africa, 18 April 2022 (FL20220418ZAF)."
     }
   }
 }

@@ -332,7 +332,9 @@
       "file:checksum": "122000f513758ee041155b14c95ccebc7503c835865305f7eb62a60faf49e6497411",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ), one GeoParquet file with the source columns."
     },
     "ce20140613irq-other-lines-cc_by_sa-tiles": {
       "href": "./ce20140613irq-other-lines-cc_by_sa.pmtiles",
@@ -341,7 +343,9 @@
       "file:checksum": "1220401716087f6747793fba003b5824006eb9d9162cd60db87b3a2bb448e0d4d572",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -352,7 +356,19 @@
       ],
       "title": "Other lines",
       "file:size": 410,
-      "file:checksum": "1220c20f50f4b13e81707f3a877a3ecc0747069124183129ea7f66a2d99d01b9b3e4"
+      "file:checksum": "1220c20f50f4b13e81707f3a877a3ecc0747069124183129ea7f66a2d99d01b9b3e4",
+      "description": "MapLibre style for Other lines: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140613irq-other-lines-cc_by_sa.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5270,
+      "file:checksum": "122028508fca2afdd548c3b8564acac018364640e6d3b27a24eca4fcab10368b5d3a",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)."
     }
   }
 }

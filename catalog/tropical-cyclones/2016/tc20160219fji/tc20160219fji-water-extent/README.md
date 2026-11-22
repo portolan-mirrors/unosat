@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI): 6,056 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20160219fji-water-extent.parquet | 1.9 MB | 1220c11e9f79... |
 | ./tc20160219fji-water-extent.pmtiles | 1.4 MB | 12201ce1aef1... |
 | ./styles/default.json | 901 B | 12200157a75d... |
+| ./tc20160219fji-water-extent.thumb.jpg | 15.4 KB | 1220983752b9... |
 
 ## Quick Start
 

@@ -253,7 +253,9 @@
       "file:checksum": "1220b44896296a2af5ec28732cfb79e92b10ee2f0bf26d2d26534805f62eec1aa722",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK), one GeoParquet file with the source columns."
     },
     "fl20240804pak-analysis-extent-tiles": {
       "href": "./fl20240804pak-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220755382efce9322d1e2983c258d46e4bf9cb5087f917253a5a20725f9d96d4cbb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122041cc1561c69412efcf435da088065635fc7c355a18042d72b932ba3de8737c50"
+      "file:checksum": "122041cc1561c69412efcf435da088065635fc7c355a18042d72b932ba3de8737c50",
+      "description": "MapLibre style for Analysis extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240804pak-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 25195,
+      "file:checksum": "12202962098a7e31cb222db9620b946ed93b0660f9640c6c0b339b78764e939c8d80",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Pakistan, 4 August 2024 (FL20240804PAK)."
     }
   }
 }

@@ -177,7 +177,9 @@
       "file:checksum": "1220011ac02c45afc5827647429c6f2e63be8408275708f2690a75c6fcace4098f2c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, Sudan, 15 April 2023 (CE20230415SDN), one GeoParquet file with the source columns."
     },
     "ce20230415sdn-other-polygons-tiles": {
       "href": "./ce20230415sdn-other-polygons.pmtiles",
@@ -186,7 +188,9 @@
       "file:checksum": "1220e5559e4a919f14bf00da9d87017f2d9db6427b1a7d070c246f311f4490b29de2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, Sudan, 15 April 2023 (CE20230415SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -197,7 +201,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220508878ce21327323c454860adc2754e0d09613731fd78c401140174750030f91"
+      "file:checksum": "1220508878ce21327323c454860adc2754e0d09613731fd78c401140174750030f91",
+      "description": "MapLibre style for Other polygons: Complex emergency, Sudan, 15 April 2023 (CE20230415SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20230415sdn-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13072,
+      "file:checksum": "1220073ceed0d27fb9dc0188f17b2710ce1269e776a1f9ff8fdc565da75a07793086",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, Sudan, 15 April 2023 (CE20230415SDN)."
     }
   }
 }

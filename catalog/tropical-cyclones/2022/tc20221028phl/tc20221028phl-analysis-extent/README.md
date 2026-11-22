@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL): 10 features merged from 10 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20221028phl-analysis-extent.parquet | 506.9 KB | 12200e09ffc6... |
 | ./tc20221028phl-analysis-extent.pmtiles | 190.4 KB | 1220513a1bdd... |
 | ./styles/default.json | 671 B | 12205b535033... |
+| ./tc20221028phl-analysis-extent.thumb.jpg | 3.5 KB | 12209f9299f0... |
 
 ## Quick Start
 

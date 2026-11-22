@@ -274,7 +274,9 @@
       "file:checksum": "1220acc47feb58614f2352fc4a2a88af98ef38ad3edee6350570a0dfe07f50cb73f7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER), one GeoParquet file with the source columns."
     },
     "eq20230321per-water-extent-tiles": {
       "href": "./eq20230321per-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220994768a7de1e680fe61b3dedcd0c87d54eba647f0aae6586abf002d8ab322fb9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12202616e041faaedefc1b1ccd19abf089dac6d13454c11dbc3f173f9e2b3685941e"
+      "file:checksum": "12202616e041faaedefc1b1ccd19abf089dac6d13454c11dbc3f173f9e2b3685941e",
+      "description": "MapLibre style for Water extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230321per-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 18292,
+      "file:checksum": "122027cd4bd67572531e0ca7dc7fb331dc906651afa27b88feccff6314522d669712",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Earthquake, Peru, 21 March 2023 (EQ20230321PER)."
     }
   }
 }

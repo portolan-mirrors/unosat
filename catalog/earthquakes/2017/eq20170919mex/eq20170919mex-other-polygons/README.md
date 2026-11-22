@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20170919mex/eq20170919mex-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Mexico, 19 September 2017 (EQ20170919MEX): 33 features merged from 17 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20170919mex-other-polygons.parquet | 32.9 KB | 1220ee0c7ba9... |
 | ./eq20170919mex-other-polygons.pmtiles | 86.7 KB | 12208246e453... |
 | ./styles/default.json | 664 B | 1220bac77f4d... |
+| ./eq20170919mex-other-polygons.thumb.jpg | 7.3 KB | 1220b8fe8d57... |
 
 ## Quick Start
 

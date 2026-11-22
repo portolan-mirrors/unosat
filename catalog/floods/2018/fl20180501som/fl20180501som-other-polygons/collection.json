@@ -197,7 +197,9 @@
       "file:checksum": "1220e31e22896a100baee7b3de8705e4475c06d489c603c66ed2232aad2f286e393b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Somalia, 1 May 2018 (FL20180501SOM), one GeoParquet file with the source columns."
     },
     "fl20180501som-other-polygons-tiles": {
       "href": "./fl20180501som-other-polygons.pmtiles",
@@ -206,7 +208,9 @@
       "file:checksum": "12205b5acf9bc126e64dd517365e26888398dadb082150c3b3f54b2fd56b8948d3f6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Somalia, 1 May 2018 (FL20180501SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -217,7 +221,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220e3b895e2d647834c838a3e77e2f38dae2e461f8a1096504e0ca696700343b38e"
+      "file:checksum": "1220e3b895e2d647834c838a3e77e2f38dae2e461f8a1096504e0ca696700343b38e",
+      "description": "MapLibre style for Other polygons: Flood, Somalia, 1 May 2018 (FL20180501SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20180501som-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9358,
+      "file:checksum": "1220b3e30b25775afd39f03842c462a0451f8f3beb87f79fdccf7a2f56d4ec1f786d",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Somalia, 1 May 2018 (FL20180501SOM)."
     }
   }
 }

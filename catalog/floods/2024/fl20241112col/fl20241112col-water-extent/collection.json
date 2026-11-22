@@ -274,7 +274,9 @@
       "file:checksum": "1220a68cfe197869c4bc1e47160fdc9a999d81e48ff24eec3b13b7018bfa615d026f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Colombia, 12 November 2024 (FL20241112COL), one GeoParquet file with the source columns."
     },
     "fl20241112col-water-extent-tiles": {
       "href": "./fl20241112col-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12207553f58ae4f95f42e093454bf4b7665e4780cfc4aec9cc7ec116b61a9ad58080",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Colombia, 12 November 2024 (FL20241112COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "1220cc287db74373c565cc534a30f8171dcbe24832bb7ecad466da69013b49670de4"
+      "file:checksum": "1220cc287db74373c565cc534a30f8171dcbe24832bb7ecad466da69013b49670de4",
+      "description": "MapLibre style for Water extent: Flood, Colombia, 12 November 2024 (FL20241112COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20241112col-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5452,
+      "file:checksum": "1220d7e9014fa330a91e3cece331d596f5dd9412a1eda2850ecd648b9de7311e672e",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Colombia, 12 November 2024 (FL20241112COL)."
     }
   }
 }

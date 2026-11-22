@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20240326idn/eq20240326idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20240326idn/eq20240326idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN): 153 features merged from 5 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20240326idn-damage-sites.parquet | 11.0 KB | 1220e0cfea6c... |
 | ./eq20240326idn-damage-sites.pmtiles | 39.0 KB | 122092a6df34... |
 | ./styles/default.json | 997 B | 122082e4c734... |
+| ./eq20240326idn-damage-sites.thumb.jpg | 2.4 KB | 1220e0ea6a5f... |
 
 ## Quick Start
 

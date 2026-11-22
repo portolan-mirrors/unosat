@@ -183,7 +183,9 @@
       "file:checksum": "1220ab6f04c4188c7e516b68bb0b78d17e6159fefd2a56c9a40a94ec800bd438caba",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU), one GeoParquet file with the source columns."
     },
     "eq20160417ecu-analysis-extent-tiles": {
       "href": "./eq20160417ecu-analysis-extent.pmtiles",
@@ -192,7 +194,9 @@
       "file:checksum": "1220f666c7024ce495095f3d3c2e210e91bab7b352c535a91df332b1bddf7111f1ee",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -203,7 +207,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201a0a2aba3a030b1efb8b4245da4c9b0619ff3779865d73b938ef3edd026b8667"
+      "file:checksum": "12201a0a2aba3a030b1efb8b4245da4c9b0619ff3779865d73b938ef3edd026b8667",
+      "description": "MapLibre style for Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20160417ecu-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4345,
+      "file:checksum": "12204447a0683fb8d30a15bf849212f38aeca8fabca4505e70526090d35b096c2b5c",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)."
     }
   }
 }

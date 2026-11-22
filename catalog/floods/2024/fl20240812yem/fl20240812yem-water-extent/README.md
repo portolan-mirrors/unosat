@@ -1,5 +1,5 @@
 # Water extent: Flood, Yemen, 12 August 2024 (FL20240812YEM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812yem/fl20240812yem-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812yem/fl20240812yem-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Yemen, 12 August 2024 (FL20240812YEM): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240812yem-water-extent.parquet | 8.4 MB | 1220af61985e... |
 | ./fl20240812yem-water-extent.pmtiles | 2.9 MB | 122023a50bfd... |
 | ./styles/default.json | 926 B | 12204189988c... |
+| ./fl20240812yem-water-extent.thumb.jpg | 20.2 KB | 1220e527d52e... |
 
 ## Quick Start
 

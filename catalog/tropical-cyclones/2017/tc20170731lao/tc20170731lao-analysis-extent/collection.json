@@ -229,7 +229,9 @@
       "file:checksum": "12205770689cc8d7a882ec2a24b564e794242baa4cfc40af214a890f0ead6081c1d8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 31 July 2017 (TC20170731LAO), one GeoParquet file with the source columns."
     },
     "tc20170731lao-analysis-extent-tiles": {
       "href": "./tc20170731lao-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12202956d11d1f3c5061b2b8b6c05e7df8ab73a179e16ff0464fe04d810cad0c1f7c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 31 July 2017 (TC20170731LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c835a3ffdaa021ed0dfff2050fcca23a457c95976f283e7470bcbf73ead264cf"
+      "file:checksum": "1220c835a3ffdaa021ed0dfff2050fcca23a457c95976f283e7470bcbf73ead264cf",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 31 July 2017 (TC20170731LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170731lao-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9058,
+      "file:checksum": "1220aecb240e337e02c327c06a5f3a8913e83bc83cdf895851f30318f4cf494c8dd8",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 31 July 2017 (TC20170731LAO)."
     }
   }
 }

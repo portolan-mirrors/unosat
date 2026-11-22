@@ -262,7 +262,9 @@
       "file:checksum": "122091972172043684fd8ebfcf6143d0cbbd3e779300bd513d3fde389dd6f0edb2cf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ), one GeoParquet file with the source columns."
     },
     "eq20171112irq-damage-sites-tiles": {
       "href": "./eq20171112irq-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ea89099910da19c0662ab6a5b938f220c041eca999f29614604fad65d276d5a7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 998,
-      "file:checksum": "1220f74a628f52134234b1b2b4fb50ef98f06b5dc9bab0edaad3ea7ba9fd9eba563b"
+      "file:checksum": "1220f74a628f52134234b1b2b4fb50ef98f06b5dc9bab0edaad3ea7ba9fd9eba563b",
+      "description": "MapLibre style for Damage sites: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20171112irq-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9644,
+      "file:checksum": "1220287ad6fdcf95e0cd1d43aa9ac8f68193032e69866aaa66f5762919eeafc369e9",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)."
     }
   }
 }

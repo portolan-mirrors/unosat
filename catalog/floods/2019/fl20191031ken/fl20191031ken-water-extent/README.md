@@ -1,5 +1,5 @@
 # Water extent: Flood, Kenya, 31 October 2019 (FL20191031KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191031ken/fl20191031ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191031ken/fl20191031ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Kenya, 31 October 2019 (FL20191031KEN): 3 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191031ken-water-extent.parquet | 588.1 KB | 1220426cc633... |
 | ./fl20191031ken-water-extent.pmtiles | 209.9 KB | 122083a53aae... |
 | ./styles/default.json | 926 B | 1220b4259d5f... |
+| ./fl20191031ken-water-extent.thumb.jpg | 2.7 KB | 1220f3d25a8e... |
 
 ## Quick Start
 

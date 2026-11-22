@@ -187,7 +187,9 @@
       "file:checksum": "1220d71d564e1ba6333b3e33cbf5a8f06a24a0922d36edecfcd0e806b966a78fcd28",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Event, South Sudan, 11 May 2013 (OT20130511SSD), one GeoParquet file with the source columns."
     },
     "ot20130511ssd-other-polygons-tiles": {
       "href": "./ot20130511ssd-other-polygons.pmtiles",
@@ -196,7 +198,9 @@
       "file:checksum": "1220dd8640e3e22d14c5e4e05b8b94e577dcaa862bd93401eb5409f40b810bb224d9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Event, South Sudan, 11 May 2013 (OT20130511SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -207,7 +211,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "122042005197300b3acac61a37e08edcec2cfe4bed6f0477e966124ca813c8db840e"
+      "file:checksum": "122042005197300b3acac61a37e08edcec2cfe4bed6f0477e966124ca813c8db840e",
+      "description": "MapLibre style for Other polygons: Event, South Sudan, 11 May 2013 (OT20130511SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ot20130511ssd-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2380,
+      "file:checksum": "122078266bd5b0105ce54267ed30b12bae4d6c88089153bc46054926b9d03477ed69",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Event, South Sudan, 11 May 2013 (OT20130511SSD)."
     }
   }
 }

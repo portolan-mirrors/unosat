@@ -229,7 +229,9 @@
       "file:checksum": "1220100cb1f772ae9ee79408cf3ab3b307a4563eb75a5290a0d4152622e7aa485919",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN), one GeoParquet file with the source columns."
     },
     "fl20251126idn-analysis-extent-tiles": {
       "href": "./fl20251126idn-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12208fb4413b2c6b9c85646a3be9858e1e6df2964c78a7a8399b66a6540a572983a6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122063ad6b62c5c6ef6c7c54dade9df6af9e0d2b03d8b14db0e3fd8fe5f61f824abe"
+      "file:checksum": "122063ad6b62c5c6ef6c7c54dade9df6af9e0d2b03d8b14db0e3fd8fe5f61f824abe",
+      "description": "MapLibre style for Analysis extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20251126idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9370,
+      "file:checksum": "12206fe6144995e0d0493ecf363faf3022729112b805de257d6d70b8342ef7c17b5e",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN)."
     }
   }
 }

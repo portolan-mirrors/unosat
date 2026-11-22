@@ -1,5 +1,5 @@
 # Other points: Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016/geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador: 299 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points.parquet | 24.7 KB | 12209c07b313... |
 | ./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points.pmtiles | 72.1 KB | 12203496254a... |
 | ./styles/default.json | 767 B | 122050bd88fc... |
+| ./geodata-of-damage-assessment-of-portoviejo-city-manabi-province-ecuador-april-27-2016-other-points.thumb.jpg | 8.9 KB | 122024de41a8... |
 
 ## Quick Start
 

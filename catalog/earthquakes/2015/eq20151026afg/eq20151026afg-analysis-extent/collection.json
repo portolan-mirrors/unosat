@@ -261,7 +261,9 @@
       "file:checksum": "12200e4e835c96d16ec12596ea858ffa0b7c4ba4f89e134576949226a613836c1820",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG), one GeoParquet file with the source columns."
     },
     "eq20151026afg-analysis-extent-tiles": {
       "href": "./eq20151026afg-analysis-extent.pmtiles",
@@ -270,7 +272,9 @@
       "file:checksum": "1220f0ee166f54206b9a74a9904127cf532ddc82906493f5c84067b610f320991c69",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -281,7 +285,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220a76d3edab522178f6e4c98342798fe9d566d78e9f67d8e9b0f0474e77699ed1a"
+      "file:checksum": "1220a76d3edab522178f6e4c98342798fe9d566d78e9f67d8e9b0f0474e77699ed1a",
+      "description": "MapLibre style for Analysis extent: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20151026afg-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3080,
+      "file:checksum": "1220ee987e454d387319fb81ca43b2a9155e3dd83bdbe0619da77ef44950805391f0",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)."
     }
   }
 }

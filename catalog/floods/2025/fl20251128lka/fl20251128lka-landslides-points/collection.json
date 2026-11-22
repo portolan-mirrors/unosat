@@ -177,7 +177,9 @@
       "file:checksum": "1220ed7fb12a28dcbe7c9529bd1e3f92abcf5290446e89af7c1c8071ac5c1d277d22",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Landslides points: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA), one GeoParquet file with the source columns."
     },
     "fl20251128lka-landslides-points-tiles": {
       "href": "./fl20251128lka-landslides-points.pmtiles",
@@ -186,7 +188,9 @@
       "file:checksum": "1220e1f87ca1906ddd4e6a1d77fb3e2ce60fba3895ecbe35df012904d5d6290ef87b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Landslides points: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -197,7 +201,19 @@
       ],
       "title": "Landslides points",
       "file:size": 715,
-      "file:checksum": "122007520497a26afbe86c71b22339b86f9f74dfe7cd735fc6461b51106a4791e2c0"
+      "file:checksum": "122007520497a26afbe86c71b22339b86f9f74dfe7cd735fc6461b51106a4791e2c0",
+      "description": "MapLibre style for Landslides points: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20251128lka-landslides-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6233,
+      "file:checksum": "12208d4de9a6f138f2b7f15305cd8bc5495c8a4681692bf08beecf64387e676c1d57",
+      "title": "Thumbnail",
+      "description": "Preview image of Landslides points: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA)."
     }
   }
 }

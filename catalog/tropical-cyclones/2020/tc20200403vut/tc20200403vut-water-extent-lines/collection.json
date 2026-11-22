@@ -281,7 +281,9 @@
       "file:checksum": "12209e5e48180fd0f442d439ea026c41ee76a2204b8cc23457b71120cccfa15bef29",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent lines: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT), one GeoParquet file with the source columns."
     },
     "tc20200403vut-water-extent-lines-tiles": {
       "href": "./tc20200403vut-water-extent-lines.pmtiles",
@@ -290,7 +292,9 @@
       "file:checksum": "12200333ecb2e1005ee907b1de1634e1a40372083ef66459ca09aa4c3c330ae42984",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent lines: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -301,7 +305,19 @@
       ],
       "title": "Water extent lines",
       "file:size": 429,
-      "file:checksum": "1220dea64e35deeaef3dfb20e8f3275ac31b2463b3371e34f5f17cc1484ade50ae76"
+      "file:checksum": "1220dea64e35deeaef3dfb20e8f3275ac31b2463b3371e34f5f17cc1484ade50ae76",
+      "description": "MapLibre style for Water extent lines: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200403vut-water-extent-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5341,
+      "file:checksum": "1220b9e31d0008b858191031c04fd1b58f8842357233fe6bc0312f4ea86fa4c43d4f",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent lines: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)."
     }
   }
 }

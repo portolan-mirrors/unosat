@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2021/eq20210814hti/eq20210814hti-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Haiti, 14 August 2021 (EQ20210814HTI): 7 features merged from 7 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20210814hti-analysis-extent.parquet | 80.5 KB | 1220b9972034... |
 | ./eq20210814hti-analysis-extent.pmtiles | 62.1 KB | 12207450bbc5... |
 | ./styles/default.json | 671 B | 1220da963c9c... |
+| ./eq20210814hti-analysis-extent.thumb.jpg | 5.2 KB | 12202ba1c923... |
 
 ## Quick Start
 

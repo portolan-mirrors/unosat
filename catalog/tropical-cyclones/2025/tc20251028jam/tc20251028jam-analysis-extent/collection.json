@@ -291,7 +291,9 @@
       "file:checksum": "12203141bad0da4a9a3fd87998a707c5c8a8a14552d35a8b95ae494812f88b81ea37",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM), one GeoParquet file with the source columns."
     },
     "tc20251028jam-analysis-extent-tiles": {
       "href": "./tc20251028jam-analysis-extent.pmtiles",
@@ -300,7 +302,9 @@
       "file:checksum": "1220a973fb0d3eea8541e0e3940979b117051547a2a8013c884ed45c607c3490ab22",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -311,7 +315,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122015db411c3b38f1900e5f2d322863964b90f6e1dc486a9af39fad6fa97dcac52d"
+      "file:checksum": "122015db411c3b38f1900e5f2d322863964b90f6e1dc486a9af39fad6fa97dcac52d",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20251028jam-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3713,
+      "file:checksum": "1220be88bacb0134e78cc2aa6fce514db9bd93b0d3e2f5d775b998e5f209eb7f095a",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Jamaica, 28 October 2025 (TC20251028JAM)."
     }
   }
 }

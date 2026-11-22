@@ -1,5 +1,5 @@
 # Other points: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20150425npl/eq20150425npl-other-points-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Earthquake, Nepal, 25 April 2015 (EQ20150425NPL): 14,875 features merged from 2 source layers. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20150425npl-other-points-epsg_4326.parquet | 622.6 KB | 1220bc878634... |
 | ./eq20150425npl-other-points-epsg_4326.pmtiles | 460.0 KB | 12201424fbbe... |
 | ./styles/default.json | 705 B | 1220ba34bd21... |
+| ./eq20150425npl-other-points-epsg_4326.thumb.jpg | 15.7 KB | 12208e399313... |
 
 ## Quick Start
 

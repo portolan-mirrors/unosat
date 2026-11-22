@@ -274,7 +274,9 @@
       "file:checksum": "1220377181610c37ce18c6290548d0ea3d54908dbeefa413cd5dac0f991763feadc7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD), one GeoParquet file with the source columns."
     },
     "tc20200518bgd-water-extent-tiles": {
       "href": "./tc20200518bgd-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220b10be01823a77a6118d48f04771c99d8b79955924fab6ce7615cd97c5776b423",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d80c5b3bf34c035430220e95d5c4c2591a61ee7da7747b322f6e0036a02f77d3"
+      "file:checksum": "1220d80c5b3bf34c035430220e95d5c4c2591a61ee7da7747b322f6e0036a02f77d3",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20200518bgd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 60721,
+      "file:checksum": "1220d1dc30a1f464749ac6c9a9537f4ab102e0cc7b00f48aa04a7c7af71673f22c6b",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Bangladesh, 18 May 2020 (TC20200518BGD)."
     }
   }
 }

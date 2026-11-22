@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Guatemala, 25 October 2017 (FL20171025GTM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171025gtm/fl20171025gtm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20171025gtm/fl20171025gtm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Guatemala, 25 October 2017 (FL20171025GTM): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20171025gtm-analysis-extent.parquet | 4.8 KB | 12209c7d96cf... |
 | ./fl20171025gtm-analysis-extent.pmtiles | 81.9 KB | 1220fc7ca4da... |
 | ./styles/default.json | 671 B | 12206a43ccf4... |
+| ./fl20171025gtm-analysis-extent.thumb.jpg | 7.8 KB | 122097aa72ad... |
 
 ## Quick Start
 

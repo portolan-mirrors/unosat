@@ -264,7 +264,9 @@
       "proj:code": "EPSG:32636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damaged lines: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR), one GeoParquet file with the source columns."
     },
     "eq20230206syr-damage-lines-tiles": {
       "href": "./eq20230206syr-damage-lines.pmtiles",
@@ -273,7 +275,9 @@
       "file:checksum": "1220a39f41fba338d7daa2b0027f1e17dbc43feee2c1d97ecef25fd7469f92614701",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damaged lines: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -284,7 +288,19 @@
       ],
       "title": "Damage lines by Main_Damage_Site_Class",
       "file:size": 745,
-      "file:checksum": "12208d79d451c161da5bb08d31d7fdc2a36f1d79390ea9d2770f16b2582382f0a8b7"
+      "file:checksum": "12208d79d451c161da5bb08d31d7fdc2a36f1d79390ea9d2770f16b2582382f0a8b7",
+      "description": "MapLibre style for Damaged lines: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230206syr-damage-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3470,
+      "file:checksum": "122005fba21d52890dc75bdb3a404c570f3b16e00644cb7b6e5297e5d4855fa8be9e",
+      "title": "Thumbnail",
+      "description": "Preview image of Damaged lines: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)."
     }
   }
 }

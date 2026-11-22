@@ -1,5 +1,5 @@
 # Water extent: Flood, Libya, 12 September 2023 (FL20230912LBY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230912lby/fl20230912lby-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230912lby/fl20230912lby-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Libya, 12 September 2023 (FL20230912LBY): 1,375 features merged from 66 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230912lby-water-extent.parquet | 19.2 MB | 12209a360281... |
 | ./fl20230912lby-water-extent.pmtiles | 2.8 MB | 1220c8b670cd... |
 | ./styles/default.json | 972 B | 1220a86981e9... |
+| ./fl20230912lby-water-extent.thumb.jpg | 3.0 KB | 122051f37855... |
 
 ## Quick Start
 

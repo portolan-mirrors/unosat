@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL): 16 features merged from 16 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20221028phl-water-extent.parquet | 113.2 MB | 122096f86382... |
 | ./tc20221028phl-water-extent.pmtiles | 17.4 MB | 12207f16e2c8... |
 | ./styles/default.json | 887 B | 12200f2e0ea4... |
+| ./tc20221028phl-water-extent.thumb.jpg | 3.4 KB | 1220302dfcb2... |
 
 ## Quick Start
 

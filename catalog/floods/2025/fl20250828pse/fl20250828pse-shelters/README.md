@@ -1,5 +1,5 @@
 # Shelters: Flood, State of Palestine, 28 August 2025 (FL20250828PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250828pse/fl20250828pse-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Flood, State of Palestine, 28 August 2025 (FL20250828PSE): 28,070 features merged from 2 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -41,6 +41,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250828pse-shelters.parquet | 514.3 KB | 122017f6af49... |
 | ./fl20250828pse-shelters.pmtiles | 331.7 KB | 122099ddc284... |
 | ./styles/default.json | 679 B | 1220249125b8... |
+| ./fl20250828pse-shelters.thumb.jpg | 7.9 KB | 12208ef58562... |
 
 ## Quick Start
 

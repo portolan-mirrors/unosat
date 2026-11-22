@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA): 3 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220928tha-water-extent.parquet | 29.0 MB | 122064af23c0... |
 | ./tc20220928tha-water-extent.pmtiles | 4.9 MB | 122080a78108... |
 | ./styles/default.json | 887 B | 12201e687f45... |
+| ./tc20220928tha-water-extent.thumb.jpg | 3.8 KB | 122082370537... |
 
 ## Quick Start
 

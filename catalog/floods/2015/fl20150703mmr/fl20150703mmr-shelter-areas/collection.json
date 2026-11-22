@@ -333,7 +333,9 @@
       "file:checksum": "1220438fd28a2c93feceadfc8be3d1a7e0dd89f389a3c04888517368b9d2f8639626",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelter areas: Flood, Myanmar, 3 July 2015 (FL20150703MMR), one GeoParquet file with the source columns."
     },
     "fl20150703mmr-shelter-areas-tiles": {
       "href": "./fl20150703mmr-shelter-areas.pmtiles",
@@ -342,7 +344,9 @@
       "file:checksum": "12200a31c8cd0eea20406a3ae3467ec9583ab6ae98737b9afb3eb7306544778737de",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelter areas: Flood, Myanmar, 3 July 2015 (FL20150703MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -353,7 +357,19 @@
       ],
       "title": "Shelter areas by CampType",
       "file:size": 871,
-      "file:checksum": "122068f541d57c04d019c765ff9bc787263357981429a8c93e749984b15bc48311a8"
+      "file:checksum": "122068f541d57c04d019c765ff9bc787263357981429a8c93e749984b15bc48311a8",
+      "description": "MapLibre style for Shelter areas: Flood, Myanmar, 3 July 2015 (FL20150703MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20150703mmr-shelter-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3719,
+      "file:checksum": "1220177658d3f88a5ade57ec1997fb078df472e005f02304858d180563289a06cf0c",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelter areas: Flood, Myanmar, 3 July 2015 (FL20150703MMR)."
     }
   }
 }

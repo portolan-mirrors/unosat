@@ -1,5 +1,5 @@
 # Damage sites: Flood, Ukraine, 6 June 2023 (FL20230606UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Ukraine, 6 June 2023 (FL20230606UKR): 684,690 features merged from 301 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230606ukr-damage-sites.parquet | 2.2 MB | 1220381ca536... |
 | ./fl20230606ukr-damage-sites.pmtiles | 1.8 MB | 1220bf3ee415... |
 | ./styles/default.json | 997 B | 12209dfb7573... |
+| ./fl20230606ukr-damage-sites.thumb.jpg | 7.4 KB | 1220aad4a535... |
 
 ## Quick Start
 

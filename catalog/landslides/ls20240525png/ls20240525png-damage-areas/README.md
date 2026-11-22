@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240525png/ls20240525png-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Papua New Guinea, 25 May 2024 (LS20240525PNG): 3 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240525png-damage-areas.parquet | 17.5 KB | 12209260e630... |
 | ./ls20240525png-damage-areas.pmtiles | 22.5 KB | 12201ce14822... |
 | ./styles/default.json | 652 B | 12208bebd1e6... |
+| ./ls20240525png-damage-areas.thumb.jpg | 10.2 KB | 1220418610db... |
 
 ## Quick Start
 

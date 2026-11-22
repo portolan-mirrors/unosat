@@ -229,7 +229,9 @@
       "file:checksum": "122084a0346330cb06e31e0ab968cb620c14e890e65764b02f5a4f951514b00c6432",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Bhutan, 30 October 2026 (FL20261030BTN), one GeoParquet file with the source columns."
     },
     "fl20261030btn-analysis-extent-tiles": {
       "href": "./fl20261030btn-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220575774f64e0ff9094d32a8c5fef2962bd85a9a7f621100794d712121251445a7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Bhutan, 30 October 2026 (FL20261030BTN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220e60318786d4552f2f1a69ddfe13ce573b2c08f0297986e29447cb5998e7c819b"
+      "file:checksum": "1220e60318786d4552f2f1a69ddfe13ce573b2c08f0297986e29447cb5998e7c819b",
+      "description": "MapLibre style for Analysis extent: Flood, Bhutan, 30 October 2026 (FL20261030BTN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261030btn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6129,
+      "file:checksum": "12201fa75946518d960062802edea1a3ca7ca068130ba2271d9f18b153d178267a16",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Bhutan, 30 October 2026 (FL20261030BTN)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Other mixed: Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20141124cpv/vo20141124cpv-other-mixed/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20141124cpv/vo20141124cpv-other-mixed/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other mixed for Volcano, Cabo Verde, 24 November 2014 (VO20141124CPV): 1 features merged from 1 source layer. Mixed layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20141124cpv-other-mixed.parquet | 16.0 KB | 122056457e48... |
 | ./vo20141124cpv-other-mixed.pmtiles | 29.6 KB | 1220ca1dd913... |
 | ./styles/default.json | 646 B | 1220ef783986... |
+| ./vo20141124cpv-other-mixed.thumb.jpg | 9.0 KB | 12200ea7dffe... |
 
 ## Quick Start
 

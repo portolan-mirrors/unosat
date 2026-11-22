@@ -262,7 +262,9 @@
       "file:checksum": "12209b8692d9969cae4206f41b767b2bdff73f0b741a65d92a5d60da0e43ab3d9dfb",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Landslide, Colombia, 3 April 2017 (LS20170403COL), one GeoParquet file with the source columns."
     },
     "ls20170403col-damage-sites-tiles": {
       "href": "./ls20170403col-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12208da482127a1d4936a8484d8fb1bd0a23ca2cd5a1d50c206e6aa6ba0692f28879",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Landslide, Colombia, 3 April 2017 (LS20170403COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 998,
-      "file:checksum": "122073ccaab69989c6ed0e3e857591992c7397ecc4cdf2e45fb4095b5936188d5e21"
+      "file:checksum": "122073ccaab69989c6ed0e3e857591992c7397ecc4cdf2e45fb4095b5936188d5e21",
+      "description": "MapLibre style for Damage sites: Landslide, Colombia, 3 April 2017 (LS20170403COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20170403col-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10414,
+      "file:checksum": "12208592e217d56ae1dd702716e11844f9c68b3a8f875c0091b6fedd5e2e4f218653",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Landslide, Colombia, 3 April 2017 (LS20170403COL)."
     }
   }
 }

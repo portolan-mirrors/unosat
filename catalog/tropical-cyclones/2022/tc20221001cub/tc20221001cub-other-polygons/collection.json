@@ -259,7 +259,9 @@
       "file:checksum": "12201af5742f273df00263e5678893d57a33d936d816707db76235b1f81d84caac2f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB), one GeoParquet file with the source columns."
     },
     "tc20221001cub-other-polygons-tiles": {
       "href": "./tc20221001cub-other-polygons.pmtiles",
@@ -268,7 +270,9 @@
       "file:checksum": "12207dfe42b901891a620676d1af9f7186a7eacd7fd33a43d922100f0549694dc477",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -279,7 +283,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220bff76b3659717af3ffc0d4c11e9511406df431ccad00f35bdef744e1de6f45a4"
+      "file:checksum": "1220bff76b3659717af3ffc0d4c11e9511406df431ccad00f35bdef744e1de6f45a4",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20221001cub-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27584,
+      "file:checksum": "122065ae320957f060d247a2462a7d4aa49be9d337a811d5936d3267861d133c2a6b",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)."
     }
   }
 }

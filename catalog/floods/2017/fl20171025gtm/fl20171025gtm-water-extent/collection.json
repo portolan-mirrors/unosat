@@ -274,7 +274,9 @@
       "file:checksum": "1220895c08d0336c7d3cfd57cf097f8cad26fad2ed6875e81b6cfed02e9338002fad",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Guatemala, 25 October 2017 (FL20171025GTM), one GeoParquet file with the source columns."
     },
     "fl20171025gtm-water-extent-tiles": {
       "href": "./fl20171025gtm-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12205e6ed0a382a6529bbeaf6234dc9ec6f5f2eb9144c1be61e7d0e1198a02313348",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Guatemala, 25 October 2017 (FL20171025GTM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d295747c9c8ceca77bd02ae0b03f0d19f47cf48909398a228e4589f6db3f8b4b"
+      "file:checksum": "1220d295747c9c8ceca77bd02ae0b03f0d19f47cf48909398a228e4589f6db3f8b4b",
+      "description": "MapLibre style for Water extent: Flood, Guatemala, 25 October 2017 (FL20171025GTM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20171025gtm-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 17276,
+      "file:checksum": "122010d021c7ab09106efc423e5da43e2022ef508dc32dde0d15efb869949c23046c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Guatemala, 25 October 2017 (FL20171025GTM)."
     }
   }
 }

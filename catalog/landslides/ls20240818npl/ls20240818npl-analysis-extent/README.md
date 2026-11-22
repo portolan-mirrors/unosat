@@ -1,5 +1,5 @@
 # Analysis extent: Landslide, Nepal, 18 August 2024 (LS20240818NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Landslide, Nepal, 18 August 2024 (LS20240818NPL): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -47,6 +47,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240818npl-analysis-extent.parquet | 4.3 KB | 1220a1844705... |
 | ./ls20240818npl-analysis-extent.pmtiles | 21.4 KB | 1220b5a82482... |
 | ./styles/default.json | 671 B | 122023c45a58... |
+| ./ls20240818npl-analysis-extent.thumb.jpg | 5.3 KB | 1220e3bb3eea... |
 
 ## Quick Start
 

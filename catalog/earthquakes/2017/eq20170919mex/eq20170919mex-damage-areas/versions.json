@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20170919mex-damage-areas.parquet",
         "eq20170919mex-damage-areas.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.698424Z",
+      "breaking": false,
+      "assets": {
+        "eq20170919mex-damage-areas.parquet": {
+          "sha256": "88ac81371d78f3649f2313ff82656582007b902a7dc32260332d435552e24178",
+          "size_bytes": 24682,
+          "href": "earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/eq20170919mex-damage-areas.parquet",
+          "source_path": "eq20170919mex-damage-areas.parquet",
+          "source_mtime": 1795333220.5440998,
+          "mtime": 1795333220.5440998,
+          "feature_count": 39,
+          "schema_fingerprint": "1ae3d2ef07a6a5b9"
+        },
+        "eq20170919mex-damage-areas.pmtiles": {
+          "sha256": "d9a3cd1a331427d4ed139c2187b650b27e0d216d53dbb1b0ad71cedc029c9e4a",
+          "size_bytes": 38407,
+          "href": "earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/eq20170919mex-damage-areas.pmtiles",
+          "mtime": 1795334070.1288638
+        },
+        "eq20170919mex-damage-areas.thumb.jpg": {
+          "sha256": "eddc8020bcf00ad39669c1f89c76b3a064b606691bf22d445ed39ff65886ea8e",
+          "size_bytes": 6704,
+          "href": "earthquakes/2017/eq20170919mex/eq20170919mex-damage-areas/eq20170919mex-damage-areas.thumb.jpg",
+          "mtime": 1795343616.6957543
+        }
+      },
+      "changes": [
+        "eq20170919mex-damage-areas.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20170919mex-damage-areas.thumb.jpg"
     }
   ]
 }

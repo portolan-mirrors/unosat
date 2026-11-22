@@ -1,5 +1,5 @@
 # Water extent: Flood, Libya, 6 February 2024 (FL20240206LBY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240206lby/fl20240206lby-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240206lby/fl20240206lby-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Libya, 6 February 2024 (FL20240206LBY): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240206lby-water-extent.parquet | 159.2 KB | 12203eeea8b1... |
 | ./fl20240206lby-water-extent.pmtiles | 31.1 KB | 1220e3f0835b... |
 | ./styles/default.json | 887 B | 122073d3a2ce... |
+| ./fl20240206lby-water-extent.thumb.jpg | 10.9 KB | 12200037df6a... |
 
 ## Quick Start
 

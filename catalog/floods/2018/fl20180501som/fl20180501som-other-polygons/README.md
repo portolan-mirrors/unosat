@@ -1,5 +1,5 @@
 # Other polygons: Flood, Somalia, 1 May 2018 (FL20180501SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180501som/fl20180501som-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Flood, Somalia, 1 May 2018 (FL20180501SOM): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180501som-other-polygons.parquet | 3.9 KB | 1220e31e2289... |
 | ./fl20180501som-other-polygons.pmtiles | 82.7 KB | 12205b5acf9b... |
 | ./styles/default.json | 664 B | 1220e3b895e2... |
+| ./fl20180501som-other-polygons.thumb.jpg | 9.1 KB | 1220b3e30b25... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Other polygons: Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2016/eq20160417ecu/eq20160417ecu-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Earthquake, Ecuador, 17 April 2016 (EQ20160417ECU): 9 features merged from 9 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20160417ecu-other-polygons.parquet | 6.5 KB | 122099ef671a... |
 | ./eq20160417ecu-other-polygons.pmtiles | 70.9 KB | 12208667f4b4... |
 | ./styles/default.json | 664 B | 12205a567b6e... |
+| ./eq20160417ecu-other-polygons.thumb.jpg | 3.6 KB | 122026c65044... |
 
 ## Quick Start
 

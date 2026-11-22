@@ -109,14 +109,14 @@ step "portolan add"
   cd catalog
   if [[ -n "$EVENTS" ]]; then
     for d in "${EVENT_DIRS[@]}"; do
-      [[ -n "$d" ]] && portolan add "$d/" --workers 8 --no-thumbnails
+      [[ -n "$d" ]] && portolan add "$d/" --workers 8 --thumbnails
     done
   else
     # One add per event directory: a single `portolan add .` over the whole
     # archive ran 20 minutes without writing anything (portolan-cli 0.9.0).
     python3 -c 'import json,glob,os; print("\n".join(sorted({os.path.dirname(json.load(open(f))["path"]) for f in glob.glob("../manifest/collections/*.json")})))' |
-      while read -r d; do portolan add "$d/" --workers 8 --no-thumbnails; done
-    portolan add combined/ --workers 8 --no-thumbnails
+      while read -r d; do portolan add "$d/" --workers 8 --thumbnails; done
+    portolan add combined/ --workers 8 --thumbnails
   fi
 )
 

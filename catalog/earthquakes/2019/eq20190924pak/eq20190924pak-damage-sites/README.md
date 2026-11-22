@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK): 188 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20190924pak-damage-sites.parquet | 15.6 KB | 1220f6e6228a... |
 | ./eq20190924pak-damage-sites.pmtiles | 94.7 KB | 12203c7573ea... |
 | ./styles/default.json | 956 B | 1220eb537d87... |
+| ./eq20190924pak-damage-sites.thumb.jpg | 9.2 KB | 12204e5e0350... |
 
 ## Quick Start
 

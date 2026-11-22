@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE): 801,187 features merged from 25 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -196,6 +196,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20231007pse-damage-sites.parquet | 18.6 MB | 122079578514... |
 | ./ce20231007pse-damage-sites.pmtiles | 19.0 MB | 1220126ad21d... |
 | ./styles/default.json | 1.3 KB | 122046057a71... |
+| ./ce20231007pse-damage-sites.thumb.jpg | 24.0 KB | 1220c2f551f9... |
 
 ## Quick Start
 

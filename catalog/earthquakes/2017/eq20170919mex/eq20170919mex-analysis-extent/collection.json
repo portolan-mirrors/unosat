@@ -253,7 +253,9 @@
       "file:checksum": "1220d34e4f7f6ff2d4929d523a9762a3e5aea90589980c894386a8351d4e9b03b067",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX), one GeoParquet file with the source columns."
     },
     "eq20170919mex-analysis-extent-tiles": {
       "href": "./eq20170919mex-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12205305faa798fcbb9c569a52f9aa44adf9f773531c60be44f7fef85cec75bbeebd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12208f2894780d57e63df3c5bf00a7201749123a4adb128005c49a411d842c48a5dc"
+      "file:checksum": "12208f2894780d57e63df3c5bf00a7201749123a4adb128005c49a411d842c48a5dc",
+      "description": "MapLibre style for Analysis extent: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20170919mex-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5469,
+      "file:checksum": "12204ace968ce60c4e2711398a8d8aec6fc428c81d8a5b9eb4fe6b00623c864bfcc7",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Mexico, 19 September 2017 (EQ20170919MEX)."
     }
   }
 }

@@ -299,7 +299,9 @@
       "file:checksum": "1220d0edbea75c8a6bd4415c3b9d52dc313eb6edb2b9839b5b105d38656f01fabb47",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN), one GeoParquet file with the source columns."
     },
     "fl20170418irn-water-extent-tiles": {
       "href": "./fl20170418irn-water-extent.pmtiles",
@@ -308,7 +310,9 @@
       "file:checksum": "1220284249fbc3074ea12cad0d66e92bba990654ddc84f2c5a5b536f8b041b5b63e4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -319,7 +323,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 900,
-      "file:checksum": "12207c95adf85524b24e01a906c5bf2d63a5a3ba8da0e295a9b5cf6f88d94f470024"
+      "file:checksum": "12207c95adf85524b24e01a906c5bf2d63a5a3ba8da0e295a9b5cf6f88d94f470024",
+      "description": "MapLibre style for Water extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170418irn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 21488,
+      "file:checksum": "12201cf39cef24445597af06d38453f02db074fd19303a904de130ced2681b503e33",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Iran (Islamic Republic of), 18 April 2017 (FL20170418IRN)."
     }
   }
 }

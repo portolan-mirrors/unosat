@@ -262,7 +262,9 @@
       "file:checksum": "122019dd0741b37af6461ce05728445de66a004aa93c2d3c2b3c510385dba8749f61",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Congo, 2 January 2024 (FL20240102COG), one GeoParquet file with the source columns."
     },
     "fl20240102cog-damage-sites-tiles": {
       "href": "./fl20240102cog-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12209cbcfe3ce07713d44c616a9cdff163d04ad499ef4f91d31da38e9dcd1dc3e60b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Congo, 2 January 2024 (FL20240102COG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1047,
-      "file:checksum": "1220299d139b98e766054e058bc85036c71c52c531e2dcbc7579c74b8c395d862eb7"
+      "file:checksum": "1220299d139b98e766054e058bc85036c71c52c531e2dcbc7579c74b8c395d862eb7",
+      "description": "MapLibre style for Damage sites: Flood, Congo, 2 January 2024 (FL20240102COG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240102cog-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5967,
+      "file:checksum": "1220560774a8a61256f2c39adc679c28c62bc52788d9add4ad455e2245c99021910d",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Congo, 2 January 2024 (FL20240102COG)."
     }
   }
 }

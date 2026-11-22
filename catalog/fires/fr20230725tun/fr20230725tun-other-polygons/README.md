@@ -1,5 +1,5 @@
 # Other polygons: Fire, Tunisia, 25 July 2023 (FR20230725TUN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230725tun/fr20230725tun-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20230725tun/fr20230725tun-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Fire, Tunisia, 25 July 2023 (FR20230725TUN): 3 features merged from 3 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20230725tun-other-polygons.parquet | 4.3 KB | 12201c089c76... |
 | ./fr20230725tun-other-polygons.pmtiles | 33.9 KB | 122009c76980... |
 | ./styles/default.json | 664 B | 1220c6aabe98... |
+| ./fr20230725tun-other-polygons.thumb.jpg | 7.0 KB | 1220cdbbc6fd... |
 
 ## Quick Start
 

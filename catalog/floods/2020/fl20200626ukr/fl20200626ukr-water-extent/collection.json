@@ -274,7 +274,9 @@
       "file:checksum": "1220dc8708e1570f7393b10579d8576476757a739662c782170e477db788b74c8dd6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR), one GeoParquet file with the source columns."
     },
     "fl20200626ukr-water-extent-tiles": {
       "href": "./fl20200626ukr-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220f0c44e54903835a9a1a77f9399c1d02a7f622e7ece4619ff892f9aada6f195f4",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220574e6eeb68110b3e994aab7b485830b2a8cd49e0f24a33fcdaa1c840a74e612b"
+      "file:checksum": "1220574e6eeb68110b3e994aab7b485830b2a8cd49e0f24a33fcdaa1c840a74e612b",
+      "description": "MapLibre style for Water extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20200626ukr-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 17114,
+      "file:checksum": "1220481317c447c97691490e39aed4e6ee2cf04808139902ea2e13a88954b74f044b",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Ukraine, 26 June 2020 (FL20200626UKR)."
     }
   }
 }

@@ -23,4 +23,4 @@ import geopandas as gpd
 gdf = gpd.read_parquet('https://data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons.parquet')
 ```
 
-The [data browser](https://source.coop/portolan-mirrors/unosat) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.
+The [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017/tropical-cyclone-irma-17-path-and-wind-speed-zones-as-of-7-september-2017-other-polygons/collection.json) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.

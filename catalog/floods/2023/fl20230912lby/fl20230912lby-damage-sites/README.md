@@ -1,5 +1,5 @@
 # Damage sites: Flood, Libya, 12 September 2023 (FL20230912LBY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230912lby/fl20230912lby-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230912lby/fl20230912lby-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Libya, 12 September 2023 (FL20230912LBY): 49,907 features merged from 55 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230912lby-damage-sites.parquet | 188.4 KB | 12208e6b3ddc... |
 | ./fl20230912lby-damage-sites.pmtiles | 214.1 KB | 12205706e1f3... |
 | ./styles/default.json | 1.0 KB | 12206dea49d4... |
+| ./fl20230912lby-damage-sites.thumb.jpg | 2.8 KB | 1220fc16563f... |
 
 ## Quick Start
 

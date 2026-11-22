@@ -1,5 +1,5 @@
 # Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/somalia-flooding-belet-weyne-town-belet-weyne-district-hiiran-region/catalog.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 UNOSAT geodata for Somalia flooding Belet Weyne Town, Belet Weyne District, Hiiran Region, from 1 dataset on the Humanitarian Data Exchange. HDX describes the event:
 

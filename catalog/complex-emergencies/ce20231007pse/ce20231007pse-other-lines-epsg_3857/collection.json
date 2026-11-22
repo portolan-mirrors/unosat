@@ -318,7 +318,9 @@
       "proj:code": "EPSG:3857",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE), one GeoParquet file with the source columns."
     },
     "ce20231007pse-other-lines-epsg_3857-tiles": {
       "href": "./ce20231007pse-other-lines-epsg_3857.pmtiles",
@@ -327,7 +329,9 @@
       "file:checksum": "1220aa64ef64bc0ac71a22d21c2235959a6df56ef3042cc3ec9744249b34de40f3f1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -338,7 +342,19 @@
       ],
       "title": "Other lines",
       "file:size": 411,
-      "file:checksum": "12200c93a529dcf9a9d19be7ba5869e47e70411fb6b6ee154b27081c88e38c158f17"
+      "file:checksum": "12200c93a529dcf9a9d19be7ba5869e47e70411fb6b6ee154b27081c88e38c158f17",
+      "description": "MapLibre style for Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20231007pse-other-lines-epsg_3857.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 28577,
+      "file:checksum": "122090e53dcfc901e6c926db0b0d43ff31abb02162b2b00da08e9da67bff62eb0256",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)."
     }
   }
 }

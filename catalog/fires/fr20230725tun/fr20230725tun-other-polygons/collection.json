@@ -217,7 +217,9 @@
       "file:checksum": "12201c089c76db2549376d4e5cbcfd49984e422ea9926bf05cec4ddcea64e54a8566",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Fire, Tunisia, 25 July 2023 (FR20230725TUN), one GeoParquet file with the source columns."
     },
     "fr20230725tun-other-polygons-tiles": {
       "href": "./fr20230725tun-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "122009c7698069bd07905cff4df5d7c9377cb9a32c60d93110ea471a080872b59271",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Fire, Tunisia, 25 July 2023 (FR20230725TUN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220c6aabe9823b9e353ef202c8830ba6bca6fd2465b4b869c3cdb9e999c41401dbd"
+      "file:checksum": "1220c6aabe9823b9e353ef202c8830ba6bca6fd2465b4b869c3cdb9e999c41401dbd",
+      "description": "MapLibre style for Other polygons: Fire, Tunisia, 25 July 2023 (FR20230725TUN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20230725tun-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7168,
+      "file:checksum": "1220cdbbc6fd28861e708daae1d74872c83c5a944078a5f87be11e59490cb9cbc3f3",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Fire, Tunisia, 25 July 2023 (FR20230725TUN)."
     }
   }
 }

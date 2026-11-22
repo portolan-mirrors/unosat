@@ -274,7 +274,9 @@
       "file:checksum": "12202018494b3242cd71b53a729e47b483267e5b9d4ebb2ee8586dcab0efa31fd0fa",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD), one GeoParquet file with the source columns."
     },
     "fl20231229cod-water-extent-tiles": {
       "href": "./fl20231229cod-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12208acfda260e95cea85a3e8943c637b391f251f57c21fc505b5ddad470799bbb2f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 960,
-      "file:checksum": "1220c7706322a46f771f9fb9436a5d58cb4313b8edbcce8de52fe926b4d023facde5"
+      "file:checksum": "1220c7706322a46f771f9fb9436a5d58cb4313b8edbcce8de52fe926b4d023facde5",
+      "description": "MapLibre style for Water extent: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231229cod-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16407,
+      "file:checksum": "1220d916f95e63b85926e401483691279ef4785ae35c1b5d0a5caff79fc6390d2370",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Democratic Republic of the Congo, 29 December 2023 (FL20231229COD)."
     }
   }
 }

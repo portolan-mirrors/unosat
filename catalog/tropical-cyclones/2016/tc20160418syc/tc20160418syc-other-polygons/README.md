@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160418syc/tc20160418syc-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160418syc/tc20160418syc-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC): 2,702 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20160418syc-other-polygons.parquet | 630.0 KB | 1220f8259751... |
 | ./tc20160418syc-other-polygons.pmtiles | 479.9 KB | 1220223d11d3... |
 | ./styles/default.json | 664 B | 122090164241... |
+| ./tc20160418syc-other-polygons.thumb.jpg | 7.8 KB | 1220bc37be67... |
 
 ## Quick Start
 

@@ -267,7 +267,9 @@
       "file:checksum": "1220b99720346879c4dd16178cae3dae0c94bf95b891f32ae9b0484c3a6733b58af7",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI), one GeoParquet file with the source columns."
     },
     "eq20210814hti-analysis-extent-tiles": {
       "href": "./eq20210814hti-analysis-extent.pmtiles",
@@ -276,7 +278,9 @@
       "file:checksum": "12207450bbc58d35d3dea3e5f515fc1228ac3349c6779fc361f10bac2586815b0e76",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -287,7 +291,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220da963c9c31eeeccfdcde9c455597f0c555f0a1c84f9496dee9cdf3cf2afa0355"
+      "file:checksum": "1220da963c9c31eeeccfdcde9c455597f0c555f0a1c84f9496dee9cdf3cf2afa0355",
+      "description": "MapLibre style for Analysis extent: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20210814hti-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5309,
+      "file:checksum": "12202ba1c9236d621defc51446e6e9a86e6f3b573d608e3d1c1354317382afa084cb",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)."
     }
   }
 }

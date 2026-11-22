@@ -287,7 +287,9 @@
       "file:checksum": "1220689cf1faa77aae4b26a41dc3b096fc99331d7071b3854dd6df6133ada5ee6733",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN), one GeoParquet file with the source columns."
     },
     "eq20240326idn-analysis-extent-tiles": {
       "href": "./eq20240326idn-analysis-extent.pmtiles",
@@ -296,7 +298,9 @@
       "file:checksum": "12203ce30d79bd7ff0f8f5804af753cfbfdd06bff24e2cfb103fe718eb30dd0f7895",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -307,7 +311,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220d1acb7077ed350298e066018f293085aa8c3b1c094da2fce4dc143fe9799707d"
+      "file:checksum": "1220d1acb7077ed350298e066018f293085aa8c3b1c094da2fce4dc143fe9799707d",
+      "description": "MapLibre style for Analysis extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20240326idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2629,
+      "file:checksum": "12208da93e3b14812d783fa33fdd69da6d40f6032d0fdcd818bce1e6f4b658042166",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Indonesia, 26 March 2024 (EQ20240326IDN)."
     }
   }
 }

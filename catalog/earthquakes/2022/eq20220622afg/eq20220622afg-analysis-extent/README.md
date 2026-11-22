@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG): 6 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20220622afg-analysis-extent.parquet | 5.7 KB | 1220281bc810... |
 | ./eq20220622afg-analysis-extent.pmtiles | 48.6 KB | 1220766d3584... |
 | ./styles/default.json | 671 B | 122034d44f87... |
+| ./eq20220622afg-analysis-extent.thumb.jpg | 9.2 KB | 1220b3af6160... |
 
 ## Quick Start
 

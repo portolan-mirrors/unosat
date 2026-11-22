@@ -299,7 +299,9 @@
       "file:checksum": "1220c2c6c83b382d91b0270b1925cac21da9074561b5f47c307fe0c971b48a832995",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Democratic Republic of the Congo, 25 November 2022 (FL20221125COD), one GeoParquet file with the source columns."
     },
     "fl20221125cod-water-extent-tiles": {
       "href": "./fl20221125cod-water-extent.pmtiles",
@@ -308,7 +310,9 @@
       "file:checksum": "1220f327776ebf80417e2928b2e1f77656cb13765a05d46eabdd43f1972b93f48429",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Democratic Republic of the Congo, 25 November 2022 (FL20221125COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -319,7 +323,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1125,
-      "file:checksum": "1220e9181d666433d9b2ad2d8a9f6c60c95237bc3862c0f2b93fd37be9a0415653e7"
+      "file:checksum": "1220e9181d666433d9b2ad2d8a9f6c60c95237bc3862c0f2b93fd37be9a0415653e7",
+      "description": "MapLibre style for Water extent: Flood, Democratic Republic of the Congo, 25 November 2022 (FL20221125COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20221125cod-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 29537,
+      "file:checksum": "12207c719212eb52a2e2f659c8cd8658df73fe7f999c72577cd5aa0b2f70053f0ab3",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Democratic Republic of the Congo, 25 November 2022 (FL20221125COD)."
     }
   }
 }

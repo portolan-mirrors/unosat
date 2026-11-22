@@ -1,5 +1,5 @@
 # Damage sites: Flood, Myanmar, 3 July 2015 (FL20150703MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20150703mmr/fl20150703mmr-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Myanmar, 3 July 2015 (FL20150703MMR): 189 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20150703mmr-damage-sites.parquet | 15.1 KB | 1220052b1799... |
 | ./fl20150703mmr-damage-sites.pmtiles | 51.1 KB | 1220af70da4c... |
 | ./styles/default.json | 998 B | 122036a7a5b7... |
+| ./fl20150703mmr-damage-sites.thumb.jpg | 7.9 KB | 12201ea5ce97... |
 
 ## Quick Start
 

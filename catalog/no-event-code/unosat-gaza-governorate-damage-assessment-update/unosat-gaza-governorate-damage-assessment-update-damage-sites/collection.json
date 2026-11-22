@@ -458,7 +458,9 @@
       "file:checksum": "1220a7be2eb768b4b368fa93f0dcd53f23cd4528c7d2d2f9f57508f69a267bf06bd3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: UNOSAT Gaza Governorate Damage Assessment Update, one GeoParquet file with the source columns."
     },
     "unosat-gaza-governorate-damage-assessment-update-damage-sites-tiles": {
       "href": "./unosat-gaza-governorate-damage-assessment-update-damage-sites.pmtiles",
@@ -467,7 +469,9 @@
       "file:checksum": "122096f83dca5d70b8fcde767293ba35121289f8f08cbf41925c989358e640139b43",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: UNOSAT Gaza Governorate Damage Assessment Update for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -478,7 +482,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1148,
-      "file:checksum": "1220498eefb2b52d338a5fca808f55d8e63a207835fde4d99ec398d173d24168cef8"
+      "file:checksum": "1220498eefb2b52d338a5fca808f55d8e63a207835fde4d99ec398d173d24168cef8",
+      "description": "MapLibre style for Damage sites: UNOSAT Gaza Governorate Damage Assessment Update; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./unosat-gaza-governorate-damage-assessment-update-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 25786,
+      "file:checksum": "1220b5eef73b4f82061da68ab7a49633a283162bedf3f6dc8f66f41a44a5bb49f702",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: UNOSAT Gaza Governorate Damage Assessment Update."
     }
   }
 }

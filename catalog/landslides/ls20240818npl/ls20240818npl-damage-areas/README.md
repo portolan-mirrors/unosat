@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Nepal, 18 August 2024 (LS20240818NPL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240818npl/ls20240818npl-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Nepal, 18 August 2024 (LS20240818NPL): 44 features merged from 2 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240818npl-damage-areas.parquet | 74.6 KB | 1220caae6edf... |
 | ./ls20240818npl-damage-areas.pmtiles | 57.5 KB | 12201bdda190... |
 | ./styles/default.json | 911 B | 1220b5490134... |
+| ./ls20240818npl-damage-areas.thumb.jpg | 5.8 KB | 1220f02d2f71... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Bhutan, 30 October 2026 (FL20261030BTN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20261030btn/fl20261030btn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2026/fl20261030btn/fl20261030btn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Bhutan, 30 October 2026 (FL20261030BTN): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20261030btn-analysis-extent.parquet | 4.8 KB | 122084a03463... |
 | ./fl20261030btn-analysis-extent.pmtiles | 58.7 KB | 1220575774f6... |
 | ./styles/default.json | 671 B | 1220e6031878... |
+| ./fl20261030btn-analysis-extent.thumb.jpg | 6.0 KB | 12201fa75946... |
 
 ## Quick Start
 

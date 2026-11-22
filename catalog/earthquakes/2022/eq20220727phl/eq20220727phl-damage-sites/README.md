@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Philippines, 27 July 2022 (EQ20220727PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220727phl/eq20220727phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220727phl/eq20220727phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Philippines, 27 July 2022 (EQ20220727PHL): 200 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20220727phl-damage-sites.parquet | 15.5 KB | 1220a1e21a1c... |
 | ./eq20220727phl-damage-sites.pmtiles | 55.5 KB | 122059b06a6c... |
 | ./styles/default.json | 1006 B | 1220c1774f65... |
+| ./eq20220727phl-damage-sites.thumb.jpg | 6.7 KB | 1220b53f1224... |
 
 ## Quick Start
 

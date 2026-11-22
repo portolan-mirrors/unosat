@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20230909mar-shelters.parquet",
         "eq20230909mar-shelters.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.788331Z",
+      "breaking": false,
+      "assets": {
+        "eq20230909mar-shelters.parquet": {
+          "sha256": "7eac9dcd728c56638adffafb25d69cf82dfb9d3d9ecf79f52e48f362a43a273a",
+          "size_bytes": 12588,
+          "href": "earthquakes/2023/eq20230909mar/eq20230909mar-shelters/eq20230909mar-shelters.parquet",
+          "source_path": "eq20230909mar-shelters.parquet",
+          "source_mtime": 1795333273.9733799,
+          "mtime": 1795333273.9733799,
+          "feature_count": 580,
+          "schema_fingerprint": "524fc054dd37d473"
+        },
+        "eq20230909mar-shelters.pmtiles": {
+          "sha256": "28b008525ad7ffb0377c956a517bd26c89f927d51f1a043ec6d877f5e1eb3c4f",
+          "size_bytes": 65861,
+          "href": "earthquakes/2023/eq20230909mar/eq20230909mar-shelters/eq20230909mar-shelters.pmtiles",
+          "mtime": 1795334070.6018574
+        },
+        "eq20230909mar-shelters.thumb.jpg": {
+          "sha256": "9d9213981dadb04ef2de5739e762c8002e128daf59057266f2991c7f410c2c76",
+          "size_bytes": 5183,
+          "href": "earthquakes/2023/eq20230909mar/eq20230909mar-shelters/eq20230909mar-shelters.thumb.jpg",
+          "mtime": 1795343616.7840245
+        }
+      },
+      "changes": [
+        "eq20230909mar-shelters.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20230909mar-shelters.thumb.jpg"
     }
   ]
 }

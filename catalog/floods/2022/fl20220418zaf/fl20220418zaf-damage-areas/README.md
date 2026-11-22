@@ -1,5 +1,5 @@
 # Damage areas: Flood, South Africa, 18 April 2022 (FL20220418ZAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220418zaf/fl20220418zaf-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220418zaf/fl20220418zaf-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, South Africa, 18 April 2022 (FL20220418ZAF): 303 features merged from 16 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220418zaf-damage-areas.parquet | 2.6 MB | 122044591fa0... |
 | ./fl20220418zaf-damage-areas.pmtiles | 1.2 MB | 122015b38977... |
 | ./styles/default.json | 961 B | 12209154d7cc... |
+| ./fl20220418zaf-damage-areas.thumb.jpg | 7.0 KB | 1220803cb3e3... |
 
 ## Quick Start
 

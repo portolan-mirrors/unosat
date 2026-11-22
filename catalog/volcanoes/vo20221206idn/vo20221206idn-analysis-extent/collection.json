@@ -271,7 +271,9 @@
       "file:checksum": "1220306efdd99320088fd6d6c99480a4aa1c19d6ba6f56108d8c06344f34c510a70e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Volcano, Indonesia, 6 December 2022 (VO20221206IDN), one GeoParquet file with the source columns."
     },
     "vo20221206idn-analysis-extent-tiles": {
       "href": "./vo20221206idn-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "1220db4b23ba8c270b3e7f4c6e4a605a6206c82bff339986d5d67311c2d0ea4ffd3f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Volcano, Indonesia, 6 December 2022 (VO20221206IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12208111c037f0221d188f779c95d67ba859588afbe2acf73c7d822aa8c2ea6ccec4"
+      "file:checksum": "12208111c037f0221d188f779c95d67ba859588afbe2acf73c7d822aa8c2ea6ccec4",
+      "description": "MapLibre style for Analysis extent: Volcano, Indonesia, 6 December 2022 (VO20221206IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20221206idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 40237,
+      "file:checksum": "1220ab7c603efe2c7db4c845bd60a93711b01ca532beceff460c0eda81a48bf8e569",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Volcano, Indonesia, 6 December 2022 (VO20221206IDN)."
     }
   }
 }

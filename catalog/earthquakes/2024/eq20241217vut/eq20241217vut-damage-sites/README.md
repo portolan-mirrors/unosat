@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20241217vut/eq20241217vut-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2024/eq20241217vut/eq20241217vut-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Vanuatu, 17 December 2024 (EQ20241217VUT): 6 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20241217vut-damage-sites.parquet | 7.3 KB | 122091537aff... |
 | ./eq20241217vut-damage-sites.pmtiles | 28.8 KB | 12201139bb73... |
 | ./styles/default.json | 956 B | 1220cd1de001... |
+| ./eq20241217vut-damage-sites.thumb.jpg | 2.5 KB | 1220c5b17a8b... |
 
 ## Quick Start
 

@@ -15,7 +15,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog"
 PUBLIC = "https://data.source.coop/portolan-mirrors/unosat"
-BROWSE = "https://source.coop/portolan-mirrors/unosat"
 
 
 def collection_md(c, cols):
@@ -74,7 +73,8 @@ def collection_md(c, cols):
         f"gdf = gpd.read_parquet('{url}')",
         "```",
         "",
-        f"The [data browser]({BROWSE}) shows the map, schema, and license. "
+        f"The [data browser](https://browser.portolan-sdi.org/#/external/"
+        f"{url.removeprefix('https://').rsplit('/', 1)[0]}/collection.json) shows the map, schema, and license. "
         "The event's other collections are siblings in the parent catalog.",
         "",
     ]

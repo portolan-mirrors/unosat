@@ -326,7 +326,9 @@
       "file:checksum": "12200b293e95703c1a32365a98540802cce420314a9f8f8a30feb238993638b32364",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA), one GeoParquet file with the source columns."
     },
     "ce20140617nga-shelters-cc_by_nc_sa_3_0-tiles": {
       "href": "./ce20140617nga-shelters-cc_by_nc_sa_3_0.pmtiles",
@@ -335,7 +337,9 @@
       "file:checksum": "1220e0cd685d0c179d49de0134c239bfd2d57a902d70b122084f9ad13bcefd928542",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -346,7 +350,19 @@
       ],
       "title": "Shelters by CampStatus",
       "file:size": 929,
-      "file:checksum": "1220f9f0f9528f8c2e4f01de988db26814d276852aa428266099d4a43256414d2146"
+      "file:checksum": "1220f9f0f9528f8c2e4f01de988db26814d276852aa428266099d4a43256414d2146",
+      "description": "MapLibre style for Shelters: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140617nga-shelters-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 17351,
+      "file:checksum": "12209bb4a06cdd651207e577fb9aee919f1110c1b87c73a699896bc9ee0f99ce8d8e",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Complex emergency, Nigeria, 17 June 2014 (CE20140617NGA)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage areas: Flood, Ukraine, 6 June 2023 (FL20230606UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230606ukr/fl20230606ukr-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Ukraine, 6 June 2023 (FL20230606UKR): 38 features merged from 38 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230606ukr-damage-areas.parquet | 1.6 MB | 1220a2bdd0ef... |
 | ./fl20230606ukr-damage-areas.pmtiles | 2.3 MB | 1220eb05248d... |
 | ./styles/default.json | 904 B | 12205b70631e... |
+| ./fl20230606ukr-damage-areas.thumb.jpg | 23.0 KB | 12208b58d2bb... |
 
 ## Quick Start
 

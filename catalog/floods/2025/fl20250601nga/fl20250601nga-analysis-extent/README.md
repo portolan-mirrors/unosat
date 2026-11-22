@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Nigeria, 1 June 2025 (FL20250601NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250601nga/fl20250601nga-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250601nga/fl20250601nga-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Nigeria, 1 June 2025 (FL20250601NGA): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250601nga-analysis-extent.parquet | 5.1 KB | 1220496e0911... |
 | ./fl20250601nga-analysis-extent.pmtiles | 43.2 KB | 1220770cf576... |
 | ./styles/default.json | 671 B | 12207f70a932... |
+| ./fl20250601nga-analysis-extent.thumb.jpg | 7.2 KB | 1220679e82d9... |
 
 ## Quick Start
 

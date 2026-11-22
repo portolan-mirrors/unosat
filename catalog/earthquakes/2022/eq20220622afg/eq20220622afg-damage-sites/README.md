@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20220622afg/eq20220622afg-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG): 839 features merged from 5 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20220622afg-damage-sites.parquet | 38.9 KB | 1220d2222a67... |
 | ./eq20220622afg-damage-sites.pmtiles | 184.4 KB | 1220a46e6cdb... |
 | ./styles/default.json | 1.0 KB | 12209f207cd9... |
+| ./eq20220622afg-damage-sites.thumb.jpg | 11.6 KB | 1220628b1155... |
 
 ## Quick Start
 

@@ -229,7 +229,9 @@
       "file:checksum": "1220ce4131f9a31e82ff8af6c440ad160d3a327932823163e10a6dfff2437e3d00ff",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM), one GeoParquet file with the source columns."
     },
     "tc20201028vnm-analysis-extent-tiles": {
       "href": "./tc20201028vnm-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12208b9791d05ac92118326d00a176ae8f4b292400d11b934c02b36ca575d3ae4bbf",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220a6e9273cc81108b13226d488affa1cb21f2b3cd8a37af7316318d00d38a12bee"
+      "file:checksum": "1220a6e9273cc81108b13226d488affa1cb21f2b3cd8a37af7316318d00d38a12bee",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201028vnm-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10911,
+      "file:checksum": "1220849467fb31a2ba57b37c124163a873d57772476be085d7c660020a69c2db46a0",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Viet Nam, 28 October 2020 (TC20201028VNM)."
     }
   }
 }

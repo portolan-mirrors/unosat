@@ -241,7 +241,9 @@
       "file:checksum": "1220f6f384f0aeaf1e324f11adc7d822cea4e9d82254cd8a128f03ee0a469d9ed327",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR), one GeoParquet file with the source columns."
     },
     "ce20130604syr-other-polygons-cc_by_nc_sa_3_0-tiles": {
       "href": "./ce20130604syr-other-polygons-cc_by_nc_sa_3_0.pmtiles",
@@ -250,7 +252,9 @@
       "file:checksum": "12200bcb9dc31bbf0ac22539a0b8a723f59653da819da61b89fc88a91483355c3155",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -261,7 +265,19 @@
       ],
       "title": "Other polygons",
       "file:size": 680,
-      "file:checksum": "122054253272a3682fec9d70bcb4855c2e2d8aa72e79a6057cbb488e6227c84bd855"
+      "file:checksum": "122054253272a3682fec9d70bcb4855c2e2d8aa72e79a6057cbb488e6227c84bd855",
+      "description": "MapLibre style for Other polygons: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130604syr-other-polygons-cc_by_nc_sa_3_0.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5146,
+      "file:checksum": "12205f0ac2e6d2f62740c2ba434702246843884a05bcee3195cea58b08ea27195552",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)."
     }
   }
 }

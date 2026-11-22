@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "eq20180805idn-shelters.parquet",
         "eq20180805idn-shelters.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:36.725735Z",
+      "breaking": false,
+      "assets": {
+        "eq20180805idn-shelters.parquet": {
+          "sha256": "350a8b88138a02d8748dfa04478b72fa499ba0061bacbbb7c5ce5015d19ba31e",
+          "size_bytes": 13566,
+          "href": "earthquakes/2018/eq20180805idn/eq20180805idn-shelters/eq20180805idn-shelters.parquet",
+          "source_path": "eq20180805idn-shelters.parquet",
+          "source_mtime": 1795333221.6780863,
+          "mtime": 1795333221.6780863,
+          "feature_count": 176,
+          "schema_fingerprint": "d2fd2163d86e1434"
+        },
+        "eq20180805idn-shelters.pmtiles": {
+          "sha256": "948c9c5d71a2ae7298a1e6d126b0c273033fa4a4e4da52da5340f97cbef01ec8",
+          "size_bytes": 71456,
+          "href": "earthquakes/2018/eq20180805idn/eq20180805idn-shelters/eq20180805idn-shelters.pmtiles",
+          "mtime": 1795334070.2742355
+        },
+        "eq20180805idn-shelters.thumb.jpg": {
+          "sha256": "da34d5ffb211d859def35b8fffd0939c959218f093ccb0643c8c7a6ee7e55384",
+          "size_bytes": 10206,
+          "href": "earthquakes/2018/eq20180805idn/eq20180805idn-shelters/eq20180805idn-shelters.thumb.jpg",
+          "mtime": 1795343616.7220254
+        }
+      },
+      "changes": [
+        "eq20180805idn-shelters.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: eq20180805idn-shelters.thumb.jpg"
     }
   ]
 }

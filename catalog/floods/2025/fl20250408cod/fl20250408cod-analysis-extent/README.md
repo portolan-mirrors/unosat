@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Democratic Republic of the Congo, 8 April 2025 (FL20250408COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250408cod/fl20250408cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250408cod/fl20250408cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Democratic Republic of the Congo, 8 April 2025 (FL20250408COD): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250408cod-analysis-extent.parquet | 4.8 KB | 122094ed6021... |
 | ./fl20250408cod-analysis-extent.pmtiles | 28.3 KB | 1220e19e3ac0... |
 | ./styles/default.json | 671 B | 122041feb78c... |
+| ./fl20250408cod-analysis-extent.thumb.jpg | 5.0 KB | 122047161edf... |
 
 ## Quick Start
 

@@ -286,7 +286,9 @@
       "file:checksum": "1220529102c8cdb7f69e514ef54839e1ee0f6fe58fe7cdd1ffd37cca1b51c06748e1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Earthquake, Colombia, 10 August 2026 (EQ20260810COL), one GeoParquet file with the source columns."
     },
     "eq20260810col-damage-areas-tiles": {
       "href": "./eq20260810col-damage-areas.pmtiles",
@@ -295,7 +297,9 @@
       "file:checksum": "1220cd0051797ee14cdf7f90a3f431a07ec093f51df7f8ca99d6741e9541689ac80f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Earthquake, Colombia, 10 August 2026 (EQ20260810COL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -306,7 +310,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 893,
-      "file:checksum": "1220cc0dee14d9a0d5d33a81b643864b00d16a99fb60437815a2bd43573da045650a"
+      "file:checksum": "1220cc0dee14d9a0d5d33a81b643864b00d16a99fb60437815a2bd43573da045650a",
+      "description": "MapLibre style for Damage areas: Earthquake, Colombia, 10 August 2026 (EQ20260810COL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20260810col-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4433,
+      "file:checksum": "12208c74073691f099696635a84996c0c79115f36de4386ecfef3ac7704c53c0e931",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)."
     }
   }
 }

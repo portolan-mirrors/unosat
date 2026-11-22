@@ -1,5 +1,5 @@
 # Damage areas: Flood, Armenia, 28 May 2024 (FL20240528ARM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Armenia, 28 May 2024 (FL20240528ARM): 2 features merged from 2 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240528arm-damage-areas.parquet | 45.6 KB | 12203932d1c3... |
 | ./fl20240528arm-damage-areas.pmtiles | 82.8 KB | 1220a8fa81dd... |
 | ./styles/default.json | 652 B | 12206d258e3d... |
+| ./fl20240528arm-damage-areas.thumb.jpg | 10.3 KB | 12202e2eb883... |
 
 ## Quick Start
 

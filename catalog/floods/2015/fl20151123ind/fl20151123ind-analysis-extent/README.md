@@ -1,5 +1,5 @@
 # Analysis extent: Flood, India, 23 November 2015 (FL20151123IND)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151123ind/fl20151123ind-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2015/fl20151123ind/fl20151123ind-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, India, 23 November 2015 (FL20151123IND): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20151123ind-analysis-extent.parquet | 5.4 KB | 122088fe53c1... |
 | ./fl20151123ind-analysis-extent.pmtiles | 551.3 KB | 1220ae366879... |
 | ./styles/default.json | 671 B | 12201fa1eb60... |
+| ./fl20151123ind-analysis-extent.thumb.jpg | 12.4 KB | 1220f02678a1... |
 
 ## Quick Start
 

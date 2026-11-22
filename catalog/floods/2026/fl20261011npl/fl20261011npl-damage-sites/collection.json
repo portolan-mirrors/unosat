@@ -262,7 +262,9 @@
       "file:checksum": "12201c7850d7c0ed9007cb17ddc8c0daf45816e3f46da882d2ab30f5eac78f638321",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Nepal, 11 October 2026 (FL20261011NPL), one GeoParquet file with the source columns."
     },
     "fl20261011npl-damage-sites-tiles": {
       "href": "./fl20261011npl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12208d68531995dbbad6150da65902cfc669d0a14dfb38eb1195a3bd679db25bd1b2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Nepal, 11 October 2026 (FL20261011NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "1220186cc4232b51c056e96c5daccc38d9b9fab61ae0e6bc0c4479319aec03d58404"
+      "file:checksum": "1220186cc4232b51c056e96c5daccc38d9b9fab61ae0e6bc0c4479319aec03d58404",
+      "description": "MapLibre style for Damage sites: Flood, Nepal, 11 October 2026 (FL20261011NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261011npl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4412,
+      "file:checksum": "1220509fbf5b176f43a680dcee6d1067f997d3d961f522b706bd54aa69ae0ce84498",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Nepal, 11 October 2026 (FL20261011NPL)."
     }
   }
 }

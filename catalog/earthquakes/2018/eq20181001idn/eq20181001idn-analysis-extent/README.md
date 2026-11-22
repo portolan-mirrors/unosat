@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20181001idn/eq20181001idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2018/eq20181001idn/eq20181001idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Indonesia, 1 October 2018 (EQ20181001IDN): 31 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -39,6 +39,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20181001idn-analysis-extent.parquet | 5.4 KB | 12207ea58c84... |
 | ./eq20181001idn-analysis-extent.pmtiles | 45.6 KB | 1220138f4b2b... |
 | ./styles/default.json | 671 B | 1220985054cf... |
+| ./eq20181001idn-analysis-extent.thumb.jpg | 6.8 KB | 1220372a2ce4... |
 
 ## Quick Start
 

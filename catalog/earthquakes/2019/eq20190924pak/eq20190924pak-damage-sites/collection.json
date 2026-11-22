@@ -262,7 +262,9 @@
       "file:checksum": "1220f6e6228ac68f47028c32fc3b845cabae9e9ade69e96b4f090630e859fe0a53b9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK), one GeoParquet file with the source columns."
     },
     "eq20190924pak-damage-sites-tiles": {
       "href": "./eq20190924pak-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12203c7573ea6683966d5eaed4ab8a5179f2a737a0a17dfc22faca9e0d5006117e14",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220eb537d87517da9bde8acee25e4343e61432e030023ef90c9e777d81266457343"
+      "file:checksum": "1220eb537d87517da9bde8acee25e4343e61432e030023ef90c9e777d81266457343",
+      "description": "MapLibre style for Damage sites: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20190924pak-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9410,
+      "file:checksum": "12204e5e035060427565691ab577b0912c843ab76ed6f6f73a9fbeca71858fc7cb91",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK)."
     }
   }
 }

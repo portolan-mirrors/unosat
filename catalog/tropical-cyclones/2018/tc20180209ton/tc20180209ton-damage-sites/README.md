@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2018/tc20180209ton/tc20180209ton-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Tonga, 9 February 2018 (TC20180209TON): 3,362 features merged from 8 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20180209ton-damage-sites.parquet | 137.3 KB | 122090e067ed... |
 | ./tc20180209ton-damage-sites.pmtiles | 125.3 KB | 122089b38a45... |
 | ./styles/default.json | 968 B | 122008fb9eab... |
+| ./tc20180209ton-damage-sites.thumb.jpg | 11.1 KB | 1220ee939937... |
 
 ## Quick Start
 

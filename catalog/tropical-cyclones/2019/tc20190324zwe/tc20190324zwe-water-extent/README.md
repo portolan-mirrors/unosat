@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20190324zwe/tc20190324zwe-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE): 268,946 features merged from 6 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20190324zwe-water-extent.parquet | 27.7 MB | 1220d0c6a60d... |
 | ./tc20190324zwe-water-extent.pmtiles | 82.2 MB | 1220bc90b704... |
 | ./styles/default.json | 887 B | 12208f138818... |
+| ./tc20190324zwe-water-extent.thumb.jpg | 18.9 KB | 12209796f6c3... |
 
 ## Quick Start
 

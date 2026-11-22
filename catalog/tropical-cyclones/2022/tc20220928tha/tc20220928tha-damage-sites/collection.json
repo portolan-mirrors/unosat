@@ -262,7 +262,9 @@
       "file:checksum": "12202e9bbc7d5b144994b5e892f501bd92da8a478fdbb783de5b47c6424d868d64a5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA), one GeoParquet file with the source columns."
     },
     "tc20220928tha-damage-sites-tiles": {
       "href": "./tc20220928tha-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122034115dc7b7df3ef3448889f3d38ebbd6348dd769d270b1754806fed38a65738e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "1220e0796435e9fd607064688e97a7e18cc683ddfca5f6a08244c28458691aec98bf"
+      "file:checksum": "1220e0796435e9fd607064688e97a7e18cc683ddfca5f6a08244c28458691aec98bf",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220928tha-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 21273,
+      "file:checksum": "12201f54ac0529abd04c23356b555c39aeff2a1323150db567f1a5d1f78b02d91a31",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)."
     }
   }
 }

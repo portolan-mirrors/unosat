@@ -1,5 +1,5 @@
 # Analysis extent: Flood, South Sudan, 19 January 2022 (FL20220119SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119ssd/fl20220119ssd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220119ssd/fl20220119ssd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, South Sudan, 19 January 2022 (FL20220119SSD): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220119ssd-analysis-extent.parquet | 439.3 KB | 12205c72736c... |
 | ./fl20220119ssd-analysis-extent.pmtiles | 5.2 MB | 12207347eeec... |
 | ./styles/default.json | 671 B | 1220d1b31567... |
+| ./fl20220119ssd-analysis-extent.thumb.jpg | 15.6 KB | 122047fd5085... |
 
 ## Quick Start
 

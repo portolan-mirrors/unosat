@@ -274,7 +274,9 @@
       "file:checksum": "1220f24f9bdb5dc34f5c86a796318a999bc048347b34a299af5ca15f45e46819b5fd",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nepal, 17 November 2022 (FL20221117NPL), one GeoParquet file with the source columns."
     },
     "fl20221117npl-water-extent-tiles": {
       "href": "./fl20221117npl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220d35db1cd467ad48b36def96371af3ee38eb84256398981b2c8f955e43aa8f011",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nepal, 17 November 2022 (FL20221117NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1040,
-      "file:checksum": "12207f48b5eaeb6946b78577813a295cf70c389edb39d5fe7968dd2f5d1eb7380dab"
+      "file:checksum": "12207f48b5eaeb6946b78577813a295cf70c389edb39d5fe7968dd2f5d1eb7380dab",
+      "description": "MapLibre style for Water extent: Flood, Nepal, 17 November 2022 (FL20221117NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20221117npl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 84329,
+      "file:checksum": "122090aec0f607341b4e3f92d54fe2a1deafd6da8c84303fb65462807a9aa1c5bae4",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nepal, 17 November 2022 (FL20221117NPL)."
     }
   }
 }

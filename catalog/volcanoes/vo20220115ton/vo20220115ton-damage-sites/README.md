@@ -1,5 +1,5 @@
 # Damage sites: Volcano, Tonga, 15 January 2022 (VO20220115TON)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20220115ton/vo20220115ton-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Volcano, Tonga, 15 January 2022 (VO20220115TON): 2,774 features merged from 7 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20220115ton-damage-sites.parquet | 119.0 KB | 12203bfdc886... |
 | ./vo20220115ton-damage-sites.pmtiles | 123.8 KB | 1220e0305407... |
 | ./styles/default.json | 695 B | 1220d7b01a62... |
+| ./vo20220115ton-damage-sites.thumb.jpg | 3.2 KB | 122019a56b59... |
 
 ## Quick Start
 

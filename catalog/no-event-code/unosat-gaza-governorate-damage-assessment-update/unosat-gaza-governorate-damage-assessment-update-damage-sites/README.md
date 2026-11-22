@@ -1,5 +1,5 @@
 # Damage sites: UNOSAT Gaza Governorate Damage Assessment Update
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/unosat-gaza-governorate-damage-assessment-update/unosat-gaza-governorate-damage-assessment-update-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for UNOSAT Gaza Governorate Damage Assessment Update: 9,138 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -104,6 +104,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./unosat-gaza-governorate-damage-assessment-update-damage-sites.parquet | 369.2 KB | 1220a7be2eb7... |
 | ./unosat-gaza-governorate-damage-assessment-update-damage-sites.pmtiles | 342.0 KB | 122096f83dca... |
 | ./styles/default.json | 1.1 KB | 1220498eefb2... |
+| ./unosat-gaza-governorate-damage-assessment-update-damage-sites.thumb.jpg | 25.2 KB | 1220b5eef73b... |
 
 ## Quick Start
 

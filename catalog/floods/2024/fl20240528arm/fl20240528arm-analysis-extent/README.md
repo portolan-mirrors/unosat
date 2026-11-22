@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Armenia, 28 May 2024 (FL20240528ARM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Armenia, 28 May 2024 (FL20240528ARM): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -48,6 +48,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240528arm-analysis-extent.parquet | 156.9 KB | 1220e25335de... |
 | ./fl20240528arm-analysis-extent.pmtiles | 81.2 KB | 12205d4238b7... |
 | ./styles/default.json | 671 B | 1220b24f016d... |
+| ./fl20240528arm-analysis-extent.thumb.jpg | 10.4 KB | 12207ac5e8ba... |
 
 ## Quick Start
 

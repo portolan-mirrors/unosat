@@ -325,7 +325,9 @@
       "file:checksum": "12201a236ed56fb3869dafc385ccb7ff907aa2da96c5312d10b8848b1cb91421d556",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, South Sudan, 24 April 2022 (FL20220424SSD), one GeoParquet file with the source columns."
     },
     "fl20220424ssd-water-extent-tiles": {
       "href": "./fl20220424ssd-water-extent.pmtiles",
@@ -334,7 +336,9 @@
       "file:checksum": "122027d83fb097e0d9b7b70481ef12cfc98298ca0a98f3d742113aa098cb65174f91",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, South Sudan, 24 April 2022 (FL20220424SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -345,7 +349,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1125,
-      "file:checksum": "1220de4d7092ab1220cff244f5305f03cd12394b7267c28bcb21134431c91d1aecf3"
+      "file:checksum": "1220de4d7092ab1220cff244f5305f03cd12394b7267c28bcb21134431c91d1aecf3",
+      "description": "MapLibre style for Water extent: Flood, South Sudan, 24 April 2022 (FL20220424SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220424ssd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 38444,
+      "file:checksum": "1220a04b514074ab6503be07849a859e2baaf5bc3311f7eb6cfd7a6a37ed023e995f",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, South Sudan, 24 April 2022 (FL20220424SSD)."
     }
   }
 }

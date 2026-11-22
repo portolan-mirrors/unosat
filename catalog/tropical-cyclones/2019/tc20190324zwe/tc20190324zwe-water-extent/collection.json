@@ -274,7 +274,9 @@
       "file:checksum": "1220d0c6a60d51b77573b52cb9b879fb3d7feb4da933498062d440375cf48eb95df4",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE), one GeoParquet file with the source columns."
     },
     "tc20190324zwe-water-extent-tiles": {
       "href": "./tc20190324zwe-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220bc90b70475589e7f094a8d422f91a14e4c7325571e2af5590689249766df9697",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12208f138818bd7aa8538fa265e5f9ffa183c0ff238586d27d5dada4e84df7f32ced"
+      "file:checksum": "12208f138818bd7aa8538fa265e5f9ffa183c0ff238586d27d5dada4e84df7f32ced",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20190324zwe-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19333,
+      "file:checksum": "12209796f6c373bb57406bbc1a5753fbd227c1195589684818ff16adc8ad682308f0",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Zimbabwe, 24 March 2019 (TC20190324ZWE)."
     }
   }
 }

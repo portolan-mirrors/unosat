@@ -1,5 +1,5 @@
 # Damage sites: Landslide, Colombia, 3 April 2017 (LS20170403COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20170403col/ls20170403col-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20170403col/ls20170403col-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Landslide, Colombia, 3 April 2017 (LS20170403COL): 1,082 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20170403col-damage-sites.parquet | 43.9 KB | 12209b8692d9... |
 | ./ls20170403col-damage-sites.pmtiles | 62.3 KB | 12208da48212... |
 | ./styles/default.json | 998 B | 122073ccaab6... |
+| ./ls20170403col-damage-sites.thumb.jpg | 10.2 KB | 12208592e217... |
 
 ## Quick Start
 

@@ -274,7 +274,9 @@
       "file:checksum": "12205eafbc54236949e10523f7f8e5c83b731b8b36af5dbb7f2109b92225593747cb",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN), one GeoParquet file with the source columns."
     },
     "ls20240708idn-water-extent-tiles": {
       "href": "./ls20240708idn-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122019bcbfacc39fccee3644403ae7439093bc6b24d6cb8717f6a02581b9a87f8cbd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 910,
-      "file:checksum": "1220bfe6c079f072d043be482356563c9a4f070d59f492e5882c1421bfdacf748300"
+      "file:checksum": "1220bfe6c079f072d043be482356563c9a4f070d59f492e5882c1421bfdacf748300",
+      "description": "MapLibre style for Water extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20240708idn-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14984,
+      "file:checksum": "12204a5f42a451fe3a366a6909b56d0b9055ab8f664d14a168879590f38eae2442bd",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Landslide, Indonesia, 8 July 2024 (LS20240708IDN)."
     }
   }
 }

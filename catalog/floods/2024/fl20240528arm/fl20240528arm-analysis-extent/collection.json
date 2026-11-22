@@ -217,7 +217,9 @@
       "file:checksum": "1220e25335de213e87046e07ed12afa526815f5fd33cacd3145d706670f9a47d0c46",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Armenia, 28 May 2024 (FL20240528ARM), one GeoParquet file with the source columns."
     },
     "fl20240528arm-analysis-extent-tiles": {
       "href": "./fl20240528arm-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12205d4238b7983317b5704b3ac8a024b594f98ba95d4d9d98fcde0601cfeb23b0f3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Armenia, 28 May 2024 (FL20240528ARM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b24f016d9a70b46246f776250e5da343212b1bd803467785dc113038ed98732c"
+      "file:checksum": "1220b24f016d9a70b46246f776250e5da343212b1bd803467785dc113038ed98732c",
+      "description": "MapLibre style for Analysis extent: Flood, Armenia, 28 May 2024 (FL20240528ARM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240528arm-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10683,
+      "file:checksum": "12207ac5e8bab5e20352d2bab172dcaea5475ed2fb66109cb1c858e4399b6356ea59",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Armenia, 28 May 2024 (FL20240528ARM)."
     }
   }
 }

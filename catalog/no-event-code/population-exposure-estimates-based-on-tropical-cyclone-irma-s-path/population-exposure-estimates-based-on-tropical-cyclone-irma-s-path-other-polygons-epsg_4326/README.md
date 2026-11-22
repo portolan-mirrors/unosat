@@ -1,5 +1,5 @@
 # Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical Cyclone IRMA-17 : Population Exposure estimates: 574 features merged from 17 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -126,6 +126,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326.parquet | 3.5 MB | 12201fe15c0f... |
 | ./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326.pmtiles | 9.6 MB | 12200ed299d3... |
 | ./styles/default.json | 728 B | 12208265eb64... |
+| ./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_4326.thumb.jpg | 11.4 KB | 1220e0529184... |
 
 ## Quick Start
 

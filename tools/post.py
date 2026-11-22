@@ -98,6 +98,38 @@ def nav_links():
                  and not (l["rel"] == "self" and rel == "catalog.json")]
         if rel == "catalog.json":
             links.append({"rel": "self", "href": pub, "type": "application/json"})
+            # The HDX organization page lists each dataset's license; the
+            # collections carry their own license links.
+            if not any(l["rel"] == "license" for l in links):
+                links.append({"rel": "license", "href": "https://data.humdata.org/organization/unosat",
+                              "type": "text/html", "title": "Licenses of the UNOSAT datasets on HDX"})
+            # The logo (portolan logo, HDX's square UNOSAT image) is committed.
+            if not any(l["rel"] == "icon" for l in links) and (CATALOG / "_assets" / "unosat.png").exists():
+                links.append({"rel": "icon", "href": "./_assets/unosat.png", "type": "image/png",
+                              "title": "UNOSAT (UNITAR)"})
+        # Asset titles and descriptions (PTL-AST-010), by role.
+        for k, a in c.get("assets", {}).items():
+            roles = a.get("roles") or []
+            t = c.get("title", k)
+            if "thumbnail" in roles:
+                d = ("Thumbnail", f"Preview image of {t}.")
+            elif "style" in roles:
+                d = ("Default map style", f"MapLibre style for {t}; it reads the PMTiles asset.")
+            elif "visual" in roles or a.get("type") == "application/vnd.pmtiles":
+                d = ("Vector tiles (PMTiles)", f"Vector tiles of {t} for web maps; not the full data.")
+            elif "data" in roles:
+                d = ("GeoParquet", f"All features of {t}, one GeoParquet file with the source columns.")
+            else:
+                d = (k, f"{k} asset of {t}.")
+            a.setdefault("title", d[0])
+            a.setdefault("description", d[1])
+        if f.name == "catalog.json":
+            # A mirror records its sync time (PTL-PRO-003): the latest
+            # `updated` of the collections under this catalog.
+            times = [json.load(open(x)).get("updated") for x in f.parent.rglob("collection.json")]
+            times = [t for t in times if t]
+            if times:
+                c["updated"] = max(times)
         links += [
             {"rel": "alternate", "href": browser_url(pub), "type": "text/html", "title": "Open in data browser"},
             {"rel": "vcs", "href": REPO, "type": "text/html", "title": "Source repository"},
@@ -121,9 +153,11 @@ def readme_nav():
         if not j.exists():
             continue
         pub = f"{PUBLIC}/{j.relative_to(CATALOG).as_posix()}"
-        line = (f"{mark}[Open in data browser]({browser_url(pub)}) · [Source repository]({REPO}) · "
-                f"[Report a problem]({REPO}/issues) · [Hosting repository]({HOSTING})")
-        lines = [l for l in readme.read_text().splitlines() if not l.startswith(mark)]
+        # The marker goes at the end: a line that starts with an HTML comment is
+        # a raw HTML block in CommonMark, and its links do not render.
+        line = (f"[Open in data browser]({browser_url(pub)}) · [Source repository]({REPO}) · "
+                f"[Report a problem]({REPO}/issues) · [Hosting repository]({HOSTING}) {mark}")
+        lines = [l for l in readme.read_text().splitlines() if mark not in l]
         i = next((k for k, l in enumerate(lines) if l.startswith("# ")), -1)
         lines[i + 1:i + 1] = ["", line] if i + 1 < len(lines) and lines[i + 1].strip() else [line]
         # portolan readme links a child by its collection id, which is the full

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Yemen, 29 July 2021 (FL20210729YEM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210729yem/fl20210729yem-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210729yem/fl20210729yem-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Yemen, 29 July 2021 (FL20210729YEM): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210729yem-analysis-extent.parquet | 5.2 KB | 1220b1715352... |
 | ./fl20210729yem-analysis-extent.pmtiles | 47.4 KB | 12204982b96f... |
 | ./styles/default.json | 671 B | 12206f1682a3... |
+| ./fl20210729yem-analysis-extent.thumb.jpg | 7.4 KB | 122055f279a1... |
 
 ## Quick Start
 

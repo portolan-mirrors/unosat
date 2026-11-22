@@ -1,5 +1,5 @@
 # Other polygons: Tropical Cyclone IRMA-17 : Population Exposure estimates
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path/population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical Cyclone IRMA-17 : Population Exposure estimates: 2 features merged from 2 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857.parquet | 9.3 KB | 1220a08277ae... |
 | ./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857.pmtiles | 28.2 KB | 1220f8491a36... |
 | ./styles/default.json | 728 B | 1220a5a9fbf3... |
+| ./population-exposure-estimates-based-on-tropical-cyclone-irma-s-path-other-polygons-epsg_3857.thumb.jpg | 5.2 KB | 1220eb2d825c... |
 
 ## Quick Start
 

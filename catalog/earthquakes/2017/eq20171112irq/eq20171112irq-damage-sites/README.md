@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2017/eq20171112irq/eq20171112irq-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Iraq, 12 November 2017 (EQ20171112IRQ): 4,397 features merged from 3 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20171112irq-damage-sites.parquet | 177.8 KB | 122091972172... |
 | ./eq20171112irq-damage-sites.pmtiles | 196.9 KB | 1220ea890999... |
 | ./styles/default.json | 998 B | 1220f74a628f... |
+| ./eq20171112irq-damage-sites.thumb.jpg | 9.4 KB | 1220287ad6fd... |
 
 ## Quick Start
 

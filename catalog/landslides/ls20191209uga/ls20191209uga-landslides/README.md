@@ -1,5 +1,5 @@
 # Landslides: Landslide, Uganda, 9 December 2019 (LS20191209UGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20191209uga/ls20191209uga-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20191209uga/ls20191209uga-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Landslides for Landslide, Uganda, 9 December 2019 (LS20191209UGA): 11,654 features merged from 1 source layer. Polygon layers whose names mention landslides, mudflows, or debris. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32636, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -41,6 +41,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20191209uga-landslides.parquet | 1.8 MB | 12209e7faf8a... |
 | ./ls20191209uga-landslides.pmtiles | 415.4 KB | 1220f99d5021... |
 | ./styles/default.json | 640 B | 122097f591f0... |
+| ./ls20191209uga-landslides.thumb.jpg | 11.9 KB | 1220e2c56c8d... |
 
 ## Quick Start
 

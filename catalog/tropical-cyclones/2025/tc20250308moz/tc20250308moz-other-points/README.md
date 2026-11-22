@@ -1,5 +1,5 @@
 # Other points: Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250308moz/tc20250308moz-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Tropical cyclone, Mozambique, 8 March 2025 (TC20250308MOZ): 78 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -46,6 +46,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250308moz-other-points.parquet | 12.4 KB | 12201bee3d1c... |
 | ./tc20250308moz-other-points.pmtiles | 24.6 KB | 1220ffc4b9a8... |
 | ./styles/default.json | 695 B | 1220ce884714... |
+| ./tc20250308moz-other-points.thumb.jpg | 7.2 KB | 1220cf03661d... |
 
 ## Quick Start
 

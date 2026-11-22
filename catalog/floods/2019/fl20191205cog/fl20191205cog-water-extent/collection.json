@@ -218,7 +218,9 @@
       "file:checksum": "12203b9d2e3fb3f725aca4cfbaa690ae35440e06aa464f4ea38c2ff04e6a637aaef9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Congo, 5 December 2019 (FL20191205COG), one GeoParquet file with the source columns."
     },
     "fl20191205cog-water-extent-tiles": {
       "href": "./fl20191205cog-water-extent.pmtiles",
@@ -227,7 +229,9 @@
       "file:checksum": "1220400500a8f9cdaadc0e3cefbf756c84c5cffe56c04c9809a5dc32380e84eccd33",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Congo, 5 December 2019 (FL20191205COG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -238,7 +242,19 @@
       ],
       "title": "Water extent by Water_Clas",
       "file:size": 879,
-      "file:checksum": "1220cf4aa88360421212b5b62f705f2cebe1f6af23cd91c5c7d5df510fb7518f34bd"
+      "file:checksum": "1220cf4aa88360421212b5b62f705f2cebe1f6af23cd91c5c7d5df510fb7518f34bd",
+      "description": "MapLibre style for Water extent: Flood, Congo, 5 December 2019 (FL20191205COG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191205cog-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15449,
+      "file:checksum": "1220bcf8d3aea8794914f905792297d4c1255e20f8af1252e2847cf3b57008e36111",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Congo, 5 December 2019 (FL20191205COG)."
     }
   }
 }

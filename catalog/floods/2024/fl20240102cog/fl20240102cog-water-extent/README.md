@@ -1,5 +1,5 @@
 # Water extent: Flood, Congo, 2 January 2024 (FL20240102COG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240102cog/fl20240102cog-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240102cog/fl20240102cog-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Congo, 2 January 2024 (FL20240102COG): 15 features merged from 15 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240102cog-water-extent.parquet | 586.8 KB | 12205d5bc539... |
 | ./fl20240102cog-water-extent.pmtiles | 2.1 MB | 1220251fdeb7... |
 | ./styles/default.json | 960 B | 12203915496e... |
+| ./fl20240102cog-water-extent.thumb.jpg | 13.4 KB | 1220e9e8aa15... |
 
 ## Quick Start
 

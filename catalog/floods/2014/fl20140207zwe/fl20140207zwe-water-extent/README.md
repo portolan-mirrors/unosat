@@ -1,5 +1,5 @@
 # Water extent: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE): 7,142 features merged from 3 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140207zwe-water-extent.parquet | 14.1 MB | 1220e3e84020... |
 | ./fl20140207zwe-water-extent.pmtiles | 4.3 MB | 1220e6564fdc... |
 | ./styles/default.json | 1013 B | 12208ea9cf91... |
+| ./fl20140207zwe-water-extent.thumb.jpg | 12.5 KB | 1220a2399ff1... |
 
 ## Quick Start
 

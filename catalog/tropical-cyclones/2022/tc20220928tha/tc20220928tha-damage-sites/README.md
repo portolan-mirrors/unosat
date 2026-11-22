@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220928tha/tc20220928tha-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA): 11,350 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220928tha-damage-sites.parquet | 436.3 KB | 12202e9bbc7d... |
 | ./tc20220928tha-damage-sites.pmtiles | 369.7 KB | 122034115dc7... |
 | ./styles/default.json | 956 B | 1220e0796435... |
+| ./tc20220928tha-damage-sites.thumb.jpg | 20.8 KB | 12201f54ac05... |
 
 ## Quick Start
 

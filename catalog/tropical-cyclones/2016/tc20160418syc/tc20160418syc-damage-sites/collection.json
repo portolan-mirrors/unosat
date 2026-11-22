@@ -262,7 +262,9 @@
       "file:checksum": "1220466ff568dc302854c51e73d58c364decb88fa06e493262cd68daa1ee88314078",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC), one GeoParquet file with the source columns."
     },
     "tc20160418syc-damage-sites-tiles": {
       "href": "./tc20160418syc-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122083cdaf184bb9b0a2d3ce662b6e223ec1eba29f0e9f1e9ad5178a7b20fe4f9e65",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1048,
-      "file:checksum": "12207bb9831b6901c7e290d1ee5b81cda7d853e15277d353fda54bd7f0cb6de65d0a"
+      "file:checksum": "12207bb9831b6901c7e290d1ee5b81cda7d853e15277d353fda54bd7f0cb6de65d0a",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20160418syc-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5400,
+      "file:checksum": "12204692706f0d34bb0f22d3a84719562ba8cbeede9ef3d72394572fddac8e78c606",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Seychelles, 18 April 2016 (TC20160418SYC)."
     }
   }
 }

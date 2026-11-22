@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Chad, 27 August 2019 (FL20190827TCD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190827tcd/fl20190827tcd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190827tcd/fl20190827tcd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Chad, 27 August 2019 (FL20190827TCD): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20190827tcd-analysis-extent.parquet | 5.9 KB | 1220292b9792... |
 | ./fl20190827tcd-analysis-extent.pmtiles | 61.5 KB | 122025c3ec66... |
 | ./styles/default.json | 671 B | 12207cf60a77... |
+| ./fl20190827tcd-analysis-extent.thumb.jpg | 5.6 KB | 122025d00576... |
 
 ## Quick Start
 

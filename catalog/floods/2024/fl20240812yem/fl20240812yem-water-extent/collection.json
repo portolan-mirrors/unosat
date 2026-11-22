@@ -274,7 +274,9 @@
       "file:checksum": "1220af61985ec82115640964c7354803bac2906ff8cbe3bec370ea56d57aff886547",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Yemen, 12 August 2024 (FL20240812YEM), one GeoParquet file with the source columns."
     },
     "fl20240812yem-water-extent-tiles": {
       "href": "./fl20240812yem-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122023a50bfd8db3845175ab4712d641badd68b6ccee1062c89fae51a1ff389c7c37",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Yemen, 12 August 2024 (FL20240812YEM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 926,
-      "file:checksum": "12204189988cd5372a7d4bab5562fec5ff78c236174ba42995d1a2d6d19cab12eb5e"
+      "file:checksum": "12204189988cd5372a7d4bab5562fec5ff78c236174ba42995d1a2d6d19cab12eb5e",
+      "description": "MapLibre style for Water extent: Flood, Yemen, 12 August 2024 (FL20240812YEM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240812yem-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 20659,
+      "file:checksum": "1220e527d52eb12517412538ad69a0749a6fa290a800c9ec9cdadf75c24a22905385",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Yemen, 12 August 2024 (FL20240812YEM)."
     }
   }
 }

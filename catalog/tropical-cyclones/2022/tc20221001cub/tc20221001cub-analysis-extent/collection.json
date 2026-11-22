@@ -229,7 +229,9 @@
       "file:checksum": "1220621a985ed304357276cc98fb24c540bfa8d217223ba0768e557d691e300e3df5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB), one GeoParquet file with the source columns."
     },
     "tc20221001cub-analysis-extent-tiles": {
       "href": "./tc20221001cub-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220f0004a831fa66ca492f7f7f675ef818ba21b5971af69c550519254ac584088b5",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201bb9724150f62a75c3ede48f600e7c37f39b9bffe3498c8df89b45eaeffa9067"
+      "file:checksum": "12201bb9724150f62a75c3ede48f600e7c37f39b9bffe3498c8df89b45eaeffa9067",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20221001cub-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7597,
+      "file:checksum": "12206ac24bdd6076a18123d250dbeb552048f9c3543add59637f075eef9a9ae2c9a8",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)."
     }
   }
 }

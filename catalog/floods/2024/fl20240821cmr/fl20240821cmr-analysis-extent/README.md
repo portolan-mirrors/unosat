@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240821cmr/fl20240821cmr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240821cmr/fl20240821cmr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Cameroon, 21 August 2024 (FL20240821CMR): 6 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240821cmr-analysis-extent.parquet | 4.4 MB | 1220c713b009... |
 | ./fl20240821cmr-analysis-extent.pmtiles | 24.9 MB | 12204075ab5a... |
 | ./styles/default.json | 671 B | 12205faa83e3... |
+| ./fl20240821cmr-analysis-extent.thumb.jpg | 20.5 KB | 1220059d6b84... |
 
 ## Quick Start
 

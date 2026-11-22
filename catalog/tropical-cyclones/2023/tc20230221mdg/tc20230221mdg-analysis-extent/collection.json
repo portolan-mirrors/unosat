@@ -247,7 +247,9 @@
       "file:checksum": "1220aa7687f4a1c59668c46cc0726a3fcc2366be5d5d117fbc1af8c852c960521143",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Madagascar, 21 February 2023 (TC20230221MDG), one GeoParquet file with the source columns."
     },
     "tc20230221mdg-analysis-extent-tiles": {
       "href": "./tc20230221mdg-analysis-extent.pmtiles",
@@ -256,7 +258,9 @@
       "file:checksum": "1220eaee08fd2d686fee4078dd2970478739f54d31ba3f35b386aae90700f47d8e67",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Madagascar, 21 February 2023 (TC20230221MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -267,7 +271,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220a609719c65ff2b8fd3d2febc72252d81d8b25dda36f46c9674db42d63e823510"
+      "file:checksum": "1220a609719c65ff2b8fd3d2febc72252d81d8b25dda36f46c9674db42d63e823510",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Madagascar, 21 February 2023 (TC20230221MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230221mdg-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8699,
+      "file:checksum": "12209951a598b54daeee341a024cc63aceb3fae88fb602941cfa3f594eeb13989de7",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Madagascar, 21 February 2023 (TC20230221MDG)."
     }
   }
 }

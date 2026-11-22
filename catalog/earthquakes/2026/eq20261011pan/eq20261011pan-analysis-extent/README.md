@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Panama, 11 October 2026 (EQ20261011PAN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20261011pan/eq20261011pan-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20261011pan/eq20261011pan-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Panama, 11 October 2026 (EQ20261011PAN): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20261011pan-analysis-extent.parquet | 6.2 KB | 1220e23b8ab6... |
 | ./eq20261011pan-analysis-extent.pmtiles | 35.4 KB | 1220ec2677d4... |
 | ./styles/default.json | 671 B | 1220b4bb4301... |
+| ./eq20261011pan-analysis-extent.thumb.jpg | 7.0 KB | 12208ff3703c... |
 
 ## Quick Start
 

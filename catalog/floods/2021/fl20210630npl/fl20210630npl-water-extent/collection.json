@@ -274,7 +274,9 @@
       "file:checksum": "1220b804180d88ab170f65b372d8723ce15c0f25a059c61a10f1d07a00fc9e013f4e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nepal, 30 June 2021 (FL20210630NPL), one GeoParquet file with the source columns."
     },
     "fl20210630npl-water-extent-tiles": {
       "href": "./fl20210630npl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122007b5cb4ea85144744450d2a20c19d1ae9d790d370a29e5b35735300586c2473b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nepal, 30 June 2021 (FL20210630NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122014b8be8fb9a34449088ceb3b18cae120a5f61a8c56a7ccfd2ce55da34e681a19"
+      "file:checksum": "122014b8be8fb9a34449088ceb3b18cae120a5f61a8c56a7ccfd2ce55da34e681a19",
+      "description": "MapLibre style for Water extent: Flood, Nepal, 30 June 2021 (FL20210630NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210630npl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13027,
+      "file:checksum": "1220e9bf70c0225f49d85ef6c360adc68b29491832f3a3d82e066e35e0890ce5f12c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nepal, 30 June 2021 (FL20210630NPL)."
     }
   }
 }

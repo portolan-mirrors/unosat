@@ -274,7 +274,9 @@
       "file:checksum": "12207fe0ac759e8c58b0df8fabecc2a8f14332fcccb4435209242d083f54faeb6c8b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Uganda, 31 August 2017 (FL20170831UGA), one GeoParquet file with the source columns."
     },
     "fl20170831uga-water-extent-tiles": {
       "href": "./fl20170831uga-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122070a789e9feedfbde31c4e40ebea5c74fa728d0fa6f29edf162b145abdeb58bd2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Uganda, 31 August 2017 (FL20170831UGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "1220a0549ab2c6b0af650f73ee92efa0e7b055082f2f1ac7eb0f4452bff53bfae04f"
+      "file:checksum": "1220a0549ab2c6b0af650f73ee92efa0e7b055082f2f1ac7eb0f4452bff53bfae04f",
+      "description": "MapLibre style for Water extent: Flood, Uganda, 31 August 2017 (FL20170831UGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170831uga-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10143,
+      "file:checksum": "1220b93ff2c99a914c1c9cd11b639afcd90c05af1c9832afa4da94772b3699571dff",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Uganda, 31 August 2017 (FL20170831UGA)."
     }
   }
 }

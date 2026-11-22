@@ -1,5 +1,5 @@
 # Water extent: Flood, Niger, 28 August 2017 (FL20170828NER)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170828ner/fl20170828ner-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2017/fl20170828ner/fl20170828ner-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Niger, 28 August 2017 (FL20170828NER): 3,922 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20170828ner-water-extent.parquet | 1.1 MB | 122077b6caf9... |
 | ./fl20170828ner-water-extent.pmtiles | 1.5 MB | 12200bd17fbb... |
 | ./styles/default.json | 887 B | 1220164db38b... |
+| ./fl20170828ner-water-extent.thumb.jpg | 14.3 KB | 1220740dd5ee... |
 
 ## Quick Start
 

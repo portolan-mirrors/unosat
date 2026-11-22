@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Libya, 12 August 2024 (FL20240812LBY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812lby/fl20240812lby-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240812lby/fl20240812lby-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Libya, 12 August 2024 (FL20240812LBY): 11 features merged from 11 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240812lby-analysis-extent.parquet | 6.1 KB | 1220a191e468... |
 | ./fl20240812lby-analysis-extent.pmtiles | 48.6 KB | 12205a9f8b3d... |
 | ./styles/default.json | 671 B | 12204e491c43... |
+| ./fl20240812lby-analysis-extent.thumb.jpg | 2.5 KB | 122009805830... |
 
 ## Quick Start
 

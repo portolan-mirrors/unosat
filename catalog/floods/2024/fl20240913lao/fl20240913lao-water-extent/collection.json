@@ -304,7 +304,9 @@
       "file:checksum": "12201241f4876758f3400bf3eb42200c26dbb131446585972f9e0cbe746ed85de05f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO), one GeoParquet file with the source columns."
     },
     "fl20240913lao-water-extent-tiles": {
       "href": "./fl20240913lao-water-extent.pmtiles",
@@ -313,7 +315,9 @@
       "file:checksum": "1220270892de118ab91b1697093011d695905c55b08ab6e3f38cd9df0915b6967d09",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -324,7 +328,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12207609fd27e35744e6f398021547bd971e256cd42d964a41157b097552878e33ec"
+      "file:checksum": "12207609fd27e35744e6f398021547bd971e256cd42d964a41157b097552878e33ec",
+      "description": "MapLibre style for Water extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240913lao-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13687,
+      "file:checksum": "122094cc0691455503a450ef49493c032d01af73b0f6a1159d4f68c324e4cef080c8",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Lao People's Democratic Republic, 13 September 2024 (FL20240913LAO)."
     }
   }
 }

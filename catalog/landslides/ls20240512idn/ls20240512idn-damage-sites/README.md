@@ -1,5 +1,5 @@
 # Damage sites: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Landslide, Indonesia, 12 May 2024 (LS20240512IDN): 468 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240512idn-damage-sites.parquet | 14.7 KB | 1220a3f4ca87... |
 | ./ls20240512idn-damage-sites.pmtiles | 58.5 KB | 1220e962fdfb... |
 | ./styles/default.json | 956 B | 1220f65326ca... |
+| ./ls20240512idn-damage-sites.thumb.jpg | 4.8 KB | 1220ad1e57f1... |
 
 ## Quick Start
 

@@ -296,7 +296,9 @@
       "file:checksum": "1220e9185f7e0b08743923f5c8ae61e10bfcc0262638a4670603c1455e0e09960c03",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF), one GeoParquet file with the source columns."
     },
     "ce20131212caf-damage-sites-tiles": {
       "href": "./ce20131212caf-damage-sites.pmtiles",
@@ -305,7 +307,9 @@
       "file:checksum": "12202d8bb8f89df294c1c4f7c4bc09d6b7e8ba5eb11ce6eeb3d94ce91a2c59af5c6a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -316,7 +320,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1000,
-      "file:checksum": "122015aaee6ffd7de66deb8dbc7a33c723b185123281538eb0eb537a2a24173c533d"
+      "file:checksum": "122015aaee6ffd7de66deb8dbc7a33c723b185123281538eb0eb537a2a24173c533d",
+      "description": "MapLibre style for Damage sites: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20131212caf-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7023,
+      "file:checksum": "12202c203eb146c843d6fefb7af475d3a6716bb6893b93b2ecbfe7ec582cf3335dfa",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, Central African Republic, 12 December 2013 (CE20131212CAF)."
     }
   }
 }

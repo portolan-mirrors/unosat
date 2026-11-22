@@ -262,7 +262,9 @@
       "file:checksum": "122087e356f6e9c659260066bba48b1ff8c5f553772b8c6a978dc89446271227be4d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Myanmar, 12 September 2024 (FL20240912MMR), one GeoParquet file with the source columns."
     },
     "fl20240912mmr-damage-sites-tiles": {
       "href": "./fl20240912mmr-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "122045077a1f205eb6ad0360b1aee820107a6ee2c95295d00b0aefee1f19135e41cc",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Myanmar, 12 September 2024 (FL20240912MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 947,
-      "file:checksum": "1220ddd0c9121c3d9f020eea77f95a1d9cf1a607982633e10eba9a134afb9c2f016f"
+      "file:checksum": "1220ddd0c9121c3d9f020eea77f95a1d9cf1a607982633e10eba9a134afb9c2f016f",
+      "description": "MapLibre style for Damage sites: Flood, Myanmar, 12 September 2024 (FL20240912MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240912mmr-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14729,
+      "file:checksum": "12203cf102ecbd69bae30cc04f07e4007b7ed291e1eecaef4b9b10c1bcf19a8104f5",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Myanmar, 12 September 2024 (FL20240912MMR)."
     }
   }
 }

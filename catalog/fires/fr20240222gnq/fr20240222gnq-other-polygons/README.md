@@ -1,5 +1,5 @@
 # Other polygons: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20240222gnq/fr20240222gnq-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ): 1 features merged from 1 source layer. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -42,6 +42,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20240222gnq-other-polygons.parquet | 39.9 KB | 122090e33824... |
 | ./fr20240222gnq-other-polygons.pmtiles | 30.3 KB | 12208a8d6734... |
 | ./styles/default.json | 664 B | 1220266209cc... |
+| ./fr20240222gnq-other-polygons.thumb.jpg | 26.7 KB | 1220854aa24f... |
 
 ## Quick Start
 

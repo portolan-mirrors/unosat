@@ -344,7 +344,9 @@
       "file:checksum": "1220ca08ccc026a81d2dabb1fea13cdcea9f2242497b5ec13f7a55310d0924e560c5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR), one GeoParquet file with the source columns."
     },
     "ce20130604syr-shelters-cc_by_nc_sa_3_0-epsg_4326-tiles": {
       "href": "./ce20130604syr-shelters-cc_by_nc_sa_3_0-epsg_4326.pmtiles",
@@ -353,7 +355,9 @@
       "file:checksum": "1220ae1b8199a167c03dd923c2d7da6f6be61fde44c00eeab5d23cae31eeca319643",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -364,7 +368,19 @@
       ],
       "title": "Shelters by CampStatus",
       "file:size": 1002,
-      "file:checksum": "1220fd259d96bcc1d545befd13ccb02f00063daef887ee5cd4159b991e53f4270d49"
+      "file:checksum": "1220fd259d96bcc1d545befd13ccb02f00063daef887ee5cd4159b991e53f4270d49",
+      "description": "MapLibre style for Shelters: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130604syr-shelters-cc_by_nc_sa_3_0-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4944,
+      "file:checksum": "122023983369c76650dfae63915b6215cbf0df4cffe7b3edceee3576e59d95ca555c",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)."
     }
   }
 }

@@ -220,7 +220,9 @@
       "file:checksum": "1220d3c4c712284e7b230b4a32e8c1d1f3cd0593dbb353045b6e990f578929c13c0b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Damage Assessment in Anguilla Island as of 8 September 2017, one GeoParquet file with the source columns."
     },
     "damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites-tiles": {
       "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites.pmtiles",
@@ -229,7 +231,9 @@
       "file:checksum": "12201c174d1e91d1446e7e758e18678e1bd1ac50e07758eb562a201a491b9568414a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Damage Assessment in Anguilla Island as of 8 September 2017 for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -240,7 +244,19 @@
       ],
       "title": "Damage sites by Main_Damag",
       "file:size": 964,
-      "file:checksum": "1220cb795b430c3b82ad62341e3fef842082ef1d3b5ffdc734404d776416a0d5171d"
+      "file:checksum": "1220cb795b430c3b82ad62341e3fef842082ef1d3b5ffdc734404d776416a0d5171d",
+      "description": "MapLibre style for Damage sites: Damage Assessment in Anguilla Island as of 8 September 2017; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16322,
+      "file:checksum": "1220ece9590f80cd1ffbb984a6f9e03fc9a3da0a2edc5e01f0251e30dfd9cbdd23ea",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Damage Assessment in Anguilla Island as of 8 September 2017."
     }
   }
 }

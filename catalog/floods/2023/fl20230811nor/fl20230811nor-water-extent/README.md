@@ -1,5 +1,5 @@
 # Water extent: Flood, Norway, 11 August 2023 (FL20230811NOR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230811nor/fl20230811nor-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230811nor/fl20230811nor-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Norway, 11 August 2023 (FL20230811NOR): 9 features merged from 9 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230811nor-water-extent.parquet | 16.4 MB | 1220c5c22f08... |
 | ./fl20230811nor-water-extent.pmtiles | 1.1 MB | 1220b6ec2cd1... |
 | ./styles/default.json | 972 B | 122032a4c545... |
+| ./fl20230811nor-water-extent.thumb.jpg | 4.5 KB | 12205e0c839f... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Indonesia, 1 October 2019 (EQ20191001IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20191001idn/eq20191001idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20191001idn/eq20191001idn-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Indonesia, 1 October 2019 (EQ20191001IDN): 23 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20191001idn-damage-sites.parquet | 8.5 KB | 12201cb81f9a... |
 | ./eq20191001idn-damage-sites.pmtiles | 32.7 KB | 1220bf923a0f... |
 | ./styles/default.json | 956 B | 1220e3eb69e7... |
+| ./eq20191001idn-damage-sites.thumb.jpg | 4.5 KB | 1220618f8a8e... |
 
 ## Quick Start
 

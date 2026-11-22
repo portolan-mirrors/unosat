@@ -1,5 +1,5 @@
 # Water extent: Flood, Kenya, 26 April 2024 (FL20240426KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240426ken/fl20240426ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Kenya, 26 April 2024 (FL20240426KEN): 89 features merged from 80 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -69,6 +69,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240426ken-water-extent.parquet | 61.0 MB | 1220d7ff6f96... |
 | ./fl20240426ken-water-extent.pmtiles | 7.4 MB | 1220f6c00e17... |
 | ./styles/default.json | 887 B | 1220c218a994... |
+| ./fl20240426ken-water-extent.thumb.jpg | 18.7 KB | 1220dc625f2f... |
 
 ## Quick Start
 

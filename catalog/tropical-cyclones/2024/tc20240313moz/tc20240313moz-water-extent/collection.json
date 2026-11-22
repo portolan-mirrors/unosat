@@ -274,7 +274,9 @@
       "file:checksum": "12200fea78b8d95c506c059ef4d26ce1684ca17b579d5e4fe0860917ed1da2b67cf0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ), one GeoParquet file with the source columns."
     },
     "tc20240313moz-water-extent-tiles": {
       "href": "./tc20240313moz-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220c1e6eae8460936855180d95fd924d585124b492a0439654f9552be19b3fb5235",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122020605e41c59e240ad645448281830f81f0324242fe3f7b81004b37394f293948"
+      "file:checksum": "122020605e41c59e240ad645448281830f81f0324242fe3f7b81004b37394f293948",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240313moz-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12313,
+      "file:checksum": "12209ff758aa6e8081f29cd58982bd4a5a691fcc9cb05070a24d56e37ff4765ce00e",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)."
     }
   }
 }

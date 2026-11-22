@@ -197,7 +197,9 @@
       "file:checksum": "122082c97315cd212cecd1fe2ef4d94d9b71a7811ef148a8e6ab35a51cfffbb57631",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Affected structures polygons: Damage Assessment in Barbuda Island as of 8 September 2017, one GeoParquet file with the source columns."
     },
     "damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons-tiles": {
       "href": "./damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons.pmtiles",
@@ -206,7 +208,9 @@
       "file:checksum": "1220282ca70171638b85059ea39c466810175c026ebbb5333cf11882c2b9aed0f7f0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Affected structures polygons: Damage Assessment in Barbuda Island as of 8 September 2017 for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -217,7 +221,19 @@
       ],
       "title": "Affected structures polygons",
       "file:size": 793,
-      "file:checksum": "12202e6ebb7c172e8d9730ba0287a2d2cfeeecdafd6a766fa489a6a2d176c8d73582"
+      "file:checksum": "12202e6ebb7c172e8d9730ba0287a2d2cfeeecdafd6a766fa489a6a2d176c8d73582",
+      "description": "MapLibre style for Affected structures polygons: Damage Assessment in Barbuda Island as of 8 September 2017; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./damage-assessment-in-barbuda-island-as-of-8-september-2017-affected-structures-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9851,
+      "file:checksum": "12202e05ed882a0d89effe866005dad226d14a30e6c7ea6aed1849ec85f71e8c0edc",
+      "title": "Thumbnail",
+      "description": "Preview image of Affected structures polygons: Damage Assessment in Barbuda Island as of 8 September 2017."
     }
   }
 }

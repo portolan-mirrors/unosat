@@ -274,7 +274,9 @@
       "file:checksum": "12201823130e7066896e6035ceea80fb293d52443861e10fda6b1dfedc705cb9478d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Senegal, 8 October 2026 (FL20261008SEN), one GeoParquet file with the source columns."
     },
     "fl20261008sen-water-extent-tiles": {
       "href": "./fl20261008sen-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12205c8aa4c258b4cd2a209737791cfd5afd92e9657d8b727681d34705bea770e54d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Senegal, 8 October 2026 (FL20261008SEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d91225203809de90398dee4d563ad4cfa02d672ae9d988777a483dbfdc480a21"
+      "file:checksum": "1220d91225203809de90398dee4d563ad4cfa02d672ae9d988777a483dbfdc480a21",
+      "description": "MapLibre style for Water extent: Flood, Senegal, 8 October 2026 (FL20261008SEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20261008sen-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12612,
+      "file:checksum": "1220a8e1775f5b91b6bdcd470f57fbb00c51fc008cb3187db4740741f4bab8eada16",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Senegal, 8 October 2026 (FL20261008SEN)."
     }
   }
 }

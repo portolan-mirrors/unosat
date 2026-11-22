@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Indonesia, 12 May 2024 (LS20240512IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20240512idn/ls20240512idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Indonesia, 12 May 2024 (LS20240512IDN): 3,103 features merged from 13 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20240512idn-damage-areas.parquet | 537.7 KB | 122054b9e43a... |
 | ./ls20240512idn-damage-areas.pmtiles | 630.4 KB | 122040c47e95... |
 | ./styles/default.json | 963 B | 1220ae330600... |
+| ./ls20240512idn-damage-areas.thumb.jpg | 10.1 KB | 1220f3b20c03... |
 
 ## Quick Start
 

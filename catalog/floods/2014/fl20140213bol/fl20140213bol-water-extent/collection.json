@@ -306,7 +306,9 @@
       "file:checksum": "12208e494fea4fdc468428ec33e194d2830bf0660fcfa9ed4f53721c22b57a34a754",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL), one GeoParquet file with the source columns."
     },
     "fl20140213bol-water-extent-tiles": {
       "href": "./fl20140213bol-water-extent.pmtiles",
@@ -315,7 +317,9 @@
       "file:checksum": "1220e2452e8dcc17fbed3d1387a1f5e54146902c019cfe6f5531c35c53627e9afafb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -326,7 +330,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122015ce067b28502c78f4d84f0aac2853035ce16bcf3db59c3bda9762abaf2eb2cc"
+      "file:checksum": "122015ce067b28502c78f4d84f0aac2853035ce16bcf3db59c3bda9762abaf2eb2cc",
+      "description": "MapLibre style for Water extent: Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140213bol-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3049,
+      "file:checksum": "122091a0b2b02acfea162d729a6e4d2413a2b448207600195b2c68a73a4ad087dc8d",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Other lines: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/fl20240502bgd-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240502bgd/fl20240502bgd-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Bangladesh, 2 May 2024 (FL20240502BGD): 320 features merged from 5 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -78,6 +78,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240502bgd-other-lines.parquet | 162.2 KB | 12207f046cc9... |
 | ./fl20240502bgd-other-lines.pmtiles | 104.7 KB | 122086f67fc6... |
 | ./styles/default.json | 401 B | 122048c08ec8... |
+| ./fl20240502bgd-other-lines.thumb.jpg | 2.3 KB | 1220558d2538... |
 
 ## Quick Start
 

@@ -229,7 +229,9 @@
       "file:checksum": "1220348c4508f542f60e1d13b143f3b883147bfbffb1a389dcd56e6a639cb636c398",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Sri Lanka, 3 June 2024 (FL20240603LKA), one GeoParquet file with the source columns."
     },
     "fl20240603lka-analysis-extent-tiles": {
       "href": "./fl20240603lka-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220ae6fbb091a57c2080cfb43230710ff82ad52b7ac751889a5d6285f55d55d1f8f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Sri Lanka, 3 June 2024 (FL20240603LKA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122035442e4780a77e043e00caede79ce4cba9426712bb687d1ed1a3f59e04d3432b"
+      "file:checksum": "122035442e4780a77e043e00caede79ce4cba9426712bb687d1ed1a3f59e04d3432b",
+      "description": "MapLibre style for Analysis extent: Flood, Sri Lanka, 3 June 2024 (FL20240603LKA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240603lka-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6487,
+      "file:checksum": "12202b479fa1e7c289fd612baa0d13713c1276a66fd6fba2dfc156215c3e48ab6561",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Sri Lanka, 3 June 2024 (FL20240603LKA)."
     }
   }
 }

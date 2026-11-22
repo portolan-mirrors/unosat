@@ -229,7 +229,9 @@
       "file:checksum": "1220657352d46b03dcbc80cec6a2bd9b207e8e1df517a6b667e2440a71652f6a602c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Chad, 26 September 2017 (FL20170926TCD), one GeoParquet file with the source columns."
     },
     "fl20170926tcd-analysis-extent-tiles": {
       "href": "./fl20170926tcd-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220a1a08ce842c044a3ea3df018e567d997f81196cb70d5be1a776feae99b2e55fc",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Chad, 26 September 2017 (FL20170926TCD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220f2672a74d12bbe06bf79aeb62de0befc4e6be0ed8b8b7e2ee67886b4a5ec8091"
+      "file:checksum": "1220f2672a74d12bbe06bf79aeb62de0befc4e6be0ed8b8b7e2ee67886b4a5ec8091",
+      "description": "MapLibre style for Analysis extent: Flood, Chad, 26 September 2017 (FL20170926TCD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170926tcd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9849,
+      "file:checksum": "12201de408a8cc8132f310f48a60217b28df8c0afeb484fd4b430114ea15ca21d5d2",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Chad, 26 September 2017 (FL20170926TCD)."
     }
   }
 }

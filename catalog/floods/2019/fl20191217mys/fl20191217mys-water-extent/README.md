@@ -1,5 +1,5 @@
 # Water extent: Flood, Malaysia, 17 December 2019 (FL20191217MYS)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191217mys/fl20191217mys-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191217mys/fl20191217mys-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Malaysia, 17 December 2019 (FL20191217MYS): 2 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191217mys-water-extent.parquet | 2.0 MB | 1220f0f58595... |
 | ./fl20191217mys-water-extent.pmtiles | 536.8 KB | 12208f249828... |
 | ./styles/default.json | 887 B | 122046894a92... |
+| ./fl20191217mys-water-extent.thumb.jpg | 18.7 KB | 122006c57a9a... |
 
 ## Quick Start
 

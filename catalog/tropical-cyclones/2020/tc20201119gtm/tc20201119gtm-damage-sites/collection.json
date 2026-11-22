@@ -262,7 +262,9 @@
       "file:checksum": "1220f51b3979b98c3e31658baec3bec42414d1c397e96ddc9b3ec5f5a5edf71d417f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM), one GeoParquet file with the source columns."
     },
     "tc20201119gtm-damage-sites-tiles": {
       "href": "./tc20201119gtm-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220515c1058f9861804e57f49d031e559a00a9ccb3a4d9ef17173238576219927eb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "12206bb1a2c5b0f2309fbee6fd139ecada39776a7e85de293d9ccc495cdb8b74f61d"
+      "file:checksum": "12206bb1a2c5b0f2309fbee6fd139ecada39776a7e85de293d9ccc495cdb8b74f61d",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201119gtm-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7642,
+      "file:checksum": "1220c84da75dc5ca1538a61f484810c6f9a897ab67f637507268aae3cdbbdc9926be",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Guatemala, 19 November 2020 (TC20201119GTM)."
     }
   }
 }

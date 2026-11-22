@@ -352,7 +352,9 @@
       "file:checksum": "12206389e9020c21779db836cfd437afbc05a0905489ddceff8d282c7aa28a460723",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF), one GeoParquet file with the source columns."
     },
     "fl20191028caf-water-extent-tiles": {
       "href": "./fl20191028caf-water-extent.pmtiles",
@@ -361,7 +363,9 @@
       "file:checksum": "122082c6103cdc19404a1a3504b76c1c7d948d7a64c27e32da04a178e8a519d116dc",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -372,7 +376,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "122028a22a8f5eb226d87e13ea1e68e5dbf3d226b70eb4b8a54f2ae4af7c613ec10f"
+      "file:checksum": "122028a22a8f5eb226d87e13ea1e68e5dbf3d226b70eb4b8a54f2ae4af7c613ec10f",
+      "description": "MapLibre style for Water extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20191028caf-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6660,
+      "file:checksum": "1220fd83f683c5c8532b6d72a4e8a6e21b68afdd4f2a192ae74a06461d0f031e6e93",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Central African Republic, 28 October 2019 (FL20191028CAF)."
     }
   }
 }

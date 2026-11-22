@@ -274,7 +274,9 @@
       "file:checksum": "122096b5d3ee891b4a268725b1d7665cfa08ca5fa6bee8b578e01507cffdaeeb780b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Ghana, 18 October 2023 (FL20231018GHA), one GeoParquet file with the source columns."
     },
     "fl20231018gha-water-extent-tiles": {
       "href": "./fl20231018gha-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12200cfba8e7778af62dfd5c5c97e0ce1e7b434f2685831896ebe3e9e7ec07d6f820",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Ghana, 18 October 2023 (FL20231018GHA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "1220bcb3238cfbb784095dfdb95846c57d14331872d51366c5decf0cbf4555a0d314"
+      "file:checksum": "1220bcb3238cfbb784095dfdb95846c57d14331872d51366c5decf0cbf4555a0d314",
+      "description": "MapLibre style for Water extent: Flood, Ghana, 18 October 2023 (FL20231018GHA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231018gha-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 22935,
+      "file:checksum": "1220c0052d2b586b575eeacccb9a4ad17ad96ec96436de827c484a2ef3639035a4e4",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Ghana, 18 October 2023 (FL20231018GHA)."
     }
   }
 }

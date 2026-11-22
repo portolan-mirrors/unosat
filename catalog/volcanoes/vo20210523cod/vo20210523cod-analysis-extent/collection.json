@@ -261,7 +261,9 @@
       "file:checksum": "1220434820cc106af60a93b8a5add495144661d1d196c307ad27c7ef66e640c11f40",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD), one GeoParquet file with the source columns."
     },
     "vo20210523cod-analysis-extent-tiles": {
       "href": "./vo20210523cod-analysis-extent.pmtiles",
@@ -270,7 +272,9 @@
       "file:checksum": "122004a0095f4b1cf589ec77700da58a4366d7dd41e5489209ff16cb75a7289725e6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -281,7 +285,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12202a36e2ff0e11550b7cc9e15e460f2b86bf580eb5a9b368d5813e1fcf0191be64"
+      "file:checksum": "12202a36e2ff0e11550b7cc9e15e460f2b86bf580eb5a9b368d5813e1fcf0191be64",
+      "description": "MapLibre style for Analysis extent: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20210523cod-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12021,
+      "file:checksum": "1220e1c40fe0246996c4c13db9382fede3050788a71f73523136bfc7a1825482ef75",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Volcano, Democratic Republic of the Congo, 23 May 2021 (VO20210523COD)."
     }
   }
 }

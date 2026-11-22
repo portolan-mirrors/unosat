@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Rwanda, 4 May 2023 (FL20230504RWA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230504rwa/fl20230504rwa-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230504rwa/fl20230504rwa-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Rwanda, 4 May 2023 (FL20230504RWA): 20 features merged from 20 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230504rwa-analysis-extent.parquet | 8.3 KB | 1220591d8b57... |
 | ./fl20230504rwa-analysis-extent.pmtiles | 120.1 KB | 1220e59e4654... |
 | ./styles/default.json | 671 B | 1220a52a09b2... |
+| ./fl20230504rwa-analysis-extent.thumb.jpg | 8.4 KB | 122084e9c921... |
 
 ## Quick Start
 

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "ls20230804geo-damage-sites.parquet",
         "ls20230804geo-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:52.396423Z",
+      "breaking": false,
+      "assets": {
+        "ls20230804geo-damage-sites.parquet": {
+          "sha256": "e94f761b6c1ddab8f986dab7e5f3dece1c5a371ae0a85849835ab34d0bed720f",
+          "size_bytes": 8927,
+          "href": "landslides/ls20230804geo/ls20230804geo-damage-sites/ls20230804geo-damage-sites.parquet",
+          "source_path": "ls20230804geo-damage-sites.parquet",
+          "source_mtime": 1795333460.597886,
+          "mtime": 1795333460.597886,
+          "feature_count": 36,
+          "schema_fingerprint": "1a39b9e37c300b69"
+        },
+        "ls20230804geo-damage-sites.pmtiles": {
+          "sha256": "ba906751b20d91d14d8ca54dc9e9c057ca2e32cb6d9881ced92eca1e2e138015",
+          "size_bytes": 27985,
+          "href": "landslides/ls20230804geo/ls20230804geo-damage-sites/ls20230804geo-damage-sites.pmtiles",
+          "mtime": 1795334247.2564888
+        },
+        "ls20230804geo-damage-sites.thumb.jpg": {
+          "sha256": "e50e03f36cb373095d6b0d6828668921521d426336e9a76fb80ea43238b2f469",
+          "size_bytes": 4119,
+          "href": "landslides/ls20230804geo/ls20230804geo-damage-sites/ls20230804geo-damage-sites.thumb.jpg",
+          "mtime": 1795343632.3928056
+        }
+      },
+      "changes": [
+        "ls20230804geo-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: ls20230804geo-damage-sites.thumb.jpg"
     }
   ]
 }

@@ -193,7 +193,9 @@
       "file:checksum": "1220dc2b0b784914e53359bf0a8c9f3fd56b9c183f58742f0146ed2e3f26b4f524df",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN), one GeoParquet file with the source columns."
     },
     "ls20251118idn-other-points-tiles": {
       "href": "./ls20251118idn-other-points.pmtiles",
@@ -202,7 +204,9 @@
       "file:checksum": "122021c91a25d65639d5a102759ab57f3e231c58af3d05042d0d0983963f7bc201c0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -213,7 +217,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220ab8042f3cb1e4aed0a8ba82ee72048f2c84ed838e42f5cb76821eb03a1f5533f"
+      "file:checksum": "1220ab8042f3cb1e4aed0a8ba82ee72048f2c84ed838e42f5cb76821eb03a1f5533f",
+      "description": "MapLibre style for Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20251118idn-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2665,
+      "file:checksum": "1220150ab69b6a12b99b2dcb5981784894536304cfdaca923bee9ff736cdc86fb71c",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)."
     }
   }
 }

@@ -262,7 +262,9 @@
       "file:checksum": "1220f91841f87e5fd981661c609cd9b3814a619a9cd84c819529c99e2b75af2c7b05",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD), one GeoParquet file with the source columns."
     },
     "tc20230510bgd-damage-sites-tiles": {
       "href": "./tc20230510bgd-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12204bbf618ef6a6ba257edbe91a44bc170d8cdcfe5bd5455155ea9fc7161b548666",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1004,
-      "file:checksum": "1220c4dda51844203349fd6a18d9c5ebde1671a8fe14f50b1626c890abd2d28a0093"
+      "file:checksum": "1220c4dda51844203349fd6a18d9c5ebde1671a8fe14f50b1626c890abd2d28a0093",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230510bgd-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5620,
+      "file:checksum": "1220d740301d8714488018a71b0a837b1a7fbfa042884a1b32707db49da473942435",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD)."
     }
   }
 }

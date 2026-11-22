@@ -295,7 +295,9 @@
       "file:checksum": "1220f687ee1ef467dd9e899204e5758a77e6dbb45ff0447b98ed4a15cacff81cf534",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT), one GeoParquet file with the source columns."
     },
     "tc20230227vut-analysis-extent-tiles": {
       "href": "./tc20230227vut-analysis-extent.pmtiles",
@@ -304,7 +306,9 @@
       "file:checksum": "1220afe2e40fb49d285db8a8f358c8376a56ffbbfd67d13161c1e4a59acddd794360",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -315,7 +319,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12208dc587a0bde54afc6bb0a60da76940129b2765600343be089b676cb9320c98eb"
+      "file:checksum": "12208dc587a0bde54afc6bb0a60da76940129b2765600343be089b676cb9320c98eb",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230227vut-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4066,
+      "file:checksum": "1220f846d80382d6306700b9e2638bf3100ccae52e8410b0d643cbfe35976911686b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT)."
     }
   }
 }

@@ -229,7 +229,9 @@
       "file:checksum": "12201649b8f424eb5c72a482c451cbb50b97cad384aa897ed79341cf1ea31af34a26",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Thailand, 28 September 2021 (FL20210928THA), one GeoParquet file with the source columns."
     },
     "fl20210928tha-analysis-extent-tiles": {
       "href": "./fl20210928tha-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12202a0a35b72f99da0a917d5f973b8433e03c0d1527b28e809ad46605fd11c5bf57",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Thailand, 28 September 2021 (FL20210928THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220a56a9e7b5bdf388c72b5f37fb1966910adb136f4f9c23c09b569945fe11c4c4c"
+      "file:checksum": "1220a56a9e7b5bdf388c72b5f37fb1966910adb136f4f9c23c09b569945fe11c4c4c",
+      "description": "MapLibre style for Analysis extent: Flood, Thailand, 28 September 2021 (FL20210928THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210928tha-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 13344,
+      "file:checksum": "1220453ad995454dcbbcecd17c6c0f760931e8047f59747cbaa857464b51ab8aba49",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Thailand, 28 September 2021 (FL20210928THA)."
     }
   }
 }

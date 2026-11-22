@@ -282,7 +282,9 @@
       "file:checksum": "1220497efaaa5a6b9bde4d4691f4c84a1df582180356c0e82f2091753aa04e216b33",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Volcano, Indonesia, 5 December 2021 (VO20211205IDN), one GeoParquet file with the source columns."
     },
     "vo20211205idn-damage-areas-tiles": {
       "href": "./vo20211205idn-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12209d583c9115c34734c35f41b9ba52e6e279e098024d410e06abf4ab4d42a9e258",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Volcano, Indonesia, 5 December 2021 (VO20211205IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 907,
-      "file:checksum": "12203bf62b6df694b7a368eb98ff7c2c2fe866fe2a489bc188fee9405ab8016b39f3"
+      "file:checksum": "12203bf62b6df694b7a368eb98ff7c2c2fe866fe2a489bc188fee9405ab8016b39f3",
+      "description": "MapLibre style for Damage areas: Volcano, Indonesia, 5 December 2021 (VO20211205IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20211205idn-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11253,
+      "file:checksum": "12203fb5110218c22fb69c206feca6f1a1bfc6bd062da37e345975531056cdb5fd89",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Volcano, Indonesia, 5 December 2021 (VO20211205IDN)."
     }
   }
 }

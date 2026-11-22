@@ -217,7 +217,9 @@
       "file:checksum": "122041722214721ef873135c424c6ca7db4fcc8dcb55eb5f796b962698960dfa40c6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Landslide, Georgia, 4 August 2023 (LS20230804GEO), one GeoParquet file with the source columns."
     },
     "ls20230804geo-other-polygons-tiles": {
       "href": "./ls20230804geo-other-polygons.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "12208ca12882b2783d4fe2c91ecb2d6ebae472c8ddbdf46f8a520ca319136d64a24c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Landslide, Georgia, 4 August 2023 (LS20230804GEO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220ee95a063892c597a98f90cc99d8211650c7fdd8e4237b4ebfd1dfaed5506dc0d"
+      "file:checksum": "1220ee95a063892c597a98f90cc99d8211650c7fdd8e4237b4ebfd1dfaed5506dc0d",
+      "description": "MapLibre style for Other polygons: Landslide, Georgia, 4 August 2023 (LS20230804GEO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20230804geo-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10293,
+      "file:checksum": "122000281cbbb68c12ed3daca841f5744ff9939eaa9733cb84c988daf9414e07b411",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Landslide, Georgia, 4 August 2023 (LS20230804GEO)."
     }
   }
 }

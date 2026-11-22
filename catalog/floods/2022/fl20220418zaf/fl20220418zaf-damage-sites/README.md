@@ -1,5 +1,5 @@
 # Damage sites: Flood, South Africa, 18 April 2022 (FL20220418ZAF)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220418zaf/fl20220418zaf-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220418zaf/fl20220418zaf-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, South Africa, 18 April 2022 (FL20220418ZAF): 2,075 features merged from 13 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220418zaf-damage-sites.parquet | 90.4 KB | 122061c9136b... |
 | ./fl20220418zaf-damage-sites.pmtiles | 309.7 KB | 122028883029... |
 | ./styles/default.json | 1.3 KB | 122047dd1e85... |
+| ./fl20220418zaf-damage-sites.thumb.jpg | 7.7 KB | 12200be3ba3c... |
 
 ## Quick Start
 

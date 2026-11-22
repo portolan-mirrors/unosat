@@ -274,7 +274,9 @@
       "file:checksum": "12202814594ab9d6fb9295a943f0085ee152fbbc2c486d0bd50d9a7e65911a371ea5",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Philippines, 7 June 2017 (FL20170607PHL), one GeoParquet file with the source columns."
     },
     "fl20170607phl-water-extent-tiles": {
       "href": "./fl20170607phl-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122033748325d749baf3d46b1deef37e4e319811756b7d1a83444c9532398ea39dfa",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Philippines, 7 June 2017 (FL20170607PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 900,
-      "file:checksum": "122028c5dee069b3775fe4132fb94b9e9805c65681a0b80f2ed39aedd907b0bce747"
+      "file:checksum": "122028c5dee069b3775fe4132fb94b9e9805c65681a0b80f2ed39aedd907b0bce747",
+      "description": "MapLibre style for Water extent: Flood, Philippines, 7 June 2017 (FL20170607PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170607phl-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 18871,
+      "file:checksum": "122072de93f87a99c63ca61e717c36eebcabd4a43b672f895aea8ae4d8c3b08dc487",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Philippines, 7 June 2017 (FL20170607PHL)."
     }
   }
 }

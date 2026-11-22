@@ -1,5 +1,5 @@
 # Shelters: Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131107cod/ce20131107cod-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20131107cod/ce20131107cod-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Complex emergency, Democratic Republic of the Congo, 7 November 2013 (CE20131107COD): 20,815 features merged from 6 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20131107cod-shelters.parquet | 1.0 MB | 1220891efae6... |
 | ./ce20131107cod-shelters.pmtiles | 1.4 MB | 1220d2ca0d4e... |
 | ./styles/default.json | 928 B | 1220e4937617... |
+| ./ce20131107cod-shelters.thumb.jpg | 2.9 KB | 1220134ffb9c... |
 
 ## Quick Start
 

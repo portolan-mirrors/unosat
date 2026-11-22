@@ -262,7 +262,9 @@
       "file:checksum": "1220f4679073cc522f5d6c03257d7f3bb8facd9c0cd615ea118e5e347692cd8279aa",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Bhutan, 6 October 2025 (FL20251006BTN), one GeoParquet file with the source columns."
     },
     "fl20251006btn-damage-sites-tiles": {
       "href": "./fl20251006btn-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220dbabb90117d1cfa8e99e93a18d30c397a541a2b544bb9400e3f13d0bc49843a9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Bhutan, 6 October 2025 (FL20251006BTN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1236,
-      "file:checksum": "1220b53b6aa2b6c16816ec79749227abb718aa0252e6a42ffb78f7da50f3842b4610"
+      "file:checksum": "1220b53b6aa2b6c16816ec79749227abb718aa0252e6a42ffb78f7da50f3842b4610",
+      "description": "MapLibre style for Damage sites: Flood, Bhutan, 6 October 2025 (FL20251006BTN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20251006btn-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4560,
+      "file:checksum": "12208a2f80ebba9b3e4a3d77c4581d53b277a5415baca47821bce321a55a4373ce02",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Bhutan, 6 October 2025 (FL20251006BTN)."
     }
   }
 }

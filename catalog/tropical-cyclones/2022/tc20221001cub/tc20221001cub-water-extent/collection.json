@@ -304,7 +304,9 @@
       "file:checksum": "12200a4bacf0fcf3b1f674d4d0b7b84e948bae5eab65493e79cad43cac952ddfa2bf",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB), one GeoParquet file with the source columns."
     },
     "tc20221001cub-water-extent-tiles": {
       "href": "./tc20221001cub-water-extent.pmtiles",
@@ -313,7 +315,9 @@
       "file:checksum": "122057116948a7cbd1a4e3f76f254cf56d6c0dce3953f0cfc660aa8bf337e2806ff0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -324,7 +328,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "1220b9a2f226726a5b9ad7d1d13e9f13a35fe129dc0b049fb4a7630c56ffdbdf0e74"
+      "file:checksum": "1220b9a2f226726a5b9ad7d1d13e9f13a35fe129dc0b049fb4a7630c56ffdbdf0e74",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20221001cub-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 23513,
+      "file:checksum": "1220ef181d202e1f86a407af48172f3868777383c2dbb6208b74914a0206591848ed",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Cuba, 1 October 2022 (TC20221001CUB)."
     }
   }
 }

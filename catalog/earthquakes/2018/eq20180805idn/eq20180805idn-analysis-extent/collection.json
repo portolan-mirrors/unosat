@@ -283,7 +283,9 @@
       "file:checksum": "12209e52b74e19fcdf47fc45c972aae4511a3e109b8161b201921ead0157e0be1b72",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN), one GeoParquet file with the source columns."
     },
     "eq20180805idn-analysis-extent-tiles": {
       "href": "./eq20180805idn-analysis-extent.pmtiles",
@@ -292,7 +294,9 @@
       "file:checksum": "1220648af0dcca95babf7f66a1d50bada365d8cd7bf0dc78dae3f448b07ad84eb8d1",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -303,7 +307,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220fe6ad1bc41de24feda0fc7ada1d2c67f3555a35d1ffc03f064234a54d36316b0"
+      "file:checksum": "1220fe6ad1bc41de24feda0fc7ada1d2c67f3555a35d1ffc03f064234a54d36316b0",
+      "description": "MapLibre style for Analysis extent: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20180805idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7062,
+      "file:checksum": "1220aae45f6921e17c6339dffb2bbce0e7279ae1cedb4855f82c50b50d49f7ad87ec",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)."
     }
   }
 }

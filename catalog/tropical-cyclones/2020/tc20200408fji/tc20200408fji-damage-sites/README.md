@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200408fji/tc20200408fji-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Fiji, 8 April 2020 (TC20200408FJI): 1,043 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200408fji-damage-sites.parquet | 48.5 KB | 122005bce8ca... |
 | ./tc20200408fji-damage-sites.pmtiles | 188.0 KB | 12202e5712eb... |
 | ./styles/default.json | 996 B | 122031d870ff... |
+| ./tc20200408fji-damage-sites.thumb.jpg | 2.4 KB | 122045ffab5c... |
 
 ## Quick Start
 

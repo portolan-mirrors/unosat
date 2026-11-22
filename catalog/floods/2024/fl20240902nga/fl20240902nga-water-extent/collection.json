@@ -319,7 +319,9 @@
       "file:checksum": "122017c7bed596bc08f9007d6974b68bde60a621f41dbfa72ad2bcb08b3ab2d3e4fc",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA), one GeoParquet file with the source columns."
     },
     "fl20240902nga-water-extent-tiles": {
       "href": "./fl20240902nga-water-extent.pmtiles",
@@ -328,7 +330,9 @@
       "file:checksum": "1220ab2ac240ae6d409c0d6f4e432d62b257752d947ecbd22d3e19609b4ceb83024b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -339,7 +343,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 967,
-      "file:checksum": "12208564dd449ca51d6c5dab9f8a46157a8e2b61585cbb3ebb7fbc4022fd3f34f81b"
+      "file:checksum": "12208564dd449ca51d6c5dab9f8a46157a8e2b61585cbb3ebb7fbc4022fd3f34f81b",
+      "description": "MapLibre style for Water extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240902nga-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 23379,
+      "file:checksum": "1220f74cdeb322e6043ff910981f92ceda7d89244b68e50ba935c29344799e6bea6a",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Nigeria, 2 September 2024 (FL20240902NGA)."
     }
   }
 }

@@ -274,7 +274,9 @@
       "file:checksum": "122025deec5506393b66f306e7ca085df8483769147ec3732b7dc4460c02b75d8a9d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Kenya, 21 March 2023 (FL20230321KEN), one GeoParquet file with the source columns."
     },
     "fl20230321ken-water-extent-tiles": {
       "href": "./fl20230321ken-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220a040aef377227a0db8df1966c9a5e15d74c698a150491ef0f2fdc19ce8186091",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Kenya, 21 March 2023 (FL20230321KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 926,
-      "file:checksum": "12202e5e9416796d44bca55557bf65d82ba32212c1d634b1e10009d00f6d3938d9cc"
+      "file:checksum": "12202e5e9416796d44bca55557bf65d82ba32212c1d634b1e10009d00f6d3938d9cc",
+      "description": "MapLibre style for Water extent: Flood, Kenya, 21 March 2023 (FL20230321KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230321ken-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 39217,
+      "file:checksum": "1220de18799994fe5b310291dcb1f098eb873ab53a0447ea79ade288f6282e83369b",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Kenya, 21 March 2023 (FL20230321KEN)."
     }
   }
 }

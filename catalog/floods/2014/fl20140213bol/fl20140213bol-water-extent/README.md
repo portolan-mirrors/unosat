@@ -1,5 +1,5 @@
 # Water extent: Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140213bol/fl20140213bol-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140213bol/fl20140213bol-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Bolivia (Plurinational State of), 13 February 2014 (FL20140213BOL): 35,909 features merged from 4 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140213bol-water-extent.parquet | 25.2 MB | 12208e494fea... |
 | ./fl20140213bol-water-extent.pmtiles | 4.7 MB | 1220e2452e8d... |
 | ./styles/default.json | 887 B | 122015ce067b... |
+| ./fl20140213bol-water-extent.thumb.jpg | 3.0 KB | 122091a0b2b0... |
 
 ## Quick Start
 

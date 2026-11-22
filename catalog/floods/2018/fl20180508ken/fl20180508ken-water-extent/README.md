@@ -1,5 +1,5 @@
 # Water extent: Flood, Kenya, 8 May 2018 (FL20180508KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180508ken/fl20180508ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2018/fl20180508ken/fl20180508ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Kenya, 8 May 2018 (FL20180508KEN): 45 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20180508ken-water-extent.parquet | 19.2 MB | 12202e7e559e... |
 | ./fl20180508ken-water-extent.pmtiles | 15.0 MB | 122039e46955... |
 | ./styles/default.json | 879 B | 1220162d7619... |
+| ./fl20180508ken-water-extent.thumb.jpg | 18.0 KB | 1220ba1ad0c7... |
 
 ## Quick Start
 

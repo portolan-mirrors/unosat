@@ -1,5 +1,5 @@
 # Shelters: Complex emergency, Mali, 31 July 2012 (CE20120731MLI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20120731mli/ce20120731mli-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Complex emergency, Mali, 31 July 2012 (CE20120731MLI): 16,440 features merged from 3 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20120731mli-shelters.parquet | 938.6 KB | 122041e5621d... |
 | ./ce20120731mli-shelters.pmtiles | 1.1 MB | 1220248d42d2... |
 | ./styles/default.json | 892 B | 1220cc279703... |
+| ./ce20120731mli-shelters.thumb.jpg | 4.3 KB | 1220d65334da... |
 
 ## Quick Start
 

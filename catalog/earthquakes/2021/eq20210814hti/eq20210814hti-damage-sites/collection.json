@@ -262,7 +262,9 @@
       "file:checksum": "1220544416fa87b9d623ce84c6bf8e733eb67b8c673cf5d79d87ea5d34aa418fa6ac",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI), one GeoParquet file with the source columns."
     },
     "eq20210814hti-damage-sites-tiles": {
       "href": "./eq20210814hti-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12206ca8df488b4d1d1f502977762e29e02e179b4038d02c652630822373e116a01d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1054,
-      "file:checksum": "122086ca7e4cc070c3461c2935687d3769637c97c43d1720502bcbfd0341484f9216"
+      "file:checksum": "122086ca7e4cc070c3461c2935687d3769637c97c43d1720502bcbfd0341484f9216",
+      "description": "MapLibre style for Damage sites: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20210814hti-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6062,
+      "file:checksum": "122063f4e6179fb4c5e977505bfa1bce3d6bf14894fa8a2808e200b7b72ea298f3b0",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Haiti, 14 August 2021 (EQ20210814HTI)."
     }
   }
 }

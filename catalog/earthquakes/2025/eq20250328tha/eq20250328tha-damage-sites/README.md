@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2025/eq20250328tha/eq20250328tha-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Thailand, 28 March 2025 (EQ20250328THA): 9,546 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20250328tha-damage-sites.parquet | 409.0 KB | 122099c8de5c... |
 | ./eq20250328tha-damage-sites.pmtiles | 945.2 KB | 1220f5ce9880... |
 | ./styles/default.json | 1.0 KB | 122016969df5... |
+| ./eq20250328tha-damage-sites.thumb.jpg | 12.4 KB | 12200a0288fe... |
 
 ## Quick Start
 

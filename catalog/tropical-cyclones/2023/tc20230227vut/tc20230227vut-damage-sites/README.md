@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230227vut/tc20230227vut-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230227vut/tc20230227vut-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT): 1,794 features merged from 27 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230227vut-damage-sites.parquet | 30.6 KB | 12208819ea70... |
 | ./tc20230227vut-damage-sites.pmtiles | 165.3 KB | 1220332200a9... |
 | ./styles/default.json | 997 B | 1220c03f2f81... |
+| ./tc20230227vut-damage-sites.thumb.jpg | 4.0 KB | 122083ae14a4... |
 
 ## Quick Start
 

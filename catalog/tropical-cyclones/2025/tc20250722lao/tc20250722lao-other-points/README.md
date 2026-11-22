@@ -1,5 +1,5 @@
 # Other points: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-other-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other points for Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO): 4 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250722lao-other-points.parquet | 7.8 KB | 12202db75637... |
 | ./tc20250722lao-other-points.pmtiles | 23.7 KB | 122014f3bd0e... |
 | ./styles/default.json | 695 B | 122013975723... |
+| ./tc20250722lao-other-points.thumb.jpg | 2.4 KB | 12200ac4a84e... |
 
 ## Quick Start
 

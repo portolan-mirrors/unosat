@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Niger, 28 July 2022 (FL20220728NER)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220728ner/fl20220728ner-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220728ner/fl20220728ner-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Niger, 28 July 2022 (FL20220728NER): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220728ner-analysis-extent.parquet | 23.2 MB | 1220166dc1dc... |
 | ./fl20220728ner-analysis-extent.pmtiles | 22.3 MB | 1220054d4aa1... |
 | ./styles/default.json | 671 B | 1220608611e0... |
+| ./fl20220728ner-analysis-extent.thumb.jpg | 28.2 KB | 1220501fdbe0... |
 
 ## Quick Start
 

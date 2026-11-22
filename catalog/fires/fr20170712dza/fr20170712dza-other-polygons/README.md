@@ -1,5 +1,5 @@
 # Other polygons: Fire, Algeria, 12 July 2017 (FR20170712DZA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20170712dza/fr20170712dza-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20170712dza/fr20170712dza-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Fire, Algeria, 12 July 2017 (FR20170712DZA): 3,274 features merged from 12 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -72,6 +72,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20170712dza-other-polygons.parquet | 3.5 MB | 1220a41eeeca... |
 | ./fr20170712dza-other-polygons.pmtiles | 2.7 MB | 12208f4b8712... |
 | ./styles/default.json | 664 B | 1220c8ad9f92... |
+| ./fr20170712dza-other-polygons.thumb.jpg | 6.4 KB | 1220ca5297a8... |
 
 ## Quick Start
 

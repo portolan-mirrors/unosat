@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Pakistan, 29 July 2023 (FL20230729PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230729pak/fl20230729pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230729pak/fl20230729pak-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Pakistan, 29 July 2023 (FL20230729PAK): 2 features merged from 2 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230729pak-analysis-extent.parquet | 3.1 MB | 1220db57ed9a... |
 | ./fl20230729pak-analysis-extent.pmtiles | 33.3 MB | 1220f1f8da84... |
 | ./styles/default.json | 671 B | 1220443b029e... |
+| ./fl20230729pak-analysis-extent.thumb.jpg | 26.0 KB | 122053478136... |
 
 ## Quick Start
 

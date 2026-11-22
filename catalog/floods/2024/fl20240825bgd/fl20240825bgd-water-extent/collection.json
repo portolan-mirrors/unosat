@@ -274,7 +274,9 @@
       "file:checksum": "122013e3d5493ea7d93a5d30c60a5582b85d2244cb7af1c9c4a43f65ee0592564fd2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD), one GeoParquet file with the source columns."
     },
     "fl20240825bgd-water-extent-tiles": {
       "href": "./fl20240825bgd-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220429029cd5ef774bc83c648ee652af8c82cbe124f1314aee2c4037f0693d4b3cb",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12201fc20d212d994bb0817a7bb7d9e03d32674ebc09884d7d8afb98729e8880df05"
+      "file:checksum": "12201fc20d212d994bb0817a7bb7d9e03d32674ebc09884d7d8afb98729e8880df05",
+      "description": "MapLibre style for Water extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240825bgd-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 29631,
+      "file:checksum": "1220561091cdd24d19b8021e1c1877b9760ffd89811e41347146d531e47138ef6750",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD)."
     }
   }
 }

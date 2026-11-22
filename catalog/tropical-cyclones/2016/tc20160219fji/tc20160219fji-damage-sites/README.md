@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2016/tc20160219fji/tc20160219fji-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Fiji, 19 February 2016 (TC20160219FJI): 2,376 features merged from 6 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -63,6 +63,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20160219fji-damage-sites.parquet | 105.0 KB | 12205689e70d... |
 | ./tc20160219fji-damage-sites.pmtiles | 238.3 KB | 122073af835f... |
 | ./styles/default.json | 1.0 KB | 12208dc98dbb... |
+| ./tc20160219fji-damage-sites.thumb.jpg | 5.8 KB | 122032f46595... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Damage sites: Damage Assessment in Anguilla Island as of 8 September 2017
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/damage-assessment-in-anguilla-island-as-of-8-september-2017/damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Damage Assessment in Anguilla Island as of 8 September 2017: 2,147 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites.parquet | 89.3 KB | 1220d3c4c712... |
 | ./damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites.pmtiles | 92.0 KB | 12201c174d1e... |
 | ./styles/default.json | 964 B | 1220cb795b43... |
+| ./damage-assessment-in-anguilla-island-as-of-8-september-2017-damage-sites.thumb.jpg | 15.9 KB | 1220ece9590f... |
 
 ## Quick Start
 

@@ -306,7 +306,9 @@
       "file:checksum": "1220d6f3dcbe4be8ba3e5ed34d7353bf65cef7f6216d99c210e58c96106e1025f496",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR), one GeoParquet file with the source columns."
     },
     "ce20130326mmr-damage-areas-epsg_4326-tiles": {
       "href": "./ce20130326mmr-damage-areas-epsg_4326.pmtiles",
@@ -315,7 +317,9 @@
       "file:checksum": "12209003aba425846ab02c0d40e0b76c5f928179a8084b9e24141b5409787b3362f6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -326,7 +330,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 917,
-      "file:checksum": "1220fc441bfd8e484de1efb3f6b3fd34691f30094c026d548978f4e365e89fca79ab"
+      "file:checksum": "1220fc441bfd8e484de1efb3f6b3fd34691f30094c026d548978f4e365e89fca79ab",
+      "description": "MapLibre style for Damage areas: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130326mmr-damage-areas-epsg_4326.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7621,
+      "file:checksum": "1220c205cb74dcbfe595bf9771f6c5afaee84f5ba8df9c526178d5c8bf20e773fd99",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)."
     }
   }
 }

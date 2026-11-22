@@ -1,5 +1,5 @@
 # Shelters: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG): 6,165 features merged from 10 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20231008afg-shelters.parquet | 75.6 KB | 1220f5f756d3... |
 | ./eq20231008afg-shelters.pmtiles | 86.1 KB | 1220924b3e8d... |
 | ./styles/default.json | 679 B | 122018519b75... |
+| ./eq20231008afg-shelters.thumb.jpg | 4.7 KB | 1220e11cc2c2... |
 
 ## Quick Start
 

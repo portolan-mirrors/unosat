@@ -259,7 +259,9 @@
       "file:checksum": "1220b8c1d2172a06f15fc1a43d8eb22d8bebe6dec5a78ce4c5031f865c46f6c484fb",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE), one GeoParquet file with the source columns."
     },
     "ce20140715pse-other-polygons-tiles": {
       "href": "./ce20140715pse-other-polygons.pmtiles",
@@ -268,7 +270,9 @@
       "file:checksum": "1220da47af4ddc9f89bb7cee7532323b34457d524f15a3d02b5db192e633dde793df",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -279,7 +283,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220b96a90162cd711e5b4e08f1f77cdc7e073e8f3b80b84fb60d1926025ba202632"
+      "file:checksum": "1220b96a90162cd711e5b4e08f1f77cdc7e073e8f3b80b84fb60d1926025ba202632",
+      "description": "MapLibre style for Other polygons: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140715pse-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 23407,
+      "file:checksum": "1220ffe24b62306689bdac0b046dca9c668f2bb96e463e2833e3e9bd733959946576",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)."
     }
   }
 }

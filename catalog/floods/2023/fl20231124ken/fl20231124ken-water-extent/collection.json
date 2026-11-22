@@ -274,7 +274,9 @@
       "file:checksum": "1220d4f75c56c0045cdcd639f7cbe8bfbec78e2c06f3148dba0332abe6384b4e1ae6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Kenya, 24 November 2023 (FL20231124KEN), one GeoParquet file with the source columns."
     },
     "fl20231124ken-water-extent-tiles": {
       "href": "./fl20231124ken-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12201cca72ee67b5635a897c445be9b29099b80e0610c7fd711a125464cc79a1648c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Kenya, 24 November 2023 (FL20231124KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1040,
-      "file:checksum": "1220bfa222f3a503f7c27e5c3a0987e584659cb6f05ebf3975c5c510e54f3b85a2ec"
+      "file:checksum": "1220bfa222f3a503f7c27e5c3a0987e584659cb6f05ebf3975c5c510e54f3b85a2ec",
+      "description": "MapLibre style for Water extent: Flood, Kenya, 24 November 2023 (FL20231124KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231124ken-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27896,
+      "file:checksum": "122086dd10ed33aae8d757c6ee0ac5116577769d5faf0db3c0ec73a31846f5d8cdf2",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Kenya, 24 November 2023 (FL20231124KEN)."
     }
   }
 }

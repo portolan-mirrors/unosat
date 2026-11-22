@@ -1,5 +1,5 @@
 # Other lines: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20231007pse/ce20231007pse-other-lines-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE): 66 features merged from 2 source layers. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -100,6 +100,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20231007pse-other-lines-epsg_4326.parquet | 20.5 KB | 1220b5a19fcf... |
 | ./ce20231007pse-other-lines-epsg_4326.pmtiles | 31.6 KB | 12203c7c1464... |
 | ./styles/default.json | 411 B | 1220488d790d... |
+| ./ce20231007pse-other-lines-epsg_4326.thumb.jpg | 2.4 KB | 12206c65d013... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230314mwi/tc20230314mwi-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230314mwi/tc20230314mwi-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI): 15 features merged from 15 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230314mwi-water-extent.parquet | 15.6 MB | 12207b4c8713... |
 | ./tc20230314mwi-water-extent.pmtiles | 7.8 MB | 1220d24cc089... |
 | ./styles/default.json | 1.1 KB | 122019d46b46... |
+| ./tc20230314mwi-water-extent.thumb.jpg | 10.2 KB | 1220ba5bfeb6... |
 
 ## Quick Start
 

@@ -1,5 +1,5 @@
 # Water extent: Flood, Somalia, 30 October 2019 (FL20191030SOM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191030som/fl20191030som-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191030som/fl20191030som-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Somalia, 30 October 2019 (FL20191030SOM): 34 features merged from 4 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191030som-water-extent.parquet | 2.9 MB | 12207d219b00... |
 | ./fl20191030som-water-extent.pmtiles | 851.5 KB | 12206613d693... |
 | ./styles/default.json | 972 B | 12205cf4a50a... |
+| ./fl20191030som-water-extent.thumb.jpg | 6.7 KB | 1220244d9be8... |
 
 ## Quick Start
 

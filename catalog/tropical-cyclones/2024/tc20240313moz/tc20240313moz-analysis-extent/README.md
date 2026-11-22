@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240313moz/tc20240313moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2024/tc20240313moz/tc20240313moz-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Mozambique, 13 March 2024 (TC20240313MOZ): 6 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20240313moz-analysis-extent.parquet | 17.8 KB | 122094cb7ee4... |
 | ./tc20240313moz-analysis-extent.pmtiles | 162.3 KB | 122018a1e846... |
 | ./styles/default.json | 671 B | 122092bab13b... |
+| ./tc20240313moz-analysis-extent.thumb.jpg | 6.8 KB | 1220743fa8f2... |
 
 ## Quick Start
 

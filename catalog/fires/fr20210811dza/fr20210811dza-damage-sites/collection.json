@@ -262,7 +262,9 @@
       "file:checksum": "122074acd6b026c6f261de1cee6aab668c4b12b7d91f826f4d87797191f875d8cc10",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Fire, Algeria, 11 August 2021 (FR20210811DZA), one GeoParquet file with the source columns."
     },
     "fr20210811dza-damage-sites-tiles": {
       "href": "./fr20210811dza-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12209757acef6de1999d5dce574dea5a343dcb734298461ef3e951cea3d6c897a828",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Fire, Algeria, 11 August 2021 (FR20210811DZA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 948,
-      "file:checksum": "1220edab716c10c2bbcea96608f3191ed2a1a68078c8d03284e412da9281b6b92755"
+      "file:checksum": "1220edab716c10c2bbcea96608f3191ed2a1a68078c8d03284e412da9281b6b92755",
+      "description": "MapLibre style for Damage sites: Fire, Algeria, 11 August 2021 (FR20210811DZA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20210811dza-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7254,
+      "file:checksum": "1220f0a6ebd8f965c50405ed3d473b479d55a299c1bf8b7e7b25db134f5d65886a86",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Fire, Algeria, 11 August 2021 (FR20210811DZA)."
     }
   }
 }

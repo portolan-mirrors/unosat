@@ -253,7 +253,9 @@
       "file:checksum": "1220c713b00992847e13958a485249ac2d7a473cdfc28458d1411d3b1feeed540926",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR), one GeoParquet file with the source columns."
     },
     "fl20240821cmr-analysis-extent-tiles": {
       "href": "./fl20240821cmr-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12204075ab5a25adc958d9be3b3d55af41e43cb6750c8d20fde5311010196be84d0d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12205faa83e3656d7627f3879163f56a8f3fdc71047dcefd1b83cedc691005a12e8d"
+      "file:checksum": "12205faa83e3656d7627f3879163f56a8f3fdc71047dcefd1b83cedc691005a12e8d",
+      "description": "MapLibre style for Analysis extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240821cmr-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 20979,
+      "file:checksum": "1220059d6b8465f63811829d5f59b6c93dfc9c001018464c745d54215e532897c951",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR)."
     }
   }
 }

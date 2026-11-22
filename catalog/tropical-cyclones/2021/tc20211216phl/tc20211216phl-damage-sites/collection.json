@@ -262,7 +262,9 @@
       "file:checksum": "1220a7e6fbbc76119a74f6e53a7f0422ea0bd14f738ad7d1ce919a8d8ef03b6b8591",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL), one GeoParquet file with the source columns."
     },
     "tc20211216phl-damage-sites-tiles": {
       "href": "./tc20211216phl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12206768008bc00c1f0e2f19edf37bb79c3cd3a61c42695f8a1414835aa944d3a807",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1098,
-      "file:checksum": "12206555514a22a29bc9624ca4526ad06a0f19412286ba0469dccbe1cbd276fba4c5"
+      "file:checksum": "12206555514a22a29bc9624ca4526ad06a0f19412286ba0469dccbe1cbd276fba4c5",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20211216phl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3457,
+      "file:checksum": "12205a6b3ce3f7f86e93232400ac627747884553f24430035c9b3474dcafbbf7e539",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Philippines, 16 December 2021 (TC20211216PHL)."
     }
   }
 }

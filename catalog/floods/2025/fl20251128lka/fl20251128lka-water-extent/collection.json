@@ -274,7 +274,9 @@
       "file:checksum": "1220be33d2189a5996e03433531c89a874560675640d56320105a5622850ce03aa22",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA), one GeoParquet file with the source columns."
     },
     "fl20251128lka-water-extent-tiles": {
       "href": "./fl20251128lka-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220df70d82db736401146020b19f2fa748f47febf4de7288f8a6a241957971fd213",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d76cad60b330239f961ff5c7c7ac2c536d9e5976685c69d56a2971c9f8251cbf"
+      "file:checksum": "1220d76cad60b330239f961ff5c7c7ac2c536d9e5976685c69d56a2971c9f8251cbf",
+      "description": "MapLibre style for Water extent: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20251128lka-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 38860,
+      "file:checksum": "1220a7f428d670d636ac723361b58ee20acfdbd264d412560d01bc334063a0728dd6",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA)."
     }
   }
 }

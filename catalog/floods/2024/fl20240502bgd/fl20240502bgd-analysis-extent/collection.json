@@ -296,7 +296,9 @@
       "file:checksum": "122020a2d965e23f59212dbe30f7ba8aa5090ec886599399d6540d2109d8ebc05860",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Bangladesh, 2 May 2024 (FL20240502BGD), one GeoParquet file with the source columns."
     },
     "fl20240502bgd-analysis-extent-tiles": {
       "href": "./fl20240502bgd-analysis-extent.pmtiles",
@@ -305,7 +307,9 @@
       "file:checksum": "12205abcafb4d9f1c2de65226682a12e7e8c3486bade123d855760e99ca89a0f0603",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Bangladesh, 2 May 2024 (FL20240502BGD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -316,7 +320,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12208c174564947dafd4b26c93667ac99876c7de7ef57a93111051ab17c715441fc6"
+      "file:checksum": "12208c174564947dafd4b26c93667ac99876c7de7ef57a93111051ab17c715441fc6",
+      "description": "MapLibre style for Analysis extent: Flood, Bangladesh, 2 May 2024 (FL20240502BGD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240502bgd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 18523,
+      "file:checksum": "1220d6dc6a649c07f9f6b0e610428715333951e7198b696e0ede8f826b58780c863b",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Bangladesh, 2 May 2024 (FL20240502BGD)."
     }
   }
 }

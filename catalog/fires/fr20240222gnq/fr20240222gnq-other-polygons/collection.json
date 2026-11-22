@@ -191,7 +191,9 @@
       "file:checksum": "122090e338246f1a1596eebc6ca35bda25cb5e4a3c6eba2a3cd72da356e434099af9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ), one GeoParquet file with the source columns."
     },
     "fr20240222gnq-other-polygons-tiles": {
       "href": "./fr20240222gnq-other-polygons.pmtiles",
@@ -200,7 +202,9 @@
       "file:checksum": "12208a8d673421e1ab420feebb85f1ce9a649d6f2485f8de184e64ae8498dc06a347",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -211,7 +215,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220266209cc33865c250566b05b1e937ed27ab9c843a2cb521be43d374a9eb04e06"
+      "file:checksum": "1220266209cc33865c250566b05b1e937ed27ab9c843a2cb521be43d374a9eb04e06",
+      "description": "MapLibre style for Other polygons: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20240222gnq-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27366,
+      "file:checksum": "1220854aa24fa668e5783fb53986952012fc792e0d914cac21a93282d5d7529ac806",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Fire, Equatorial Guinea, 22 February 2024 (FR20240222GNQ)."
     }
   }
 }

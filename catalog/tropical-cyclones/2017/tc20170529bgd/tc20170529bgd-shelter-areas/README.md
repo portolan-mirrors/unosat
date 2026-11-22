@@ -1,5 +1,5 @@
 # Shelter areas: Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170529bgd/tc20170529bgd-shelter-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelter areas for Tropical cyclone, Bangladesh, 29 May 2017 (TC20170529BGD): 3 features merged from 3 source layers. Polygon layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170529bgd-shelter-areas.parquet | 8.8 KB | 12201171c73f... |
 | ./tc20170529bgd-shelter-areas.pmtiles | 31.4 KB | 1220a3c0ddfb... |
 | ./styles/default.json | 658 B | 1220a2bf0f6e... |
+| ./tc20170529bgd-shelter-areas.thumb.jpg | 2.8 KB | 12209a3b4294... |
 
 ## Quick Start
 

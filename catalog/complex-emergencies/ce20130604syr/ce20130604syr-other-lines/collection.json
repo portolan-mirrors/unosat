@@ -368,7 +368,9 @@
       "file:checksum": "1220e417f88288942bee9a1b3dbcd42a0f947fe9583590e97f109d2c85edcce190e4",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR), one GeoParquet file with the source columns."
     },
     "ce20130604syr-other-lines-tiles": {
       "href": "./ce20130604syr-other-lines.pmtiles",
@@ -377,7 +379,9 @@
       "file:checksum": "12204748478b25c57c64fbe50d6e3a48387aee19ee33cc9f6d7a5a2195f68ffecdcf",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -388,7 +392,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "122004088ef2c3ca41b15f30007d8df2da20ee72af0afee5dba23204caa597435c20"
+      "file:checksum": "122004088ef2c3ca41b15f30007d8df2da20ee72af0afee5dba23204caa597435c20",
+      "description": "MapLibre style for Other lines: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20130604syr-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4609,
+      "file:checksum": "1220bd177bbef9f34e83e17aaf5f2cfeacafaff125eeecebcfe2cd25fa143481699e",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Complex emergency, Syrian Arab Republic, 4 June 2013 (CE20130604SYR)."
     }
   }
 }

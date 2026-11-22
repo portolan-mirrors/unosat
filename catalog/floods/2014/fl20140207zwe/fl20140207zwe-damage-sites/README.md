@@ -1,5 +1,5 @@
 # Damage sites: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE): 751 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140207zwe-damage-sites.parquet | 34.3 KB | 1220f4d21c01... |
 | ./fl20140207zwe-damage-sites.pmtiles | 69.2 KB | 12208024ae3e... |
 | ./styles/default.json | 695 B | 122027c5ff0c... |
+| ./fl20140207zwe-damage-sites.thumb.jpg | 9.9 KB | 12204d42d62b... |
 
 ## Quick Start
 

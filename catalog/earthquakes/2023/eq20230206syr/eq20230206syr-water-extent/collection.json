@@ -274,7 +274,9 @@
       "file:checksum": "122058312588fb268fe00c0ff89d0f28fd116fcd29872ac54fcaeb544de90adab5bc",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR), one GeoParquet file with the source columns."
     },
     "eq20230206syr-water-extent-tiles": {
       "href": "./eq20230206syr-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12204dec1d01d39079255180614390e665849378ca16c5359184ca4c7620528c45a6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220d154f3f1c7e007186983d7b33648840629e03c143a42927eeab48f5052b94353"
+      "file:checksum": "1220d154f3f1c7e007186983d7b33648840629e03c143a42927eeab48f5052b94353",
+      "description": "MapLibre style for Water extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20230206syr-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10644,
+      "file:checksum": "1220bb00afd2c075955ca3d8d330f1ef4b2992249061c04b1df7dbb2ccfd08ae9263",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Earthquake, Syrian Arab Republic, Türkiye, 6 February 2023 (EQ20230206SYR)."
     }
   }
 }

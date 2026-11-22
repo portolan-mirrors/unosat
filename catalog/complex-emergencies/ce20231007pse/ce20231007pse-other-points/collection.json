@@ -322,7 +322,9 @@
       "file:checksum": "122091c425fe05233984c4df103d2dc9cecc5af7fefdb55d04d965bf52e038469636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE), one GeoParquet file with the source columns."
     },
     "ce20231007pse-other-points-tiles": {
       "href": "./ce20231007pse-other-points.pmtiles",
@@ -331,7 +333,9 @@
       "file:checksum": "1220d3f36cd228dda5675254557078e4cf3e8be00511439268cf772e8a90f63c3849",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -342,7 +346,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220664144755e13aa14bef4cd8e351a03eb16328f6c51be5371e4a8a6ff662479fe"
+      "file:checksum": "1220664144755e13aa14bef4cd8e351a03eb16328f6c51be5371e4a8a6ff662479fe",
+      "description": "MapLibre style for Other points: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20231007pse-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2801,
+      "file:checksum": "1220a5c88c463d951e6223a2ea4abebf5e1c39b7c23e6fdb476909508ca120e5d40e",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Complex emergency, State of Palestine, 7 October 2023 (CE20231007PSE)."
     }
   }
 }

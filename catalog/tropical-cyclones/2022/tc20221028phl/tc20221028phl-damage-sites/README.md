@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20221028phl/tc20221028phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Philippines, 28 October 2022 (TC20221028PHL): 256 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20221028phl-damage-sites.parquet | 17.2 KB | 12205220f345... |
 | ./tc20221028phl-damage-sites.pmtiles | 39.6 KB | 12207c98762d... |
 | ./styles/default.json | 956 B | 1220dbdbdb90... |
+| ./tc20221028phl-damage-sites.thumb.jpg | 4.6 KB | 12207372627b... |
 
 ## Quick Start
 

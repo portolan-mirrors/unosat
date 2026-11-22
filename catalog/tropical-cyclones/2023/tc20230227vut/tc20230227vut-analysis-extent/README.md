@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230227vut/tc20230227vut-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230227vut/tc20230227vut-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Vanuatu, 27 February 2023 (TC20230227VUT): 50 features merged from 29 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -66,6 +66,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230227vut-analysis-extent.parquet | 43.4 KB | 1220f687ee1e... |
 | ./tc20230227vut-analysis-extent.pmtiles | 97.5 KB | 1220afe2e40f... |
 | ./styles/default.json | 671 B | 12208dc587a0... |
+| ./tc20230227vut-analysis-extent.thumb.jpg | 4.0 KB | 1220f846d803... |
 
 ## Quick Start
 

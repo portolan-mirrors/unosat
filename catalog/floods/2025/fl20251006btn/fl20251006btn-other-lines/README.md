@@ -1,5 +1,5 @@
 # Other lines: Flood, Bhutan, 6 October 2025 (FL20251006BTN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251006btn/fl20251006btn-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Flood, Bhutan, 6 October 2025 (FL20251006BTN): 99 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -73,6 +73,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20251006btn-other-lines.parquet | 28.6 KB | 12202211e1f2... |
 | ./fl20251006btn-other-lines.pmtiles | 47.0 KB | 1220cc5ed18e... |
 | ./styles/default.json | 401 B | 1220a9dc28aa... |
+| ./fl20251006btn-other-lines.thumb.jpg | 2.3 KB | 1220ac19c8d9... |
 
 ## Quick Start
 

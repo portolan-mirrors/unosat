@@ -282,7 +282,9 @@
       "file:checksum": "12208232b8d0c683fe6ba50ecd4723e5f3da4b804fe03bfaab64ea8257a8feffea03",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Nepal, 30 June 2021 (FL20210630NPL), one GeoParquet file with the source columns."
     },
     "fl20210630npl-damage-areas-tiles": {
       "href": "./fl20210630npl-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12205d605c4e752092e58d89ebaefd71aa0fc3c5660d841e248c37ecf417692a2b68",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Nepal, 30 June 2021 (FL20210630NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 913,
-      "file:checksum": "12203e087051884ae95dd7f04557387f5434117e2d2d133c77b4815252101625d927"
+      "file:checksum": "12203e087051884ae95dd7f04557387f5434117e2d2d133c77b4815252101625d927",
+      "description": "MapLibre style for Damage areas: Flood, Nepal, 30 June 2021 (FL20210630NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20210630npl-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10406,
+      "file:checksum": "12200f12dc1f4767572fb2cf630220a08bd4397ef291b661de923efea69e49ed85fc",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Nepal, 30 June 2021 (FL20210630NPL)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Indonesia, 18 November 2025 (LS20251118IDN): 6 features merged from 6 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20251118idn-damage-areas.parquet | 17.7 KB | 12200dc6e62d... |
 | ./ls20251118idn-damage-areas.pmtiles | 28.3 KB | 1220f18d4b22... |
 | ./styles/default.json | 652 B | 12208f4a9e38... |
+| ./ls20251118idn-damage-areas.thumb.jpg | 2.4 KB | 1220ca9ebb00... |
 
 ## Quick Start
 

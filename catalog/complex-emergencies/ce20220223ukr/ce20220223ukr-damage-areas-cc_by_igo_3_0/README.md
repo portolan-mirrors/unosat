@@ -1,5 +1,5 @@
 # Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_igo_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20220223ukr/ce20220223ukr-damage-areas-cc_by_igo_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR): 26,971 features merged from 12 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:3857, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -103,6 +103,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20220223ukr-damage-areas-cc_by_igo_3_0.parquet | 462.4 KB | 1220fee5fb2c... |
 | ./ce20220223ukr-damage-areas-cc_by_igo_3_0.pmtiles | 7.0 MB | 122038b92e5f... |
 | ./styles/default.json | 1014 B | 1220750defad... |
+| ./ce20220223ukr-damage-areas-cc_by_igo_3_0.thumb.jpg | 5.7 KB | 1220549c6e3a... |
 
 ## Quick Start
 

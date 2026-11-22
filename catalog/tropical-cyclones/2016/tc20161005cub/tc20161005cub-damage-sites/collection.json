@@ -262,7 +262,9 @@
       "file:checksum": "1220d4de26f6aae7a97bc5e9777383aad34bd184233739fce995f6f362e5a634f8c0",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB), one GeoParquet file with the source columns."
     },
     "tc20161005cub-damage-sites-tiles": {
       "href": "./tc20161005cub-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ec761882a8687f51e1ca2fc3ec259bf6635b82c1d77d526c8b4acd8026ac2b18",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 948,
-      "file:checksum": "1220e0faddd1225654612cb864862e9f4bd166a885929105ed9909a0a75ac0196652"
+      "file:checksum": "1220e0faddd1225654612cb864862e9f4bd166a885929105ed9909a0a75ac0196652",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161005cub-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5505,
+      "file:checksum": "122066aa7c065f87ba8ea448be3e6984372e5965bbeb0614206111c592a2c68221cb",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Cuba, 5 October 2016 (TC20161005CUB)."
     }
   }
 }

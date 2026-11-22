@@ -262,7 +262,9 @@
       "file:checksum": "1220031154f3ea4b59476cb864fae90db66adae3cc946ca63cfbc54feebf434a9b79",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL), one GeoParquet file with the source columns."
     },
     "tc20141204phl-damage-sites-tiles": {
       "href": "./tc20141204phl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220eb5b947eeb8148d09ba74b43ddf6c8d333003e4a1c9d48609efaf20bde2f632f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1048,
-      "file:checksum": "12200774c5199a0bd1bfb9d9d648da6f5a682b13b9d37805f79a2471968bef7fb334"
+      "file:checksum": "12200774c5199a0bd1bfb9d9d648da6f5a682b13b9d37805f79a2471968bef7fb334",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20141204phl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5771,
+      "file:checksum": "1220be45381a43373e0cab4bfb1f9a2b3a4cb7ca90b49b7ef1fbb890c653a5e9aa42",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Philippines, 4 December 2014 (TC20141204PHL)."
     }
   }
 }

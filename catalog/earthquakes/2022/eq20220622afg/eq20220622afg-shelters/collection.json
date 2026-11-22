@@ -297,7 +297,9 @@
       "file:checksum": "1220f21802f5f11e98d476aabc14d604b08e2278321059cbcb32a17053e1054bc3c3",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG), one GeoParquet file with the source columns."
     },
     "eq20220622afg-shelters-tiles": {
       "href": "./eq20220622afg-shelters.pmtiles",
@@ -306,7 +308,9 @@
       "file:checksum": "1220ff28cd9521a33b2d7f5e8e6aba8fc501918fe1a4f2fa4d923ca90b982d422a91",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -317,7 +321,19 @@
       ],
       "title": "Shelters",
       "file:size": 679,
-      "file:checksum": "1220142ab10b0eb438cc6aa9112dc528af7d259fdc0496405f7251d2520fefe2cb67"
+      "file:checksum": "1220142ab10b0eb438cc6aa9112dc528af7d259fdc0496405f7251d2520fefe2cb67",
+      "description": "MapLibre style for Shelters: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20220622afg-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8368,
+      "file:checksum": "1220b4b9a060a9f06418d514506f1df82f215a1c6320aa3c03035667d5cf048ccdb7",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Earthquake, Afghanistan, 22 June 2022 (EQ20220622AFG)."
     }
   }
 }

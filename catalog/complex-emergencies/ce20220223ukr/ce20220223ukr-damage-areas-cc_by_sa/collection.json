@@ -594,7 +594,9 @@
       "proj:code": "EPSG:3857",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR), one GeoParquet file with the source columns."
     },
     "ce20220223ukr-damage-areas-cc_by_sa-tiles": {
       "href": "./ce20220223ukr-damage-areas-cc_by_sa.pmtiles",
@@ -603,7 +605,9 @@
       "file:checksum": "122068f6ba29e3b9a3fe1c251535cad96dc44e861f1861cf53029b9886de9a0b729b",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -614,7 +618,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 1009,
-      "file:checksum": "12204c01325bedfbeab14fc5df1a4603018df9a8cc15fbec4733a5690164f1ea4d3b"
+      "file:checksum": "12204c01325bedfbeab14fc5df1a4603018df9a8cc15fbec4733a5690164f1ea4d3b",
+      "description": "MapLibre style for Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20220223ukr-damage-areas-cc_by_sa.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5826,
+      "file:checksum": "12207d63b115fa22b33f9cf4eb944a2f9dd5bdb78d3ab7a2179e6353d8ff577e789f",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)."
     }
   }
 }

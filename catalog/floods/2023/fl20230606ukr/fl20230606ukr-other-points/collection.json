@@ -205,7 +205,9 @@
       "file:checksum": "1220551c657b472aa8d9bda5dc2f8856137b194edb9234b2c29509e97780e5915c19",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Flood, Ukraine, 6 June 2023 (FL20230606UKR), one GeoParquet file with the source columns."
     },
     "fl20230606ukr-other-points-tiles": {
       "href": "./fl20230606ukr-other-points.pmtiles",
@@ -214,7 +216,9 @@
       "file:checksum": "1220815058d8fa1550b8a5e6a3f6d3fcb7618ed59cb9ae5e8846ddfa892727df102c",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Flood, Ukraine, 6 June 2023 (FL20230606UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -225,7 +229,19 @@
       ],
       "title": "Other points",
       "file:size": 695,
-      "file:checksum": "1220ea59cb816f593f77290dcfe2eb5072bd58eb78fd9075d5534cb921b229109d5b"
+      "file:checksum": "1220ea59cb816f593f77290dcfe2eb5072bd58eb78fd9075d5534cb921b229109d5b",
+      "description": "MapLibre style for Other points: Flood, Ukraine, 6 June 2023 (FL20230606UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230606ukr-other-points.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4532,
+      "file:checksum": "122059f643947d572cc7c5b4404a0fd49fba0cdbad9f0bf4f216cbb34c1e1752f157",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Flood, Ukraine, 6 June 2023 (FL20230606UKR)."
     }
   }
 }

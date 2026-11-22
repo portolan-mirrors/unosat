@@ -262,7 +262,9 @@
       "file:checksum": "12207e5a19be85980ce61c7bdee9f8555ef813b2d54fd8f826e7f1ba25c08b76e357",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG), one GeoParquet file with the source columns."
     },
     "eq20250901afg-damage-sites-tiles": {
       "href": "./eq20250901afg-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12203e435a342f3ad5288cb0f8565c69ee7b45a69273634c15ca9d33cc4ca9d60bdc",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 997,
-      "file:checksum": "12204079f1f4061df146d925bc55aebd9e5a2cfd8187aedaf1b83cb97f88c3ec1d67"
+      "file:checksum": "12204079f1f4061df146d925bc55aebd9e5a2cfd8187aedaf1b83cb97f88c3ec1d67",
+      "description": "MapLibre style for Damage sites: Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250901afg-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4934,
+      "file:checksum": "1220deba957f0c108991b1a123867810fa07a782cced2fc1e604ccdc52f57de7d73f",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Afghanistan, 1 September 2025 (EQ20250901AFG)."
     }
   }
 }

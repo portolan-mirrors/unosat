@@ -1,5 +1,5 @@
 # Landslides points: Flood, Sri Lanka, 28 November 2025 (FL20251128LKA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-landslides-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251128lka/fl20251128lka-landslides-points/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Landslides points for Flood, Sri Lanka, 28 November 2025 (FL20251128LKA): 63 features merged from 1 source layer. Points layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -39,6 +39,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20251128lka-landslides-points.parquet | 6.9 KB | 1220ed7fb12a... |
 | ./fl20251128lka-landslides-points.pmtiles | 54.8 KB | 1220e1f87ca1... |
 | ./styles/default.json | 715 B | 122007520497... |
+| ./fl20251128lka-landslides-points.thumb.jpg | 6.1 KB | 12208d4de9a6... |
 
 ## Quick Start
 

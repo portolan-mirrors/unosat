@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Democratic Republic of the Congo, 25 November 2022 (FL20221125COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221125cod/fl20221125cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221125cod/fl20221125cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Democratic Republic of the Congo, 25 November 2022 (FL20221125COD): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20221125cod-analysis-extent.parquet | 54.9 KB | 12209711c833... |
 | ./fl20221125cod-analysis-extent.pmtiles | 1.0 MB | 12206cb4c7d8... |
 | ./styles/default.json | 671 B | 1220a4b2eca1... |
+| ./fl20221125cod-analysis-extent.thumb.jpg | 14.0 KB | 1220293b9c18... |
 
 ## Quick Start
 

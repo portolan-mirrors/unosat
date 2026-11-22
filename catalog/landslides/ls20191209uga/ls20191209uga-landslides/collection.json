@@ -189,7 +189,9 @@
       "proj:code": "EPSG:32636",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Landslides: Landslide, Uganda, 9 December 2019 (LS20191209UGA), one GeoParquet file with the source columns."
     },
     "ls20191209uga-landslides-tiles": {
       "href": "./ls20191209uga-landslides.pmtiles",
@@ -198,7 +200,9 @@
       "file:checksum": "1220f99d5021e99d987d63545148b358dee9903fcc876b8059eeac757fd58c85ec35",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Landslides: Landslide, Uganda, 9 December 2019 (LS20191209UGA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -209,7 +213,19 @@
       ],
       "title": "Landslides",
       "file:size": 640,
-      "file:checksum": "122097f591f0ac2b7f7f4f50542ae8b73b981d025979629073ada19585ec5640262a"
+      "file:checksum": "122097f591f0ac2b7f7f4f50542ae8b73b981d025979629073ada19585ec5640262a",
+      "description": "MapLibre style for Landslides: Landslide, Uganda, 9 December 2019 (LS20191209UGA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ls20191209uga-landslides.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12172,
+      "file:checksum": "1220e2c56c8dc5bfc3a500f53abb69f4488e241d7c277d11be7f9fcadcd0478008a3",
+      "title": "Thumbnail",
+      "description": "Preview image of Landslides: Landslide, Uganda, 9 December 2019 (LS20191209UGA)."
     }
   }
 }

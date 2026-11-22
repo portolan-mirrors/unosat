@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Bangladesh, 25 August 2024 (FL20240825BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240825bgd/fl20240825bgd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240825bgd/fl20240825bgd-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Bangladesh, 25 August 2024 (FL20240825BGD): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240825bgd-analysis-extent.parquet | 1.5 MB | 1220519e9fc8... |
 | ./fl20240825bgd-analysis-extent.pmtiles | 1.8 MB | 1220093b4fbf... |
 | ./styles/default.json | 671 B | 1220a891b847... |
+| ./fl20240825bgd-analysis-extent.thumb.jpg | 15.2 KB | 1220b2119d23... |
 
 ## Quick Start
 

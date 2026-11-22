@@ -274,7 +274,9 @@
       "file:checksum": "12205e639d48c3be9ce4daf3153a926baaa0fda5b75b7a0ae406a2b1d21faacac44d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Viet Nam, 9 November 2016 (FL20161109VNM), one GeoParquet file with the source columns."
     },
     "fl20161109vnm-water-extent-tiles": {
       "href": "./fl20161109vnm-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122077adaa75c49415dfc50b134d85b71a4d28d6369c87cc7a95f702fdd9e1540696",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Viet Nam, 9 November 2016 (FL20161109VNM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 985,
-      "file:checksum": "12203a433b85bb3184c808839bfea2c627b6adeee712d71f8415789416ec9384c8c0"
+      "file:checksum": "12203a433b85bb3184c808839bfea2c627b6adeee712d71f8415789416ec9384c8c0",
+      "description": "MapLibre style for Water extent: Flood, Viet Nam, 9 November 2016 (FL20161109VNM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20161109vnm-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15068,
+      "file:checksum": "12207cd7504899215eb55f573a63fd0b8ef6dcf444d06fe208cce7946f3183bdd161",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Viet Nam, 9 November 2016 (FL20161109VNM)."
     }
   }
 }

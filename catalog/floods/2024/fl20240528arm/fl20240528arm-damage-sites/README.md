@@ -1,5 +1,5 @@
 # Damage sites: Flood, Armenia, 28 May 2024 (FL20240528ARM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240528arm/fl20240528arm-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Armenia, 28 May 2024 (FL20240528ARM): 326 features merged from 3 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240528arm-damage-sites.parquet | 14.8 KB | 1220f8c984c3... |
 | ./fl20240528arm-damage-sites.pmtiles | 94.4 KB | 1220e5fe8efb... |
 | ./styles/default.json | 956 B | 12201997e412... |
+| ./fl20240528arm-damage-sites.thumb.jpg | 5.9 KB | 12207619eb46... |
 
 ## Quick Start
 

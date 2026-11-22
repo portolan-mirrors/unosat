@@ -1,5 +1,5 @@
 # Shelters: Earthquake, Morocco, 9 September 2023 (EQ20230909MAR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230909mar/eq20230909mar-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20230909mar/eq20230909mar-shelters/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Shelters for Earthquake, Morocco, 9 September 2023 (EQ20230909MAR): 580 features merged from 35 source layers. Point layers with shelter or camp columns, or whose names mention camps, shelters, IDPs, or settlements. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20230909mar-shelters.parquet | 12.3 KB | 12207eac9dcd... |
 | ./eq20230909mar-shelters.pmtiles | 64.3 KB | 122028b00852... |
 | ./styles/default.json | 679 B | 122027d0a870... |
+| ./eq20230909mar-shelters.thumb.jpg | 5.1 KB | 12209d921398... |
 
 ## Quick Start
 

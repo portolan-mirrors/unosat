@@ -271,7 +271,9 @@
       "file:checksum": "1220200b5c71ec63eeebbcb90278d58c176e103edc45e4c77038d5157bf2291fa016",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT), one GeoParquet file with the source columns."
     },
     "vo20211025vut-analysis-extent-tiles": {
       "href": "./vo20211025vut-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "122020bf277e2ea8a621fed09d1efb677a5c12d400c3494cda5ba61c71235f4a9361",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220b70a058db537d4c38e8a8e7c8c86d03f266b0adbdd0bb8a4e0d068c46d1024af"
+      "file:checksum": "1220b70a058db537d4c38e8a8e7c8c86d03f266b0adbdd0bb8a4e0d068c46d1024af",
+      "description": "MapLibre style for Analysis extent: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20211025vut-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12549,
+      "file:checksum": "122079f78673723777e65cf53ccaf63595bd02ac05ed32371e81ba753960973344dd",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Volcano, Vanuatu, 25 October 2021 (VO20211025VUT)."
     }
   }
 }

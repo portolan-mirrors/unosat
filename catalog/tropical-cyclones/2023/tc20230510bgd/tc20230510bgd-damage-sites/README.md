@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230510bgd/tc20230510bgd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2023/tc20230510bgd/tc20230510bgd-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Bangladesh, 10 May 2023 (TC20230510BGD): 211 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20230510bgd-damage-sites.parquet | 15.6 KB | 1220f91841f8... |
 | ./tc20230510bgd-damage-sites.pmtiles | 46.3 KB | 12204bbf618e... |
 | ./styles/default.json | 1004 B | 1220c4dda518... |
+| ./tc20230510bgd-damage-sites.thumb.jpg | 5.5 KB | 1220d740301d... |
 
 ## Quick Start
 

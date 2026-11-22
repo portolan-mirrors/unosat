@@ -1,5 +1,5 @@
 # Damage areas: Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20250707syr/fr20250707syr-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Fire, Syrian Arab Republic, 7 July 2025 (FR20250707SYR): 3 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20250707syr-damage-areas.parquet | 586.9 KB | 12203f40a4ab... |
 | ./fr20250707syr-damage-areas.pmtiles | 187.0 KB | 122075300a87... |
 | ./styles/default.json | 652 B | 122059ea9a05... |
+| ./fr20250707syr-damage-areas.thumb.jpg | 14.0 KB | 122033eb1edc... |
 
 ## Quick Start
 

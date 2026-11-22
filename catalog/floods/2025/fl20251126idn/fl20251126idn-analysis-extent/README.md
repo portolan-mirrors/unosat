@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Indonesia, 26 November 2025 (FL20251126IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251126idn/fl20251126idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20251126idn/fl20251126idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Indonesia, 26 November 2025 (FL20251126IDN): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20251126idn-analysis-extent.parquet | 5.8 KB | 1220100cb1f7... |
 | ./fl20251126idn-analysis-extent.pmtiles | 847.1 KB | 12208fb4413b... |
 | ./styles/default.json | 671 B | 122063ad6b62... |
+| ./fl20251126idn-analysis-extent.thumb.jpg | 9.2 KB | 12206fe61449... |
 
 ## Quick Start
 

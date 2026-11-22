@@ -274,7 +274,9 @@
       "file:checksum": "1220bc5f6104bd43ca78dfce86d38006cdd19ed8fcd4fb2fc8d8cbb9ee8193b2100c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Senegal, 22 October 2024 (FL20241022SEN), one GeoParquet file with the source columns."
     },
     "fl20241022sen-water-extent-tiles": {
       "href": "./fl20241022sen-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122064d8e6f5c632ae346fcfc9ed308c571e3e6d0e4808db7e2c04617a4eafd0500f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Senegal, 22 October 2024 (FL20241022SEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1125,
-      "file:checksum": "12201ff5868e605e6b59376662c609f1edd1278e37ddca485299d04d89587e35f674"
+      "file:checksum": "12201ff5868e605e6b59376662c609f1edd1278e37ddca485299d04d89587e35f674",
+      "description": "MapLibre style for Water extent: Flood, Senegal, 22 October 2024 (FL20241022SEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20241022sen-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27343,
+      "file:checksum": "1220448ee5e13e43e66b27b53f270387f62a9f061437b4af0b803215835af0c867b2",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Senegal, 22 October 2024 (FL20241022SEN)."
     }
   }
 }

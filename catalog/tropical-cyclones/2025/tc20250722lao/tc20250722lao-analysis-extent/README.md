@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO): 58 features merged from 18 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250722lao-analysis-extent.parquet | 173.1 KB | 122051d3bf84... |
 | ./tc20250722lao-analysis-extent.pmtiles | 621.3 KB | 1220b089d783... |
 | ./styles/default.json | 671 B | 1220b84a7fb0... |
+| ./tc20250722lao-analysis-extent.thumb.jpg | 13.9 KB | 1220d16baac6... |
 
 ## Quick Start
 

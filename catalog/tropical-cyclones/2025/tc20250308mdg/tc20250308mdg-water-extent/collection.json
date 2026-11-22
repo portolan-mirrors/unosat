@@ -274,7 +274,9 @@
       "file:checksum": "1220fa9ffa4769baffaa9e5f965fa086d8b9c18a2d10c2a82b11f4e15cfd94339677",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG), one GeoParquet file with the source columns."
     },
     "tc20250308mdg-water-extent-tiles": {
       "href": "./tc20250308mdg-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12204aeccce512206411b1a0c331b0693447f84cbf143e7d22db321f18791fc9ac62",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220ab7beb75492d3f6f950451573d18aa974c45e9a8262bdb95c0e13ab40eb5eb4e"
+      "file:checksum": "1220ab7beb75492d3f6f950451573d18aa974c45e9a8262bdb95c0e13ab40eb5eb4e",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20250308mdg-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12721,
+      "file:checksum": "122043b4e44fa4298877e8bb9ab9118668996478d83a6be3bbd3616cdec44a622f3a",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Madagascar, 8 March 2025 (TC20250308MDG)."
     }
   }
 }

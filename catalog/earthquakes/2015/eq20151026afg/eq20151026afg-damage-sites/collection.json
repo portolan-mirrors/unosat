@@ -262,7 +262,9 @@
       "file:checksum": "12207efe71778fe19dd1914067530f42c806093934e0bcfa3daff0842ff6589ffd1a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG), one GeoParquet file with the source columns."
     },
     "eq20151026afg-damage-sites-tiles": {
       "href": "./eq20151026afg-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12204deb47a28e9ce5547cb732742d3810b09f59fa2409375375a5d0181fcd33cd26",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 956,
-      "file:checksum": "122078e4b86f684db2e2eaa6a4d04f8520ed71244f40149ee6f82c69e4926da93361"
+      "file:checksum": "122078e4b86f684db2e2eaa6a4d04f8520ed71244f40149ee6f82c69e4926da93361",
+      "description": "MapLibre style for Damage sites: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20151026afg-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3348,
+      "file:checksum": "12203369532a14148b77df23734ea4d3daf0a123813306257d87fe5c62fcfbddb178",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)."
     }
   }
 }

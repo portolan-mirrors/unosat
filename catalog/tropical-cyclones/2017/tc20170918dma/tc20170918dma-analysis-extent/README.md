@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170918dma/tc20170918dma-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2017/tc20170918dma/tc20170918dma-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA): 186 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -65,6 +65,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20170918dma-analysis-extent.parquet | 951.3 KB | 122075fa7e7d... |
 | ./tc20170918dma-analysis-extent.pmtiles | 305.2 KB | 12204ce20c8d... |
 | ./styles/default.json | 671 B | 1220753c7471... |
+| ./tc20170918dma-analysis-extent.thumb.jpg | 14.0 KB | 1220543b1a50... |
 
 ## Quick Start
 

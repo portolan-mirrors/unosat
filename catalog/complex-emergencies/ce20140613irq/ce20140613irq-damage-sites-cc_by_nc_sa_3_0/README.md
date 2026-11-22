@@ -1,5 +1,5 @@
 # Damage sites: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-damage-sites-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ): 15,712 features merged from 9 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -68,6 +68,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140613irq-damage-sites-cc_by_nc_sa_3_0.parquet | 660.1 KB | 1220f7386c94... |
 | ./ce20140613irq-damage-sites-cc_by_nc_sa_3_0.pmtiles | 736.9 KB | 12205be138c7... |
 | ./styles/default.json | 1.3 KB | 1220c7ce1005... |
+| ./ce20140613irq-damage-sites-cc_by_nc_sa_3_0.thumb.jpg | 5.2 KB | 1220c73423f9... |
 
 ## Quick Start
 

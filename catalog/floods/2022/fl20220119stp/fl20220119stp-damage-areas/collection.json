@@ -282,7 +282,9 @@
       "file:checksum": "1220658fcf7276547b50b3026fab769e1986068cb284a28a10fe2fa90549d6aaed9e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP), one GeoParquet file with the source columns."
     },
     "fl20220119stp-damage-areas-tiles": {
       "href": "./fl20220119stp-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220b1fe4c1be625af934f8b83da2afebb404714ae5cb25b95111fc1bb04d7e17c6d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "122084f4b33d1804de2f6041a59871089ce0dcb3d5a1d95fd1a321cbce3c09e64199"
+      "file:checksum": "122084f4b33d1804de2f6041a59871089ce0dcb3d5a1d95fd1a321cbce3c09e64199",
+      "description": "MapLibre style for Damage areas: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220119stp-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7557,
+      "file:checksum": "1220c0f5f741809826968f1aa8d4117f8795c2cc93d37c90ac12258391f9002688bb",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP)."
     }
   }
 }

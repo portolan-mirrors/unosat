@@ -274,7 +274,9 @@
       "file:checksum": "122054579c9bb4f6d8105ee44b8ac955fb069068ea6e906f7d5195fced2c686c0b5f",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM), one GeoParquet file with the source columns."
     },
     "fl20231120dom-water-extent-tiles": {
       "href": "./fl20231120dom-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12202e534b111c53d166ffea12ee5dd1295c919c54eaa471e42ba10da5ecb606928e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12201ab21e91fea4e59559207a9d545fa006532c6d5b8b2cd41d8b88f0a579438543"
+      "file:checksum": "12201ab21e91fea4e59559207a9d545fa006532c6d5b8b2cd41d8b88f0a579438543",
+      "description": "MapLibre style for Water extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20231120dom-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 12468,
+      "file:checksum": "1220a5884a32761c53dee64e90a58e9d0132b61be97681bc81256ffad77240c5cc2c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Dominican Republic, 20 November 2023 (FL20231120DOM)."
     }
   }
 }

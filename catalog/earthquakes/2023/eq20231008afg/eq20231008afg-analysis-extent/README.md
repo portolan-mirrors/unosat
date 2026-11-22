@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2023/eq20231008afg/eq20231008afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Afghanistan, 8 October 2023 (EQ20231008AFG): 2,244,215 features merged from 35 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20231008afg-analysis-extent.parquet | 60.1 MB | 12201242d02f... |
 | ./eq20231008afg-analysis-extent.pmtiles | 61.0 MB | 122061958750... |
 | ./styles/default.json | 671 B | 122008d44760... |
+| ./eq20231008afg-analysis-extent.thumb.jpg | 9.4 KB | 1220e487fee5... |
 
 ## Quick Start
 

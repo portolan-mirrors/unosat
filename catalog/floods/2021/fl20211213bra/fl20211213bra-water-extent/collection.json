@@ -274,7 +274,9 @@
       "file:checksum": "122087f8db804dbf69fc3ba7f97ae093cef41870de75c6ba962cf9d78c8e191a047d",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Brazil, 13 December 2021 (FL20211213BRA), one GeoParquet file with the source columns."
     },
     "fl20211213bra-water-extent-tiles": {
       "href": "./fl20211213bra-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220f0ee9456a89e3c33d435c9758dd1dbf96bcafb955778c06fd3ed56d9b69574f9",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Brazil, 13 December 2021 (FL20211213BRA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 926,
-      "file:checksum": "1220adec9c93839e309550035f8eb0383f9875043217173768e03a7438dafe1aa92b"
+      "file:checksum": "1220adec9c93839e309550035f8eb0383f9875043217173768e03a7438dafe1aa92b",
+      "description": "MapLibre style for Water extent: Flood, Brazil, 13 December 2021 (FL20211213BRA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20211213bra-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 35925,
+      "file:checksum": "1220b2935e6e8d9804b6ca32c1afc0a77134a00477a79e794e3cb281e200b05ed08c",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Brazil, 13 December 2021 (FL20211213BRA)."
     }
   }
 }

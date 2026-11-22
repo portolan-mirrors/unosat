@@ -281,7 +281,9 @@
       "file:checksum": "12200ae6caefc54ef2bc72c65cb93754073a5626514002805154074a88458e40e298",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Volcano, Tonga, 15 January 2022 (VO20220115TON), one GeoParquet file with the source columns."
     },
     "vo20220115ton-other-lines-tiles": {
       "href": "./vo20220115ton-other-lines.pmtiles",
@@ -290,7 +292,9 @@
       "file:checksum": "12204a71ca847c834bdccf86773ff8e2e7dd5ae455eff89c282626be447f7bbb6e13",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Volcano, Tonga, 15 January 2022 (VO20220115TON) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -301,7 +305,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220b871f844ca457b43591896cf8cb328a023ac3ec2691a493ac3d01feabec4d17f"
+      "file:checksum": "1220b871f844ca457b43591896cf8cb328a023ac3ec2691a493ac3d01feabec4d17f",
+      "description": "MapLibre style for Other lines: Volcano, Tonga, 15 January 2022 (VO20220115TON); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./vo20220115ton-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2496,
+      "file:checksum": "122026263e918e0e368286f495340ef537ace812aa437942eafb87c60e065e273c77",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Volcano, Tonga, 15 January 2022 (VO20220115TON)."
     }
   }
 }

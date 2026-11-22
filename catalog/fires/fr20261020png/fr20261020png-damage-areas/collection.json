@@ -282,7 +282,9 @@
       "file:checksum": "1220a3bd17ea516741cfbe35a5d6906984bf291acc67019e5c6a367be7388f41b201",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG), one GeoParquet file with the source columns."
     },
     "fr20261020png-damage-areas-tiles": {
       "href": "./fr20261020png-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220e7dc5b3d90b5476a992e329e6db0d917ce45ce18eaff90fb90dbc35e40035f14",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas",
       "file:size": 652,
-      "file:checksum": "122018fc0df09e2c425f8926ac1dc04a7809bf2fca37d2fc1dde4fd8e3026820dd6b"
+      "file:checksum": "122018fc0df09e2c425f8926ac1dc04a7809bf2fca37d2fc1dde4fd8e3026820dd6b",
+      "description": "MapLibre style for Damage areas: Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fr20261020png-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16956,
+      "file:checksum": "1220932d838fe5b2f28d7f1556baf1ef4527431fcefc098ffe3fb204be5863c46647",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG)."
     }
   }
 }

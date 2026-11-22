@@ -274,7 +274,9 @@
       "file:checksum": "1220097846bbac126d549e4c261da3ef12cf098c7610c207ef0a936ff0cf5a1630a6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK), one GeoParquet file with the source columns."
     },
     "fl20140910pak-water-extent-tiles": {
       "href": "./fl20140910pak-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122073a6774c3701a3dfc0c4bcc43f137e98d42d52f400c37d6926a5025ab82e8b28",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 996,
-      "file:checksum": "122075a13115993b7e835e62d472b20577d0ff8c818dde3642d5c7f8b176df851e2a"
+      "file:checksum": "122075a13115993b7e835e62d472b20577d0ff8c818dde3642d5c7f8b176df851e2a",
+      "description": "MapLibre style for Water extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140910pak-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14167,
+      "file:checksum": "122054803bea2034e633b52145a07140c9bcc965e670a2d50daab74916b1eee08470",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Pakistan, 10 September 2014 (FL20140910PAK)."
     }
   }
 }

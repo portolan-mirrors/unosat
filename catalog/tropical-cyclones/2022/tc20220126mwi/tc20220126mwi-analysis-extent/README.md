@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220126mwi/tc20220126mwi-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220126mwi/tc20220126mwi-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Malawi, Mozambique, 26 January 2022 (TC20220126MWI): 3 features merged from 3 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -52,6 +52,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220126mwi-analysis-extent.parquet | 720.3 KB | 12200e3e8516... |
 | ./tc20220126mwi-analysis-extent.pmtiles | 1.1 MB | 1220962f4ec4... |
 | ./styles/default.json | 671 B | 1220bc2520d1... |
+| ./tc20220126mwi-analysis-extent.thumb.jpg | 9.1 KB | 122023ba2bad... |
 
 ## Quick Start
 

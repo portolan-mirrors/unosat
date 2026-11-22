@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201111phl/tc20201111phl-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Philippines, 11 November 2020 (TC20201111PHL): 114 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201111phl-damage-sites.parquet | 11.5 KB | 12200e9d75df... |
 | ./tc20201111phl-damage-sites.pmtiles | 29.0 KB | 122061fc6d2a... |
 | ./styles/default.json | 956 B | 1220a0798bd7... |
+| ./tc20201111phl-damage-sites.thumb.jpg | 8.1 KB | 1220665692c9... |
 
 ## Quick Start
 

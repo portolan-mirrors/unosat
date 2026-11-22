@@ -266,7 +266,9 @@
       "file:checksum": "1220b85ed833cf954709a51cf6deccfd2de181d25a0a7ac3464aa130b1a810cb1aad",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI), one GeoParquet file with the source columns."
     },
     "tc20161003hti-damage-sites-tiles": {
       "href": "./tc20161003hti-damage-sites.pmtiles",
@@ -275,7 +277,9 @@
       "file:checksum": "122084593827c972c218432dd3d6cc49f83796cbfbdeaab8cf24da3e9a8bb95aa577",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -286,7 +290,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 948,
-      "file:checksum": "1220891b501ded175ba0c376a046b672d9a709f5480115f088d24fdcadc0978629d7"
+      "file:checksum": "1220891b501ded175ba0c376a046b672d9a709f5480115f088d24fdcadc0978629d7",
+      "description": "MapLibre style for Damage sites: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161003hti-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 26465,
+      "file:checksum": "1220d296c8ca48bf841dee0809cc9c5d8524e60f1c26d42b06f6e6e977c23cf69a40",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)."
     }
   }
 }

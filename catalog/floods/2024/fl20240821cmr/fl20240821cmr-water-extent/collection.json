@@ -274,7 +274,9 @@
       "file:checksum": "1220261c6ccb1b0fca3cf234ebd9bcd8b631ea68aa520dc6429813f17ff41e4bcec2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR), one GeoParquet file with the source columns."
     },
     "fl20240821cmr-water-extent-tiles": {
       "href": "./fl20240821cmr-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12202cb16afa86f4c5dda52ef05e1148c134021610750be5d9d682ca9fbe83fb3e87",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 994,
-      "file:checksum": "12200348875225b17e32a71c5ab98b079a0824ba8934e7d1fe32eb3104dce3991d45"
+      "file:checksum": "12200348875225b17e32a71c5ab98b079a0824ba8934e7d1fe32eb3104dce3991d45",
+      "description": "MapLibre style for Water extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20240821cmr-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14978,
+      "file:checksum": "1220abed97816fc1e837b7b951bf9adaac072b2984cfcc14f51571fa2c379f6ac848",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Cameroon, 21 August 2024 (FL20240821CMR)."
     }
   }
 }

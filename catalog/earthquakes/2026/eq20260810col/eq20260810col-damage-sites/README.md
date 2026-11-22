@@ -1,5 +1,5 @@
 # Damage sites: Earthquake, Colombia, 10 August 2026 (EQ20260810COL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260810col/eq20260810col-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Earthquake, Colombia, 10 August 2026 (EQ20260810COL): 3,105 features merged from 20 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20260810col-damage-sites.parquet | 43.1 KB | 12203f150b3f... |
 | ./eq20260810col-damage-sites.pmtiles | 90.2 KB | 1220c457802d... |
 | ./styles/default.json | 1.0 KB | 1220bc49d4b1... |
+| ./eq20260810col-damage-sites.thumb.jpg | 4.5 KB | 122070f7506d... |
 
 ## Quick Start
 

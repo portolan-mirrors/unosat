@@ -1,5 +1,5 @@
 # Analysis extent: Landslide, Indonesia, 18 November 2025 (LS20251118IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20251118idn/ls20251118idn-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Landslide, Indonesia, 18 November 2025 (LS20251118IDN): 6 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20251118idn-analysis-extent.parquet | 7.0 KB | 12202c3515e6... |
 | ./ls20251118idn-analysis-extent.pmtiles | 25.7 KB | 12203bea1b02... |
 | ./styles/default.json | 671 B | 1220c62be0e2... |
+| ./ls20251118idn-analysis-extent.thumb.jpg | 2.6 KB | 1220f9d41097... |
 
 ## Quick Start
 

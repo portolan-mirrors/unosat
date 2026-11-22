@@ -222,7 +222,9 @@
       "file:checksum": "1220350a8b88138a02d8748dfa04478b72fa499ba0061bacbbb7c5ce5015d19ba31e",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN), one GeoParquet file with the source columns."
     },
     "eq20180805idn-shelters-tiles": {
       "href": "./eq20180805idn-shelters.pmtiles",
@@ -231,7 +233,9 @@
       "file:checksum": "1220948c9c5d71a2ae7298a1e6d126b0c273033fa4a4e4da52da5340f97cbef01ec8",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -242,7 +246,19 @@
       ],
       "title": "Shelters by CampStatus",
       "file:size": 913,
-      "file:checksum": "1220df3395eed24dd2e3f828f5dcc52365656313a30d82f7e9781ac81223ecdb0ff6"
+      "file:checksum": "1220df3395eed24dd2e3f828f5dcc52365656313a30d82f7e9781ac81223ecdb0ff6",
+      "description": "MapLibre style for Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20180805idn-shelters.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 10206,
+      "file:checksum": "1220da34d5ffb211d859def35b8fffd0939c959218f093ccb0643c8c7a6ee7e55384",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelters: Earthquake, Indonesia, 5 August 2018 (EQ20180805IDN)."
     }
   }
 }

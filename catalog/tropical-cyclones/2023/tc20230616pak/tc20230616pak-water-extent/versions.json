@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "tc20230616pak-water-extent.parquet",
         "tc20230616pak-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:44:21.305284Z",
+      "breaking": false,
+      "assets": {
+        "tc20230616pak-water-extent.parquet": {
+          "sha256": "81753f64a92e816a37aae322bbc43890d7eac0e13c31c62365b4ba1da7bd4916",
+          "size_bytes": 370369,
+          "href": "tropical-cyclones/2023/tc20230616pak/tc20230616pak-water-extent/tc20230616pak-water-extent.parquet",
+          "source_path": "tc20230616pak-water-extent.parquet",
+          "source_mtime": 1795333514.1691868,
+          "mtime": 1795333514.1691868,
+          "feature_count": 2,
+          "schema_fingerprint": "501ecb13191ddad8"
+        },
+        "tc20230616pak-water-extent.pmtiles": {
+          "sha256": "81610e69c04ef90dbef1c7923a2c93016d4e37622adf0ba623b8564f488ccb30",
+          "size_bytes": 4276891,
+          "href": "tropical-cyclones/2023/tc20230616pak/tc20230616pak-water-extent/tc20230616pak-water-extent.pmtiles",
+          "mtime": 1795334309.4226828
+        },
+        "tc20230616pak-water-extent.thumb.jpg": {
+          "sha256": "d3b03159f77c6b9d592cf4f35c300d55ee22604f8e0c9f84b39007aa0962fe01",
+          "size_bytes": 18567,
+          "href": "tropical-cyclones/2023/tc20230616pak/tc20230616pak-water-extent/tc20230616pak-water-extent.thumb.jpg",
+          "mtime": 1795365861.2978508
+        }
+      },
+      "changes": [
+        "tc20230616pak-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: tc20230616pak-water-extent.thumb.jpg"
     }
   ]
 }

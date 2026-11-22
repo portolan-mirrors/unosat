@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Congo, 8 December 2021 (FL20211208COG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211208cog/fl20211208cog-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211208cog/fl20211208cog-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Congo, 8 December 2021 (FL20211208COG): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20211208cog-analysis-extent.parquet | 474.2 KB | 1220c7f82c83... |
 | ./fl20211208cog-analysis-extent.pmtiles | 8.6 MB | 12203c2cc239... |
 | ./styles/default.json | 671 B | 1220ef591ee3... |
+| ./fl20211208cog-analysis-extent.thumb.jpg | 27.3 KB | 1220c6c61495... |
 
 ## Quick Start
 

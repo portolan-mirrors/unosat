@@ -271,7 +271,9 @@
       "file:checksum": "12202b6f3d573a4a9b1aedab5e8e431144c442dd4a99500f3d01ebec14d3051e6b96",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP), one GeoParquet file with the source columns."
     },
     "fl20220119stp-analysis-extent-tiles": {
       "href": "./fl20220119stp-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "1220012445581d8193e5486ad1eae77274d9d78c7128dae7e04e5a5055a0eaccbb9a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220ffdfdb8fb4a6c7eb98ab3b72f5c5beb7732c1a1ad20dbf176f2b1a47c5cc2c14"
+      "file:checksum": "1220ffdfdb8fb4a6c7eb98ab3b72f5c5beb7732c1a1ad20dbf176f2b1a47c5cc2c14",
+      "description": "MapLibre style for Analysis extent: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220119stp-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11521,
+      "file:checksum": "1220e4fb4f6907d1a8c24984537577178d80b90737cad0daca3e4e1272dbd362e3aa",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Sao Tome and Principe, 19 January 2022 (FL20220119STP)."
     }
   }
 }

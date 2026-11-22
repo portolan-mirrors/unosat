@@ -253,7 +253,9 @@
       "file:checksum": "1220e5120fa7ce01ad168392f5f52f0b7ea57c9c2d1647d5c7c7792f40c09e32fab1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI), one GeoParquet file with the source columns."
     },
     "tc20230314mwi-analysis-extent-tiles": {
       "href": "./tc20230314mwi-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12203b6afa5937a07a465b241d8828f9113e46721f76c7892b505323f6c1d12f1332",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12209f719828ba8d761163e1b9b0ac08395d6aed95eb8b2f76ec0ca6497a55dd5e28"
+      "file:checksum": "12209f719828ba8d761163e1b9b0ac08395d6aed95eb8b2f76ec0ca6497a55dd5e28",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20230314mwi-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 14193,
+      "file:checksum": "1220e1bfed350b442c65f8dccc44f526e1a0fcffe9c661a55b0b0ec8729babbac202",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Malawi, 14 March 2023 (TC20230314MWI)."
     }
   }
 }

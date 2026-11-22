@@ -1,5 +1,5 @@
 # Landslides: Tropical Cyclone Maria. Inventory of landslides and flooded areas
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762/tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Landslides for Tropical Cyclone Maria. Inventory of landslides and flooded areas: 32,884 features merged from 2 source layers. Polygon layers whose names mention landslides, mudflows, or debris. The `source_layer` and `source_file` columns name the layer and file each row came from. The geometry is in EPSG:32620, the CRS of the source layers; the PMTiles copy is in Web Mercator.
 
@@ -46,6 +46,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.parquet | 16.9 MB | 12203d62d3be... |
 | ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.pmtiles | 4.3 MB | 12201d83496b... |
 | ./styles/default.json | 696 B | 122045091482... |
+| ./tropical-cyclone-maria-inventory-of-landslides-and-flooded-areas-2762-landslides.thumb.jpg | 25.4 KB | 1220fae31d3d... |
 
 ## Quick Start
 

@@ -282,7 +282,9 @@
       "file:checksum": "1220679eb18d15f3f8b446ebbebbdc520470c438ae48bb12996f0f707401422258e9",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE), one GeoParquet file with the source columns."
     },
     "ce20140715pse-damage-areas-tiles": {
       "href": "./ce20140715pse-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "1220986d5450ba6936bbc841fbe4887e00044e9b724f3682dcce7e2ff5b1c24a5fc2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 913,
-      "file:checksum": "122095590e3d6a94294615a2c78e1cef54f72faf05ef100bebc8ba91ffc87d278c0c"
+      "file:checksum": "122095590e3d6a94294615a2c78e1cef54f72faf05ef100bebc8ba91ffc87d278c0c",
+      "description": "MapLibre style for Damage areas: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20140715pse-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15710,
+      "file:checksum": "1220a8d799de62f857c45b25bbd905cd9d598bfa84d7d0f90cb9eb05a35f3fab7a69",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Complex emergency, State of Palestine, 15 July 2014 (CE20140715PSE)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage areas: Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20140207zwe/fl20140207zwe-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Flood, Zimbabwe, 7 February 2014 (FL20140207ZWE): 143 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20140207zwe-damage-areas.parquet | 31.3 KB | 1220fe95733b... |
 | ./fl20140207zwe-damage-areas.pmtiles | 97.5 KB | 1220a61f78cb... |
 | ./styles/default.json | 652 B | 1220b9e9f5e4... |
+| ./fl20140207zwe-damage-areas.thumb.jpg | 8.1 KB | 12201274a125... |
 
 ## Quick Start
 

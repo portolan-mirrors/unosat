@@ -1,5 +1,5 @@
 # Damage areas: Earthquake, Venezuela (Bolivarian Republic of), 25 June 2026 (EQ20260625VEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260625ven/eq20260625ven-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2026/eq20260625ven/eq20260625ven-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Earthquake, Venezuela (Bolivarian Republic of), 25 June 2026 (EQ20260625VEN): 25 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20260625ven-damage-areas.parquet | 11.1 KB | 12205f320133... |
 | ./eq20260625ven-damage-areas.pmtiles | 43.0 KB | 12202b6717d4... |
 | ./styles/default.json | 954 B | 122071c3bcc3... |
+| ./eq20260625ven-damage-areas.thumb.jpg | 3.0 KB | 1220a30d1762... |
 
 ## Quick Start
 

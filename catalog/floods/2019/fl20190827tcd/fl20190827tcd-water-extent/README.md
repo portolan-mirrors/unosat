@@ -1,5 +1,5 @@
 # Water extent: Flood, Chad, 27 August 2019 (FL20190827TCD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190827tcd/fl20190827tcd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190827tcd/fl20190827tcd-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Chad, 27 August 2019 (FL20190827TCD): 2,945 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20190827tcd-water-extent.parquet | 323.7 KB | 1220f10139d8... |
 | ./fl20190827tcd-water-extent.pmtiles | 482.4 KB | 1220d1af1847... |
 | ./styles/default.json | 652 B | 122060553fce... |
+| ./fl20190827tcd-water-extent.thumb.jpg | 8.9 KB | 1220b57c2d0d... |
 
 ## Quick Start
 

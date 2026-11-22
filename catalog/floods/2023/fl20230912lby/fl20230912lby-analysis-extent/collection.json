@@ -253,7 +253,9 @@
       "file:checksum": "122043c913493dc27b9ec9be839f304ce5a0feac1d64b35b792957e456ae0fa4194a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Libya, 12 September 2023 (FL20230912LBY), one GeoParquet file with the source columns."
     },
     "fl20230912lby-analysis-extent-tiles": {
       "href": "./fl20230912lby-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220a1ce5c08876b2fe31c689f091ff108784d1220dc6750fa71faf9df0951e52621",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Libya, 12 September 2023 (FL20230912LBY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220ff78818f173095d69d8ebc9e94b5d27f4b8ef71525cd69b852a10e524ce36785"
+      "file:checksum": "1220ff78818f173095d69d8ebc9e94b5d27f4b8ef71525cd69b852a10e524ce36785",
+      "description": "MapLibre style for Analysis extent: Flood, Libya, 12 September 2023 (FL20230912LBY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230912lby-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3737,
+      "file:checksum": "1220eefc959dcf9dc6e39eecab0c680a1d9b508eac66dfb33223c99adfce9b96f77e",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Libya, 12 September 2023 (FL20230912LBY)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Damage areas: Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20261020png/fr20261020png-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/fires/fr20261020png/fr20261020png-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Fire, Papua New Guinea, 20 October 2026 (FR20261020PNG): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -60,6 +60,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fr20261020png-damage-areas.parquet | 143.5 KB | 1220a3bd17ea... |
 | ./fr20261020png-damage-areas.pmtiles | 41.0 KB | 1220e7dc5b3d... |
 | ./styles/default.json | 652 B | 122018fc0df0... |
+| ./fr20261020png-damage-areas.thumb.jpg | 16.6 KB | 1220932d838f... |
 
 ## Quick Start
 

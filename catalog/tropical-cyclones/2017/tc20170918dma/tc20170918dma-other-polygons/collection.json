@@ -223,7 +223,9 @@
       "file:checksum": "12209a691398bf3f54a747c3b3bacfe8626dff1d6a81a3a612d260d6c188ad892e3c",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA), one GeoParquet file with the source columns."
     },
     "tc20170918dma-other-polygons-tiles": {
       "href": "./tc20170918dma-other-polygons.pmtiles",
@@ -232,7 +234,9 @@
       "file:checksum": "1220946df1b469c9d3973a94d285f44052c430529243bf648ca4b6dae3483842ac96",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -243,7 +247,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220c80915cfe1b0967ed5304d3d20a603c91980c99b288a23bff67c6476d7f1728b"
+      "file:checksum": "1220c80915cfe1b0967ed5304d3d20a603c91980c99b288a23bff67c6476d7f1728b",
+      "description": "MapLibre style for Other polygons: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20170918dma-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8584,
+      "file:checksum": "1220d76f7fe4147671fd75ee058b5130dbd22f396c5c041b59300542d4426be05320",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Tropical cyclone, Dominica, 18 September 2017 (TC20170918DMA)."
     }
   }
 }

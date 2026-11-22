@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Myanmar, 12 September 2024 (FL20240912MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2024/fl20240912mmr/fl20240912mmr-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Myanmar, 12 September 2024 (FL20240912MMR): 8 features merged from 8 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -51,6 +51,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20240912mmr-analysis-extent.parquet | 282.0 KB | 12209adebbf7... |
 | ./fl20240912mmr-analysis-extent.pmtiles | 1.8 MB | 1220e9ba5dad... |
 | ./styles/default.json | 671 B | 12209e3f6f4c... |
+| ./fl20240912mmr-analysis-extent.thumb.jpg | 13.1 KB | 12200b73544e... |
 
 ## Quick Start
 

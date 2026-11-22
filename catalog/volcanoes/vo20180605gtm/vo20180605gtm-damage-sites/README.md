@@ -1,5 +1,5 @@
 # Damage sites: Volcano, Guatemala, 5 June 2018 (VO20180605GTM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20180605gtm/vo20180605gtm-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/volcanoes/vo20180605gtm/vo20180605gtm-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Volcano, Guatemala, 5 June 2018 (VO20180605GTM): 901 features merged from 2 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./vo20180605gtm-damage-sites.parquet | 23.1 KB | 12208f0e7061... |
 | ./vo20180605gtm-damage-sites.pmtiles | 44.1 KB | 12208f2eb2fb... |
 | ./styles/default.json | 968 B | 1220cfe5be56... |
+| ./vo20180605gtm-damage-sites.thumb.jpg | 4.9 KB | 122008fceabe... |
 
 ## Quick Start
 

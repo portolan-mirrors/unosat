@@ -217,7 +217,9 @@
       "file:checksum": "12200670f5a31e31f3c3ba97c9d81b1ab1bd4ae4e17ad2377baf1533239c9c4e4e63",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN), one GeoParquet file with the source columns."
     },
     "eq20221121idn-analysis-extent-tiles": {
       "href": "./eq20221121idn-analysis-extent.pmtiles",
@@ -226,7 +228,9 @@
       "file:checksum": "1220278f49d07de04388dd2706c5c4c45e6721eadd92f5ced63c3d014ecb7c74cd44",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -237,7 +241,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12202fca7dc6e650cc381e74ca31407549e3d43742c202c6f0e9a13cf70e6214fa30"
+      "file:checksum": "12202fca7dc6e650cc381e74ca31407549e3d43742c202c6f0e9a13cf70e6214fa30",
+      "description": "MapLibre style for Analysis extent: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20221121idn-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11244,
+      "file:checksum": "12200b88caa5b5526e4b85e42816ceab1fbd99d7fe1a5d89cb55f4fd02e72eed4a39",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN)."
     }
   }
 }

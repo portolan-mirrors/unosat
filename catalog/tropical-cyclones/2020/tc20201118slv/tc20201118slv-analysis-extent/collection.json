@@ -229,7 +229,9 @@
       "file:checksum": "122016f2b669db5180f80b74f1caf845608ff785aaff3f6266a8b2a95088a7d4cc54",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV), one GeoParquet file with the source columns."
     },
     "tc20201118slv-analysis-extent-tiles": {
       "href": "./tc20201118slv-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122094899e13cd651cf84b84e532871adce154e5aee24e86a58af8a3c8504dab4304",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220c4dcd2556c91ecf4adaa48d5103ab37cc120de7afe543bbf4214394a7a526bfa"
+      "file:checksum": "1220c4dcd2556c91ecf4adaa48d5103ab37cc120de7afe543bbf4214394a7a526bfa",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20201118slv-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 8875,
+      "file:checksum": "12207cbf1e61081bc5d4d5e72af6fbb0704910381fdb37c6706580263935756d8bb2",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, El Salvador, 18 November 2020 (TC20201118SLV)."
     }
   }
 }

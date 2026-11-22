@@ -274,7 +274,9 @@
       "file:checksum": "122064af23c0bf413a47bd3e1908e682d98c4e909e9b04e14e7d642f841ea7e1ceee",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA), one GeoParquet file with the source columns."
     },
     "tc20220928tha-water-extent-tiles": {
       "href": "./tc20220928tha-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "122080a78108be84e18218711294e190d7df2056d27d28b6068e6cbd38ddbb04f43f",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "12201e687f45b6c94ff0bd2c05c17175d6d2934bec8e3b0059aae6a05a605e637696"
+      "file:checksum": "12201e687f45b6c94ff0bd2c05c17175d6d2934bec8e3b0059aae6a05a605e637696",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220928tha-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3870,
+      "file:checksum": "122082370537970c5a75257e7aa1cb653046ef0488ba6966ea8617ad68f81a6a1fcc",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)."
     }
   }
 }

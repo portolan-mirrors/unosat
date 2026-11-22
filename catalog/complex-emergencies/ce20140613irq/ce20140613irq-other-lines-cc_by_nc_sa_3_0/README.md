@@ -1,5 +1,5 @@
 # Other lines: Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20140613irq/ce20140613irq-other-lines-cc_by_nc_sa_3_0/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Complex emergency, Iraq, 13 June 2014 (CE20140613IRQ): 46 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -71,6 +71,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20140613irq-other-lines-cc_by_nc_sa_3_0.parquet | 18.3 KB | 122000f51375... |
 | ./ce20140613irq-other-lines-cc_by_nc_sa_3_0.pmtiles | 35.4 KB | 12204daff450... |
 | ./styles/default.json | 417 B | 1220ceeedb97... |
+| ./ce20140613irq-other-lines-cc_by_nc_sa_3_0.thumb.jpg | 5.1 KB | 122028508fca... |
 
 ## Quick Start
 

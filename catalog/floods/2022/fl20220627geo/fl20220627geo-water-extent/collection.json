@@ -274,7 +274,9 @@
       "file:checksum": "1220c384103e9d46753d4e46a9a90ec1695ac9c0765a8c46e4ad73961cd7a8a48d11",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Georgia, 27 June 2022 (FL20220627GEO), one GeoParquet file with the source columns."
     },
     "fl20220627geo-water-extent-tiles": {
       "href": "./fl20220627geo-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "1220fa9f92d17a9bd70852e3da138a70eabcb6609d1f9d9458e4ffd21bc1b7d3544e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Georgia, 27 June 2022 (FL20220627GEO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "1220736ae693aefcfc78da481793c6bab2d812677fc5f3ff5770cae700da1ea31a6a"
+      "file:checksum": "1220736ae693aefcfc78da481793c6bab2d812677fc5f3ff5770cae700da1ea31a6a",
+      "description": "MapLibre style for Water extent: Flood, Georgia, 27 June 2022 (FL20220627GEO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220627geo-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 18204,
+      "file:checksum": "12200ff3f71ac1b0e1afd5b6ac3233097d5139bfecdb341c2f61791b0fdd0be0c667",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Georgia, 27 June 2022 (FL20220627GEO)."
     }
   }
 }

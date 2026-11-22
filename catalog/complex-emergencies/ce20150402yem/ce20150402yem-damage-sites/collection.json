@@ -262,7 +262,9 @@
       "file:checksum": "12208179c59a58847f29c74b1177721787eeaaf28280c59e00ddb54f7eb1e72ddfb1",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Complex emergency, Yemen, 2 April 2015 (CE20150402YEM), one GeoParquet file with the source columns."
     },
     "ce20150402yem-damage-sites-tiles": {
       "href": "./ce20150402yem-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "12200d253ea84cb0f877b1733a926f53a9c87e137769d6bdeb1256ad46846d8de4e6",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Complex emergency, Yemen, 2 April 2015 (CE20150402YEM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 1229,
-      "file:checksum": "12206bc59a977d3c04a03f0c63c4aee177301aa459f037ff25eba333a6b85032dc4e"
+      "file:checksum": "12206bc59a977d3c04a03f0c63c4aee177301aa459f037ff25eba333a6b85032dc4e",
+      "description": "MapLibre style for Damage sites: Complex emergency, Yemen, 2 April 2015 (CE20150402YEM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20150402yem-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2892,
+      "file:checksum": "12205dd9933ee0ba0198f7bc011a2ab21d7f806c726a9fe95e9dfaaa8d7dbef971c7",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Complex emergency, Yemen, 2 April 2015 (CE20150402YEM)."
     }
   }
 }

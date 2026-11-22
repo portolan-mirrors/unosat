@@ -253,7 +253,9 @@
       "file:checksum": "12206132a2df6b623919933fecc802eec7f6a689aff759136344292518ee19184529",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Haiti, 24 April 2017 (FL20170424HTI), one GeoParquet file with the source columns."
     },
     "fl20170424hti-analysis-extent-tiles": {
       "href": "./fl20170424hti-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220dc6febbc6a7af77c76ca991275fd3712c00ce912518c6db437160ad17c583a8d",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Haiti, 24 April 2017 (FL20170424HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12201fed7be286365358b12c47a3f369af738ffe2fec8eabc52313b509a4124c8bd1"
+      "file:checksum": "12201fed7be286365358b12c47a3f369af738ffe2fec8eabc52313b509a4124c8bd1",
+      "description": "MapLibre style for Analysis extent: Flood, Haiti, 24 April 2017 (FL20170424HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20170424hti-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11299,
+      "file:checksum": "1220e0dbac0da9e5382618c78c6770e4c795736ff6802e5276a3f1a86f5533beb1bd",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Haiti, 24 April 2017 (FL20170424HTI)."
     }
   }
 }

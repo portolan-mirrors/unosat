@@ -282,7 +282,9 @@
       "file:checksum": "1220d20bbf58f047849cd39a3565fd968a75e5a203776542f94480b22562e034138b",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage areas: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD), one GeoParquet file with the source columns."
     },
     "fl20230508cod-damage-areas-tiles": {
       "href": "./fl20230508cod-damage-areas.pmtiles",
@@ -291,7 +293,9 @@
       "file:checksum": "12209bda48cd21fa7feb6dddcef79efa434d5a34dbaaf91080eef3b7e26d7950da17",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage areas: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -302,7 +306,19 @@
       ],
       "title": "Damage areas by Main_Damage_Site_Class",
       "file:size": 907,
-      "file:checksum": "12202d504807415d89985fbcb91a4923396942325d244dda4f4b13f4e725d95fa2db"
+      "file:checksum": "12202d504807415d89985fbcb91a4923396942325d244dda4f4b13f4e725d95fa2db",
+      "description": "MapLibre style for Damage areas: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230508cod-damage-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 19383,
+      "file:checksum": "12207d771ecbdcbe2789ef385b7db6218f37c6710d483e3efd27979a43d92508547a",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage areas: Flood, Democratic Republic of the Congo, 8 May 2023 (FL20230508COD)."
     }
   }
 }

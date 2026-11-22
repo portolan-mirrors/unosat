@@ -182,7 +182,9 @@
       "file:checksum": "1220e5901fb7c7591ef707f3822960b30d5c9ed9a77324ac9f36b60f5fccffa93cde",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Event, Sudan, 9 July 2014 (RC20140709SDN), one GeoParquet file with the source columns."
     },
     "rc20140709sdn-other-lines-tiles": {
       "href": "./rc20140709sdn-other-lines.pmtiles",
@@ -191,7 +193,9 @@
       "file:checksum": "12202bd1bbcbdd2bf2a186af55c7419941934c0d0f1411e1445e5a57f5398eb34ec2",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Event, Sudan, 9 July 2014 (RC20140709SDN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -202,7 +206,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "1220b767c6343ca66ea8b797a3e2a32d2f5cc3dd0eecb246d863d7887ab2e9b38272"
+      "file:checksum": "1220b767c6343ca66ea8b797a3e2a32d2f5cc3dd0eecb246d863d7887ab2e9b38272",
+      "description": "MapLibre style for Other lines: Event, Sudan, 9 July 2014 (RC20140709SDN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./rc20140709sdn-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4167,
+      "file:checksum": "12209e766f6e71b2778f3d60b57f8a32da488026d5e821df85a5165c986c2030b764",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Event, Sudan, 9 July 2014 (RC20140709SDN)."
     }
   }
 }

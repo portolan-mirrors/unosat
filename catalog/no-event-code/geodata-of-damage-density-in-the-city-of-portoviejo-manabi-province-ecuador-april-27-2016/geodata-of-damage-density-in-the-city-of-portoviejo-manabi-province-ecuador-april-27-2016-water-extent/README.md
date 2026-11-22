@@ -1,5 +1,5 @@
 # Water extent: Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/no-event-code/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016/geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Geodata of Damage Density in the City of Portoviejo, Manabi Province, Ecuador: 6,056 features merged from 2 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -57,6 +57,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent.parquet | 1.9 MB | 1220c11e9f79... |
 | ./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent.pmtiles | 1.4 MB | 1220af1ee757... |
 | ./styles/default.json | 977 B | 12202a13fcc7... |
+| ./geodata-of-damage-density-in-the-city-of-portoviejo-manabi-province-ecuador-april-27-2016-water-extent.thumb.jpg | 15.4 KB | 1220983752b9... |
 
 ## Quick Start
 

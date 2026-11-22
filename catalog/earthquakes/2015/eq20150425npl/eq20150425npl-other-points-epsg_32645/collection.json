@@ -239,7 +239,9 @@
       "proj:code": "EPSG:32645",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other points: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL), one GeoParquet file with the source columns."
     },
     "eq20150425npl-other-points-epsg_32645-tiles": {
       "href": "./eq20150425npl-other-points-epsg_32645.pmtiles",
@@ -248,7 +250,9 @@
       "file:checksum": "122011475a3ca9c5997eb8cfff69794a42ce4213accebf0c824c897526e13a8da2a3",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other points: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -259,7 +263,19 @@
       ],
       "title": "Other points",
       "file:size": 706,
-      "file:checksum": "12209ffc9c89d6c4ae5aa06c4e152aeee0c4ffc3bdf12f400a2ff224ebf084095d9b"
+      "file:checksum": "12209ffc9c89d6c4ae5aa06c4e152aeee0c4ffc3bdf12f400a2ff224ebf084095d9b",
+      "description": "MapLibre style for Other points: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20150425npl-other-points-epsg_32645.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15503,
+      "file:checksum": "12207ef6af76b4c5906ef2a192a47889ded3a44d4171a6b31be3167a9f00323fea10",
+      "title": "Thumbnail",
+      "description": "Preview image of Other points: Earthquake, Nepal, 25 April 2015 (EQ20150425NPL)."
     }
   }
 }

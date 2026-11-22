@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220311moz/tc20220311moz-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2022/tc20220311moz/tc20220311moz-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Mozambique, 11 March 2022 (TC20220311MOZ): 12 features merged from 12 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -64,6 +64,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20220311moz-water-extent.parquet | 92.4 MB | 1220494b4b1d... |
 | ./tc20220311moz-water-extent.pmtiles | 14.9 MB | 1220498b3f21... |
 | ./styles/default.json | 972 B | 12201077714a... |
+| ./tc20220311moz-water-extent.thumb.jpg | 13.6 KB | 12206675e914... |
 
 ## Quick Start
 

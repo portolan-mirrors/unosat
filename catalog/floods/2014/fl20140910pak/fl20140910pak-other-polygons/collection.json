@@ -229,7 +229,9 @@
       "file:checksum": "122065be3e97d3363ea3cfc2a8ad0009bfe71be62415dce0228bd5242ad0b76ada84",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Flood, Pakistan, 10 September 2014 (FL20140910PAK), one GeoParquet file with the source columns."
     },
     "fl20140910pak-other-polygons-tiles": {
       "href": "./fl20140910pak-other-polygons.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "12208096aaed5d5ebc17c6ce56b1d0b73e4bbf3ce541f707ee49a52f642fc1aa4e6e",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Flood, Pakistan, 10 September 2014 (FL20140910PAK) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Other polygons",
       "file:size": 664,
-      "file:checksum": "1220ef7f092488090f3ac0721f717fd1b34b3d048c6c1d32fc4b8296c457d3fde65e"
+      "file:checksum": "1220ef7f092488090f3ac0721f717fd1b34b3d048c6c1d32fc4b8296c457d3fde65e",
+      "description": "MapLibre style for Other polygons: Flood, Pakistan, 10 September 2014 (FL20140910PAK); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20140910pak-other-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7470,
+      "file:checksum": "1220b7d906e89e4645dac99ac8fee0b7f80f89031b944d43848c749aa2c67cc33963",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Flood, Pakistan, 10 September 2014 (FL20140910PAK)."
     }
   }
 }

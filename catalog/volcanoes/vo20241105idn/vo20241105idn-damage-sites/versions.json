@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "vo20241105idn-damage-sites.parquet",
         "vo20241105idn-damage-sites.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T16:51:44.730074Z",
+      "breaking": false,
+      "assets": {
+        "vo20241105idn-damage-sites.parquet": {
+          "sha256": "3eb2a18235d700a2cc38e5cc541b350f200d92392dc8cd271e212846ecff503a",
+          "size_bytes": 327131,
+          "href": "volcanoes/vo20241105idn/vo20241105idn-damage-sites/vo20241105idn-damage-sites.parquet",
+          "source_path": "vo20241105idn-damage-sites.parquet",
+          "source_mtime": 1795333545.3527808,
+          "mtime": 1795333545.3527808,
+          "feature_count": 18164,
+          "schema_fingerprint": "62e5bf64d6291ba1"
+        },
+        "vo20241105idn-damage-sites.pmtiles": {
+          "sha256": "2ca1bfee051a856441806bbe35bd0902a6402baf985e4ca18076c19ea0213a07",
+          "size_bytes": 344525,
+          "href": "volcanoes/vo20241105idn/vo20241105idn-damage-sites/vo20241105idn-damage-sites.pmtiles",
+          "mtime": 1795334332.6573796
+        },
+        "vo20241105idn-damage-sites.thumb.jpg": {
+          "sha256": "ea96f622031ae1cc11648d8a2f12711bdca6a83e7b0cb287355fa5bea800be23",
+          "size_bytes": 28248,
+          "href": "volcanoes/vo20241105idn/vo20241105idn-damage-sites/vo20241105idn-damage-sites.thumb.jpg",
+          "mtime": 1795366304.717788
+        }
+      },
+      "changes": [
+        "vo20241105idn-damage-sites.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: vo20241105idn-damage-sites.thumb.jpg"
     }
   ]
 }

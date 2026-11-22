@@ -1,5 +1,5 @@
 # Water extent: Flood, Guyana, 17 August 2021 (FL20210817GUY)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210817guy/fl20210817guy-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20210817guy/fl20210817guy-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Guyana, 17 August 2021 (FL20210817GUY): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20210817guy-water-extent.parquet | 34.6 KB | 1220a60456cf... |
 | ./fl20210817guy-water-extent.pmtiles | 344.8 KB | 122086ad0d24... |
 | ./styles/default.json | 887 B | 1220dabb71cd... |
+| ./fl20210817guy-water-extent.thumb.jpg | 18.5 KB | 12206ee13570... |
 
 ## Quick Start
 

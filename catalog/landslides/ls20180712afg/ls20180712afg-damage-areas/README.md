@@ -1,5 +1,5 @@
 # Damage areas: Landslide, Afghanistan, 12 July 2018 (LS20180712AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/landslides/ls20180712afg/ls20180712afg-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Landslide, Afghanistan, 12 July 2018 (LS20180712AFG): 1 features merged from 1 source layer. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -50,6 +50,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ls20180712afg-damage-areas.parquet | 30.4 KB | 122022b534c5... |
 | ./ls20180712afg-damage-areas.pmtiles | 33.2 KB | 1220e951de61... |
 | ./styles/default.json | 883 B | 122069e97f60... |
+| ./ls20180712afg-damage-areas.thumb.jpg | 12.1 KB | 122089eeec30... |
 
 ## Quick Start
 

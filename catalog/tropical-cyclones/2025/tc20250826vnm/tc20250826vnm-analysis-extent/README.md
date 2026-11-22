@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250826vnm/tc20250826vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250826vnm/tc20250826vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Viet Nam, 26 August 2025 (TC20250826VNM): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250826vnm-analysis-extent.parquet | 304.4 KB | 1220f4c8e3e0... |
 | ./tc20250826vnm-analysis-extent.pmtiles | 488.2 KB | 12205aa3e6eb... |
 | ./styles/default.json | 671 B | 1220a944cdd7... |
+| ./tc20250826vnm-analysis-extent.thumb.jpg | 8.9 KB | 1220c5d389b1... |
 
 ## Quick Start
 

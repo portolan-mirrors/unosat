@@ -1,5 +1,5 @@
 # Other lines: Event, South Sudan, 11 May 2013 (OT20130511SSD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/ot20130511ssd/ot20130511ssd-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Event, South Sudan, 11 May 2013 (OT20130511SSD): 102 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -76,6 +76,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ot20130511ssd-other-lines.parquet | 86.3 KB | 122056f7752f... |
 | ./ot20130511ssd-other-lines.pmtiles | 71.1 KB | 1220ddb0cc29... |
 | ./styles/default.json | 401 B | 122022600387... |
+| ./ot20130511ssd-other-lines.thumb.jpg | 2.6 KB | 122078bf84d1... |
 
 ## Quick Start
 

@@ -32,4 +32,4 @@ import geopandas as gpd
 gdf = gpd.read_parquet('https://data.source.coop/portolan-mirrors/unosat/floods/2014/fl20141230lka/fl20141230lka-water-extent/fl20141230lka-water-extent.parquet')
 ```
 
-The [data browser](https://source.coop/portolan-mirrors/unosat) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.
+The [data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2014/fl20141230lka/fl20141230lka-water-extent/collection.json) shows the map, schema, and license. The event's other collections are siblings in the parent catalog.

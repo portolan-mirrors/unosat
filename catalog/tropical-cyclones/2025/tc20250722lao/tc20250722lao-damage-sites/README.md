@@ -1,5 +1,5 @@
 # Damage sites: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2025/tc20250722lao/tc20250722lao-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO): 970 features merged from 1 source layer. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -56,6 +56,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20250722lao-damage-sites.parquet | 43.8 KB | 122028f33fd7... |
 | ./tc20250722lao-damage-sites.pmtiles | 92.5 KB | 12207f379b83... |
 | ./styles/default.json | 947 B | 1220bb393f4f... |
+| ./tc20250722lao-damage-sites.thumb.jpg | 8.3 KB | 122079a5007e... |
 
 ## Quick Start
 

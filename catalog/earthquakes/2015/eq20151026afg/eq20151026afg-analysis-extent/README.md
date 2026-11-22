@@ -1,5 +1,5 @@
 # Analysis extent: Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/eq20151026afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2015/eq20151026afg/eq20151026afg-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Earthquake, Afghanistan, Pakistan, 26 October 2015 (EQ20151026AFG): 70 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20151026afg-analysis-extent.parquet | 49.7 KB | 12200e4e835c... |
 | ./eq20151026afg-analysis-extent.pmtiles | 99.2 KB | 1220f0ee166f... |
 | ./styles/default.json | 671 B | 1220a76d3eda... |
+| ./eq20151026afg-analysis-extent.thumb.jpg | 3.0 KB | 1220ee987e45... |
 
 ## Quick Start
 

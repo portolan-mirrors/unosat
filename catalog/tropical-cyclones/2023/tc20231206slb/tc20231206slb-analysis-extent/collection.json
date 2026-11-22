@@ -288,7 +288,9 @@
       "file:checksum": "122081a216ac8c1b4a25a76b0e2e6fdf39d28559c3238d98165871044bffdbfef020",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB), one GeoParquet file with the source columns."
     },
     "tc20231206slb-analysis-extent-tiles": {
       "href": "./tc20231206slb-analysis-extent.pmtiles",
@@ -297,7 +299,9 @@
       "file:checksum": "12200209c1db90c172dd34508c6f622c55eb9f1154b3228037b79fbf110ee4a592ce",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -308,7 +312,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220138369dd4e148435ed5d1b6c514531c33c57ba58e0bc80cb1a664895d61447eb"
+      "file:checksum": "1220138369dd4e148435ed5d1b6c514531c33c57ba58e0bc80cb1a664895d61447eb",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20231206slb-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 5627,
+      "file:checksum": "122061df5623f74105ee48b194e9e984b59c586bcb05faafbb9021188b28eabcf5ea",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Solomon Islands, 6 December 2023 (TC20231206SLB)."
     }
   }
 }

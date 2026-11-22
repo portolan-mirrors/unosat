@@ -1,5 +1,5 @@
 # Other lines: Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2019/eq20190924pak/eq20190924pak-other-lines/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other lines for Earthquake, Pakistan, 24 September 2019 (EQ20190924PAK): 63 features merged from 1 source layer. Lines layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -75,6 +75,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20190924pak-other-lines.parquet | 17.3 KB | 1220b01b564d... |
 | ./eq20190924pak-other-lines.pmtiles | 30.4 KB | 12208d1317e2... |
 | ./styles/default.json | 401 B | 12203a075366... |
+| ./eq20190924pak-other-lines.thumb.jpg | 24.1 KB | 1220d177e87b... |
 
 ## Quick Start
 

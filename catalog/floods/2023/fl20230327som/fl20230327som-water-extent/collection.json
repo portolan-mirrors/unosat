@@ -274,7 +274,9 @@
       "file:checksum": "1220b6ccad099f429f4f32b197a1486d3a291b46099997cec049309c50a9efa41ba6",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM), one GeoParquet file with the source columns."
     },
     "fl20230327som-water-extent-tiles": {
       "href": "./fl20230327som-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12206cd679baecd67e306a61de1e30622a75e120818b13b82549fb1b65816a11aa95",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 972,
-      "file:checksum": "12206908eb1075022b18c8f683257197837423a290c18bfd70526d348f7a08dd24e7"
+      "file:checksum": "12206908eb1075022b18c8f683257197837423a290c18bfd70526d348f7a08dd24e7",
+      "description": "MapLibre style for Water extent: Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20230327som-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 27310,
+      "file:checksum": "122088a24878ba7809a3a49a6b57259cacabc2b2a441fb5e714d60fc08a3ba00eccf",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Ethiopia, Somalia, 27 March 2023 (FL20230327SOM)."
     }
   }
 }

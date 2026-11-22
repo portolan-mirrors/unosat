@@ -1,5 +1,5 @@
 # Damage areas: Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/earthquakes/2022/eq20221121idn/eq20221121idn-damage-areas/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage areas for Earthquake, Indonesia, 21 November 2022 (EQ20221121IDN): 12 features merged from 3 source layers. Polygon layers with a damage class column: damaged areas, zones, or density cells. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -62,6 +62,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./eq20221121idn-damage-areas.parquet | 22.5 KB | 1220319cc0f7... |
 | ./eq20221121idn-damage-areas.pmtiles | 31.2 KB | 1220ac837a9e... |
 | ./styles/default.json | 911 B | 1220248cccbb... |
+| ./eq20221121idn-damage-areas.thumb.jpg | 5.6 KB | 1220a73de646... |
 
 ## Quick Start
 

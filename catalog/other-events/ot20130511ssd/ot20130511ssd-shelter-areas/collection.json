@@ -293,7 +293,9 @@
       "file:checksum": "1220eeb67679eab415331ccb4c271a847c360e5a37e15f587e15ddbecf2cbf7c9098",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Shelter areas: Event, South Sudan, 11 May 2013 (OT20130511SSD), one GeoParquet file with the source columns."
     },
     "ot20130511ssd-shelter-areas-tiles": {
       "href": "./ot20130511ssd-shelter-areas.pmtiles",
@@ -302,7 +304,9 @@
       "file:checksum": "12204e28866ab8cab707f3c1ffbe884edba67487050cf21958b45a4e8ebd18bdc910",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Shelter areas: Event, South Sudan, 11 May 2013 (OT20130511SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -313,7 +317,19 @@
       ],
       "title": "Shelter areas by CampType",
       "file:size": 871,
-      "file:checksum": "12203a227d213442aa0eea42605067af8101120ce5a44821ea50b6f1048ca653bb6b"
+      "file:checksum": "12203a227d213442aa0eea42605067af8101120ce5a44821ea50b6f1048ca653bb6b",
+      "description": "MapLibre style for Shelter areas: Event, South Sudan, 11 May 2013 (OT20130511SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ot20130511ssd-shelter-areas.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 2600,
+      "file:checksum": "12200692f9e980c454d3bb75d78cfb5c31470c211375862fd351f7c595be0b9878ad",
+      "title": "Thumbnail",
+      "description": "Preview image of Shelter areas: Event, South Sudan, 11 May 2013 (OT20130511SSD)."
     }
   }
 }

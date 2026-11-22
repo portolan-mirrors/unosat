@@ -253,7 +253,9 @@
       "file:checksum": "1220ce123b711ebd7d3978202d2a343f26803b2c87c8e6837d8b24fe43d40f386272",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI), one GeoParquet file with the source columns."
     },
     "tc20161003hti-analysis-extent-tiles": {
       "href": "./tc20161003hti-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "1220b5e6629119f14cd81e933f43206ee2ffcadeb806c7c303dace6bc849ccc43118",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220354c083d90e92e557bed0c04e7292a0c83bd6bf68b6cfcbb852a670c95e68a52"
+      "file:checksum": "1220354c083d90e92e557bed0c04e7292a0c83bd6bf68b6cfcbb852a670c95e68a52",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20161003hti-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 11732,
+      "file:checksum": "1220d39890a05962feeed804087ee94f282f852a1bf58cb4ea830f1b728aef790bb9",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Cuba, Dominican Republic, Haiti and 1 more, 3 October 2016 (TC20161003HTI)."
     }
   }
 }

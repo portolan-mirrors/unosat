@@ -1,5 +1,5 @@
 # Other polygons: Event, State of Palestine, 7 January 2015 (ST20150107PSE)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/st20150107pse/st20150107pse-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/other-events/st20150107pse/st20150107pse-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Event, State of Palestine, 7 January 2015 (ST20150107PSE): 2,784 features merged from 3 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -43,6 +43,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./st20150107pse-other-polygons.parquet | 530.9 KB | 12208ca893c2... |
 | ./st20150107pse-other-polygons.pmtiles | 5.0 MB | 1220c349b147... |
 | ./styles/default.json | 664 B | 1220e3163533... |
+| ./st20150107pse-other-polygons.thumb.jpg | 12.7 KB | 12205cbaec9d... |
 
 ## Quick Start
 

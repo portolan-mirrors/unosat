@@ -1,5 +1,5 @@
 # Water extent: Flood, Kenya, 21 March 2023 (FL20230321KEN)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230321ken/fl20230321ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2023/fl20230321ken/fl20230321ken-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Kenya, 21 March 2023 (FL20230321KEN): 1 features merged from 1 source layer. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20230321ken-water-extent.parquet | 82.4 KB | 122025deec55... |
 | ./fl20230321ken-water-extent.pmtiles | 54.7 KB | 1220a040aef3... |
 | ./styles/default.json | 926 B | 12202e5e9416... |
+| ./fl20230321ken-water-extent.thumb.jpg | 38.3 KB | 1220de187999... |
 
 ## Quick Start
 

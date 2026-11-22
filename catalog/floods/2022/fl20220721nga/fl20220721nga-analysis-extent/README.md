@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Nigeria, 21 July 2022 (FL20220721NGA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220721nga/fl20220721nga-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220721nga/fl20220721nga-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Nigeria, 21 July 2022 (FL20220721NGA): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220721nga-analysis-extent.parquet | 4.8 KB | 12204038d479... |
 | ./fl20220721nga-analysis-extent.pmtiles | 41.9 KB | 12205869038f... |
 | ./styles/default.json | 671 B | 1220d23653bc... |
+| ./fl20220721nga-analysis-extent.thumb.jpg | 6.9 KB | 12205abffb23... |
 
 ## Quick Start
 

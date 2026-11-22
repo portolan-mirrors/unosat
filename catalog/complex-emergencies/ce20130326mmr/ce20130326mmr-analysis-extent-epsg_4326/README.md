@@ -1,5 +1,5 @@
 # Analysis extent: Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/complex-emergencies/ce20130326mmr/ce20130326mmr-analysis-extent-epsg_4326/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Complex emergency, Myanmar, 26 March 2013 (CE20130326MMR): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -45,6 +45,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./ce20130326mmr-analysis-extent-epsg_4326.parquet | 5.4 KB | 12204a404078... |
 | ./ce20130326mmr-analysis-extent-epsg_4326.pmtiles | 100.9 KB | 122058fbb924... |
 | ./styles/default.json | 681 B | 1220415fc25d... |
+| ./ce20130326mmr-analysis-extent-epsg_4326.thumb.jpg | 8.9 KB | 12201b91458d... |
 
 ## Quick Start
 

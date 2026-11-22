@@ -197,7 +197,9 @@
       "file:checksum": "12201fa924abf1ce81b9e4e6da104f7cf48930631eb9524020ab066881376cec4ff2",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Affected structures polygons: Damage Assessment in Anguilla Island as of 8 September 2017, one GeoParquet file with the source columns."
     },
     "damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons-tiles": {
       "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons.pmtiles",
@@ -206,7 +208,9 @@
       "file:checksum": "1220367b93f9b205476c0cbc5cd3e071399f69013bfeb59160b24bdcab050005f191",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Affected structures polygons: Damage Assessment in Anguilla Island as of 8 September 2017 for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -217,7 +221,19 @@
       ],
       "title": "Affected structures polygons",
       "file:size": 794,
-      "file:checksum": "1220972d2e22c3b462c8c1ec0128b9ef4b6ac08bd80a5e8f52b187394df944c5acdd"
+      "file:checksum": "1220972d2e22c3b462c8c1ec0128b9ef4b6ac08bd80a5e8f52b187394df944c5acdd",
+      "description": "MapLibre style for Affected structures polygons: Damage Assessment in Anguilla Island as of 8 September 2017; it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./damage-assessment-in-anguilla-island-as-of-8-september-2017-affected-structures-polygons.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7682,
+      "file:checksum": "122017449fc73d492a76835099aa2db3bc20eaa5a31f2a25ae273317f2cc0cf6dd01",
+      "title": "Thumbnail",
+      "description": "Preview image of Affected structures polygons: Damage Assessment in Anguilla Island as of 8 September 2017."
     }
   }
 }

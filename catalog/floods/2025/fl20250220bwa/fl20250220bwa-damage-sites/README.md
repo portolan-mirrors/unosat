@@ -1,5 +1,5 @@
 # Damage sites: Flood, Botswana, 20 February 2025 (FL20250220BWA)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250220bwa/fl20250220bwa-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250220bwa/fl20250220bwa-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Botswana, 20 February 2025 (FL20250220BWA): 3,885 features merged from 5 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -58,6 +58,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250220bwa-damage-sites.parquet | 45.6 KB | 1220577ca0f0... |
 | ./fl20250220bwa-damage-sites.pmtiles | 147.0 KB | 1220d1311322... |
 | ./styles/default.json | 957 B | 122051e2cc02... |
+| ./fl20250220bwa-damage-sites.thumb.jpg | 7.9 KB | 1220dc9db476... |
 
 ## Quick Start
 

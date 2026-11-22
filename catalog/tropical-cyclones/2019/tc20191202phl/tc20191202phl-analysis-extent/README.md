@@ -1,5 +1,5 @@
 # Analysis extent: Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20191202phl/tc20191202phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2019/tc20191202phl/tc20191202phl-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Tropical cyclone, Philippines, 2 December 2019 (TC20191202PHL): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20191202phl-analysis-extent.parquet | 4.8 KB | 122092cbf0ab... |
 | ./tc20191202phl-analysis-extent.pmtiles | 20.3 KB | 122056e9f18f... |
 | ./styles/default.json | 671 B | 1220c0f8bd63... |
+| ./tc20191202phl-analysis-extent.thumb.jpg | 7.2 KB | 12202ba6c462... |
 
 ## Quick Start
 

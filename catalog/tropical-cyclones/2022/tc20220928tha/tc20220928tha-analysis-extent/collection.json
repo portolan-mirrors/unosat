@@ -229,7 +229,9 @@
       "file:checksum": "12207c763a0910b8ee4a0af09090425c1da2d9de0d2e3d3ac6be241f3f1997e5442a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA), one GeoParquet file with the source columns."
     },
     "tc20220928tha-analysis-extent-tiles": {
       "href": "./tc20220928tha-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "122015a4ac1cd26134901c01ac8ef477a614ed8a0b120d4c8cb6abaa51758e0bf5e0",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220ab6b94fefa3ee91d2f1ff42fe3d7168e3c1844359e8ffb53f79ec26c0e8c10e5"
+      "file:checksum": "1220ab6b94fefa3ee91d2f1ff42fe3d7168e3c1844359e8ffb53f79ec26c0e8c10e5",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20220928tha-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 3358,
+      "file:checksum": "12205ab8e21af50e823e0fa2632ff00cf29897bafc150ec2a01d7b7cb9f964e9d74f",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Thailand, 28 September 2022 (TC20220928THA)."
     }
   }
 }

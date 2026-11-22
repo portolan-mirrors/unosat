@@ -1,5 +1,5 @@
 # Other polygons: Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20200403vut/tc20200403vut-other-polygons/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Other polygons for Tropical cyclone, Vanuatu, 3 April 2020 (TC20200403VUT): 1,366 features merged from 9 source layers. Polygons layers that match none of the named groups. The source layer names below say what each holds. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -78,6 +78,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20200403vut-other-polygons.parquet | 2.7 MB | 122037b1d02f... |
 | ./tc20200403vut-other-polygons.pmtiles | 2.0 MB | 12209ae2bf60... |
 | ./styles/default.json | 664 B | 1220cfd90593... |
+| ./tc20200403vut-other-polygons.thumb.jpg | 8.1 KB | 12208d19c74f... |
 
 ## Quick Start
 

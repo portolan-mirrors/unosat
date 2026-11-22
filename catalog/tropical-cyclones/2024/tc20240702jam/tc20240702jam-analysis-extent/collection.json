@@ -229,7 +229,9 @@
       "file:checksum": "122016a2cc9a653018f51f6af61d4b15bc54a5da6f0ffa07dab0efe28234b5659b02",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM), one GeoParquet file with the source columns."
     },
     "tc20240702jam-analysis-extent-tiles": {
       "href": "./tc20240702jam-analysis-extent.pmtiles",
@@ -238,7 +240,9 @@
       "file:checksum": "1220c609ea121613459c0902cdfe03a2e3cd9ebe84b3e6b4e4257767e940dd681bdd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -249,7 +253,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "12206577e03890c600328104daf30505dd6ec7b2037b554ac65355d2dc21b043bc7a"
+      "file:checksum": "12206577e03890c600328104daf30505dd6ec7b2037b554ac65355d2dc21b043bc7a",
+      "description": "MapLibre style for Analysis extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20240702jam-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9797,
+      "file:checksum": "1220816aebe66f3a7fa8c96521fff1654b008af34598b2c0b5210c6a7ca2e23f3774",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Tropical cyclone, Anguilla, Antigua and Barbuda, Barbados and 16 more, 2 July 2024 (TC20240702JAM)."
     }
   }
 }

@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190905lao/fl20190905lao-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20190905lao/fl20190905lao-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Lao People's Democratic Republic, 5 September 2019 (FL20190905LAO): 6 features merged from 6 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -53,6 +53,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20190905lao-analysis-extent.parquet | 273.9 KB | 12206172aa99... |
 | ./fl20190905lao-analysis-extent.pmtiles | 807.1 KB | 122029c5c2d6... |
 | ./styles/default.json | 671 B | 122098b93f39... |
+| ./fl20190905lao-analysis-extent.thumb.jpg | 12.3 KB | 1220b98105a8... |
 
 ## Quick Start
 

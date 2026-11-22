@@ -198,7 +198,9 @@
       "file:checksum": "12205d3300cad1e705c31c99c8e83f2f07bf201480b793fb4687211f2113c1278595",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, Kenya, 8 May 2018 (FL20180508KEN), one GeoParquet file with the source columns."
     },
     "fl20180508ken-analysis-extent-tiles": {
       "href": "./fl20180508ken-analysis-extent.pmtiles",
@@ -207,7 +209,9 @@
       "file:checksum": "12203936ccc78ce2c50200a9add931d4ca3bc5c1f4ca2b88b2d340397a63a46532c7",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, Kenya, 8 May 2018 (FL20180508KEN) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -218,7 +222,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122055a3d0dbea93271af68190caec886e6c206ddf4212da18b7f379e8a33c044ac5"
+      "file:checksum": "122055a3d0dbea93271af68190caec886e6c206ddf4212da18b7f379e8a33c044ac5",
+      "description": "MapLibre style for Analysis extent: Flood, Kenya, 8 May 2018 (FL20180508KEN); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20180508ken-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 6457,
+      "file:checksum": "1220feee7d5f84e8023ff374fcd3013166f23f09fc3c61b01c9020141e3ea9f0e0fa",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, Kenya, 8 May 2018 (FL20180508KEN)."
     }
   }
 }

@@ -253,7 +253,9 @@
       "file:checksum": "12205c72736c101c3bb1613d887b13ad16702e72d1a9eca4da255335db4e05744f1a",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, South Sudan, 19 January 2022 (FL20220119SSD), one GeoParquet file with the source columns."
     },
     "fl20220119ssd-analysis-extent-tiles": {
       "href": "./fl20220119ssd-analysis-extent.pmtiles",
@@ -262,7 +264,9 @@
       "file:checksum": "12207347eeec919688c4625dea7ef8ba3b3e66a77436508eb2c2ee8780607e1ff893",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, South Sudan, 19 January 2022 (FL20220119SSD) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -273,7 +277,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "1220d1b315679ad42c2f46dd786c70108cd3648e64683aba38fd4d20ba02b43541ce"
+      "file:checksum": "1220d1b315679ad42c2f46dd786c70108cd3648e64683aba38fd4d20ba02b43541ce",
+      "description": "MapLibre style for Analysis extent: Flood, South Sudan, 19 January 2022 (FL20220119SSD); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220119ssd-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 15955,
+      "file:checksum": "122047fd50858648f360fee8defa174dd88ca0004292b0e797d8444e922edd6bad10",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, South Sudan, 19 January 2022 (FL20220119SSD)."
     }
   }
 }

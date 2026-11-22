@@ -279,7 +279,9 @@
       "file:checksum": "1220f05726b6eb349b7d726df571e6a6cf421651cb8180b4427b0980c72ea766f4ae",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO), one GeoParquet file with the source columns."
     },
     "tc20250722lao-water-extent-tiles": {
       "href": "./tc20250722lao-water-extent.pmtiles",
@@ -288,7 +290,9 @@
       "file:checksum": "122084a00f2bed1a099b7db97b716284afabfb446ed846c1bd0510d088bee227ab27",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -299,7 +303,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 887,
-      "file:checksum": "122048d33edbe9cc69760b2de0479d0d2131282478c4e905d2075e661bba9980f2eb"
+      "file:checksum": "122048d33edbe9cc69760b2de0479d0d2131282478c4e905d2075e661bba9980f2eb",
+      "description": "MapLibre style for Water extent: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./tc20250722lao-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 26730,
+      "file:checksum": "1220e1eb2375c70fbdad1ab5d690145e19c02953d4458b2eb2b22eeb6a9527e893ec",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Tropical cyclone, Lao People's Democratic Republic, 22 July 2025 (TC20250722LAO)."
     }
   }
 }

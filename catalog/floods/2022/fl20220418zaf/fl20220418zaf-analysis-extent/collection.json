@@ -271,7 +271,9 @@
       "file:checksum": "1220d62e1ba453350b8b8f17266e63ee856f219f5ac693efd7326f1e15aa8d99cdea",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Analysis extent: Flood, South Africa, 18 April 2022 (FL20220418ZAF), one GeoParquet file with the source columns."
     },
     "fl20220418zaf-analysis-extent-tiles": {
       "href": "./fl20220418zaf-analysis-extent.pmtiles",
@@ -280,7 +282,9 @@
       "file:checksum": "122080eadae5554665c9dca8f5becdcc36202995959b31de1ebddede8633641fb663",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Analysis extent: Flood, South Africa, 18 April 2022 (FL20220418ZAF) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -291,7 +295,19 @@
       ],
       "title": "Analysis extent",
       "file:size": 671,
-      "file:checksum": "122000487b59ae2aadb52b5b17c7e7ff65f1b144c86f8785fa55de6cb223b834301f"
+      "file:checksum": "122000487b59ae2aadb52b5b17c7e7ff65f1b144c86f8785fa55de6cb223b834301f",
+      "description": "MapLibre style for Analysis extent: Flood, South Africa, 18 April 2022 (FL20220418ZAF); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220418zaf-analysis-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 9439,
+      "file:checksum": "122055f08c4cb8edf2f0798249071eee11a7e63d50418f265692b164087701f0ccb5",
+      "title": "Thumbnail",
+      "description": "Preview image of Analysis extent: Flood, South Africa, 18 April 2022 (FL20220418ZAF)."
     }
   }
 }

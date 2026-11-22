@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191118cod/fl20191118cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2019/fl20191118cod/fl20191118cod-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Democratic Republic of the Congo, 18 November 2019 (FL20191118COD): 5 features merged from 5 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -54,6 +54,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20191118cod-analysis-extent.parquet | 6.4 KB | 122047df2dde... |
 | ./fl20191118cod-analysis-extent.pmtiles | 65.4 KB | 12204973a2f4... |
 | ./styles/default.json | 671 B | 12209aed8f7a... |
+| ./fl20191118cod-analysis-extent.thumb.jpg | 3.1 KB | 12207479380c... |
 
 ## Quick Start
 

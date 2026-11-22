@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Gambia, 1 August 2022 (FL20220801GMB)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220801gmb/fl20220801gmb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20220801gmb/fl20220801gmb-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Gambia, 1 August 2022 (FL20220801GMB): 4 features merged from 4 source layers. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -55,6 +55,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20220801gmb-analysis-extent.parquet | 835.6 KB | 12207186842c... |
 | ./fl20220801gmb-analysis-extent.pmtiles | 394.9 KB | 122061e65dfd... |
 | ./styles/default.json | 671 B | 12207dc6f0a7... |
+| ./fl20220801gmb-analysis-extent.thumb.jpg | 32.1 KB | 1220afc78ee3... |
 
 ## Quick Start
 

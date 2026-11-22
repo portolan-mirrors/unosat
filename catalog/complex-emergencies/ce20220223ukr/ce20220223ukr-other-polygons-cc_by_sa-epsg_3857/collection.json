@@ -181,7 +181,9 @@
       "proj:code": "EPSG:3857",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR), one GeoParquet file with the source columns."
     },
     "ce20220223ukr-other-polygons-cc_by_sa-epsg_3857-tiles": {
       "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_3857.pmtiles",
@@ -190,7 +192,9 @@
       "file:checksum": "12203c8675872a0cb7fc84e357137832f3a3573edd2e53b3e4edadedd80f76975c02",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -201,7 +205,19 @@
       ],
       "title": "Other polygons",
       "file:size": 683,
-      "file:checksum": "1220089d43b013ec5204bd06d289e219108d7616f3b63791c562d838f45a4613638e"
+      "file:checksum": "1220089d43b013ec5204bd06d289e219108d7616f3b63791c562d838f45a4613638e",
+      "description": "MapLibre style for Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./ce20220223ukr-other-polygons-cc_by_sa-epsg_3857.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7255,
+      "file:checksum": "1220596b050fd5ca3ea34f406910c3176880911fafe63c17c8180adf1cf624fded34",
+      "title": "Thumbnail",
+      "description": "Preview image of Other polygons: Complex emergency, Ukraine, 23 February 2022 (CE20220223UKR)."
     }
   }
 }

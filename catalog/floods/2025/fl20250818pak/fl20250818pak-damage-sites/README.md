@@ -1,5 +1,5 @@
 # Damage sites: Flood, Pakistan, 18 August 2025 (FL20250818PAK)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250818pak/fl20250818pak-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2025/fl20250818pak/fl20250818pak-damage-sites/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Damage sites for Flood, Pakistan, 18 August 2025 (FL20250818PAK): 15,444 features merged from 4 source layers. Point layers with a damage class column (such as `Main_Damage_Site_Class`): one point per assessed structure or site. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -59,6 +59,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20250818pak-damage-sites.parquet | 139.3 KB | 1220fbaae673... |
 | ./fl20250818pak-damage-sites.pmtiles | 177.0 KB | 1220a9c6eab1... |
 | ./styles/default.json | 947 B | 12206d4f214b... |
+| ./fl20250818pak-damage-sites.thumb.jpg | 7.8 KB | 1220f184c840... |
 
 ## Quick Start
 

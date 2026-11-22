@@ -1,5 +1,5 @@
 # Analysis extent: Flood, Viet Nam, 14 October 2022 (FL20221014VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221014vnm/fl20221014vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2022/fl20221014vnm/fl20221014vnm-analysis-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Analysis extent for Flood, Viet Nam, 14 October 2022 (FL20221014VNM): 1 features merged from 1 source layer. Layers whose names mark the area UNOSAT analysed, or parts of it with no usable imagery (analysis extent, area of interest, cloud obstruction, no-data, image footprint). The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -49,6 +49,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20221014vnm-analysis-extent.parquet | 304.2 KB | 1220a47178b8... |
 | ./fl20221014vnm-analysis-extent.pmtiles | 428.3 KB | 12209e2be698... |
 | ./styles/default.json | 671 B | 122040304c4f... |
+| ./fl20221014vnm-analysis-extent.thumb.jpg | 8.9 KB | 122083fb1561... |
 
 ## Quick Start
 

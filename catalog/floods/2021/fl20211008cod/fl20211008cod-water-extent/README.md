@@ -1,5 +1,5 @@
 # Water extent: Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211008cod/fl20211008cod-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/floods/2021/fl20211008cod/fl20211008cod-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Flood, Democratic Republic of the Congo, 8 October 2021 (FL20211008COD): 8 features merged from 8 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -61,6 +61,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./fl20211008cod-water-extent.parquet | 4.3 MB | 1220abf9fe08... |
 | ./fl20211008cod-water-extent.pmtiles | 917.6 KB | 122077be0706... |
 | ./styles/default.json | 972 B | 122091dbdf1a... |
+| ./fl20211008cod-water-extent.thumb.jpg | 12.7 KB | 1220af5fa465... |
 
 ## Quick Start
 

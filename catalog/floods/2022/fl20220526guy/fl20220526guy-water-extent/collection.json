@@ -274,7 +274,9 @@
       "file:checksum": "122070c5f4c4a9ba052627a09d910322c0b91c63bbba7c2e60fb9a70c85b6644b0c8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Water extent: Flood, Guyana, 26 May 2022 (FL20220526GUY), one GeoParquet file with the source columns."
     },
     "fl20220526guy-water-extent-tiles": {
       "href": "./fl20220526guy-water-extent.pmtiles",
@@ -283,7 +285,9 @@
       "file:checksum": "12207e825109306aaba2ea07d07923cf2f83e7b060e9e1200e59a36c4265aa60fc1a",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Water extent: Flood, Guyana, 26 May 2022 (FL20220526GUY) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -294,7 +298,19 @@
       ],
       "title": "Water extent by Water_Class",
       "file:size": 1045,
-      "file:checksum": "1220bb3e10391809eefafff560f787bfe9caab7b1757db1e5a0140394a28b8ef7458"
+      "file:checksum": "1220bb3e10391809eefafff560f787bfe9caab7b1757db1e5a0140394a28b8ef7458",
+      "description": "MapLibre style for Water extent: Flood, Guyana, 26 May 2022 (FL20220526GUY); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20220526guy-water-extent.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 21533,
+      "file:checksum": "122009ea2e8c536c3b87b1e7861fdf0385012b1d4e7724d36d740f1bbad86053685d",
+      "title": "Thumbnail",
+      "description": "Preview image of Water extent: Flood, Guyana, 26 May 2022 (FL20220526GUY)."
     }
   }
 }

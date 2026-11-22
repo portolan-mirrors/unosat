@@ -262,7 +262,9 @@
       "file:checksum": "1220677f16cf5114c84ba33552f1e94f51f2348f0103672f11a0388d665d94779fee",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO), one GeoParquet file with the source columns."
     },
     "fl20260831lao-damage-sites-tiles": {
       "href": "./fl20260831lao-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220aa88333d5d1200278639896056a9c2d54ef5869a9a4136ecf10ed15362421acd",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites",
       "file:size": 695,
-      "file:checksum": "12208e963c2c0fbc25fb64b629eb1c01b26f7071e76e8baca04494c417f9b197a8ee"
+      "file:checksum": "12208e963c2c0fbc25fb64b629eb1c01b26f7071e76e8baca04494c417f9b197a8ee",
+      "description": "MapLibre style for Damage sites: Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20260831lao-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 16262,
+      "file:checksum": "12205137f0097cd025993f3ac575cc45beee980230e7103eb3291473a2bc1599540a",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Lao People's Democratic Republic, 31 August 2026 (FL20260831LAO)."
     }
   }
 }

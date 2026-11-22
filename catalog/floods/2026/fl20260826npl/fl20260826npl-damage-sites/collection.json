@@ -262,7 +262,9 @@
       "file:checksum": "1220a68d5f80435c4e7bba65038ebd98ef93eabcd6b8b038fe0b48b235da49176e03",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Damage sites: Flood, Nepal, 26 August 2026 (FL20260826NPL), one GeoParquet file with the source columns."
     },
     "fl20260826npl-damage-sites-tiles": {
       "href": "./fl20260826npl-damage-sites.pmtiles",
@@ -271,7 +273,9 @@
       "file:checksum": "1220ad45c8ba4b088fa32e7e4fbc0bbdac49978a347486f86307678fcaab0d064809",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Damage sites: Flood, Nepal, 26 August 2026 (FL20260826NPL) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -282,7 +286,19 @@
       ],
       "title": "Damage sites by Main_Damage_Site_Class",
       "file:size": 947,
-      "file:checksum": "1220977a89b25c9e364bc2448168218f0d4682d01c869198492a368c94f8faa5447f"
+      "file:checksum": "1220977a89b25c9e364bc2448168218f0d4682d01c869198492a368c94f8faa5447f",
+      "description": "MapLibre style for Damage sites: Flood, Nepal, 26 August 2026 (FL20260826NPL); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./fl20260826npl-damage-sites.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 7041,
+      "file:checksum": "1220ce68fb9f140a493d82df0fe616fac38910f7d89d16addbb33a34fd367ae8efc1",
+      "title": "Thumbnail",
+      "description": "Preview image of Damage sites: Flood, Nepal, 26 August 2026 (FL20260826NPL)."
     }
   }
 }

@@ -254,7 +254,9 @@
       "file:checksum": "122013e48182facf5db598da34c9a869d72f2c016850d15b6037ccafd0711f8fe1b8",
       "roles": [
         "data"
-      ]
+      ],
+      "title": "GeoParquet",
+      "description": "All features of Other lines: Earthquake, Thailand, 28 March 2025 (EQ20250328THA), one GeoParquet file with the source columns."
     },
     "eq20250328tha-other-lines-tiles": {
       "href": "./eq20250328tha-other-lines.pmtiles",
@@ -263,7 +265,9 @@
       "file:checksum": "1220bdb85ccff035272e13f069e250989b7e5ab50fcade55aebc6b6e321fc771fb54",
       "roles": [
         "visual"
-      ]
+      ],
+      "title": "Vector tiles (PMTiles)",
+      "description": "Vector tiles of Other lines: Earthquake, Thailand, 28 March 2025 (EQ20250328THA) for web maps; not the full data."
     },
     "styles/default": {
       "href": "./styles/default.json",
@@ -274,7 +278,19 @@
       ],
       "title": "Other lines",
       "file:size": 401,
-      "file:checksum": "12206b5a756edbe748c8b6ced25c27f7f644bc835c05e0472e05c44c0a9f95045ce5"
+      "file:checksum": "12206b5a756edbe748c8b6ced25c27f7f644bc835c05e0472e05c44c0a9f95045ce5",
+      "description": "MapLibre style for Other lines: Earthquake, Thailand, 28 March 2025 (EQ20250328THA); it reads the PMTiles asset."
+    },
+    "thumbnail": {
+      "href": "./eq20250328tha-other-lines.thumb.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 4805,
+      "file:checksum": "1220c62be9cbb8ee0bfa69060cfe338c1c2aa882a93891683d5a3af19c263951ae77",
+      "title": "Thumbnail",
+      "description": "Preview image of Other lines: Earthquake, Thailand, 28 March 2025 (EQ20250328THA)."
     }
   }
 }

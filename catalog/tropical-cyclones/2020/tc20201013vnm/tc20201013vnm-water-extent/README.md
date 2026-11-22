@@ -1,5 +1,5 @@
 # Water extent: Tropical cyclone, Viet Nam, 13 October 2020 (TC20201013VNM)
-<!-- nav -->[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201013vnm/tc20201013vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat)
+[Open in data browser](https://browser.portolan-sdi.org/#/external/data.source.coop/portolan-mirrors/unosat/tropical-cyclones/2020/tc20201013vnm/tc20201013vnm-water-extent/collection.json) · [Source repository](https://github.com/portolan-mirrors/unosat) · [Report a problem](https://github.com/portolan-mirrors/unosat/issues) · [Hosting repository](https://source.coop/portolan-mirrors/unosat) <!-- nav -->
 
 Water extent for Tropical cyclone, Viet Nam, 13 October 2020 (TC20201013VNM): 33 features merged from 30 source layers. Polygon layers with a water class column (such as `Water_Class`), or whose names mention flood, water, or inundation: satellite-detected water. The `source_layer` and `source_file` columns name the layer and file each row came from.
 
@@ -70,6 +70,7 @@ Read [AGENTS.md](AGENTS.md) for the columns and query recipes.
 | ./tc20201013vnm-water-extent.parquet | 299.2 MB | 1220e14f904d... |
 | ./tc20201013vnm-water-extent.pmtiles | 28.6 MB | 1220267b9ae1... |
 | ./styles/default.json | 972 B | 12205046aa8d... |
+| ./tc20201013vnm-water-extent.thumb.jpg | 17.6 KB | 1220428e6cd7... |
 
 ## Quick Start
 

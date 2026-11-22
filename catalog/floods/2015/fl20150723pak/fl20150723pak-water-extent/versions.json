@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -28,6 +28,39 @@
         "fl20150723pak-water-extent.parquet",
         "fl20150723pak-water-extent.pmtiles"
       ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-22T10:33:40.160062Z",
+      "breaking": false,
+      "assets": {
+        "fl20150723pak-water-extent.parquet": {
+          "sha256": "287fb420944b2924deb96631792df03f2a36bc3f92abe97f9b0e7979a8e02634",
+          "size_bytes": 43252104,
+          "href": "floods/2015/fl20150723pak/fl20150723pak-water-extent/fl20150723pak-water-extent.parquet",
+          "source_path": "fl20150723pak-water-extent.parquet",
+          "source_mtime": 1795333264.6895068,
+          "mtime": 1795333264.6895068,
+          "feature_count": 140365,
+          "schema_fingerprint": "372745105e7a9657"
+        },
+        "fl20150723pak-water-extent.pmtiles": {
+          "sha256": "76decb0b116fd4b54e8e66a910489150602ae74ff996acde1811575981c64b1a",
+          "size_bytes": 55516798,
+          "href": "floods/2015/fl20150723pak/fl20150723pak-water-extent/fl20150723pak-water-extent.pmtiles",
+          "mtime": 1795334080.2007244
+        },
+        "fl20150723pak-water-extent.thumb.jpg": {
+          "sha256": "6a58dc16fddeb5623230ce29a4df573ac0a260d9bb7fb9a123f82c3e08b65c7b",
+          "size_bytes": 12619,
+          "href": "floods/2015/fl20150723pak/fl20150723pak-water-extent/fl20150723pak-water-extent.thumb.jpg",
+          "mtime": 1795343620.0589786
+        }
+      },
+      "changes": [
+        "fl20150723pak-water-extent.thumb.jpg"
+      ],
+      "message": "Generated thumbnail: fl20150723pak-water-extent.thumb.jpg"
     }
   ]
 }
