@@ -1,0 +1,59 @@
+{
+  "version": 8,
+  "name": "Water extent by water class",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../water-extent.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-fill",
+      "type": "fill",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "to-string",
+            [
+              "get",
+              "water_class"
+            ]
+          ],
+          "Flood Water",
+          "#08519c",
+          "Satellite Detected Water",
+          "#3182bd",
+          "Possible Saturated, wet Soil/ possible Flood Water",
+          "#6baed6",
+          "Satellite Detected Water / Possible Saturated Soil",
+          "#9ecae1",
+          "Maximum Satellite Observed Water (Cumulative)",
+          "#2171b5",
+          "Preflood Water",
+          "#c6dbef",
+          "Flood-Affected Land / Possible Flood water",
+          "#4292c6",
+          "Archive Water Extent / Pre-Flood Water",
+          "#deebf7",
+          "#bdbdbd"
+        ],
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "water-extent",
+      "id": "water-extent-outline",
+      "type": "line",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

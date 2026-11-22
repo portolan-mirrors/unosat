@@ -71,6 +71,11 @@ and `source_file` name the original layer and HDX file.
   code lists exist, so the code alone is ambiguous.
 - Class labels are not normalized: "Possible damage" and "Possible Damage" are
   separate values.
+- Many "affected roads" line layers (for example `PL_20240501_AffectedRoad_*`
+  in Kenya, `*_AffectedRoads_*` in Myanmar and Cabo Verde) also hold a block
+  of template features near 29.8°E, 9.3°N in South Sudan, far from the event.
+  Drop them by bbox before you map or measure:
+  `WHERE NOT (bbox.xmin BETWEEN 29.6 AND 30.4 AND bbox.ymin BETWEEN 9.0 AND 9.5)`.
 - Geometry is as published and not repaired. Use `ST_MakeValid` before
   overlay operations.
 - Most collections are EPSG:4326. A collection whose id ends in a CRS suffix

@@ -13,20 +13,86 @@
       "source-layer": "other-mixed",
       "id": "other-mixed-fill",
       "type": "fill",
+      "filter": [
+        "in",
+        [
+          "geometry-type"
+        ],
+        [
+          "literal",
+          [
+            "Polygon",
+            "MultiPolygon"
+          ]
+        ]
+      ],
       "paint": {
         "fill-color": "#555555",
-        "fill-opacity": 0.7
+        "fill-opacity": 0.6
       }
     },
     {
       "source": "data",
       "source-layer": "other-mixed",
-      "id": "other-mixed-outline",
+      "id": "other-mixed-lines",
       "type": "line",
+      "filter": [
+        "in",
+        [
+          "geometry-type"
+        ],
+        [
+          "literal",
+          [
+            "LineString",
+            "MultiLineString",
+            "Polygon",
+            "MultiPolygon"
+          ]
+        ]
+      ],
       "paint": {
         "line-color": "#555555",
-        "line-width": 0.5,
-        "line-opacity": 0.6
+        "line-width": 1.5
+      }
+    },
+    {
+      "source": "data",
+      "source-layer": "other-mixed",
+      "id": "other-mixed-points",
+      "type": "circle",
+      "filter": [
+        "in",
+        [
+          "geometry-type"
+        ],
+        [
+          "literal",
+          [
+            "Point",
+            "MultiPoint"
+          ]
+        ]
+      ],
+      "paint": {
+        "circle-color": "#555555",
+        "circle-radius": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          4,
+          2,
+          12,
+          4,
+          16,
+          7
+        ],
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 0.5
       }
     }
   ]

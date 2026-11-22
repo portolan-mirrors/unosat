@@ -39,7 +39,7 @@ KNOWN = {
     "Flood-Affected Land / Possible Flood water": "#6baed6", "Maximum Flood Water Extent (Cumulative)": "#2171b5",
 }
 PALETTE = ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d", "#666666"]
-BASE = {"water-extent": "#2171b5", "analysis-extent": "#636363", "damage-sites": "#d7301f",
+BASE = {"water-extent": "#2171b5", "analysis-extent": "#e6550d", "damage-sites": "#d7301f",
         "damage-areas": "#d7301f", "affected-structures": "#ae017e", "shelters": "#238b45",
         "shelter-areas": "#238b45", "landslides": "#8c510a"}
 
@@ -69,7 +69,7 @@ def style(info):
     parquet = coll / f"{cid}.parquet"
     col, rows = choose(parquet, fam)
     geom = "points" if fam in ("damage-sites", "affected-structures", "shelters") or fam.endswith("-points") else \
-        "lines" if fam.endswith("-lines") else "polygons"
+        "lines" if fam.endswith("-lines") else "mixed" if fam.endswith("-mixed") else "polygons"
     base = BASE.get(fam, "#555555")
     color = base
     shown = []
@@ -87,16 +87,31 @@ def style(info):
     src = {"type": "vector", "url": f"pmtiles://../{cid}.pmtiles"}
     layer = {"source": "data", "source-layer": fam}
     if geom == "polygons":
-        opacity = 0.15 if fam == "analysis-extent" else 0.7
+        opacity = 0.12 if fam == "analysis-extent" else 0.7
+        # An analysis extent is a frame around the other layers: a light fill
+        # and a strong outline, so it reads at card size and on the map.
+        ext = fam == "analysis-extent"
         layers = [{**layer, "id": f"{fam}-fill", "type": "fill", "paint": {"fill-color": color, "fill-opacity": opacity}},
                   {**layer, "id": f"{fam}-outline", "type": "line",
-                   "paint": {"line-color": base if not col else "#333333", "line-width": 0.5, "line-opacity": 0.6}}]
+                   "paint": {"line-color": base if (ext or not col) else "#333333",
+                             "line-width": 2 if ext else 0.5, "line-opacity": 0.9 if ext else 0.6}}]
     elif geom == "points":
         layers = [{**layer, "id": f"{fam}-points", "type": "circle",
-                   "paint": {"circle-color": color, "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 1.5, 12, 3, 16, 6],
-                             "circle-stroke-color": "#ffffff", "circle-stroke-width": 0.3}}]
+                   "paint": {"circle-color": color, "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 3, 10, 4, 14, 5.5, 16, 7],
+                             "circle-stroke-color": "#333333", "circle-stroke-width": 0.6}}]
+    elif geom == "mixed":
+        # One layer per geometry type, so points and polygons both draw.
+        def gt(*t):
+            return ["in", ["geometry-type"], ["literal", list(t)]]
+        layers = [{**layer, "id": f"{fam}-fill", "type": "fill", "filter": gt("Polygon", "MultiPolygon"),
+                   "paint": {"fill-color": color, "fill-opacity": 0.6}},
+                  {**layer, "id": f"{fam}-lines", "type": "line", "filter": gt("LineString", "MultiLineString", "Polygon", "MultiPolygon"),
+                   "paint": {"line-color": color, "line-width": 1.5}},
+                  {**layer, "id": f"{fam}-points", "type": "circle", "filter": gt("Point", "MultiPoint"),
+                   "paint": {"circle-color": color, "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 2, 12, 4, 16, 7],
+                             "circle-stroke-color": "#ffffff", "circle-stroke-width": 0.5}}]
     else:
-        layers = [{**layer, "id": f"{fam}-lines", "type": "line", "paint": {"line-color": color, "line-width": 1.5}}]
+        layers = [{**layer, "id": f"{fam}-lines", "type": "line", "paint": {"line-color": color, "line-width": 2.5}}]
     name = f"{fam.replace('-', ' ').capitalize()}" + (f" by {col.removesuffix('_label')}" if col else "")
     doc = {"version": 8, "name": name, "sources": {"data": src}, "layers": layers}
     (coll / "styles").mkdir(exist_ok=True)
