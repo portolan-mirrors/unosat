@@ -98,6 +98,7 @@ if [[ -z "$EVENTS" ]]; then
   step "combined collections"
   python3 -I tools/combine.py
   bash tools/tile_combined.sh
+  python3 -I tools/combined_styles.py
 fi
 
 step "metadata.yaml"
