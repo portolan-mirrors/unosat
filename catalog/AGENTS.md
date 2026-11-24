@@ -43,6 +43,7 @@ fetches only the row groups that can match:
 
 ```sql
 INSTALL spatial; LOAD spatial;
+SET geometry_always_xy = true;
 SELECT event, water_class, sensor_date, ST_Area_Spheroid(geometry) / 1e6 AS km2
 FROM read_parquet('https://data.source.coop/portolan-mirrors/unosat/combined/water-extent/water-extent.parquet')
 WHERE bbox.xmin < 91.5 AND bbox.xmax > 89.5 AND bbox.ymin < 25 AND bbox.ymax > 23
