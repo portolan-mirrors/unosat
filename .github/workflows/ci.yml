@@ -43,7 +43,8 @@ jobs:
         working-directory: catalog
         run: portolan metadata validate
 
-      # CI_LIGHT exempts asset hrefs with a data suffix from the link check.
+      # CI_LIGHT exempts hrefs with a data suffix from the link check. This
+      # includes asset hrefs and links such as rel:pmtiles.
       # The checkout holds the metadata and not the bytes: GeoParquet and
       # PMTiles are gitignored. Structural links still resolve.
       - name: Catalog gates
